@@ -1,0 +1,33 @@
+@Edict1Cost = 10
+@Edict2Cost = 20
+@Edict3Cost = 30
+@EdictSpecialCost = 1
+@EdictPerpetual = -1
+fortify_the_border = {
+	length = @EdictPerpetual
+	icon = "GFX_edict_type_policy"
+
+	resources = {
+		category = edicts
+		upkeep = {
+			unity = @Edict1Cost
+			multiplier = value:edict_size_effect
+		}
+	}
+
+	modifier = {
+		starbase_upgrade_speed_mult = 0.50
+		country_starbase_capacity_add = 2
+	}
+	effect = {
+			set_country_flag = is_friend_of_@root
+	}
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0
+			NOT = { has_country_flag = has_encountered_other_empire }
+		}
+	}
+}
