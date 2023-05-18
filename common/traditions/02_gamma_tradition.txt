@@ -1,53 +1,7 @@
-tr_expansion_colonization_fever = {
+tr_discovery_adopt = {
+	custom_tooltip = tr_discovery_adopt_desc
 	modifier = {
-		colony_start_num_pops_add = 1
-	}
-
-	tradition_swap = {
-		name = tr_expansion_colonization_fever_machine
-		inherit_effects = yes
-		inherit_icon = yes
-		trigger = {
-			is_machine_empire = yes
-		}
-
-		weight = {
-			factor = 1
-		}
-	}
-
-	tradition_swap = {
-		name = tr_expansion_colonization_fever_hive
-		inherit_effects = yes
-		inherit_icon = yes
-		trigger = {
-			is_hive_empire = yes
-		}
-
-		weight = {
-			factor = 1
-		}
-	}
-
-	ai_weight = {
-		factor = 1000
-	}
-
-	# frameworld
-	tradition_swap = {
-		name = tr_expansion_colonization_fever_giga_frameworld
-		inherit_effects = no
-		inherit_icon = yes
-		trigger = {
-			has_origin = origin_frameworld
-		}
-		modifier = {
-			colony_start_num_pops_add = 1 # we need this and inherits_effects = no to override the tooltip but keep the actual effect
-		}
-
-		weight = {
-			factor = 2 # should override default swaps
-		}
+		ship_anomaly_research_speed_mult = 0.20
 	}
 	
 	tradition_swap = {
@@ -56,7 +10,7 @@ tr_expansion_colonization_fever = {
 		inherit_name = yes
 		trigger = {
 			is_ai = no
-			has_country_flag = is_friend_of_0
+			has_country_flag = is_general_of_0
 		}
 		modifier = {
 			colony_start_num_pops_add = 1
@@ -94,7 +48,7 @@ tr_expansion_colonization_fever = {
 			weapon_archaeotech_weapon_fire_rate_mult = 0.5
 			weapon_archaeotech_speed_mult = 1
 		}
-		custom_tooltip = tr_expansion_colonization_fever_desc
+		custom_tooltip = tr_discovery_adopt_desc
 		weight = {
 			factor = 3
 		}
