@@ -1,0 +1,9 @@
+NGameplay = {
+	COMMAND_LIMIT_MAX					= 2000		# Max value of Command Limit
+	NAVAL_CAPACITY_MAX					= 100000		# Max value of Naval Capacity
+}
+NPop = {
+	MAX_CARRYING_CAPACITY				= 5000		# Logistic Carrying Capacity Cap (so modders have access to this value in case they make a planet with infinite districts or something like that)
+	REQUIRED_POP_GROWTH					= 200		# Required growth to make a new pop
+	REQUIRED_POP_ASSEMBLY				= 250		# Required assembly to add a pop
+}
