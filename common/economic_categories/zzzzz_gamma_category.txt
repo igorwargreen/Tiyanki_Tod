@@ -1,0 +1,12 @@
+megastructures = {
+	use_for_ai_budget = yes
+	parent = country
+	modifier_category = megastructure
+	ai_use_parent_for_resources_upkeep = {
+		energy
+		consumer_goods
+	}
+
+	generate_mult_modifiers = { cost produces upkeep }
+    generate_add_modifiers 	= { cost produces upkeep }
+}
