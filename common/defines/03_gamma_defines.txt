@@ -1,6 +1,7 @@
 NGameplay = {
 	COMMAND_LIMIT_MAX					= 2000		# Max value of Command Limit
 	NAVAL_CAPACITY_MAX					= 100000		# Max value of Naval Capacity
+	TRADITION_COST_TRADITION_EXP			= 1.650	# change this value if you want to increase costs at the end
 }
 NPop = {
 	MAX_CARRYING_CAPACITY				= 5000		# Logistic Carrying Capacity Cap (so modders have access to this value in case they make a planet with infinite districts or something like that)
