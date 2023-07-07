@@ -1,7 +1,0 @@
-font = {
-	name = "OrbitronCYR"
-	fontstyle = {
-		style = regular
-		file = "gfx/fonts/OrbitronCYR.txt"
-		}
-	}
