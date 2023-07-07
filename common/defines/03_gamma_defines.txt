@@ -2,6 +2,15 @@ NGameplay = {
 	COMMAND_LIMIT_MAX					= 2000		# Max value of Command Limit
 	NAVAL_CAPACITY_MAX					= 100000		# Max value of Naval Capacity
 	TRADITION_COST_TRADITION_EXP			= 1.650	# change this value if you want to increase costs at the end
+	LEADER_MAX_SKILL_CAP	= 15
+	LEADER_AGE_HEIR_MIN		= 18				# Min age of generated heirs in dynastic governments
+	LEADER_AGE_HEIR_MAX		= 21				# Max age of generated heirs in dynastic governments
+	LEADER_AGE_MIN			= 21				# Min age of generated leaders
+	LEADER_AGE_MAX			= 30				# Max age of generated leaders
+	LEADER_EXPERIENCE_REQUIREMENT_BASE_VALUE					= 200 # Base value when calculating required experience for next skill level
+	LEADER_EXPERIENCE_REQUIREMENT_SCALE_VALUE					= 155 # Scale factor when calculating required experience for next skill level
+	LEADER_GENERAL_GROUND_COMBAT_EXPERIENCE_SCALE				= 5 # Scale factor used when calculating experience gain for General
+	LEADER_GENERAL_GROUND_COMBAT_ARMIES_KILLED_CONVERSION		= 0.5 # Scale factor for total number of armies killed after combat when calculating experience gain for General
 }
 NPop = {
 	MAX_CARRYING_CAPACITY				= 5000		# Logistic Carrying Capacity Cap (so modders have access to this value in case they make a planet with infinite districts or something like that)

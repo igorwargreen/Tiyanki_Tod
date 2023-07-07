@@ -1,0 +1,58 @@
+# Выравниваю по центру название трейта...
+# И расширяю его слегка
+
+guiTypes = {
+	### SUBCLASS ENTRY (inside subclass_selection_gridbox) ###
+
+	containerWindowType = { 
+		name = "subclass_selection_entry"
+		position = { x = 0 y = 0 }
+		size = { width = 158 height = 256 }
+		clipping = yes
+
+		iconType = {
+			name = "subclass_background"
+			position = { x = 4 y = 4 }
+			quadTextureSprite = "GFX_leader_bg_admiral"
+			alwaystransparent = yes
+		}
+
+		containerWindowType = {
+			name = "trait_layered_icon_locator"
+			position = { x = 63 y = 80 }
+		}
+
+		buttonType = {
+			name = "assign_trait_button"
+			position = { x = 3 y = 3 }
+			size = { x = 152 y = 250 }
+			spriteType = "GFX_tiling_button_standard_seethrough"
+			oversound = "no_sound"
+			clicksound = "select_click"
+		}
+
+		containerWindowType = {
+			name = "selected_overlay"
+			position = { x = 3 y = 3 }
+			size = { width = 152 height = 250 }
+
+			background = {
+				name = "selected_bg"
+				spriteType = "GFX_tiling_selection_dimmed_down"
+				alwaysTransparent = yes
+			}
+		}
+
+		instantTextBoxType = {
+			name = "trait_name"
+			font = "malgun_goth_24"
+			text = "TRAIT_NAME"
+			position = { x = 2 y = 180 }
+			maxWidth = 150
+			maxHeight = 40
+			format = center
+			vertical_alignment = center
+			alwaysTransparent = yes
+		}
+	}
+}
