@@ -257,3 +257,40 @@ tr_domination_judgment_corps = {
 		factor = 10
 	}
 }
+tr_adaptability_recycling = {
+	custom_tooltip = tr_adaptability_recycling_desc
+	modifier = {
+		planet_structures_volatile_motes_upkeep_mult = -0.25
+		planet_structures_exotic_gases_upkeep_mult = -0.25
+		planet_structures_rare_crystals_upkeep_mult = -0.25
+		planet_structures_volatile_motes_cost_mult = -0.25
+		planet_structures_exotic_gases_cost_mult = -0.25
+		planet_structures_rare_crystals_cost_mult = -0.25
+	}
+
+	ai_weight = {
+		factor = 10000
+	}
+}
+tr_adaptability_environmental_diversification = {
+	modifier = {
+		pop_environment_tolerance = 0.20
+	}
+
+	ai_weight = {
+		factor = 5000
+	}
+}
+tr_adaptability_adaptive_ecology = {
+	possible = {
+		has_tradition = tr_adaptability_environmental_diversification
+	}
+
+	modifier = {
+		planet_max_buildings_add = 2
+	}
+
+	ai_weight = {
+		factor = 5000
+	}
+}

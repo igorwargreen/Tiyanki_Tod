@@ -11,9 +11,22 @@ NGameplay = {
 	LEADER_EXPERIENCE_REQUIREMENT_SCALE_VALUE					= 155 # Scale factor when calculating required experience for next skill level
 	LEADER_GENERAL_GROUND_COMBAT_EXPERIENCE_SCALE				= 5 # Scale factor used when calculating experience gain for General
 	LEADER_GENERAL_GROUND_COMBAT_ARMIES_KILLED_CONVERSION		= 0.5 # Scale factor for total number of armies killed after combat when calculating experience gain for General
+	EMPIRE_SIZE_FROM_DISTRICTS				= 0	# Per district
+	EMPIRE_SIZE_FROM_SYSTEMS				= 0		# Per system
+	EMPIRE_SIZE_FROM_COLONIES				= 20	# Per planet
+	EMPIRE_SIZE_FROM_BRANCH_OFFICES			= 0		# Per branch office
+	EMPIRE_SIZE_FROM_POPS					= 1		# Per pop
 }
 NPop = {
 	MAX_CARRYING_CAPACITY				= 5000		# Logistic Carrying Capacity Cap (so modders have access to this value in case they make a planet with infinite districts or something like that)
 	REQUIRED_POP_GROWTH					= 100		# Required growth to make a new pop
 	REQUIRED_POP_ASSEMBLY				= 165		# Required assembly to add a pop
+}
+NEconomy = {
+	EXPANSION_COST_BASE					= 60.0		# The influence base cost of outpost
+	CLAIM_COST_BASE						= 10.0		# The influence base cost of making claims
+	CLAIM_COST_STARBASE					= 25.0		# Added cost for upgraded starbase
+	CLAIM_COST_COLONY					= 150.0		# Added cost for colonized system
+	CLAIM_COST_DISTANCE					= 0		# Added per hyperlane jump away
+	CLAIM_COST_MULT_OFFENSIVE_WAR		= 100		# Claims are ( 1 + this ) much more expensive to add for attackers in war
 }
