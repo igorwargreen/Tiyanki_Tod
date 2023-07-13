@@ -1,0 +1,4 @@
+# PLANET VARIABLES
+@habitable_planet_max_size = 27
+@habitable_planet_min_size = 20
+@habitable_spawn_odds = 0.75
