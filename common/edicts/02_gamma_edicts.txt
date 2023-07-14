@@ -221,3 +221,27 @@ terraforming_gas = {
 		}
 	}
 }
+build_speed_boost = {
+	length = @EdictDuration
+	icon = "GFX_edict_type_time"
+	resources = {
+		category = rare_edicts
+		upkeep = {
+			alloys = 8
+			multiplier = value:edict_size_effect
+		}
+		upkeep = {
+			energy = 40
+			multiplier = value:edict_size_effect
+		}
+	}
+	modifier = {
+		planet_building_build_speed_mult = 2
+	}
+	prerequisites = {
+		"tech_assembly_pattern"
+	}
+	potential = {
+		is_ai = no
+	}
+}

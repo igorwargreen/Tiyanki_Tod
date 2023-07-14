@@ -51,8 +51,8 @@ tr_discovery_adopt = {
 			planet_structures_volatile_motes_upkeep_mult = -0.25
 			planet_structures_exotic_gases_upkeep_mult = -0.25
 			planet_structures_rare_crystals_upkeep_mult = -0.25
-			leader_trait_selection_options_add = 1
-			negative_traits_country = -1
+			ship_orbital_bombardment_mult = 1
+			pop_purge_speed = 2
 		}
 		custom_tooltip = tr_discovery_adopt_desc
 		weight = {
