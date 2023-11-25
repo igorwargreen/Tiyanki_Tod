@@ -1,0 +1,481 @@
+healthcare = {
+	category = specialist
+	condition_string = SPECIALIST_JOB_TRIGGER
+	building_icon = building_clinic
+	clothes_texture_index = 3
+
+	possible_pre_triggers = {
+		has_owner = yes
+		is_being_purged = no
+		is_being_assimilated = no
+		is_sapient = yes
+	}
+
+	possible_precalc = can_fill_specialist_job
+
+	planet_modifier = {
+		pop_growth_speed = 0.15
+		planet_pop_assembly_organic_mult = 0.1
+		pop_environment_tolerance = 0.045
+	}
+
+	resources = {
+		category = planet_doctors
+		upkeep = {
+			consumer_goods = 2
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				NOT = { has_valid_civic = civic_dystopian_society }
+			}
+		}
+		planet_amenities_add = 5
+		mult = value:scripted_modifier_mult|MODIFIER|pop_job_amenities_mult|
+	}
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { has_valid_civic = civic_private_healthcare_corporate }
+		}
+		planet_amenities_add = 2
+		mult = value:scripted_modifier_mult|MODIFIER|pop_job_amenities_mult|
+	}
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { has_valid_civic = civic_private_healthcare_corporate }
+		}
+		trade_value_add = 4
+		mult = value:scripted_modifier_mult|MODIFIER|pop_job_trade_mult|
+	}
+	triggered_planet_modifier = {
+		potential = {
+			planet = { has_planet_flag = has_private_clinics }
+		}
+		planet_amenities_add = 1
+		mult = value:scripted_modifier_mult|MODIFIER|pop_job_amenities_mult|
+	}
+	triggered_planet_modifier = {
+		potential = {
+			planet = { has_planet_flag = has_private_clinics }
+		}
+		trade_value_add = 2
+		mult = value:scripted_modifier_mult|MODIFIER|pop_job_trade_mult|
+	}
+
+
+	weight = {
+		weight = @high_prio_specialist_job_weight
+		mult = value:scripted_modifier_job_weight_mult|MODIFIER|pop_job_amenities_mult|
+		modifier = {
+			factor = 0.2
+			has_citizenship_rights = no
+			NOT = { has_trait = trait_mechanical }
+		}
+		modifier = {
+			factor = 0.1
+			can_take_servant_job = yes
+		}
+		modifier = {
+			factor = 1.5
+			has_job = healthcare
+		}
+		modifier = {
+			factor = 0.5
+			is_enslaved = yes
+			has_slavery_type = { type = slavery_indentured }
+		}
+		modifier = {
+			factor = 10
+			NOT = { has_job = healthcare }
+			planet = {
+				free_amenities < 0
+				has_available_jobs = healthcare
+			}
+		}
+	}
+}
+pearl_diver = {
+	category = specialist
+	condition_string = SPECIALIST_JOB_TRIGGER
+	building_icon = building_food_processing_facility
+	clothes_texture_index = 2
+
+	possible_pre_triggers = {
+		has_owner = yes
+		is_being_purged = no
+		is_being_assimilated = no
+		is_sapient = yes
+	}
+
+	possible_precalc = can_fill_specialist_job
+	possible = {
+		hidden_trigger = { exists = owner }
+		owner = {
+			is_gestalt = no
+			is_anglers_empire = yes
+		}
+	}
+
+	resources = {
+		category = planet_artisans
+		produces = {
+			consumer_goods = 5
+		}
+		produces = {
+			trigger = {
+				has_councilor = { COUNCILOR = "councilor_anglers" }
+			}
+
+			consumer_goods = @councilor_anglers_pearl_diver_consumer_goods_bonus
+			mult = value:councilor_level|TYPE|councilor_anglers|
+		}
+		upkeep = {
+			food = 5
+		}
+
+		produces = {
+			trigger = {
+				planet = {
+					has_planet_flag = has_produce_requisitorium
+					exists = owner.overlord
+					owner.overlord = { is_gestalt = no }
+				}
+			}
+			consumer_goods = @requisitorium_consumer_goods_reduction
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			has_councilor = { COUNCILOR = "councilor_corporate_anglers" }
+		}
+
+		trade_value_add = @councilor_corporate_anglers_pearl_diver_trade_value_bonus
+		mult = value:scripted_modifier_councilor_level_mult|MODIFIER|pop_job_trade_mult|TYPE|councilor_corporate_anglers|
+	}
+
+	overlord_resources = {
+		category = planet_requisitioned_consumer_goods
+		produces = {
+			trigger = {
+				planet = {
+					has_planet_flag = has_produce_requisitorium
+					exists = owner.overlord
+					owner.overlord = { is_gestalt = no }
+				}
+			}
+			consumer_goods = @requisitorium_consumer_goods_overlord
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			always = yes
+		}
+		trade_value_add = 3
+		mult = value:scripted_modifier_mult|MODIFIER|pop_job_trade_mult|
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { has_valid_civic = civic_agrarian_idyll }
+		}
+		planet_amenities_add = 2
+		mult = value:scripted_modifier_mult|MODIFIER|pop_job_amenities_mult|
+	}
+
+	weight = {
+		weight = @worker_job_weight #deliberate
+		mult = value:job_weights_modifier|JOB|pearl_diver|RESOURCE|consumer_goods|FACTOR|0.75|
+		mult = value:scripted_modifier_job_weight_mult|MODIFIER|pop_job_trade_mult|
+		modifier = {
+			factor = 2
+			is_enslaved = yes
+			has_slavery_type = { type = slavery_indentured }
+		}
+		modifier = {
+			factor = 1.1
+			owner = { has_valid_civic = civic_agrarian_idyll }
+		}
+		modifier = {
+			factor = value:scripted_modifier_job_weight_mult|MODIFIER|pop_job_amenities_mult|
+			owner = { has_valid_civic = civic_agrarian_idyll }
+		}
+		modifier = {
+			factor = 0.1
+			can_take_servant_job = yes
+		}
+		modifier = {
+			factor = 0.1
+			NOT = { has_job = pearl_diver }
+			exists = owner
+			owner = {
+				resource_income_compare = {
+					resource = food
+					value < 5
+				}
+			}
+		}
+		modifier = {
+			factor = 5
+			has_job = pearl_diver
+		}
+	}
+}
+priest = {
+	category = specialist
+	condition_string = SPECIALIST_JOB_TRIGGER
+	building_icon = building_temple
+	clothes_texture_index = 3
+
+	possible_pre_triggers = {
+		has_owner = yes
+		is_being_purged = no
+		is_being_assimilated = no
+		is_sapient = yes
+	}
+
+	possible_precalc = can_fill_specialist_job
+	possible = {
+		complex_specialist_job_check_trigger = yes
+	}
+
+	resources = {
+		category = planet_priests
+		produces = {
+			unity = 5
+		}
+		upkeep = {
+			consumer_goods = 3
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			always = yes
+		}
+		planet_amenities_add = 4
+		mult = value:scripted_modifier_mult|MODIFIER|pop_job_amenities_mult|
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			planet = {
+				has_active_building = building_league_offices
+			}
+		}
+		planet_amenities_add = 3
+		mult = value:scripted_modifier_mult|MODIFIER|pop_job_amenities_mult|
+	}
+
+	triggered_country_modifier = {
+		potential = {
+			exists = owner
+			owner = { has_valid_civic = civic_efficient_bureaucracy }
+		}
+		country_edict_fund_add = 6
+		mult = value:job_total_output_modifier|JOB|priest|RESOURCE|unity|
+	}
+
+	weight = {
+		weight = @specialist_job_weight
+		mult = value:job_weights_modifier|JOB|priest|RESOURCE|unity|
+		mult = value:scripted_modifier_job_weight_mult|MODIFIER|pop_job_amenities_mult|
+		modifier = {
+			factor = 0.2
+			has_citizenship_rights = no
+			NOT = { has_trait = trait_mechanical }
+		}
+		modifier = {
+			factor = 2
+			exists = owner
+			owner = { has_civic = civic_exalted_priesthood }
+		}
+		modifier = {
+			factor = 0.1
+			can_take_servant_job = yes
+		}
+		modifier = {
+			factor = 1.5
+			has_job = priest
+		}
+		modifier = {
+			factor = 0.1
+			is_enslaved = yes
+			has_slavery_type = { type = slavery_indentured }
+		}
+	}
+}
+soldier = {
+	category = worker
+	condition_string = SOLDIER_JOB_TRIGGER
+	building_icon = building_stronghold
+	clothes_texture_index = 4
+
+	country_modifier = {
+		country_naval_cap_add = 4
+	}
+
+	resources = {
+		category = planet_soldiers
+	}
+
+	triggered_country_modifier = {
+		potential = {
+			exists = planet
+			planet = {
+				exists = owner
+				owner = { has_technology = "tech_ground_defense_planning" }
+			}
+		}
+		modifier = {
+			country_naval_cap_add = 4
+		}
+	}
+	triggered_country_modifier = {
+		potential = {
+			exists = planet
+			planet = {
+				exists = owner
+				owner = { has_technology = "tech_doctrine_fleet_size_4" }
+			}
+		}
+		modifier = {
+			country_naval_cap_add = 5
+		}
+	}
+
+	triggered_country_modifier = {
+	  	potential = {
+	  		exists = owner
+	  		owner = {
+				any_owned_leader = {
+					is_councilor = yes
+					has_trait = leader_trait_bellicose
+				}
+	  		}
+		}
+
+		modifier = {
+			country_naval_cap_add = 3
+		}
+		mult = value:bellicose_naval_cap
+	}
+
+	pop_modifier = {
+		pop_defense_armies_add = 3
+	}
+
+	triggered_pop_modifier = {
+	  	potential = {
+	  		exists = owner
+	  		owner = {
+				any_owned_leader = {
+					is_councilor = yes
+					has_trait = leader_trait_bellicose
+				}
+	  		}
+		}
+
+		modifier = {
+			pop_defense_armies_add = 1
+		}
+		mult = value:bellicose_naval_cap
+	}
+
+	triggered_planet_modifier = {
+		modifier = {
+			planet_stability_add = 1
+		}
+		mult = planet.modifier:job_soldier_stability_add
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			has_councilor = { COUNCILOR = "councilor_private_military_companies" }
+		}
+
+		modifier = {
+			planet_stability_add = @councilor_private_military_companies_stability
+		}
+
+		mult = value:councilor_level|TYPE|councilor_private_military_companies|
+	}
+
+	possible_pre_triggers = {
+		has_owner = yes
+		is_being_purged = no
+		is_being_assimilated = no
+		is_sapient = yes
+	}
+
+	possible = {
+		soldier_job_check_trigger = yes
+		owner = { is_gestalt = no }
+	}
+
+	weight = {
+		weight = @soldier_job_weight
+		modifier = {
+			factor = 10
+			exists = planet
+			planet = { has_modifier = martial_law }
+		}
+		modifier = {
+			factor = 2
+			has_trait = trait_resilient
+		}
+		modifier = {
+			factor = 2
+			has_trait = trait_very_strong
+		}
+		modifier = {
+			factor = 1.5
+			has_trait = trait_strong
+		}
+		modifier = {
+			factor = 0.5
+			has_trait = trait_weak
+		}
+		modifier = {
+			factor = 0.1
+			is_enslaved = yes
+			NOT = { has_slavery_type = { type = slavery_military } }
+		}
+		modifier = {
+			factor = 10
+			is_enslaved = yes
+			has_slavery_type = { type = slavery_military }
+		}
+		modifier = {
+			factor = 0.1
+			can_take_servant_job = yes
+		}
+		modifier = {
+			factor = 1.1
+			has_trait = trait_cybernetic
+		}
+		modifier = {
+			factor = 2
+			has_trait = trait_presapient_earthbound
+		}
+		modifier = {
+			factor = 1.1
+			has_trait = trait_limited_regeneration
+		}
+		modifier = {
+			factor = 0
+			species = { can_be_soldier = no }
+		}
+		modifier = {
+			factor = 2
+			has_trait = trait_lithoid
+		}
+	}
+}

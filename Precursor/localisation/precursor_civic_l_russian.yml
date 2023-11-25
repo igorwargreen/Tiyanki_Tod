@@ -1,0 +1,72 @@
+﻿l_russian:
+  precursor_selection.1.name: "Выбор предтеч"
+  precursor_selection.1.desc: "Выберите, к каким предтечам вы хотите получить доступ. \n§H\nЕсли не выбран не один предтеч из списка и вы нажали§! §Y$precursor_ok$§!§H, то вы не получите и не найдете в космосе ни одного предтеча!§!\n§H\nКнопка§! §Y$precursor_cancel$§! §Hотменит выбор предтеч и закроет это окно, но вы все еще сможете найти предтеч изучая системы.§!"
+  
+  precursor_enable_all: "Выбрать всех"
+  precursor_disable_all: "Отменить выбор всех"
+  precursor_ok: "§YПодтвердить выбор§!"
+  precursor_cancel: "§YОтмена§!"
+  
+
+  # Vanilla precursors
+  precursor.1.a: "§GЗвездное сообщество Вультаум§!"
+  precursor.1.b: "§RЗвездное сообщество Вультаум§!"
+  precursor.2.a: "§GЮутская империя§!"
+  precursor.2.b: "§RЮутская империя§!"
+  precursor.3.a: "§GПервая лига§!"
+  precursor.3.b: "§RПервая лига§!"
+  precursor.4.a: "§GИрассианский конкордат§!"
+  precursor.4.b: "§RИрассианский конкордат§!"
+  precursor.5.a: "§GСайбрекс§!"
+  precursor.5.b: "§RСайбрекс§!"
+  precursor_vanilla: "§HCore§!"
+  precursor.1.c: "Source: $precursor_vanilla$"
+  precursor.2.c: "Source: $precursor_vanilla$"
+  precursor.3.c: "Source: $precursor_vanilla$"
+  precursor.4.c: "Source: $precursor_vanilla$"
+  precursor.5.c: "Source: $precursor_vanilla$"
+  
+  # Ancient Relics DLC
+  precursor.6.a: "§GБаол§!"
+  precursor.6.b: "§RБаол§!"
+  precursor.7.a: "§GЗрони§!"
+  precursor.7.b: "§RЗрони§!"
+  precursor_dlc_ar: "§HAncient Relics§!"
+  precursor.6.c: "Source: DLC $precursor_dlc_ar$"
+  precursor.7.c: "Source: DLC $precursor_dlc_ar$"
+  
+  # Precursor Story Pack
+  precursor.8.a: "§GАльянс Слесс§!"
+  precursor.8.b: "§RАльянс Слесс§!"
+  precursor.9.a: "§GКопрейская конституция§!"
+  precursor.9.b: "§RКопрейская конституция§!"
+  precursor.10.a: "§GИмперия Астанин§!"
+  precursor.10.b: "§RИмперия Астанин§!"
+  precursor_mod_psp: "§HPrecursor Story Pack§!"
+  precursor.8.c: "Source: Mod $precursor_mod_psp$"
+  precursor.9.c: "Source: Mod $precursor_mod_psp$"
+  precursor.10.c: "Source: Mod $precursor_mod_psp$"
+  
+  # Forgotten History
+  precursor.11.a: "§GПлексианский рой§!"
+  precursor.11.b: "§RПлексианский рой§!"
+  precursor.12.a: "§GЛартия§!"
+  precursor.12.b: "§RЛартия§!"
+  precursor_mod_fh: "§HForgotten History§!"
+  precursor.11.c: "Source: Mod $precursor_mod_fh$"
+  precursor.12.c: "Source: Mod $precursor_mod_fh$"
+  
+  # More Precursors 
+  # The Ixardian Corporation, The Werediran Signal and The Ezentian Combine.
+  precursor.13.a: "§GIxardian Corporation §W(§YUnique§W)§!"
+  precursor.13.b: "§RIxardian Corporation §W(§YUnique§W)§!"
+  precursor.14.a: "§GWerediran Signal §W(§YUnique§W)§!"
+  precursor.14.b: "§RWerediran Signal §W(§YUnique§W)§!"
+  precursor.15.a: "§GEzentian Combine §W(§YUnique§W)§!"
+  precursor.15.b: "§REzentian Combine §W(§YUnique§W)§!"
+  precursor_mod_mp: "§HMore Precursors§!"
+  precursor.13.c: "Source: Mod $precursor_mod_mp$"
+  precursor.14.c: "Source: Mod $precursor_mod_mp$"
+  precursor.15.c: "Source: Mod $precursor_mod_mp$"
+
+  

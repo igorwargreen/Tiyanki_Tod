@@ -1,0 +1,247 @@
+@Edict1Cost = 10
+@Edict2Cost = 20
+@Edict3Cost = 30
+@EdictSpecialCost = 1
+@EdictPerpetual = -1
+fortify_the_border = {
+	length = @EdictPerpetual
+	icon = "GFX_edict_type_policy"
+
+	resources = {
+		category = edicts
+		upkeep = {
+			unity = @Edict1Cost
+			multiplier = value:edict_size_effect
+		}
+	}
+
+	modifier = {
+		starbase_upgrade_speed_mult = 0.50
+		country_starbase_capacity_add = 2
+	}
+	effect = {
+		if = {
+			limit = {
+				NOR = {
+					has_country_flag = is_friend_of_0
+					has_country_flag = is_friend_of_1
+					has_country_flag = is_friend_of_2
+					has_country_flag = is_friend_of_3
+					has_country_flag = is_friend_of_4
+					has_country_flag = is_friend_of_5
+				}
+			}
+			remove_country_flag = is_friend_of_6
+			set_country_flag = is_friend_of_0
+		}
+		else_if = {
+			limit = {
+				has_country_flag = is_friend_of_0
+			}
+			remove_country_flag = is_friend_of_0
+			set_country_flag = is_friend_of_1
+		}
+		else_if = {
+			limit = {
+				has_country_flag = is_friend_of_1
+			}
+			remove_country_flag = is_friend_of_1
+			set_country_flag = is_friend_of_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = is_friend_of_2
+			}
+			remove_country_flag = is_friend_of_2
+			set_country_flag = is_friend_of_3
+		}
+		else_if = {
+			limit = {
+				has_country_flag = is_friend_of_3
+			}
+			remove_country_flag = is_friend_of_3
+			set_country_flag = is_friend_of_4
+		}
+		else_if = {
+			limit = {
+				has_country_flag = is_friend_of_4
+			}
+			remove_country_flag = is_friend_of_4
+			set_country_flag = is_friend_of_5
+		}
+		else_if = {
+			limit = {
+				has_country_flag = is_friend_of_5
+			}
+			remove_country_flag = is_friend_of_5
+			set_country_flag = is_friend_of_6
+		}
+	}
+	
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0
+			NOT = { has_country_flag = has_encountered_other_empire }
+		}
+	}
+}
+
+map_the_stars = {
+	length = @EdictPerpetual
+	icon = "GFX_edict_type_policy"
+
+	resources = {
+		category = edicts
+		upkeep = {
+			unity = @Edict1Cost
+			multiplier = value:edict_size_effect
+		}
+	}
+	effect = {
+		if = {
+			limit = {
+				NOR = {
+					has_country_flag = is_science_of_0
+					has_country_flag = is_science_of_1
+					has_country_flag = is_science_of_2
+					has_country_flag = is_science_of_3
+					has_country_flag = is_science_of_4
+				}
+			}
+			remove_country_flag = is_science_of_5
+			set_country_flag = is_science_of_0
+		}
+		else_if = {
+			limit = {
+				has_country_flag = is_science_of_0
+			}
+			remove_country_flag = is_science_of_0
+			set_country_flag = is_science_of_1
+		}
+		else_if = {
+			limit = {
+				has_country_flag = is_science_of_1
+			}
+			remove_country_flag = is_science_of_1
+			set_country_flag = is_science_of_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = is_science_of_2
+			}
+			remove_country_flag = is_science_of_2
+			set_country_flag = is_science_of_3
+		}
+		else_if = {
+			limit = {
+				has_country_flag = is_science_of_3
+			}
+			remove_country_flag = is_science_of_3
+			set_country_flag = is_science_of_4
+		}
+		else_if = {
+			limit = {
+				has_country_flag = is_science_of_4
+			}
+			remove_country_flag = is_science_of_4
+			set_country_flag = is_science_of_5
+		}
+	}
+
+	modifier = {
+		science_ship_survey_speed = 0.25
+		ship_anomaly_generation_chance_mult = 0.10
+		ship_hyperlane_range_add = 1
+	}
+
+	potential = {
+		has_tradition = tr_discovery_adopt
+	}
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			weight = @EdictHighPrio
+			years_passed < 50
+		}
+	}
+}
+radar_disable = {
+	length = @EdictPerpetual
+	icon = "GFX_edict_type_policy"
+
+	effect = {
+		if = {
+			limit = {
+				has_country_flag = is_friend_of_6
+				has_country_flag = is_science_of_5
+			}
+			set_country_flag = is_general_of_0
+		}
+	}
+
+	modifier = {
+		ship_sensor_range_add = -100
+		planet_sensor_range_add = -100
+	}
+
+	potential = {
+		is_ai = no
+	}
+
+}
+terraforming_gas = {
+	length = @EdictDuration
+	icon = "GFX_edict_type_time"
+	resources = {
+		category = rare_edicts
+		upkeep = {
+			exotic_gases = 1
+			multiplier = value:edict_size_effect
+		}
+	}
+
+	modifier = {
+		terraform_speed_mult = 5
+	}
+
+	prerequisites = {
+		"tech_terrestrial_sculpting"
+	}
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			weight = @EdictHighPrio
+			any_planet_within_border = {
+				is_terraforming = yes
+			}
+		}
+	}
+}
+build_speed_boost = {
+	length = @EdictDuration
+	icon = "GFX_edict_type_time"
+	resources = {
+		category = rare_edicts
+		upkeep = {
+			alloys = 8
+			multiplier = value:edict_size_effect
+		}
+		upkeep = {
+			energy = 40
+			multiplier = value:edict_size_effect
+		}
+	}
+	modifier = {
+		planet_building_build_speed_mult = 2
+	}
+	prerequisites = {
+		"tech_assembly_pattern"
+	}
+	potential = {
+		is_ai = no
+	}
+}

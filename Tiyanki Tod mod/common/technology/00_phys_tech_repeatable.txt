@@ -1,0 +1,40 @@
+tech_repeatable_weapon_type_energy_damage = {
+	area = physics
+	cost = 50000
+	cost_per_level = 10000
+	tier = @repeatableTechTier
+	category = { particles }
+	ai_update_type = military
+	levels = -1
+	prerequisites = {"tech_lasers_4" "tech_shields_4" }
+	weight = @repeatableTechWeight
+
+	weight_modifier = {
+		factor = @repatableTechFactor
+	}
+
+	ai_weight = {
+		factor = 1.0
+		modifier = {
+			factor = @favored_weapon_ai_tech_factor
+			is_preferred_weapons = weapon_type_energy
+		}
+		modifier = {
+			factor = @disfavored_weapon_ai_tech_factor
+			NOT = { is_preferred_weapons = weapon_type_energy }
+		}
+	}
+
+	weight_groups = {
+		repeatable
+	}
+	mod_weight_if_group_picked = {
+		repeatable = 0.01
+	}
+
+	modifier = {
+		ship_fire_rate_mult = 0.025
+		ship_shield_mult = 0.04
+		shipclass_military_station_damage_mult = 0.1
+	}
+}

@@ -1,0 +1,119 @@
+precursor_set_flags = {
+	every_system = {
+		limit = {
+			distance = {
+				source = prev.capital_star
+				max_jumps = 4
+				min_jumps = 1
+				use_bypasses = no
+			}
+			not = {
+				has_star_flag = empire_home_system
+			}
+		}
+		
+		if = { limit = { prev = { has_country_flag = precursor_select_1  } } set_star_flag = precursor_1 }
+		if = { limit = { prev = { has_country_flag = precursor_select_2  } } set_star_flag = precursor_2 }
+		if = { limit = { prev = { has_country_flag = precursor_select_3  } } set_star_flag = precursor_3 }
+		if = { limit = { prev = { has_country_flag = precursor_select_4  } } set_star_flag = precursor_4 }
+		if = { limit = { prev = { has_country_flag = precursor_select_5  } } set_star_flag = precursor_5 }
+		if = { limit = { prev = { has_country_flag = precursor_select_6  } } set_star_flag = precursor_baol_1 }
+		if = { limit = { prev = { has_country_flag = precursor_select_7  } } set_star_flag = precursor_zroni_1 }
+		if = { limit = { prev = { has_country_flag = precursor_select_11 } } set_star_flag = precursor_plexi_1 }
+		if = { limit = { prev = { has_country_flag = precursor_select_12 } } set_star_flag = precursor_lartia_1 }
+		if = { limit = { prev = { has_country_flag = precursor_select_13 } } set_star_flag = precursor_ixardian_1 }
+		if = { limit = { prev = { has_country_flag = precursor_select_14 } } set_star_flag = precursor_ezentian_1 }
+		if = { limit = { prev = { has_country_flag = precursor_select_15 } } set_star_flag = precursor_werediran_1 }
+	}
+	
+	every_system = {
+		limit = {
+			distance = {
+				source = prev.capital_star
+				max_jumps = 12
+				min_jumps = 3
+				use_bypasses = no
+			}
+			not = {
+				has_star_flag = empire_home_system
+			}
+		}
+		
+		if = { limit = { prev = { has_country_flag = precursor_select_1  } } random_list = { 40 = { set_star_flag = precursor_1 			} 60 = { } } }
+		if = { limit = { prev = { has_country_flag = precursor_select_2  } } random_list = { 40 = { set_star_flag = precursor_2 			} 60 = { } } }
+		if = { limit = { prev = { has_country_flag = precursor_select_3  } } random_list = { 40 = { set_star_flag = precursor_3 			} 60 = { } } }
+		if = { limit = { prev = { has_country_flag = precursor_select_4  } } random_list = { 40 = { set_star_flag = precursor_4 			} 60 = { } } }
+		if = { limit = { prev = { has_country_flag = precursor_select_5  } } random_list = { 40 = { set_star_flag = precursor_5 			} 60 = { } } }
+		if = { limit = { prev = { has_country_flag = precursor_select_6  } } random_list = { 40 = { set_star_flag = precursor_baol_1 		} 60 = { } } }
+		if = { limit = { prev = { has_country_flag = precursor_select_7  } } random_list = { 40 = { set_star_flag = precursor_zroni_1 		} 60 = { } } }
+		if = { limit = { prev = { has_country_flag = precursor_select_11 } } random_list = { 40 = { set_star_flag = precursor_plexi_1 		} 60 = { } } }
+		if = { limit = { prev = { has_country_flag = precursor_select_12 } } random_list = { 40 = { set_star_flag = precursor_lartia_1 		} 60 = { } } }
+		if = { limit = { prev = { has_country_flag = precursor_select_13 } } random_list = { 40 = { set_star_flag = precursor_ixardian_1 	} 60 = { } } }
+		if = { limit = { prev = { has_country_flag = precursor_select_14 } } random_list = { 40 = { set_star_flag = precursor_ezentian_1 	} 60 = { } } }
+		if = { limit = { prev = { has_country_flag = precursor_select_15 } } random_list = { 40 = { set_star_flag = precursor_werediran_1 	} 60 = { } } }
+	}
+}
+
+precursor_start_chain = {
+	set_country_flag = $precursor$_intro
+	
+	begin_event_chain = {
+		event_chain = $precursor$_chain
+		target = THIS
+	}
+}
+
+precursor_toggle_flag = {
+	if = { 
+		limit = { has_country_flag = $flag$ }
+		remove_country_flag = $flag$
+	} else = { set_country_flag = $flag$ }
+}
+
+
+# Params: 
+#	precursor - Required
+#	star_flag - optional
+#	event_target - optional
+#	digsite - optional
+precursor_spawn_digsite = {
+	set_country_flag = $precursor$_intro
+	set_global_flag = $precursor$_started
+	
+	capital_star = {
+		closest_system = {
+			min_steps = 1
+			limit = {
+				NOT = { has_star_flag = sol_system }
+				not = { has_star_flag = empire_home_system }
+				any_system_planet = {
+					is_preventing_anomaly = no
+					has_anomaly = no
+					is_star = no
+					NOT = { exists = archaeological_site }
+					NOT = { has_planet_flag = suppress_archaeological_sites }
+					precursor_$precursor$_valid_planet = yes
+				}
+			}
+			
+			[[star_flag] set_star_flag = $star_flag$@root ]
+			[[!star_flag] set_star_flag = first_$precursor$_site@root ]
+			
+			random_system_planet = {
+				limit = {
+					is_preventing_anomaly = no
+					has_anomaly = no
+					is_star = no
+					NOT = { exists = archaeological_site }
+					NOT = { has_planet_flag = suppress_archaeological_sites }
+					precursor_$precursor$_valid_planet = yes
+				}
+				[[event_target] save_global_event_target_as = $event_target$ ]
+				[[digsite] create_archaeological_site = $digsite$ ]
+				[[!digsite] create_archaeological_site = $precursor$_digsite_1 ]
+				prevent_anomaly = yes
+				set_planet_flag = suppress_archaeological_sites
+			}
+		}
+	}
+}

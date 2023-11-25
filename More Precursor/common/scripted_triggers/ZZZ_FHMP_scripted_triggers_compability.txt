@@ -1,0 +1,17 @@
+# For Forgotten History
+has_FHMP_active = {
+    optimize_memory
+    always = yes
+}
+
+has_ixardian_database = {
+	has_relic = r_ixardian_database
+}
+
+has_ezentian_core = {
+	has_relic = r_ezentian_core
+}
+
+has_werediran_core = {
+	has_relic = r_werediran_core
+}
