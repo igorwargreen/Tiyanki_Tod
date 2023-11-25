@@ -1,3 +1,0 @@
-# Global variable so other mods can check for the amount of tradition categories
-
-@UIOD_TRADITION_CATEGORIES_MAX = 12

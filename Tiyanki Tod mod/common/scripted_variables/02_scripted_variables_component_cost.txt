@@ -292,21 +292,21 @@
 @power_M3 = -50
 @power_L3 = -100
 
-@power_S4 = -35
-@power_M4 = -70
-@power_L4 = -140
+@power_S4 = -30
+@power_M4 = -60
+@power_L4 = -120
 
-@power_S5 = -45
-@power_M5 = -90
-@power_L5 = -180
+@power_S5 = -35
+@power_M5 = -70
+@power_L5 = -140
 
 @power_S6 = -45
-@power_M6 = -90
+@power_M6 = -85
 @power_L6 = -180
 
-@power_S7 = -45
-@power_M7 = -90
-@power_L7 = -180
+@power_S7 = -60
+@power_M7 = -120
+@power_L7 = -240
 
 #############
 #	SHIELD	#

@@ -1,0 +1,39 @@
+councilor_catalytic_processing = {
+	leader_class = { scientist governor }
+	is_leader_possible = {
+		leader_class = scientist
+	}
+	civic = civic_catalytic_processing
+	modifier = {
+		planet_farmers_food_produces_mult = 0.075
+	}
+	ai_hiring_weight = {
+		inline_script = councilor_leader_weights
+	}
+}
+councilor_efficient_bureaucracy = {
+	leader_class = { governor }
+	is_leader_possible = {
+		leader_class = governor
+	}
+	civic = civic_efficient_bureaucracy
+	modifier = {
+		planet_administrators_produces_mult = 0.05
+	}
+	ai_hiring_weight = {
+		inline_script = councilor_leader_weights
+	}
+}
+councilor_environmentalist = {
+	leader_class = { scientist }
+	is_leader_possible = {
+		leader_class = scientist
+	}
+	civic = civic_environmentalist
+	modifier = {
+		planet_rangers_produces_mult = 0.075
+	}
+	ai_hiring_weight = {
+		inline_script = councilor_leader_weights
+	}
+}
