@@ -1265,12 +1265,7 @@ building_ranger_lodge = {
 		planet = {
 			if = {
 				limit = { has_deposit = d_big_nature_preserve_blocker }
-				every_deposit = {
-					limit = {
-						is_deposit_type = d_big_nature_preserve_blocker
-					}
-					remove_deposit = d_big_nature_preserve_blocker
-				}
+				remove_deposit = d_big_nature_preserve_blocker
 			}
 		}
 	}
