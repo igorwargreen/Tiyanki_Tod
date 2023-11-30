@@ -1,0 +1,53 @@
+NInterface = {
+	NUM_DISTRICT_BOXES_TO_SHOW = 1
+	ARCH_VIEW_DEFAULT_MAX_CHAPTERS = 8
+	ARCH_VIEW_TEXTBOX_SMALL = 295
+	ARCH_VIEW_TEXTBOX_LARGE = 415
+	ESPIONAGE_OPERATION_VIEW_TEXTBOX_SMALL = 295
+	ESPIONAGE_OPERATION_VIEW_TEXTBOX_LARGE = 415
+	RIFT_VIEW_TEXTBOX_SMALL = 295
+	RIFT_VIEW_TEXTBOX_LARGE = 415
+	RELIC_VIEW_SLOTS_PER_ROW = 5
+	RELIC_VIEW_SLOTS_PER_ROW_WIDE = 5
+	RELIC_VIEW_DEFAULT_ROW_COUNT = 2
+
+	# notification position
+	NOTIFICATION_MESSAGE_XPOS = 190 # X-position where notification message starts
+
+	# paragon_portrait_container_horizontal_slim
+	PORTRAIT_GUI_NAME_HIRE_AND_ASSIGN_LIST_ENTRY = "paragon_portrait_container_horizontal_slim"
+	PORTRAIT_GUI_NAME_LEADER_VIEW_ENTRY = "paragon_portrait_container_horizontal_slim"
+	PORTRAIT_GUI_NAME_SITE_LEADER_ENTRY = "paragon_portrait_container_horizontal_slim"
+
+	# unique
+	PORTRAIT_GUI_NAME_ASSIGNABLE_COUNCILOR_LIST_ENTRY = "paragon_portrait_container_assign_councilor"
+	PORTRAIT_GUI_NAME_ASSIGNABLE_LEADER_LIST_ENTRY = "paragon_portrait_container_leader_assignment"
+	# PORTRAIT_GUI_NAME_ASSIGN_TRAIT = "paragon_portrait_container_vertical"
+	PORTRAIT_GUI_NAME_COUNCIL_POSITION = "paragon_portrait_container_council"
+	PORTRAIT_GUI_NAME_COUNCIL_POSITION_GESTALT = "paragon_portrait_container_council_gestalt"
+	PORTRAIT_GUI_NAME_COUNCIL_VIEW_RULER = "paragon_portrait_container_ruler_council"
+	PORTRAIT_GUI_NAME_EVENT_RECRUIT = "paragon_portrait_container_recruit_event"
+	PORTRAIT_GUI_NAME_EVENT_STORY = "paragon_portrait_container_story_event"
+	PORTRAIT_GUI_NAME_EXPANDED_LEADER_PORTRAIT = "paragon_portrait_container_expanded"
+	PORTRAIT_GUI_NAME_GOVERNMENT_VIEW_HEIR = "paragon_portrait_container_heir"
+	PORTRAIT_GUI_NAME_GOVERNMENT_VIEW_RULER = "paragon_portrait_container_ruler_government"
+	PORTRAIT_GUI_NAME_PLANET_SECTOR_GOVERNOR = "paragon_portrait_container_sector_governor"
+	PORTRAIT_GUI_NAME_TECH_VIEW = "paragon_portrait_container_research"
+	PORTRAIT_GUI_NAME_TOAST = "paragon_portrait_container_toast"
+
+	# uiod templates
+	PORTRAIT_GUI_NAME_ANOMALY_CONTROLLER_VIEW = "uiod_portrait_container_anomaly_view"
+	PORTRAIT_GUI_NAME_ANOMALY_LEADER_VIEW = "uiod_portrait_container_anomaly_leader_view" # horizontal_slim clone
+	PORTRAIT_GUI_NAME_ARCHAEOLOGY_VIEW = "uiod_portrait_container_archaeology_view"
+	PORTRAIT_GUI_NAME_ASSIGN_TRAIT = "uiod_portrait_container_assign_trait"
+	PORTRAIT_GUI_NAME_ATTACKING_GENERAL = "uiod_portrait_container_attacking_general"
+	PORTRAIT_GUI_NAME_COMBAT_FLEET_VIEW = "uiod_portrait_container_combat_fleet_view"
+	PORTRAIT_GUI_NAME_DEFENDING_GENERAL = "uiod_portrait_container_defending_general"
+	PORTRAIT_GUI_NAME_DEMOCRATIC_ELECTION_CANDIDATE = "uiod_portrait_container_democratic_candidate"
+	PORTRAIT_GUI_NAME_ELECTION_CANDIDATE = "uiod_portrait_container_election_candidate"
+	PORTRAIT_GUI_NAME_EMPIRE_VIEW_SECTOR_ENTRY = "uiod_portrait_container_empire_sector_entry"
+	PORTRAIT_GUI_NAME_FLEET_MANAGER_VIEW = "uiod_portrait_container_fleet_manager"
+	PORTRAIT_GUI_NAME_FLEET_VIEW = "uiod_portrait_container_fleet_view"
+	PORTRAIT_GUI_NAME_PLANET_GENERAL = "uiod_portrait_container_planet_general"
+	PORTRAIT_GUI_NAME_PLANET_GOVERNOR = "uiod_portrait_container_planet_governor"
+}

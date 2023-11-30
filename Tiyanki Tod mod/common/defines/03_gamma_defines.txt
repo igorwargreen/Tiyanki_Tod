@@ -22,9 +22,9 @@ NGameplay = {
 	RESOLUTION_VOTE_PREMATURE_TIMER = 720			# number of days until the custodian/emperor can prematurely end the senate session
 	SENATE_RECESS_TIMER = 540						# number of days until the next proposed resolution will be put on the floor after the current vote
 #	SUBJECT_LOYALTY_MAX = 100					# Max value of loyalty
-#	TRADITION_CATEGORIES_MAX = 12
-#	ASCENSION_PERKS_SLOTS = 13
-#	MAX_PLANET_BUILDING_SLOTS				= 16
+	TRADITION_CATEGORIES_MAX = 9
+	ASCENSION_PERKS_SLOTS = 10
+	MAX_PLANET_BUILDING_SLOTS				= 16
 }
 NPop = {
 	MAX_CARRYING_CAPACITY				= 5000		# Logistic Carrying Capacity Cap (so modders have access to this value in case they make a planet with infinite districts or something like that)
