@@ -1,3 +1,4 @@
 # Global variable so other mods can check for the amount of tradition categories
 
 @UIOD_TRADITION_CATEGORIES_MAX = 9
+@uiod_max_ascension_perk_slots = 10
