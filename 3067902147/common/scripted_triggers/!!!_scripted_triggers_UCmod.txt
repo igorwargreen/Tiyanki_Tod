@@ -1,5 +1,0 @@
-# For UCmod
-
-has_frozen_engine = {
-	always = no
-}

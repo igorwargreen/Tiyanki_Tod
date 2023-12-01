@@ -1,4 +1,0 @@
-TT_trgr_CNTR_can_join_csfg = {
-	is_homicidal = no
-	NOT = { has_ascension_perk = ap_become_the_crisis }
-}
