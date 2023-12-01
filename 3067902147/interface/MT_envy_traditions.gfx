@@ -1,0 +1,60 @@
+spriteTypes = {
+
+	### envy
+
+	## New tradition category gfx names
+
+	spriteType = {
+		name = "GFX_tradition_hex_bg_tradition_mt_envy"
+		textureFile = "gfx/interface/traditions/tradition_hex_bg_mt_envy.dds"
+	}
+
+	# Backgrounds
+
+	spriteType = {
+		name = "GFX_tradition_category_bg_tradition_mt_envy"
+		textureFile = "gfx/interface/tiles/tradition_category_tile_mt_envy.dds"
+	}
+
+	# Tiles
+
+	corneredTileSpriteType = {
+		name = "GFX_tradition_category_tile_tradition_mt_envy"
+		textureFile = "gfx/interface/tiles/tradition_category_tile_mt_envy.dds"
+		borderSize = { x=140 y=140 }
+		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+	}
+
+	### TRADITION CATEGORY ICONS ###
+
+	spriteType = {
+		name = "GFX_tradition_category_icon_tradition_mt_envy"
+		textureFile = "gfx/interface/icons/traditions/tree_icons/tradition_icon_mt_envy.dds"
+	}
+
+	### TRADITION ICONS ###
+
+	### HISTORY ###
+
+	spriteType = {
+		name = "GFX_tr_mt_envy_debris_collectors"
+		textureFile = "gfx/interface/icons/traditions/tradition_mt_envy_debris_collectors.dds"
+	}
+
+	spriteType = {
+		name = "GFX_tr_mt_envy_shiny_gadgets"
+		textureFile = "gfx/interface/icons/traditions/tradition_mt_envy_shiny_gadgets.dds"
+	}
+	spriteType = {
+		name = "GFX_tr_mt_envy_debris_creators"
+		textureFile = "gfx/interface/icons/traditions/tradition_mt_envy_debris_creators.dds"
+	}
+	spriteType = {
+		name = "GFX_tr_mt_envy_expanded_workforce"
+		textureFile = "gfx/interface/icons/traditions/tradition_mt_envy_expanded_workforce.dds"
+	}
+	spriteType = {
+		name = "GFX_tr_mt_envy_highways"
+		textureFile = "gfx/interface/icons/traditions/tradition_mt_envy_highways.dds"
+	}
+}

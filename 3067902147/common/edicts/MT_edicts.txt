@@ -1,0 +1,69 @@
+##########################################################################
+# Empire edicts
+##########################################################################
+
+@Edict1Cost = 10
+@Edict2Cost = 20
+@Edict3Cost = 30
+@EdictSpecialCost = 1
+
+@EdictPerpetual = -1
+
+#################
+# Toggle Edicts
+#################
+
+#mt_mysticism_dark_ritual = {
+#	length = @EdictPerpetual
+#	icon = "GFX_edict_type_policy"
+#	
+#	resources = {
+#		category = campaigns
+#		cost = {
+#			sr_dark_matter = 2
+#			multiplier = value:edict_size_effect
+#		}
+#		upkeep = {
+#			sr_dark_matter = 2
+#			multiplier = value:edict_size_effect
+#		}
+#	}
+#
+#	potential = {
+#		has_tradition = tr_mt_mysticism_finish
+#	}
+#
+#	modifier = {
+#		planet_stability_add = -10
+#		planet_jobs_produces_mult = 0.1
+#		#custom_tooltip = "edict_mt_mysticism_dark_ritual_tooltip" # Leaders with the mystic messenger trait gets increased upkeep but also gives additional bonuses
+#	}
+#}
+#
+#mt_mysticism_dark_resonance = {
+#	length = @EdictPerpetual
+#	icon = "GFX_edict_type_policy"
+#
+#	resources = {
+#		category = campaigns
+#		cost = {
+#			sr_dark_matter = 2
+#			multiplier = value:edict_size_effect
+#		}
+#		upkeep = {
+#			sr_dark_matter = 2
+#			multiplier = value:edict_size_effect
+#		}
+#	}
+#
+#	potential = {
+#		has_tradition = tr_mt_mysticism_finish
+#	}
+#
+#	modifier = {
+#		council_agenda_progress_speed = 0.25
+#		species_leader_exp_gain = 0.25
+#		leaders_upkeep_mult = 0.25
+#		#custom_tooltip = "edict_mt_mysticism_dark_resonance_tooltip" # Leaders with the mystic messenger trait gets power twice as fast
+#	}
+#}

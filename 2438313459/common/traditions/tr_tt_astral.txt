@@ -1,0 +1,69 @@
+tr_tt_rift_adopt = {
+    unlocks_agenda = TT_agenda_tradition_rift
+    possible = {
+        has_technology = tech_astral_harvesting
+    }
+    modifier = {
+        ship_astral_rift_speed_mult = 0.2
+    }
+}
+tr_tt_rift_finish = {
+    custom_tooltip_with_modifiers = tr_tt_rift_finish_desc
+    modifier = {
+        ascension_perks_add = 1
+    }
+}
+tr_tt_rift_1 = {
+    modifier = {
+        station_researchers_astral_threads_produces_mult = 0.1
+    }
+    ai_weight = {
+        factor = 5000
+    }
+}
+tr_tt_rift_2 = {
+    possible = {
+        has_tradition = tr_tt_rift_1
+    }
+    modifier = {
+        country_astral_threads_cost_mult = -0.10
+        edicts_astral_threads_upkeep_mult = -0.10
+    }
+    ai_weight = {
+        factor = 4500
+    }
+}
+tr_tt_rift_3 = {
+    possible = {
+        has_tradition = tr_tt_rift_1
+    }
+    modifier = {
+        country_resource_max_astral_threads_add = 1000
+    }
+    ai_weight = {
+        factor = 4000
+    }
+}
+tr_tt_rift_4 = {
+    possible = {
+        has_tradition = tr_tt_rift_1
+    }
+    modifier = {
+        country_astral_rift_fail_mult = -0.1
+        ship_astral_rift_clues_add = 1
+    }
+    ai_weight = {
+        factor = 4500
+    }
+}
+tr_tt_rift_5 = {
+    possible = {
+        has_tradition = tr_tt_rift_2
+        has_tradition = tr_tt_rift_3
+        has_tradition = tr_tt_rift_4
+    }
+    custom_tooltip = tr_tt_rift_5_desc
+    ai_weight = {
+        factor = 5000
+    }
+}

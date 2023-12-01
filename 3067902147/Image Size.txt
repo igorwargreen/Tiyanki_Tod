@@ -1,0 +1,2 @@
+306 x 250 --> 153 x 125
+Then scaled down by 20%

@@ -1,0 +1,9 @@
+﻿l_simp_chinese:
+
+ emperor.2.a.tooltip:1 "$emperor.2.a.tooltip.start$—我们现在拥有§Y$civic_galactic_sovereign$§!国民理念\n$emperor.2.a.tooltip.end$"
+ emperor.2.a.tooltip.gestalt:0 "$emperor.2.a.tooltip.start$—我们现在拥有§Y$civic_galactic_sovereign$§!国民理念\n$emperor.2.a.tooltip.end$"
+ emperor.2.a.tooltip.megacorp:0 "$emperor.2.a.tooltip.start$—我们现在拥有§Y$civic_galactic_sovereign_megacorp$§!国民理念\n$emperor.2.a.tooltip.end$"
+
+
+ triggered_TT_opinion_a_community_with_a_shared_future_for_the_galaxy_1:0"星海命运共同体组建者"
+ triggered_TT_opinion_a_community_with_a_shared_future_for_the_galaxy_2:0"参与构建星海命运共同体"

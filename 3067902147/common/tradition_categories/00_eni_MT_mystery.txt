@@ -1,0 +1,35 @@
+tradition_mt_mysticism = {
+	desc = {
+		trigger = { is_gestalt = no is_megacorp = no }
+		text = tradition_mt_mysticism_desc
+	}
+	desc = {
+		trigger = { is_megacorp = yes }
+		text = tradition_mt_mysticism_desc_megacorp
+	}
+	desc = {
+		trigger = { is_hive_empire = yes }
+		text = tradition_mt_mysticism_desc_hive
+	}
+	desc = {
+		trigger = { is_machine_empire = yes }
+		text = tradition_mt_mysticism_desc_machine
+	}
+	tree_template = "tree_21_21"
+	adoption_bonus = "tr_mt_mysticism_adopt"
+	finish_bonus = "tr_mt_mysticism_finish"
+	traditions = {
+		"tr_mt_mysticism_shroud" # Shroud
+		"tr_mt_mysticism_elections" # Interference
+		"tr_mt_mysticism_synthesis" # Otherworldly Senses
+		"tr_mt_mysticism_messenger" # Vanishing Act
+		"tr_mt_mysticism_hardening" # Otherworldly Protection
+	}
+
+	potential = {
+	}
+
+	ai_weight = {
+		weight = 0
+	}
+}

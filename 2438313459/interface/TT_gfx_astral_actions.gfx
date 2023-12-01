@@ -1,0 +1,10 @@
+spriteTypes = {
+	spriteType = {#平行宇宙窥探
+		name = "GFX_astral_action_parallel_universe_exploration"
+		textureFile = "gfx/interface/icons/astral_actions/TT_astral_action_parallel_universe_exploration.dds"
+	}
+	spriteType = {#高维宇宙窥探
+		name = "GFX_astral_action_high_dimensional_universe_exploration"
+		textureFile = "gfx/interface/icons/astral_actions/TT_astral_action_high_dimensional_universe_exploration.dds"
+	}
+}

@@ -1,0 +1,9 @@
+# trait backgrounds colors
+
+trait_bg_mt_mysticism = {
+	color = { 244 0 244 255 }
+}
+
+trait_bg_mt_mysticism_glow = {
+	color = { 255 0 255 128 }
+}

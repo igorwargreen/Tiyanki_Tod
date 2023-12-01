@@ -1,0 +1,23 @@
+tradition_mt_movement = {
+	tree_template = "tree_11_12"
+	adoption_bonus = "tr_mt_movement_adopt"
+	finish_bonus = "tr_mt_movement_finish"
+	traditions = {
+		"tr_mt_movement_constant_tracking"
+		"tr_mt_movement_ease_of_transportation"
+		"tr_mt_movement_interstellar_transportation"
+		"tr_mt_movement_pilot_training"
+		"tr_mt_movement_highways"
+	}
+
+	potential = {
+	}
+
+	ai_weight = {
+		factor = 5
+		modifier = {
+			factor = 3
+			is_hyperspace_specialty_empire = yes
+		}
+	}
+}

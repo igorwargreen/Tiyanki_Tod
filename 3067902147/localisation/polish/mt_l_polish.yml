@@ -1,0 +1,507 @@
+﻿l_polish:
+ ################################
+ # Transportation Tradition Tree
+ ################################
+
+ # Movement
+
+ tradition_mt_movement: "Transportation"
+ tradition_mt_movement_desc: "The ability to travel the void is what got us to where we are now. To neglect it now would be a mistake."
+ tr_mt_movement_adopt: "Transportation Traditions"
+ council_agenda_agenda_MT_priority_movement_name: "Conquer The Void"
+ council_agenda_agenda_MT_priority_movement_desc: "Space is the final frontier, and we have to extend our reach into its endless seas if we intend to stay on the galactic stage."
+ tr_mt_movement_constant_tracking: "Hyperlane Tracking"
+ tr_mt_movement_constant_tracking_delayed: "Tracking the movements of civilian vessels has its benefits."
+ tr_mt_movement_constant_tracking_desc: "Whenever a vessel owned by another empire enters our borders, gain §Y10 Intel§! on the offending empire."
+ tr_mt_movement_ease_of_transportation: "Ease Of Transportation"
+ tr_mt_movement_ease_of_transportation_delayed: "By making it easier to move between worlds we can incentivize our population to go to the worlds where they are of most use, although its benefits also extends to those who do not do so willingly."
+ #tr_mt_archeology_history_lessons_modifier_desc: "§YScientists§! can gain §YPrecursor Expertise Traits§!.\n\nRarely some other leaders also get §YPrecursor Expertise Traits§!.\n\nFinding a precursor homeworld will increase the chance of getting leaders with that precursors §YExpertise Trait§!."
+ tr_mt_movement_highways: "Optimized Warp Generators"
+ tr_mt_movement_highways_delayed: "By adding additional processors to our emergency drives, we are able to expend more energy when needed."
+ #tr_mt_movement_highways_desc: "Get the option to acquire £minor_artifacts£ §YMinor Artifacts§! from private collectors."
+ tr_mt_movement_interstellar_transportation: "Hyperlane Mapping"
+ tr_mt_movement_interstellar_transportation_delayed: "Our increased understanding of the hyperlane network allows us to travel along them faster and more efficiently."
+ tr_mt_movement_pilot_training: "Extended Pilot Training"
+ tr_mt_movement_pilot_training_delayed: "Our pilots train extensively, knowing that the fate of our empire hinges on their skill."
+ #tr_mt_movement_finish_desc: "Uncover an archeological site every decade.\nAscension Perks Unlocked: §G+1§!"
+ 
+ # Envy
+ 
+ tradition_mt_envy: "Envy"
+ tradition_mt_envy_desc: "The best things are always what others have that we don't."
+ tr_mt_envy_adopt: "Envy Tradititions"
+ tr_mt_envy_opener_desc: "Gain one month worth of £unity£ output when scavenging §YDebris§!."
+ council_agenda_agenda_MT_ambitious_promises_name: "Ambitious Promises"
+ council_agenda_agenda_MT_ambitious_promises_desc: "Our empire is glorious, and we should not deny this. We just need to prove it."
+ council_agenda_agenda_MT_ambitious_promises_effect: "Winning a war will instantly complete this agenda."
+ agenda_MT_ambitious_promises_finish: "Promises Fulfilled"
+ 
+ #tr_mt_envy_shiny_gadgets: "Shiny Gadgets"
+ #tr_mt_envy_shiny_gadgets_delayed: "Other star empires should never be allowed to eclipse us! We must ask more from our scientists so we do not fall behind!"
+ tr_mt_envy_debris_collectors: "Collectors"
+ tr_mt_envy_debris_collectors_delayed: "Everything the enemy has shall become ours."
+ tr_mt_envy_debris_creators: "Careful Dismantling"
+ tr_mt_envy_debris_creators_delayed: "Everything the enemy has shall be dismantled."
+ tr_mt_envy_highways: "Information Highways"
+ tr_mt_envy_highways_delayed: "Stolen knowledge can never be stolen back."
+ tr_mt_envy_highways_desc: "Whenever an espionage operation is finished, gain §Y+10%§! §Ymonthly Unity§!£unity£ for 1 year."
+ tr_mt_envy_highways_modifier_desc: "For each spy network with more than §H60§! infiltration: §G+2%§! research speed."
+ tr_mt_envy_shiny_gadgets: "Shiny Baubles"
+ tr_mt_envy_shiny_gadgets_delayed: "There is no shame in copying others designs. We'd have figured it out eventually, so really we're just speeding up the process."
+ tr_mt_envy_shiny_gadgets_modifier_desc: "For each §RTechnologically Superior Empire§!:\n- Research speed: §G+5%§!"
+ tr_mt_envy_expanded_workforce: "Expanded Workforce"
+ tr_mt_envy_expanded_workforce_delayed: "People is just another resource that can be transfered from one empire to another."
+ tr_mt_envy_expanded_workforce_desc: "Invading a planet will transfer up to 3 §Ypops§! £pop£ to our empire, leaving at least one behind."
+ tr_mt_envy_expanded_workforce_purifiers: "Final Gift"
+ tr_mt_envy_expanded_workforce_purifiers_delayed: "Once they are relieved of their planets, technology and secrets there is only one thing left for them to lose."
+ tr_mt_envy_expanded_workforce_purifiers_desc: "Doubles the unity £unity£ gained from purging pops £pop£."
+ 
+ tr_mt_envy_finish_desc: "§YAdmirals§! start with the §Y$leader_trait_corsair$§! trait.\nAscension Perks Unlocked: §G+1§!"
+ #tr_mt_envy_finish_desc: "Finishing an espionage operation on another empire gives §G+5%§! happiness for 2 years."
+ #tr_mt_envy_finish_gestalt_desc: "Finishing an espionage operation on another empire gives §G+10§! stability for 2 years."
+ 
+ # Urbanization
+ 
+ tradition_mt_urban: "Urbanization"
+ tradition_mt_urban_desc: "Optimizing the space we already have can be as rewarding as claiming more."
+ tr_mt_urban_adopt: "Urbanization Traditions"
+ council_agenda_agenda_MT_construction_efforts_name: "Construction Efforts"
+ council_agenda_agenda_MT_construction_efforts_desc: "We must focus on developing our planets."
+ agenda_MT_construction_efforts_finish: "Construction Efforts"
+ tr_mt_urban_oversight: "Bureaucratic Oversight"
+ tr_mt_urban_oversight_delayed: "Constant oversight will not only enable us to utilize our resources in a more efficient manner, it will also create jobs for a significant part of the population on heavily urbanized worlds."
+ tr_mt_urban_oversight_hive: "Increased Oversight"
+ tr_mt_urban_oversight_hive_delayed: "As our population increases, so does our need for reliable management."
+ tr_mt_urban_oversight_machine: "Inrospective Surveillance"
+ tr_mt_urban_oversight_machine_delayed: "As we add more and more complexity to our systems we must make sure that the resulting deviancy"
+ tr_mt_urban_effective_planning: "Effective Planning"
+ tr_mt_urban_effective_planning_delayed: "Planning ahead allows us to reduce costs and logistic paperwork."
+ tr_mt_urban_compression: "Compression"
+ tr_mt_urban_compression_delayed: "The only limit is the number of dimensions at our disposal!"
+ #"By utilizing three or more dimensions we can squeeze in more structures on our worlds."
+ tr_mt_urban_trusted_caretakers: "Trusted Caretakers"
+ tr_mt_urban_trusted_caretakers_delayed: "only those whose loyalty is unfallable are entrusted with our worlds."
+ tr_mt_urban_highways: "Streamlined Services"
+ tr_mt_urban_highways_delayed: "As our population concentrates, it is paramount that we can provide everyone with the services they need."
+ tr_mt_urban_highways_gestalt: "Streamlined Maintenance"
+ tr_mt_urban_highways_gestalt_delayed: "As our population concentrates, it is important that we can provide the maintenance required to continue functioning correctly."
+ #tr_mt_urban_highways_desc: "§YUnlocks Edict:§! "
+ tr_mt_urban_finish_desc: "Resources from jobs on your capital: §G+10%§!.\nAscension Perks Unlocked: §G+1§!"
+ 
+ MT_urban_finish_modifier: "Urbanization Traditions"
+ 
+ # Archeology
+ 
+ tradition_mt_archeology: "Archeology"
+ tradition_mt_archeology_desc: "To conquer the future, one must first look to the past"
+ tr_mt_archeology_adopt: "Archeology Traditions"
+ council_agenda_agenda_MT_archeology_grants_name: "Efficient Archeology"
+ council_agenda_agenda_MT_archeology_grants_desc: "We must ensure that all traces of ancient civiliaztions are recovered, so that we may learn the secrets of the past."
+ agenda_MT_archeology_grants_finish: "Efficient Archeology"
+ tr_mt_archeology_museums: "Museums"
+ tr_mt_archeology_museums_delayed: "By building museums on our worlds we can ensure everyone has access to history itself."
+ tr_mt_archeology_museums_modifier_desc: "§YUnlocks Building:§! Museum"
+ tr_mt_archeology_museums_hive: "History Archives"
+ tr_mt_archeology_museums_hive_delayed: "The ancient worlds of this galaxy is full of resources, ready for the taking!"
+ tr_mt_archeology_museums_hive_modifier_desc: "§YUnlocks Building:§! Scavenger Site\nScavenger Sites can only be constructed on ancient worlds."
+ tr_mt_archeology_museums_machine: "History Archives"
+ tr_mt_archeology_museums_machine_delayed: "We can increase our efficiency by looking at what past civilizations did to solve their problems."
+ tr_mt_archeology_museums_machine_modifier_desc: "§YUnlocks Building:§! Scavenger Site\nScavenger Sites can only be constructed on ancient worlds."
+ tr_mt_archeology_history_lessons: "History Lessons"
+ tr_mt_archeology_history_lessons_delayed: "Observing the wonders of the past inspire us to reach new heights."
+ tr_mt_archeology_history_lessons_modifier_desc: "Whenever a §Yrelic§! is activated:\n   All leaders gain §G300§! experience"
+ tr_mt_archeology_history_lessons_toast_text: "All leaders gain §G300§! experience"
+ #tr_mt_archeology_history_lessons_delayed: "Our scientists cannot invent the future without knowing the past. Special history programs will become available to all who work in the fields of technological advancement."
+ #tr_mt_archeology_history_lessons_modifier_desc: "Our leaders can get §YPrecursor Expertise Traits§!.\n\nFinding a precursor homeworld will increase the chance of getting leaders with that precursors §YExpertise Trait§!."
+ #tr_mt_archeology_history_lessons_modifier_desc: "§YScientists§! can gain §YPrecursor Expertise Traits§!.\n\nRarely some other leaders also get §YPrecursor Expertise Traits§!.\n\nFinding a precursor homeworld will increase the chance of getting leaders with that precursors §YExpertise Trait§!."
+ tr_mt_archeology_private_collector_appropriation: "Archeology Prizes"
+ tr_mt_archeology_private_collector_appropriation_delayed: "By offering to buy artifacts and archeological findings for large amounts of energy credit, as well as the fame that comes with such a find, we can incentivize our population to do some of the archeological work for us."
+ tr_mt_archeology_private_collector_modifier_desc: "Get the option to acquire £minor_artifacts£ §YMinor Artifacts§! from private collectors."
+ tr_mt_archeology_artifact_trading: "Artifact Trading"
+ tr_mt_archeology_artifact_trading_delayed: "By incentivizing our population to buy and sell artifacts, we can significantly increase our revenue from taxes."
+ tr_mt_archeology_remember_the_past: "Remember the Past"
+ tr_mt_archeology_remember_the_past_delayed: "We have dedicated a part of our mind to imagining how each planet must have looked like eons ago."
+ tr_mt_archeology_ancient_protocols: "Ancient Protocols"
+ tr_mt_archeology_ancient_protocols_delayed: "Our automonous units will be provided with stories of past civilizations, inspiring them to work harder to make our own empire reach the same heights."
+ tr_mt_archeology_bio_trophy_help: "Bio Trophy Excavations"
+ tr_mt_archeology_bio_trophy_help_delayed: "Letting our bio-trophies play archeologists in safe and controlled envirionments makes them happier. Occasionally they also find something worth keeping."
+ tr_mt_archeology_bio_trophy_help_desc: "Enables the §YCreate Bio-Trophy Archeology Site§! decision."
+ # This Decision creates a deposit / modifier that gives ?% more unity
+ tr_mt_archeology_archeological_training: "Archeological Training"
+ tr_mt_archeology_archeological_training_delayed: "By giving our archeologists training on how to safely and efficiently excavate the remains of ancient civlizations we reduce the risk of injury to personnel and time wasted."
+ tr_mt_archeology_archeological_training_modifier_desc: ""
+ tr_mt_archeology_respect_the_dead: "Media Coverage"
+ tr_mt_archeology_respect_the_dead_delayed: "We must share our our findings with our people. After a successful excavation, an interview will be made with the leading scientist which will be broadcasted on our news outlets."
+ tr_mt_archeology_respect_the_dead_modifier_desc: "Gain a large amount of £unity£ §Y$unity$§! after completing an archeological site."
+ tr_mt_archeology_respect_the_dead_hive: "History Appriciation"
+ tr_mt_archeology_respect_the_dead_hive_delayed: "There is nothing better than finishing an excavation of ancient empires."
+ tr_mt_archeology_respect_the_dead_hive_modifier_desc: "Gain a large amount of £unity£ §Y$unity$§! after completing an archeological site."
+ tr_mt_archeology_respect_the_dead_machine: "History Database"
+ tr_mt_archeology_respect_the_dead_machine_delayed: "Each piece of history will be safely kept in a database easily accessible to our mainframe. That way we can always get inspired by the ideas of empires long gone."
+ tr_mt_archeology_respect_the_dead_machine_modifier_desc: "Gain a large amount of £unity£ §Y$unity$§! after completing an archeological site."
+ tr_mt_archeology_finish_desc: "Uncover an archeological site every decade.\nAscension Perks Unlocked: §G+1§!"
+ 
+ message_tradition_effect_MT_history_lessons_effect_desc: "The §Y$tr_mt_archeology_history_lessons$§! §HTradition§! activated\n"
+ 
+ # Private collector Appropriation
+ artifact_MT_buy_collector: "Buy from Private Collectors"
+ artifact_MT_buy_collector_desc: "Start a campaign were we offer to buy minor artifacts from collectors at a higher rate than normal."
+ artifact_MT_buy_cooldown: "Buy from Private Collectors Cooldown"
+ REJECT_ARTIFACT_OFFER: "Reject the offer"
+ BUY_FEW_ARTIFACTS: "Buy some of the artifacts"
+ BUY_SOME_ARTIFACTS: "Buy most of the artifacts"
+ BUY_ALL_ARTIFACTS: "Accept the deal, buy all of them"
+ BUY_RELIC: "Accepted"
+ MT_events.1.name: "Artifact Offer"
+ MT_events.1.desc: "A small-time private collector has offered to sell some of their artifacts for a high sum of energy credits."
+ MT_events.2.name: "Artifact Offer"
+ MT_events.2.desc: "A private collector has offered to sell some of their artifacts for a high sum of energy credits."
+ MT_events.3.name: "Artifact Offer"
+ MT_events.3.desc: "A private museum has recently closed. The owner will let us buy a lot of these artifacts, for the right price." #leaving all of their artifacts up for sale."
+ 
+ # Museums
+ mt_building_museum: "Museum"
+ mt_building_museum_desc: "A museum where the wonders of the galaxy is put on display for the public to see."
+ job_MT_custodian: "Museum Worker"
+ job_MT_custodian_plural: "Museum Workers"
+ job_MT_custodian_desc: "$job_MT_custodian_plural$ make sure the public always has access to the museum."
+ job_MT_custodian_effect_desc: "$job_MT_custodian_plural$ produce £unity£ §Y$unity$§! based on the number of relics you own, as well as £amenities£ §YAmenities§!. Some §Yrelics§! also grant additional effects.\nUnity from Relics: [Owner.num_MT_owned_relics] £unity£[Owner.GetMTCustodianPrethorynQueenEffects][Owner.GetMTCustodianUnbiddenWarlockEffects][Owner.GetMTCustodianContingencyCoreEffects][Owner.GetMTCustodianZroCrystalEffects][Owner.GetMTCustodianTheLastBaolEffects][Owner.GetMTCustodianCryoCoreEffects][Owner.GetMTCustodianPoxSampleEffects][Owner.GetMTCustodianRealityPerforatorEffects][Owner.GetMTCustodianIxardianDatabaseEffects][Owner.GetMTCustodianWerediranCoreEffects][Owner.GetMTCustodianEzentianCoreEffects][Owner.GetMTCustodianFrozenEngineEffects]"
+ # Alternative Description: Relics obtained from precursor chains or leviathans grants additional effects to museum workers
+ mod_job_MT_custodian_add: "$job_MT_custodian$ Jobs"
+ mod_job_MT_custodian_per_pop: "§G+1§! $job_MT_custodian$ Job per $VALUE$ Pops"
+ mod_job_MT_custodian_per_pop_short: "\n§G+1§! £mod_job_MT_custodian_add£ per $VALUE$ £pop£"
+ mt_cybrex_defense: "Cybrex Warform"
+ job_MT_custodian_drone: "Archive Drone"
+ job_MT_custodian_drone_plural: "Archive Drones"
+ job_MT_custodian_drone_desc: "$job_MT_custodian_drone_plural$ work tirelessly on organizing history archives."
+ job_MT_custodian_drone_effect_desc: "$job_MT_custodian_drone_plural$ produce £unity£ §Y$unity$§! and £amenities£ §YAmenities§!."
+ mod_job_MT_custodian_drone_add: "$job_MT_custodian_drone$ Jobs"
+ mod_job_MT_custodian_drone_per_pop: "§G+1§! $job_MT_custodian_drone$ Job per $VALUE$ Pops"
+ mod_job_MT_custodian_drone_per_pop_short: "\n§G+1§! £mod_job_MT_custodian_drone_add£ per $VALUE$ £pop£"
+ job_MT_custodian_servitor_drone: "Museum Drone"
+ job_MT_custodian_servitor_drone_plural: "Museum Drones"
+ job_MT_custodian_servitor_drone_desc: "$job_MT_custodian_servitor_drone_plural$ work tirelessly on organizing the museum so that all bio-trophies can learn about history."
+ job_MT_custodian_servitor_drone_effect_desc: "$job_MT_custodian_servitor_drone_plural$ make £pop_cat_bio_trophy£ §Y$pop_cat_bio_trophy_plural$§! £happiness£ §YHappier§! and increase their £unity£ production based on the number of owned relics.\n Bonuses from Relics: §G+[Owner.num_MT_owned_relics]%§! £happiness£ and §G+[Owner.num_MT_owned_relics_x5]%§! £unity£."
+ mod_job_MT_custodian_servitor_drone_add: "$job_MT_custodian_servitor_drone$ Jobs"
+ mod_job_MT_custodian_servitor_drone_per_pop: "§G+1§! $job_MT_custodian_servitor_drone$ Job per $VALUE$ Pops"
+ mod_job_MT_custodian_servitor_drone_per_pop_short: "\n§G+1§! £mod_job_MT_custodian_servitor_drone_add£ per $VALUE$ £pop£"
+ 
+ MT_planet_custodians: "Museum Workers"
+ MT_planet_buildings_museums: "Museums"
+ 
+ # Scavenger Sites
+ job_MT_archeological_scavenger_drone_hive_effect_desc: "If built on a §YRelic World§!: £minor_artifacts£ Minor Artifacts from £job_MT_archeological_scavenger_drone_hive£ $job_MT_archeological_scavenger_drone_hive_plural$: §G+0.05§!"
+ job_MT_archeological_scavenger_drone_machine_effect_desc: "If built on a §YRelic World§!: £minor_artifacts£ Minor Artifacts from £job_MT_archeological_scavenger_drone_machine£ $job_MT_archeological_scavenger_drone_machine_plural$: §G+0.05§!"
+ job_MT_archeological_scavenger_effect_desc: "If built on a §YRelic World§!: £minor_artifacts£ Minor Artifacts from £job_MT_archeological_scavenger£ $job_MT_archeological_scavenger_plural$: §G+0.05§!"
+ 
+ # Scavenger Site
+ mt_building_scavenger_site: "Scavenger Site"
+ mt_building_scavenger_site_desc: "A permanent digsite where we extract knowledge from the remains of the previous owners of this planet."
+ 
+ # Normal Scavengers
+ job_MT_archeological_scavenger: "Archeologist"
+ job_MT_archeological_scavenger_plural: "Archeologists"
+ job_MT_archeological_scavenger_desc: "$job_MT_archeological_scavenger_plural$ study the remains of former civilizations."
+ mod_job_MT_archeological_scavenger_add: "$job_MT_archeological_scavenger$ Jobs"
+ mod_job_MT_archeological_scavenger_per_pop: "§G+1§! $job_MT_archeological_scavenger$ Job per $VALUE$ Pops"
+ mod_job_MT_archeological_scavenger_per_pop_short: "\n§G+1§! £mod_job_MT_archeological_scavenger_add£ per $VALUE$ £pop£"
+ 
+ # Hive Scavengers
+ job_MT_archeological_scavenger_drone_hive: "Archeoscavenger Drone"
+ job_MT_archeological_scavenger_drone_hive_plural: "Archeoscavenger Drones"
+ job_MT_archeological_scavenger_drone_hive_desc: "$job_MT_archeological_scavenger_drone_hive_plural$ scavenge the remains of former civilizations."
+ mod_job_MT_archeological_scavenger_drone_hive_add: "$job_MT_archeological_scavenger_drone_hive$ Jobs"
+ mod_job_MT_archeological_scavenger_drone_hive_per_pop: "§G+1§! $job_MT_archeological_scavenger_drone_hive$ Job per $VALUE$ Pops"
+ mod_job_MT_archeological_scavenger_drone_hive_per_pop_short: "\n§G+1§! £mod_job_MT_archeological_scavenger_drone_hive_add£ per $VALUE$ £pop£"
+ 
+ # Machine Scavengers
+ job_MT_archeological_scavenger_drone_machine: "Archeoscavenger Unit"
+ job_MT_archeological_scavenger_drone_machine_plural: "Archeoscavenger Unit"
+ job_MT_archeological_scavenger_drone_machine_desc: "$job_MT_archeological_scavenger_drone_machine_plural$ scavenge the remains of former civilizations."
+ mod_job_MT_archeological_scavenger_drone_machine_add: "$job_MT_archeological_scavenger_drone_machine$ Jobs"
+ mod_job_MT_archeological_scavenger_drone_machine_per_pop: "§G+1§! $job_MT_archeological_scavenger_drone_machine$ Job per $VALUE$ Pops"
+ mod_job_MT_archeological_scavenger_drone_machine_per_pop_short: "\n§G+1§! £mod_job_MT_archeological_scavenger_drone_machine_add£ per $VALUE$ £pop£"
+ 
+ # Relic Text
+ MT_Custodian_PrethorynQueen_Effect: "\n§YPrethoryn BroodQueen§!: + 5 £unity£"
+ MT_Custodian_UnbiddenWarlock_Effect: "\n§YExtradimensional Warlock§!: +5 £unity£"
+ MT_Custodian_ContingencyCore_Effect: "\n§YIsolated Contingency Core§!: +5 £unity£"
+ MT_Custodian_ZroCrystal_Effect: "\n§YPsionic Archive§!: +20% £unity£ from psionic pops"
+ MT_Custodian_TheLastBaol_Effect: "\n§YThe Last Baol§!: +4 £food£"
+ MT_Custodian_CryoCore_Effect: "\n§YYuht Cryo Core§!: -5% pop upkeep"
+ MT_Custodian_PoxSample_Effect: "\n§YJavorian Pox Sample§!: +8 £society£"
+ MT_Custodian_RealityPerforator_Effect: "\n§YVultaum Reality Perforator§!: +8 £Amenities£"
+ MT_Custodian_WarForge_Effect: "\n§YCybrex War Forge§!: Defense armies are replaced by Cybrex Warforms on your capital"
+ MT_Custodian_IxardianDatabase_Effect: "\n§YIxardian Database§!: +4 £trade_value£"
+ MT_Custodian_WerediranCore_Effect: "\n§YWerediran Essence§!: +1 £unity£"
+ MT_Custodian_EzentianCore_Effect: "\n§YColossus Core§!: +6 £engineering£"
+ MT_Custodian_FrozenEngine_Effect: "\n§YThe Frozen Engine§!: §G+10%§! $energy$ from jobs"
+ MT_NO_RELIC_TEXT: ""
+ 
+ # Modifier Localization
+ mod_planet_psionic_jobs_unity_produces_mult: "Unity from Psionic Pops"
+ mod_country_minor_artifacts_produces_mult: "Monthly Minor Artifacts"
+ 
+ # Desecration
+ 
+ # Exploitation
+ tradition_mt_history: "Desecration"
+ tradition_mt_history_desc: "The ruins of the past shall be repurposed into the building blocks of the future"
+ tr_mt_history_adopt: "Desecration Traditions"
+ council_agenda_agenda_MT_artifact_exploitation_name: "Archeological Dissassembly"
+ council_agenda_agenda_MT_artifact_exploitation_desc: "We must ensure that all traces of ancient civilisations are converted into useful materials fit for our empire, or simply destroyed if they have no use."
+ council_agenda_agenda_MT_artifact_exploitation: "Convert all §YMinor Artifacts§! £minor_artifacts£ in your possession into §YUnity§! £unity£ at a rate of 1:10."
+ agenda_MT_artifact_exploitation_finish: "Archeological Dissassembly"
+ 
+ # Opener
+ tr_mt_history_opener_desc: "Gain access to new §YArtifact Actions§!"
+ 
+ # Opener artifact actions
+ artifact_MT_enegmatic_recharge: "Enegmatic Recharge"
+ artifact_MT_enegmatic_recharge_desc: "Break down some of our minor artifacts and use their remains to power a more powerful relic."
+ artifact_MT_enegmatic_recharge_effect_desc: "Break down £minor_artifacts£ Minor Artifacts to empower a relic so it can be used again."
+ artifact_MT_enegmatic_recharge_cooldown: "Enegmatic Recharge Cooldown"
+ 
+ artifact_MT_extract_resources: "Extract Resources"
+ artifact_MT_extract_resources_desc: "Break down some minor artifacts and extract the materials that they are made of."
+ artifact_MT_extract_resources_effect_desc: "Gain 100 of a strategic or rare resource."
+ artifact_MT_extract_resources_cooldown: "Extract Resources Cooldown"
+ 
+ # World Desecration
+ tr_mt_history_world_desecration: "Destructive Study"
+ tr_mt_history_world_desecration_delayed: "The ancient planets in this galaxy holds valuable information. We should uncover their secrets by any means necessary."
+ tr_mt_history_world_desecration_modifier_desc: "Enables the §Y$MT_decision_desecrate_world$§! decision that can be used once on §Hancient worlds§! in order to create temporary §YArcheoengineer§! jobs. After the study is completed, a large amount of §RBlockers§! are created."
+ MT_decision_desecrate_world: "Destructive Study"
+ MT_decision_desecrate_world_desc: "Tear down this world's ruins in order to study them."
+ MT_desecration_research: "Destructive Study"
+ MT_desecration_research_desc: "This world's ruins is being torn down in order to study it."
+ MT_desecration_research_hive: "Destructive Study"
+ MT_desecration_research_hive_desc: "This world's ruins is being torn down in order to study it."
+ MT_desecration_research_machine: "Destructive Study"
+ MT_desecration_research_machine_desc: "This world's ruins is being torn down in order to study it."
+ MT_desecrated_planet: "Ruins of Ruins"
+ MT_desecrated_planet_desc: "Only very few ruins remain on this world, the rest having been torn down in a planet-wide study."
+ 
+ # Events
+ MT_events.7.name: "Study Finished"
+ MT_events.7.desc: "Our [Owner.GetResearchers] on [This.GetName] has finished their study of the [This.GetPlanetMoon]. Now very few ruins remain to study, but the sacrifice was worth it."
+ MT_events.7.a: "Our future looks brighter"
+ MT_events.9.name: "Artifacts Found"
+ MT_events.9.desc: "During our study of [This.GetName], we found a small amount of §Y$minor_artifacts$§!!"
+ MT_events.9.a: "A fine addition to our collection"
+ MT_events.10.name: "A Closer Look"
+ MT_events.10.desc: "During our study of [This.GetName], we have found something that may worth taking a closer look at."
+ MT_events.10.a: "Setup a dedicated study zone"
+ MT_events.10.b: "We cannot waste time on that"
+ MT_events.11.name: "Ancient Technology"
+ MT_events.11.desc: "During our study of [This.GetName], we have found a small cache containing technological information. Integrating this technology into our own should be easy due to the highly detailed nature of this data."
+ MT_events.11.a: "Great"
+
+ tr_mt_history_scavenger_sites: "Repurposed Relics"
+ tr_mt_history_scavenger_sites_delayed: "The ruins that litter the surface of $pc_nuked$s can easily be repurposed into livable envorionments."
+ 
+ 
+ # Grave Robbers
+ tr_mt_history_grave_robbers: "Grave Robbers"
+ tr_mt_history_grave_robbers_delayed: "Any enemy that has been defeated is a cause for celebration, even more so when the enemy is one those before us failed to defeat. It just means we're that much better."
+ tr_mt_history_grave_robbers_modifier_desc: "Scavenging or Researching debris from §YFallen Empire fleets§! sometimes grants you £minor_artifacts£ §Y$minor_artifacts$§!."
+ 
+ # Envy
+ tr_mt_history_envy: "Envy"
+ tr_mt_history_envy_delayed: "Seeing how the Fallen Empires waste their precious technology makes our people angry. This anger can be channeled into our war efforts, even when they have nothing to do with ancient sleepers."
+ tr_mt_history_envy_modifier_desc: "For each §RFallen Empire§!:\n- Ship Fire Rate: §G+7%§!\n- Ship Build Speed: §G+10%§!\n- Admiral Leader Cost: §G-20%§!"
+ 
+ # Relic-Snatchers
+ tr_mt_history_repurposed_relics: "Expropriation"
+ tr_mt_history_repurposed_relics_delayed: "Not every empire can see the true value in the relics of the past, instead prefering to put them on display and let them collect dust for millenia. If we had them, we'd put them to much better use."
+ tr_mt_history_repurposed_relics_modifier_desc: "Grants access to the §YRelic Theft§! wargoal."
+ opinion_MT_stole_relic: "Stole Relic"
+ war_goal_wg_MT_take_relic: "Seize Relic"
+ war_goal_wg_MT_take_relic_desc: "War is waged in order to relieve a lesser empire from the burden of safekeeping dangerous artefacts."
+ MT_relic_theft: "Relic Theft"
+ cb_MT_relic_envy: "Relic Envy"
+ casus_belli_cb_MT_relic_envy: "Relic Envy"
+ MT_no_relics: "It is impossible to steal relics from an empire with no relics."
+ 
+ MESSAGE_MT_STOLEN_RELIC: "Relic Stolen"
+ MESSAGE_MT_STOLEN_RELIC_TITLE: "Relic Stolen"
+ MESSAGE_TYPE_MT_STOLEN_RELIC_DESC: "Relic gained: [Owner.GetLastReceivedRelic]"
+ 
+ 
+ # Annihilation
+ 
+ 
+ tradition_mt_annihilation: "Malevolence"
+ tradition_mt_annihilation_desc: "Our enemies deserve no mercy."
+ tr_mt_annihilation_adopt: "Malevolence Traditions"
+ council_agenda_agenda_MT_finality_name: "Finality"
+ council_agenda_agenda_MT_finality_desc: "Their end is near."
+ #council_agenda_agenda_MT_finality: "Convert all §YMinor Artifacts§! £minor_artifacts£ in your possession into §YUnity§! £unity£ at a rate of 1:10."
+ agenda_MT_finality_finish: "Finality"
+ 
+ tr_mt_annihilation_extreme_force: "Extreme Force"
+ tr_mt_annihilation_extreme_force_delayed: "Common sense dictates that increasing your force by 25% will make it hurt 25% more."
+ tr_mt_annihilation_extreme_force_modifier_desc: "§G+25%§! Hostile Territory Fire Rate"
+ 
+ tr_mt_annihilation_beauty_of_annihilation: "Beauty of Annihilation"
+ tr_mt_annihilation_beauty_of_annihilation_delayed: "Their pleas for mercy, their crying and liquid flow from their optical sensors and their screams when they realize their prayers will not be answered is the sweetest music."
+ tr_mt_annihilation_beauty_of_annihilation_desc: "When a pop is killed by orbital bombardment: Gain 1 month worth of £unity£ §YUnity§!"
+ tr_mt_annihilation_beauty_of_annihilation_necromancers: "Beauty of Annihilation"
+ tr_mt_annihilation_beauty_of_annihilation_necromancers_delayed: "One life. One Death. Five lifetimes of work to be done."
+ tr_mt_annihilation_beauty_of_annihilation_necromancers_desc: "Purged organic §YPops§! £pop£ have a 20% chance of returning as zombies."
+ 
+ tr_mt_annihilation_fanatical_fervor: "Fanatical Fervor"
+ tr_mt_annihilation_fanatical_fervor_delayed: "We demand of our soldiers to never give up. The same extends to the rest of our empire."
+ 
+ tr_mt_annihilation_final_strike: "Final Strike"
+ tr_mt_annihilation_final_strike_delayed: "Those who show weakness must be eradicated."
+ tr_mt_annihilation_final_strike_desc: "Upon winning a war: §Rexecute§! the enemy ruler."
+ tr_mt_annihilation_final_strike_purifiers: "Quick Strike"
+ tr_mt_annihilation_final_strike_purifiers_delayed: "Those who oppose us must be eradicated."
+ 
+ tr_mt_annihilation_malevolence: "Malignance"
+ tr_mt_annihilation_malevolence_delayed: "The best way to get the captives in line is to set an example."
+ tr_mt_annihilation_malevolence_desc: "Invading a planet will kill up to 3 §Ypops§! £pop£, leaving at least one behind"
+ tr_mt_annihilation_malevolence_purifiers: "Annihilation"
+ tr_mt_annihilation_malevolence_purifiers_delayed: "The faster they die, the faster we reach our goals."
+ 
+ MT_events.24.name: "[From.GetName] kill [Root.GetRulerTitle]!"
+ MT_events.24.desc: "As if it wasn't enough for us to lose the war, the [From.GetName] decided to brutally murder our [This.GetRulerTitle] after [Ruler.GetHeShe] signed the peace deal.\nAfter this they declared it a term following our surrender, and warned us that any  future [This.GetRulerTitle] will suffer the same fate if we were to oppose them."
+ MT_events.24.desc.again: "As promised, the [From.GetName] once again brutally murdered our [This.GetRulerTitle] after the peace negotiations had concluded."
+ MT_events.24.a: "We are defeated and humiliated, but will rise again."
+ MT_events.24.a.tooltip: "§Y[This.GetRulerTitle] [rulername.GetName] §Rdies§!.§!"
+ 
+ # Mysticism
+ 
+ tradition_mt_mysticism: "Enigmatic"
+ tradition_mt_mysticism_desc: "Power comes from places where things are not like they are here."
+ tradition_mt_mysticism_desc_megacorp: "Power comes from places where things are not like they are here."
+ tradition_mt_mysticism_desc_hive: "Power comes from places where things are not like they are here."
+ tradition_mt_mysticism_desc_machine: "Power comes from places where things are not like they are here."
+ tr_mt_mysticism_adopt: "Enigmatic Traditions"
+ 
+ agenda_MT_mystic_ritual: "Veil of Secrecy"
+ agenda_MT_dark_ritual: "Dark Ritual"
+ agenda_MT_dark_ritual_finish: "Dark Ritual"
+ council_agenda_agenda_MT_mystic_ritual_effect: "Every Empire: §G-50§! Intel\n"
+ council_agenda_agenda_MT_dark_ritual_name: "Dark Ritual"
+ council_agenda_agenda_MT_dark_ritual_desc: "Through special rituals we can communicate in the ways of those beyond our comprehension"
+ council_agenda_agenda_MT_mystic_ritual_name: "Veil of Secrecy"
+ council_agenda_agenda_MT_mystic_ritual_desc: "Our matters does not concern the rest of the galaxy. By flooding our communication channels with false reports and messages we can conceal our true intentions."
+ agenda_MT_mystic_ritual_finish: "Veil of Secrecy"
+ 
+ tr_mt_mysticism_shroud: "Shroud"
+ tr_mt_mysticism_shroud_delayed: "Darkness hides the true horrors. We hide in places which have never caught the glimpse of sunlight."
+ tr_mt_mysticism_elections: "Interference"
+ tr_mt_mysticism_elections_delayed: "All the citizens of our empire understands the importance of keeping sensitive information to themselves."
+ #tr_mt_mysticism_elections_delayed: "Leaving things to chance is the ultimate form of trickery. Our opposition will not be able to predict out next move if we do not know it ourselves."
+ #tr_mt_mysticism_elections: "Interference"
+ #tr_mt_mysticism_elections_delayed: "We let the will of the unknown hold sway over our minds, and through the guidance of otherworldly voices we ensure our motives are as obscure as our mysterious shepherds."
+ #tr_mt_mysticism_messenger: "Cosmic Messengers"
+ #tr_mt_mysticism_messenger_delayed: "Those touched by the great beyond learns things that would make lesser minds break."
+ #tr_mt_mysticism_messenger_desc: "Your leaders have a chance of spawning with the $mt_mystic_leader$ trait.\n$mt_mystic_leader$s ascend to a higher plane once they reach their maximum potential, granting permanent bonuses."
+ tr_mt_mysticism_messenger: "Vanishing Act"
+ tr_mt_mysticism_messenger_delayed: "Those we do not wish to indugle our secrets with will understand that they cannot understand us."
+ #tr_mt_mysticism_messenger_desc: "§YUnlocks Agenda:§! $agenda_MT_mystic_ritual$"
+ tr_mt_mysticism_hardening: "Otherworldy Protection"
+ tr_mt_mysticism_hardening_delayed: "To others it may look like we are beyond the natural laws of the universe."
+ #tr_mt_mysticism_hardening_delayed: "We call upon powers beyond our comprehension to protect us from our enemies!"
+ tr_mt_mysticism_synthesis_no_cloaking: "Otherworldly Senses"
+ tr_mt_mysticism_synthesis_no_cloaking_delayed: "Strange tides wash over our senses, filling our eyes with visions from far away."
+ tr_mt_mysticism_synthesis: "Element of Surprise"
+ tr_mt_mysticism_synthesis_delayed: "Our navy has adapted to strategies involving patiantly waiting for the perfect moment to strike."
+ tr_mt_mysticism_synthesis_desc: "Recently uncloaked fleets: §G+50%§! Fire Rate"
+ 
+ mt_surprise_attack_modifier: "Surprise!"
+ #tr_mt_mysticism_zro_synthesis: "Synthesis"
+ #tr_mt_mysticism_zro_synthesis_desc: "It should be possible to synthesise more zro through the applications of ritualistic sacrifices"
+ #tr_mt_mysticism_zro_sacrifice: "Call of the Void"
+ #tr_mt_mysticism_zro_sacrifice_delayed: "Every one of us holds a tiny sliver of power. We can concentrate this power if we so wish."
+ #tr_mt_mysticism_zro_sacrifice_desc: "§YUnlocks Edict§!: $edict_mt_zro_sacrifice$"
+ 
+ #edict_mt_zro_sacrifice: "Sacrifice: Awakening"
+ #edict_mt_zro_sacrifice_desc: "The most devout amongst us are prepared to meet their fate, bringing forth eldritch powers who have slumbered for too long!"
+ #edict_mt_zro_sacrifice_tooltip: "§RKills all £job_mortal_initiate£ $job_mortal_initiate_plural$.§! Each one sacrificed increases the odds of additional gains in £zro£ Zro. $edict_mt_zro_sacrifice_boost$"
+ #edict_mt_zro_sacrifice_boost: "\n\nCauses $ the £unity£ Unity output of £job_death_priest£ $job_death_priest_plural$ while the edict is in effect.\n"
+ #edict_mt_mysticism_dark_ritual: "Enegmatic Rituals"
+ #edict_mt_mysticism_dark_ritual_tooltip: "Leaders with the $mt_mystic_leader$ trait gets extra bonuses.\n§R+50%§! risk of insanity."
+ 
+ 
+ #mt_mystic_leader: "Herald"
+ #mt_mystic_leader_desc: "It burns!"
+ #leader_trait_mt_mystic_leader_effect: "$agenda_MT_mystic_ritual$ Agenda Speed: §G+50%§!"
+ 
+ # Justice
+ tradition_mt_justice: "Justice"
+ tradition_mt_justice_desc: "Those who define the laws are always on the right side of it."
+ tr_mt_justice_adopt: "Justice Traditions"
+ 
+ agenda_MT_justice: "Public Punishments"
+ council_agenda_agenda_MT_justice_name: "Public Punishments"
+ council_agenda_agenda_MT_justice_desc: "Everyone must abide by our law! Extra focus on catching lawbreakers and public shaming of those caught should help keep the rest in line."
+ agenda_MT_justice_finish: "Public Punishments"
+ 
+ tr_mt_justice_punishment: "Justified Penalties"
+ tr_mt_justice_punishment_delayed: "Without laws there is no civilization. Without penalties, there is no law."
+ tr_mt_justice_punishment_desc: "Voting Strength on §YGalactic Sanctions§! Resolutions: §G+50%§!"
+ tr_mt_justice_punishment_purifiers: "Justified Punishment"
+ tr_mt_justice_punishment_purifiers_delayed: "Death is the only sentence we give the vile xeno's that has tainted our galaxy."
+ tr_mt_justice_law: "Improved Bureaucracy"
+ tr_mt_justice_law_delayed: "Our improved bureaucratic apparatus has the capacity to suggest and ratify laws faster than ever before."
+ tr_mt_justice_order: "None Above the Law"
+ tr_mt_justice_order_delayed: "Our citizens are constantly reminded of the necessity of complying with the law, and they constantly reminds us that we are not above the law either."
+ tr_mt_justice_order_effects: "While not in breach of any galactic law: §G+5%§! £happiness£ Happiness and §G+10%§! £unity£ monthly unity."
+ #\n$mod_damage_vs_country_type_pirate_mult$: §G+25%§!"
+ tr_mt_justice_order_purifiers: "Outcast Purification"
+ tr_mt_justice_order_purifiers_delayed: "Those who do not comply with our rule are beyond our protection."
+ tr_mt_justice_leader_conditioning: "Burden of Power"
+ tr_mt_justice_leader_conditioning_delayed: "With great power comes great responsebilities. Only those with clean records and an unwavering sense of justice are allowed to rise to the upper echelons of our society."
+ tr_mt_justice_enforcer_celebration: "Pillars of Justice"
+ tr_mt_justice_enforcer_celebration_delayed: "Our empire idolizes those who upholds our laws, giving them the authority they need to conduct their work."
+ 
+ #tr_justice_finish_desc: ""
+ 
+ # Swarm
+ 
+ tradition_mt_swarm: "Swarm"
+ tradition_mt_swarm_desc: "We are the void between the stars, the endless swarm that hunts without pause."
+ tr_mt_swarm_adopt: "Swarm Traditions"
+ 
+ agenda_MT_swarm: "Endless Legions"
+ council_agenda_agenda_MT_swarm_name: "Endless Legions"
+ council_agenda_agenda_MT_swarm_desc: "We pour out in endless droves, overwhelming our opposition by drowning them out with sheer numbers."
+ agenda_MT_swarm_finish: "Endless Legions"
+ 
+ tr_mt_swarm_thousand_cuts: "A Thousand Cuts"
+ tr_mt_swarm_thousand_cuts_delayed: "A single wound may not seem like a lot, but a thousand of them can bleed your quarry dry."
+ 
+ tr_mt_swarm_feast: "Feast"
+ tr_mt_swarm_feast_delayed: "We feast upon the corpses of our enemies, granting us the energy needed to pursue their fleeing remnants."
+ tr_mt_swarm_feast_effects: "Every Enemy Empire Ship Destroyed:\n$tt$Random Ship in £military_ship£ §YFleet§!: §G+50%§! $MOD_SHIP_WEAPON_DAMAGE$ for 90 days"
+ 
+ tr_mt_swarm_always_more: "Always More"
+ tr_mt_swarm_always_more_delayed: "When one falls, another takes its place. We are reinvigorated by our fallen allies, and push on so their sacrifice won't be in vain."
+ tr_mt_swarm_always_more_effects: "Every Friendly Empire Ship Destroyed:\n$tt$Random Ship in £military_ship£ §YFleet§!: §G10%§! £ship_stats_hitpoints£ Hull Points Restored"
+ 
+ tr_mt_swarm_endless_pursuit: "Endless Pursuit"
+ tr_mt_swarm_endless_pursuit_delayed: "We will hunt our prey to the ends of the galaxy, and beyond of necessary!"
+ 
+ tr_mt_swarm_ambush: "Ambush"
+ tr_mt_swarm_ambush_delayed: "Their forces are sent reeling when we show up in the middle of their ranks, ready to rip them apart."
+ tr_mt_swarm_ambush_effects: "When a fleet you control uncloaks:\n$tt$Every Enemy £military_ship£ §YFleet§! in the same system: §R-20%§! £ship_stats_speed£ $SHIP_STAT_SPEED$ for 180 days"
+ 
+ tr_mt_swarm_ambush_no_cloaking: "A Thousand Eyes"
+ tr_mt_swarm_ambush_no_cloaking_delayed: "We have learnt how to communicate efficiently even in large formations."
+ 
+ # Modifiers
+ mt_feast_modifier: "Reinvigorated"
+ mt_ambush_modifier: "Scared Senseless"
+ 
+ # Observant
+ 
+ agenda_MT_long_range_communication_finish: "Long Range Communication"
+ 
+ # Test
+ #MT_events.32.name: "Fleet Detected!"
+ #MT_events.32.desc: "The fleet [From.GetName] was spotted in the [From.solar_system.GetName] System!"
+ 

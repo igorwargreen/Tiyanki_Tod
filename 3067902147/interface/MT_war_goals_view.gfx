@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_wg_MT_take_relic"
+		texturefile = "gfx/interface/icons/diplomacy/diplomacy_closed_borders.dds"
+	}
+}

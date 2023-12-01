@@ -1,0 +1,31 @@
+tradition_mt_annihilation = {
+	tree_template = "tree_111_11"
+	adoption_bonus = "tr_mt_annihilation_adopt"
+	finish_bonus = "tr_mt_annihilation_finish"
+	traditions = {
+		"tr_mt_annihilation_fanatical_fervor"
+		"tr_mt_annihilation_extreme_force"
+		"tr_mt_annihilation_final_strike"
+		"tr_mt_annihilation_malevolence"
+		"tr_mt_annihilation_beauty_of_annihilation"
+	}
+
+	potential = {
+	}
+
+	ai_weight = {
+		factor = 1
+		modifier = {
+			factor = 10
+			is_homicidal = yes
+		}
+		modifier = {
+			factor = 0.5
+			has_ethic = ethic_xenophile
+		}
+		modifier = {
+			factor = 0.25
+			has_ethic = ethic_fanatic_xenophile
+		}
+	}
+}

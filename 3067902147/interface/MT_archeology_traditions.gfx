@@ -1,0 +1,71 @@
+spriteTypes = {
+
+	### Archeology
+
+	## New tradition category gfx names
+
+	spriteType = {
+		name = "GFX_tradition_hex_bg_tradition_mt_archeology"
+		textureFile = "gfx/interface/traditions/tradition_hex_bg_mt_archeology.dds"
+	}
+
+	# Backgrounds
+
+	spriteType = {
+		name = "GFX_tradition_category_bg_tradition_mt_archeology"
+		textureFile = "gfx/interface/tiles/tradition_category_tile_mt_archeology.dds"
+	}
+
+	# Tiles
+
+	corneredTileSpriteType = {
+		name = "GFX_tradition_category_tile_tradition_mt_archeology"
+		textureFile = "gfx/interface/tiles/tradition_category_tile_mt_archeology.dds"
+		borderSize = { x=140 y=140 }
+		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+	}
+
+	### TRADITION CATEGORY ICONS ###
+
+	spriteType = {
+		name = "GFX_tradition_category_icon_tradition_mt_archeology"
+		textureFile = "gfx/interface/icons/traditions/tree_icons/tradition_icon_mt_archeology.dds"
+	}
+
+	### TRADITION ICONS ###
+
+	### ARCHEOLOGY ###
+
+	spriteType = {
+		name = "GFX_tr_mt_archeology_museums"
+		textureFile = "gfx/interface/icons/traditions/tradition_mt_archeology_museums.dds"
+	}
+
+	spriteType = {
+		name = "GFX_tr_mt_archeology_private_collector_appropriation"
+		textureFile = "gfx/interface/icons/traditions/tradition_mt_archeology_private_collector_appropriation.dds"
+	}
+	spriteType = {
+		name = "GFX_tr_mt_archeology_remember_the_past"
+		textureFile = "gfx/interface/icons/traditions/tradition_mt_archeology_remember_the_past.dds"
+	}
+	spriteType = {
+		name = "GFX_tr_mt_archeology_ancient_protocols"
+		textureFile = "gfx/interface/icons/traditions/tradition_mt_archeology_ancient_protocols.dds"
+	}
+	spriteType = {
+		name = "GFX_tr_mt_archeology_history_lessons"
+		textureFile = "gfx/interface/icons/traditions/tradition_mt_archeology_history_lessons.dds"
+	}
+
+	spriteType = {
+		name = "GFX_tr_mt_archeology_archeological_training"
+		textureFile = "gfx/interface/icons/traditions/tradition_mt_archeology_archeological_training.dds"
+	}
+
+	spriteType = {
+		name = "GFX_tr_mt_archeology_respect_the_dead"
+		textureFile = "gfx/interface/icons/traditions/tradition_mt_archeology_media_coverage.dds"
+	}
+
+}

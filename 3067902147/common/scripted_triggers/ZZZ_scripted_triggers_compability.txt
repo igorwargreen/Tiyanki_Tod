@@ -1,0 +1,5 @@
+# its own trigger
+has_hydras_more_traditions_active = {
+    optimize_memory
+    always = yes
+}

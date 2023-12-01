@@ -1,0 +1,24 @@
+tradition_mt_envy = {
+	tree_template = "tree_11_11_21"
+	adoption_bonus = "tr_mt_envy_adopt"
+	finish_bonus = "tr_mt_envy_finish"
+	traditions = {
+		"tr_mt_envy_shiny_gadgets"
+		"tr_mt_envy_debris_collectors"
+		"tr_mt_envy_highways"
+		"tr_mt_envy_debris_creators"
+		"tr_mt_envy_expanded_workforce"
+	}
+
+	potential = {
+		is_gestalt = no # Maybe make a different agenda for gestalts? And then have swaps to get other names and descriptions so it fits hives and machines. And swap for fanatic purifiers
+	}
+
+	ai_weight = {
+		factor = 5
+		modifier = {
+			factor = 0
+			is_homicidal = yes
+		}
+	}
+}

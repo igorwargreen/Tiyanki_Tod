@@ -1,0 +1,16 @@
+##########################################################################
+# HARD FIXED STATE - DO NOT REMOVE OR RENAME ANY OF THESE
+##########################################################################
+
+opinion_MT_stole_relic = {
+	opinion = {
+		base = -200
+	}
+
+	decay = {
+		base = 0.5
+		modifier = {
+			factor = value:negative_opinion_decay_rate
+		}
+	}
+}

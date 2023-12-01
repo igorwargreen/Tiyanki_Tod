@@ -1,0 +1,60 @@
+spriteTypes = {
+
+	### History
+
+	## New tradition category gfx names
+
+	spriteType = {
+		name = "GFX_tradition_hex_bg_tradition_mt_history"
+		textureFile = "gfx/interface/traditions/tradition_hex_bg_subterfuge.dds"
+	}
+
+	# Backgrounds
+
+	spriteType = {
+		name = "GFX_tradition_category_bg_tradition_mt_history"
+		textureFile = "gfx/interface/tiles/tradition_category_tile_mt_history.dds"
+	}
+
+	# Tiles
+
+	corneredTileSpriteType = {
+		name = "GFX_tradition_category_tile_tradition_mt_history"
+		textureFile = "gfx/interface/tiles/tradition_category_tile_mt_history.dds"
+		borderSize = { x=140 y=140 }
+		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+	}
+
+	### TRADITION CATEGORY ICONS ###
+
+	spriteType = {
+		name = "GFX_tradition_category_icon_tradition_mt_history"
+		textureFile = "gfx/interface/icons/traditions/tree_icons/tradition_icon_mt_history.dds"
+	}
+
+	### TRADITION ICONS ###
+
+	### HISTORY ###
+
+	spriteType = {
+		name = "GFX_tr_mt_history_envy"
+		textureFile = "gfx/interface/icons/traditions/tradition_mt_history_envy.dds"
+	}
+
+	spriteType = {
+		name = "GFX_tr_mt_history_world_desecration"
+		textureFile = "gfx/interface/icons/traditions/tradition_mt_history_world_desecration.dds"
+	}
+	spriteType = {
+		name = "GFX_tr_mt_history_scavenger_sites"
+		textureFile = "gfx/interface/icons/traditions/tradition_mt_history_artifact_dismantling.dds"
+	}
+	spriteType = {
+		name = "GFX_tr_mt_history_grave_robbers"
+		textureFile = "gfx/interface/icons/traditions/tradition_mt_history_grave_robbers.dds"
+	}
+	spriteType = {
+		name = "GFX_tr_mt_history_repurposed_relics"
+		textureFile = "gfx/interface/icons/traditions/tradition_mt_history_repurposed_relics.dds"
+	}
+}

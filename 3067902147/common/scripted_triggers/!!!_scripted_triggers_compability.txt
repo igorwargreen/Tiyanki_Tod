@@ -1,0 +1,5 @@
+# Forgotten History
+has_forgotten_history_active = {
+    optimize_memory
+    always = no
+}
