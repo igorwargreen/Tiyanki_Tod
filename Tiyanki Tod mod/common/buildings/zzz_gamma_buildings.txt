@@ -93,7 +93,7 @@ building_clone_vats = {
 				exists = owner
 				owner = { is_lithoid_empire = yes }
 			}
-			minerals = 60
+			minerals = 40
 		}
 	}
 
