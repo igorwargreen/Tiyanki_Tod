@@ -1,0 +1,48 @@
+artifact_MT_buy_cooldown = {
+	icon = "gfx/interface/icons/modifiers/mod_relic_cooldown.dds"
+}
+
+artifact_MT_enegmatic_recharge_cooldown = {
+	icon = "gfx/interface/icons/modifiers/mod_relic_cooldown.dds"
+}
+
+MT_desecration_research = {
+	icon = "gfx/interface/icons/planet_modifiers/pm_factory.dds"
+	job_archaeoengineers_add = 3
+}
+
+MT_desecration_research_hive = {
+	icon = "gfx/interface/icons/planet_modifiers/pm_factory.dds"
+	job_archaeo_drone_add = 3
+}
+
+MT_desecration_research_machine = {
+	icon = "gfx/interface/icons/planet_modifiers/pm_factory.dds"
+	job_archaeo_unit_add = 3
+}
+
+MT_desecrated_planet = {
+	icon = "gfx/interface/icons/planet_modifiers/pm_factory.dds"
+}
+
+artifact_MT_extract_resources_cooldown = {
+	icon = "gfx/interface/icons/modifiers/mod_relic_cooldown.dds"
+}
+
+MT_urban_finish_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/pm_unknown.dds"
+	icon_frame = 1
+	planet_jobs_produces_mult = 0.1
+}
+
+mt_surprise_attack_modifier = {
+	ship_fire_rate_mult = 0.5
+}
+
+mt_feast_modifier = {
+	ship_weapon_damage = 0.5
+}
+
+mt_ambush_modifier = {
+	ship_speed_reduction = 0.2
+}

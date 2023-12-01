@@ -1,0 +1,46 @@
+##################################
+# Scripted Effects
+##################################
+
+MT_give_next_ftl_tech_option_effect = {
+	if = {
+		limit = { NOT = { has_technology = tech_hyper_drive_2 } }
+		add_research_option = tech_hyper_drive_2
+		add_tech_progress = {
+			tech = tech_hyper_drive_2
+			progress = 0.25
+		}
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_hyper_drive_3 } }
+		add_research_option = tech_hyper_drive_3
+		add_tech_progress = {
+			tech = tech_hyper_drive_3
+			progress = 0.25
+		}
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_wormhole_stabilization } }
+		add_research_option = tech_wormhole_stabilization
+		add_tech_progress = {
+			tech = tech_wormhole_stabilization
+			progress = 0.25
+		}
+	}
+	else_if = {
+		limit = { NOT = { has_technology = tech_jump_drive_1 } }
+		add_research_option = tech_jump_drive_1
+		add_tech_progress = {
+			tech = tech_jump_drive_1
+			progress = 0.25
+		}
+	}
+	else = {
+		add_monthly_resource_mult = {
+			resource = physics_research
+			value = @tier3researchreward
+			min = @tier3researchmin
+			max = @tier3researchmax
+		}
+	}
+}

@@ -1,0 +1,64 @@
+spriteTypes = {
+
+	### swarm
+
+	## New tradition category gfx names
+
+	spriteType = {
+		name = "GFX_tradition_hex_bg_tradition_mt_swarm"
+		textureFile = "gfx/interface/traditions/tradition_hex_bg_mt_swarm.dds"
+	}
+
+	# Backgrounds
+
+	spriteType = {
+		name = "GFX_tradition_category_bg_tradition_mt_swarm"
+		textureFile = "gfx/interface/tiles/tradition_category_tile_mt_swarm.dds"
+	}
+
+	# Tiles
+
+	corneredTileSpriteType = {
+		name = "GFX_tradition_category_tile_tradition_mt_swarm"
+		textureFile = "gfx/interface/tiles/tradition_category_tile_mt_swarm.dds"
+		borderSize = { x=140 y=140 }
+		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+	}
+
+	### TRADITION CATEGORY ICONS ###
+
+	spriteType = {
+		name = "GFX_tradition_category_icon_tradition_mt_swarm"
+		textureFile = "gfx/interface/icons/traditions/tree_icons/tradition_icon_mt_swarm.dds"
+	}
+
+	### TRADITION ICONS ###
+
+	### swarm ###
+
+	spriteType = {
+		name = "GFX_tr_mt_swarm_thousand_cuts"
+		textureFile = "gfx/interface/icons/traditions/tradition_mt_swarm_thousand_cuts.dds"
+	}
+
+	spriteType = {
+		name = "GFX_tr_mt_swarm_feast"
+		textureFile = "gfx/interface/icons/traditions/tradition_mt_swarm_feast.dds"
+	}
+	spriteType = {
+		name = "GFX_tr_mt_swarm_always_more"
+		textureFile = "gfx/interface/icons/traditions/tradition_mt_swarm_always_more.dds"
+	}
+	spriteType = {
+		name = "GFX_tr_mt_swarm_endless_pursuit"
+		textureFile = "gfx/interface/icons/traditions/tradition_mt_swarm_endless_pursuit.dds"
+	}
+	spriteType = {
+		name = "GFX_tr_mt_swarm_ambush"
+		textureFile = "gfx/interface/icons/traditions/tradition_mt_swarm_ambush.dds"
+	}
+	spriteType = {
+		name = "GFX_tr_mt_swarm_ambush_no_cloaking"
+		textureFile = "gfx/interface/icons/traditions/tradition_mt_swarm_ambush_no_cloaking.dds"
+	}
+}

@@ -1,0 +1,60 @@
+spriteTypes = {
+
+	### urban
+
+	## New tradition category gfx names
+
+	spriteType = {
+		name = "GFX_tradition_hex_bg_tradition_mt_urban"
+		textureFile = "gfx/interface/traditions/tradition_hex_bg_mt_urban.dds"
+	}
+
+	# Backgrounds
+
+	spriteType = {
+		name = "GFX_tradition_category_bg_tradition_mt_urban"
+		textureFile = "gfx/interface/tiles/tradition_category_tile_mt_urban.dds"
+	}
+
+	# Tiles
+
+	corneredTileSpriteType = {
+		name = "GFX_tradition_category_tile_tradition_mt_urban"
+		textureFile = "gfx/interface/tiles/tradition_category_tile_mt_urban.dds"
+		borderSize = { x=140 y=140 }
+		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+	}
+
+	### TRADITION CATEGORY ICONS ###
+
+	spriteType = {
+		name = "GFX_tradition_category_icon_tradition_mt_urban"
+		textureFile = "gfx/interface/icons/traditions/tree_icons/tradition_icon_mt_urban.dds"
+	}
+
+	### TRADITION ICONS ###
+
+	### HISTORY ###
+
+	spriteType = {
+		name = "GFX_tr_mt_urban_oversight"
+		textureFile = "gfx/interface/icons/traditions/tradition_mt_urban_oversight.dds"
+	}
+
+	spriteType = {
+		name = "GFX_tr_mt_urban_effective_planning"
+		textureFile = "gfx/interface/icons/traditions/tradition_mt_urban_effective_planning.dds"
+	}
+	spriteType = {
+		name = "GFX_tr_mt_urban_compression"
+		textureFile = "gfx/interface/icons/traditions/tradition_mt_urban_compression.dds"
+	}
+	spriteType = {
+		name = "GFX_tr_mt_urban_trusted_caretakers"
+		textureFile = "gfx/interface/icons/traditions/tradition_mt_urban_trusted_caretakers.dds"
+	}
+	spriteType = {
+		name = "GFX_tr_mt_urban_highways"
+		textureFile = "gfx/interface/icons/traditions/tradition_mt_urban_highways.dds"
+	}
+}

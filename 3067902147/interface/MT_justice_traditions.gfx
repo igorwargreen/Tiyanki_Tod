@@ -1,0 +1,60 @@
+spriteTypes = {
+
+	### justice
+
+	## New tradition category gfx names
+
+	spriteType = {
+		name = "GFX_tradition_hex_bg_tradition_mt_justice"
+		textureFile = "gfx/interface/traditions/tradition_hex_bg_mt_justice.dds"
+	}
+
+	# Backgrounds
+
+	spriteType = {
+		name = "GFX_tradition_category_bg_tradition_mt_justice"
+		textureFile = "gfx/interface/tiles/tradition_category_tile_mt_justice.dds"
+	}
+
+	# Tiles
+
+	corneredTileSpriteType = {
+		name = "GFX_tradition_category_tile_tradition_mt_justice"
+		textureFile = "gfx/interface/tiles/tradition_category_tile_mt_justice.dds"
+		borderSize = { x=140 y=140 }
+		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+	}
+
+	### TRADITION CATEGORY ICONS ###
+
+	spriteType = {
+		name = "GFX_tradition_category_icon_tradition_mt_justice"
+		textureFile = "gfx/interface/icons/traditions/tree_icons/tradition_icon_mt_justice.dds"
+	}
+
+	### TRADITION ICONS ###
+
+	### justice ###
+
+	spriteType = {
+		name = "GFX_tr_mt_justice_punishment"
+		textureFile = "gfx/interface/icons/traditions/tradition_mt_justice_punishment.dds"
+	}
+
+	spriteType = {
+		name = "GFX_tr_mt_justice_law"
+		textureFile = "gfx/interface/icons/traditions/tradition_mt_justice_law.dds"
+	}
+	spriteType = {
+		name = "GFX_tr_mt_justice_order"
+		textureFile = "gfx/interface/icons/traditions/tradition_mt_justice_order.dds"
+	}
+	spriteType = {
+		name = "GFX_tr_mt_justice_enforcer_celebration"
+		textureFile = "gfx/interface/icons/traditions/tradition_mt_justice_enforcer_celebration.dds"
+	}
+	spriteType = {
+		name = "GFX_tr_mt_justice_leader_conditioning"
+		textureFile = "gfx/interface/icons/traditions/tradition_mt_justice_leader_conditioning.dds"
+	}
+}

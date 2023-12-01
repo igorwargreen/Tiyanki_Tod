@@ -1,0 +1,10 @@
+Name (Localized name): About
+
+Movement (): Focuses on movement, hyper relays and interconnectivity in the empire
+
+Space Mining (): Focuses on extracting resources from space
+
+Urbanization (): Focuses on concentrating pops on large worlds
+Bonuses: + district build speed, +max districts, + leader cap / governor cap
+
+Envy (): Focuses on stealing and getting better stuff the more empires are ahead of you

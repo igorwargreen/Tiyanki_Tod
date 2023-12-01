@@ -1,0 +1,216 @@
+
+# Triggers when the game starts
+on_game_start = {
+	events = {
+		MT_gamestart.9999 # set global flag hydras_more_traditions_installed
+	}
+}
+
+# Fired when a science ship succesfully analyzed or scavenged debris
+# this = country
+# from = debris
+# fromfrom = controller of destroyed ship
+on_debris_scavenged = {
+	events = {
+		MT_events.12 # Artifacts from fallen empire debris
+		MT_events.16 # Unity from scavenging debris
+	}
+}
+
+# Fired when a science ship succesfully analyzed or scavenged debris
+# this = country
+# from = debris
+# fromfrom = controller of destroyed ship
+on_debris_researched = {
+	events = {
+		MT_events.12 # Artifacts from fallen empire debris
+		MT_events.16 # Unity from scavenging debris
+	}
+}
+
+# Fired when a science ship succesfully analyzed or scavenged debris
+# this = country
+# from = debris
+# fromfrom = controller of destroyed ship
+on_debris_scavenged_and_researched = {
+	events = {
+		MT_events.12 # Artifacts from fallen empire debris
+		MT_events.16 # Unity from scavenging debris
+	}
+}
+
+on_decade_pulse_country = {
+	events = {
+		MT_events.4 # arcsite spawn
+	}
+}
+
+on_arch_site_finished = {
+	events = {
+		MT_events.5 # Archaeology tradition
+	}
+}
+
+# A fleet executes a move order to exit borders
+# Scope = Fleet
+# From = Origin System
+# FromFrom = Destination System
+on_crossing_border = {
+	events = {
+		MT_events.13
+	}
+}
+
+# A war has been won
+# Root = Winner Warleader
+# From = Loser Warleader
+# FromFrom = War
+on_war_won = {
+	events = {
+		MT_events.14 # Envy Agenda
+		MT_events.23 # Annihilation Final Strike Tradition
+	}
+}
+
+#You have changed the location of your capital. Also called when a country's capital is first set e.g. during galaxy creation (but then FROM is not set)
+#this/root = new capital
+#from = old capital
+on_capital_changed = {
+	events = {
+		MT_events.15
+	}
+}
+
+# Triggers country_event for the attacker upon victory (before controller is switched)
+# This = country, lead attacker
+# From = country, planet owner
+# FromFrom = planet
+# 'Attacker' is the side that "IsHostile" to the planet controller. For example: spawned monster armies are attackers, but if they win and the player attempts to retake the planet, the player is the attacker
+on_planet_attackers_win = {
+	events = {
+		MT_events.17	# Envy Expanded Workforce Tradition
+		MT_events.21	# Annihilation Malevolence Tradition
+	}
+}
+
+# A pop has finished purging
+# This = Planet scope
+# From = Country
+# FromFrom = Pop
+on_pop_purged = {
+	events = {
+		MT_events.18	# Gain unity for purging as fanatic purifiers with envy traditions
+		MT_events.25	# Annihilation Beauty of Annihilation Tradition
+	}
+}
+
+# A leader is added to the leader pool, available for recruitment
+# scope: country, from: leader
+on_added_to_leader_pool = {
+	events = {
+		MT_events.19 # Envy Finisher
+		#MT_events.27 # Mystic Messengers
+	}
+}
+
+# This = Country
+on_relic_activated = {
+	events = {
+		MT_events.20 # 
+	}
+}
+
+# Executed just after country has established communications with another country
+# This = Planet where the pop was bombed to death
+# From = Country which is raining down fire and brimstone
+on_pop_bombed_to_death = {
+	events = {
+		MT_events.26 # Beauty of Annihilation
+	}
+}
+
+# Pop is abducted by raiding stance
+# This = Pop scope
+# From = planet abducted from
+on_pop_abducted = {
+	events = {
+		#MT_events.30 # Beauty of Annihilation raiding stance swap
+	}
+}
+
+on_monthly_pulse = {
+	events = {
+		#MT_events.27	# Mystic Power Increase
+	}
+}
+
+# A leader leveled up.
+# Scope = Country
+# From = Leader
+on_leader_level_up = {
+	events = {
+		#MT_events.28 # Enegmatic Leaders Fate
+	}
+}
+
+# Fired when a fleet activates cloaking
+# This = Fleet
+#on_cloaking_activated = {
+#	events = {
+#		
+#	}
+#}
+
+# Fired when cloaking is deactivated for a fleet (voluntarily or involuntarily)
+# This = Fleet
+on_cloaking_deactivated = {
+	events = {
+		MT_events.29 # Enigmatic Element of Surprise
+		MT_events.32 # Swarm Ambush
+	}
+}
+
+# A fleet has successfully escaped from combat, executed right before the fleet enters FTL
+# This = escaping fleet
+# From = system escaped from
+# FromFrom = system escaping to
+#on_emergency_ftl = {
+#	events = {
+#	}
+#}
+
+# This = owner of ship 1 (destroyed)
+# From = owner of ship 2 (combatant)
+# FromFrom = ship 1
+# FromFromFrom = ship 2
+on_ship_destroyed_victim = {
+	events = {
+		MT_events.30 # Always More
+	}
+}
+
+# This = owner of ship 1 (combatant)
+# From = owner of ship 2 (destroyed)
+# FromFrom = ship 1
+# FromFromFrom = ship 2
+on_ship_destroyed_perp = {
+	events = {
+		MT_events.31 # Feast
+	}
+}
+
+# This = Country
+# From = Fleet
+#on_fleet_detected = {
+#	events = {
+#		MT_events.32
+#	}
+#}
+
+#This = destroyed country
+#From = optional, destroyer (country)
+on_country_destroyed = {
+	events = {
+		MT_events.33 # Purifiers unity from destroying empires
+	}
+}

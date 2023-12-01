@@ -1,0 +1,147 @@
+defined_text = {
+ 	name = num_MT_owned_relics
+ 	value = value:num_MT_owned_relics
+}
+
+defined_text = { # Country/leader/pop/species scope
+	name = GetMTCustodianPrethorynQueenEffects
+ 	text = {
+ 		localization_key = MT_Custodian_PrethorynQueen_Effect	#The loc key used if this text entry is picked.
+ 		trigger = {							#Triggers that determine if this text entry can be picked.
+			has_relic = r_prethoryn_queen
+ 		}
+ 	}
+	default = MT_NO_RELIC_TEXT
+}
+
+defined_text = { # Country/leader/pop/species scope
+	name = GetMTCustodianUnbiddenWarlockEffects
+ 	text = {
+ 		localization_key = MT_Custodian_UnbiddenWarlock_Effect	#The loc key used if this text entry is picked.
+ 		trigger = {							#Triggers that determine if this text entry can be picked.
+			has_relic = r_unbidden_warlock
+ 		}
+ 	}
+	default = MT_NO_RELIC_TEXT
+}
+
+defined_text = { # Country/leader/pop/species scope
+	name = GetMTCustodianContingencyCoreEffects
+ 	text = {
+ 		localization_key = MT_Custodian_ContingencyCore_Effect	#The loc key used if this text entry is picked.
+ 		trigger = {							#Triggers that determine if this text entry can be picked.
+			has_relic = r_contingency_core
+ 		}
+ 	}
+	default = MT_NO_RELIC_TEXT
+}
+
+defined_text = { # Country/leader/pop/species scope
+	name = GetMTCustodianZroCrystalEffects
+ 	text = {
+ 		localization_key = MT_Custodian_ZroCrystal_Effect	#The loc key used if this text entry is picked.
+ 		trigger = {							#Triggers that determine if this text entry can be picked.
+			has_relic = r_zro_crystal
+ 		}
+ 	}
+	default = MT_NO_RELIC_TEXT
+}
+
+defined_text = { # Country/leader/pop/species scope
+	name = GetMTCustodianTheLastBaolEffects
+ 	text = {
+ 		localization_key = MT_Custodian_TheLastBaol_Effect	#The loc key used if this text entry is picked.
+ 		trigger = {							#Triggers that determine if this text entry can be picked.
+			has_relic = r_the_last_baol
+ 		}
+ 	}
+	default = MT_NO_RELIC_TEXT
+}
+
+defined_text = { # Country/leader/pop/species scope
+	name = GetMTCustodianRealityPerforatorEffects
+ 	text = {
+ 		localization_key = MT_Custodian_RealityPerforator_Effect	#The loc key used if this text entry is picked.
+ 		trigger = {							#Triggers that determine if this text entry can be picked.
+			has_relic = r_reality_perforator
+ 		}
+ 	}
+	default = MT_NO_RELIC_TEXT
+}
+
+defined_text = { # Country/leader/pop/species scope
+	name = GetMTCustodianPoxSampleEffects
+ 	text = {
+ 		localization_key = MT_Custodian_PoxSample_Effect	#The loc key used if this text entry is picked.
+ 		trigger = {							#Triggers that determine if this text entry can be picked.
+			has_relic = r_pox_sample
+ 		}
+ 	}
+	default = MT_NO_RELIC_TEXT
+}
+
+defined_text = { # Country/leader/pop/species scope
+	name = GetMTCustodianCryoCoreEffects
+ 	text = {
+ 		localization_key = MT_Custodian_CryoCore_Effect	#The loc key used if this text entry is picked.
+ 		trigger = {							#Triggers that determine if this text entry can be picked.
+			has_relic = r_cryo_core
+ 		}
+ 	}
+	default = MT_NO_RELIC_TEXT
+}
+
+defined_text = { # Country/leader/pop/species scope
+	name = GetMTCustodianWarForgeEffects
+ 	text = {
+ 		localization_key = MT_Custodian_WarForge_Effect	#The loc key used if this text entry is picked.
+ 		trigger = {							#Triggers that determine if this text entry can be picked.
+			has_relic = r_war_forge
+ 		}
+ 	}
+	default = MT_NO_RELIC_TEXT
+}
+
+defined_text = { # Country/leader/pop/species scope
+	name = GetMTCustodianIxardianDatabaseEffects
+ 	text = {
+ 		localization_key = MT_Custodian_IxardianDatabase_Effect	#The loc key used if this text entry is picked.
+ 		trigger = {							#Triggers that determine if this text entry can be picked.
+			has_ixardian_database = yes
+ 		}
+ 	}
+	default = MT_NO_RELIC_TEXT
+}
+
+defined_text = { # Country/leader/pop/species scope
+	name = GetMTCustodianWerediranCoreEffects
+ 	text = {
+ 		localization_key = MT_Custodian_WerediranCore_Effect	#The loc key used if this text entry is picked.
+ 		trigger = {							#Triggers that determine if this text entry can be picked.
+			has_werediran_core = yes
+ 		}
+ 	}
+	default = MT_NO_RELIC_TEXT
+}
+
+defined_text = { # Country/leader/pop/species scope
+	name = GetMTCustodianEzentianCoreEffects
+ 	text = {
+ 		localization_key = MT_Custodian_EzentianCore_Effect	#The loc key used if this text entry is picked.
+ 		trigger = {							#Triggers that determine if this text entry can be picked.
+			has_ezentian_core = yes
+ 		}
+ 	}
+	default = MT_NO_RELIC_TEXT
+}
+
+defined_text = { # Country/leader/pop/species scope
+	name = GetMTCustodianFrozenEngineEffects
+ 	text = {
+ 		localization_key = MT_Custodian_FrozenEngine_Effect	#The loc key used if this text entry is picked.
+ 		trigger = {							#Triggers that determine if this text entry can be picked.
+			has_frozen_engine = yes
+ 		}
+ 	}
+	default = MT_NO_RELIC_TEXT
+}

@@ -1,0 +1,60 @@
+spriteTypes = {
+
+	### mysticism
+
+	## New tradition category gfx names
+
+	spriteType = {
+		name = "GFX_tradition_hex_bg_tradition_mt_mysticism"
+		textureFile = "gfx/interface/traditions/tradition_hex_bg_mt_mysticism.dds"
+	}
+
+	# Backgrounds
+
+	spriteType = {
+		name = "GFX_tradition_category_bg_tradition_mt_mysticism"
+		textureFile = "gfx/interface/tiles/tradition_category_tile_mt_mysticism.dds"
+	}
+
+	# Tiles
+
+	corneredTileSpriteType = {
+		name = "GFX_tradition_category_tile_tradition_mt_mysticism"
+		textureFile = "gfx/interface/tiles/tradition_category_tile_mt_mysticism.dds"
+		borderSize = { x=140 y=140 }
+		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+	}
+
+	### TRADITION CATEGORY ICONS ###
+
+	spriteType = {
+		name = "GFX_tradition_category_icon_tradition_mt_mysticism"
+		textureFile = "gfx/interface/icons/traditions/tree_icons/tradition_icon_mt_mysticism.dds"
+	}
+
+	### TRADITION ICONS ###
+
+	### mysticism ###
+
+	spriteType = {
+		name = "GFX_tr_mt_mysticism_messenger"
+		textureFile = "gfx/interface/icons/traditions/tradition_mt_mysticism_messenger.dds"
+	}
+
+	spriteType = {
+		name = "GFX_tr_mt_mysticism_shroud"
+		textureFile = "gfx/interface/icons/traditions/tradition_mt_mysticism_shroud.dds"
+	}
+	spriteType = {
+		name = "GFX_tr_mt_mysticism_hardening"
+		textureFile = "gfx/interface/icons/traditions/tradition_mt_mysticism_hardening.dds"
+	}
+	spriteType = {
+		name = "GFX_tr_mt_mysticism_elections"
+		textureFile = "gfx/interface/icons/traditions/tradition_mt_mysticism_elections.dds"
+	}
+	spriteType = {
+		name = "GFX_tr_mt_mysticism_synthesis"
+		textureFile = "gfx/interface/icons/traditions/tradition_mt_mysticism_synthesis.dds"
+	}
+}
