@@ -1,0 +1,48 @@
+trait_plantoid_phototrophic = {
+	host_has_dlc = "Plantoids Species Pack"
+	cost = 3
+	species_possible_remove = {
+		can_remove_beneficial_genetic_traits = yes
+	}
+	species_possible_merge_remove = {
+		always = yes
+	}
+	potential_crossbreeding_chance = 1.0
+	opposites = { "trait_plantoid_radiotrophic" "trait_lithoid_radiotrophic" "trait_advanced_phototrophic" "trait_advanced_radiotrophic" "trait_harvested_radiotrophic" "trait_voidling" "trait_cave_dweller" }
+	allowed_archetypes = { BIOLOGICAL }
+	species_class = { PLANT FUN }
+	sorting_priority = 30
+	custom_tooltip = TRAIT_PLANTOID_PHOTOTROPHIC_EFFECT
+
+	slave_cost = {
+		energy = 1000
+	}
+}
+
+trait_advanced_phototrophic = {
+	host_has_dlc = "Plantoids Species Pack"
+	cost = 3
+	species_potential_add = {
+		can_do_advanced_gene_modding = yes
+		exists = from
+		from = {
+			has_technology = tech_plantoid_transgenesis
+		}
+	}
+	species_possible_remove = {
+		can_remove_beneficial_genetic_traits = yes
+	}
+	potential_crossbreeding_chance = 1.0
+	initial = no
+	randomized = no
+	advanced_trait = yes
+	opposites = { "trait_plantoid_phototrophic" "trait_plantoid_radiotrophic" "trait_advanced_radiotrophic" "trait_harvested_radiotrophic" "trait_voidling" "trait_cave_dweller"  }
+	allowed_archetypes = { BIOLOGICAL LITHOID }
+	species_class = { HUM MAM REP AVI ART MOL NECROID AQUATIC LITHOID TOX } # PLANT and FUN are deliberately excluded.
+	sorting_priority = 30
+	custom_tooltip = TRAIT_ADVANCED_PHOTOTROPHIC_EFFECT
+
+	slave_cost = {
+		energy = 1000
+	}
+}

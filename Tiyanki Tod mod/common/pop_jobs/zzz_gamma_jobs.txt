@@ -16,7 +16,7 @@ healthcare = {
 	planet_modifier = {
 		pop_growth_speed = 0.15
 		planet_pop_assembly_organic_mult = 0.1
-		pop_environment_tolerance = 0.045
+		pop_environment_tolerance = 0.05
 	}
 
 	resources = {
@@ -505,10 +505,9 @@ ranger = {
 	resources = {
 		category = planet_rangers
 		produces = {
-			food = 2.25
-			energy = 1.75
-			minerals = 1.75
-			consumer_goods = 1
+			food = 1.8
+			energy = 1.33
+			minerals = 1.5
 		}
 	}
 

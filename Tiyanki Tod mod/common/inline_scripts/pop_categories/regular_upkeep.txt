@@ -1,0 +1,47 @@
+# Food Upkeep
+upkeep = {
+	trigger = {
+		has_food_upkeep = yes
+		is_phototrophic = no
+	}
+	food = 1
+}
+upkeep = {
+	trigger = {
+		has_food_upkeep = yes
+		is_phototrophic = yes
+	}
+	food = 0
+}
+
+# Mineral Upkeep
+upkeep = {
+	trigger = {
+		has_mineral_upkeep = yes
+		is_phototrophic = no
+	}
+	minerals = 1
+}
+
+upkeep = {
+	trigger = {
+		has_mineral_upkeep = yes
+		is_phototrophic = yes
+	}
+	minerals = 0
+}
+
+# Energy Upkeep
+upkeep = {
+	trigger = {
+		has_phototrophic_energy_upkeep = yes
+	}
+	energy = 0.75
+}
+
+upkeep = {
+	trigger = {
+		has_energy_upkeep = yes
+	}
+	energy = 1
+}
