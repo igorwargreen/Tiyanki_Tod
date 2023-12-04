@@ -79,7 +79,7 @@ ocean_paradise_start = {
 
 	# Random Frozen Worlds
 	planet = {
-		count = 3
+		count = 1
 		class = pc_ocean
 		orbit_distance = { min = 20 max = 40 }
 		orbit_angle = { min = 10 max = 36 }
