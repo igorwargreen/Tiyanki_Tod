@@ -1,0 +1,11 @@
+civic_hive_divided_attention = {
+	potential = { authority = { value = auth_hive_mind } }
+	random_weight = { base = @civic_default_random_weight }
+	ai_weight = {
+		base = @ai_civic_default_base_weight
+	}
+	modifier = {
+		councilor_gestalt_growth_exp_gain = @gestalt_civic_node_xp_rate
+		empire_size_mult = -0.20
+	}
+}

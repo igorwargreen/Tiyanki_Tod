@@ -62,6 +62,82 @@ tr_discovery_adopt = {
 		}
 	}
 }
+tr_synthetics_synthetic_age = {
+	# Unlocks Synthetic Assimilation.
+	on_enabled = {
+		hidden_effect = {
+			country_event = { id = utopia.2550 }
+		}
+	}
+
+	custom_tooltip = tr_synthetics_synthetic_age_desc
+
+	tradition_swap = {
+		name = tr_synthetics_assembly_systems
+		inherit_effects = no
+		inherit_icon = no
+		trigger = {
+			has_civic = civic_fanatic_purifiers
+			has_technology = tech_synthetic_leaders
+		}
+		custom_tooltip = tr_synthetics_assembly_systems_desc
+		modifier = {
+			planet_pop_assembly_mult = 0.30
+			planet_pop_assembly_add = 1
+		}
+
+		on_enabled = {
+			hidden_effect = {
+				country_event = { id = utopia.2550 }
+			}
+		}
+
+		weight = {
+			factor = 1
+		}
+	}
+
+	tradition_swap = {
+		name = tr_synthetics_power_systems
+		inherit_effects = no
+		inherit_icon = no
+		trigger = {
+			is_machine_empire = yes
+		}
+
+		modifier = {
+			MACHINE_species_trait_picks_add = 1
+		}
+
+		weight = {
+			factor = 2
+		}
+	}
+}
+tr_synthetics_optimization_algorithms = {
+	possible = {
+		has_tradition = tr_synthetics_maintenance_protocols
+	}
+	modifier = {
+		planet_jobs_robotic_produces_mult = 0.10
+	}
+	tradition_swap = {
+		name = tr_synthetics_optimization_algorithms_normis
+		inherit_icon = yes
+		inherit_name = yes
+		trigger = {
+			is_machine_empire = no
+		}
+
+		modifier = {
+			planet_jobs_robotic_produces_mult = 0.35
+		}
+
+		weight = {
+			factor = 1
+		}
+	}
+}
 tr_domination_finish = {
 	modifier = {
 		empire_size_pops_mult = -0.15
