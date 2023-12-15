@@ -3,7 +3,7 @@
 tr_plentiful_mutagenesis_adopt = {
 #	cost = { unity = @cost }
 	modifier = {
-		pop_growth_speed = 0.2
+		pop_growth_speed = 0.25
 	}
 
 	tradition_swap = {
@@ -50,7 +50,7 @@ tr_plentiful_mutagenesis_adopt = {
 
 tr_plentiful_mutagenesis_finish = {
 	modifier = {
-	tradition_cost_empire_size_mult = -0.15
+	tradition_cost_empire_size_mult = -0.5
 		ascension_perks_add = 1
 	}
 }
@@ -72,8 +72,8 @@ tr_plentiful_mutagenesis_2 = {
 		has_tradition = tr_plentiful_mutagenesis_1
 	}
 	modifier = {
-		planet_orbital_bombardment_damage = -0.25
-		empire_size_colonies_mult = -0.10
+		planet_orbital_bombardment_damage = -0.33
+		empire_size_colonies_mult = -0.2
 	}
 	
 	ai_weight = {
@@ -85,9 +85,9 @@ tr_plentiful_mutagenesis_3 = {
 #	cost = { unity = @cost }
 	
 	modifier = {
-		ship_hull_regen_add_perc = 0.025
-		ship_armor_regen_add_perc = 0.025
-		ship_shield_regen_add_perc = 0.025
+		ship_hull_regen_add_perc = 0.05
+		ship_armor_regen_add_perc = 0.05
+		ship_shield_regen_add_perc = 0.05
 	}
 	
 	ai_weight = {
@@ -117,6 +117,19 @@ tr_plentiful_mutagenesis_5 = {
 	}
 	modifier = {
 		planet_jobs_food_produces_mult =  0.15
+	}
+	tradition_swap = {
+		inherit_name = yes
+		inherit_icon = yes
+		trigger = {
+			is_lithoid_empire = yes
+		}
+		modifier = {
+			planet_jobs_minerals_produces_mult =  0.15
+		}
+		weight = {
+			factor = 10
+		}
 	}
 	
 	ai_weight = {

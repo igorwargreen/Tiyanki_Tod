@@ -34,7 +34,7 @@ tr_mt_urban_oversight = {
 			is_spiritualist = yes
 		}
 		modifier = {
-			job_priest_per_pop = 0.04
+			job_priest_per_pop = 0.08
 		}
 		weight = {
 			factor = 10
@@ -91,8 +91,8 @@ tr_mt_urban_oversight = {
 # 
 tr_mt_urban_effective_planning = {
 	modifier = {
-		empire_size_districts_mult = -0.25
-		planet_districts_upkeep_mult = -0.25
+		planet_districts_upkeep_mult = -1
+		planet_max_districts_mult = 0.25
 	}
 
 	ai_weight = {
@@ -107,7 +107,7 @@ tr_mt_urban_compression = {
 		has_tradition = tr_mt_urban_highways
 	}
 	modifier = {
-		planet_max_districts_mult = 0.1
+		planet_max_districts_mult = 0.2
 	}
 
 	ai_weight = {
@@ -123,7 +123,7 @@ tr_mt_urban_trusted_caretakers = {
 
 	modifier = {
 		country_official_cap_add = 1
-		official_exp_gain = 0.25
+		official_exp_gain = 0.5
 	}
 
 	ai_weight = {
@@ -135,7 +135,8 @@ tr_mt_urban_trusted_caretakers = {
 tr_mt_urban_highways = {
 	
 	modifier = {
-		planet_amenities_mult = 0.1
+		planet_amenities_mult = 0.2
+		planet_max_buildings_add = 1
 	}
 	
 	tradition_swap = {
