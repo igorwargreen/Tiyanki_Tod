@@ -13,7 +13,10 @@ origin_void_dwellers = {
 	}
 
 	possible = {
-		authority = { NOT = { value = auth_machine_intelligence } }
+		authority = { 
+			NOT = { value = auth_machine_intelligence } 
+			NOT = { value = auth_hive_mind } 
+		}
 		civics = {
 			NOR = {
 				text = civic_tooltip_not_idyllic_bloom
@@ -31,7 +34,6 @@ origin_void_dwellers = {
 
 	description = "origin_tooltip_void_dwellers_effects"
 	modifier = {
-		megastructures_habitat_cost_mult = -0.25
 		habitat_districts_building_slots_add = 0.25
 		habitat_max_districts_add = 4
 		habitat_district_jobs_add = 2

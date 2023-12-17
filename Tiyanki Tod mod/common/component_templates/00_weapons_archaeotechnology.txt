@@ -608,28 +608,28 @@ strike_craft_component_template = {
 		}
 	}
 
-	count = @count
-	regeneration_per_day = @regen
-	launch_time = @launch_time
+	count = 8
+	regeneration_per_day = 4
+	launch_time = 1
 
 	damage = { min = 4 max = 16 }
-	cooldown = 2.3
-	range = @attack_range
-	engagement_range = @engagement_range
+	cooldown = 1.75
+	range = 20
+	engagement_range = 250
 	accuracy = 1.00
 	tracking = 1.00
 
-	health = 10
-	armor = 0
-	shield = 25
-	evasion = 0.80
+	health = 20
+	armor = 20
+	shield = 20
+	evasion = 0.90
 
-	speed = @speed4
+	speed = 1400
 	rotation_speed = 0.8
 	acceleration = 1
 
-	armor_penetration = 1.0
 	shield_damage = 0.5
+	shield_penetration = 1.0
 	hull_damage = 1.25
 
 	ship_behavior = "fighters_behavior"

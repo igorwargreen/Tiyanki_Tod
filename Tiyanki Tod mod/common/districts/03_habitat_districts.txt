@@ -658,7 +658,7 @@ district_hab_industrial = {
 
 district_hab_science = {
 	base_buildtime = @hab_time
-	is_capped_by_modifier = no
+	is_capped_by_modifier = yes
 
 	show_on_uncolonized = {
 		uses_district_set = habitat

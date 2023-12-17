@@ -476,6 +476,10 @@ tech_archaeo_strike_crafts = {
 			has_ascension_perk = ap_technological_ascendancy
 		}
 		modifier = {
+			factor = 1000
+			has_country_flag = is_general_of_0
+		}
+		modifier = {
 			factor = 0.1
 			num_buildings = {  
 				type = building_archaeostudies_faculty

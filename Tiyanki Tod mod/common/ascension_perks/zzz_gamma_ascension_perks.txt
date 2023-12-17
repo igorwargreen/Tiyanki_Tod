@@ -1,7 +1,7 @@
 ap_imperial_prerogative = {
 	modifier = {
-		empire_size_colonies_mult = -0.25
-		country_official_cap_add = 2
+		empire_size_colonies_mult = -0.5
+		country_official_cap_add = 3
 	}
 
 	potential = {
@@ -17,5 +17,93 @@ ap_imperial_prerogative = {
 
 	on_enabled = {
 		run_ai_strategic_data = yes
+	}
+}
+
+ap_archaeoengineers = {
+	potential = {
+		host_has_dlc = "Ancient Relics Story Pack"
+		NOT = { has_ascension_perk = ap_archaeoengineers }
+	}
+
+	possible = {
+		custom_tooltip = {
+			fail_text = "requires_technology_tech_archaeostudies"
+			has_technology = tech_archaeostudies
+		}
+	}
+
+	on_enabled = {
+		custom_tooltip = ap_archaeoengineers_tooltip
+		hidden_effect = {
+			country_event = { id = ancrel.9925 }
+		}
+		every_system = {
+			limit = {
+				is_owned_by = root
+				has_modifier = zroni_storm
+				starbase = {
+					count_starbase_buildings = {
+						type = zroni_storm_caster
+						include_being_constructed = no
+						count = 1
+					}
+				}
+				any_ship_in_system = {
+					is_ship_class = shipclass_starbase
+					NOT = { has_component = "STARBASE_AURA_ZRONI_STORM" }
+				}
+			}
+			system_event = {
+				id = ancrel.9901
+			}
+		}
+	}
+
+	modifier = {
+		country_scientist_cap_add = 1
+		weapon_archaeotech_weapon_damage_mult = 0.33
+		starbase_shipyard_build_minor_artifacts_cost_mult = -0.5
+	}
+
+	ai_weight = {
+		factor = 4.5
+		modifier = {
+			factor = 2
+			has_ethic = ethic_materialist
+		}
+		modifier = {
+			factor = 3
+			has_ethic = ethic_fanatic_materialist
+		}
+		modifier = {
+			factor = 5
+			count_archaeological_site = {
+				count > 3
+				limit = {
+					is_owned_by = root
+					is_site_completed = yes
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			resource_stockpile_compare = {
+				resource = minor_artifacts
+				value > 1000
+			}
+		}
+		modifier = {
+			factor = 2
+			is_xenophile = yes
+		}
+		modifier = {
+			factor = 0
+			is_xenophobe = yes
+		}
+		modifier = {
+			factor = 0.25
+			is_spiritualist = yes
+		}
 	}
 }
