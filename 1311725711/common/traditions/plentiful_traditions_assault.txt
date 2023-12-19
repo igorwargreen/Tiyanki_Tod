@@ -32,7 +32,6 @@ tr_plentiful_assault_adopt = {
 tr_plentiful_assault_finish = {
 	modifier = {
 		ship_shield_damage_mult = 0.1
-		ships_upkeep_mult = -0.1
 		ascension_perks_add = 1
 	}
 }

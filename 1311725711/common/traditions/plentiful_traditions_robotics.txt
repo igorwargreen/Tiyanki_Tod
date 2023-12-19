@@ -156,7 +156,7 @@ tr_plentiful_robotics_3 = {
 	}
 	
 	modifier = {
-		planet_pop_assembly_mult = 0.15
+		planet_pop_assembly_mult = 0.1
 	}
 
 	tradition_swap = {

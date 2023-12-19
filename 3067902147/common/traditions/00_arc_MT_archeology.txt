@@ -1,7 +1,8 @@
 tr_mt_archeology_adopt = {
 	unlocks_agenda = agenda_MT_archeology_grants
 	modifier = {
-		ship_archaeological_site_excavation_speed_mult = 0.30
+		ship_archaeological_site_excavation_speed_mult = 0.3
+		scientist_exp_gain = 0.25
 	}
 }
 
@@ -123,6 +124,7 @@ tr_mt_archeology_archeological_training = {
 
 	modifier = {
 		ship_archaeological_site_clues_add = 1
+		weapon_archaeotech_weapon_damage_mult = 0.2
 	}
 
 	ai_weight = {

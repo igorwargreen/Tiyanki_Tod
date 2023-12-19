@@ -139,7 +139,7 @@
  tr_mt_archeology_respect_the_dead_machine: "History Database"
  tr_mt_archeology_respect_the_dead_machine_delayed: "Each piece of history will be safely kept in a database easily accessible to our mainframe. That way we can always get inspired by the ideas of empires long gone."
  tr_mt_archeology_respect_the_dead_machine_modifier_desc: "Gain a large amount of £unity£ §Y$unity$§! after completing an archeological site."
- tr_mt_archeology_finish_desc: "Uncover an archeological site every decade.\nAscension Perks Unlocked: §G+1§!"
+ tr_mt_archeology_finish_desc: "Новые раскопки каждые пять лет.\nAscension Perks Unlocked: §G+1§!"
  
  message_tradition_effect_MT_history_lessons_effect_desc: "The §Y$tr_mt_archeology_history_lessons$§! §HTradition§! activated\n"
  

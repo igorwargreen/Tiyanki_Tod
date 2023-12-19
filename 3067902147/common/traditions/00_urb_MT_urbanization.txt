@@ -91,8 +91,8 @@ tr_mt_urban_oversight = {
 # 
 tr_mt_urban_effective_planning = {
 	modifier = {
-		planet_districts_upkeep_mult = -1
-		planet_max_districts_mult = 0.25
+		planet_districts_upkeep_mult = -0.33
+		planet_buildings_upkeep_mult = -0.33
 	}
 
 	ai_weight = {
@@ -107,7 +107,7 @@ tr_mt_urban_compression = {
 		has_tradition = tr_mt_urban_highways
 	}
 	modifier = {
-		planet_max_districts_mult = 0.2
+		planet_max_districts_mult = 0.4
 	}
 
 	ai_weight = {

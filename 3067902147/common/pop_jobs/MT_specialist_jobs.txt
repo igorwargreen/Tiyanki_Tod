@@ -25,15 +25,16 @@ MT_custodian = {
 	resources = {
 		category = MT_planet_custodians
 		produces = {
-			unity = 3
+			unity = 4
+			minor_artifacts = 0.25
 		}
 		produces = {
-			unity = 1
+			unity = 2
 			mult = owner.trigger:num_owned_relics
 		}
 
 		upkeep = {
-			consumer_goods = 1
+			consumer_goods = 2
 		}
 		produces = {
 			trigger = {

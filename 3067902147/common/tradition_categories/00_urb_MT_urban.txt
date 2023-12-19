@@ -11,6 +11,7 @@ tradition_mt_urban = {
 	}
 
 	potential = {
+		is_gestalt = no
 	}
 
 	ai_weight = {
