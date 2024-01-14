@@ -261,6 +261,26 @@ spriteTypes = {
 		hitbox_margin = { x = 11 y = 4 }
 	}
 	spriteType = {
+		name = "GFX_button_header_394_24"
+		textureFile = "gfx/ui_overhaul_qhd/buttons/headers/button_header_394_24_animated.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+		noOfFrames = 3
+		animation = {
+			animationmaskfile = "gfx/ui_overhaul_qhd/buttons/headers/button_header_394_24_mask.tga"
+			animationtextureFile = "gfx/ui_overhaul_qhd/buttons/headers/button_header_X_24_animated_texture.dds"
+			animationrotation = 180
+			animationlooping = yes
+			animationtime = 394
+			animationdelay = 0
+			animationblendmode = "overlay" #add, multiply, overlay
+			animationtype = "scrolling"    #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0 y = 0 }
+			animationtexturescale = { x = 1 y = 1 }
+			animationframes = { 1 2 3 }
+		}
+		hitbox_margin = { x = 11 y = 4 }
+	}
+	spriteType = {
 		name = "GFX_button_header_452_24"
 		textureFile = "gfx/ui_overhaul_qhd/buttons/headers/button_header_452_24_animated.dds"
 		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
@@ -548,6 +568,26 @@ spriteTypes = {
 		noOfFrames = 3
 		animation = {
 			animationmaskfile = "gfx/ui_overhaul_qhd/buttons/headers/34/button_header_350_34_mask.tga"
+			animationtextureFile = "gfx/ui_overhaul_qhd/buttons/headers/34/button_header_X_34_animated_texture.dds"
+			animationrotation = 180
+			animationlooping = yes
+			animationtime = 350
+			animationdelay = 0
+			animationblendmode = "overlay" #add, multiply, overlay
+			animationtype = "scrolling"    #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0 y = 0 }
+			animationtexturescale = { x = 1 y = 1 }
+			animationframes = { 1 2 3 }
+		}
+		hitbox_margin = { x = 11 y = 4 }
+	}
+	spriteType = {
+		name = "GFX_button_header_394_34"
+		textureFile = "gfx/ui_overhaul_qhd/buttons/headers/34/button_header_394_34_animated.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+		noOfFrames = 3
+		animation = {
+			animationmaskfile = "gfx/ui_overhaul_qhd/buttons/headers/34/button_header_394_34_mask.tga"
 			animationtextureFile = "gfx/ui_overhaul_qhd/buttons/headers/34/button_header_X_34_animated_texture.dds"
 			animationrotation = 180
 			animationlooping = yes

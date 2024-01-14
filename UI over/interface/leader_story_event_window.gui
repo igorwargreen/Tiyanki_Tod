@@ -149,14 +149,6 @@ guiTypes = {
 				alwaysTransparent = yes
 			}
 		}
-		### DISMISS BUTTON
-		buttonType = {
-			name = "dismiss_button"
-			quadTextureSprite = "GFX_close"
-			position = { x = -112 y = 13 }
-			orientation = upper_right
-			pdx_tooltip = "CLOSE_TITLE"
-		}
 		### DESCRIPTION ###
 		containerWindowType = {
 			name = "description_container"

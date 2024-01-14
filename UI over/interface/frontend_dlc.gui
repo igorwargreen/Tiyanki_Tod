@@ -6,9 +6,10 @@ guiTypes = {
 			min_height = 1440
 			position = { x = 0 y = -200 }
 		}
-		size = { width = 150 height = 1080 }
+		size = { width = 150 height = 100%% }
 		orientation = upper_right
 		origo = upper_right
+		clipping = no
 		background = {
 			name = "dlc_list_header"
 			spriteType = "GFX_invisible"

@@ -9,10 +9,10 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "select_empire_dlc"
-		orientation = center
-		origo = center
 		size = { width = 454 height = 41 }
 		position = { x = 0 y = 0 }
+		orientation = center
+		origo = center
 		background = {
 			name = "background"
 			spriteType = "GFX_invisible"
@@ -20,9 +20,9 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "dlc_recommendations"
 			font = "font_text_14"
+			text = "RECOMMENDED_DLCS"
 			position = { x = 0 y = 12 }
 			maxWidth = 210
-			text = "RECOMMENDED_DLCS"
 			format = right
 			alwaysTransparent = yes
 		}

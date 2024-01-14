@@ -1,9 +1,9 @@
 tr_mt_swarm_adopt = { # Justice loves its enforcers
 	unlocks_agenda = agenda_MT_swarm # Sublight Speed
 	modifier = {
-		shipsize_corvette_build_speed_mult = 0.5
+		shipsize_corvette_build_speed_mult = 1
 		ship_corvette_cost_mult = -0.1
-		shipsize_corvette_hull_mult = 0.1
+		shipsize_corvette_hull_mult = 0.25
 	}
 }
 
@@ -11,7 +11,7 @@ tr_mt_swarm_adopt = { # Justice loves its enforcers
 tr_mt_swarm_finish = {
 	#custom_tooltip = tr_swarm_finish_desc
 	modifier = {
-		country_naval_cap_mult = 0.25
+		country_naval_cap_mult = 0.33
 		ascension_perks_add = 1
 	}
 }
@@ -20,8 +20,9 @@ tr_mt_swarm_finish = {
 tr_mt_swarm_thousand_cuts = {
 
 	modifier = {
-		s_slot_weapon_fire_rate_mult = 0.2
-		s_slot_weapon_damage_mult = 0.1
+		s_slot_weapon_fire_rate_mult = 0.25
+		s_slot_weapon_damage_mult = 0.15
+		s_slot_weapon_range_mult = 0.33
 	}
 
 	ai_weight = {
@@ -62,7 +63,7 @@ tr_mt_swarm_endless_pursuit = {
 	
 	modifier = {
 		ship_engagement_range_mult = 0.5
-		ship_speed_mult = 0.05
+		ship_speed_mult = 0.15
 	}
 
 	ai_weight = {

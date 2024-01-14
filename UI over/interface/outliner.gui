@@ -32,26 +32,26 @@ guiTypes = {
 			name = "tabs_gridbox"
 			position = { x = 0 y = 0 }
 			size = { width = 300 height = 40 }
-			slotSize = { width = 46 height = 30 }
+			slotSize = { width = 46 height = 31 }
 			max_slots_horizontal = 1
 			format = "UPPER_LEFT"
 		}
 	}
 	containerWindowType = {
 		name = "tabs_gridbox_entry"
-		size = { width = 46 height = 30 }
-		buttonType = {
-			name = "button_overlay"
-			quadTextureSprite = "GFX_outliner_tab_button_overlay"
-			oversound = "no_sound"
-			clicksound = "click_outliner"
-		}
+		size = { width = 46 height = 31 }
 		iconType = {
 			name = "tab_button_background_icon"
 			spriteType = "GFX_button_pdx"
 			orientation = center
 			centerPosition = yes
 			alwaysTransparent = yes
+		}
+		buttonType = {
+			name = "button_overlay"
+			quadTextureSprite = "GFX_outliner_tab_button_overlay"
+			oversound = "no_sound"
+			clicksound = "click_outliner"
 		}
 		containerWindowType = {
 			name = "notification_container"
@@ -1245,14 +1245,15 @@ guiTypes = {
 	## OUTLINER OPTIONS
 	containerWindowType = {
 		name = "outliner_options_window"
-		size = { width = 300 height = 910 }
-		position = { x = -310 y = 74 }
+		size = { width = 340 height = 180 }
+		position = { x = -360 y = 74 }
 		if_scaled_resolution = {
 			min_width = 3440
-			position = { x = -410 y = 74 }
+			position = { x = -460 y = 74 }
 		}
 		orientation = upper_right
 		origo = upper_right
+		clipping = no
 		background = {
 			name = "background"
 			quadTextureSprite = "GFX_ui_tile_large_bg_plain"
@@ -1287,7 +1288,7 @@ guiTypes = {
 		buttonType = {
 			name = "close"
 			quadTextureSprite = "GFX_close"
-			position = { x = -39 y = 1 }
+			position = { x = -45 y = 7 }
 			orientation = upper_right
 			shortcut = "ESCAPE"
 			clicksound = "back_click"
@@ -1295,36 +1296,66 @@ guiTypes = {
 		}
 		containerWindowType = {
 			name = "notification_toggle_container"
-			size = { width = 280 height = 50 }
+			size = { width = 320 height = 32 }
 			position = { x = 0 y = 45 }
-			checkboxType = {
-				name = "notification_checkbox"
-				quadTextureSprite = "GFX_radio_button"
-				position = { x = 8 y = 0 }
-			}
+			orientation = center_up
+			origo = center_up
 			instantTextBoxType = {
 				name = "notification_checkbox_text"
-				font = "font_text_14"
+				font = "font_text_16"
 				text = "MESSAGE_NOTIFICATION_TYPE"
-				position = { x = 46 y = 0 }
-				maxWidth = 200
+				position = { x = 20 y = 0 }
+				maxWidth = 240
 				maxHeight = 32
 				fixedSize = yes
 				format = left
 				vertical_alignment = center
-			}	
+			}
+			checkboxType = {
+				name = "notification_checkbox"
+				quadTextureSprite = "GFX_radio_button"
+				position = { x = -51 y = 0 }
+				orientation = upper_right
+			}
+		}
+		containerWindowType = {
+			name = "custom_tab_toggle_container"
+			size = { width = 320 height = 32 }
+			position = { x = 0 y = 77 }
+			orientation = center_up
+			origo = center_up
+			instantTextBoxType = {
+				name = "custom_tab_checkbox_text"
+				font = "font_text_16"
+				text = "outliner_custom_outliner_tab"
+				position = { x = 20 y = 0 }
+				maxWidth = 240
+				maxHeight = 32
+				fixedSize = yes
+				format = left
+				vertical_alignment = center
+			}
+			checkboxType = {
+				name = "custom_tab_checkbox"
+				quadTextureSprite = "GFX_radio_button"
+				position = { x = -51 y = 0 }
+				orientation = upper_right
+			}
 		}
 		containerWindowType = {
 			name = "planet_mode_container"
-			size = { width = 280 height = 50 }
-			position = { x = 0 y = 75 }
+			size = { width = 320 height = 50 }
+			position = { x = 0 y = 110 }
+			orientation = center_up
+			origo = center_up
 			instantTextBoxType = {
 				name = "planet_display_mode_spinner_title"
 				font = "font_text_18"
 				text = "OL_PLANET_MODE"
-				position = { x = 50 y = 0 }
+				position = { x = -100 y = 0 }
+				orientation = center_up
 				maxWidth = 200
-				maxHeight = 26
+				maxHeight = 32
 				fixedSize = yes
 				format = center
 				vertical_alignment = center
@@ -1332,11 +1363,11 @@ guiTypes = {
 			}
 			instantTextBoxType = {
 				name = "planet_display_mode_spinner_value"
-				font = "font_text_14"
+				font = "font_text_16"
 				text = "" # Set in code
-				position = { x = 50 y = 28 }
-				maxWidth = 200
-				maxHeight = 35
+				position = { x = 41 y = 32 }
+				maxWidth = 233
+				maxHeight = 21
 				fixedSize = yes
 				format = center
 				vertical_alignment = center
@@ -1345,7 +1376,7 @@ guiTypes = {
 				id = "planet_display_mode_spinner"
 				name = "planet_display_mode_spinner"
 				position = { x = 20 y = 32 }
-				size = { x = 260 y = 27 }
+				size = { x = 275 y = 21 }
 				borderSize = { x = 16 y = 16 }
 				horizontal = 1
 				leftbutton = "spinner_upButton"
@@ -1353,17 +1384,19 @@ guiTypes = {
 				guiButtonType = {
 					name = "spinner_upButton"
 					quadTextureSprite = "scrollbar_leftbutton"
+					scale = 0.8
 				}
 				guiButtonType = {
 					name = "spinner_downButton"
 					quadTextureSprite = "scrollbar_rightbutton"
+					scale = 0.8
 				}
 			}
 		}
 		smoothListBoxType = {
 			name = "list"
-			position = { x = 5 y = 142 }
-			size = { x = 284 y = 760 }
+			position = { x = 0 y = 185 }
+			size = { x = 360 y = 740 }
 			scrollbarType = "standardlistbox_slider_thick"
 			autohide_scrollbar = no
 			spacing = 2
@@ -1372,45 +1405,46 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "outliner_options_entry_window"
-		size = { width = 280 height = 32 }
+		size = { width = 340 height = 40 }
 		background = {
 			name = "background"
-			quadTextureSprite = "GFX_tiles_dark_area_cut_8"
+			quadTextureSprite = "GFX_ui_button_frame_tile"
+		}
+		background = {
+			name = "background"
+			quadTextureSprite = "GFX_ui_dark"
 		}
 		instantTextBoxType = {
 			name = "title"
-			font = "font_text_14"
+			font = "font_text_16"
 			text = "dsffds"
 			position = { x = 42 y = 0 }
-			maxWidth = 200
-			maxHeight = 32
+			maxWidth = 230
+			maxHeight = 40
 			fixedSize = yes			format = left
 			vertical_alignment = center
-			#text_color_code = "E"
 			alwaysTransparent = yes
 		}
 		checkboxType = {
 			name = "disable"
-			position = { x = 3 y = 0 }
+			position = { x = 3 y = 4 }
 			quadTextureSprite = "GFX_radio_button"
 			pdx_tooltip = "OUTLINER_DISABLE_TOOLTIP"
 		}
 		buttonType = {
 			name = "up"
 			quadTextureSprite = "GFX_button_up"
-			position = { x = -55 y = 2 }
+			position = { x = -60 y = 6 }
 			orientation = upper_right
 			clicksound = increment_click
-			#rotation = -1.57
 			pdx_tooltip = "OUTLINER_OPTIONS_SORT_UP_TOOLTIP"
 		}
 		buttonType = {
 			name = "down"
 			quadTextureSprite = "GFX_button_down"
-			position = { x = -30 y = 2 }
+			position = { x = -35 y = 6 }
 			orientation = upper_right
 			clicksound = decrement_click
-			#rotation = 1.57
 			pdx_tooltip = "OUTLINER_OPTIONS_SORT_DOWN_TOOLTIP"
 		}
 	}

@@ -1,16 +1,16 @@
 guiTypes = {
 	containerWindowType = {
 		name = "topbar_species_view"
-		size = { width = 1516 height = 940 }
+		size = { width = 1560 height = 940 }
 		show_position = { x = 35 y = 50 }
 		hide_position = { x = -100% y = 50 }
 		if_scaled_resolution = {
 			min_height = 1200
-			size = { width = 1516 height = 1060 }
+			size = { width = 1560 height = 1060 }
 		}
 		if_scaled_resolution = {
 			min_height = 1440
-			size = { width = 1516 height = 1300 }
+			size = { width = 1560 height = 1300 }
 		}
 		if_scaled_resolution = {
 			min_width = 2560
@@ -284,7 +284,7 @@ guiTypes = {
 				position = { x = 403 y = 0 }
 				buttonFont = "font_text_16"
 				buttonText = "SPECIES_VIEW_SPECIES"				pdx_tooltip = "SPECIES_VIEW_SORT_NAME"
-				borderSize = { x = 10 y = 0 }
+				borderSize = { x = 8 y = 0 }
 				multiline = yes
 			}
 			buttonType = {
@@ -293,7 +293,7 @@ guiTypes = {
 				position = { x = 756 y = 0 }
 				buttonFont = "font_text_16"
 				buttonText = "SPECIES_VIEW_TYPE"				pdx_tooltip = "SPECIES_VIEW_SORT_TYPE"
-				borderSize = { x = 10 y = 0 }
+				borderSize = { x = 8 y = 0 }
 				multiline = yes
 			}
 			buttonType = {
@@ -301,7 +301,7 @@ guiTypes = {
 				spriteType = "GFX_button_header_35_34"
 				position = { x = 923 y = 0 }
 				buttonFont = "font_text_16"				pdx_tooltip = "SPECIES_VIEW_SORT_POPULATION"
-				borderSize = { x = 10 y = 0 }
+				borderSize = { x = 8 y = 0 }
 				multiline = yes
 			}
 			iconType = {
@@ -313,20 +313,20 @@ guiTypes = {
 			}
 			buttonType = {
 				name = "traits_button"
-				spriteType = "GFX_button_header_350_34"
+				spriteType = "GFX_button_header_394_34"
 				position = { x = 961 y = 0 }
 				buttonFont = "font_text_16"
 				buttonText = "UIO_TRAITS_TITLE"				pdx_tooltip = "SPECIES_VIEW_SORT_TRAITS"
-				borderSize = { x = 10 y = 0 }
+				borderSize = { x = 8 y = 0 }
 				multiline = yes
 			}
 			buttonType = {
 				name = "rights_button"
 				spriteType = "GFX_button_header_150_34"
-				position = { x = 1314 y = 0 }
+				position = { x = 1358 y = 0 }
 				buttonFont = "font_text_16"
 				buttonText = "UIO_RIGHTS_TITLE"				pdx_tooltip = "SPECIES_VIEW_SORT_RIGHTS"
-				borderSize = { x = 10 y = 0 }
+				borderSize = { x = 8 y = 0 }
 				multiline = yes
 			}
 			containerWindowType = {
@@ -341,14 +341,14 @@ guiTypes = {
 				smoothListboxType = {
 					name = "species"
 					position = { x = 5 y = 8 }
-					size = { x = 1066 y = 810 }
+					size = { x = 1110 y = 810 }
 					if_scaled_resolution = {
 						min_height = 1200
-						size = { x = 1066 y = 930 }
+						size = { x = 1110 y = 930 }
 					}
 					if_scaled_resolution = {
 						min_height = 1440
-						size = { x = 1066 y = 1170 }
+						size = { x = 1110 y = 1170 }
 					}
 					scrollbarType = "standardlistbox_slider_thick"
 					offset = { x = 0 y = 0 }
@@ -391,20 +391,19 @@ guiTypes = {
 	########################
 	containerWindowType = {
 		name = "species_entry"
-		position = { x = 0 y = 0 }
-		size = { width = 1066 height = 64 }
+		size = { width = 1110 height = 64 }
 		buttonType = {
 			name = "background"
 			spriteType = "GFX_tiles_frame_light"
 			position = { x = -5 y = -5 }
-			size = { x = 1071 y = 64 }
+			size = { x = 1115 y = 64 }
 			clicksound = select_click
 		}
 		buttonType = {
 			name = "selected_entry"
 			spriteType = "GFX_glow_tile_orange"
 			position = { x = -5 y = -5 }
-			size = { x = 1071 y = 64 }
+			size = { x = 1115 y = 64 }
 			alwaysTransparent = yes
 		}
 		containerWindowType = {
@@ -452,7 +451,7 @@ guiTypes = {
 		overlappingElementsBoxType = {
 			name = "traits_icons"
 			position = { x = 568 y = 13 }
-			size = { x = 330 y = 40 }
+			size = { x = 374 y = 40 }
 			format = left
 			spacing = 4
 		}
@@ -460,7 +459,7 @@ guiTypes = {
 			name = "rights"
 			font = "font_text_14"
 			text = "Serfdom"
-			position = { x = 911 y = 0 }
+			position = { x = 955 y = 0 }
 			maxWidth = 150
 			maxHeight = 54
 			fixedSize = yes
@@ -470,20 +469,19 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "species_entry_sub"
-		position = { x = 0 y = 0 }
-		size = { width = 920 height = 54 }
+		size = { width = 965 height = 54 }
 		buttonType = {
 			name = "background"
 			spriteType = "GFX_tiles_frame_light"
 			position = { x = 40 y = -10 }
-			size = { x = 1026 y = 54 }
+			size = { x = 1069 y = 54 }
 			clicksound = select_click
 		}
 		buttonType = {
 			name = "selected_entry"
 			spriteType = "GFX_glow_tile_orange"
 			position = { x = 40 y = -10 }
-			size = { x = 1026 y = 54 }
+			size = { x = 1069 y = 54 }
 			alwaysTransparent = yes
 		}
 		containerWindowType = {
@@ -532,14 +530,14 @@ guiTypes = {
 		overlappingElementsBoxType = {
 			name = "traits_icons"
 			position = { x = 568 y = 3 }
-			size = { x = 330 y = 40 }
+			size = { x = 374 y = 40 }
 			format = left
 			spacing = 4
 		}
 		instantTextBoxType = {
 			name = "rights"
 			font = "font_text_14"
-			position = { x = 911 y = -5 }
+			position = { x = 955 y = -5 }
 			text = "Serfdom"
 			maxWidth = 150
 			maxHeight = 44

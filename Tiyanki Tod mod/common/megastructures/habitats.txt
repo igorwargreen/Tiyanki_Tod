@@ -33,11 +33,22 @@ habitat_central_complex = {
 	construction_blocks_and_blocked_by = self_type
 
 	potential = {
-		OR = {
-			has_technology = tech_habitat_1
-			has_civic = civic_diadochi
-			has_civic = civic_great_khans_legacy
-			has_country_flag = democratic_khanate_flag
+		AND = {
+			OR = {
+				has_technology = tech_habitat_1
+				has_civic = civic_diadochi
+				has_civic = civic_great_khans_legacy
+				has_country_flag = democratic_khanate_flag
+			}
+			OR = {
+				is_ai = no
+				OR = {
+					has_origin = origin_void_dwellers
+					has_civic = civic_diadochi
+					has_civic = civic_great_khans_legacy
+					has_country_flag = democratic_khanate_flag
+				}
+			}
 		}
 	}
 

@@ -462,8 +462,8 @@ guiTypes = {
 			### TRAITS ###
 			overlappingElementsBoxType = {
 				name = "traits_overlapping_box"
-				size = { x = 240 y = @trait_icon_size_h }
-				position = { x = -120 y = 65 }
+				size = { x = 200 y = @trait_icon_size_h }
+				position = { x = -100 y = 65 }
 				orientation = center
 				format = center
 				first_on_top = yes

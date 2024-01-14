@@ -69,18 +69,6 @@ guiTypes = {
 			clicksound = "tab_click"
 		}
 		buttonType = {
-			name = "tab_relics_active"
-			quadTextureSprite = "GFX_ui_tab_1_long_active"
-			position = { x = 0 y = 0 }
-			orientation = lower_left
-			buttonFont = "font_text_16"
-			buttonText = "RELICS"
-			borderSize = { x = 20 y = 0 }
-			multiline = yes
-			shortcut = "z"
-			clicksound = "tab_click"
-		}
-		buttonType = {
 			name = "tab_astral_actions"
 			quadTextureSprite = "GFX_ui_tab_2_astral_long_inactive"
 			position = { x = 155 y = -2 }
@@ -90,6 +78,18 @@ guiTypes = {
 			borderSize = { x = 20 y = 0 }
 			multiline = yes
 			shortcut = "x"
+			clicksound = "tab_click"
+		}
+		buttonType = {
+			name = "tab_relics_active"
+			quadTextureSprite = "GFX_ui_tab_1_long_active"
+			position = { x = 0 y = 0 }
+			orientation = lower_left
+			buttonFont = "font_text_16"
+			buttonText = "RELICS"
+			borderSize = { x = 20 y = 0 }
+			multiline = yes
+			shortcut = "z"
 			clicksound = "tab_click"
 		}
 		buttonType = {
@@ -501,7 +501,7 @@ guiTypes = {
 					gridBoxType = {
 						name = "unlimited_use_actions_grid"
 						size = { width = @astralActionsRowWidth height = 200 }
-						slotsize = {
+						slotSize = {
 							width = @astralActionSlotWidth
 							height = @astralActionSlotHeight
 						}
@@ -522,7 +522,7 @@ guiTypes = {
 					gridBoxType = {
 						name = "limited_use_actions_grid"
 						size = { width = @astralActionsRowWidth height = @astralActionsRowHeight }
-						slotsize = {
+						slotSize = {
 							width = @astralActionSlotWidth
 							height = @astralActionSlotHeight
 						}

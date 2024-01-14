@@ -1,31 +1,21 @@
-@SOURCE_W = 483
-@SOURCE_H = 50
-@TARGET_W_1920 = 1465
-@TARGET_W_2560 = 1565
-@TARGET_H = 55
 guiTypes = {
 	### EXPANSION PLANNER VIEW ###
 	containerWindowType = {
 		name = "expansion_planner_view"
-		size = { width = 1507 height = 940 }
+		size = { width = 1560 height = 940 }
 		show_position = { x = 35 y = 50 }
 		hide_position = { x = -100% y = 50 }
 		if_scaled_resolution = {
 			min_height = 1200
-			size = { width = 1507 height = 1060 }
+			size = { width = 1560 height = 1060 }
+		}
+		if_scaled_resolution = {
+			min_height = 1440
+			size = { width = 1560 height = 1300 }
 		}
 		if_scaled_resolution = {
 			min_width = 2560
-			size = { width = 1607 height = 940 }
 			show_position = { x = 55 y = 50 }
-			if_scaled_resolution = {
-				min_height = 1200
-				size = { width = 1607 height = 1060 }
-			}
-			if_scaled_resolution = {
-				min_height = 1440
-				size = { width = 1607 height = 1300 }
-			}
 		}
 		animation_time = 200
 		animation_type = decelerated
@@ -117,7 +107,7 @@ guiTypes = {
 				position = { x = 136 y = 0 }
 				buttonFont = "font_text_16"
 				buttonText = "NAME"				pdx_tooltip = "EXPANSION_PLANNER_SORT_NAME"
-				borderSize = { x = 10 y = 0 }
+				borderSize = { x = 8 y = 0 }
 				multiline = yes
 			}
 			buttonType = {
@@ -126,7 +116,7 @@ guiTypes = {
 				position = { x = 329 y = 0 }
 				buttonFont = "font_text_16"
 				buttonText = "FEATURES"				pdx_tooltip = "EXPANSION_PLANNER_SORT_FEATURES"
-				borderSize = { x = 10 y = 0 }
+				borderSize = { x = 8 y = 0 }
 				multiline = yes
 			}
 			buttonType = {
@@ -135,7 +125,7 @@ guiTypes = {
 				position = { x = 407 y = 0 }
 				buttonFont = "font_text_16"
 				buttonText = "SIZE"				pdx_tooltip = "EXPANSION_PLANNER_SORT_SIZE"
-				borderSize = { x = 10 y = 0 }
+				borderSize = { x = 8 y = 0 }
 				multiline = yes
 			}
 			buttonType = {
@@ -144,16 +134,16 @@ guiTypes = {
 				position = { x = 485 y = 0 }
 				buttonFont = "font_text_16"
 				buttonText = "DISTANCE"				pdx_tooltip = "EXPANSION_PLANNER_SORT_DISTANCE"
-				borderSize = { x = 10 y = 0 }
+				borderSize = { x = 8 y = 0 }
 				multiline = yes
 			}
 			buttonType = {
 				name = "district0"
-				spriteType = "GFX_button_header_190_34"
+				spriteType = "GFX_button_header_164_34"
 				position = { x = 563 y = 0 }
 				buttonFont = "font_text_16"
 				buttonText = "UIO_DISTRICT_GENERATOR_TITLE"				pdx_tooltip = "SORT_BY_DISTRICTS"
-				borderSize = { x = 10 y = 0 }
+				borderSize = { x = 8 y = 0 }
 				multiline = yes
 			}
 			iconType = {
@@ -163,11 +153,11 @@ guiTypes = {
 			}
 			buttonType = {
 				name = "district1"
-				spriteType = "GFX_button_header_190_34"
-				position = { x = 756 y = 0 }
+				spriteType = "GFX_button_header_164_34"
+				position = { x = 730 y = 0 }
 				buttonFont = "font_text_16"
 				buttonText = "UIO_DISTRICT_MINING_TITLE"				pdx_tooltip = "SORT_BY_DISTRICTS"
-				borderSize = { x = 10 y = 0 }
+				borderSize = { x = 8 y = 0 }
 				multiline = yes
 			}
 			iconType = {
@@ -177,11 +167,11 @@ guiTypes = {
 			}
 			buttonType = {
 				name = "district2"
-				spriteType = "GFX_button_header_190_34"
-				position = { x = 949 y = 0 }
+				spriteType = "GFX_button_header_164_34"
+				position = { x = 897 y = 0 }
 				buttonFont = "font_text_16"
 				buttonText = "UIO_DISTRICT_FARMING_TITLE"				pdx_tooltip = "SORT_BY_DISTRICTS"
-				borderSize = { x = 10 y = 0 }
+				borderSize = { x = 8 y = 0 }
 				multiline = yes
 			}
 			iconType = {
@@ -192,27 +182,19 @@ guiTypes = {
 			buttonType = {
 				name = "sort_modifiers"
 				spriteType = "GFX_button_header_250_34"
-				if_scaled_resolution = {
-					min_width = 2560
-					spriteType = "GFX_button_header_350_34"
-				}
-				position = { x = 1142 y = 0 }
+				position = { x = 1064 y = 0 }
 				buttonFont = "font_text_16"
 				buttonText = "MODIFIERS"				pdx_tooltip = "EXPANSION_PLANNER_SORT_MODIFIERS"
-				borderSize = { x = 14 y = 0 }
+				borderSize = { x = 8 y = 0 }
 				multiline = yes
 			}
 			buttonType = {
 				name = "sort_status"
-				spriteType = "GFX_button_header_75_34"
-				position = { x = 1395 y = 0 }
-				if_scaled_resolution = {
-					min_width = 2560
-					position = { x = 1495 y = 0 }
-				}
+				spriteType = "GFX_button_header_208_34"
+				position = { x = 1317 y = 0 }
 				buttonFont = "font_text_16"
 				buttonText = "STATUS"				pdx_tooltip = "EXPANSION_PLANNER_SORT_STATUS"
-				borderSize = { x = 14 y = 0 }
+				borderSize = { x = 8 y = 0 }
 				multiline = yes
 			}
 			containerWindowType = {
@@ -227,25 +209,18 @@ guiTypes = {
 			smoothListboxType = {
 				name = "list"
 				position = { x = 14 y = 60 }
-				size = { x = @TARGET_W_1920 y = 788 }
+				size = { x = 1522 y = 788 }
 				if_scaled_resolution = {
 					min_height = 1200
-					size = { x = @TARGET_W_1920 y = 908 }
+					size = { x = 1522 y = 908 }
 				}
 				if_scaled_resolution = {
-					min_width = 2560
-					size = { x = @TARGET_W_2560 y = 788 }
-					if_scaled_resolution = {
-						min_height = 1200
-						size = { x = @TARGET_W_2560 y = 908 }
-					}
-					if_scaled_resolution = {
-						min_height = 1440
-						size = { x = @TARGET_W_2560 y = 1143 }
-					}
+					min_height = 1440
+					size = { x = 1522 y = 1143 }
 				}
 				scrollbarType = "standardlistbox_slider_thick"
 				autohide_scrollbar = no
+				spacing = 6
 			}
 		}
 		### FILTER COLONY SHIP TARGETS ###
@@ -448,9 +423,9 @@ guiTypes = {
 		buttonType = {
 			name = "bg"
 			spriteType = "GFX_tiles_dark_area_cut_8"
-			orientation = center
 			size = { x = 185 y = 38 }
 			position = { x = -93 y = -19 }
+			orientation = center
 			alwaysTransparent = yes
 		}
 		instantTextBoxType = {
@@ -501,65 +476,52 @@ guiTypes = {
 		iconType = {
 			name = "icon"
 			spriteType = "GFX_modifier_pm_unknown"
+			orientation = center
+			centerPosition = yes
 			scale = 0.8
 		}
 		iconType = {
 			name = "icon_frame"
 			spriteType = "GFX_modifier_frames"
 			scale = 0.8
-			frame = 1
+			orientation = center
+			centerPosition = yes
 			alwaysTransparent = yes
 		}
 	}
 	containerWindowType = {
 		name = "expansion_target_entry"
-		size = { width = 1466 height = 58 }
-		if_scaled_resolution = {
-			min_width = 2560
-			size = { width = 1566 height = 58 }
-		}
-		clipping = yes
+		size = { width = 1534 height = 50 }
 		background = {
 			name = "hitbox"
-			spriteType = "GFX_invisible"
-		}
-		buttonType = {
-			name = "background"
-			spriteType = "GFX_expansion_button_tile_50"
-			size = { x = 1482 y = 74 }
-			position = { x = -8 y = -8 }
-			if_scaled_resolution = {
-				min_width = 2560
-				spriteType = "GFX_expansion_button_1560_50"
-				size = { x = 1582 y = 74 }
-			}
+			spriteType = "GFX_ui_dark_cut_light"
 		}
 		buttonType = {
 			name = "zoom_to_planet"
 			spriteType = "GFX_fleetview_focus"
-			position = { x = 9 y = 10 }
+			position = { x = 1 y = 6 }
 			pdx_tooltip = "FOCUS_ON_PLANET"
 		}
 		iconType = {
 			name = "planet_class_icon"
-			position = { x = 48 y = 10 }
 			spriteType = "GFX_planet_type"
-			frame = 1
-			scale = 1.0
+			position = { x = 62 y = 00 }
+			orientation = center_left
+			centerPosition = yes
 			pdx_tooltip = "FOCUS_ON_PLANET"
 		}
 		iconType = {
 			name = "has_expansion_entry"
-			position = { x = 73 y = 8 }
+			position = { x = 73 y = 4 }
 			spriteType = "GFX_has_expansion_entry"
 			pdx_tooltip = "EXPANSION_PLANNER_HAS_EXPANSION_ENTRY"
 		}
 		instantTextBoxType = {
 			name = "habitability_amount"
 			font = "font_text_14"
-			position = { x = 82 y = 5 }
+			position = { x = 82 y = 0 }
 			maxWidth = 60
-			maxHeight = 48
+			maxHeight = 50
 			fixedSize = yes
 			format = center
 			vertical_alignment = center
@@ -569,9 +531,9 @@ guiTypes = {
 			name = "planet_name"
 			font = "font_text_14"
 			text = "Blareogle System"
-			position = { x = 145 y = 5 }
+			position = { x = 145 y = 2 }
 			maxWidth = 185
-			maxHeight = 22
+			maxHeight = 21
 			fixedSize = yes
 			format = left
 			vertical_alignment = bottom
@@ -581,9 +543,9 @@ guiTypes = {
 			name = "planet_class"
 			font = "font_text_14"
 			text = "Arid"
-			position = { x = 145 y = 31 }
+			position = { x = 145 y = 28 }
 			maxWidth = 185
-			maxHeight = 22
+			maxHeight = 21
 			fixedSize = yes
 			format = left
 			vertical_alignment = top
@@ -594,17 +556,21 @@ guiTypes = {
 		containerWindowType = {
 			name = "rare_deposits_window"
 			size = { width = 53 height = 41 }
-			position = { x = 339 y = 8 }
+			position = { x = 339 y = 5 }
 			iconType = {
 				name = "rare_deposit_button"
 				quadTextureSprite = "GFX_deposit_unknown"
-				position = { x = 0 y = 1 }
+				position = { x = 0 y = 0 }
+				orientation = center
+				centerPosition = yes
 				scale = 0.55
 			}
 			iconType = {
 				name = "rare_deposit_frame"
 				spriteType = "GFX_planet_background_frame_rare"
 				position = { x = 0 y = 0 }
+				orientation = center
+				centerPosition = yes
 				scale = 0.56
 				alwaysTransparent = yes
 			}
@@ -624,14 +590,14 @@ guiTypes = {
 		iconType = {
 			name = "planet_size_icon"
 			spriteType = "GFX_planet_view_planet"
-			position = { x = 428 y = 7 }
+			position = { x = 428 y = 3 }
 			alwaysTransparent = yes
 		}
 		instantTextBoxType = {
 			name = "planet_size_amount"
 			font = "font_text_14"
 			text = "25"
-			position = { x = 405 y = 31 }
+			position = { x = 405 y = 27 }
 			maxWidth = 75
 			maxHeight = 24
 			fixedSize = yes
@@ -642,7 +608,7 @@ guiTypes = {
 		iconType = {
 			name = "distance_icon"
 			spriteType = "GFX_empire_capital"
-			position = { x = 508 y = 9 }
+			position = { x = 508 y = 5 }
 			scale = 0.66
 			alwaysTransparent = yes
 		}
@@ -650,7 +616,7 @@ guiTypes = {
 			name = "expansion_distance"
 			font = "font_text_14"
 			text = "131"
-			position = { x = 483 y = 31 }
+			position = { x = 483 y = 27 }
 			maxWidth = 75
 			maxHeight = 24
 			fixedSize = yes
@@ -660,60 +626,60 @@ guiTypes = {
 		}
 		containerWindowType = {
 			name = "district0_background"
-			position = { x = 561 y = 7 }
-			size = { width = 189 height = -7 }
+			position = { x = 561 y = 3 }
+			size = { width = 164 height = -3 }
 			background = {
 				name = "district0_background"
-				spriteType = "GFX_black_box_bg"
+				spriteType = "GFX_ui_dark_cut_light"
 				alwaysTransparent = yes
 			}
 		}
 		gridBoxType = {
 			name = "district0"
-			position = { x = 565 y = 9 }
-			size = { width = 182 height = 42 }
+			position = { x = 566 y = 5 }
+			size = { width = 154 height = 42 }
 			slotSize = { width = 14 height = 14 }
-			max_slots_horizontal = 13
+			max_slots_horizontal = 11
 			max_slots_vertical = 3
 			format = "UPPER_LEFT"
 			add_horizontal = yes
 		}
 		containerWindowType = {
 			name = "district1_background"
-			position = { x = 754 y = 7 }
-			size = { width = 189 height = -7 }
+			position = { x = 728 y = 3 }
+			size = { width = 164 height = -3 }
 			background = {
 				name = "district1_background"
-				spriteType = "GFX_black_box_bg"
+				spriteType = "GFX_ui_dark_cut_light"
 				alwaysTransparent = yes
 			}
 		}
 		gridBoxType = {
 			name = "district1"
-			position = { x = 758 y = 9 }
-			size = { width = 182 height = 42 }
+			position = { x = 733 y = 5 }
+			size = { width = 154 height = 42 }
 			slotSize = { width = 14 height = 14 }
-			max_slots_horizontal = 13
+			max_slots_horizontal = 11
 			max_slots_vertical = 3
 			format = "UPPER_LEFT"
 			add_horizontal = yes
 		}
 		containerWindowType = {
 			name = "district2_background"
-			position = { x = 947 y = 7 }
-			size = { width = 189 height = -7 }
+			position = { x = 895 y = 3 }
+			size = { width = 164 height = -3 }
 			background = {
 				name = "district2_background"
-				spriteType = "GFX_black_box_bg"
+				spriteType = "GFX_ui_dark_cut_light"
 				alwaysTransparent = yes
 			}
 		}
 		gridBoxType = {
 			name = "district2"
-			position = { x = 951 y = 9 }
-			size = { width = 182 height = 42 }
+			position = { x = 900 y = 5 }
+			size = { width = 154 height = 42 }
 			slotSize = { width = 14 height = 14 }
-			max_slots_horizontal = 13
+			max_slots_horizontal = 11
 			max_slots_vertical = 3
 			format = "UPPER_LEFT"
 			add_horizontal = yes
@@ -770,49 +736,63 @@ guiTypes = {
 		### PLANET MODIFIERS
 		overlappingElementsBoxType = {
 			name = "modifiers"
-			position = { x = 1142 y = 5 }
+			position = { x = 1064 y = 1 }
 			size = { x = 250 y = 48 }
-			if_scaled_resolution = {
-				min_width = 2560
-				size = { x = 350 y = 48 }
-			}
 			format = center
 		}
 		iconType = {
 			name = "has_intel_hostile"
-			position = { x = 1395 y = 14 }
-			if_scaled_resolution = {
-				min_width = 2560
-				position = { x = 1493 y = 14 }
-			}
 			spriteType = "GFX_hostile_intel_icon"
+			position = { x = -160 y = 0 }
+			orientation = center_right
+			centerPosition = yes
 		}
 		iconType = {
 			name = "has_anomaly"
-			position = { x = 1395 y = 14 }
-			if_scaled_resolution = {
-				min_width = 2560
-				position = { x = 1493 y = 14 }
-			}
 			spriteType = "GFX_hostile_intel_icon"
+			position = { x = -160 y = 0 }
+			orientation = center_right
+			centerPosition = yes
 		}
 		iconType = {
 			name = "terraforming_candidate_status"
-			position = { x = 1391 y = 12 }
-			if_scaled_resolution = {
-				min_width = 2560
-				position = { x = 1489 y = 12 }
-			}
 			quadTextureSprite = "GFX_terraforming_candidate"
+			position = { x = -195 y = 0 }
+			orientation = center_right
+			centerPosition = yes
+		}
+		# dedicated button to colonize
+		buttonType = {
+			name = "background"
+			spriteType = "GFX_ui_button_cyan"
+			position = { x = -140 y = 2 }
+			orientation = upper_right
+			size = { x = 124 y = 46 }
+			buttonText = "COLONIZE"
+			buttonFont = "font_text_14"
+			borderSize = { x = 5 y = 0 }
+			multiline = yes
 		}
 		### Cancel Colonize button is included under status column on the right side and will share the space with other icons visible in the same column
 		buttonType = {
 			name = "cancel_colonize_button"
-			spriteType = "GFX_close_button_planet"
-			position = { x = -45 y = 11 }
+			spriteType = "GFX_ui_button_red_opaque"
+			position = { x = -140 y = 2 }
 			orientation = upper_right
+			size = { x = 124 y = 46 }
+			buttonText = "CANCEL"
+			buttonFont = "font_text_14"
+			borderSize = { x = 5 y = 0 }
+			multiline = yes
 			oversound = mouse_over
 		}
+		#buttonType = {
+		#	name = "cancel_colonize_button"
+		#	spriteType = "GFX_gamesetup_delete"
+		#	position = { x = -44 y = 5 }
+		#	orientation = upper_right
+		#	oversound = mouse_over
+		#}
 	}
 	### TILE RESOURCE ###
 	containerWindowType = {

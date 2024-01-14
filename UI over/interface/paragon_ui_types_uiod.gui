@@ -221,8 +221,8 @@ guiTypes = {
 			### TRAITS ###
 			overlappingElementsBoxType = {
 				name = "traits_overlapping_box"
-				size = { x = 240 y = @trait_icon_size_h }
-				position = { x = -120 y = 65 }
+				size = { x = 200 y = @trait_icon_size_h }
+				position = { x = -100 y = 65 }
 				orientation = center
 				format = center
 				first_on_top = yes
@@ -446,8 +446,8 @@ guiTypes = {
 			### TRAITS ###
 			overlappingElementsBoxType = {
 				name = "traits_overlapping_box"
-				size = { x = 240 y = @trait_icon_size_h }
-				position = { x = -120 y = 65 }
+				size = { x = 200 y = @trait_icon_size_h }
+				position = { x = -100 y = 65 }
 				orientation = center
 				format = center
 				first_on_top = yes
@@ -1454,6 +1454,33 @@ guiTypes = {
 				iconType = {
 					name = "council_position_icon"
 					spriteType = "GFX_council_position_icon"
+				}
+			}
+			### AGE ###
+			containerWindowType = {
+				name = "age_container"
+				position = { x = -8 y = 80 }
+				size = { width = 42 height = 42 }
+				orientation = upper_right
+				origo = upper_right
+				background = {
+					name = "age_container"
+					spriteType = "GFX_invisible"
+				}
+				iconType = {
+					name = "age_bg"
+					spriteType = "GFX_leader_info_bg"
+					orientation = center
+					centerPosition = yes
+				}
+				instantTextBoxType = {
+					name = "age_text"
+					font = "font_text_14"
+					maxWidth = 42
+					maxHeight = 42
+					fixedSize = yes
+					format = center
+					vertical_alignment = center
 				}
 			}
 			### NAME AND TITLE ###

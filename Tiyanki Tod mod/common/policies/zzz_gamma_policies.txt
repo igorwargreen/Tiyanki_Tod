@@ -1,0 +1,90 @@
+war_doctrine = {
+	potential = {
+		OR = {
+			AND = {
+				is_country_type = default
+				OR = {
+					has_tradition = tr_supremacy_finish
+					has_technology = tech_command_matrix
+				}
+			}
+			is_country_type = enclave_mercenary
+		}
+	}
+
+	option = {
+		name = "defense_in_depth_doctrine"
+
+		policy_flags = {}
+		modifier = {
+			ship_home_territory_fire_rate_mult = 0.33
+			ship_disengage_chance_reduction = 1
+		}
+
+		AI_weight = {
+			factor = 1
+			modifier = {
+				factor = 100
+				OR = {
+					has_ethic = ethic_pacifist
+					has_ethic = ethic_fanatic_pacifist
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "hit_and_run_doctrine"
+
+		policy_flags = {}
+		modifier = {
+			ship_speed_mult = 0.1
+			ship_disengage_opportunities_add = 4
+			ship_disengage_chance_mult = 0.50
+			ship_emergency_ftl_mult = -0.5
+		}
+
+		AI_weight = {
+			factor = 1
+			modifier = {
+				factor = 1000
+				OR = {
+					has_authority = auth_corporate
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "rapid_deployment_doctrine"
+
+		policy_flags = {}
+		modifier = {
+			ship_speed_mult = 0.25
+			ship_weapon_range_mult = 0.20
+		}
+
+		AI_weight = {
+			factor = 1
+			modifier = {
+				factor = 10000
+				is_country_type = enclave_mercenary
+			}
+		}
+	}
+
+	option = {
+		name = "no_retreat_doctrine"
+
+		policy_flags = {}
+		modifier = {
+			ship_disengage_chance_reduction = 1
+			ship_emergency_ftl_min_days_mult = 0.5
+			ship_fire_rate_mult = 0.2
+		}
+
+		AI_weight = {
+			factor = 10
+		}
+	}
+}

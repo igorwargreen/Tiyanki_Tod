@@ -1,0 +1,70 @@
+#Florin
+florin = {
+	name = "EMPIRE_DESIGN_florin"
+	ship_prefix = "PRESCRIPTED_ship_prefix_florin"
+
+	spawn_enabled = yes
+	ignore_portrait_duplication = yes
+
+	species = {
+		class = "PLANT"
+		portrait = "pla15"
+		name = "PRESCRIPTED_species_name_florin"
+		plural = "PRESCRIPTED_species_plural_florin"
+		adjective = "PRESCRIPTED_species_adjective_florin"
+		name_list = "PLANT4"
+		trait = "trait_agrarian"
+		trait = "trait_intelligent"
+		trait = "trait_sedentary"
+		trait = "trait_fleeting"
+	}
+
+	room = "personality_spiritual_seekers_room"
+	ethic = "ethic_pacifist"
+	ethic = "ethic_fanatic_materialist"
+	authority = "auth_democratic"
+	civics = {
+		"civic_technocracy"
+		"civic_functional_architecture"
+	}
+	origin = "origin_mechanists"
+	government = "gov_rational_consensus"
+
+	adjective = "PRESCRIPTED_adjective_florin"
+	planet_name = "PRESCRIPTED_planet_name_florin"
+	planet_class = "pc_tropical"
+	system_name = "PRESCRIPTED_system_name_florin"
+	initializer = ""
+	graphical_culture = "plantoid_01"
+	city_graphical_culture = "plantoid_01"
+
+	empire_flag = {
+		icon = {
+			category = "pirate"
+			file = "flag_pirate_1.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "stripe.dds"
+		}
+		colors = {
+			"black"
+			"light_green"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		gender = female
+		name = "PRESCRIPTED_ruler_name_florin"
+		portrait = "pla15"
+		texture = 1
+		hair = 0
+		clothes = 0
+		ruler_title = "PRESCRIPTED_ruler_title_florin"
+		ruler_title_female = "PRESCRIPTED_ruler_title_female_florin"
+		trait="leader_trait_principled"
+		leader_class = official
+	}
+}

@@ -8,8 +8,8 @@ tr_mt_history_adopt = {
 tr_mt_history_finish = {
 	#custom_tooltip = tr_mt_history_finish_desc # 
 	modifier = {
-		damage_vs_country_type_fallen_empire_mult = 0.25
-		damage_vs_country_type_awakened_fallen_empire_mult = 0.25
+		damage_vs_country_type_fallen_empire_mult = 0.5
+		damage_vs_country_type_awakened_fallen_empire_mult = 0.5
 		# damage_vs_country_type_gate_builders_mult = 0.25
 		ascension_perks_add = 1
 	}
@@ -21,9 +21,9 @@ tr_mt_history_envy = {
 	custom_tooltip = tr_mt_history_envy_modifier_desc # Bonuses for each fallen empire still alive
 	triggered_modifier = {
 		potential = { always = yes }
-		ship_fire_rate_mult = 0.07
-		starbase_shipyard_build_speed_mult = 0.1
-		leader_commanders_cost_mult = -0.2
+		ship_fire_rate_mult = 0.1
+		starbase_shipyard_build_speed_mult = 0.2
+		leader_commanders_cost_mult = -0.25
 		mult = value:MT_desecration_envy_value
 	}
 

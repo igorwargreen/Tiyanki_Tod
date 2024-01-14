@@ -600,7 +600,7 @@ guiTypes = {
 					name = "assets_grid"
 					position = { x = 0 y = 0 }
 					size = { width = 0 height = 0 }
-					slotsize = { width = 72 height = 80 }
+					slotSize = { width = 72 height = 80 }
 					add_horizontal = yes
 					max_slots_horizontal = 1
 					format = "UPPER_LEFT"
@@ -763,7 +763,7 @@ guiTypes = {
 					}
 					gridBoxType = {
 						name = "target_grid"
-						slotsize = { width = 320 height = 50 }
+						slotSize = { width = 320 height = 50 }
 						add_horizontal = no
 						max_slots_horizontal = 1
 						format = "UPPER_LEFT"
@@ -825,7 +825,7 @@ guiTypes = {
 					name = "assets_grid"
 					position = { x = 0 y = 0 }
 					size = { width = 0 height = 0 }
-					slotsize = { width = 72 height = 80 }
+					slotSize = { width = 72 height = 80 }
 					add_horizontal = yes
 					max_slots_horizontal = 1
 					format = "UPPER_LEFT"

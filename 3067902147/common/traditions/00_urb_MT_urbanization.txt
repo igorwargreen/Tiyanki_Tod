@@ -45,10 +45,10 @@ tr_mt_urban_oversight = {
 		inherit_name = yes
 		inherit_icon = yes
 		trigger = {
-			has_corporate_government = yes
+			has_authority = auth_corporate
 		}
 		modifier = {
-			job_manager_per_pop = 0.04
+			job_trader_per_pop = 0.1
 		}
 		weight = {
 			factor = 100

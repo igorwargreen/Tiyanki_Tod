@@ -892,7 +892,7 @@ guiTypes = {
 					name = "council_gridbox"
 					position = { x = 65 y = 40 }
 					size = { width = 256 height = 32 }
-					slotsize = { width = 42 height = 40 }
+					slotSize = { width = 42 height = 40 }
 					max_slots_horizontal = 5
 					max_slots_vertical = 1
 					format = UPPER_LEFT
@@ -1689,7 +1689,7 @@ guiTypes = {
 					name = "set_galactic_focus_gridbox"
 					position = { x = 0 y = 0 }
 					size = { width = 350 height = 150 }
-					slotsize = { width = 230 height = 36 }
+					slotSize = { width = 230 height = 36 }
 					max_slots_horizontal = 1
 					format = UPPER_LEFT
 				}

@@ -33,9 +33,9 @@
  UIO_XENO_COMPATIBILITY_LABEL_TOOLTIP: "§H$XENO_COMPATIBILITY_LABEL$§!\n$XENO_COMPATIBILITY_LABEL_TOOLTIP$"
  ###################################
  ### headers
- UIO_DISTRICT_GENERATOR_TITLE: "£energy£ $district_generator_plural$"
- UIO_DISTRICT_MINING_TITLE: "£minerals£ $district_mining_plural$"
- UIO_DISTRICT_FARMING_TITLE: "£food£ $district_farming_plural$"
+ UIO_DISTRICT_GENERATOR_TITLE: "£energy£ $DISTRICTS$"
+ UIO_DISTRICT_MINING_TITLE: "£minerals£ $DISTRICTS$"
+ UIO_DISTRICT_FARMING_TITLE: "£food£ $DISTRICTS$"
  UIO_OUTPUT_TITLE: "£economy£ $OUTPUT$"
  UIO_POPS_TITLE: "£pops£ $POPS$"
  UIO_DISTRICTS_TITLE: "£district£ $DISTRICTS$"

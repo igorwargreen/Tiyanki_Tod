@@ -26,20 +26,30 @@ guiTypes = {
 		name = "waroverview_list_entry"
 		position = { x = 0 y = 0 }
 		size = { width = 71 height = 92 }
+		clipping = no
+		background = {
+			name = "background"
+			quadTextureSprite = "GFX_invisible"
+		}
 		iconType = {
 			name = "message_frame"
 			spriteType = "GFX_ui_alert_icon_2_line"
-			position = { x = 30 y = -1 }
+			position = { x = 0 y = 10 }
+			orientation = center_up
+			centerPosition = yes
 			alwaysTransparent = yes
 		}
 		buttonType = {
 			name = "enemy_flag_button"
-			spriteType = "GFX_at_war_with_bg"
-			position = { x = -5 y = 12 }		}
+			spriteType = "GFX_ui_war_button"
+			position = { x = -37.5 y = -30.5 }
+			orientation = center		}
 		iconType = {
 			name = "war_status_icon"
 			quadTextureSprite = "GFX_diplomacy_status_war"
-			position = { x = 18 y = 37 }
+			position = { x = -1 y = 7 }
+			orientation = center
+			centerPosition = yes
 			alwaysTransparent = yes
 		}
 		iconType = {

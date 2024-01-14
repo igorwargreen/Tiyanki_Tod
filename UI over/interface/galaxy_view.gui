@@ -738,7 +738,7 @@ guiTypes = {
 				buttonFont = "font_text_16"
 				buttonText = "GALAXY_VIEW_EMPIRE_NAME"
 				pdx_tooltip = "GALAXY_VIEW_SORT_NAME"
-				borderSize = { x = 10 y = 0 }
+				borderSize = { x = 8 y = 0 }
 				multiline = yes
 			}
 			buttonType = {
@@ -746,7 +746,7 @@ guiTypes = {
 				spriteType = "GFX_button_header_35_34"
 				position = { x = 692 y = @sort_button_y }
 				pdx_tooltip = "SORT_BY_RELATION"
-				borderSize = { x = 10 y = 0 }
+				borderSize = { x = 8 y = 0 }
 				multiline = yes
 			}
 			iconType = {
@@ -764,7 +764,7 @@ guiTypes = {
 				buttonFont = "font_text_16"
 				buttonText = "GALAXY_VIEW_EMPIRE_STATUS"
 				pdx_tooltip = "GALAXY_VIEW_SORT_DIPLOMACY"
-				borderSize = { x = 10 y = 0 }
+				borderSize = { x = 8 y = 0 }
 				multiline = yes
 			}
 			buttonType = {
@@ -773,7 +773,7 @@ guiTypes = {
 				position = { x = 1001 y = @sort_button_y }
 				buttonFont = "font_text_16"
 				pdx_tooltip = "SORT_BY_PLANETS"
-				borderSize = { x = 10 y = 0 }
+				borderSize = { x = 8 y = 0 }
 				multiline = yes
 			}
 			iconType = {
@@ -789,7 +789,7 @@ guiTypes = {
 				position = { x = 1039 y = @sort_button_y }
 				buttonFont = "font_text_16"
 				pdx_tooltip = "GALAXY_VIEW_SORT_POWER"
-				borderSize = { x = 10 y = 0 }
+				borderSize = { x = 8 y = 0 }
 				multiline = yes
 			}
 			iconType = {
@@ -807,7 +807,7 @@ guiTypes = {
 				buttonFont = "font_text_16"
 				buttonText = "GALAXY_VIEW_EMPIRE_ALLIANCE_FEDERATION"
 				pdx_tooltip = "GALAXY_VIEW_SORT_ALLIANCE_OR_FEDERATION"
-				borderSize = { x = 10 y = 0 }
+				borderSize = { x = 8 y = 0 }
 				multiline = yes
 			}
 			buttonType = {
@@ -817,7 +817,7 @@ guiTypes = {
 				buttonFont = "font_text_16"
 				buttonText = "GALAXY_VIEW_EMPIRE_WAR_STATUS"
 				pdx_tooltip = "GALAXY_VIEW_SORT_WAR_STATUS"
-				borderSize = { x = 10 y = 0 }
+				borderSize = { x = 8 y = 0 }
 				multiline = yes
 			}
 			containerWindowType = {

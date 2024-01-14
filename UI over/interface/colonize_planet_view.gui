@@ -4,7 +4,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "expansion_planner_surface_view"
 		size = { width = 1030 height = 931 }
-		position = { x = 0 y = 59 }
+		position = { x = 360 y = 59 }
 		if_scaled_resolution = {
 			min_height = 1200
 			size = { width = 1030 height = 1051 }
@@ -13,8 +13,6 @@ guiTypes = {
 			min_height = 1440
 			size = { width = 1030 height = 1291 }
 		}
-		orientation = center_up
-		origo = center_up
 		moveable = yes
 		clipping = yes
 		background = {
@@ -278,7 +276,7 @@ guiTypes = {
 				position = { x = 0 y = 40 }
 				size = { width = 265 height = 850 }
 				format = "UPPER_LEFT"
-				slotsize = { width = 166 height = 85 }
+				slotSize = { width = 166 height = 85 }
 				add_horizontal = yes
 				max_slots_horizontal = 2
 			}
@@ -463,7 +461,7 @@ guiTypes = {
 				name = "district_box_grid"
 				position = { x = 2 y = 2 }
 				size = { width = 65 height = 45 }
-				slotsize = { width = 15 height = 15 }
+				slotSize = { width = 15 height = 15 }
 				format = "UPPER_LEFT"
 				max_slots_horizontal = 5
 				max_slots_vertical = 5

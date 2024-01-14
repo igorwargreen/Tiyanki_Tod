@@ -70,7 +70,7 @@ artifact_MT_enegmatic_recharge = {
 			remove_modifier = relic_activation_cooldown
 			add_modifier = {
 				modifier = "artifact_MT_enegmatic_recharge_cooldown"
-				days = 3600
+				days = 720
 			}
 		}
 	}
@@ -84,7 +84,7 @@ artifact_MT_extract_resources = {
 	resources = {
 		category = artifact_actions
 		cost = {
-			minor_artifacts = 100
+			minor_artifacts = 200
 		}
 	}
 
@@ -108,13 +108,13 @@ artifact_MT_extract_resources = {
 				days = 360
 			}
 			owner = {
-				random_list = {
-					2 = { add_resource = { rare_crystals = 100 } }
-					2 = { add_resource = { exotic_gases = 100 } }
-					2 = { add_resource = { volatile_motes = 100 } }
-					2 = { add_resource = { sr_zro = 100 } }
-					2 = { add_resource = { sr_dark_matter = 100 } }
-					2 = { add_resource = { sr_living_metal = 100 } }
+				add_resource = {
+					rare_crystals = 100 
+					exotic_gases = 100
+					volatile_motes = 100
+					sr_zro = 100
+					sr_dark_matter = 100
+					sr_living_metal = 100
 				}
 			}
 		}

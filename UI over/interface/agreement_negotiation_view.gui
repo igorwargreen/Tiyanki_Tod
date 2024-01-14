@@ -1245,7 +1245,7 @@ guiTypes = {
 				name = "specialist_perk_grid_box"
 				format = "UPPER_LEFT"
 				position = { x = 55 y = 5 }
-				slotsize = { width = 31 height = 31 }
+				slotSize = { width = 31 height = 31 }
 				add_horizontal = yes
 			}
 			# This sprite need to be displayed at all time, and ONLY on the Tier we currently are. Needs code support.

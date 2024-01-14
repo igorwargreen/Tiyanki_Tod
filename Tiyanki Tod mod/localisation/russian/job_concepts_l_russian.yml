@@ -1,0 +1,85 @@
+﻿l_russian:
+
+ concept_technician: "$job_technician_plural$"
+ concept_technician_desc: "$job_technician_plural$ производят $i_energy$.\n\n§L$job_technician_desc$§!"
+
+ concept_farmer: "$job_farmer_plural$"
+ concept_farmer_desc: "$job_farmer_plural$ производят $i_food$.\n\n§L$job_farmer_desc$§!"
+
+ concept_miner: "$job_miner_plural$"
+ concept_miner_desc: "$job_miner_plural$ производят $i_minerals$.\n\n§L$job_miner_desc$§!"
+
+ concept_roboticist: "$job_roboticist_plural$"
+ concept_roboticist_desc: "$job_roboticist_plural$ превращают $i_alloys$ в новые £pop£ §Iпоселения роботов§!.\n\n§L$job_roboticist_desc$§!"
+
+ concept_archaeoengineers: "$job_archaeoengineers_plural$"
+ concept_archaeoengineers_desc: "$job_archaeoengineers_plural$ превращают $i_consumer_goods$ в $i_research$.\n\n§L$job_archaeoengineers_desc$§!"
+
+ concept_politician: "$job_politician_plural$"
+ concept_politician_desc: "$job_politician_plural$ превращают $i_consumer_goods$ в $i_unity$ и $i_amenities$.\n\n§L$job_politician_desc$§!"
+
+ concept_colonist: "$job_colonist_plural$"
+ concept_colonist_desc: "$job_colonist_plural$ производят немного $i_food$ (или $i_minerals$) и £amenities£ §I$благ$§! и создают £defense_army£ §Yоборонительные армии§!.\n\n§L$job_colonist_desc$§!"
+
+ concept_overlord_arborist: "$job_overlord_arborist_plural$"
+ concept_overlord_arborist_desc: "$job_overlord_arborist_plural$ превращают $i_food$ подданного в $i_food$ для сюзерена.\n\n§L$job_overlord_arborist_desc$§!"
+
+ concept_replicator: "$job_replicator_plural$"
+ concept_replicator_desc: "$job_replicator_plural$ превращают $i_alloys$ в новые £pop£ §Iпоселения машин§!.\n\n§L$job_replicator_desc$§!"
+
+ concept_spawning_drone: "$job_spawning_drone_plural$"
+ concept_spawning_drone_desc: "$job_spawning_drone_plural$ превращают $i_food$ (или $i_minerals$) в $i_amenities$ и £mod_planet_pop_assembly_mult£ §Iежемесячную сборку органических поселений§!.\n\n§L$job_spawning_drone_desc$§!"
+
+ concept_offspring_drone: "$job_offspring_drone_plural$"
+ concept_offspring_drone_desc: "$job_offspring_drone_plural$ превращают $i_food$ (или $i_minerals$) в $i_amenities$ и £mod_planet_pop_assembly_mult£ §Iежемесячную сборку органических поселений§!, создают §Iармии под командованием отпрыска§!, а §Iдроны-чернорабочие§! становятся на £mod_planet_jobs_simple_drone_produces_mult£ §G+10%§! эффективнее.\n\n§L$job_offspring_drone_desc$§!"
+
+ concept_offspring_feeder: "$job_overlord_offspring_drone_feeder_plural$"
+ concept_offspring_feeder_desc: "$job_overlord_offspring_drone_feeder_plural$ используют $i_food$ (или $i_minerals$) для создания §Iармий под командованием отпрыска§! и увеличения £mod_planet_jobs_worker_produces_mult£ §Iпроизводства ресурсов поселениями§!.\n\n§L$job_overlord_offspring_drone_feeder_desc$§!"
+
+ concept_squire: "$job_squire_plural$"
+ concept_squire_desc: "$job_squire_plural$ предоставляют $i_amenities$ и увеличивают §Iпродуктивность§! £job_knight_commander£ §Iлорда-командующего§! и £job_knight£ §Iрыцарей§!.\n\n§L$job_squire_desc$§!"
+
+ concept_knight: "$job_knight_plural$"
+ concept_knight_desc: "$job_knight_plural$ превращают $i_alloys$ в $i_unity$ и $i_research$, увеличивают $i_naval_capacity$ и создают $i_defense_armies$.\nЗавершение §Yрыцарских поисков§! может повысить их эффективность.\n\n§L$job_knight_desc$§!"
+
+ concept_knight_commander: "$job_knight_commander_plural$"
+ concept_knight_commander_desc: "$job_knight_commander_plural$ превращают $i_alloys$ в $i_unity$ и $i_amenities$ и увеличивают $i_naval_capacity$.\nЗавершение §Yрыцарских поисков§! может повысить их эффективность.\n\n§L$job_knight_commander_desc$§!"
+
+ concept_overlord_knight: "$job_overlord_knight_plural$"
+ concept_overlord_knight_desc: "£job_knight£ $job_overlord_knight_plural$ превращают $i_alloys$ в $i_stability$ и создают $i_defense_armies$ для подданного и $i_unity$ и $i_research$ для сюзерена.\nЗавершение §Yрыцарских поисков§! может повысить их эффективность.\n\n§L$job_overlord_knight_desc$§!"
+
+ concept_healthcare: "$job_healthcare_plural$"
+ concept_healthcare_desc: "$job_healthcare_plural$ превращают $i_consumer_goods$ в $i_amenities$, £mod_pop_growth_speed£ §Iскорость роста поселений§!, £mod_planet_pop_assembly_organic_mult£ §Iскорость сборки органических поселений§! и увеличивают £mod_pop_environment_tolerance£ §Iпригодность планеты§!.\n\n§L$job_healthcare_desc$§!"
+
+ concept_bureaucrat: "$job_bureaucrat_plural$"
+ concept_bureaucrat_desc: "$job_bureaucrat_plural$ превращают $i_consumer_goods$ в $i_unity$.\n\n§L$job_bureaucrat_desc$§!"
+
+ concept_clerk: "$job_clerk_plural$"
+ concept_clerk_desc: "$job_clerk_plural$ производят $i_trade_value$ и $i_amenities$.\n\n§L$job_clerk_desc$§!"
+
+ concept_unifier: "$job_unifier_plural$"
+ concept_unifier_desc: "$job_unifier_plural$ превращают $i_consumer_goods$ и $i_food$ (или $i_minerals$) в $i_unity$ и $i_amenities$.\n\n§L$job_unifier_desc$§!"
+
+ concept_broken_shackles_scavenger: "$job_broken_shackles_scavenger_plural$"
+ concept_broken_shackles_scavenger_desc: "$job_broken_shackles_scavenger_plural$ производят в небольшом количестве $i_alloys$, $i_amenities$ и $i_research$.\n\n§L$job_broken_shackles_scavenger_desc$§!"
+
+ concept_low_tech_laborer: "$job_low_tech_laborer_plural$"
+ concept_low_tech_laborer_desc: "$job_low_tech_laborer_plural$ превращают $i_minerals$ в $i_consumer_goods$ и $i_alloys$\n\n§L$job_low_tech_laborer_desc$§!"
+
+ concept_low_tech_miner: "$job_low_tech_miner_plural$"
+ concept_low_tech_miner_desc: "$job_low_tech_miner_plural$ производят $i_minerals$\n\n§L$job_low_tech_miner_desc$§!"
+
+ concept_low_tech_technician: "$job_low_tech_technician_plural$"
+ concept_low_tech_technician_desc: "$job_low_tech_technician_plural$ производят $i_energy$\n\n§L$job_low_tech_technician_desc$§!"
+
+ concept_low_tech_farmer: "$job_low_tech_farmer_plural$"
+ concept_low_tech_farmer_desc: "$job_low_tech_farmer_plural$ производят $i_food$\n\n§L$job_low_tech_farmer_desc$§!"
+
+ concept_low_tech_researcher: "$job_low_tech_researcher_plural$"
+ concept_low_tech_researcher_desc: "$job_low_tech_researcher_plural$ превращают $i_consumer_goods$ в $i_research$\n\n§L$job_low_tech_researcher_desc$§!"
+
+ concept_low_tech_bureaucrat: "$job_low_tech_bureaucrat_plural$"
+ concept_low_tech_bureaucrat_desc: "$job_low_tech_bureaucrat_plural$ превращают $i_consumer_goods$ в $i_unity$\n\n§L$job_low_tech_bureaucrat_desc$§!"
+
+ concept_low_tech_warrior: "$job_low_tech_warrior_plural$"
+ concept_low_tech_warrior_desc: "$job_low_tech_warrior_plural$ снижают £crime£ §Iпреступность§! и создают $i_defense_armies$\n\n§L$job_low_tech_warrior_desc$§!"

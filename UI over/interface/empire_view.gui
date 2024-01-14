@@ -73,7 +73,7 @@ guiTypes = {
 				buttonFont = "font_text_16"
 				buttonText = "NAME"
 				pdx_tooltip = "SORT_BY_NAME"
-				borderSize = { x = 10 y = 0 }
+				borderSize = { x = 8 y = 0 }
 				multiline = yes
 			}
 			buttonType = {
@@ -82,7 +82,7 @@ guiTypes = {
 				position = { x = 193 y = 0 }
 				buttonFont = "font_text_16"
 				buttonText = "TYPE"				pdx_tooltip = "SPECIES_VIEW_SORT_TYPE"
-				borderSize = { x = 10 y = 0 }
+				borderSize = { x = 8 y = 0 }
 				multiline = yes
 			}
 			buttonType = {
@@ -92,7 +92,7 @@ guiTypes = {
 				buttonFont = "font_text_16"
 				buttonText = "governor"
 				pdx_tooltip = "SORT_BY_GOVERNOR"
-				borderSize = { x = 10 y = 0 }
+				borderSize = { x = 8 y = 0 }
 				multiline = yes
 			}
 			buttonType = {
@@ -102,7 +102,7 @@ guiTypes = {
 				buttonFont = "font_text_16"
 				buttonText = "UIO_OUTPUT_TITLE"
 				pdx_tooltip = "SORT_BY_OUTPUT"
-				borderSize = { x = 10 y = 0 }
+				borderSize = { x = 8 y = 0 }
 				multiline = yes
 			}
 			buttonType = {
@@ -111,7 +111,7 @@ guiTypes = {
 				position = { x = 932 y = 0 }
 				buttonFont = "font_text_16"
 				buttonText = "UIO_POPS_TITLE"				pdx_tooltip = "SORT_BY_POP"
-				borderSize = { x = 10 y = 0 }
+				borderSize = { x = 8 y = 0 }
 				multiline = yes
 			}
 			buttonType = {
@@ -120,7 +120,7 @@ guiTypes = {
 				position = { x = 1285 y = 0 }
 				buttonFont = "font_text_16"
 				buttonText = "UIO_DISTRICTS_TITLE"				pdx_tooltip = "SORT_BY_DISTRICTS"
-				borderSize = { x = 10 y = 0 }
+				borderSize = { x = 8 y = 0 }
 				multiline = yes
 			}
 			containerWindowType = {
@@ -300,10 +300,10 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "amount"
 					font = "font_text_14"
+					text = "0 / 0"
 					position = { x = 2 y = 18 }
 					maxWidth = 40
 					maxHeight = 16
-					text = "0 / 0"
 					format = center
 					alwaysTransparent = yes
 				}
@@ -327,10 +327,10 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "amount"
 					font = "font_text_14"
+					text = "0 / 0"
 					position = { x = 2 y = 18 }
 					maxWidth = 40
 					maxHeight = 16
-					text = "0 / 0"
 					format = center
 					alwaysTransparent = yes
 				}
@@ -354,10 +354,10 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "amount"
 					font = "font_text_14"
+					text = "0 / 0"
 					position = { x = 2 y = 18 }
 					maxWidth = 40
 					maxHeight = 16
-					text = "0 / 0"
 					format = center
 					alwaysTransparent = yes
 				}
@@ -381,10 +381,10 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "amount"
 					font = "font_text_14"
+					text = "0 / 0"
 					position = { x = 2 y = 18 }
 					maxWidth = 40
 					maxHeight = 16
-					text = "0 / 0"
 					format = center
 					alwaysTransparent = yes
 				}
@@ -408,10 +408,10 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "amount"
 					font = "font_text_14"
+					text = "0 / 0"
 					position = { x = 2 y = 18 }
 					maxWidth = 40
 					maxHeight = 16
-					text = "0 / 0"
 					format = center
 					alwaysTransparent = yes
 				}
@@ -436,10 +436,10 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "amount"
 					font = "font_text_14"
+					text = "0 / 0"
 					position = { x = 2 y = 18 }
 					maxWidth = 40
 					maxHeight = 16
-					text = "0 / 0"
 					format = center
 					alwaysTransparent = yes
 				}
@@ -463,10 +463,10 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "amount"
 					font = "font_text_14"
+					text = "0 / 0"
 					position = { x = 2 y = 18 }
 					maxWidth = 40
 					maxHeight = 16
-					text = "0 / 0"
 					format = center
 					alwaysTransparent = yes
 				}
@@ -490,10 +490,10 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "amount"
 					font = "font_text_14"
+					text = "0 / 0"
 					position = { x = 2 y = 18 }
 					maxWidth = 40
 					maxHeight = 16
-					text = "0 / 0"
 					format = center
 					alwaysTransparent = yes
 				}
@@ -518,10 +518,10 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "amount"
 					font = "font_text_14"
+					text = "0 / 0"
 					position = { x = 2 y = 18 }
 					maxWidth = 40
 					maxHeight = 16
-					text = "0 / 0"
 					format = center
 					alwaysTransparent = yes
 				}
@@ -546,10 +546,10 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "amount"
 					font = "font_text_14"
+					text = "0 / 0"
 					position = { x = 2 y = 18 }
 					maxWidth = 40
 					maxHeight = 16
-					text = "0 / 0"
 					format = center
 					alwaysTransparent = yes
 				}
@@ -574,10 +574,10 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "amount"
 					font = "font_text_14"
+					text = "0 / 0"
 					position = { x = 2 y = 18 }
 					maxWidth = 40
 					maxHeight = 16
-					text = "0 / 0"
 					format = center
 					alwaysTransparent = yes
 				}
@@ -602,10 +602,10 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "amount"
 					font = "font_text_14"
+					text = "0 / 0"
 					position = { x = 2 y = 18 }
 					maxWidth = 40
 					maxHeight = 16
-					text = "0 / 0"
 					format = center
 					alwaysTransparent = yes
 				}
@@ -630,10 +630,10 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "amount"
 					font = "font_text_14"
+					text = "0 / 0"
 					position = { x = 2 y = 18 }
 					maxWidth = 40
 					maxHeight = 16
-					text = "0 / 0"
 					format = center
 					alwaysTransparent = yes
 				}
@@ -658,10 +658,10 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "amount"
 					font = "font_text_14"
+					text = "0 / 0"
 					position = { x = 2 y = 18 }
 					maxWidth = 40
 					maxHeight = 16
-					text = "0 / 0"
 					format = center
 					alwaysTransparent = yes
 				}
@@ -685,10 +685,10 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "amount"
 					font = "font_text_14"
+					text = "0 / 0"
 					position = { x = 2 y = 18 }
 					maxWidth = 40
 					maxHeight = 16
-					text = "0 / 0"
 					format = center
 					alwaysTransparent = yes
 				}
@@ -712,10 +712,10 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "amount"
 					font = "font_text_14"
+					text = "0 / 0"
 					position = { x = 2 y = 18 }
 					maxWidth = 40
 					maxHeight = 16
-					text = "0 / 0"
 					format = center
 					alwaysTransparent = yes
 				}
@@ -723,8 +723,8 @@ guiTypes = {
 		}
 		containerWindowType = {
 			name = "sector_background"
-			size = { width = 50 height = 91 }
-			position = { x = 1300 y = 14 }
+			size = { width = 200 height = 91 }
+			position = { x = 1140 y = 14 }
 			background = {
 				name = "sector_background"
 				spriteType = "GFX_tiles_dark_area_cut_8"
@@ -733,16 +733,38 @@ guiTypes = {
 		}
 		buttonType = {
 			name = "edit_sector"
-			quadTextureSprite = "GFX_edit_sectors"
-			position = { x = 1306 y = 20 }
+			#quadTextureSprite = "GFX_edit_sectors"
+			quadTextureSprite = "GFX_ui_button_cyan"
+			position = { x = 1140 y = 14 }
+			size = { x = 200 y = 46 }
+			buttonText = "MANAGE_SECTOR"
 			buttonFont = "font_text_14"
+			borderSize = { x = 35 y = 0 }
+			multiline = yes
 			pdx_tooltip = "EDIT_SECTOR_BUTTON"
 		}
 		buttonType = {
 			name = "delete_sector"
-			quadTextureSprite = "GFX_button_sector_delete"
-			position = { x = 1306 y = 61 }
+			#quadTextureSprite = "GFX_button_sector_delete"
+			quadTextureSprite = "GFX_ui_button_red"
+			position = { x = 1140 y = 58 }
+			size = { x = 200 y = 46 }
+			buttonText = "DESTROY_SECTOR_TITLE"
 			buttonFont = "font_text_14"
+			borderSize = { x = 35 y = 0 }
+			multiline = yes
+		}
+		iconType = {
+			name = "edit_sector_icon"
+			quadTextureSprite = "GFX_edit_sectors"
+			position = { x = 1298 y = 18 }
+			alwaysTransparent = yes
+		}
+		iconType = {
+			name = "delete_sector_icon"
+			quadTextureSprite = "GFX_button_sector_delete"
+			position = { x = 1298 y = 62 }
+			alwaysTransparent = yes
 		}
 		buttonType = {
 			name = "create_vassal"
@@ -861,8 +883,8 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "planet_size"
 			font = "font_text_20"
-			position = { x = 506 y = 10 }
 			text = "10"
+			position = { x = 506 y = 10 }
 			maxWidth = 50
 			maxHeight = 75
 			fixedSize = yes
@@ -892,10 +914,10 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "amount"
 					font = "font_text_14"
+					text = "0 / 0"
 					position = { x = 2 y = 18 }
 					maxWidth = 40
 					maxHeight = 16
-					text = "0 / 0"
 					format = center
 					alwaysTransparent = yes
 				}
@@ -919,10 +941,10 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "amount"
 					font = "font_text_14"
+					text = "0 / 0"
 					position = { x = 2 y = 18 }
 					maxWidth = 40
 					maxHeight = 16
-					text = "0 / 0"
 					format = center
 					alwaysTransparent = yes
 				}
@@ -946,10 +968,10 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "amount"
 					font = "font_text_14"
+					text = "0 / 0"
 					position = { x = 2 y = 18 }
 					maxWidth = 40
 					maxHeight = 16
-					text = "0 / 0"
 					format = center
 					alwaysTransparent = yes
 				}
@@ -973,10 +995,10 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "amount"
 					font = "font_text_14"
+					text = "0 / 0"
 					position = { x = 2 y = 18 }
 					maxWidth = 40
 					maxHeight = 16
-					text = "0 / 0"
 					format = center
 					alwaysTransparent = yes
 				}
@@ -1000,10 +1022,10 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "amount"
 					font = "font_text_14"
+					text = "0 / 0"
 					position = { x = 2 y = 18 }
 					maxWidth = 40
 					maxHeight = 16
-					text = "0 / 0"
 					format = center
 					alwaysTransparent = yes
 				}
@@ -1028,10 +1050,10 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "amount"
 					font = "font_text_14"
+					text = "0 / 0"
 					position = { x = 2 y = 18 }
 					maxWidth = 40
 					maxHeight = 16
-					text = "0 / 0"
 					format = center
 					alwaysTransparent = yes
 				}
@@ -1055,10 +1077,10 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "amount"
 					font = "font_text_14"
+					text = "0 / 0"
 					position = { x = 2 y = 18 }
 					maxWidth = 40
 					maxHeight = 16
-					text = "0 / 0"
 					format = center
 					alwaysTransparent = yes
 				}
@@ -1082,10 +1104,10 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "amount"
 					font = "font_text_14"
+					text = "0 / 0"
 					position = { x = 2 y = 18 }
 					maxWidth = 40
 					maxHeight = 16
-					text = "0 / 0"
 					format = center
 					alwaysTransparent = yes
 				}
@@ -1110,10 +1132,10 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "amount"
 					font = "font_text_14"
+					text = "0 / 0"
 					position = { x = 2 y = 18 }
 					maxWidth = 40
 					maxHeight = 16
-					text = "0 / 0"
 					format = center
 					alwaysTransparent = yes
 				}
@@ -1138,10 +1160,10 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "amount"
 					font = "font_text_14"
+					text = "0 / 0"
 					position = { x = 2 y = 18 }
 					maxWidth = 40
 					maxHeight = 16
-					text = "0 / 0"
 					format = center
 					alwaysTransparent = yes
 				}
@@ -1166,10 +1188,10 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "amount"
 					font = "font_text_14"
+					text = "0 / 0"
 					position = { x = 2 y = 18 }
 					maxWidth = 40
 					maxHeight = 16
-					text = "0 / 0"
 					format = center
 					alwaysTransparent = yes
 				}
@@ -1194,10 +1216,10 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "amount"
 					font = "font_text_14"
+					text = "0 / 0"
 					position = { x = 2 y = 18 }
 					maxWidth = 40
 					maxHeight = 16
-					text = "0 / 0"
 					format = center
 					alwaysTransparent = yes
 				}
@@ -1222,10 +1244,10 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "amount"
 					font = "font_text_14"
+					text = "0 / 0"
 					position = { x = 2 y = 18 }
 					maxWidth = 40
 					maxHeight = 16
-					text = "0 / 0"
 					format = center
 					alwaysTransparent = yes
 				}
@@ -1250,10 +1272,10 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "amount"
 					font = "font_text_14"
+					text = "0 / 0"
 					position = { x = 2 y = 18 }
 					maxWidth = 40
 					maxHeight = 16
-					text = "0 / 0"
 					format = center
 					alwaysTransparent = yes
 				}
@@ -1277,10 +1299,10 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "amount"
 					font = "font_text_14"
+					text = "0 / 0"
 					position = { x = 2 y = 18 }
 					maxWidth = 40
 					maxHeight = 16
-					text = "0 / 0"
 					format = center
 					alwaysTransparent = yes
 				}
@@ -1304,10 +1326,10 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "amount"
 					font = "font_text_14"
+					text = "0 / 0"
 					position = { x = 2 y = 18 }
 					maxWidth = 40
 					maxHeight = 16
-					text = "0 / 0"
 					format = center
 					alwaysTransparent = yes
 				}
@@ -1333,8 +1355,8 @@ guiTypes = {
 		gridBoxType = {
 			name = "districts"
 			position = { x = -195 y = 5 }
-			slotSize = { width = 42 height = 44 }
 			orientation = upper_right
+			slotSize = { width = 42 height = 44 }
 			format = "UPPER_LEFT"
 			max_slots_vertical = 2
 			add_horizontal = no
@@ -1370,10 +1392,10 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "num"
 			font = "font_text_14"
+			text = "5"
 			position = { x = 0 y = 68 }
 			maxWidth = 50
 			maxHeight = 16
-			text = "5"
 			format = center
 		}
 	}
@@ -1395,10 +1417,10 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "amount"
 			font = "font_text_18"
+			text = "0 / 0"
 			position = { x = 0 y = 0 }
 			maxWidth = 40
 			maxHeight = 40
-			text = "0 / 0"
 			format = center
 			vertical_alignment = center
 			alwaysTransparent = yes

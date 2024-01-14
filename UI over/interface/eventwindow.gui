@@ -23,24 +23,24 @@ guiTypes = {
 		### TITLE ###
 		iconType = {
 			name = "hex_bg_left"
-			position = { x = -79 y = 22 }
 			spriteType = "GFX_hex_center_bg"
+			position = { x = -79 y = 22 }
 			orientation = center_up
 			centerPosition = yes
 			alwaysTransparent = yes
 		}
 		iconType = {
 			name = "hex_bg_right"
-			position = { x = 79 y = 22 }
 			spriteType = "GFX_hex_center_bg"
+			position = { x = 79 y = 22 }
 			orientation = center_up
 			centerPosition = yes
 			alwaysTransparent = yes
 		}
 		iconType = {
 			name = "header_line"
-			position = { x = 0 y = 42 }
 			spriteType = "GFX_line_center"
+			position = { x = 0 y = 42 }
 			orientation = center_up
 			centerPosition = yes
 			alwaysTransparent = yes
@@ -59,23 +59,23 @@ guiTypes = {
 		}
 		buttonType = {
 			name = "focus_button"
+			spriteType = "GFX_fleetview_focus"
 			position = { x = -42 y = 13 }
 			orientation = upper_right
-			spriteType = "GFX_fleetview_focus"
 			shortcut = "q"
 		}
 		buttonType = {
 			name = "track_button"
+			spriteType = "GFX_button_track_project" # "GFX_track_all_projects_icon"
 			position = { x = -77 y = 13 }
 			orientation = upper_right
-			spriteType = "GFX_button_track_project" # "GFX_track_all_projects_icon"
 		}
 		### PORTRAIT ###
 		@event_picture_pos_y = 170
 		iconType = {
 			name = "event_picture"
-			position = { x = 0 y = @event_picture_pos_y }
 			spriteType = "GFX_evt_landing_ship"
+			position = { x = 0 y = @event_picture_pos_y }
 			orientation = center_up
 			centerPosition = yes
 			scale = 1.5
@@ -114,8 +114,8 @@ guiTypes = {
 			size = { width = 100% height = 26 }
 			iconType = {
 				name = "hex_bg"
-				position = { x = 0 y = 0 }
 				spriteType = "GFX_hex_center_bg"
+				position = { x = 0 y = 0 }
 				orientation = center
 				centerPosition = yes
 				alwaysTransparent = yes
@@ -150,8 +150,8 @@ guiTypes = {
 			origo = center_up
 			iconType = {
 				name = "middle_indicator"
-				position = { x = 244 y = 32 }
 				spriteType = "GFX_situation_middle_indicator"
+				position = { x = 244 y = 32 }
 			}
 			containerWindowType = {
 				name = "situations_progress_bar_container"
@@ -159,49 +159,49 @@ guiTypes = {
 				size = { width = 335 height = 40 }
 				iconType = {
 					name = "progress_bar_monodirectional"
-					position = { x = 0 y = 31 }
 					spriteType = "GFX_situation_event_progressbar_monodirectional_neutral" # Set in code
+					position = { x = 0 y = 31 }
 				}
 				iconType = {
 					name = "progress_bar_bidirectional_left"
-					position = { x = 0 y = 31 }
 					spriteType = "GFX_situation_event_progressbar_bidirectional_neutral_left" # Set in code
+					position = { x = 0 y = 31 }
 				}
 				iconType = {
 					name = "progress_bar_bidirectional_right"
-					position = { x = 168 y = 31 }
 					spriteType = "GFX_situation_event_progressbar_bidirectional_neutral_right" # Set in code
+					position = { x = 168 y = 31 }
 				}
 			}
 			iconType = {
 				name = "start_indicator"
-				position = { x = 74 y = 32 }
 				spriteType = "GFX_situation_start_indicator"
+				position = { x = 74 y = 32 }
 			}
 			iconType = {
 				name = "outcome_right"
-				orientation = upper_right
-				position = { x = -61 y = 38 }
 				spriteType = "GFX_invisible"
+				position = { x = -61 y = 38 }
+				orientation = upper_right
 				centerPosition = yes
 			}
 			iconType = {
 				name = "outcome_right_frame"
-				orientation = upper_right
-				position = { x = -61 y = 39 }
 				spriteType = "GFX_invisible"
+				position = { x = -61 y = 39 }
+				orientation = upper_right
 				centerPosition = yes
 			}
 			iconType = {
 				name = "outcome_left"
-				position = { x = 61 y = 39 }
 				spriteType = "GFX_invisible"
+				position = { x = 61 y = 39 }
 				centerPosition = yes
 			}
 			iconType = {
 				name = "outcome_left_frame"
-				position = { x = 61 y = 39 }
 				spriteType = "GFX_invisible"
+				position = { x = 61 y = 39 }
 				centerPosition = yes
 			}
 			containerWindowType = {
@@ -210,13 +210,13 @@ guiTypes = {
 				clipping = no
 				iconType = {
 					name = "pin_bg"
-					position = { x = 0 y = 1 }
 					quadTextureSprite = "GFX_situation_progress_pin"
+					position = { x = 0 y = 1 }
 				}
 				iconType = {
 					name = "pin_icon"
-					position = { x = 52 y = 13 }
 					spriteType = "GFX_situation_progress_directions"
+					position = { x = 52 y = 13 }
 					centerPosition = yes
 				}
 				instantTextBoxType = {
@@ -256,6 +256,7 @@ guiTypes = {
 			name = "description_frame"
 			position = { x = 10 y = 295 }
 			size = { width = -10 height = -10 }
+			verticalScrollbar = "right_vertical_slider_thick"
 			background = {
 				name = "description_frame"
 				spriteType = "GFX_tiles_frame_light"
@@ -274,18 +275,18 @@ guiTypes = {
 				maxHeight = 530
 				format = left
 				text_color_code = "L"
-				if_scaled_resolution = {
-					min_height = 1440
-					font = "font_lore_large"
-					maxHeight = 850
-				}
-				scrollbartype = "standardlistbox_slider_thick_small"
+				#if_scaled_resolution = {
+				#	min_height = 1440
+				#	font = "font_lore_large"
+				#	maxHeight = 950
+				#}
+				#scrollbarType = "standardlistbox_slider_thick_small"
 			}
 		}
 		buttonType = {
 			name = "tts_button"
-			position = { x = 657 y = 257 }
 			spriteType = "GFX_button_tts_start"
+			position = { x = 657 y = 257 }
 			buttonFont = "font_text_14"
 			shortcut = "t"
 		}
@@ -345,11 +346,6 @@ guiTypes = {
 			name = "trigger_icon_layers_gridbox"
 			size = { width = 32 height = 32 }
 			slotSize = { width = 0 height = 32 }
-			#background = {
-			#	name = "background"
-			#	spriteType = "GFX_invisible"
-			#	position = { x = 0 y = 0 }
-			#}
 		}
 	}
 	positionType = {
