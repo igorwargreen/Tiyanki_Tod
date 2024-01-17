@@ -343,6 +343,18 @@ soldier = {
 			exists = planet
 			planet = {
 				exists = owner
+				owner = { has_country_flag = is_general_of_0 }
+			}
+		}
+		modifier = {
+			country_naval_cap_add = 2
+		}
+	}
+	triggered_country_modifier = {
+		potential = {
+			exists = planet
+			planet = {
+				exists = owner
 				owner = { has_technology = "tech_doctrine_fleet_size_4" }
 			}
 		}

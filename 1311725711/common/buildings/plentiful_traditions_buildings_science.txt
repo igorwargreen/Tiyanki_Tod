@@ -32,7 +32,7 @@ building_plentiful_traditions_university_of_wisdom = {
 			owner = { is_regular_empire = yes }
 		}
 		modifier = {
-			job_researcher_add = 12
+			job_researcher_add = 10
 		}
 	}
 
@@ -42,7 +42,7 @@ building_plentiful_traditions_university_of_wisdom = {
 			owner = { is_hive_empire = yes }
 		}
 		modifier = {
-			job_brain_drone_add = 12
+			job_brain_drone_add = 10
 		}
 	}
 
@@ -52,7 +52,7 @@ building_plentiful_traditions_university_of_wisdom = {
 			owner = { is_machine_empire = yes }
 		}
 		modifier = {
-			job_calculator_add = 12
+			job_calculator_add = 10
 		}
 	}
 	
@@ -107,8 +107,8 @@ building_plentiful_traditions_university_of_wisdom = {
 			exotic_gases = 150
 		}
 		upkeep = {
-			energy = 5
-			exotic_gases = 3
+			energy = 10
+			exotic_gases = 4.5
 		}
 		produces = {
 			physics_research = 7

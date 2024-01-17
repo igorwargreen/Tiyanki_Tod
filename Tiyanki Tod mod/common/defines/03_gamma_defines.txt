@@ -15,6 +15,10 @@ NGameplay = {
 #	EMPIRE_SIZE_FROM_COLONIES				= 30	# Per planet
 #	EMPIRE_SIZE_FROM_BRANCH_OFFICES			= 0		# Per branch office
 #	EMPIRE_SIZE_FROM_POPS					= 1		# Per pop
+	EMPIRE_SIZE_TECH_COST_PENALTY			= 0.002	# Per empire size above base
+	EMPIRE_SIZE_TRADITION_COST_PENALTY		= 0.002	# Per empire size above base
+	EMPIRE_SIZE_COUNCIL_AGENDA_COST_PENALTY = 0.001 # Per empire size above base
+	EMPIRE_SIZE_ARMIES_PENALTY				= 0.001 # Per empire size above base
 	INTEGRATE_SUBJECT_MIN_DAYS				= 600 # Amount of days the subject has been a subject before we can integrate it
 	ORBITAL_BOMBARDMENT_FLEET_BASE_SIZE		= 300 # Over this amount of fleet cap bombarding we will start getting penalties to efficiency
 	PLANET_HEALTH_REGEN					= 0.15			# Each day
@@ -33,12 +37,25 @@ NPop = {
 	RESETTLE_UNEMPLOYED_BASE_RATE		= 0.2	# Chance an unemployed pop will automatically migrate if an acceptable location is found (Range is 0 to 1)
 }
 NEconomy = {
-#	EXPANSION_COST_BASE					= 60.0		# The influence base cost of outpost
 	CLAIM_COST_BASE						= 10.0		# The influence base cost of making claims
 	CLAIM_COST_STARBASE					= 30.0		# Added cost for upgraded starbase
 	CLAIM_COST_COLONY					= 175.0		# Added cost for colonized system
 	CLAIM_COST_DISTANCE					= 0		# Added per hyperlane jump away
 	CLAIM_COST_MULT_OFFENSIVE_WAR		= 1		# Claims are ( 1 + this ) much more expensive to add for attackers in war
+	
+	COMMERCIAL_PACT_VALUE_MULT			= 0.13
+
+	TRADE_AMOUNT_MULTIPLIER				= { 1 5 10 50 100 } # Multiplier interval for resource trading base amount
+	MARKET_TRADE_FEE_BASE				= 0.3	# Base procentage for market trade fee
+	MARKET_TRADE_FEE_MIN				= -0.25	# Minumum trade fee percentage
+	MARKET_FLUCTUATION_ABOVE_BASE_PRICE		= 1	# Base fluctuation when trading a resource' base amount if price is > 0
+	MARKET_FLUCTUATION_BELOW_BASE_PRICE		= 0.5	# Base fluctuation when trading a resource' base amount if price is <= 0
+	MARKET_MIN_FLUCTUATION_FROM_BASE_PRICE	= -50	# Min fluctuation from base price
+	MARKET_MAX_FLUCTUATION_FROM_BASE_PRICE	= 200	# Max fluctuation from base price
+	MARKET_DAYS_TO_BASE_PRICE				= 1000	# Days until resource price reaches base price from max or min price
+	MARKET_FLUCTUATION_EPSILON			= 0.5	# If | fluctuation | < epsilon, reset fluctuation to zero
+	MARKET_MONTHLY_TRADE_FRACTION		= 0.1	# market base amount will be multiplied by this when determining starting amount of a monthly market trade
+	MARKET_MAX_BASE_AMOUNTS				= 200	# Max resource base amounts that the player is allowed to trade in a single trade
 }
 NAI = {
 	AI_AGGRESSIVENESS_HIGH_MULT = 200
