@@ -59,7 +59,7 @@ NEconomy = {
 }
 NAI = {
 	AI_AGGRESSIVENESS_HIGH_MULT = 200
-#	VASSALIZATION_ACCEPTANCE_NUM_POPS = -100			# per pop
+	VASSALIZATION_ACCEPTANCE_NUM_POPS = -100			# per pop
 	MAX_CLAIM_DISTANCE = 7					# Max number of jumps away AI will make claims on
 	MAX_CLAIM_DISTANCE_SUBJECT = 5			# Max number of jumps away AI subjects will make claims on
 	CLAIM_BASE_VALUE = 350

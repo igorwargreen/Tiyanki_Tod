@@ -152,8 +152,8 @@ auth_democratic = {
 	}
 
 	country_modifier = {
-		pop_factions_produces_mult = 0.25
-		faction_approval = 0.2
+		pop_factions_produces_mult = 0.33
+		faction_approval = 0.33
 		country_leader_pool_size = 1
 	}
 

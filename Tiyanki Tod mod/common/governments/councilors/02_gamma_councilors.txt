@@ -55,3 +55,56 @@ councilor_gestalt_growth = {
 		inline_script = councilor_leader_weights
 	}
 }
+councilor_ruler_democratic = {
+	leader_class = { official commander scientist }
+	possible = { always = no }
+	modifier = {
+		pop_factions_unity_produces_mult = 0.05
+		country_edict_fund_add = 10
+	}
+	icon = "GFX_icon_councilor_ruler"
+	ai_hiring_weight = {
+		inline_script = councilor_leader_weights
+	}
+}
+councilor_ruler_dictatorial = {
+	leader_class = { official commander scientist }
+	possible = { always = no }
+	modifier = {
+		pop_amenities_usage_mult = -0.03
+		country_edict_fund_add = 10
+	}
+	icon = "GFX_icon_councilor_ruler"
+	ai_hiring_weight = {
+		inline_script = councilor_leader_weights
+	}
+}
+councilor_ruler_imperial = {
+	leader_class = { official commander scientist }
+	possible = { always = no }
+	modifier = {
+		country_power_projection_influence_produces_add = 0.4
+		country_edict_fund_add = 5
+	}
+	icon = "GFX_icon_councilor_ruler"
+	ai_hiring_weight = {
+		inline_script = councilor_leader_weights
+	}
+}
+councilor_philosopher_king = {
+	leader_class = { commander scientist official }
+	is_leader_possible = {
+		OR = {
+			leader_class = commander
+			leader_class = scientist
+			leader_class = official
+		}
+	}
+	civic = civic_philosopher_king
+	modifier = {
+		councilor_exp_gain = 0.05
+	}
+	ai_hiring_weight = {
+		inline_script = councilor_leader_weights
+	}
+}
