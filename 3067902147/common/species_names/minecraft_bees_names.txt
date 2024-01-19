@@ -1,0 +1,241 @@
+MCBEE = {
+	themlar =  {
+		name = SPEC_Themlar
+		plural = SPEC_Themlar_pl
+		home_planet = SPEC_Themlar_planet
+		home_system = SPEC_Themlar_system
+		name_list =  "ART1"
+	}
+
+	tezhnid =  {
+		name = SPEC_Tezhnid
+		plural = SPEC_Tezhnid_pl
+		home_planet = SPEC_Tezhnid_planet
+		home_system = SPEC_Tezhnid_system
+		name_list =  "ART2"
+	}
+
+	pithok =  {
+		name = SPEC_Pithok
+		plural = SPEC_Pithok_pl
+		home_planet = SPEC_Pithok_planet
+		home_system = SPEC_Pithok_system
+		name_list =  "ART3"
+	}
+
+	cithin =  {
+		name = SPEC_Cithin
+		plural = SPEC_Cithin_pl
+		home_planet = SPEC_Cithin_planet
+		home_system = SPEC_Cithin_system
+		name_list =  "ART4"
+	}
+
+	thimoid =  {
+		name = SPEC_Thimoid
+		plural = SPEC_Thimoid_pl
+		home_planet = SPEC_Thimoid_planet
+		home_system = SPEC_Thimoid_system
+		name_list =  "ART1"
+	}
+
+	rutharian =  {
+		name = SPEC_Rutharian
+		plural = SPEC_Rutharian_pl
+		home_planet = SPEC_Rutharian_planet
+		home_system = SPEC_Rutharian_system
+		name_list =  "ART2"
+	}
+
+	jhabbanid =  {
+		name = SPEC_Jhabbanid
+		plural = SPEC_Jhabbanid_pl
+		home_planet = SPEC_Jhabbanid_planet
+		home_system = SPEC_Jhabbanid_system
+		name_list =  "ART3"
+	}
+
+	saathid =  {
+		name = SPEC_Saathid
+		plural = SPEC_Saathid_pl
+		home_planet = SPEC_Saathid_planet
+		home_system = SPEC_Saathid_system
+		name_list =  "ART4"
+	}
+
+	iknurval =  {
+		name = SPEC_Ik-Nur-Val
+		plural = SPEC_Ik-Nur-Val_pl
+		home_planet = SPEC_Ik-Nur-Val_planet
+		home_system = SPEC_Ik-Nur-Val_system
+		name_list =  "ART1"
+	}
+
+	haddam =  {
+		name = SPEC_Haddam
+		plural = SPEC_Haddam_pl
+		home_planet = SPEC_Haddam_planet
+		home_system = SPEC_Haddam_system
+		name_list =  "ART2"
+	}
+
+	xeltek =  {
+		name = SPEC_Xeltek
+		plural = SPEC_Xeltek_pl
+		home_planet = SPEC_Xeltek_planet
+		home_system = SPEC_Xeltek_system
+		name_list =  "ART3"
+	}
+
+	zithorian =  {
+		name = SPEC_Zithorian
+		plural = SPEC_Zithorian_pl
+		home_planet = SPEC_Zithorian_planet
+		home_system = SPEC_Zithorian_system
+		name_list =  "ART4"
+	}
+
+	hantak =  {
+		name = SPEC_Hantak
+		plural = SPEC_Hantak_pl
+		home_planet = SPEC_Hantak_planet
+		home_system = SPEC_Hantak_system
+		name_list =  "ART1"
+	}
+
+	rontor =  {
+		name = SPEC_Rontor
+		plural = SPEC_Rontor_pl
+		home_planet = SPEC_Rontor_planet
+		home_system = SPEC_Rontor_system
+		name_list =  "ART2"
+	}
+
+	talakkur =  {
+		name = SPEC_TalAkkur
+		plural = SPEC_TalAkkur_pl
+		home_planet = SPEC_TalAkkur_planet
+		home_system = SPEC_TalAkkur_system
+		name_list =  "ART3"
+	}
+
+	myrran =  {
+		name = SPEC_Myrran
+		plural = SPEC_Myrran_pl
+		home_planet = SPEC_Myrran_planet
+		home_system = SPEC_Myrran_system
+		name_list =  "ART4"
+	}
+
+	athallid =  {
+		name = SPEC_Athallid
+		plural = SPEC_Athallid_pl
+		home_planet = SPEC_Athallid_planet
+		home_system = SPEC_Athallid_system
+		name_list =  "ART1"
+	}
+
+	entheri =  {
+		name = SPEC_Entheri
+		plural = SPEC_Entheri_pl
+		home_planet = SPEC_Entheri_planet
+		home_system = SPEC_Entheri_system
+		name_list =  "ART2"
+	}
+
+	chimm =  {
+		name = SPEC_Chimm
+		plural = SPEC_Chimm_pl
+		home_planet = SPEC_Chimm_planet
+		home_system = SPEC_Chimm_system
+		name_list =  "ART3"
+	}
+
+	shabtak =  {
+		name = SPEC_Shabtak
+		plural = SPEC_Shabtak_pl
+		home_planet = SPEC_Shabtak_planet
+		home_system = SPEC_Shabtak_system
+		name_list =  "ART4"
+	}
+
+	yibrak =  {
+		name = SPEC_Yibrak
+		plural = SPEC_Yibrak_pl
+		home_planet = SPEC_Yibrak_planet
+		home_system = SPEC_Yibrak_system
+		name_list =  "ART1"
+	}
+
+	qiramulan =  {
+		name = SPEC_Qiramulan
+		plural = SPEC_Qiramulan_pl
+		home_planet = SPEC_Qiramulan_planet
+		home_system = SPEC_Qiramulan_system
+		name_list =  "ART2"
+	}
+
+	ethir =  {
+		name = SPEC_Ethir
+		plural = SPEC_Ethir_pl
+		home_planet = SPEC_Ethir_planet
+		home_system = SPEC_Ethir_system
+		name_list =  "ART3"
+	}
+
+	avtyrran =  {
+		name = SPEC_Avtyrran
+		plural = SPEC_Avtyrran_pl
+		home_planet = SPEC_Avtyrran_planet
+		home_system = SPEC_Avtyrran_system
+		name_list =  "ART4"
+	}
+
+	pirak =  {
+		name = SPEC_Pirak
+		plural = SPEC_Pirak_pl
+		home_planet = SPEC_Pirak_planet
+		home_system = SPEC_Pirak_system
+		name_list =  "ART1"
+	}
+
+	izki =  {
+		name = SPEC_Izki
+		plural = SPEC_Izki_pl
+		home_planet = SPEC_Izki_planet
+		home_system = SPEC_Izki_system
+		name_list =  "ART2"
+	}
+
+	pakari =  {
+		name = SPEC_Pakari
+		plural = SPEC_Pakari_pl
+		home_planet = SPEC_Pakari_planet
+		home_system = SPEC_Pakari_system
+		name_list =  "ART3"
+	}
+
+	wi-ziraki =  {
+		name = SPEC_Wi-Ziraki
+		plural = SPEC_Wi-Ziraki_pl
+		home_planet = SPEC_Wi-Ziraki_planet
+		home_system = SPEC_Wi-Ziraki_system
+		name_list =  "ART4"
+	}
+
+	maggar =  {
+		name = SPEC_Maggar
+		plural = SPEC_Maggar_pl
+		home_planet = SPEC_Maggar_planet
+		home_system = SPEC_Maggar_system
+		name_list =  "ART1"
+	}
+
+	krithakkan =  {
+		name = SPEC_Krithakkan
+		plural = SPEC_Krithakkan_pl
+		home_planet = SPEC_Krithakkan_planet
+		home_system = SPEC_Krithakkan_system
+		name_list =  "ART2"
+	}
+}

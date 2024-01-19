@@ -1,0 +1,26 @@
+objectTypes = {
+
+	pdxmesh = {
+		name = bee_body_01_mesh
+		file = gfx/models/portraits/minecraft_bees/bee_body.mesh
+		animation = { id = idle type = bee_body_idle_animation }
+
+		meshsettings = {
+			shader = PdxMeshMCPortrait
+			texture_diffuse = gfx/models/portraits/minecraft_bees/bee.dds
+		}
+	}
+
+
+	pdxmesh = {
+		name = bee_wings_01_mesh
+		file = gfx/models/portraits/minecraft_bees/bee_wings.mesh
+		animation = { id = beat type = bee_wings_beat_animation }
+		animation = { id = idle type = bee_wings_idle_animation }
+
+		meshsettings = {
+			shader = PdxMeshMCPortrait
+			texture_diffuse = gfx/models/portraits/minecraft_bees/bee.dds
+		}
+	}
+}
