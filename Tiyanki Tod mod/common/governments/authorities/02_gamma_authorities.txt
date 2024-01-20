@@ -81,6 +81,7 @@ auth_corporate = {
 		commercial_pact_mult = 0.5
 		external_leader_pool_add = 1
 		trade_value_mult = 0.25
+		empire_size_colonies_mult = 1
 	}
 
 	tags = {
