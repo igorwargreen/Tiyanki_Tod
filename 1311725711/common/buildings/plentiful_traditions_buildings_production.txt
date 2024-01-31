@@ -4,7 +4,7 @@
 
 building_plentiful_traditions_trading_terminal = {
 	base_buildtime = 360
-	base_cap_amount = 1
+	can_build = no
 
 	category = trade
 	
@@ -18,14 +18,7 @@ building_plentiful_traditions_trading_terminal = {
 				has_active_tradition = tr_plentiful_aspiration_finish
 			}
 		}
-	}
-	
-	allow = {
-		has_major_upgraded_capital = yes
-	}
-	
-	planet_modifier = {
-		planet_jobs_energy_produces_mult = 0.05
+		has_building = building_commercial_megaplex
 	}
 
 	resources = {
@@ -35,8 +28,7 @@ building_plentiful_traditions_trading_terminal = {
 			rare_crystals = 50
 		}
 		produces = {
-			energy = 4
-			unity = 1
+			unity = 5
 		}
 	}
 
@@ -51,9 +43,19 @@ building_plentiful_traditions_trading_terminal = {
 		}
 		modifier = {
 			trade_value_mult = 0.05
-			job_merchant_add = 1
-			job_clerk_add = 2
-			job_technician_add = 3
+			job_merchant_add = 4
+			job_clerk_add = 6
+		}
+	}
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				has_active_tradition = tr_mercantile_commercial_enterprise
+			}
+		}
+		modifier = {
+			job_trader_add = 4
 		}
 	}
 
@@ -96,7 +98,6 @@ building_plentiful_traditions_trading_terminal = {
 
 building_plentiful_traditions_advanced_trading_terminal = {
 	base_buildtime = 360
-#	base_cap_amount = 1
 	can_build = no
 
 	category = trade
@@ -105,19 +106,8 @@ building_plentiful_traditions_advanced_trading_terminal = {
 		exists = owner
 		NOT = { has_modifier = resort_colony }	
 		NOT = { has_modifier = slave_colony }
-		owner = {
-			has_ascension_perk = ap_plentiful_traditions_trade_empire
-		}
 	}
 	
-	allow = {
-		has_major_upgraded_capital = yes
-	}
-	
-	planet_modifier = {
-		planet_jobs_energy_produces_mult = 0.10
-	}
-
 	resources = {
 		category = planet_buildings
 		cost = {
@@ -125,8 +115,7 @@ building_plentiful_traditions_advanced_trading_terminal = {
 			rare_crystals = 75
 		}
 		produces = {
-			energy = 6
-			unity = 2
+			unity = 12
 		}
 		upkeep = {
 			rare_crystals = 1
@@ -140,9 +129,20 @@ building_plentiful_traditions_advanced_trading_terminal = {
 		}
 		modifier = {
 			trade_value_mult = 0.10
-			job_merchant_add = 2
-			job_clerk_add = 4
-			job_technician_add = 6
+			job_merchant_add = 6
+			job_clerk_add = 8
+		}
+	}
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				has_active_tradition = tr_mercantile_commercial_enterprise
+			}
+		}
+		modifier = {
+			job_trader_add = 6
+			trade_value_mult = 0.05
 		}
 	}
 

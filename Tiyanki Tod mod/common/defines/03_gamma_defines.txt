@@ -22,8 +22,8 @@ NGameplay = {
 	INTEGRATE_SUBJECT_MIN_DAYS				= 600 # Amount of days the subject has been a subject before we can integrate it
 	ORBITAL_BOMBARDMENT_FLEET_BASE_SIZE		= 300 # Over this amount of fleet cap bombarding we will start getting penalties to efficiency
 	PLANET_HEALTH_REGEN					= 0.15			# Each day
-	RESOLUTION_VOTE_TIMER = 720					# number of days a resolution will be on the senate floor before being passed/failed
-	RESOLUTION_VOTE_PREMATURE_TIMER = 720			# number of days until the custodian/emperor can prematurely end the senate session
+	RESOLUTION_VOTE_TIMER = 420					# number of days a resolution will be on the senate floor before being passed/failed
+	RESOLUTION_VOTE_PREMATURE_TIMER = 420			# number of days until the custodian/emperor can prematurely end the senate session
 	SENATE_RECESS_TIMER = 540						# number of days until the next proposed resolution will be put on the floor after the current vote
 #	SUBJECT_LOYALTY_MAX = 100					# Max value of loyalty
 	MAX_PLANET_BUILDING_SLOTS				= 16
@@ -45,8 +45,8 @@ NEconomy = {
 	
 	COMMERCIAL_PACT_VALUE_MULT			= 0.13
 
-	TRADE_AMOUNT_MULTIPLIER				= { 1 5 10 50 100 } # Multiplier interval for resource trading base amount
-	MARKET_TRADE_FEE_BASE				= 0.3	# Base procentage for market trade fee
+	TRADE_AMOUNT_MULTIPLIER				= { 1 50 200 500 1000 } # Multiplier interval for resource trading base amount
+	MARKET_TRADE_FEE_BASE				= 0.25	# Base procentage for market trade fee
 	MARKET_TRADE_FEE_MIN				= -0.25	# Minumum trade fee percentage
 	MARKET_FLUCTUATION_ABOVE_BASE_PRICE		= 1	# Base fluctuation when trading a resource' base amount if price is > 0
 	MARKET_FLUCTUATION_BELOW_BASE_PRICE		= 0.5	# Base fluctuation when trading a resource' base amount if price is <= 0
