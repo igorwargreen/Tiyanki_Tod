@@ -1,0 +1,130 @@
+ORPHANOID_ORG = {
+	archetype = BIOLOGICAL
+	possible = { authority = { NOT = { value = auth_machine_intelligence text = SPECIES_CLASS_MUST_NOT_USE_MACHINE_INTELLIGENCE } } }
+	portraits = {
+		"avali"
+		"amp1"
+		"moopsi"
+		"holofrixit"
+		"creature"
+	}
+	# These should not be used for randomly generated species
+	non_randomized_portraits = {
+		"avali"
+		"amp1"
+		"moopsi"
+		"holofrixit"
+		"creature"
+	}
+	
+	graphical_culture = reptilian_01
+	move_pop_sound_effect = "moving_pop_confirmation"
+}
+
+ORPHANOID_DIF = {
+	archetype = BIOLOGICAL
+	possible = { authority = { NOT = { value = auth_machine_intelligence text = SPECIES_CLASS_MUST_NOT_USE_MACHINE_INTELLIGENCE } } }
+	portraits = {
+		"dimorphism_fox"
+		"dimorphism_cat"
+		"dimorphism_horse"
+		"dimorphism_otter"
+		"dimorphism_squirrel"
+		"dimorphism_liama"
+		"dimorphism_monke"
+		"dimorphism_ox"
+		"dimorphism_warthog"
+	}
+	# These should not be used for randomly generated species
+	non_randomized_portraits = {
+		"dimorphism_fox"
+		"dimorphism_cat"
+		"dimorphism_horse"
+		"dimorphism_otter"
+		"dimorphism_squirrel"
+		"dimorphism_liama"
+		"dimorphism_monke"
+		"dimorphism_ox"
+		"dimorphism_warthog"
+	}
+	
+	graphical_culture = reptilian_01
+	move_pop_sound_effect = "moving_pop_confirmation"
+}
+
+ORPHANOID_HUM = {
+	archetype = BIOLOGICAL
+	possible = { authority = { NOT = { value = auth_machine_intelligence text = SPECIES_CLASS_MUST_NOT_USE_MACHINE_INTELLIGENCE } } }
+	portraits = {
+		"xirmian"
+	}
+	# These should not be used for randomly generated species
+	non_randomized_portraits = {
+		"xirmian"
+	}
+	
+	graphical_culture = reptilian_01
+	move_pop_sound_effect = "moving_pop_confirmation"
+}
+
+ORPHANOID_LIT = {
+	archetype = LITHOID
+	playable = { has_lithoids = yes }
+	possible = { authority = { NOT = { value = auth_machine_intelligence text = SPECIES_CLASS_MUST_NOT_USE_MACHINE_INTELLIGENCE } } }
+
+	randomized = { has_lithoids = yes }
+
+	custom_portraits = {
+		randomized = { has_lithoids = yes }
+		playable = { has_lithoids = yes }
+		portraits = {
+			"holofrixit"
+		}
+	}
+
+	graphical_culture = lithoid_01
+	move_pop_sound_effect = "reptilian_pops_move"
+
+	resources = {}
+
+	trait = "trait_lithoid"
+}
+
+ORPHANOID_SYN = {
+	archetype = MACHINE
+
+	playable = { host_has_dlc = "Synthetic Dawn Story Pack" }
+	randomized = {
+		host_has_dlc = "Synthetic Dawn Story Pack"
+		# The create_species effect can't properly take the possible trigger below into account.
+		# Work around this by disabling this class for species randomization after game start.
+		NOT = { has_global_flag = game_started }
+	}
+	possible = { authority = { OR = { value = auth_machine_intelligence text = SPECIES_CLASS_MUST_USE_MACHINE_INTELLIGENCE } } }
+	possible_secondary = { always = no text = SECONDARY_SPECIES_CLASS_INVALID }
+
+	gender = no
+	use_climate_preference = no
+	portrait_modding = yes
+
+	leader_age_min = 2
+	leader_age_max = 10
+
+	custom_portraits = {
+		randomized = {
+			host_has_dlc = "Synthetic Dawn Story Pack"
+			# The create_species effect can't properly take the possible trigger below into account.
+			# Work around this by disabling this class for species randomization after game start.
+			NOT = { has_global_flag = game_started }
+		}
+		playable = { host_has_dlc = "Synthetic Dawn Story Pack" }
+		portraits = {
+			"holofrixit"
+		}
+	}
+
+	graphical_culture = mammalian_01
+	move_pop_sound_effect = "robot_pops_move"
+
+	resources = {}
+}

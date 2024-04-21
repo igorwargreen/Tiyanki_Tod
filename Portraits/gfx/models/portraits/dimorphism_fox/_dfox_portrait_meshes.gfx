@@ -1,0 +1,12 @@
+objectTypes = {
+
+	pdxmesh = {
+		name = "dimorphism_fox_portrait_mesh"
+		file = "gfx/models/portraits/dimorphism_fox/fox_portrait.mesh"
+		animation = { id = "idle"	type = "fox_portrait_happy_animation" }
+		animation = { id = "idle2"	type = "fox_portrait_happy_2_animation" }
+		animation = { id = "idle3"	type = "fox_portrait_happy_3_animation" }
+		animation = { id = "idle4"	type = "fox_portrait_happy_4_animation" }
+		scale = 1.0
+	}	
+}

@@ -1,0 +1,209 @@
+##############################################################
+###	PORTRAITS SETTINGS
+###
+### Which portraits are used is set in 
+### common\species_classes\00_species_classes.txt
+###
+###	This file configures how portraits and planet backgrounds are built.
+###	Default position orientation is lower left.
+##############################################################
+
+portraits = {
+
+#FEM
+		dimorphism_monke_female_01 = {	entity = "portrait_dmonke_female_01_entity"	clothes_selector = "dimorphism_female_monke_clothes_06"	attachment_selector = "no_texture"	greeting_sound = "avian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/dimorphism_monke/monke_female_01.dds"
+		}
+	}
+	
+		dimorphism_monke_female_02 = {	entity = "portrait_dmonke_female_02_entity"	clothes_selector = "dimorphism_female_monke_clothes_06"	attachment_selector = "no_texture"	greeting_sound = "avian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/dimorphism_monke/monke_female_02.dds"
+		}
+	}
+	
+		dimorphism_monke_female_03 = {	entity = "portrait_dmonke_female_03_entity"	clothes_selector = "dimorphism_female_monke_clothes_06"	attachment_selector = "no_texture"	greeting_sound = "avian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/dimorphism_monke/monke_female_03.dds"
+		}
+	}
+	
+		dimorphism_monke_female_04 = {	entity = "portrait_dmonke_female_04_entity"	clothes_selector = "dimorphism_female_monke_clothes_06"	attachment_selector = "no_texture"	greeting_sound = "avian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/dimorphism_monke/monke_female_04.dds"
+		}
+	}
+	
+		dimorphism_monke_female_05 = {	entity = "portrait_dmonke_female_05_entity"	clothes_selector = "dimorphism_female_monke_clothes_06"	attachment_selector = "no_texture"	greeting_sound = "avian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/dimorphism_monke/monke_female_05.dds"
+		}
+	}
+	
+#MALE	
+		dimorphism_monke_male_01 = {	entity = "portrait_dmonke_male_01_entity"	clothes_selector = "dimorphism_male_monke_clothes_06"	attachment_selector = "no_texture"	greeting_sound = "avian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/dimorphism_monke/monke_male_01.dds"
+		}
+	}
+	
+		dimorphism_monke_male_02 = {	entity = "portrait_dmonke_male_02_entity"	clothes_selector = "dimorphism_male_monke_clothes_06"	attachment_selector = "no_texture"	greeting_sound = "avian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/dimorphism_monke/monke_male_02.dds"
+		}
+	}
+	
+		dimorphism_monke_male_03 = {	entity = "portrait_dmonke_male_03_entity"	clothes_selector = "dimorphism_male_monke_clothes_06"	attachment_selector = "no_texture"	greeting_sound = "avian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/dimorphism_monke/monke_male_03.dds"
+		}
+	}
+	
+		dimorphism_monke_male_04 = {	entity = "portrait_dmonke_male_04_entity"	clothes_selector = "dimorphism_male_monke_clothes_06"	attachment_selector = "no_texture"	greeting_sound = "avian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/dimorphism_monke/monke_male_04.dds"
+		}
+	}
+	
+		dimorphism_monke_male_05 = {	entity = "portrait_dmonke_male_05_entity"	clothes_selector = "dimorphism_male_monke_clothes_06"	attachment_selector = "no_texture"	greeting_sound = "avian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/dimorphism_monke/monke_male_05.dds"
+		}
+	}
+
+}
+
+portrait_groups = {
+	dimorphism_monke = {
+		default = dimorphism_monke_female_01
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					dimorphism_monke_male_01
+					dimorphism_monke_male_02
+					dimorphism_monke_male_03
+					dimorphism_monke_male_04
+					dimorphism_monke_male_05
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					dimorphism_monke_female_01
+					dimorphism_monke_female_02
+					dimorphism_monke_female_03
+					dimorphism_monke_female_04
+					dimorphism_monke_female_05
+
+				}
+			}
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					dimorphism_monke_female_01
+					dimorphism_monke_female_02
+					dimorphism_monke_female_03
+					dimorphism_monke_female_04
+					dimorphism_monke_female_05
+					dimorphism_monke_male_01
+					dimorphism_monke_male_02
+					dimorphism_monke_male_03
+					dimorphism_monke_male_04
+					dimorphism_monke_male_05
+
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					dimorphism_monke_female_01
+					dimorphism_monke_female_02
+					dimorphism_monke_female_03
+					dimorphism_monke_female_04
+					dimorphism_monke_female_05
+					dimorphism_monke_male_01
+					dimorphism_monke_male_02
+					dimorphism_monke_male_03
+					dimorphism_monke_male_04
+					dimorphism_monke_male_05
+
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					dimorphism_monke_female_01
+					dimorphism_monke_female_02
+					dimorphism_monke_female_03
+					dimorphism_monke_female_04
+					dimorphism_monke_female_05
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					dimorphism_monke_male_01
+					dimorphism_monke_male_02
+					dimorphism_monke_male_03
+					dimorphism_monke_male_04
+					dimorphism_monke_male_05
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					dimorphism_monke_female_01
+					dimorphism_monke_female_02
+					dimorphism_monke_female_03
+					dimorphism_monke_female_04
+					dimorphism_monke_female_05
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					dimorphism_monke_male_01
+					dimorphism_monke_male_02
+					dimorphism_monke_male_03
+					dimorphism_monke_male_04
+					dimorphism_monke_male_05
+
+				}
+			}
+		}
+	}
+}

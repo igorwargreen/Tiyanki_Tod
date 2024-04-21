@@ -1,0 +1,18 @@
+# Selection of portraits declared in the static avali portraits mod for compatibility with the avali empire mod
+
+
+portraits = {
+
+        Avali_Female_5_6_4_13 = {	entity = "portrait_avali_female_01_entity"	clothes_selector = "avian_avali_clothes_01"	hair_selector = "avali_hair_01"	greeting_sound = "avian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/avali/avali_female_12.dds"
+		}
+	}
+
+	Avali_Neutral_4_9_9_9 = {	entity = "portrait_avali_female_01_entity"	clothes_selector = "avian_avali_clothes_01"	hair_selector = "avali_hair_01"	greeting_sound = "avian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/avali/avali_male_15.dds"
+		}
+	}
+
+}

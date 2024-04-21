@@ -1,0 +1,12 @@
+objectTypes = {
+
+	pdxmesh = {
+		name = "dimorphism_otter_portrait_mesh"
+		file = "gfx/models/portraits/dimorphism_otter/otter_portrait.mesh"
+		animation = { id = "idle"	type = "otter_portrait_happy_animation" }
+		animation = { id = "idle2"	type = "otter_portrait_happy_2_animation" }
+		animation = { id = "idle3"	type = "otter_portrait_happy_3_animation" }
+		animation = { id = "idle4"	type = "otter_portrait_happy_4_animation" }
+		animation = { id = "sad"	type = "otter_portrait_sad_animation" }
+		scale = 1.0
+	}

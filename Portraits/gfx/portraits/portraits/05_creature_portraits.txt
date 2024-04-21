@@ -1,0 +1,205 @@
+portraits = {
+
+		creature_female_body_01 = {	entity = "portrait_creature_female_body_01_entity"	clothes_selector = "no_texture"	attachment_selector = "no_texture"	greeting_sound = "avian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/creature/creature_1.dds"
+		}
+	}
+		creature_female_body_02 = {	entity = "portrait_creature_female_body_02_entity"	clothes_selector = "no_texture"	attachment_selector = "no_texture"	greeting_sound = "avian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/creature/creature_2.dds"
+		}
+	}
+		creature_female_body_03 = {	entity = "portrait_creature_female_body_03_entity"	clothes_selector = "no_texture"	attachment_selector = "no_texture"	greeting_sound = "avian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/creature/creature_3.dds"
+		}
+	}
+		creature_female_body_04 = {	entity = "portrait_creature_female_body_04_entity"	clothes_selector = "no_texture"	attachment_selector = "no_texture"	greeting_sound = "avian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/creature/creature_4.dds"
+		}
+	}
+		creature_female_body_05 = {	entity = "portrait_creature_female_body_05_entity"	clothes_selector = "no_texture"	attachment_selector = "no_texture"	greeting_sound = "avian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/creature/creature_5.dds"
+		}
+	}
+		creature_female_body_06 = {	entity = "portrait_creature_female_body_06_entity"	clothes_selector = "no_texture"	attachment_selector = "no_texture"	greeting_sound = "avian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/creature/creature_6.dds"
+		}
+	}	
+		creature_male_body_01 = {	entity = "portrait_creature_male_body_01_entity"	clothes_selector = "no_texture"	attachment_selector = "no_texture"	greeting_sound = "avian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/creature/creature_1.dds"
+		}
+	}
+		creature_male_body_02 = {	entity = "portrait_creature_male_body_02_entity"	clothes_selector = "no_texture"	attachment_selector = "no_texture"	greeting_sound = "avian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/creature/creature_2.dds"
+		}
+	}
+		creature_male_body_03 = {	entity = "portrait_creature_male_body_03_entity"	clothes_selector = "no_texture"	attachment_selector = "no_texture"	greeting_sound = "avian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/creature/creature_3.dds"
+		}
+	}
+		creature_male_body_04 = {	entity = "portrait_creature_male_body_04_entity"	clothes_selector = "no_texture"	attachment_selector = "no_texture"	greeting_sound = "avian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/creature/creature_4.dds"
+		}
+	}
+		creature_male_body_05 = {	entity = "portrait_creature_male_body_05_entity"	clothes_selector = "no_texture"	attachment_selector = "no_texture"	greeting_sound = "avian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/creature/creature_5.dds"
+		}
+	}
+		creature_male_body_06 = {	entity = "portrait_creature_male_body_06_entity"	clothes_selector = "no_texture"	attachment_selector = "no_texture"	greeting_sound = "avian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/creature/creature_6.dds"
+		}
+	}
+	
+}
+
+portrait_groups = {
+	creature = {
+		default = creature_male_body_01
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					creature_male_body_01
+					creature_male_body_02
+					creature_male_body_03
+					creature_male_body_04
+					creature_male_body_05
+					creature_male_body_06
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					creature_female_body_01
+					creature_female_body_02
+					creature_female_body_03
+					creature_female_body_04
+					creature_female_body_05
+					creature_female_body_06
+				}
+			}
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					creature_female_body_01
+					creature_female_body_02
+					creature_female_body_03
+					creature_female_body_04
+					creature_female_body_05
+					creature_female_body_06
+					creature_male_body_01
+					creature_male_body_02
+					creature_male_body_03
+					creature_male_body_04
+					creature_male_body_05
+					creature_male_body_06
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					creature_female_body_01
+					creature_female_body_02
+					creature_female_body_03
+					creature_female_body_04
+					creature_female_body_05
+					creature_female_body_06
+					creature_male_body_01
+					creature_male_body_02
+					creature_male_body_03
+					creature_male_body_04
+					creature_male_body_05
+					creature_male_body_06
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					creature_female_body_01
+					creature_female_body_02
+					creature_female_body_03
+					creature_female_body_04
+					creature_female_body_05
+					creature_female_body_06
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					creature_male_body_01
+					creature_male_body_02
+					creature_male_body_03
+					creature_male_body_04
+					creature_male_body_05
+					creature_male_body_06
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					creature_female_body_01
+					creature_female_body_02
+					creature_female_body_03
+					creature_female_body_04
+					creature_female_body_05
+					creature_female_body_06
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					creature_male_body_01
+					creature_male_body_02
+					creature_male_body_03
+					creature_male_body_04
+					creature_male_body_05
+					creature_male_body_06
+				}
+			}
+		}
+	}
+}
+
+}

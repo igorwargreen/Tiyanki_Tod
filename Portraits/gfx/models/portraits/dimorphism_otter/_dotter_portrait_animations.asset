@@ -1,0 +1,24 @@
+animation = {
+	name = "otter_portrait_happy_animation" # <- this is the shortcut name that you will put in the .gfx file.
+	file = "otter_portrait_happy.anim" # <- this is the actual animation file name.
+}
+
+animation = {
+	name = "otter_portrait_happy_2_animation" # <- this is the shortcut name that you will put in the .gfx file.
+	file = "otter_portrait_happy_2.anim" # <- this is the actual animation file name.
+}
+
+animation = {
+	name = "otter_portrait_happy_3_animation" # <- this is the shortcut name that you will put in the .gfx file.
+	file = "otter_portrait_happy_3.anim" # <- this is the actual animation file name.
+}
+
+animation = {
+	name = "otter_portrait_happy_4_animation" # <- this is the shortcut name that you will put in the .gfx file.
+	file = "otter_portrait_happy_4.anim" # <- this is the actual animation file name.
+}
+
+animation = {
+	name = "otter_portrait_sad_animation" # <- this is the shortcut name that you will put in the .gfx file.
+	file = "otter_portrait_sad.anim" # <- this is the actual animation file name.
+}

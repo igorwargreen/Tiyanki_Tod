@@ -1,0 +1,20 @@
+	animation = {
+		name = "amphibians_01_portrait_happy_animation"
+		file = "axolotl_01_portrait_happy.anim"
+	}
+
+	animation = {
+		name = "amphibians_01_portrait_happy_02_animation"
+		file = "axolotl_01_portrait_happy_02.anim"
+	}
+
+	animation = {
+		name = "amphibians_01_portrait_sad_animation"
+		file = "axolotl_01_portrait_sad.anim"
+	}
+
+	animation = {
+		name = "amphibians_01_portrait_sad_02_animation"
+		file = "axolotl_01_portrait_sad_02.anim"
+	}
+	

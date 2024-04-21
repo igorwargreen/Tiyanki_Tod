@@ -1,0 +1,24 @@
+##############################################################
+###	PORTRAITS SETTINGS
+###
+### Which portraits are used is set in 
+### common\species_classes\01_axolotl_classes.txt
+###
+###	This file configures how portraits and planet backgrounds are built.
+###	Default position orientation is lower left.
+##############################################################
+
+############################
+portraits = {
+
+	# Amphibian
+	amp1 = {	entity = "portrait_amphibians_01_entity" clothes_selector = "amphibians_normal_clothes_01" attachment_selector = "no_texture"	greeting_sound = "molluscoid_01_greetings" 
+			character_textures = {
+					"gfx/models/portraits/amphibians/axolotl_normal_01_pink.dds"
+					"gfx/models/portraits/amphibians/axolotl_normal_01_red.dds"
+					"gfx/models/portraits/amphibians/axolotl_normal_01_blue.dds"
+					"gfx/models/portraits/amphibians/axolotl_normal_01_yellow.dds"
+					"gfx/models/portraits/amphibians/axolotl_normal_01_black.dds"
+			}
+	}
+}

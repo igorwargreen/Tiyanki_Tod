@@ -1,0 +1,198 @@
+##############################################################
+###	PORTRAITS SETTINGS
+###
+### Which portraits are used is set in 
+### common\species_classes\00_species_classes.txt
+###
+###	This file configures how portraits and planet backgrounds are built.
+###	Default position orientation is lower left.
+##############################################################
+
+portraits = {
+
+#FEM
+		dimorphism_ox_female_01 = {	entity = "portrait_dox_female_01_entity"	clothes_selector = "dimorphism_female_ox_clothes_06"	attachment_selector = "no_texture"	greeting_sound = "avian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/dimorphism_ox/ox_female_01.dds"
+		}
+	}
+	
+		dimorphism_ox_female_02 = {	entity = "portrait_dox_female_02_entity"	clothes_selector = "dimorphism_female_ox_clothes_06"	attachment_selector = "no_texture"	greeting_sound = "avian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/dimorphism_ox/ox_female_02.dds"
+		}
+	}
+	
+		dimorphism_ox_female_03 = {	entity = "portrait_dox_female_03_entity"	clothes_selector = "dimorphism_female_ox_clothes_06"	attachment_selector = "no_texture"	greeting_sound = "avian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/dimorphism_ox/ox_female_03.dds"
+		}
+	}
+	
+		dimorphism_ox_female_04 = {	entity = "portrait_dox_female_04_entity"	clothes_selector = "dimorphism_female_ox_clothes_06"	attachment_selector = "no_texture"	greeting_sound = "avian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/dimorphism_ox/ox_female_04.dds"
+		}
+	}
+	
+		dimorphism_ox_female_05 = {	entity = "portrait_dox_female_05_entity"	clothes_selector = "dimorphism_female_ox_clothes_06"	attachment_selector = "no_texture"	greeting_sound = "avian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/dimorphism_ox/ox_female_05.dds"
+		}
+	}
+
+#MALE	
+		dimorphism_ox_male_01 = {	entity = "portrait_dox_male_01_entity"	clothes_selector = "dimorphism_male_ox_clothes_06"	attachment_selector = "no_texture"	greeting_sound = "avian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/dimorphism_ox/ox_male_01.dds"
+		}
+	}
+	
+		dimorphism_ox_male_02 = {	entity = "portrait_dox_male_02_entity"	clothes_selector = "dimorphism_male_ox_clothes_06"	attachment_selector = "no_texture"	greeting_sound = "avian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/dimorphism_ox/ox_male_02.dds"
+		}
+	}
+	
+		dimorphism_ox_male_03 = {	entity = "portrait_dox_male_03_entity"	clothes_selector = "dimorphism_male_ox_clothes_06"	attachment_selector = "no_texture"	greeting_sound = "avian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/dimorphism_ox/ox_male_03.dds"
+		}
+	}
+	
+		dimorphism_ox_male_04 = {	entity = "portrait_dox_male_04_entity"	clothes_selector = "dimorphism_male_ox_clothes_06"	attachment_selector = "no_texture"	greeting_sound = "avian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/dimorphism_ox/ox_male_04.dds"
+		}
+	}
+
+
+}
+
+portrait_groups = {
+	dimorphism_ox = {
+		default = dimorphism_ox_female_01
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					dimorphism_ox_male_01
+					dimorphism_ox_male_02
+					dimorphism_ox_male_03
+					dimorphism_ox_male_04
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					dimorphism_ox_female_01
+					dimorphism_ox_female_02
+					dimorphism_ox_female_03
+					dimorphism_ox_female_04
+					dimorphism_ox_female_05
+				}
+			}
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					dimorphism_ox_female_01
+					dimorphism_ox_female_02
+					dimorphism_ox_female_03
+					dimorphism_ox_female_04
+					dimorphism_ox_female_05
+					dimorphism_ox_male_01
+					dimorphism_ox_male_02
+					dimorphism_ox_male_03
+					dimorphism_ox_male_04
+
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					dimorphism_ox_female_01
+					dimorphism_ox_female_02
+					dimorphism_ox_female_03
+					dimorphism_ox_female_04
+					dimorphism_ox_female_05
+					dimorphism_ox_male_01
+					dimorphism_ox_male_02
+					dimorphism_ox_male_03
+					dimorphism_ox_male_04
+
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					dimorphism_ox_female_01
+					dimorphism_ox_female_02
+					dimorphism_ox_female_03
+					dimorphism_ox_female_04
+					dimorphism_ox_female_05
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					dimorphism_ox_male_01
+					dimorphism_ox_male_02
+					dimorphism_ox_male_03
+					dimorphism_ox_male_04
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					dimorphism_ox_female_01
+					dimorphism_ox_female_02
+					dimorphism_ox_female_03
+					dimorphism_ox_female_04
+					dimorphism_ox_female_05
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					dimorphism_ox_male_01
+					dimorphism_ox_male_02
+					dimorphism_ox_male_03
+					dimorphism_ox_male_04
+
+				}
+			}
+		}
+	}
+}

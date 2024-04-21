@@ -1,0 +1,13 @@
+objectTypes = {
+
+	pdxmesh = {
+		name = "dimorphism_warthog_portrait_mesh"
+		file = "gfx/models/portraits/dimorphism_warthog/warthog_portrait.mesh"
+		animation = { id = "idle"	type = "warthog_portrait_happy_animation" }
+		animation = { id = "idle2"	type = "warthog_portrait_happy_2_animation" }
+		animation = { id = "idle3"	type = "warthog_portrait_happy_3_animation" }
+		animation = { id = "sad"	type = "warthog_portrait_sad_animation" }
+		animation = { id = "sad2"	type = "warthog_portrait_sad_2_animation" }
+		scale = 1.0
+	}	
+}

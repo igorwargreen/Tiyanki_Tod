@@ -1,0 +1,1605 @@
+# This is a template which multiple species can use. 
+
+# Original textures by Blackhole32
+  
+avali_hair_01 = {
+	default = "gfx/models/portraits/avali/avali_hair_0_00.dds"
+	
+	game_setup = {#will run with a limited country scope. species and government is set but the country does not actually exist
+		default = "gfx/models/portraits/avali/avali_hair_0_00.dds"
+	}
+	
+	#species scope
+	species = { #generic portrait for a species
+		default = "gfx/models/portraits/avali/avali_hair_0_00.dds"
+	}
+	
+	#pop scope
+	pop = { #for a specific pop
+	
+		default = "gfx/models/portraits/avali/avali_hair_0_00.dds"
+
+		random = {
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_01.dds"
+				"gfx/models/portraits/avali/avali_hair_2_01.dds"
+				"gfx/models/portraits/avali/avali_hair_3_01.dds"
+
+			}
+		}	
+	}
+	
+	
+	
+	
+	#leader scope
+	leader = { #scientists, generals, admirals, governor
+	
+		random = {
+			trigger = { leader_class = general }
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_01.dds"
+			#	"gfx/models/portraits/avali/avali_hair_2_01.dds"
+			#	"gfx/models/portraits/avali/avali_hair_3_01.dds"
+			}
+		}		
+		
+		random = {
+			trigger = { leader_class = admiral }
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_01.dds"
+			#	"gfx/models/portraits/avali/avali_hair_2_01.dds"
+			#	"gfx/models/portraits/avali/avali_hair_3_01.dds"
+			}
+		}	
+		
+		random = {
+			trigger = { leader_class = scientist }
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_01.dds"
+				"gfx/models/portraits/avali/avali_hair_2_01.dds"
+				"gfx/models/portraits/avali/avali_hair_3_01.dds"
+			}
+		}		
+		
+		random = {
+			trigger = { leader_class = governor }
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_01.dds"
+				"gfx/models/portraits/avali/avali_hair_2_01.dds"
+				"gfx/models/portraits/avali/avali_hair_3_01.dds"
+			}
+		}
+	}
+  
+	#leader scope 
+	ruler = { #for rulers
+		
+		random = {
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_01.dds"
+				"gfx/models/portraits/avali/avali_hair_2_01.dds"
+				"gfx/models/portraits/avali/avali_hair_3_01.dds"
+			}
+		}
+	}
+}
+
+avali_hair_02 = {
+	default = "gfx/models/portraits/avali/avali_hair_0_00.dds"
+	
+	game_setup = {#will run with a limited country scope. species and government is set but the country does not actually exist
+		default = "gfx/models/portraits/avali/avali_hair_0_00.dds"
+	}
+	
+	#species scope
+	species = { #generic portrait for a species
+		default = "gfx/models/portraits/avali/avali_hair_0_00.dds"
+	}
+	
+	#pop scope
+	pop = { #for a specific pop
+	
+		default = "gfx/models/portraits/avali/avali_hair_0_00.dds"
+
+		random = {
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_02.dds"
+				"gfx/models/portraits/avali/avali_hair_2_02.dds"
+				"gfx/models/portraits/avali/avali_hair_3_02.dds"
+
+			}
+		}	
+	}
+	
+	
+	
+	
+	#leader scope
+	leader = { #scientists, generals, admirals, governor
+	
+		random = {
+			trigger = { leader_class = general }
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_02.dds"
+			#	"gfx/models/portraits/avali/avali_hair_2_02.dds"
+			#	"gfx/models/portraits/avali/avali_hair_3_02.dds"
+			}
+		}		
+		
+		random = {
+			trigger = { leader_class = admiral }
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_02.dds"
+			#	"gfx/models/portraits/avali/avali_hair_2_02.dds"
+			#	"gfx/models/portraits/avali/avali_hair_3_02.dds"
+			}
+		}	
+		
+		random = {
+			trigger = { leader_class = scientist }
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_02.dds"
+				"gfx/models/portraits/avali/avali_hair_2_02.dds"
+				"gfx/models/portraits/avali/avali_hair_3_02.dds"
+			}
+		}		
+		
+		random = {
+			trigger = { leader_class = governor }
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_02.dds"
+				"gfx/models/portraits/avali/avali_hair_2_02.dds"
+				"gfx/models/portraits/avali/avali_hair_3_02.dds"
+			}
+		}
+	}
+  
+	#leader scope 
+	ruler = { #for rulers
+		
+		random = {
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_02.dds"
+				"gfx/models/portraits/avali/avali_hair_2_02.dds"
+				"gfx/models/portraits/avali/avali_hair_3_02.dds"
+			}
+		}
+	}
+}
+
+avali_hair_03 = {
+	default = "gfx/models/portraits/avali/avali_hair_0_00.dds"
+	
+	game_setup = {#will run with a limited country scope. species and government is set but the country does not actually exist
+		default = "gfx/models/portraits/avali/avali_hair_0_00.dds"
+	}
+	
+	#species scope
+	species = { #generic portrait for a species
+		default = "gfx/models/portraits/avali/avali_hair_0_00.dds"
+	}
+	
+	#pop scope
+	pop = { #for a specific pop
+	
+		default = "gfx/models/portraits/avali/avali_hair_0_00.dds"
+
+		random = {
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_03.dds"
+				"gfx/models/portraits/avali/avali_hair_2_03.dds"
+				"gfx/models/portraits/avali/avali_hair_3_03.dds"
+
+			}
+		}	
+	}
+	
+	
+	
+	
+	#leader scope
+	leader = { #scientists, generals, admirals, governor
+	
+		random = {
+			trigger = { leader_class = general }
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_03.dds"
+			#	"gfx/models/portraits/avali/avali_hair_2_03.dds"
+			#	"gfx/models/portraits/avali/avali_hair_3_03.dds"
+			}
+		}		
+		
+		random = {
+			trigger = { leader_class = admiral }
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_03.dds"
+			#	"gfx/models/portraits/avali/avali_hair_2_03.dds"
+			#	"gfx/models/portraits/avali/avali_hair_3_03.dds"
+			}
+		}	
+		
+		random = {
+			trigger = { leader_class = scientist }
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_03.dds"
+				"gfx/models/portraits/avali/avali_hair_2_03.dds"
+				"gfx/models/portraits/avali/avali_hair_3_03.dds"
+			}
+		}		
+		
+		random = {
+			trigger = { leader_class = governor }
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_03.dds"
+				"gfx/models/portraits/avali/avali_hair_2_03.dds"
+				"gfx/models/portraits/avali/avali_hair_3_03.dds"
+			}
+		}
+	}
+  
+	#leader scope 
+	ruler = { #for rulers
+		
+		random = {
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_03.dds"
+				"gfx/models/portraits/avali/avali_hair_2_03.dds"
+				"gfx/models/portraits/avali/avali_hair_3_03.dds"
+			}
+		}
+	}
+}
+
+avali_hair_04 = {
+	default = "gfx/models/portraits/avali/avali_hair_0_00.dds"
+	
+	game_setup = {#will run with a limited country scope. species and government is set but the country does not actually exist
+		default = "gfx/models/portraits/avali/avali_hair_0_00.dds"
+	}
+	
+	#species scope
+	species = { #generic portrait for a species
+		default = "gfx/models/portraits/avali/avali_hair_0_00.dds"
+	}
+	
+	#pop scope
+	pop = { #for a specific pop
+	
+		default = "gfx/models/portraits/avali/avali_hair_0_00.dds"
+
+		random = {
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_04.dds"
+				"gfx/models/portraits/avali/avali_hair_2_04.dds"
+				"gfx/models/portraits/avali/avali_hair_3_04.dds"
+
+			}
+		}	
+	}
+	
+	
+	
+	
+	#leader scope
+	leader = { #scientists, generals, admirals, governor
+	
+		random = {
+			trigger = { leader_class = general }
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_04.dds"
+			#	"gfx/models/portraits/avali/avali_hair_2_04.dds"
+			#	"gfx/models/portraits/avali/avali_hair_3_04.dds"
+			}
+		}		
+		
+		random = {
+			trigger = { leader_class = admiral }
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_04.dds"
+			#	"gfx/models/portraits/avali/avali_hair_2_04.dds"
+			#	"gfx/models/portraits/avali/avali_hair_3_04.dds"
+			}
+		}	
+		
+		random = {
+			trigger = { leader_class = scientist }
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_04.dds"
+				"gfx/models/portraits/avali/avali_hair_2_04.dds"
+				"gfx/models/portraits/avali/avali_hair_3_04.dds"
+			}
+		}		
+		
+		random = {
+			trigger = { leader_class = governor }
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_04.dds"
+				"gfx/models/portraits/avali/avali_hair_2_04.dds"
+				"gfx/models/portraits/avali/avali_hair_3_04.dds"
+			}
+		}
+	}
+  
+	#leader scope 
+	ruler = { #for rulers
+		
+		random = {
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_04.dds"
+				"gfx/models/portraits/avali/avali_hair_2_04.dds"
+				"gfx/models/portraits/avali/avali_hair_3_04.dds"
+			}
+		}
+	}
+}
+
+avali_hair_05 = {
+	default = "gfx/models/portraits/avali/avali_hair_0_00.dds"
+	
+	game_setup = {#will run with a limited country scope. species and government is set but the country does not actually exist
+		default = "gfx/models/portraits/avali/avali_hair_0_00.dds"
+	}
+	
+	#species scope
+	species = { #generic portrait for a species
+		default = "gfx/models/portraits/avali/avali_hair_0_00.dds"
+	}
+	
+	#pop scope
+	pop = { #for a specific pop
+	
+		default = "gfx/models/portraits/avali/avali_hair_0_00.dds"
+
+		random = {
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_05.dds"
+				"gfx/models/portraits/avali/avali_hair_2_05.dds"
+				"gfx/models/portraits/avali/avali_hair_3_05.dds"
+
+			}
+		}	
+	}
+	
+	
+	
+	
+	#leader scope
+	leader = { #scientists, generals, admirals, governor
+	
+		random = {
+			trigger = { leader_class = general }
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_05.dds"
+			#	"gfx/models/portraits/avali/avali_hair_2_05.dds"
+			#	"gfx/models/portraits/avali/avali_hair_3_05.dds"
+			}
+		}		
+		
+		random = {
+			trigger = { leader_class = admiral }
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_05.dds"
+			#	"gfx/models/portraits/avali/avali_hair_2_05.dds"
+			#	"gfx/models/portraits/avali/avali_hair_3_05.dds"
+			}
+		}	
+		
+		random = {
+			trigger = { leader_class = scientist }
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_05.dds"
+				"gfx/models/portraits/avali/avali_hair_2_05.dds"
+				"gfx/models/portraits/avali/avali_hair_3_05.dds"
+			}
+		}		
+		
+		random = {
+			trigger = { leader_class = governor }
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_05.dds"
+				"gfx/models/portraits/avali/avali_hair_2_05.dds"
+				"gfx/models/portraits/avali/avali_hair_3_05.dds"
+			}
+		}
+	}
+  
+	#leader scope 
+	ruler = { #for rulers
+		
+		random = {
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_05.dds"
+				"gfx/models/portraits/avali/avali_hair_2_05.dds"
+				"gfx/models/portraits/avali/avali_hair_3_05.dds"
+			}
+		}
+	}
+}
+
+avali_hair_06 = {
+	default = "gfx/models/portraits/avali/avali_hair_0_00.dds"
+	
+	game_setup = {#will run with a limited country scope. species and government is set but the country does not actually exist
+		default = "gfx/models/portraits/avali/avali_hair_0_00.dds"
+	}
+	
+	#species scope
+	species = { #generic portrait for a species
+		default = "gfx/models/portraits/avali/avali_hair_0_00.dds"
+	}
+	
+	#pop scope
+	pop = { #for a specific pop
+	
+		default = "gfx/models/portraits/avali/avali_hair_0_00.dds"
+
+		random = {
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_06.dds"
+				"gfx/models/portraits/avali/avali_hair_2_06.dds"
+				"gfx/models/portraits/avali/avali_hair_3_06.dds"
+
+			}
+		}	
+	}
+	
+	
+	
+	
+	#leader scope
+	leader = { #scientists, generals, admirals, governor
+	
+		random = {
+			trigger = { leader_class = general }
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_06.dds"
+			#	"gfx/models/portraits/avali/avali_hair_2_06.dds"
+			#	"gfx/models/portraits/avali/avali_hair_3_06.dds"
+			}
+		}		
+		
+		random = {
+			trigger = { leader_class = admiral }
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_06.dds"
+			#	"gfx/models/portraits/avali/avali_hair_2_06.dds"
+			#	"gfx/models/portraits/avali/avali_hair_3_06.dds"
+			}
+		}	
+		
+		random = {
+			trigger = { leader_class = scientist }
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_06.dds"
+				"gfx/models/portraits/avali/avali_hair_2_06.dds"
+				"gfx/models/portraits/avali/avali_hair_3_06.dds"
+			}
+		}		
+		
+		random = {
+			trigger = { leader_class = governor }
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_06.dds"
+				"gfx/models/portraits/avali/avali_hair_2_06.dds"
+				"gfx/models/portraits/avali/avali_hair_3_06.dds"
+			}
+		}
+	}
+  
+	#leader scope 
+	ruler = { #for rulers
+		
+		random = {
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_06.dds"
+				"gfx/models/portraits/avali/avali_hair_2_06.dds"
+				"gfx/models/portraits/avali/avali_hair_3_06.dds"
+			}
+		}
+	}
+}
+
+avali_hair_07 = {
+	default = "gfx/models/portraits/avali/avali_hair_0_00.dds"
+	
+	game_setup = {#will run with a limited country scope. species and government is set but the country does not actually exist
+		default = "gfx/models/portraits/avali/avali_hair_0_00.dds"
+	}
+	
+	#species scope
+	species = { #generic portrait for a species
+		default = "gfx/models/portraits/avali/avali_hair_0_00.dds"
+	}
+	
+	#pop scope
+	pop = { #for a specific pop
+	
+		default = "gfx/models/portraits/avali/avali_hair_0_00.dds"
+
+		random = {
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_07.dds"
+				"gfx/models/portraits/avali/avali_hair_2_07.dds"
+				"gfx/models/portraits/avali/avali_hair_3_07.dds"
+
+			}
+		}	
+	}
+	
+	
+	
+	
+	#leader scope
+	leader = { #scientists, generals, admirals, governor
+	
+		random = {
+			trigger = { leader_class = general }
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_07.dds"
+			#	"gfx/models/portraits/avali/avali_hair_2_07.dds"
+			#	"gfx/models/portraits/avali/avali_hair_3_07.dds"
+			}
+		}		
+		
+		random = {
+			trigger = { leader_class = admiral }
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_07.dds"
+			#	"gfx/models/portraits/avali/avali_hair_2_07.dds"
+			#	"gfx/models/portraits/avali/avali_hair_3_07.dds"
+			}
+		}	
+		
+		random = {
+			trigger = { leader_class = scientist }
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_07.dds"
+				"gfx/models/portraits/avali/avali_hair_2_07.dds"
+				"gfx/models/portraits/avali/avali_hair_3_07.dds"
+			}
+		}		
+		
+		random = {
+			trigger = { leader_class = governor }
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_07.dds"
+				"gfx/models/portraits/avali/avali_hair_2_07.dds"
+				"gfx/models/portraits/avali/avali_hair_3_07.dds"
+			}
+		}
+	}
+  
+	#leader scope 
+	ruler = { #for rulers
+		
+		random = {
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_07.dds"
+				"gfx/models/portraits/avali/avali_hair_2_07.dds"
+				"gfx/models/portraits/avali/avali_hair_3_07.dds"
+			}
+		}
+	}
+}
+
+avali_hair_08 = {
+	default = "gfx/models/portraits/avali/avali_hair_0_00.dds"
+	
+	game_setup = {#will run with a limited country scope. species and government is set but the country does not actually exist
+		default = "gfx/models/portraits/avali/avali_hair_0_00.dds"
+	}
+	
+	#species scope
+	species = { #generic portrait for a species
+		default = "gfx/models/portraits/avali/avali_hair_0_00.dds"
+	}
+	
+	#pop scope
+	pop = { #for a specific pop
+	
+		default = "gfx/models/portraits/avali/avali_hair_0_00.dds"
+
+		random = {
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_08.dds"
+				"gfx/models/portraits/avali/avali_hair_2_08.dds"
+				"gfx/models/portraits/avali/avali_hair_3_08.dds"
+
+			}
+		}	
+	}
+	
+	
+	
+	
+	#leader scope
+	leader = { #scientists, generals, admirals, governor
+	
+		random = {
+			trigger = { leader_class = general }
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_08.dds"
+			#	"gfx/models/portraits/avali/avali_hair_2_08.dds"
+			#	"gfx/models/portraits/avali/avali_hair_3_08.dds"
+			}
+		}		
+		
+		random = {
+			trigger = { leader_class = admiral }
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_08.dds"
+			#	"gfx/models/portraits/avali/avali_hair_2_08.dds"
+			#	"gfx/models/portraits/avali/avali_hair_3_08.dds"
+			}
+		}	
+		
+		random = {
+			trigger = { leader_class = scientist }
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_08.dds"
+				"gfx/models/portraits/avali/avali_hair_2_08.dds"
+				"gfx/models/portraits/avali/avali_hair_3_08.dds"
+			}
+		}		
+		
+		random = {
+			trigger = { leader_class = governor }
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_08.dds"
+				"gfx/models/portraits/avali/avali_hair_2_08.dds"
+				"gfx/models/portraits/avali/avali_hair_3_08.dds"
+			}
+		}
+	}
+  
+	#leader scope 
+	ruler = { #for rulers
+		
+		random = {
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_08.dds"
+				"gfx/models/portraits/avali/avali_hair_2_08.dds"
+				"gfx/models/portraits/avali/avali_hair_3_08.dds"
+			}
+		}
+	}
+}
+
+avali_hair_09 = {
+	default = "gfx/models/portraits/avali/avali_hair_0_00.dds"
+	
+	game_setup = {#will run with a limited country scope. species and government is set but the country does not actually exist
+		default = "gfx/models/portraits/avali/avali_hair_0_00.dds"
+	}
+	
+	#species scope
+	species = { #generic portrait for a species
+		default = "gfx/models/portraits/avali/avali_hair_0_00.dds"
+	}
+	
+	#pop scope
+	pop = { #for a specific pop
+	
+		default = "gfx/models/portraits/avali/avali_hair_0_00.dds"
+
+		random = {
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_09.dds"
+				"gfx/models/portraits/avali/avali_hair_2_09.dds"
+				"gfx/models/portraits/avali/avali_hair_3_09.dds"
+
+			}
+		}	
+	}
+	
+	
+	
+	
+	#leader scope
+	leader = { #scientists, generals, admirals, governor
+	
+		random = {
+			trigger = { leader_class = general }
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_09.dds"
+			#	"gfx/models/portraits/avali/avali_hair_2_09.dds"
+			#	"gfx/models/portraits/avali/avali_hair_3_09.dds"
+			}
+		}		
+		
+		random = {
+			trigger = { leader_class = admiral }
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_09.dds"
+			#	"gfx/models/portraits/avali/avali_hair_2_09.dds"
+			#	"gfx/models/portraits/avali/avali_hair_3_09.dds"
+			}
+		}	
+		
+		random = {
+			trigger = { leader_class = scientist }
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_09.dds"
+				"gfx/models/portraits/avali/avali_hair_2_09.dds"
+				"gfx/models/portraits/avali/avali_hair_3_09.dds"
+			}
+		}		
+		
+		random = {
+			trigger = { leader_class = governor }
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_09.dds"
+				"gfx/models/portraits/avali/avali_hair_2_09.dds"
+				"gfx/models/portraits/avali/avali_hair_3_09.dds"
+			}
+		}
+	}
+  
+	#leader scope 
+	ruler = { #for rulers
+		
+		random = {
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_09.dds"
+				"gfx/models/portraits/avali/avali_hair_2_09.dds"
+				"gfx/models/portraits/avali/avali_hair_3_09.dds"
+			}
+		}
+	}
+}
+
+avali_hair_10 = {
+	default = "gfx/models/portraits/avali/avali_hair_0_00.dds"
+	
+	game_setup = {#will run with a limited country scope. species and government is set but the country does not actually exist
+		default = "gfx/models/portraits/avali/avali_hair_0_00.dds"
+	}
+	
+	#species scope
+	species = { #generic portrait for a species
+		default = "gfx/models/portraits/avali/avali_hair_0_00.dds"
+	}
+	
+	#pop scope
+	pop = { #for a specific pop
+	
+		default = "gfx/models/portraits/avali/avali_hair_0_00.dds"
+
+		random = {
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_10.dds"
+				"gfx/models/portraits/avali/avali_hair_2_10.dds"
+				"gfx/models/portraits/avali/avali_hair_3_10.dds"
+
+			}
+		}	
+	}
+	
+	
+	
+	
+	#leader scope
+	leader = { #scientists, generals, admirals, governor
+	
+		random = {
+			trigger = { leader_class = general }
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_10.dds"
+			#	"gfx/models/portraits/avali/avali_hair_2_10.dds"
+			#	"gfx/models/portraits/avali/avali_hair_3_10.dds"
+			}
+		}		
+		
+		random = {
+			trigger = { leader_class = admiral }
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_10.dds"
+			#	"gfx/models/portraits/avali/avali_hair_2_10.dds"
+			#	"gfx/models/portraits/avali/avali_hair_3_10.dds"
+			}
+		}	
+		
+		random = {
+			trigger = { leader_class = scientist }
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_10.dds"
+				"gfx/models/portraits/avali/avali_hair_2_10.dds"
+				"gfx/models/portraits/avali/avali_hair_3_10.dds"
+			}
+		}		
+		
+		random = {
+			trigger = { leader_class = governor }
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_10.dds"
+				"gfx/models/portraits/avali/avali_hair_2_10.dds"
+				"gfx/models/portraits/avali/avali_hair_3_10.dds"
+			}
+		}
+	}
+  
+	#leader scope 
+	ruler = { #for rulers
+		
+		random = {
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_10.dds"
+				"gfx/models/portraits/avali/avali_hair_2_10.dds"
+				"gfx/models/portraits/avali/avali_hair_3_10.dds"
+			}
+		}
+	}
+}
+
+avali_hair_11 = {
+	default = "gfx/models/portraits/avali/avali_hair_0_00.dds"
+	
+	game_setup = {#will run with a limited country scope. species and government is set but the country does not actually exist
+		default = "gfx/models/portraits/avali/avali_hair_0_00.dds"
+	}
+	
+	#species scope
+	species = { #generic portrait for a species
+		default = "gfx/models/portraits/avali/avali_hair_0_00.dds"
+	}
+	
+	#pop scope
+	pop = { #for a specific pop
+	
+		default = "gfx/models/portraits/avali/avali_hair_0_00.dds"
+
+		random = {
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_11.dds"
+				"gfx/models/portraits/avali/avali_hair_2_11.dds"
+				"gfx/models/portraits/avali/avali_hair_3_11.dds"
+
+			}
+		}	
+	}
+	
+	
+	
+	
+	#leader scope
+	leader = { #scientists, generals, admirals, governor
+	
+		random = {
+			trigger = { leader_class = general }
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_11.dds"
+			#	"gfx/models/portraits/avali/avali_hair_2_11.dds"
+			#	"gfx/models/portraits/avali/avali_hair_3_11.dds"
+			}
+		}		
+		
+		random = {
+			trigger = { leader_class = admiral }
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_11.dds"
+			#	"gfx/models/portraits/avali/avali_hair_2_11.dds"
+			#	"gfx/models/portraits/avali/avali_hair_3_11.dds"
+			}
+		}	
+		
+		random = {
+			trigger = { leader_class = scientist }
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_11.dds"
+				"gfx/models/portraits/avali/avali_hair_2_11.dds"
+				"gfx/models/portraits/avali/avali_hair_3_11.dds"
+			}
+		}		
+		
+		random = {
+			trigger = { leader_class = governor }
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_11.dds"
+				"gfx/models/portraits/avali/avali_hair_2_11.dds"
+				"gfx/models/portraits/avali/avali_hair_3_11.dds"
+			}
+		}
+	}
+  
+	#leader scope 
+	ruler = { #for rulers
+		
+		random = {
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_11.dds"
+				"gfx/models/portraits/avali/avali_hair_2_11.dds"
+				"gfx/models/portraits/avali/avali_hair_3_11.dds"
+			}
+		}
+	}
+}
+
+avali_hair_12 = {
+	default = "gfx/models/portraits/avali/avali_hair_0_00.dds"
+	
+	game_setup = {#will run with a limited country scope. species and government is set but the country does not actually exist
+		default = "gfx/models/portraits/avali/avali_hair_0_00.dds"
+	}
+	
+	#species scope
+	species = { #generic portrait for a species
+		default = "gfx/models/portraits/avali/avali_hair_0_00.dds"
+	}
+	
+	#pop scope
+	pop = { #for a specific pop
+	
+		default = "gfx/models/portraits/avali/avali_hair_0_00.dds"
+
+		random = {
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_12.dds"
+				"gfx/models/portraits/avali/avali_hair_2_12.dds"
+				"gfx/models/portraits/avali/avali_hair_3_12.dds"
+
+			}
+		}	
+	}
+	
+	
+	
+	
+	#leader scope
+	leader = { #scientists, generals, admirals, governor
+	
+		random = {
+			trigger = { leader_class = general }
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_12.dds"
+			#	"gfx/models/portraits/avali/avali_hair_2_12.dds"
+			#	"gfx/models/portraits/avali/avali_hair_3_12.dds"
+			}
+		}		
+		
+		random = {
+			trigger = { leader_class = admiral }
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_12.dds"
+			#	"gfx/models/portraits/avali/avali_hair_2_12.dds"
+			#	"gfx/models/portraits/avali/avali_hair_3_12.dds"
+			}
+		}	
+		
+		random = {
+			trigger = { leader_class = scientist }
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_12.dds"
+				"gfx/models/portraits/avali/avali_hair_2_12.dds"
+				"gfx/models/portraits/avali/avali_hair_3_12.dds"
+			}
+		}		
+		
+		random = {
+			trigger = { leader_class = governor }
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_12.dds"
+				"gfx/models/portraits/avali/avali_hair_2_12.dds"
+				"gfx/models/portraits/avali/avali_hair_3_12.dds"
+			}
+		}
+	}
+  
+	#leader scope 
+	ruler = { #for rulers
+		
+		random = {
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_12.dds"
+				"gfx/models/portraits/avali/avali_hair_2_12.dds"
+				"gfx/models/portraits/avali/avali_hair_3_12.dds"
+			}
+		}
+	}
+}
+
+avali_hair_13 = {
+	default = "gfx/models/portraits/avali/avali_hair_0_00.dds"
+	
+	game_setup = {#will run with a limited country scope. species and government is set but the country does not actually exist
+		default = "gfx/models/portraits/avali/avali_hair_0_00.dds"
+	}
+	
+	#species scope
+	species = { #generic portrait for a species
+		default = "gfx/models/portraits/avali/avali_hair_0_00.dds"
+	}
+	
+	#pop scope
+	pop = { #for a specific pop
+	
+		default = "gfx/models/portraits/avali/avali_hair_0_00.dds"
+
+		random = {
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_13.dds"
+				"gfx/models/portraits/avali/avali_hair_2_13.dds"
+				"gfx/models/portraits/avali/avali_hair_3_13.dds"
+
+			}
+		}	
+	}
+	
+	
+	
+	
+	#leader scope
+	leader = { #scientists, generals, admirals, governor
+	
+		random = {
+			trigger = { leader_class = general }
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_13.dds"
+			#	"gfx/models/portraits/avali/avali_hair_2_13.dds"
+			#	"gfx/models/portraits/avali/avali_hair_3_13.dds"
+			}
+		}		
+		
+		random = {
+			trigger = { leader_class = admiral }
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_13.dds"
+			#	"gfx/models/portraits/avali/avali_hair_2_13.dds"
+			#	"gfx/models/portraits/avali/avali_hair_3_13.dds"
+			}
+		}	
+		
+		random = {
+			trigger = { leader_class = scientist }
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_13.dds"
+				"gfx/models/portraits/avali/avali_hair_2_13.dds"
+				"gfx/models/portraits/avali/avali_hair_3_13.dds"
+			}
+		}		
+		
+		random = {
+			trigger = { leader_class = governor }
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_13.dds"
+				"gfx/models/portraits/avali/avali_hair_2_13.dds"
+				"gfx/models/portraits/avali/avali_hair_3_13.dds"
+			}
+		}
+	}
+  
+	#leader scope 
+	ruler = { #for rulers
+		
+		random = {
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_13.dds"
+				"gfx/models/portraits/avali/avali_hair_2_13.dds"
+				"gfx/models/portraits/avali/avali_hair_3_13.dds"
+			}
+		}
+	}
+}
+
+avali_hair_14 = {
+	default = "gfx/models/portraits/avali/avali_hair_0_00.dds"
+	
+	game_setup = {#will run with a limited country scope. species and government is set but the country does not actually exist
+		default = "gfx/models/portraits/avali/avali_hair_0_00.dds"
+	}
+	
+	#species scope
+	species = { #generic portrait for a species
+		default = "gfx/models/portraits/avali/avali_hair_0_00.dds"
+	}
+	
+	#pop scope
+	pop = { #for a specific pop
+	
+		default = "gfx/models/portraits/avali/avali_hair_0_00.dds"
+
+		random = {
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_14.dds"
+				"gfx/models/portraits/avali/avali_hair_2_14.dds"
+				"gfx/models/portraits/avali/avali_hair_3_14.dds"
+
+			}
+		}	
+	}
+	
+	
+	
+	
+	#leader scope
+	leader = { #scientists, generals, admirals, governor
+	
+		random = {
+			trigger = { leader_class = general }
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_14.dds"
+			#	"gfx/models/portraits/avali/avali_hair_2_14.dds"
+			#	"gfx/models/portraits/avali/avali_hair_3_14.dds"
+			}
+		}		
+		
+		random = {
+			trigger = { leader_class = admiral }
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_14.dds"
+			#	"gfx/models/portraits/avali/avali_hair_2_14.dds"
+			#	"gfx/models/portraits/avali/avali_hair_3_14.dds"
+			}
+		}	
+		
+		random = {
+			trigger = { leader_class = scientist }
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_14.dds"
+				"gfx/models/portraits/avali/avali_hair_2_14.dds"
+				"gfx/models/portraits/avali/avali_hair_3_14.dds"
+			}
+		}		
+		
+		random = {
+			trigger = { leader_class = governor }
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_14.dds"
+				"gfx/models/portraits/avali/avali_hair_2_14.dds"
+				"gfx/models/portraits/avali/avali_hair_3_14.dds"
+			}
+		}
+	}
+  
+	#leader scope 
+	ruler = { #for rulers
+		
+		random = {
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_14.dds"
+				"gfx/models/portraits/avali/avali_hair_2_14.dds"
+				"gfx/models/portraits/avali/avali_hair_3_14.dds"
+			}
+		}
+	}
+}
+
+avali_hair_15 = {
+	default = "gfx/models/portraits/avali/avali_hair_0_00.dds"
+	
+	game_setup = {#will run with a limited country scope. species and government is set but the country does not actually exist
+		default = "gfx/models/portraits/avali/avali_hair_0_00.dds"
+	}
+	
+	#species scope
+	species = { #generic portrait for a species
+		default = "gfx/models/portraits/avali/avali_hair_0_00.dds"
+	}
+	
+	#pop scope
+	pop = { #for a specific pop
+	
+		default = "gfx/models/portraits/avali/avali_hair_0_00.dds"
+
+		random = {
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_15.dds"
+				"gfx/models/portraits/avali/avali_hair_2_15.dds"
+				"gfx/models/portraits/avali/avali_hair_3_15.dds"
+
+			}
+		}	
+	}
+	
+	
+	
+	
+	#leader scope
+	leader = { #scientists, generals, admirals, governor
+	
+		random = {
+			trigger = { leader_class = general }
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_15.dds"
+			#	"gfx/models/portraits/avali/avali_hair_2_15.dds"
+			#	"gfx/models/portraits/avali/avali_hair_3_15.dds"
+			}
+		}		
+		
+		random = {
+			trigger = { leader_class = admiral }
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_15.dds"
+			#	"gfx/models/portraits/avali/avali_hair_2_15.dds"
+			#	"gfx/models/portraits/avali/avali_hair_3_15.dds"
+			}
+		}	
+		
+		random = {
+			trigger = { leader_class = scientist }
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_15.dds"
+				"gfx/models/portraits/avali/avali_hair_2_15.dds"
+				"gfx/models/portraits/avali/avali_hair_3_15.dds"
+			}
+		}		
+		
+		random = {
+			trigger = { leader_class = governor }
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_15.dds"
+				"gfx/models/portraits/avali/avali_hair_2_15.dds"
+				"gfx/models/portraits/avali/avali_hair_3_15.dds"
+			}
+		}
+	}
+  
+	#leader scope 
+	ruler = { #for rulers
+		
+		random = {
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_15.dds"
+				"gfx/models/portraits/avali/avali_hair_2_15.dds"
+				"gfx/models/portraits/avali/avali_hair_3_15.dds"
+			}
+		}
+	}
+}
+
+avali_hair_16 = {
+	default = "gfx/models/portraits/avali/avali_hair_0_00.dds"
+	
+	game_setup = {#will run with a limited country scope. species and government is set but the country does not actually exist
+		default = "gfx/models/portraits/avali/avali_hair_0_00.dds"
+	}
+	
+	#species scope
+	species = { #generic portrait for a species
+		default = "gfx/models/portraits/avali/avali_hair_0_00.dds"
+	}
+	
+	#pop scope
+	pop = { #for a specific pop
+	
+		default = "gfx/models/portraits/avali/avali_hair_0_00.dds"
+
+		random = {
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_16.dds"
+				"gfx/models/portraits/avali/avali_hair_2_16.dds"
+				"gfx/models/portraits/avali/avali_hair_3_16.dds"
+
+			}
+		}	
+	}
+	
+	
+	
+	
+	#leader scope
+	leader = { #scientists, generals, admirals, governor
+	
+		random = {
+			trigger = { leader_class = general }
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_16.dds"
+			#	"gfx/models/portraits/avali/avali_hair_2_16.dds"
+			#	"gfx/models/portraits/avali/avali_hair_3_16.dds"
+			}
+		}		
+		
+		random = {
+			trigger = { leader_class = admiral }
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_16.dds"
+			#	"gfx/models/portraits/avali/avali_hair_2_16.dds"
+			#	"gfx/models/portraits/avali/avali_hair_3_16.dds"
+			}
+		}	
+		
+		random = {
+			trigger = { leader_class = scientist }
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_16.dds"
+				"gfx/models/portraits/avali/avali_hair_2_16.dds"
+				"gfx/models/portraits/avali/avali_hair_3_16.dds"
+			}
+		}		
+		
+		random = {
+			trigger = { leader_class = governor }
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_16.dds"
+				"gfx/models/portraits/avali/avali_hair_2_16.dds"
+				"gfx/models/portraits/avali/avali_hair_3_16.dds"
+			}
+		}
+	}
+  
+	#leader scope 
+	ruler = { #for rulers
+		
+		random = {
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_16.dds"
+				"gfx/models/portraits/avali/avali_hair_2_16.dds"
+				"gfx/models/portraits/avali/avali_hair_3_16.dds"
+			}
+		}
+	}
+}
+
+avali_hair_17 = {
+	default = "gfx/models/portraits/avali/avali_hair_0_00.dds"
+	
+	game_setup = {#will run with a limited country scope. species and government is set but the country does not actually exist
+		default = "gfx/models/portraits/avali/avali_hair_0_00.dds"
+	}
+	
+	#species scope
+	species = { #generic portrait for a species
+		default = "gfx/models/portraits/avali/avali_hair_0_00.dds"
+	}
+	
+	#pop scope
+	pop = { #for a specific pop
+	
+		default = "gfx/models/portraits/avali/avali_hair_0_00.dds"
+
+		random = {
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_17.dds"
+				"gfx/models/portraits/avali/avali_hair_2_17.dds"
+				"gfx/models/portraits/avali/avali_hair_3_17.dds"
+
+			}
+		}	
+	}
+	
+	
+	
+	
+	#leader scope
+	leader = { #scientists, generals, admirals, governor
+	
+		random = {
+			trigger = { leader_class = general }
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_17.dds"
+			#	"gfx/models/portraits/avali/avali_hair_2_17.dds"
+			#	"gfx/models/portraits/avali/avali_hair_3_17.dds"
+			}
+		}		
+		
+		random = {
+			trigger = { leader_class = admiral }
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_17.dds"
+			#	"gfx/models/portraits/avali/avali_hair_2_17.dds"
+			#	"gfx/models/portraits/avali/avali_hair_3_17.dds"
+			}
+		}	
+		
+		random = {
+			trigger = { leader_class = scientist }
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_17.dds"
+				"gfx/models/portraits/avali/avali_hair_2_17.dds"
+				"gfx/models/portraits/avali/avali_hair_3_17.dds"
+			}
+		}		
+		
+		random = {
+			trigger = { leader_class = governor }
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_17.dds"
+				"gfx/models/portraits/avali/avali_hair_2_17.dds"
+				"gfx/models/portraits/avali/avali_hair_3_17.dds"
+			}
+		}
+	}
+  
+	#leader scope 
+	ruler = { #for rulers
+		
+		random = {
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_17.dds"
+				"gfx/models/portraits/avali/avali_hair_2_17.dds"
+				"gfx/models/portraits/avali/avali_hair_3_17.dds"
+			}
+		}
+	}
+}
+
+avali_hair_18 = {
+	default = "gfx/models/portraits/avali/avali_hair_0_00.dds"
+	
+	game_setup = {#will run with a limited country scope. species and government is set but the country does not actually exist
+		default = "gfx/models/portraits/avali/avali_hair_0_00.dds"
+	}
+	
+	#species scope
+	species = { #generic portrait for a species
+		default = "gfx/models/portraits/avali/avali_hair_0_00.dds"
+	}
+	
+	#pop scope
+	pop = { #for a specific pop
+	
+		default = "gfx/models/portraits/avali/avali_hair_0_00.dds"
+
+		random = {
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_18.dds"
+				"gfx/models/portraits/avali/avali_hair_2_18.dds"
+				"gfx/models/portraits/avali/avali_hair_3_18.dds"
+
+			}
+		}	
+	}
+	
+	
+	
+	
+	#leader scope
+	leader = { #scientists, generals, admirals, governor
+	
+		random = {
+			trigger = { leader_class = general }
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_18.dds"
+			#	"gfx/models/portraits/avali/avali_hair_2_18.dds"
+			#	"gfx/models/portraits/avali/avali_hair_3_18.dds"
+			}
+		}		
+		
+		random = {
+			trigger = { leader_class = admiral }
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_18.dds"
+			#	"gfx/models/portraits/avali/avali_hair_2_18.dds"
+			#	"gfx/models/portraits/avali/avali_hair_3_18.dds"
+			}
+		}	
+		
+		random = {
+			trigger = { leader_class = scientist }
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_18.dds"
+				"gfx/models/portraits/avali/avali_hair_2_18.dds"
+				"gfx/models/portraits/avali/avali_hair_3_18.dds"
+			}
+		}		
+		
+		random = {
+			trigger = { leader_class = governor }
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_18.dds"
+				"gfx/models/portraits/avali/avali_hair_2_18.dds"
+				"gfx/models/portraits/avali/avali_hair_3_18.dds"
+			}
+		}
+	}
+  
+	#leader scope 
+	ruler = { #for rulers
+		
+		random = {
+			list = {
+				"gfx/models/portraits/avali/avali_hair_0_00.dds"
+				"gfx/models/portraits/avali/avali_hair_1_18.dds"
+				"gfx/models/portraits/avali/avali_hair_2_18.dds"
+				"gfx/models/portraits/avali/avali_hair_3_18.dds"
+			}
+		}
+	}
+}

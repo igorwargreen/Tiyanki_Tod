@@ -1,0 +1,13 @@
+objectTypes = {
+
+	pdxmesh = {
+		name = "dimorphism_horse_portrait_mesh"
+		file = "gfx/models/portraits/dimorphism_horse/horse_portrait.mesh"
+		animation = { id = "idle"	type = "horse_portrait_happy_animation" }
+		animation = { id = "idle2"	type = "horse_portrait_happy_2_animation" }
+		animation = { id = "idle3"	type = "horse_portrait_happy_3_animation" }
+		animation = { id = "sad"	type = "horse_portrait_sad_animation" }
+		animation = { id = "sad2"	type = "horse_portrait_sad_2_animation" }
+		scale = 1.0
+	}	
+}

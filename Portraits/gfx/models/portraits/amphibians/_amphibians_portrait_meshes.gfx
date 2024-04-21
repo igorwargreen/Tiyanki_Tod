@@ -1,0 +1,16 @@
+objectTypes = {
+	
+	pdxmesh = {
+		name = "portrait_amphibians_01_mesh"
+		file = "gfx/models/portraits/amphibians/axolotl_01_portrait.mesh"
+		animation = { id = "idle"	type = "amphibians_01_portrait_happy_animation" }
+		animation = { id = "idle2"  type = "amphibians_01_portrait_happy_02_animation" }
+		animation = { id = "sad"	type = "amphibians_01_portrait_sad_animation" }
+		animation = { id = "sad2"	type = "amphibians_01_portrait_sad_02_animation" }
+		#scale = 0.8
+		
+	}	
+	
+	
+	
+}

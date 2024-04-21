@@ -1,0 +1,169 @@
+entity = {
+	name = "portrait_dcat_female_01_entity"
+	pdxmesh = "dimorphism_cat_portrait_mesh"
+
+	default_state = "idle"
+	state = { name = "idle"	animation = "idle"     	animation_blend_time = 0.25	chance = 4.0	looping = no next_state = "idle" }
+	state = { name = "idle"	animation = "idle2"     animation_blend_time = 0.25	chance = 4.0	looping = no next_state = "idle" }
+	state = { name = "idle"	animation = "idle3"     animation_blend_time = 0.25	chance = 1.0	looping = no next_state = "idle" }
+	state = { name = "idle"	animation = "idle4"     animation_blend_time = 0.25	chance = 1.0	looping = no next_state = "idle" }
+	scale = 0.90
+}
+
+entity = {
+	name = "portrait_dcat_female_02_entity"
+	pdxmesh = "dimorphism_cat_portrait_mesh"
+
+	default_state = "idle"
+	state = { name = "idle"	animation = "idle"     	animation_blend_time = 0.25	chance = 4.0	looping = no next_state = "idle" }
+	state = { name = "idle"	animation = "idle2"     animation_blend_time = 0.25	chance = 4.0	looping = no next_state = "idle" }
+	state = { name = "idle"	animation = "idle3"     animation_blend_time = 0.25	chance = 1.0	looping = no next_state = "idle" }
+	state = { name = "idle"	animation = "idle4"     animation_blend_time = 0.25	chance = 1.0	looping = no next_state = "idle" }
+	scale = 0.90
+}
+
+entity = {
+	name = "portrait_dcat_female_03_entity"
+	pdxmesh = "dimorphism_cat_portrait_mesh"
+
+	default_state = "idle"
+	state = { name = "idle"	animation = "idle"     	animation_blend_time = 0.25	chance = 4.0	looping = no next_state = "idle" }
+	state = { name = "idle"	animation = "idle2"     animation_blend_time = 0.25	chance = 4.0	looping = no next_state = "idle" }
+	state = { name = "idle"	animation = "idle3"     animation_blend_time = 0.25	chance = 1.0	looping = no next_state = "idle" }
+	state = { name = "idle"	animation = "idle4"     animation_blend_time = 0.25	chance = 1.0	looping = no next_state = "idle" }
+	scale = 0.90
+}
+
+entity = {
+	name = "portrait_dcat_female_04_entity"
+	pdxmesh = "dimorphism_cat_portrait_mesh"
+
+	default_state = "idle"
+	state = { name = "idle"	animation = "idle"     	animation_blend_time = 0.25	chance = 4.0	looping = no next_state = "idle" }
+	state = { name = "idle"	animation = "idle2"     animation_blend_time = 0.25	chance = 4.0	looping = no next_state = "idle" }
+	state = { name = "idle"	animation = "idle3"     animation_blend_time = 0.25	chance = 1.0	looping = no next_state = "idle" }
+	state = { name = "idle"	animation = "idle4"     animation_blend_time = 0.25	chance = 1.0	looping = no next_state = "idle" }
+	scale = 0.90
+}
+
+entity = {
+	name = "portrait_dcat_female_05_entity"
+	pdxmesh = "dimorphism_cat_portrait_mesh"
+
+	default_state = "idle"
+	state = { name = "idle"	animation = "idle"     	animation_blend_time = 0.25	chance = 4.0	looping = no next_state = "idle" }
+	state = { name = "idle"	animation = "idle2"     animation_blend_time = 0.25	chance = 4.0	looping = no next_state = "idle" }
+	state = { name = "idle"	animation = "idle3"     animation_blend_time = 0.25	chance = 1.0	looping = no next_state = "idle" }
+	state = { name = "idle"	animation = "idle4"     animation_blend_time = 0.25	chance = 1.0	looping = no next_state = "idle" }
+	scale = 0.90
+}
+
+entity = {
+	name = "portrait_dcat_female_06_entity"
+	pdxmesh = "dimorphism_cat_portrait_mesh"
+
+	default_state = "idle"
+	state = { name = "idle"	animation = "idle"     	animation_blend_time = 0.25	chance = 4.0	looping = no next_state = "idle" }
+	state = { name = "idle"	animation = "idle2"     animation_blend_time = 0.25	chance = 4.0	looping = no next_state = "idle" }
+	state = { name = "idle"	animation = "idle3"     animation_blend_time = 0.25	chance = 1.0	looping = no next_state = "idle" }
+	state = { name = "idle"	animation = "idle4"     animation_blend_time = 0.25	chance = 1.0	looping = no next_state = "idle" }
+	scale = 0.90
+}
+
+entity = {
+	name = "portrait_dcat_female_07_entity"
+	pdxmesh = "dimorphism_cat_portrait_mesh"
+
+	default_state = "idle"
+	state = { name = "idle"	animation = "idle"     	animation_blend_time = 0.25	chance = 4.0	looping = no next_state = "idle" }
+	state = { name = "idle"	animation = "idle2"     animation_blend_time = 0.25	chance = 4.0	looping = no next_state = "idle" }
+	state = { name = "idle"	animation = "idle3"     animation_blend_time = 0.25	chance = 1.0	looping = no next_state = "idle" }
+	state = { name = "idle"	animation = "idle4"     animation_blend_time = 0.25	chance = 1.0	looping = no next_state = "idle" }
+	scale = 0.90
+}
+
+#MALE
+
+entity = {
+	name = "portrait_dcat_male_01_entity"
+	pdxmesh = "dimorphism_cat_portrait_mesh"
+
+	default_state = "idle"
+	state = { name = "idle"	animation = "idle"     	animation_blend_time = 0.25	chance = 4.0	looping = no next_state = "idle" }
+	state = { name = "idle"	animation = "idle2"     animation_blend_time = 0.25	chance = 4.0	looping = no next_state = "idle" }
+	state = { name = "idle"	animation = "idle3"     animation_blend_time = 0.25	chance = 1.0	looping = no next_state = "idle" }
+	state = { name = "idle"	animation = "idle4"     animation_blend_time = 0.25	chance = 1.0	looping = no next_state = "idle" }
+	scale = 1
+}
+
+entity = {
+	name = "portrait_dcat_male_02_entity"
+	pdxmesh = "dimorphism_cat_portrait_mesh"
+
+	default_state = "idle"
+	state = { name = "idle"	animation = "idle"     	animation_blend_time = 0.25	chance = 4.0	looping = no next_state = "idle" }
+	state = { name = "idle"	animation = "idle2"     animation_blend_time = 0.25	chance = 4.0	looping = no next_state = "idle" }
+	state = { name = "idle"	animation = "idle3"     animation_blend_time = 0.25	chance = 1.0	looping = no next_state = "idle" }
+	state = { name = "idle"	animation = "idle4"     animation_blend_time = 0.25	chance = 1.0	looping = no next_state = "idle" }
+	scale = 1
+}
+
+entity = {
+	name = "portrait_dcat_male_03_entity"
+	pdxmesh = "dimorphism_cat_portrait_mesh"
+
+	default_state = "idle"
+	state = { name = "idle"	animation = "idle"     	animation_blend_time = 0.25	chance = 4.0	looping = no next_state = "idle" }
+	state = { name = "idle"	animation = "idle2"     animation_blend_time = 0.25	chance = 4.0	looping = no next_state = "idle" }
+	state = { name = "idle"	animation = "idle3"     animation_blend_time = 0.25	chance = 1.0	looping = no next_state = "idle" }
+	state = { name = "idle"	animation = "idle4"     animation_blend_time = 0.25	chance = 1.0	looping = no next_state = "idle" }
+	scale = 1
+}
+
+entity = {
+	name = "portrait_dcat_male_04_entity"
+	pdxmesh = "dimorphism_cat_portrait_mesh"
+
+	default_state = "idle"
+	state = { name = "idle"	animation = "idle"     	animation_blend_time = 0.25	chance = 4.0	looping = no next_state = "idle" }
+	state = { name = "idle"	animation = "idle2"     animation_blend_time = 0.25	chance = 4.0	looping = no next_state = "idle" }
+	state = { name = "idle"	animation = "idle3"     animation_blend_time = 0.25	chance = 1.0	looping = no next_state = "idle" }
+	state = { name = "idle"	animation = "idle4"     animation_blend_time = 0.25	chance = 1.0	looping = no next_state = "idle" }
+	scale = 1
+}
+
+entity = {
+	name = "portrait_dcat_male_05_entity"
+	pdxmesh = "dimorphism_cat_portrait_mesh"
+
+	default_state = "idle"
+	state = { name = "idle"	animation = "idle"     	animation_blend_time = 0.25	chance = 4.0	looping = no next_state = "idle" }
+	state = { name = "idle"	animation = "idle2"     animation_blend_time = 0.25	chance = 4.0	looping = no next_state = "idle" }
+	state = { name = "idle"	animation = "idle3"     animation_blend_time = 0.25	chance = 1.0	looping = no next_state = "idle" }
+	state = { name = "idle"	animation = "idle4"     animation_blend_time = 0.25	chance = 1.0	looping = no next_state = "idle" }
+	scale = 1
+}
+
+entity = {
+	name = "portrait_dcat_male_06_entity"
+	pdxmesh = "dimorphism_cat_portrait_mesh"
+
+	default_state = "idle"
+	state = { name = "idle"	animation = "idle"     	animation_blend_time = 0.25	chance = 4.0	looping = no next_state = "idle" }
+	state = { name = "idle"	animation = "idle2"     animation_blend_time = 0.25	chance = 4.0	looping = no next_state = "idle" }
+	state = { name = "idle"	animation = "idle3"     animation_blend_time = 0.25	chance = 1.0	looping = no next_state = "idle" }
+	state = { name = "idle"	animation = "idle4"     animation_blend_time = 0.25	chance = 1.0	looping = no next_state = "idle" }
+	scale = 1
+}
+
+entity = {
+	name = "portrait_dcat_male_07_entity"
+	pdxmesh = "dimorphism_cat_portrait_mesh"
+
+	default_state = "idle"
+	state = { name = "idle"	animation = "idle"     	animation_blend_time = 0.25	chance = 4.0	looping = no next_state = "idle" }
+	state = { name = "idle"	animation = "idle2"     animation_blend_time = 0.25	chance = 4.0	looping = no next_state = "idle" }
+	state = { name = "idle"	animation = "idle3"     animation_blend_time = 0.25	chance = 1.0	looping = no next_state = "idle" }
+	state = { name = "idle"	animation = "idle4"     animation_blend_time = 0.25	chance = 1.0	looping = no next_state = "idle" }
+	scale = 1
+}

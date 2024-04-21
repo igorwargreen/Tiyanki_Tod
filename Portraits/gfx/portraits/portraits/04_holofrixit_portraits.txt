@@ -1,0 +1,379 @@
+##############################################################
+###	PORTRAITS SETTINGS
+###
+### Which portraits are used is set in 
+### common\species_classes\00_species_classes.txt
+###
+###	This file configures how portraits and planet backgrounds are built.
+###	Default position orientation is lower left.
+##############################################################
+
+portraits = {
+
+	# Holofrixit - Original Portraits by Silfae - Fixed by Yanzihko
+	# ##################################
+	holofrixit_female_body_01 = {	entity = "portrait_holofrixit_female_body_01_entity"	clothes_selector = "no_texture"	attachment_selector = "no_texture"	greeting_sound = "avian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/holofrixit/holofrixit_female_body_01.dds"
+		}
+	}
+	holofrixit_female_body_02 = {	entity = "portrait_holofrixit_female_body_02_entity"	clothes_selector = "no_texture"	attachment_selector = "no_texture"	greeting_sound = "avian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/holofrixit/holofrixit_female_body_02.dds"
+		}
+	}
+	holofrixit_female_body_03 = {	entity = "portrait_holofrixit_female_body_03_entity"	clothes_selector = "no_texture"	attachment_selector = "no_texture"	greeting_sound = "avian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/holofrixit/holofrixit_female_body_03.dds"
+		}
+	}	
+	holofrixit_female_body_04 = {	entity = "portrait_holofrixit_female_body_04_entity"	clothes_selector = "no_texture" 	attachment_selector = "no_texture"	greeting_sound = "avian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/holofrixit/holofrixit_female_body_04.dds"
+		}
+	}
+	holofrixit_female_body_05 = {	entity = "portrait_holofrixit_female_body_05_entity"	clothes_selector = "no_texture" 	attachment_selector = "no_texture"	greeting_sound = "avian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/holofrixit/holofrixit_female_body_05.dds"
+		}
+	}
+	holofrixit_female_body_06 = {	entity = "portrait_holofrixit_female_body_06_entity"	clothes_selector = "no_texture" 	attachment_selector = "no_texture"	greeting_sound = "avian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/holofrixit/holofrixit_female_body_06.dds"
+		}
+	}
+	holofrixit_female_body_07 = {	entity = "portrait_holofrixit_female_body_07_entity"	clothes_selector = "no_texture" 	attachment_selector = "no_texture"	greeting_sound = "avian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/holofrixit/holofrixit_female_body_07.dds"
+		}
+	}
+	holofrixit_female_body_08 = {	entity = "portrait_holofrixit_female_body_08_entity"	clothes_selector = "no_texture" 	attachment_selector = "no_texture"	greeting_sound = "avian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/holofrixit/holofrixit_female_body_08.dds"
+		}
+	}
+	holofrixit_female_body_09 = {	entity = "portrait_holofrixit_female_body_09_entity"	clothes_selector = "no_texture" 	attachment_selector = "no_texture"	greeting_sound = "avian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/holofrixit/holofrixit_female_body_09.dds"
+		}
+	}
+	holofrixit_female_body_10 = {	entity = "portrait_holofrixit_female_body_10_entity"	clothes_selector = "no_texture" 	attachment_selector = "no_texture"	greeting_sound = "avian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/holofrixit/holofrixit_female_body_10.dds"
+		}
+	}
+	holofrixit_female_body_11 = {	entity = "portrait_holofrixit_female_body_11_entity"	clothes_selector = "no_texture" 	attachment_selector = "no_texture"	greeting_sound = "avian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/holofrixit/holofrixit_female_body_11.dds"
+		}
+	}
+	holofrixit_female_body_12 = {	entity = "portrait_holofrixit_female_body_12_entity"	clothes_selector = "no_texture" 	attachment_selector = "no_texture"	greeting_sound = "avian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/holofrixit/holofrixit_female_body_12.dds"
+		}
+	}
+	holofrixit_female_body_13 = {	entity = "portrait_holofrixit_female_body_13_entity"	clothes_selector = "no_texture" 	attachment_selector = "no_texture"	greeting_sound = "avian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/holofrixit/holofrixit_female_body_13.dds"
+		}
+	}
+	holofrixit_female_body_14 = {	entity = "portrait_holofrixit_female_body_14_entity"	clothes_selector = "no_texture" 	attachment_selector = "no_texture"	greeting_sound = "avian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/holofrixit/holofrixit_female_body_14.dds"
+		}
+	}
+	holofrixit_male_body_01 = {	entity = "portrait_holofrixit_male_body_01_entity"	clothes_selector = "no_texture"	attachment_selector = "no_texture"	greeting_sound = "avian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/holofrixit/holofrixit_male_body_01.dds"
+		}
+	}	
+	holofrixit_male_body_02 = {	entity = "portrait_holofrixit_male_body_02_entity"	clothes_selector = "no_texture"	attachment_selector = "no_texture"	greeting_sound = "avian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/holofrixit/holofrixit_male_body_02.dds"
+		}
+	}	
+	holofrixit_male_body_03 = {	entity = "portrait_holofrixit_male_body_03_entity"	clothes_selector = "no_texture"	attachment_selector = "no_texture"	greeting_sound = "avian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/holofrixit/holofrixit_male_body_03.dds"
+		}
+	}			
+	holofrixit_male_body_04 = {	entity = "portrait_holofrixit_male_body_04_entity"	clothes_selector = "no_texture" 	attachment_selector = "no_texture"	greeting_sound = "avian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/holofrixit/holofrixit_male_body_04.dds"
+		}
+	}	
+	holofrixit_male_body_05 = {	entity = "portrait_holofrixit_male_body_05_entity"	clothes_selector = "no_texture" 	attachment_selector = "no_texture"	greeting_sound = "avian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/holofrixit/holofrixit_male_body_05.dds"
+		}
+	}	
+	holofrixit_male_body_06 = {	entity = "portrait_holofrixit_male_body_06_entity"	clothes_selector = "no_texture" 	attachment_selector = "no_texture"	greeting_sound = "avian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/holofrixit/holofrixit_male_body_06.dds"
+		}
+	}	
+	holofrixit_male_body_07 = {	entity = "portrait_holofrixit_male_body_07_entity"	clothes_selector = "no_texture" 	attachment_selector = "no_texture"	greeting_sound = "avian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/holofrixit/holofrixit_male_body_07.dds"
+		}
+	}	
+	holofrixit_male_body_08 = {	entity = "portrait_holofrixit_male_body_08_entity"	clothes_selector = "no_texture" 	attachment_selector = "no_texture"	greeting_sound = "avian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/holofrixit/holofrixit_male_body_08.dds"
+		}
+	}	
+	holofrixit_male_body_09 = {	entity = "portrait_holofrixit_male_body_09_entity"	clothes_selector = "no_texture" 	attachment_selector = "no_texture"	greeting_sound = "avian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/holofrixit/holofrixit_male_body_09.dds"
+		}
+	}	
+	holofrixit_male_body_10 = {	entity = "portrait_holofrixit_male_body_10_entity"	clothes_selector = "no_texture" 	attachment_selector = "no_texture"	greeting_sound = "avian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/holofrixit/holofrixit_male_body_10.dds"
+		}
+	}	
+	holofrixit_male_body_11 = {	entity = "portrait_holofrixit_male_body_11_entity"	clothes_selector = "no_texture" 	attachment_selector = "no_texture"	greeting_sound = "avian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/holofrixit/holofrixit_male_body_11.dds"
+		}
+	}	
+	holofrixit_male_body_12 = {	entity = "portrait_holofrixit_male_body_12_entity"	clothes_selector = "no_texture" 	attachment_selector = "no_texture"	greeting_sound = "avian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/holofrixit/holofrixit_male_body_12.dds"
+		}
+	}	
+	holofrixit_male_body_13 = {	entity = "portrait_holofrixit_male_body_13_entity"	clothes_selector = "no_texture" 	attachment_selector = "no_texture"	greeting_sound = "avian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/holofrixit/holofrixit_male_body_13.dds"
+		}
+	}	
+	holofrixit_male_body_14 = {	entity = "portrait_holofrixit_male_body_14_entity"	clothes_selector = "no_texture" 	attachment_selector = "no_texture"	greeting_sound = "avian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/holofrixit/holofrixit_male_body_14.dds"
+		}
+	}		
+}
+
+portrait_groups = {
+	holofrixit = {
+		default = holofrixit_male_body_11
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					holofrixit_male_body_01
+					holofrixit_male_body_02
+					holofrixit_male_body_03
+					holofrixit_male_body_04
+					holofrixit_male_body_05
+					holofrixit_male_body_06
+					holofrixit_male_body_07
+					holofrixit_male_body_08
+					holofrixit_male_body_09
+					holofrixit_male_body_10
+					holofrixit_male_body_11
+					holofrixit_male_body_12
+					holofrixit_male_body_13
+					holofrixit_male_body_14
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					holofrixit_female_body_01
+					holofrixit_female_body_02
+					holofrixit_female_body_03
+					holofrixit_female_body_04
+					holofrixit_female_body_05
+					holofrixit_female_body_06
+					holofrixit_female_body_07
+					holofrixit_female_body_08
+					holofrixit_female_body_09
+					holofrixit_female_body_10
+					holofrixit_female_body_11
+					holofrixit_female_body_12
+					holofrixit_female_body_13
+					holofrixit_female_body_14
+				}
+			}
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					holofrixit_female_body_01
+					holofrixit_female_body_02
+					holofrixit_female_body_03
+					holofrixit_female_body_04
+					holofrixit_female_body_05
+					holofrixit_female_body_06
+					holofrixit_female_body_07
+					holofrixit_female_body_08
+					holofrixit_female_body_09
+					holofrixit_female_body_10
+					holofrixit_female_body_11
+					holofrixit_female_body_12
+					holofrixit_female_body_13
+					holofrixit_female_body_14
+					holofrixit_male_body_01
+					holofrixit_male_body_02
+					holofrixit_male_body_03
+					holofrixit_male_body_04
+					holofrixit_male_body_05
+					holofrixit_male_body_06
+					holofrixit_male_body_07
+					holofrixit_male_body_08
+					holofrixit_male_body_09
+					holofrixit_male_body_10
+					holofrixit_male_body_11
+					holofrixit_male_body_12
+					holofrixit_male_body_13
+					holofrixit_male_body_14
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					holofrixit_female_body_01
+					holofrixit_female_body_02
+					holofrixit_female_body_03
+					holofrixit_female_body_04
+					holofrixit_female_body_05
+					holofrixit_female_body_06
+					holofrixit_female_body_07
+					holofrixit_female_body_08
+					holofrixit_female_body_09
+					holofrixit_female_body_10
+					holofrixit_female_body_11
+					holofrixit_female_body_12
+					holofrixit_female_body_13
+					holofrixit_female_body_14
+					holofrixit_female_body_15
+					holofrixit_female_body_16
+					holofrixit_female_body_17
+					holofrixit_female_body_18
+					holofrixit_male_body_01
+					holofrixit_male_body_02
+					holofrixit_male_body_03
+					holofrixit_male_body_04
+					holofrixit_male_body_05
+					holofrixit_male_body_06
+					holofrixit_male_body_07
+					holofrixit_male_body_08
+					holofrixit_male_body_09
+					holofrixit_male_body_10
+					holofrixit_male_body_11
+					holofrixit_male_body_12
+					holofrixit_male_body_13
+					holofrixit_male_body_14
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					holofrixit_female_body_01
+					holofrixit_female_body_02
+					holofrixit_female_body_03
+					holofrixit_female_body_04
+					holofrixit_female_body_05
+					holofrixit_female_body_06
+					holofrixit_female_body_07
+					holofrixit_female_body_08
+					holofrixit_female_body_09
+					holofrixit_female_body_10
+					holofrixit_female_body_11
+					holofrixit_female_body_12
+					holofrixit_female_body_13
+					holofrixit_female_body_14
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					holofrixit_male_body_01
+					holofrixit_male_body_02
+					holofrixit_male_body_03
+					holofrixit_male_body_04
+					holofrixit_male_body_05
+					holofrixit_male_body_06
+					holofrixit_male_body_07
+					holofrixit_male_body_08
+					holofrixit_male_body_09
+					holofrixit_male_body_10
+					holofrixit_male_body_11
+					holofrixit_male_body_12
+					holofrixit_male_body_13
+					holofrixit_male_body_14
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					holofrixit_female_body_01
+					holofrixit_female_body_02
+					holofrixit_female_body_03
+					holofrixit_female_body_04
+					holofrixit_female_body_05
+					holofrixit_female_body_06
+					holofrixit_female_body_07
+					holofrixit_female_body_08
+					holofrixit_female_body_09
+					holofrixit_female_body_10
+					holofrixit_female_body_11
+					holofrixit_female_body_12
+					holofrixit_female_body_13
+					holofrixit_female_body_14
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					holofrixit_male_body_01
+					holofrixit_male_body_02
+					holofrixit_male_body_03
+					holofrixit_male_body_04
+					holofrixit_male_body_05
+					holofrixit_male_body_06
+					holofrixit_male_body_07
+					holofrixit_male_body_08
+					holofrixit_male_body_09
+					holofrixit_male_body_10
+					holofrixit_male_body_11
+					holofrixit_male_body_12
+					holofrixit_male_body_13
+					holofrixit_male_body_14
+				}
+			}
+		}
+	}
+}
