@@ -1,0 +1,10 @@
+1. Теперь геноцидные империи не могут пользоваться функциями мода.
+2. Теперь для покупки флота нужно знать покупателя. Нельзя купить флот у неизвестной империи.
+3. ИИ теперь может отказать в покупке флота, если у тебя с ним плохие отношения.
+4. При покупке флота игроком у игрока, продавец сначала должен подтвердить продажу. Или отказать. 
+
+
+1. Now genocidal empires cannot use the mod's functions.
+2. Now you need to know the seller to buy a fleet. You cannot buy a fleet from an unknown empire.
+3. AI can now refuse to sell a fleet if you have a bad relationship with it.
+4. When a player buys a fleet from a player, the seller must first confirm the sale. Or refuse.

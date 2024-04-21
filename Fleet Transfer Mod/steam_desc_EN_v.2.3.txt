@@ -1,0 +1,64 @@
+You have an outdated, extra fleet and you don’t know where to put it, and disband or modify is stingy?
+Your vassals suffer from internal feuds or external threats and they lack the fleet, and to solve their problems yourself - laziness?
+You want to covertly help another empire without getting directly involved in a conflict?
+You have energy credits but you don’t have the capacity or time to build a fleet?
+Or you just dreamed of creating a military mega-corporation producing weapons for sale?
+
+
+[h1]Now all this is possible![/h1]
+
+For implementation all of your ideas, current mod provides new unique features, such as:
+
+[b]1. Fleet transfer[/b]
+The transfer is possible in the form of a gift, and you can to demand different types of resources for the fleet: energy credits, minerals, food, consumer goods, alloys.
+Mod automatically calculates the market price of the fleets and gives price options to the player to choose for sale, in percentage terms - from a symbolic amount to brazen robbery. Of course, you can set the price manually.
+
+[b]2. Fleet market[/b]
+On market you can exhibit up to 6 different fleets for manually set price. By exhibiting fleet, seller loses the ability to control it. Each player can inspect the exhibited fleet and buy it. If the fleet has not been bought within five years, it will be returned to the seller.
+
+[b]3. Fleet rent[/b]
+The function is similar to the Fleet Market, with the difference that the buyer does not receive the fleet forever, but for the time set by the seller. In addition, if the buyer destroys the rented fleet, compensation can be claimed from him or you can impose sanctions on him at all.
+
+[b]4. Fleet auction[/b]
+The function is similar to the Fleet Market, with the difference that there are only three slots for setting fleets, the sale time is limited to one year, and the buyer is the one who offers the highest bet for this year.
+
+
+[h1]Possible questions:[/h1]
+
+[i]"If I get a fleet with components that I have not yet learned, do I get them automatically?"[/i]
+No, these components still need to be studied for installation on your ships. But already installed components from ships will not go anywhere, only if you try to modify ships that have components better than you have studied - you will install your components, not the better ones!
+
+[i]"Can empires like devouring swarms use these functions?"[/i]
+No. They hate other races.
+
+[i]"Why it is not allowed to transfer or sell transport ships with armies?"[/i]
+At current moment while you are transferring armies they bugged and it’s impossible to use them. Until a solution is found - transport ships with armies is not transmitted.
+
+[i]"I transferred/sold/bought titans, and my counter of them has broken!"[/i]
+Such a problem exists. Solution - re-enter in the game. We advise you do not abuse the sale of titans.
+
+[i]"Can I sell federation fleet?"[/i]
+No. The federation fleet does not belong to one owner, even if it is the Hegemon - it belongs to the entire federation at once.
+
+[i]"Why I can't to exhibit on Market/Rent/Auction my colossus or juggernaut?"[/i]
+Colossus or Juggernauts can be transferred or sold ONLY in the Fleet Transfer Menu. Open trading of such ships is prohibited.
+
+[i]"How can I disable some functions of the mod?"[/i]
+[i]"How to forbid AI use functions of the mod?"[/i]
+This can be done in the mod settings window. To get there, you need to open the market, rental or auction window, and in the top left corner, near the close button of the window, press on the settings button. If these functions are already disabled, the settings button will appear in the fleet transfer menu.
+
+
+[h1]Translations:[/h1]
+[list]
+    [*]Russian
+    [*]English from [url=https://steamcommunity.com/profiles/76561198155825283/]Just a Dominik[/url]
+    [*]Chinese from [url=https://steamcommunity.com/profiles/76561198211907279/]??[/url]
+[/list]
+
+
+[h1]Compatible with:[/h1]
+[list]
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=683230077/]NSC[/url]
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1087781345/]Mod Menu[/url]
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2466607238]Infinite Stellaris Framework[/url]
+[/list]

@@ -1,0 +1,3 @@
+1. Добавлена кнопка досрочного возврата флота с продажи
+
+1. Added a button for early return of the fleet from sale

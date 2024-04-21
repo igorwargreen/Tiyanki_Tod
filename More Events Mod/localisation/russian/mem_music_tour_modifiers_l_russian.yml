@@ -1,0 +1,23 @@
+﻿l_russian:
+
+ mem_foreign_star_on_tour_happy:0 "Довольны иностранной знаменитостью"
+ mem_foreign_star_on_tour_happy_desc:0 "Население обрадовано недавним визитом иностранной знаменитости."
+ 
+ mem_foreign_star_denied_entry_happy:0 "Иностранной знаменитости отказано во въезде"
+ mem_foreign_star_denied_entry_happy_desc:0 "Население довольно тем, что мы не впустили иностранную знаменитость."
+ 
+ mem_foreign_star_on_tour_unhappy:0 "Недовольны иностранной знаменитостью"
+ mem_foreign_star_on_tour_unhappy_desc:0 "Население недовольно недавним визитом иностранной знаменитости."
+ 
+ mem_foreign_star_denied_entry_unhappy:0 "Иностранной знаменитости отказано во въезде"
+ mem_foreign_star_denied_entry_unhappy_desc:0 "Население недовольно тем, что мы не впустили иностранную знаменитость."
+ 
+ mem_foreign_rockstar_filth_banned:0 "Подумайте о Детях"
+ mem_foreign_rockstar_filth_banned_desc:0 "Ужаснувшись выступлением иностранного музыканта, наше население обратилось к традиционным ценностям."
+ 
+ mem_foreign_rockstar_peace_love:0 "Антивоенные песни"
+ mem_foreign_rockstar_peace_love_desc:0 "После того как иностранный музыкант напомнил нашим людям о традиционных ценностях, население вновь обратилось к ним."
+ 
+ mem_less_play_more_work:0 "Заняты работой"
+ mem_less_play_more_work_desc:0 "Население слишком поглощено работой, чтобы пересматривать свои взгляды."
+

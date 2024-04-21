@@ -1,0 +1,32 @@
+﻿l_russian:
+ mem_DRONE_HANGAR:0 "Ангар дронов-смотрителей тип-I"
+ mem_AWAKENED_DRONE_HANGAR:0 "Ангар дронов-смотрителей тип-II"
+ 
+ mem_AURA_MINEFIELD:0 "Подпространственные мины Наблюдателя"
+ mem_AURA_SHIELD_RECHARGER:0 "Накопительные поля Наблюдателя"
+
+ mem_PROGENITOR_DRIVE:0 "Ядро сверхсветового двигателя предтеч"
+ mem_PROGENITOR_THRUSTER:0 "Реактивный привод предтеч"
+ mem_PROGENITOR_SENSOR:0 "Сенсорные антенны предтеч"
+ 
+ mem_PROGENITOR_CPU_XS:0 "Ядро «Союз» предтеч"
+ mem_PROGENITOR_CPU_S:0 "Ядро «Союз» предтеч"
+ mem_PROGENITOR_CPU_M:0 "Ядро «Союз» предтеч"
+ mem_PROGENITOR_CPU_L:0 "Ядро «Союз» предтеч"
+ 
+ mem_PROGENITOR_POWER_CORE_S:0 "Реактор «Упадок» предтеч"
+ mem_PROGENITOR_POWER_CORE_M:0 "Реактор «Упадок» предтеч"
+ mem_PROGENITOR_POWER_CORE_L:0 "Реактор «Упадок» предтеч"
+ mem_PROGENITOR_POWER_CORE_XXL:0 "Реактор «Упадок» предтеч"
+ mem_PROGENITOR_SHIELD_S:0 "Силовое поле предтеч"
+ mem_PROGENITOR_SHIELD_M:0 "Силовое поле предтеч"
+ mem_PROGENITOR_SHIELD_L:0 "Силовое поле предтеч"
+ mem_PROGENITOR_ARMOR_S:0 "Адаптивная броня предтеч"
+ mem_PROGENITOR_ARMOR_M:0 "Адаптивная броня предтеч"
+ mem_PROGENITOR_ARMOR_L:0 "Адаптивная броня предтеч"
+ 
+ mem_PROGENITOR_RECHARGER:0 "Модулятор волновой силы предтеч"
+ mem_PROGENITOR_REPAIR:0 "Автоматизированная система ремонта предтеч"
+
+ mem_PROGENITOR_SENSOR_SHIP:0 "Сенсорный массив предтеч"
+ mem_PROGENITOR_SENSOR_STATION:0 "Сенсорный массив предтеч"

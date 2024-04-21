@@ -1,0 +1,22 @@
+﻿l_russian:
+ #################################################
+ # Text by Malthus                               #
+ #################################################
+ # Planetary Shields
+ 
+ # That first building text is copied from the original game localisation
+ # Standard Shield Generator
+ building_mem_planetary_shield_generator:0 "Генератор планетарного щита"
+ building_mem_planetary_shield_generator_desc:0 "$tech_planetary_shield_generator_desc$"
+
+ # Heavy Shield Generator
+ building_mem_planetary_shield_generator_heavy:0 "Генератор барьерного планетарного щита"
+ building_mem_planetary_shield_generator_heavy_desc:0 "Это усовершенствованный генератор планетарного щита, полученный из наших исследований древних миров."
+
+ # Orila Shield Generator
+ building_mem_planetary_shield_generator_orila:0 "Генератор прекурсионного планетарного щита"
+ building_mem_planetary_shield_generator_orila_desc:0 "Древний и высокотехнологичный планетарный щит с встроенным источником энергии. Его технологии опережают наши на тысячи лет...\n\nВозможно, мы не сможем воспроизвести эти технологии, но наши инженеры должны уметь их §Yдемонтировать§!, чтобы вновь, затем §Yсобрать§! на другой планете по нашему выбору."
+
+ # Heavy Shield Generator Tech 
+ mem_tech_planetary_shield_generator_heavy:0 "Модернизированный барьерный щит"
+ mem_tech_planetary_shield_generator_heavy_desc:0 "Основываясь на наших собственных исследованиях полевых разработок, а также на наших предыдущих исследованиях технологии защиты предтеч, группа наших ученых выдвинула перспективную концепцию дизайна для обновленной версии наших собственных генераторов планетарных щитов."
