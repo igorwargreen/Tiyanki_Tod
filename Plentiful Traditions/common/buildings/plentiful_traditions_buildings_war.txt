@@ -1,5 +1,5 @@
 building_fortress = {
-	base_buildtime = 360
+	base_buildtime = 180
 	can_build = no
 	planetary_ftl_inhibitor = yes
 	position_priority = 100
@@ -44,6 +44,31 @@ building_fortress = {
 		}
 		modifier = {
 			job_warrior_drone_add = @b2_jobs
+		}
+	}
+	
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { 
+				is_gestalt = no 
+				has_country_flag = is_general_of_0
+				}
+		}
+		modifier = {
+			job_soldier_add = 1
+		}
+	}
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { 
+				is_gestalt = yes 
+				has_country_flag = is_general_of_0
+				}
+		}
+		modifier = {
+			job_warrior_drone_add = 1
 		}
 	}
 	

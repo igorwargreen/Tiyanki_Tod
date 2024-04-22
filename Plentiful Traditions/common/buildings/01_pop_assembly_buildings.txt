@@ -953,7 +953,7 @@ building_clone_vats = {
 			}
 		}
 		modifier = {
-			planet_pop_assembly_organic_add = 1
+			planet_pop_assembly_organic_add = 1.5
 		}
 	}
 
@@ -963,7 +963,7 @@ building_clone_vats = {
 			owner = { has_tradition = tr_genetics_efficient_cloning }
 		}
 		modifier = {
-			planet_pop_assembly_organic_add = 1.5
+			planet_pop_assembly_organic_add = 3
 		}
 	}
 
@@ -1046,7 +1046,7 @@ building_clone_vats = {
 					}
 				}
 			}
-			food = 30
+			food = 60
 		}
 		upkeep = {
 			trigger = {
@@ -1060,7 +1060,7 @@ building_clone_vats = {
 					}
 				}
 			}
-			minerals = 30
+			minerals = 35
 		}
 		# Org/Lith upkeep mit Perk
 		upkeep = {
@@ -1073,7 +1073,7 @@ building_clone_vats = {
 					has_building = building_slave_processing
 				}
 			}
-			food = 15
+			food = 25
 		}
 		upkeep = {
 			trigger = {

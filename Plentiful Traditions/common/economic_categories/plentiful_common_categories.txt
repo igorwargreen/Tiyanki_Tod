@@ -381,14 +381,6 @@ station_observers = {
 	}
 }
 
-station_observer_missions = {
-	parent = station_observers
-	
-	generate_mult_modifiers = {
-		produces
-	}
-}
-
 starbases = {
 	use_for_ai_budget = yes
 

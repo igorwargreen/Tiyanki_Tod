@@ -10,3 +10,4 @@ objectTypes = {
 		animation = { id = "sad"	type = "otter_portrait_sad_animation" }
 		scale = 1.0
 	}
+}
