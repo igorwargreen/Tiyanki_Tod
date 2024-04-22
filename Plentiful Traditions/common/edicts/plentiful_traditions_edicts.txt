@@ -3,38 +3,6 @@
 @Edict3Cost = 300
 
 @EdictDuration = 3600
-
-plentiful_traditions_malicious_intent = {
-	length = @EdictDuration
-
-	resources = {
-		category = edicts
-		cost = {
-			influence = @Edict3Cost
-		}
-	}
-	
-	modifier = {
-		damage_vs_country_type_fallen_empire_mult = 0.15
-		damage_vs_country_type_awakened_fallen_empire_mult = 0.15
-	}
-
-	potential = {
-		has_tradition = tr_plentiful_malice_finish
-	}
-		
-	ai_weight = {
-		weight = 1
-		modifier = {
-			factor = 0
-			NOR = {
-				has_ethic = ethic_authoritarian
-				has_ethic = ethic_fanatic_authoritarian
-			}
-		}		
-	}	
-}
-
 plentiful_traditions_industrial_goods = {
 	length = @EdictDuration
 	resources = {
@@ -44,7 +12,7 @@ plentiful_traditions_industrial_goods = {
 		}
 	}
 	modifier = {
-		planet_pops_consumer_goods_upkeep_mult = -0.2
+		planet_pops_consumer_goods_upkeep_mult = -0.33
 	}
 	
 	potential = {
@@ -64,7 +32,6 @@ plentiful_traditions_industrial_goods = {
 		}		
 	}	
 }
-
 plentiful_traditions_transformation_off = {
 	length = 360
 	resources = {
@@ -95,7 +62,6 @@ plentiful_traditions_transformation_off = {
 		weight = 0		
 	}	
 }
-
 plentiful_traditions_transformation_on = {
 	length = 360
 	resources = {
