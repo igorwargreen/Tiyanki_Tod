@@ -31,9 +31,6 @@ tr_plentiful_endure_adopt = {
 }
 
 tr_plentiful_endure_finish = {
-#	on_enabled = {
-#		give_technology = { message = no tech = tech_plentiful_traditions_endure_finish }
-#	}
 	modifier = {
 		pc_nuked_habitability = 0.10
 		ascension_perks_add = 1
@@ -41,7 +38,6 @@ tr_plentiful_endure_finish = {
 }
 
 tr_plentiful_endure_1 = {
-#	cost = { unity = @cost }
 	modifier = {
 		country_unity_produces_mult = 0.05
 	}
@@ -66,13 +62,11 @@ tr_plentiful_endure_2 = {
 }
 
 tr_plentiful_endure_3 = {
-#	cost = { unity = @cost }
 	possible = {
 		has_tradition = tr_plentiful_endure_4
 	}
 	on_enabled = {
 		add_research_option = tech_dark_matter_power_core
-		give_technology = { message = no tech = tech_plentiful_traditions_orbital_fertilizer_array }
 	}
 	
 	modifier = {

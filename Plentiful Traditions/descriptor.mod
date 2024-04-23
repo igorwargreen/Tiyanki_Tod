@@ -1,10 +1,4 @@
 name="Plentiful Traditions"
-dependencies={
-	"advancedascension"
-	"UI Overhaul 1080p Plus"
-	"Beta UI Overhaul 1080p"
-	"More Events Mod"
-}
 tags={
 	"Gameplay"
 	"Buildings"
@@ -12,5 +6,5 @@ tags={
 	"Technologies"
 }
 picture="thumbnail.jpg"
-supported_version="3.*"
+supported_version="3.12.*"
 remote_file_id="1311725711"

@@ -32,9 +32,6 @@ tr_plentiful_malice_finish = {
 	modifier = {
 		ascension_perks_add = 1
 	}
-	on_enabled = {
-		give_technology = { message = no tech = tech_plentiful_traditions_orbital_r_s }
-	}
 }
 
 tr_plentiful_malice_1 = {

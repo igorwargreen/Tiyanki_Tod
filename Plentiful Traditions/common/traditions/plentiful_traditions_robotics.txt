@@ -47,11 +47,6 @@ tr_plentiful_robotics_adopt = {
 }
 
 tr_plentiful_robotics_finish = {
-	on_enabled = {
-#		add_research_option = tech_machine_templates
-		give_technology = { message = no tech = tech_plentiful_traditions_robotics_construct_amplifiers }
-	}
-	
 	modifier = {
 		planet_jobs_robotic_produces_mult = 0.1
 		ROBOT_species_trait_points_add = 1
@@ -84,11 +79,6 @@ tr_plentiful_robotics_finish = {
 }
 
 tr_plentiful_robotics_1 = {
-#	cost = { unity = @cost }
-	
-	modifier = {
-# Robotics Facility
-	}
 	on_enabled = {
 		add_research_option = tech_basic_science_lab_3
 		add_research_option = tech_mine_volatile_motes
@@ -199,20 +189,10 @@ tr_plentiful_robotics_4 = {
 }
 
 tr_plentiful_robotics_5 = {
-#	cost = { unity = @cost }
-	
 	possible = {
 		has_tradition = tr_plentiful_robotics_1
 		has_tradition = tr_plentiful_robotics_2
 	}
-	on_enabled = {
-		give_technology = { message = no tech = tech_plentiful_traditions_orbital_a_s_p_i }
-	}
-	
-	modifier = {
-# Adaptive Foundry
-	}
-	
 	ai_weight = {
 		factor = 1000
 	}

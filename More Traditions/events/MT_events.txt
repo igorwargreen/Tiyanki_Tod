@@ -214,44 +214,6 @@ country_event = {
 		}
 	}
 }
-# random archeology site from archeology finisher
-country_event = {
-	id = gamma_events.1
-	hide_window = yes
-
-	is_triggered_only = yes
-
-	trigger = {
-		has_country_flag = is_general_of_0
-	}
-
-	immediate = {
-		random_planet_within_border = {
-			limit = {
-				habitable_planet = no
-				is_artificial = no
-				NOR = {
-					is_planet_class = pc_ringworld_habitable_damaged
-					is_planet_class = pc_ringworld_tech_damaged
-					is_planet_class = pc_ringworld_tech
-					is_planet_class = pc_ringworld_seam
-					is_planet_class = pc_ringworld_seam_damaged
-					exists = archaeological_site
-					has_planet_flag = suppress_archaeological_sites
-					solar_system = {
-						has_star_flag = suppress_archaeological_sites
-					}
-				}
-			}
-			save_event_target_as = chosen_planet
-			event_target:chosen_planet = { 
-				prevent_anomaly = yes
-				create_archaeological_site = random
-			}
-		}
-	}
-}
-
 # AAA.28
 # archeology tradition arcsite finish extra reward
 fleet_event = {
