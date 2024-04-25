@@ -124,7 +124,7 @@ automate_building_housing = {
 automate_building_slot_management = {
 	available = {
 		free_building_slots < 1
-		num_buildings = { type = any value < 12 }
+		num_buildings = { type = any value < 16 }
 	}
 
 	emergency = yes
@@ -702,5 +702,19 @@ automate_biotrophy_management_servitor = {
 		sanctuary = {
 			building = building_organic_sanctuary
 		}
+	}
+}
+automate_max_building_slot_management = {
+	available = {
+		num_buildings = { type = any value + free_building_slots < 16 }
+	}
+
+	emergency = yes
+	category = "planet_automation_max_building_slot"
+
+	prio_districts = {
+		district_city
+		district_hive
+		district_nexus
 	}
 }

@@ -4,7 +4,7 @@
 # market_amount = 100			# default -1, if non-positive, resource cannot be traded in the Market
 # market_price = 100				# default -1, if non-positive, resource cannot be traded in the Market
 # fixed_max_amount = yes/no		# default no, if yes maximum storage capacity of the resource is fixed to the amount specified in max = INT
-# special_max_amount = yes/no	# default no, if yes maximum storage capacity of the resource is fixed to the amount specified in max = INT + country_resource_max_RESOURCE_NAME_add modifiers
+# special_max_amount = yes/no	# default no, if yes maximum storage capacity of the resource is fixed to the amount specified in max = INT + country_resource_max_RESOURCE_NAME_add modifiers + dynamic_capacity
 #								This explicitly ignores MOD_COUNTRY_RESOURCE_MAX_ADD modifiers.
 
 time = {
@@ -59,10 +59,18 @@ food = {
 
 	ai_weight = {
 		weight = 1
+		modifier = {
+			factor = 0.1
+			country_uses_food = no
+		}
 	}
 
 	ai_wants = {
 		base = 500
+		modifier = {
+			factor = 0.1
+			country_uses_food = no
+		}
 	}
 }
 
@@ -130,10 +138,18 @@ consumer_goods = {
 
 	ai_weight = {
 		weight = 5
+		modifier = {
+			factor = 0.1
+			country_uses_consumer_goods = no
+		}
 	}
 
 	ai_wants = {
 		base = 500
+		modifier = {
+			factor = 0.1
+			country_uses_consumer_goods = no
+		}
 	}
 }
 
@@ -141,7 +157,7 @@ alloys = {
 	tradable = yes
 	category = advanced
 	market_amount = 25
-	market_price = 100
+	market_price = 200
 	max = 25000
 
 	deficit_situation = situation_alloys_deficit
