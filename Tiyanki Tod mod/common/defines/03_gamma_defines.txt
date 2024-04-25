@@ -2,6 +2,8 @@ NGameplay = {
 	COMMAND_LIMIT_MAX					= 2000		# Max value of Command Limit
 	NAVAL_CAPACITY_MAX					= 100000		# Max value of Naval Capacity
 	TRADITION_COST_TRADITION_EXP			= 1.650	# change this value if you want to increase costs at the end
+	MAX_PLANET_BUILDING_SLOTS				= 16
+
 	LEADER_BASE_SKILL_CAP	= 15
 	LEADER_MAX_SKILL_CAP	= 15
 	LEADER_AGE_HEIR_MIN		= 16				# Min age of generated heirs in dynastic governments
@@ -10,19 +12,26 @@ NGameplay = {
 	LEADER_AGE_MAX			= 16				# Max age of generated leaders
 	LEADER_EXPERIENCE_REQUIREMENT_BASE_VALUE					= 250 # Base value when calculating required experience for next skill level
 	LEADER_EXPERIENCE_REQUIREMENT_SCALE_VALUE					= 200 # Scale factor when calculating required experience for next skill level
+
 #	EMPIRE_SIZE_FROM_DISTRICTS				= 0	# Per district
 #	EMPIRE_SIZE_FROM_SYSTEMS				= 0		# Per system
 #	EMPIRE_SIZE_FROM_COLONIES				= 30	# Per planet
 #	EMPIRE_SIZE_FROM_BRANCH_OFFICES			= 0		# Per branch office
 #	EMPIRE_SIZE_FROM_POPS					= 1		# Per pop
+	
 	INTEGRATE_SUBJECT_MIN_DAYS				= 600 # Amount of days the subject has been a subject before we can integrate it
+#	SUBJECT_LOYALTY_MAX = 100					# Max value of loyalty	
+	
 	ORBITAL_BOMBARDMENT_FLEET_BASE_SIZE		= 300 # Over this amount of fleet cap bombarding we will start getting penalties to efficiency
+	ORBITAL_BOMBARDMENT_KILL_POP_COOLDOWN			= 3	# Min days between killing pops from bombardment
 	PLANET_HEALTH_REGEN					= 0.15			# Each day
-	RESOLUTION_VOTE_TIMER = 420					# number of days a resolution will be on the senate floor before being passed/failed
-	RESOLUTION_VOTE_PREMATURE_TIMER = 420			# number of days until the custodian/emperor can prematurely end the senate session
-	SENATE_RECESS_TIMER = 540						# number of days until the next proposed resolution will be put on the floor after the current vote
-#	SUBJECT_LOYALTY_MAX = 100					# Max value of loyalty
-	MAX_PLANET_BUILDING_SLOTS				= 16
+
+	RESOLUTION_VOTE_TIMER = 365					# number of days a resolution will be on the senate floor before being passed/failed
+	RESOLUTION_VOTE_PREMATURE_TIMER = 365			# number of days until the custodian/emperor can prematurely end the senate session
+	SENATE_RECESS_TIMER = 420						# number of days until the next proposed resolution will be put on the floor after the current vote
+	CATEGORY_VOTE_COOLDOWN = 960					# time before another resolution in a given category can proposed again
+	TYPE_VOTE_COOLDOWN = 2060						# time before a referendum of a given type can be proposed again
+	VETO_COOLDOWN = 900							# time before a country can enact another veto
 }
 NPop = {
 	MAX_CARRYING_CAPACITY				= 5000		# Logistic Carrying Capacity Cap (so modders have access to this value in case they make a planet with infinite districts or something like that)
