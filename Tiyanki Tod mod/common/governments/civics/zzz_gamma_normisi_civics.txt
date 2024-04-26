@@ -657,8 +657,8 @@ civic_corvee_system = {
 		}
 	}
 	modifier = {
-		pop_growth_from_immigration = 0.35
-		pop_growth_speed_reduction = -0.3
+		pop_growth_from_immigration = 0.3
+		pop_growth_speed_reduction = -0.25
 	}
 }
 civic_memory_vault = {

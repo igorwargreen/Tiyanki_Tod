@@ -52,6 +52,42 @@ origin_void_dwellers = {
 		base = 3
 	}
 }
+origin_subterranean = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_subterranean.dds"
+	picture = GFX_origin_subterranean
+	flags = { custom_start_screen }
+	#set_city_graphical_culture = SUBTERRANEAN
+	playable = {
+		has_overlord_dlc = yes
+	}
+
+	possible = {
+		authority = { NOT = { value = auth_machine_intelligence } }
+	}
+
+	description = "origin_tooltip_subterranean_effects"
+
+	advanced_start = yes
+
+	traits = {
+		trait = trait_cave_dweller
+	}
+
+	modifier = {
+		mining_district_housing_add = 2
+		mining_district_buildings_add = 0.34
+		planet_orbital_bombardment_damage = -0.75
+		planet_structures_cost_mult = 0.10
+		planet_structures_upkeep_mult = 0.10
+		planet_building_build_speed_mult = -0.10
+		pop_environment_tolerance = 0.50
+	}
+
+	random_weight = {
+		base = 5
+	}
+}
 origin_mechanists = {
 	is_origin = yes
 	icon = "gfx/interface/icons/origins/origins_mechanist.dds"
