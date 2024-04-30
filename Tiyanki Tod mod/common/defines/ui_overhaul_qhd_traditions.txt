@@ -1,7 +1,7 @@
 	NGameplay = {
-		TRADITION_CATEGORIES_MAX = 9
-		ASCENSION_PERKS_SLOTS = 10
+		TRADITION_CATEGORIES_MAX = 11
+		ASCENSION_PERKS_SLOTS = 12
 	}
 	NAI = {
-		NUM_TRADITIONS_FOR_EDICTS = 63 # (5 traditions + adoption effect + completion effect) * 9
+		NUM_TRADITIONS_FOR_EDICTS = 81 # (5 traditions + adoption effect + completion effect) * 9
 	}

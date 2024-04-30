@@ -54,7 +54,7 @@ tr_synchronicity_integrated_preservation = {
 tr_synchronicity_kinship_gestalt = {
 	modifier = {
 		leaders_upkeep_mult = -0.4
-		empire_size_pops_mult = -0.25
+		empire_size_pops_mult = -0.2
 	}
 
 	ai_weight = {
