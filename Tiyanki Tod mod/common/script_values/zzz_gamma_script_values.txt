@@ -1,0 +1,7 @@
+district_amount_mastery_of_nature = {
+	base = 0
+	modifier = {
+		add = 1
+		has_modifier = mastery_of_nature
+	}
+}

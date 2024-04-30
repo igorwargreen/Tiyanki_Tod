@@ -11,7 +11,7 @@ tradition_mt_envy = {
 	}
 
 	potential = {
-		is_gestalt = no # Maybe make a different agenda for gestalts? And then have swaps to get other names and descriptions so it fits hives and machines. And swap for fanatic purifiers
+		always = no
 	}
 
 	ai_weight = {

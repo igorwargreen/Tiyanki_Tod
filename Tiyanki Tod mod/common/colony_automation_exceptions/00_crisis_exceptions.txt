@@ -262,6 +262,24 @@ automate_archaeo = {
 	}
 }
 
+automate_unity_drone_building = {
+	available = {
+		owner = { 
+			has_country_flag = is_general_of_0 
+			has_authority = auth_hive_mind
+		}
+	}
+
+	emergency = yes
+	category = "planet_automation_pop_assembly"
+
+	buildings = {
+		manufacturing = {
+			building = building_sensorium_1
+		}
+	}
+}
+
 automate_clinic = {
 	available = {
 		owner = { 
@@ -280,11 +298,12 @@ automate_clinic = {
 	}
 }
 
-automate_ameno_management = {
+automate_ameno_clerk_management = {
 	should_ai_use_job_micro = yes
 
 	available = {
 		owner = {
+			is_gestalt = no
 			has_country_flag = is_general_of_0
 		}
 	}
@@ -295,7 +314,7 @@ automate_ameno_management = {
 	job_changes = {
 		clerk_reduce = {
 			available = {
-				free_amenities > 0
+				free_amenities > 5
 			}
 
 			job = clerk
@@ -308,6 +327,39 @@ automate_ameno_management = {
 			}
 
 			job = clerk
+			amount = 1
+		}
+	}
+}
+automate_ameno_maintenance_drone_management = {
+	should_ai_use_job_micro = yes
+
+	available = {
+		owner = {
+			is_gestalt = yes
+			has_country_flag = is_general_of_0
+		}
+	}
+
+	emergency = yes
+	category = "planet_automation_pop_assembly"
+
+	job_changes = {
+		maintenance_drone_reduce = {
+			available = {
+				free_amenities > 5
+			}
+
+			job = maintenance_drone
+			amount = -1
+		}
+
+		maintenance_drone_increase = {
+			available = {
+				free_amenities < 0
+			}
+
+			job = maintenance_drone
 			amount = 1
 		}
 	}

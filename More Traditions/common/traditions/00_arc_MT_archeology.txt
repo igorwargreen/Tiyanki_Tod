@@ -24,6 +24,9 @@ tr_mt_archeology_museums = {
 		trigger = {
 			is_hive_empire = yes
 		}
+		modifier = {
+			job_evaluator_per_pop = 0.15
+		}
 		custom_tooltip = tr_mt_archeology_museums_hive_modifier_desc
 		weight = {
 			factor = 10

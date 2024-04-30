@@ -44,5 +44,5 @@ mt_feast_modifier = {
 }
 
 mt_ambush_modifier = {
-	ship_speed_reduction = 0.2
+	ship_speed_reduction = 0.66
 }

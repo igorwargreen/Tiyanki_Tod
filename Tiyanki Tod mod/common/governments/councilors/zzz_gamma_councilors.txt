@@ -37,24 +37,6 @@ councilor_environmentalist = {
 		inline_script = councilor_leader_weights
 	}
 }
-councilor_gestalt_growth = {
-	leader_class = { official }
-	possible = {
-		is_gestalt = yes
-	}
-	is_leader_possible = {
-		leader_class = official
-	}
-	modifier = {
-		planet_pop_assembly_organic_mult = 0.03
-		planet_pop_assembly_mult = 0.02
-	}
-	icon = "GFX_icon_councilor_ruler"
-	optional = { always = no }
-	ai_hiring_weight = {
-		inline_script = councilor_leader_weights
-	}
-}
 councilor_ruler_democratic = {
 	leader_class = { official commander scientist }
 	possible = { always = no }

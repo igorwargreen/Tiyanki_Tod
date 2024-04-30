@@ -10,14 +10,8 @@ tradition_plentiful_mysticism = {
 		"tr_plentiful_mysticism_5"
 	}
 	
-	tradition_swap = {
-		name = tradition_plentiful_mysticism_machine
-		trigger = {
-			has_authority = auth_machine_intelligence
-		}
-		weight = {
-			factor = 1
-		}		
+	potential = {
+		always = no
 	}
 }
 
@@ -32,14 +26,17 @@ tradition_plentiful_robotics = {
 		"tr_plentiful_robotics_5"
 		"tr_plentiful_robotics_4"
 	}
-	tradition_swap = {
-		name = tradition_plentiful_robotics_hive
-		trigger = {
-			has_authority = auth_hive_mind
-		}
-		weight = {
-			factor = 1
-		}		
+#	tradition_swap = {
+#		name = tradition_plentiful_robotics_hive
+#		trigger = {
+#			has_authority = auth_hive_mind
+#		}
+#		weight = {
+#			factor = 1
+#		}		
+#	}
+	potential = {
+		always = no
 	}
 }
 
@@ -53,6 +50,9 @@ tradition_plentiful_biogenesis = {
 		"tr_plentiful_biogenesis_3"
 		"tr_plentiful_biogenesis_4"
 		"tr_plentiful_biogenesis_5"
+	}
+	potential = {
+		is_machine_empire = no
 	}
 }
 
@@ -68,18 +68,22 @@ tradition_plentiful_faith = {
 		"tr_plentiful_faith_2"
 	}
 	
-	tradition_swap = {
-		name = tradition_plentiful_faith_machine
-		trigger = {
-			OR = {
-				has_authority = auth_machine_intelligence
-				has_authority = auth_hive_mind
-			}
-		}
-		weight = {
-			factor = 1
-		}		
+	potential = {
+		always = no
 	}
+	
+#	tradition_swap = {
+#		name = tradition_plentiful_faith_machine
+#		trigger = {
+#			OR = {
+#				has_authority = auth_machine_intelligence
+#				has_authority = auth_hive_mind
+#			}
+#		}
+#		weight = {
+#			factor = 1
+#		}		
+#	}
 }
 
 tradition_plentiful_order = {
@@ -106,6 +110,9 @@ tradition_plentiful_malice = {
 		"tr_plentiful_malice_4"
 		"tr_plentiful_malice_5"
 	}
+	potential = {
+		always = no
+	}
 }
 
 tradition_plentiful_aspiration = {
@@ -118,6 +125,9 @@ tradition_plentiful_aspiration = {
 		"tr_plentiful_aspiration_3"
 		"tr_plentiful_aspiration_4"
 		"tr_plentiful_aspiration_5"
+	}
+	potential = {
+		always = no
 	}
 }
 
@@ -132,6 +142,9 @@ tradition_plentiful_affinity = {
 		"tr_plentiful_affinity_5"
 		"tr_plentiful_affinity_4"
 	}
+	potential = {
+		always = no
+	}
 }
 
 tradition_plentiful_experimentalism = {
@@ -144,6 +157,9 @@ tradition_plentiful_experimentalism = {
 		"tr_plentiful_experimentalism_3"
 		"tr_plentiful_experimentalism_4"
 		"tr_plentiful_experimentalism_5"
+	}
+	potential = {
+		always = no
 	}
 }
 
@@ -183,6 +199,9 @@ tradition_plentiful_kleptocracy = {
 		"tr_plentiful_kleptocracy_3"
 		"tr_plentiful_kleptocracy_4"
 		"tr_plentiful_kleptocracy_5"
+	}
+	potential = {
+		is_gestalt = no
 	}
 }
 
@@ -262,31 +281,31 @@ tradition_plentiful_dedication = {
 		"tr_plentiful_dedication_4"
 		"tr_plentiful_dedication_5"
 	}
+	potential = {
+		always = no
+	}
 }
 
 tradition_plentiful_genetic_cyborg = {
 	tree_template = "tree_11_111"
 	adoption_bonus = "tr_plentiful_genetic_cyborg_adopt"
 	finish_bonus = "tr_plentiful_genetic_cyborg_finish"
-
+	
 	potential = {
-		has_utopia = yes
-		is_machine_empire = no
-		OR = {
-			# Has Cybernetic Ascension
-			has_ascension_perk = ap_the_flesh_is_weak
-			has_ascension_perk = ap_organo_machine_interfacing
-
-			# Has Genetic Ascension
-			has_ascension_perk = ap_engineered_evolution
-
-#			# Has Psionic Ascension
-#			has_origin = origin_shroudwalker_apprentice
-#			has_ascension_perk = ap_mind_over_matter
-		}
-		has_active_tradition = tr_plentiful_robotics_finish
-		has_active_tradition = tr_plentiful_biogenesis_finish
+		always = no
 	}
+#	potential = {
+#		is_machine_empire = no
+#		OR = {
+#			# Has Cybernetic Ascension
+#			has_ascension_perk = ap_the_flesh_is_weak
+#			has_ascension_perk = ap_organo_machine_interfacing
+#			# Has Genetic Ascension
+#			has_ascension_perk = ap_engineered_evolution
+#		}
+#		has_active_tradition = tr_plentiful_robotics_finish
+#		has_active_tradition = tr_plentiful_biogenesis_finish
+#	}
 
 	traditions = {
 		"tr_plentiful_genetic_cyborg_1"

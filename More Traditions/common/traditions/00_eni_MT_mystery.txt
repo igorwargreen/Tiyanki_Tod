@@ -21,21 +21,8 @@ tr_mt_mysticism_finish = {
 tr_mt_mysticism_shroud = {
 
 	modifier = {
-		ship_cloaking_strength_add = 2
-	}
-	
-	tradition_swap = {
-		name = tr_mt_mysticism_shroud_no_cloaking
-		inherit_icon = yes
-		trigger = {
-			has_first_contact_dlc = no
-		}
-		modifier = {
-			intel_encryption_add = 2
-		}
-		weight = {
-			factor = 1
-		}
+		ship_cloaking_strength_add = 3
+		intel_encryption_add = 1
 	}
 
 	ai_weight = {
@@ -49,21 +36,7 @@ tr_mt_mysticism_elections = {
 	
 	modifier = {
 		espionage_hostile_operation_difficulty_add = 2
-	}
-	
-	tradition_swap = {
-		inherit_name = yes
-		inherit_icon = yes
-		trigger = {
-			has_astral_planes_dlc = yes
-		}
-		modifier = {
-			espionage_hostile_operation_difficulty_add = 2
-			dimensional_lock_duration_mult = 0.15
-		}
-		weight = {
-			factor = 1
-		}
+		dimensional_lock_duration_mult = 0.15
 	}
 
 	ai_weight = {
@@ -83,17 +56,10 @@ tr_mt_mysticism_messenger = {
 	}
 	
 	modifier = {
-		ship_emergency_ftl_min_days_mult = -0.5
-		fleet_mia_time_mult = -0.1
+		ship_emergency_ftl_min_days_mult = -0.75
+		fleet_mia_time_mult = -0.75
 	}
 	
-	#custom_tooltip = tr_mt_mysticism_messenger_desc
-	
-	#triggered_modifier = {
-	#	potential = { always = yes }
-	#	all_technology_research_speed = 0.02
-	#	mult = mt_mystics_ascended
-	#}
 
 	ai_weight = {
 		factor = 1000
@@ -109,8 +75,8 @@ tr_mt_mysticism_hardening = {
 	}
 	
 	modifier = {
-		ship_shield_hardening_add = 0.25
-		ship_armor_hardening_add = 0.25
+		ship_shield_hardening_add = 0.33
+		ship_armor_hardening_add = 0.33
 	}
 
 	ai_weight = {
@@ -123,53 +89,9 @@ tr_mt_mysticism_synthesis = {
 
 	custom_tooltip = tr_mt_mysticism_synthesis_desc
 
-	tradition_swap = {
-		name = tr_mt_mysticism_synthesis_no_cloaking
-		inherit_icon = yes
-		inherit_effects = no
-		trigger = {
-			has_first_contact_dlc = no
-		}
-		modifier = {
-			ship_sensor_range_add = 2
-		}
-		weight = {
-			factor = 1
-		}
+	modifier = {
+		ship_sensor_range_add = 2
 	}
-
-	#tradition_swap = {
-	#	name = tr_mt_mysticism_zro_synthesis
-	#	inherit_icon = yes
-	#	inherit_effects = no
-	#	trigger = {
-	#		species = {
-	#			has_psionic_species_trait = yes
-	#		}
-	#	}
-	#	modifier = {
-	#		planet_researchers_sr_zro_produces_add = 0.1
-	#	}
-	#	weight = {
-	#		factor = 1
-	#	}
-	#}
-	#
-	#tradition_swap = {
-	#	name = tr_mt_mysticism_zro_sacrifice
-	#	inherit_icon = yes
-	#	inherit_effects = no
-	#	trigger = {
-	#		is_death_cult_empire = yes
-	#		species = {
-	#			has_psionic_species_trait = yes
-	#		}
-	#	}
-	#	custom_tooltip = tr_mt_mysticism_zro_sacrifice_desc
-	#	weight = {
-	#		factor = 10
-	#	}
-	#}
 
 	ai_weight = {
 		factor = 1000

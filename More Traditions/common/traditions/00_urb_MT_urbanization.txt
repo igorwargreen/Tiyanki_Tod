@@ -24,7 +24,7 @@ tr_mt_urban_finish = {
 tr_mt_urban_oversight = {
 	
 	modifier = {
-		job_politician_per_pop = 0.04
+		job_politician_per_pop = 0.1
 	}
 	
 	tradition_swap = {
@@ -34,7 +34,7 @@ tr_mt_urban_oversight = {
 			is_spiritualist = yes
 		}
 		modifier = {
-			job_priest_per_pop = 0.08
+			job_priest_per_pop = 0.1
 		}
 		weight = {
 			factor = 10
@@ -62,7 +62,7 @@ tr_mt_urban_oversight = {
 			is_hive_empire = yes
 		}
 		modifier = {
-			job_evaluator_per_pop = 0.02
+			job_evaluator_per_pop = 0.1
 		}
 		weight = {
 			factor = 100
@@ -76,7 +76,7 @@ tr_mt_urban_oversight = {
 			is_machine_empire = yes
 		}
 		modifier = {
-			job_patrol_drone_per_pop = 0.02
+			job_patrol_drone_per_pop = 0.1
 		}
 		weight = {
 			factor = 100

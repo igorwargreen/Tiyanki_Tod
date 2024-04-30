@@ -154,8 +154,7 @@ tr_unyielding_defensive_zeal = {
 		shipclass_starbase_hull_mult = 0.33
 		shipclass_military_station_damage_mult = 0.33
 		shipclass_military_station_hull_mult = 0.33
-		shipclass_military_station_building_speed = 2
-		shipclass_military_station_upgrade_speed = 2
+		shipclass_military_station_build_speed_mult = 2
 	}
 
 	ai_weight = {

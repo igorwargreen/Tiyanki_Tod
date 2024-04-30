@@ -3,7 +3,7 @@ tr_mt_movement_adopt = {
 	#custom_tooltip = tr_mt_movement_opener_desc # +10% sublight speed
 	# Add hyper relay technology as permanent option
 	modifier = {
-		ship_speed_mult = 0.2
+		ship_speed_mult = 0.25
 	}
 }
 # jump drive cooldown -25%
@@ -148,7 +148,10 @@ tr_mt_movement_pilot_training = {
 	
 	modifier = {
 		weapon_type_strike_craft_speed_mult = 1
-		weapon_type_strike_craft_range_mult = 0.33
+		weapon_type_strike_craft_weapon_fire_rate_mult = 0.2
+		weapon_type_strike_craft_weapon_damage_mult = 0.2
+		ship_weapon_range_mult = 0.25
+		ship_base_speed_mult = 0.5
 	}
 
 	ai_weight = {

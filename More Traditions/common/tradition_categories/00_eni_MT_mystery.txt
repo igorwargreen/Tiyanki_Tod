@@ -26,9 +26,6 @@ tradition_mt_mysticism = {
 		"tr_mt_mysticism_hardening" # Otherworldly Protection
 	}
 
-	potential = {
-	}
-
 	ai_weight = {
 		weight = 0
 	}

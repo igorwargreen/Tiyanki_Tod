@@ -1,0 +1,62 @@
+consecrated_modifier_12 = {
+	country_unity_produces_mult = 0.6
+	planet_amenities_mult = 0.5
+	pop_ethic_spiritualist_attraction_mult = 2
+}
+
+consecrated_modifier_11 = {
+	country_unity_produces_mult = 0.5
+	planet_amenities_mult = 0.3
+	pop_ethic_spiritualist_attraction_mult = 1.5
+}
+
+consecrated_modifier_10 = {
+	country_unity_produces_mult = 0.45
+	planet_amenities_mult = 0.25
+	pop_ethic_spiritualist_attraction_mult = 1
+}
+consecrated_modifier_9 = {
+	country_unity_produces_mult = 0.36
+	planet_amenities_mult = 0.2
+	pop_ethic_spiritualist_attraction_mult = 0.72
+}
+consecrated_modifier_8 = {
+	country_unity_produces_mult = 0.32
+	planet_amenities_mult = 0.16
+	pop_ethic_spiritualist_attraction_mult = 0.64
+}
+consecrated_modifier_7 = {
+	country_unity_produces_mult = 0.28
+	planet_amenities_mult = 0.14
+	pop_ethic_spiritualist_attraction_mult = 0.56
+}
+consecrated_modifier_6 = {
+	country_unity_produces_mult = 0.24
+	planet_amenities_mult = 0.12
+	pop_ethic_spiritualist_attraction_mult = 0.48
+}
+consecrated_modifier_5 = {
+	country_unity_produces_mult = 0.20
+	planet_amenities_mult = 0.1
+	pop_ethic_spiritualist_attraction_mult = 0.40
+}
+consecrated_modifier_4 = {
+	country_unity_produces_mult = 0.16
+	planet_amenities_mult = 0.08
+	pop_ethic_spiritualist_attraction_mult = 0.32
+}
+consecrated_modifier_3 = {
+	country_unity_produces_mult = 0.12
+	planet_amenities_mult = 0.06
+	pop_ethic_spiritualist_attraction_mult = 0.24
+}
+consecrated_modifier_2 = {
+	country_unity_produces_mult = 0.08
+	planet_amenities_mult = 0.04
+	pop_ethic_spiritualist_attraction_mult = 0.16
+}
+consecrated_modifier_1 = {
+	country_unity_produces_mult = 0.04
+	planet_amenities_mult = 0.02
+	pop_ethic_spiritualist_attraction_mult = 0.08
+}

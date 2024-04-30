@@ -2,8 +2,8 @@
 
 tr_plentiful_industry_adopt = {
 	modifier = {
-		category_industry_research_speed_mult = 0.15
-		station_gatherers_minerals_produces_mult = 0.1
+		category_industry_research_speed_mult = 0.5
+		station_gatherers_minerals_produces_mult = 1
 	}
 	ai_weight = {
 		factor = 10
@@ -23,17 +23,15 @@ tr_plentiful_industry_adopt = {
 }
 
 tr_plentiful_industry_finish = {
-	custom_tooltip_with_modifiers = tr_plentiful_industry_finish_desc
 	modifier = {
-#P Edict
 		ascension_perks_add = 1
+		planet_metallurgists_alloys_produces_add = 1
 	}
 }
 
 tr_plentiful_industry_1 = {
-#	cost = { unity = @cost }
 	modifier = {
-		station_gatherers_cost_mult = -0.15
+		station_gatherers_cost_mult = -0.5
 	}
 	
 	ai_weight = {
@@ -42,9 +40,9 @@ tr_plentiful_industry_1 = {
 }
 
 tr_plentiful_industry_2 = {
-#	cost = { unity = @cost }
 	modifier = {
-		empire_size_colonies_mult = -0.15
+		empire_size_colonies_mult = -0.25
+		empire_size_districts_mult = -0.50
 	}
 	
 	ai_weight = {
@@ -53,12 +51,12 @@ tr_plentiful_industry_2 = {
 }
 
 tr_plentiful_industry_3 = {
-#	cost = { unity = @cost }
 	possible = {
 		has_tradition = tr_plentiful_industry_2
 	}
 	modifier = {
-		country_resettlement_cost_mult = -0.3
+		country_resettlement_cost_mult = -0.5
+		planet_jobs_upkeep_mult = -0.2
 	}
 	
 	ai_weight = {
@@ -67,14 +65,12 @@ tr_plentiful_industry_3 = {
 }
 
 tr_plentiful_industry_4 = {
-#	cost = { unity = @cost }
-	custom_tooltip_with_modifiers = tr_plentiful_industry_4_desc
 	possible = {
 		has_tradition = tr_plentiful_industry_2
 	}
 	modifier = {
-		station_gatherers_minerals_produces_mult = 0.1
-# B. Min
+		planet_max_districts_add = 4
+		station_gatherers_minerals_produces_mult = 1
 	}
 	
 	ai_weight = {
@@ -83,13 +79,11 @@ tr_plentiful_industry_4 = {
 }
 
 tr_plentiful_industry_5 = {
-#	cost = { unity = @cost }
-	custom_tooltip_with_modifiers = tr_plentiful_industry_5_desc
 	possible = {
 		has_tradition = tr_plentiful_industry_1
 	}
 	modifier = {
-#E Edict
+		planet_pops_consumer_goods_upkeep_mult = -0.33
 	}
 	
 	ai_weight = {

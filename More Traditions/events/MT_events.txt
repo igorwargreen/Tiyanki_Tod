@@ -899,56 +899,6 @@ planet_event = {
 	}
 }
 
-#country_event = { # Mysticism Mystic Messengers / FROM = Leader
-#	id = MT_events.27
-#	hide_window = yes
-#
-#	is_triggered_only = yes
-#
-#	trigger = {
-#		NOT = { has_country_flag = spawning_renowned_leader }
-#		exists = owner
-#		has_tradition = tr_mt_mysticism_messenger
-#		#is_country_type = default
-#		#FROM = {
-#		#	leader_class = scientist
-#		#}
-#	}
-#
-#	immediate = {
-#		FROM = {
-#			random_list = {
-#				20 = { add_trait_no_notify = mt_mystic_leader }
-#				80 = { }
-#			}
-#		}
-#	}
-#}
-
-#country_event = { # FROM = Leader
-#	id = MT_events.28
-#	hide_window = yes
-#
-#	is_triggered_only = yes
-#
-#	trigger = {
-#		FROM = {
-#			has_trait = mt_mystic_leader
-#			has_skill = 10
-#		}
-#	}
-#
-#	immediate = {
-#		FROM = {
-#			kill_leader = yes
-#		}
-#		change_variable = {
-#			which = mt_mystics_ascended
-#			value = 1
-#		}
-#	}
-#}
-
 fleet_event = {
 	id = MT_events.29
 	hide_window = yes
@@ -1012,26 +962,6 @@ country_event = {
 	}
 }
 
-# On Detection
-#country_event = {
-#	id = MT_events.32
-#	title = MT_events.32.name
-#	desc = MT_events.32.desc
-#	is_triggered_only = yes
-#
-#	#trigger = {
-#	#	has_tradition = tr_mt_swarm_feast
-#	#}
-#
-#	immediate = {
-#		add_modifier = {
-#			modifier = spurred_by_the_past
-#			years = 10
-#			}
-#		}
-#	}
-#}
-
 # Uncloaking fleet 
 fleet_event = {
 	id = MT_events.32
@@ -1055,7 +985,7 @@ fleet_event = {
 				}
 				add_modifier = {
 					modifier = mt_ambush_modifier
-					days = 180
+					days = 75
 				}
 			}
 		}

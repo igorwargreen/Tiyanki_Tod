@@ -1,7 +1,7 @@
 tr_mt_annihilation_adopt = {
 	unlocks_agenda = agenda_MT_finality # Launch Effect: 
 	modifier = {
-		ship_orbital_bombardment_mult = 0.5
+		ship_orbital_bombardment_mult = 1
 	}
 }
 tr_mt_annihilation_finish = {
@@ -62,7 +62,7 @@ tr_mt_annihilation_beauty_of_annihilation = {
 
 tr_mt_annihilation_fanatical_fervor = {
 	modifier = {
-		country_war_exhaustion_mult = -0.25
+		country_war_exhaustion_mult = -1
 	}
 
 	ai_weight = {
