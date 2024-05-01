@@ -95,3 +95,17 @@ councilor_memory_vaults = {
 		inline_script = councilor_leader_weights
 	}
 }
+councilor_inwards_perfection = {
+	leader_class = { commander }
+	is_leader_possible = {
+		leader_class = commander
+	}
+	civic = civic_inwards_perfection
+	modifier = {
+		shipclass_military_station_damage_mult = 0.1
+		shipclass_military_station_hull_mult = 0.1
+	}
+	ai_hiring_weight = {
+		inline_script = councilor_leader_weights
+	}
+}
