@@ -783,11 +783,11 @@ country_event = {
 
 	after = {
 		custom_tooltip = operation.1026.tooltip.cooldown
-		fromfrom.spynetwork = {
-			if = {
-				limit = {
-					NOT = {has_country_flag = is_general_of_0 }
-				}
+		if = {
+			limit = {
+				NOT = {has_country_flag = is_general_of_0 }
+			}
+			fromfrom.spynetwork = {
 				set_saved_date = {
 					key = recently_stole_technology
 					days_from_present = @StealTechnologyTimer
