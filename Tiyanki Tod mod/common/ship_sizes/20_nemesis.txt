@@ -53,7 +53,7 @@ crisis_corvette = {
 	}
 
 	ai_ship_data = {
-		fraction = 33
+		fraction = 0
 	}
 }
 
@@ -109,7 +109,7 @@ crisis_destroyer = {
 	}
 
 	ai_ship_data = {
-		fraction = 33
+		fraction = 0
 	}
 }
 
@@ -166,7 +166,7 @@ crisis_cruiser = {
 	}
 
 	ai_ship_data = {
-		fraction = 33
+		fraction = 0
 	}
 }
 
