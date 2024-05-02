@@ -1,0 +1,5 @@
+can_jump_drive = {
+	NOT = {
+		has_country_flag = jump_drive_disable
+	}
+}

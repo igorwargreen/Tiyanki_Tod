@@ -227,11 +227,11 @@ build_speed_boost = {
 	resources = {
 		category = rare_edicts
 		upkeep = {
-			alloys = 7
+			alloys = 15
 			multiplier = value:edict_size_effect
 		}
 		upkeep = {
-			energy = 35
+			energy = 10
 			multiplier = value:edict_size_effect
 		}
 	}
@@ -241,6 +241,26 @@ build_speed_boost = {
 	prerequisites = {
 		"tech_assembly_pattern"
 	}
+	potential = {
+		is_ai = no
+	}
+}
+disable_jump_drive = {
+	length = @EdictPerpetual
+	icon = "GFX_edict_type_time"
+
+	effect = {
+		if = {
+			limit = {
+				NOT = { has_country_flag = jump_drive_disable }
+			}
+			set_country_flag = jump_drive_disable
+		}
+		else = {
+			remove_country_flag = jump_drive_disable
+		}
+	}
+
 	potential = {
 		is_ai = no
 	}

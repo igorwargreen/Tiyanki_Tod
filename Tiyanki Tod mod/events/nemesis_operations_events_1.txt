@@ -851,9 +851,18 @@ country_event = {
 			}
 		}
 		else = {
-			add_resource = { engineering_research = @StealTechnologyAmount }
-			add_resource = { physics_research = @StealTechnologyAmount }
-			add_resource = { society_research = @StealTechnologyAmount }
+			add_monthly_resource_mult = { 
+				resource = engineering_research
+				value = 12
+			}
+			add_monthly_resource_mult = { 
+				resource = physics_research
+				value = 12
+			}
+			add_monthly_resource_mult = { 
+				resource = society_research
+				value = 12
+			}
 		}
 		hidden_effect = {
 			if = {
