@@ -3,6 +3,8 @@ NGameplay = {
 	NAVAL_CAPACITY_MAX					= 100000		# Max value of Naval Capacity
 	TRADITION_COST_TRADITION_EXP			= 1.650	# change this value if you want to increase costs at the end
 	MAX_PLANET_BUILDING_SLOTS				= 16
+	
+	TRUCE_YEARS							= 5	# Truce last for 10 years
 
 	LEADER_BASE_SKILL_CAP	= 15
 	LEADER_MAX_SKILL_CAP	= 15

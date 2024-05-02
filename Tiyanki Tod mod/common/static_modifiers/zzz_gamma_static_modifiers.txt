@@ -1,3 +1,63 @@
+high_war_exhaustion = {
+	surrender_acceptance = 500
+}
+# For playable empires
+difficulty_grand_admiral = {
+	station_gatherers_produces_mult = 1
+	station_researchers_produces_mult = 1
+	planet_jobs_produces_mult = 1
+	country_naval_cap_mult = 1
+	ships_upkeep_mult = -0.7
+	starbase_shipyard_build_cost_mult = -0.4
+	pop_resettlement_cost_mult = -1.0
+	planet_stability_add = 30
+	trade_value_mult = 1.0
+	difficulty_modifier_mult = 1.0 # Only active with Difficulty Adjusted AI Modifiers setting
+	
+	country_trade_fee = -1
+	planet_building_build_speed_mult = 100
+}
+
+difficulty_admiral = {
+	station_gatherers_produces_mult = 0.75
+	station_researchers_produces_mult = 0.75
+	planet_jobs_produces_mult = 0.75
+	country_naval_cap_mult = 0.45
+	ships_upkeep_mult = -0.3
+	starbase_shipyard_build_cost_mult = -0.3
+	pop_resettlement_cost_mult = -0.75
+	planet_stability_add = 15
+	trade_value_mult = 0.75
+	difficulty_modifier_mult = 0.75 # Only active with Difficulty Adjusted AI Modifiers setting
+}
+
+difficulty_commodore = {
+	station_gatherers_produces_mult = 0.5
+	station_researchers_produces_mult = 0.5
+	planet_jobs_produces_mult = 0.5
+	country_naval_cap_mult = 0.3
+	ships_upkeep_mult = -0.2
+	starbase_shipyard_build_cost_mult = -0.2
+	pop_resettlement_cost_mult = -0.50
+	planet_stability_add = 10
+	trade_value_mult = 0.5
+	difficulty_modifier_mult = 0.5 # Only active with Difficulty Adjusted AI Modifiers setting
+}
+
+difficulty_captain = {
+	station_gatherers_produces_mult = 0.25
+	station_researchers_produces_mult = 0.25
+	planet_jobs_produces_mult = 0.25
+	country_naval_cap_mult = 0.15
+	ships_upkeep_mult = -0.1
+	starbase_shipyard_build_cost_mult = -0.1
+	pop_resettlement_cost_mult = -0.25
+	planet_stability_add = 5
+	trade_value_mult = 0.25
+	difficulty_modifier_mult = 0.25 # Only active with Difficulty Adjusted AI Modifiers setting
+}
+
+
 consecrated_modifier_12 = {
 	country_unity_produces_mult = 0.6
 	planet_amenities_mult = 0.5

@@ -244,7 +244,7 @@ tech_repeatable_command_limit = {
 	cost_per_level = @repeatableTechLevelCost
 	tier = @repeatableTechTier
 	category = { military_theory }
-	levels = 5
+	levels = 1
 	prerequisites = { "tech_doctrine_fleet_size_5" }
 	weight = @repeatableTechWeight
 

@@ -40,6 +40,7 @@ military_station_small = {
 	build_block_radius = @build_block_radius_military
 
 	potential_construction = {
+		is_ai = no
 		is_scope_type = starbase
 		OR = {
 			has_starbase_size >= starbase_outpost
