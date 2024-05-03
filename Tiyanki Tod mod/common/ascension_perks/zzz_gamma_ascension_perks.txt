@@ -61,8 +61,10 @@ ap_archaeoengineers = {
 
 	modifier = {
 		country_scientist_cap_add = 1
-		weapon_archaeotech_weapon_damage_mult = 0.33
-		starbase_shipyard_build_minor_artifacts_cost_mult = -0.5
+		weapon_archaeotech_weapon_damage_mult = 0.25
+		weapon_archaeotech_weapon_fire_rate_mult = 0.25
+		weapon_archaeotech_speed_mult = 0.25
+		starbase_shipyard_build_minor_artifacts_cost_mult = -0.75
 	}
 
 	ai_weight = {
