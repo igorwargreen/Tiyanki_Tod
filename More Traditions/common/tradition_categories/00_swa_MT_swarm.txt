@@ -16,9 +16,9 @@ tradition_mt_swarm = {
 	}
 
 	ai_weight = {
-		weight = 10
+		factor = 10
 		modifier = {
-			factor = 2
+			factor = 10
 			is_homicidal = yes
 		}
 	}

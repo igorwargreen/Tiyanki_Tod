@@ -16,6 +16,6 @@ tradition_mt_justice = {
 	}
 
 	ai_weight = {
-		weight = 5
+		factor = 0.25
 	}
 }

@@ -136,7 +136,7 @@ ap_organo_machine_interfacing = {
 	}
 
 	ai_weight = {
-		factor = @ascension_path_base_weight
+		factor = 0
 	}
 }
 

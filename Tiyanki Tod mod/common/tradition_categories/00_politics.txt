@@ -1,0 +1,20 @@
+tradition_politics = {
+	tree_template = "tree_11_11_21"
+	adoption_bonus = "tr_politics_adopt"
+	finish_bonus = "tr_politics_finish"
+	traditions = {
+		"tr_politics_quid_pro_quo"
+		"tr_politics_gravitas"
+		"tr_politics_national_agenda"
+		"tr_politics_persistent_petitioners"
+		"tr_politics_extraordinary_powers"
+	}
+
+	potential = {
+		is_homicidal = no
+	}
+
+	ai_weight = {
+		factor = 0
+	}
+}

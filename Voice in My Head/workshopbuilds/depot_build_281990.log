@@ -1,0 +1,7 @@
+[2021-11-23 15:47:07]: Building file listing for depot 281990 ...
+[2021-11-23 15:47:07]: Found 1521 files for mapping: C:\Users\mvideo\Documents\Paradox Interactive\Stellaris\mod\IRV * -> .
+[2021-11-23 15:47:07]: Found 1521 files (1064 MB) for depot 281990
+[2021-11-23 15:47:09]: Building depot 281990, baseline manifest 1567734751223918003 (1519 files)
+[2021-11-23 15:47:11]: Found 1805 chunks ( 1804 used previously ) for depot 281990, took 0 minutes, 2 seconds
+[2021-11-23 15:47:11]: ERROR! Failed to find all chunks for C:\Users\mvideo\Documents\Paradox Interactive\Stellaris\mod\IRV\workshopbuilds\depot_build_281990.log (354/66, flags 0)
+[2021-11-23 15:47:11]: ERROR! Failed building depots chunks

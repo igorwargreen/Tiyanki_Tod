@@ -1,0 +1,33 @@
+tradition_enmity = {
+	desc = {
+		trigger = { is_machine_empire = no }
+		text = tradition_enmity_desc
+	}
+	desc = {
+		trigger = { is_machine_empire = yes }
+		text = tradition_enmity_desc_machine
+	}
+	tree_template = "tree_11_111"
+	adoption_bonus = "tr_enmity_adopt"
+	finish_bonus = "tr_enmity_finish"
+	traditions = {
+		"tr_enmity_rise_to_the_occasion"
+		"tr_enmity_consumate_contrarian"
+		"tr_enmity_match"
+		"tr_enmity_outpace"
+		"tr_enmity_eclipse"
+	}
+
+	potential = {
+		has_humanoids = yes
+		NOR = {
+			is_homicidal = yes
+			has_valid_civic = civic_machine_assimilator
+			has_valid_civic = civic_inwards_perfection
+		}
+	}
+
+	ai_weight = {
+		factor = 0
+	}
+}

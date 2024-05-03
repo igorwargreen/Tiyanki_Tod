@@ -85,7 +85,7 @@ tech_repeatable_improved_tile_food_output = {
 	tier = @repeatableTechTier
 	category = { biology }
 	levels = -1
-	prerequisites = { "tech_gene_crops" }
+	prerequisites = { "tech_galactic_bureaucracy" }
 	weight = @repeatableTechWeight
 
 	weight_modifier = {

@@ -10,22 +10,7 @@ tradition_mt_annihilation = {
 		"tr_mt_annihilation_beauty_of_annihilation"
 	}
 
-	potential = {
-	}
-
 	ai_weight = {
-		factor = 1
-		modifier = {
-			factor = 10
-			is_homicidal = yes
-		}
-		modifier = {
-			factor = 0.5
-			has_ethic = ethic_xenophile
-		}
-		modifier = {
-			factor = 0.25
-			has_ethic = ethic_fanatic_xenophile
-		}
+		factor = 0
 	}
 }

@@ -81,7 +81,7 @@ origin_subterranean = {
 		planet_structures_cost_mult = 0.10
 		planet_structures_upkeep_mult = 0.10
 		planet_building_build_speed_mult = -0.10
-		pop_environment_tolerance = 0.50
+		pop_environment_tolerance = 0.25
 	}
 
 	random_weight = {

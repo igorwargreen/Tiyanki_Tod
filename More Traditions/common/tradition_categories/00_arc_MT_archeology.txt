@@ -10,24 +10,7 @@ tradition_mt_archeology = {
 		"tr_mt_archeology_respect_the_dead"
 	}
 
-	potential = {
-		NOT = { has_forgotten_history_active = yes }
-		NOT = { has_tradition = tr_mt_history_adopt }
-	}
-
 	ai_weight = {
-		factor = 5
-		modifier = {
-			factor = 0
-			is_homicidal = yes
-		}
-		modifier = {
-			factor = 0.5
-			has_ethic = ethic_xenophobe
-		}
-		modifier = {
-			factor = 0.25
-			has_ethic = ethic_fanatic_xenophobe
-		}
+		factor = 0
 	}
 }

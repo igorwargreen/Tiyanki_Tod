@@ -54,6 +54,13 @@ tradition_plentiful_biogenesis = {
 	potential = {
 		is_machine_empire = no
 	}
+	ai_weight = {
+		factor = 1
+		modifier = {
+			factor = 20
+			has_authority = auth_hive_mind
+		}
+	}
 }
 
 tradition_plentiful_faith = {
@@ -96,6 +103,9 @@ tradition_plentiful_order = {
 		"tr_plentiful_order_3"
 		"tr_plentiful_order_4"
 		"tr_plentiful_order_5"
+	}
+	ai_weight = {
+		factor = 0.5
 	}
 }
 
@@ -174,6 +184,16 @@ tradition_plentiful_mutagenesis = {
 		"tr_plentiful_mutagenesis_1"
 		"tr_plentiful_mutagenesis_2"
 	}
+	potential = {
+		has_authority = auth_hive_mind
+	}
+	ai_weight = {
+		factor = 2
+		modifier = {
+			factor = 100
+			has_authority = auth_hive_mind
+		}
+	}
 }
 
 tradition_plentiful_industry = {
@@ -186,6 +206,9 @@ tradition_plentiful_industry = {
 		"tr_plentiful_industry_2"
 		"tr_plentiful_industry_3"
 		"tr_plentiful_industry_4"
+	}
+	ai_weight = {
+		factor = 5
 	}
 }
 
@@ -203,6 +226,13 @@ tradition_plentiful_kleptocracy = {
 	potential = {
 		is_gestalt = no
 	}
+	ai_weight = {
+		factor 0.1
+		modifier = {
+			factor = 100
+			has_authority = auth_corporate
+		}
+	}
 }
 
 tradition_plentiful_anguish = {
@@ -215,6 +245,9 @@ tradition_plentiful_anguish = {
 		"tr_plentiful_anguish_3"
 		"tr_plentiful_anguish_4"
 		"tr_plentiful_anguish_5"
+	}
+	ai_weight = {
+		factor = 0
 	}
 }
 
@@ -229,6 +262,9 @@ tradition_plentiful_defence = {
 		"tr_plentiful_defence_4"
 		"tr_plentiful_defence_5"
 	}
+	ai_weight = {
+		factor = 0
+	}
 }
 
 tradition_plentiful_assault = {
@@ -241,6 +277,9 @@ tradition_plentiful_assault = {
 		"tr_plentiful_assault_4"
 		"tr_plentiful_assault_2"
 		"tr_plentiful_assault_5"
+	}
+	ai_weight = {
+		factor = 0.5
 	}
 }
 
@@ -255,6 +294,9 @@ tradition_plentiful_transformation = {
 		"tr_plentiful_transformation_2"
 		"tr_plentiful_transformation_5"
 	}
+	ai_weight = {
+		factor = 0
+	}
 }
 
 tradition_plentiful_endure = {
@@ -267,6 +309,9 @@ tradition_plentiful_endure = {
 		"tr_plentiful_endure_4"
 		"tr_plentiful_endure_3"
 		"tr_plentiful_endure_5"
+	}
+	ai_weight = {
+		factor = 0
 	}
 }
 
