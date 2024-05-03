@@ -50,7 +50,7 @@ tr_plentiful_mutagenesis_adopt = {
 
 tr_plentiful_mutagenesis_finish = {
 	modifier = {
-	tradition_cost_empire_size_mult = -0.5
+		tradition_cost_empire_size_mult = -0.25
 		ascension_perks_add = 1
 	}
 }
