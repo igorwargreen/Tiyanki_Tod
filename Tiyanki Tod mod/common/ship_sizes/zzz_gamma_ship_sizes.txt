@@ -38,9 +38,12 @@ military_station_small = {
 	required_component_set = "combat_computers"
 
 	build_block_radius = @build_block_radius_military
-
-	potential_construction = {
+	
+	potential_country = {
 		is_ai = no
+	}
+	
+	potential_construction = {
 		is_scope_type = starbase
 		OR = {
 			has_starbase_size >= starbase_outpost
