@@ -207,6 +207,9 @@ tradition_plentiful_industry = {
 		"tr_plentiful_industry_3"
 		"tr_plentiful_industry_4"
 	}
+	potential = {
+		NOT = {has_authority = auth_hive_mind}
+	}
 	ai_weight = {
 		factor = 5
 	}

@@ -1,6 +1,6 @@
 tr_plentiful_biogenesis_adopt = {
 	modifier = {
-		category_biology_research_speed_mult = 0.5
+		category_biology_research_speed_mult = 0.25
 	}
 	
 	ai_weight = {
@@ -39,8 +39,8 @@ tr_plentiful_biogenesis_finish = {
 tr_plentiful_biogenesis_1 = {
 	modifier = {
 		planet_pops_organics_food_upkeep_mult = -0.25
-		planet_livestock_food_produces_add = 3
-		planet_farmers_food_produces_add = 1.5
+		planet_livestock_food_produces_add = 2
+		planet_farmers_food_produces_add = 1
 	}
 
 	tradition_swap = {
@@ -53,9 +53,9 @@ tr_plentiful_biogenesis_1 = {
 		}
 		
 		modifier = {
-			planet_miners_minerals_produces_add = 1.5
+			planet_miners_minerals_produces_add = 1
 			planet_pops_organics_minerals_upkeep_mult = -0.25
-			planet_livestock_minerals_produces_add = 3
+			planet_livestock_minerals_produces_add = 2
 		}
 		
 		weight = {
@@ -112,7 +112,7 @@ tr_plentiful_biogenesis_5 = {
 		has_tradition = tr_plentiful_biogenesis_2
 	}
 	modifier = {
-		planet_researchers_society_research_produces_mult = 0.25
+		planet_researchers_society_research_produces_mult = 0.2
 	}
 	
 	ai_weight = {

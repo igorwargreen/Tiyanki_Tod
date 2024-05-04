@@ -32,7 +32,8 @@ hyper_relay = {
 	build_megastructure_no_cost_localization_key = "FLASH_FORGE_MEGASTRUCTURE"
 
 	potential = {
-		has_technology = tech_hyper_relays
+		always = no
+#		has_technology = tech_hyper_relays
 	}
 
 	possible = {

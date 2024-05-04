@@ -1,10 +1,6 @@
-#@cost = 56
-
 tr_plentiful_anguish_adopt = {
-#	cost = { unity = @cost }
-	custom_tooltip_with_modifiers = tr_plentiful_anguish_adopt_desc
 	modifier = {
-		
+		country_ship_upgrade_cost_mult = -1
 	}
 	
 	ai_weight = {
@@ -49,19 +45,16 @@ tr_plentiful_anguish_adopt = {
 }
 
 tr_plentiful_anguish_finish = {
-	custom_tooltip_with_modifiers = tr_plentiful_anguish_finish_desc
 	modifier = {
-		damage_vs_country_type_swarm_mult = 0.15
-		damage_vs_country_type_extradimensional_mult = 0.15
-		damage_vs_country_type_extradimensional_2_mult = 0.15
-		damage_vs_country_type_extradimensional_3_mult = 0.15
+		damage_vs_country_type_swarm_mult = 0.25
+		damage_vs_country_type_extradimensional_mult = 0.25
+		damage_vs_country_type_extradimensional_2_mult = 0.25
+		damage_vs_country_type_extradimensional_3_mult = 0.25
 		ascension_perks_add = 1
 	}
 }
 
-tr_plentiful_anguish_1 = {
-#	cost = { unity = @cost }
-	
+tr_plentiful_anguish_1 = {	
 	modifier = {
 		ship_weapon_range_mult = 0.10
 	}
@@ -72,8 +65,6 @@ tr_plentiful_anguish_1 = {
 }
 
 tr_plentiful_anguish_2 = {
-#	cost = { unity = @cost }
-	
 	possible = {
 		has_tradition = tr_plentiful_anguish_1
 	}
@@ -87,9 +78,7 @@ tr_plentiful_anguish_2 = {
 	}
 }
 
-tr_plentiful_anguish_3 = {
-#	cost = { unity = @cost }
-	
+tr_plentiful_anguish_3 = {	
 	possible = {
 		has_tradition = tr_plentiful_anguish_2
 	}
@@ -105,15 +94,13 @@ tr_plentiful_anguish_3 = {
 	}
 }
 
-tr_plentiful_anguish_4 = {
-#	cost = { unity = @cost }
-	
+tr_plentiful_anguish_4 = {	
 	possible = {
 		has_tradition = tr_plentiful_anguish_3
 	}
 	
 	modifier = {
-		category_military_theory_research_speed_mult = 0.2
+		category_military_theory_research_speed_mult = 1
 		shipclass_starbase_hull_mult = 0.5
 	}
 	
@@ -123,15 +110,13 @@ tr_plentiful_anguish_4 = {
 }
 
 tr_plentiful_anguish_5 = {
-#	cost = { unity = @cost }
-	
 	possible = {
 		has_tradition = tr_plentiful_anguish_1
 	}
 	
 	modifier = {
-		damage_vs_country_type_fallen_empire_mult = 0.15
-		damage_vs_country_type_awakened_fallen_empire_mult = 0.15
+		damage_vs_country_type_fallen_empire_mult = 0.25
+		damage_vs_country_type_awakened_fallen_empire_mult = 0.25
 	}
 	
 	ai_weight = {

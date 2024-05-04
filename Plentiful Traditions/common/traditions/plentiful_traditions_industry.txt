@@ -1,7 +1,6 @@
 tr_plentiful_industry_adopt = {
 	modifier = {
-		category_industry_research_speed_mult = 0.5
-		station_gatherers_minerals_produces_mult = 1
+		category_industry_research_speed_mult = 0.25
 	}
 	ai_weight = {
 		factor = 10
@@ -23,7 +22,7 @@ tr_plentiful_industry_adopt = {
 tr_plentiful_industry_finish = {
 	modifier = {
 		ascension_perks_add = 1
-		planet_metallurgists_alloys_produces_add = 1
+		planet_metallurgists_alloys_produces_add = 0.5
 	}
 }
 
@@ -81,7 +80,7 @@ tr_plentiful_industry_5 = {
 		has_tradition = tr_plentiful_industry_1
 	}
 	modifier = {
-		planet_pops_consumer_goods_upkeep_mult = -0.33
+		planet_pops_consumer_goods_upkeep_mult = -0.2
 	}
 	
 	ai_weight = {

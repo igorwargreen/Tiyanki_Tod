@@ -25,6 +25,9 @@ tradition_mt_mysticism = {
 		"tr_mt_mysticism_messenger" # Vanishing Act
 		"tr_mt_mysticism_hardening" # Otherworldly Protection
 	}
+	potential = {
+		always = no
+	}
 
 	ai_weight = {
 		weight = 0
