@@ -22,7 +22,8 @@ tr_unyielding_finish = {
 			has_federations_dlc = yes
 		}
 		modifier = {
-			starbase_defense_platform_capacity_mult = 0.5
+			planet_structures_cost_mult = -0.25
+			planet_building_build_speed_mult = 1
 			starbases_upkeep_mult = -0.50
 			ascension_perks_add = 1
 		}
@@ -76,7 +77,8 @@ tr_unyielding_never_surrender = {
 
 	modifier = {
 		planet_orbital_bombardment_damage = -0.5
-		country_war_exhaustion_mult = -0.5
+		country_war_exhaustion_mult = -0.2
+		category_materials_research_speed_mult = 0.33
 		country_hostile_claim_influence_cost_mult = 0.25
 	}
 

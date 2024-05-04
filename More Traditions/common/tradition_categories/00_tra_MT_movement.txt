@@ -11,6 +11,7 @@ tradition_mt_movement = {
 	}
 
 	potential = {
+		always = no
 	}
 
 	ai_weight = {

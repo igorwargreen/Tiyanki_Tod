@@ -265,6 +265,9 @@ tradition_plentiful_defence = {
 		"tr_plentiful_defence_4"
 		"tr_plentiful_defence_5"
 	}
+	potential = {
+		always = no
+	}
 	ai_weight = {
 		factor = 0
 	}

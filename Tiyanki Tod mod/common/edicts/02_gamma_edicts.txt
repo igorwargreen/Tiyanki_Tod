@@ -87,87 +87,6 @@ fortify_the_border = {
 		}
 	}
 }
-
-map_the_stars = {
-	length = @EdictPerpetual
-	icon = "GFX_edict_type_policy"
-
-	resources = {
-		category = edicts
-		upkeep = {
-			unity = @Edict1Cost
-			multiplier = value:edict_size_effect
-		}
-	}
-	effect = {
-		if = {
-			limit = {
-				NOR = {
-					has_country_flag = is_science_of_0
-					has_country_flag = is_science_of_1
-					has_country_flag = is_science_of_2
-					has_country_flag = is_science_of_3
-					has_country_flag = is_science_of_4
-				}
-			}
-			remove_country_flag = is_science_of_5
-			set_country_flag = is_science_of_0
-		}
-		else_if = {
-			limit = {
-				has_country_flag = is_science_of_0
-			}
-			remove_country_flag = is_science_of_0
-			set_country_flag = is_science_of_1
-		}
-		else_if = {
-			limit = {
-				has_country_flag = is_science_of_1
-			}
-			remove_country_flag = is_science_of_1
-			set_country_flag = is_science_of_2
-		}
-		else_if = {
-			limit = {
-				has_country_flag = is_science_of_2
-			}
-			remove_country_flag = is_science_of_2
-			set_country_flag = is_science_of_3
-		}
-		else_if = {
-			limit = {
-				has_country_flag = is_science_of_3
-			}
-			remove_country_flag = is_science_of_3
-			set_country_flag = is_science_of_4
-		}
-		else_if = {
-			limit = {
-				has_country_flag = is_science_of_4
-			}
-			remove_country_flag = is_science_of_4
-			set_country_flag = is_science_of_5
-		}
-	}
-
-	modifier = {
-		science_ship_survey_speed = 0.25
-		ship_anomaly_generation_chance_mult = 0.10
-		ship_hyperlane_range_add = 1
-	}
-
-	potential = {
-		has_tradition = tr_discovery_adopt
-	}
-
-	ai_weight = {
-		weight = 0
-		modifier = {
-			weight = @EdictHighPrio
-			years_passed < 50
-		}
-	}
-}
 radar_disable = {
 	length = @EdictPerpetual
 	icon = "GFX_edict_type_policy"
@@ -252,12 +171,51 @@ disable_jump_drive = {
 	effect = {
 		if = {
 			limit = {
-				NOT = { has_country_flag = jump_drive_disable }
+				NOR = {
+					has_country_flag = is_science_of_0
+					has_country_flag = is_science_of_1
+					has_country_flag = is_science_of_2
+					has_country_flag = is_science_of_3
+					has_country_flag = is_science_of_4
+				}
 			}
-			set_country_flag = jump_drive_disable
+			remove_country_flag = is_science_of_5
+			set_country_flag = is_science_of_0
 		}
-		else = {
-			remove_country_flag = jump_drive_disable
+		else_if = {
+			limit = {
+				has_country_flag = is_science_of_0
+			}
+			remove_country_flag = is_science_of_0
+			set_country_flag = is_science_of_1
+		}
+		else_if = {
+			limit = {
+				has_country_flag = is_science_of_1
+			}
+			remove_country_flag = is_science_of_1
+			set_country_flag = is_science_of_2
+		}
+		else_if = {
+			limit = {
+				has_country_flag = is_science_of_2
+			}
+			remove_country_flag = is_science_of_2
+			set_country_flag = is_science_of_3
+		}
+		else_if = {
+			limit = {
+				has_country_flag = is_science_of_3
+			}
+			remove_country_flag = is_science_of_3
+			set_country_flag = is_science_of_4
+		}
+		else_if = {
+			limit = {
+				has_country_flag = is_science_of_4
+			}
+			remove_country_flag = is_science_of_4
+			set_country_flag = is_science_of_5
 		}
 	}
 

@@ -38,7 +38,7 @@ NGameplay = {
 NPop = {
 	MAX_CARRYING_CAPACITY				= 5000		# Logistic Carrying Capacity Cap (so modders have access to this value in case they make a planet with infinite districts or something like that)
 	REQUIRED_POP_GROWTH					= 100		# Required growth to make a new pop
-	BASE_POP_GROWTH						= 3.5		# Base growth rate of pops
+	BASE_POP_GROWTH						= 3		# Base growth rate of pops
 	LOGISTIC_POP_GROWTH_LOWER_THRESHOLD	= 10	# Ignore penalties to Pop Growth if the current number of pops are below this percent of the carrying capacity
 	REQUIRED_POP_ASSEMBLY				= 100		# Required assembly to add a pop
 	RESETTLE_UNEMPLOYED_BASE_RATE		= 0.5	# Chance an unemployed pop will automatically migrate if an acceptable location is found (Range is 0 to 1)
@@ -78,5 +78,4 @@ NAI = {
 	CLAIM_COST_FACTOR = -0.05				# How much will AI prioritize resource-rich systems when making claims
 	CLAIM_COLONY_FACTOR = 25				# How much will AI prioritize colonies when making claims
 	CLAIM_BORDERING_FACTOR = 100			# How much will AI prioritize bordering systems when making claims
-	NUM_TRADITIONS_FOR_EDICTS = 84 # (5 traditions + adoption effect + completion effect) * 12
 }
