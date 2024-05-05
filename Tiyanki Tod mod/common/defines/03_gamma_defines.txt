@@ -5,6 +5,8 @@ NGameplay = {
 #	TRADITION_COST_TRADITION_EXP			= 1.650	# change this value if you want to increase costs at the end
 	MAX_PLANET_BUILDING_SLOTS				= 16
 	
+	COUNCIL_AGENDA_COOLDOWN 				= 3600
+	
 	TRUCE_YEARS							= 5	# Truce last for 10 years
 
 	LEADER_BASE_SKILL_CAP	= 15

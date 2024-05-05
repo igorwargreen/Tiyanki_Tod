@@ -322,9 +322,6 @@ tradition_plentiful_endure = {
 	potential = {
 		always = no
 	}
-	ai_weight = {
-		factor = 0
-	}
 }
 
 tradition_plentiful_dedication = {

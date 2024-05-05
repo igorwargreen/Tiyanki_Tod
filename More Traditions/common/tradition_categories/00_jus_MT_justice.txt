@@ -12,10 +12,10 @@ tradition_mt_justice = {
 	}
 
 	potential = {
-		is_gestalt = no
+		always = no
 	}
 
 	ai_weight = {
-		factor = 0.25
+		factor = 0
 	}
 }
