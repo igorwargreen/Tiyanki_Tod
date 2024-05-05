@@ -24,6 +24,8 @@ tr_subterfuge_finish = {
 		modifier = {
 			ship_cloaking_strength_add = 2
 			ascension_perks_add = 1
+			ship_shield_hardening_add = 0.33
+			ship_armor_hardening_add = 0.33
 		}
 
 		weight = {
@@ -135,6 +137,8 @@ tr_subterfuge_shadow_recruits = {
 
 	modifier = {
 		spy_network_daily_value_mult = 1
+		ship_emergency_ftl_min_days_mult = -0.5
+		fleet_mia_time_mult = -0.5
 	}
 
 	ai_weight = {

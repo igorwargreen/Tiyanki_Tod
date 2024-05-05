@@ -9,7 +9,6 @@ tr_discovery_adopt = {
 		inherit_icon = yes
 		inherit_name = yes
 		trigger = {
-			is_ai = no
 			has_country_flag = is_general_of_0
 		}
 		modifier = {
@@ -47,6 +46,7 @@ tr_discovery_adopt = {
 			spy_network_levels_add = 40
 			spy_network_daily_value_mult = 10
 			add_base_country_intel = 50
+#			modifier_toooltip = 2
 		}
 		custom_tooltip = tr_discovery_adopt_desc
 		weight = {

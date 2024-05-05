@@ -90,7 +90,7 @@ fortify_the_border = {
 radar_disable = {
 	length = @EdictPerpetual
 	icon = "GFX_edict_type_policy"
-
+	
 	effect = {
 		if = {
 			limit = {
@@ -167,7 +167,7 @@ build_speed_boost = {
 disable_jump_drive = {
 	length = @EdictPerpetual
 	icon = "GFX_edict_type_time"
-
+	
 	effect = {
 		if = {
 			limit = {

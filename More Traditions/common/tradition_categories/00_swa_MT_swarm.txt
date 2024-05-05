@@ -12,7 +12,7 @@ tradition_mt_swarm = {
 	}
 
 	potential = {
-		is_hive_empire = yes
+		always = no
 	}
 
 	ai_weight = {

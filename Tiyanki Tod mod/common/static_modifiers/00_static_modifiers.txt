@@ -108,6 +108,8 @@ difficulty_grand_admiral = {
 	country_resource_max_add = 1000000
 	pop_purge_speed = 2
 	country_base_influence_produces_add = 5
+	planet_max_buildings_add = 8
+	country_claim_influence_cost_mult = -0.5
 	
 	difficulty_modifier_mult = 1.0 # Only active with Difficulty Adjusted AI Modifiers setting
 }

@@ -149,7 +149,7 @@ ap_grasp_the_void = {
 
 	modifier = {
 		country_starbase_capacity_add = 5
-		country_starbase_capacity_mult = 0.5
+		shipclass_starbase_build_cost_mult = -0.33
 		starbase_shipyard_build_speed_mult = 1
 		starbase_upgrade_cost_mult = -0.25
 		starbase_upgrade_speed_mult = 2
@@ -277,8 +277,9 @@ ap_shared_destiny = {
 		divided_patrongage_max_subjects = 1
 		envoys_add = 2
 		diplo_weight_mult = 0.2
-		diplomacy_influence_upkeep_mult = -0.25
-		diplo_action_acceptance_add = 100
+		diplomacy_influence_upkeep_mult = -0.5
+		councilor_diplomatic_corps_exp_gain = 2
+#		diplo_action_acceptance_add = 100
 	}
 
 	potential = {

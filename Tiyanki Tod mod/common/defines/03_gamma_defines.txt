@@ -1,7 +1,8 @@
 NGameplay = {
 	COMMAND_LIMIT_MAX					= 2000		# Max value of Command Limit
 	NAVAL_CAPACITY_MAX					= 100000		# Max value of Naval Capacity
-	TRADITION_COST_TRADITION_EXP			= 1.650	# change this value if you want to increase costs at the end
+	COUNTRY_ENCLAVE_CAPACITY_MAX = 0
+#	TRADITION_COST_TRADITION_EXP			= 1.650	# change this value if you want to increase costs at the end
 	MAX_PLANET_BUILDING_SLOTS				= 16
 	
 	TRUCE_YEARS							= 5	# Truce last for 10 years
@@ -54,7 +55,7 @@ NEconomy = {
 
 	TRADE_AMOUNT_MULTIPLIER				= { 1 5 25 100 250 } # Multiplier interval for resource trading base amount
 	MARKET_TRADE_FEE_BASE				= 0.3	# Base procentage for market trade fee
-	MARKET_TRADE_FEE_MIN				= -0.25	# Minumum trade fee percentage
+	MARKET_TRADE_FEE_MIN				= 0.01	# Minumum trade fee percentage
 	MARKET_FLUCTUATION_ABOVE_BASE_PRICE		= 1	# Base fluctuation when trading a resource' base amount if price is > 0
 	MARKET_FLUCTUATION_BELOW_BASE_PRICE		= 0.5	# Base fluctuation when trading a resource' base amount if price is <= 0
 	MARKET_MIN_FLUCTUATION_FROM_BASE_PRICE	= -50	# Min fluctuation from base price
@@ -78,4 +79,16 @@ NAI = {
 	CLAIM_COST_FACTOR = -0.05				# How much will AI prioritize resource-rich systems when making claims
 	CLAIM_COLONY_FACTOR = 25				# How much will AI prioritize colonies when making claims
 	CLAIM_BORDERING_FACTOR = 100			# How much will AI prioritize bordering systems when making claims
+	
+	PEACE_WAR_EXHAUSTION_FACTOR = 100
+	PEACE_OCCUPATION_FACTOR = 100
+	PEACE_STATUS_QUO_FACTOR = -75
+	PEACE_HIGH_WE_STATUS_QUO_FACTOR = 100
+	PEACE_STALE_WAR_STATUS_QUO_FACTOR = 75 	# Extra AI acceptance for status quo when they are in a stale war where nothing can happen
+	STALE_WAR_TIMER = 10 					# Number of times the AI has to fail at finding any military objectives to trigger the stale war
+	PEACE_DEMAND_SURRENDER_FACTOR = -100
+	PEACE_DEFENDING_CLAIM_SYSTEM_FACTOR = -10	# For every system
+	PEACE_DEFENDING_CLAIM_STARBASE_FACTOR = -40	# For systems with upgraded starbases
+	PEACE_DEFENDING_CLAIM_PLANET_FACTOR = -100	# For systems with colonies
+	PEACE_RELATIVE_NAVY_STRENGTH_FACTOR = 50
 }
