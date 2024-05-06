@@ -21,7 +21,6 @@ mega_shipyard_0 = {
 	prerequisites = { "tech_mega_shipyard" }
 	
 	potential = {
-		exists = starbase
 		custom_tooltip = {
 			fail_text = "requires_no_existing_spyorb"
 			from = {

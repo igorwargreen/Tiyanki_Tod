@@ -28,7 +28,6 @@ think_tank_0 = {
 	prerequisites = { "tech_science_nexus" }
 	
 	potential = {
-		exists = starbase
 		custom_tooltip = {
 			fail_text = "requires_no_existing_spyorb"
 			from = {

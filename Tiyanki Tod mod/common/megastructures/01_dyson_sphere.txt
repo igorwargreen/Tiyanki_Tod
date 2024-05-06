@@ -21,7 +21,6 @@ dyson_sphere_0 = {
 	prerequisites = { "tech_dyson_sphere" }
 	
 	potential = {
-		exists = starbase
 		custom_tooltip = {
 			fail_text = "requires_no_existing_dyson_sphere"
 			from = {

@@ -756,3 +756,16 @@ automate_biotrophy_management_servitor = {
 		}
 	}
 }
+automate_barracks_planet = {
+	category = "planet_automation_barracks"
+
+	buildings = {
+		1 = {
+			building = building_capital
+		}
+
+		2 = {
+			building = building_stronghold
+		}
+	}
+}

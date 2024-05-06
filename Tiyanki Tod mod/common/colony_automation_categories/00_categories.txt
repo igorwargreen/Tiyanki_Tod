@@ -61,3 +61,10 @@ planet_automation_psi_corps_building = {
 	}
 }
 
+planet_automation_barracks = {
+	available = {
+		exists = owner
+		owner = { has_country_flag = is_general_of_0 }
+	}
+}
+

@@ -21,7 +21,6 @@ interstellar_assembly_0 = {
 	prerequisites = { "tech_interstellar_assembly" }
 	
 	potential = {
-		exists = starbase
 		custom_tooltip = {
 			fail_text = "requires_no_existing_spyorb"
 			from = {
