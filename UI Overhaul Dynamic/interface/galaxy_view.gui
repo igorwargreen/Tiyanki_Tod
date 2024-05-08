@@ -864,12 +864,21 @@ guiTypes = {
 					size = { width = 324 height = 346 }
 					position = { x = 0 y = 0 }
 					iconType = {
-						name = "overlord_info_portrait_icon"
-						orientation = center
+						name = "overlord_info_portrait_icon_room"
+						quadTextureSprite = "GFX_portrait_room_masked_empty"
 						position = { x = 115 y = 0 }
-						scale = 1 # 0.54
-						quadTextureSprite = "GFX_portrait_room_masked"
+						orientation = center
 						centerPosition = yes
+						scale = 1 # 0.54
+						alwaysTransparent = yes
+					}
+					iconType = {
+						name = "overlord_info_portrait_icon_character"
+						quadTextureSprite = "GFX_portrait_room_masked_character_only"
+						position = { x = 115 y = 0 }
+						orientation = center
+						centerPosition = yes
+						scale = 1 # 0.54
 						alwaysTransparent = yes
 					}
 					iconType = {
@@ -1074,9 +1083,18 @@ guiTypes = {
 					spriteType = "GFX_tiles_dark_area_cut_8"
 				}
 				iconType = {
-					name = "subject_info_portrait"
+					name = "subject_info_portrait_room"
+					quadTextureSprite = "GFX_portrait_gamesetup_mask_empty_room"
 					position = { x = 0 y = 173 }
-					quadTextureSprite = "GFX_portrait_gamesetup_mask"
+					orientation = center_up
+					centerPosition = yes
+					scale = 0.96 # 0.758
+					mirror = yes
+				}
+				iconType = {
+					name = "subject_info_portrait_character"
+					quadTextureSprite = "GFX_portrait_gamesetup_mask_character_without_room"
+					position = { x = 0 y = 173 }
 					orientation = center_up
 					centerPosition = yes
 					scale = 0.96 # 0.758

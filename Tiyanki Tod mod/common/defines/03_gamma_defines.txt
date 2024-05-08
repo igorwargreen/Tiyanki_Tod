@@ -9,14 +9,14 @@ NGameplay = {
 	
 	TRUCE_YEARS							= 5	# Truce last for 10 years
 
-	LEADER_BASE_SKILL_CAP	= 15
-	LEADER_MAX_SKILL_CAP	= 15
-	LEADER_AGE_HEIR_MIN		= 16				# Min age of generated heirs in dynastic governments
-	LEADER_AGE_HEIR_MAX		= 16				# Max age of generated heirs in dynastic governments
-	LEADER_AGE_MIN			= 16				# Min age of generated leaders
-	LEADER_AGE_MAX			= 16				# Max age of generated leaders
-	LEADER_EXPERIENCE_REQUIREMENT_BASE_VALUE					= 250 # Base value when calculating required experience for next skill level
-	LEADER_EXPERIENCE_REQUIREMENT_SCALE_VALUE					= 200 # Scale factor when calculating required experience for next skill level
+#	LEADER_BASE_SKILL_CAP	= 15
+#	LEADER_MAX_SKILL_CAP	= 15
+#	LEADER_AGE_HEIR_MIN		= 16				# Min age of generated heirs in dynastic governments
+#	LEADER_AGE_HEIR_MAX		= 16				# Max age of generated heirs in dynastic governments
+#	LEADER_AGE_MIN			= 16				# Min age of generated leaders
+#	LEADER_AGE_MAX			= 16				# Max age of generated leaders
+#	LEADER_EXPERIENCE_REQUIREMENT_BASE_VALUE					= 250 # Base value when calculating required experience for next skill level
+#	LEADER_EXPERIENCE_REQUIREMENT_SCALE_VALUE					= 200 # Scale factor when calculating required experience for next skill level
 
 #	EMPIRE_SIZE_FROM_DISTRICTS				= 0	# Per district
 #	EMPIRE_SIZE_FROM_SYSTEMS				= 0		# Per system
@@ -48,7 +48,7 @@ NPop = {
 }
 NEconomy = {
 	CLAIM_COST_BASE						= 10.0		# The influence base cost of making claims
-	CLAIM_COST_STARBASE					= 30.0		# Added cost for upgraded starbase
+	CLAIM_COST_STARBASE					= 0		# Added cost for upgraded starbase
 	CLAIM_COST_COLONY					= 175.0		# Added cost for colonized system
 	CLAIM_COST_DISTANCE					= 0		# Added per hyperlane jump away
 	CLAIM_COST_MULT_OFFENSIVE_WAR		= 0		# Claims are ( 1 + this ) much more expensive to add for attackers in war
@@ -82,15 +82,15 @@ NAI = {
 	CLAIM_COLONY_FACTOR = 25				# How much will AI prioritize colonies when making claims
 	CLAIM_BORDERING_FACTOR = 100			# How much will AI prioritize bordering systems when making claims
 	
-	PEACE_WAR_EXHAUSTION_FACTOR = 100
-	PEACE_OCCUPATION_FACTOR = 100
-	PEACE_STATUS_QUO_FACTOR = -75
-	PEACE_HIGH_WE_STATUS_QUO_FACTOR = 100
-	PEACE_STALE_WAR_STATUS_QUO_FACTOR = 75 	# Extra AI acceptance for status quo when they are in a stale war where nothing can happen
-	STALE_WAR_TIMER = 10 					# Number of times the AI has to fail at finding any military objectives to trigger the stale war
-	PEACE_DEMAND_SURRENDER_FACTOR = -100
-	PEACE_DEFENDING_CLAIM_SYSTEM_FACTOR = -10	# For every system
-	PEACE_DEFENDING_CLAIM_STARBASE_FACTOR = -40	# For systems with upgraded starbases
-	PEACE_DEFENDING_CLAIM_PLANET_FACTOR = -100	# For systems with colonies
-	PEACE_RELATIVE_NAVY_STRENGTH_FACTOR = 50
+#	PEACE_WAR_EXHAUSTION_FACTOR = 100
+#	PEACE_OCCUPATION_FACTOR = 100
+#	PEACE_STATUS_QUO_FACTOR = -75
+#	PEACE_HIGH_WE_STATUS_QUO_FACTOR = 100
+#	PEACE_STALE_WAR_STATUS_QUO_FACTOR = 75 	# Extra AI acceptance for status quo when they are in a stale war where nothing can happen
+#	STALE_WAR_TIMER = 10 					# Number of times the AI has to fail at finding any military objectives to trigger the stale war
+#	PEACE_DEMAND_SURRENDER_FACTOR = -100
+#	PEACE_DEFENDING_CLAIM_SYSTEM_FACTOR = -10	# For every system
+#	PEACE_DEFENDING_CLAIM_STARBASE_FACTOR = -40	# For systems with upgraded starbases
+#	PEACE_DEFENDING_CLAIM_PLANET_FACTOR = -100	# For systems with colonies
+#	PEACE_RELATIVE_NAVY_STRENGTH_FACTOR = 50
 }

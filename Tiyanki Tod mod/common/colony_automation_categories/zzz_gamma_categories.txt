@@ -1,0 +1,6 @@
+planet_automation_barracks = {
+	available = {
+		exists = owner
+		owner = { is_ai = no }
+	}
+}

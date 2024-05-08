@@ -1,8 +1,8 @@
 # see README.txt for example
 
 @central_orbital_build_time = 1800
-@central_orbital_alloy_cost = 2500
-@central_orbital_influence_cost = 125
+@central_orbital_alloy_cost = 1500
+@central_orbital_influence_cost = 200
 
 @major_orbital_build_time = 720
 @major_orbital_alloy_cost = 200
@@ -33,27 +33,19 @@ habitat_central_complex = {
 	construction_blocks_and_blocked_by = self_type
 
 	potential = {
-		AND = {
-			OR = {
-				has_technology = tech_habitat_1
-				has_civic = civic_diadochi
-				has_civic = civic_great_khans_legacy
-				has_country_flag = democratic_khanate_flag
-			}
-			OR = {
-				is_ai = no
-				OR = {
-					has_origin = origin_void_dwellers
-					has_civic = civic_diadochi
-					has_civic = civic_great_khans_legacy
-					has_country_flag = democratic_khanate_flag
-				}
-			}
+		is_ai = no
+		OR = {
+			has_technology = tech_habitat_1
+			has_civic = civic_diadochi
+			has_civic = civic_great_khans_legacy
+			has_country_flag = democratic_khanate_flag
 		}
 	}
 
 	possible = {
-		exists = starbase
+		hidden_trigger = {
+			exists = starbase
+		}
 		custom_tooltip = {
 			fail_text = "requires_inside_border"
 			is_inside_border = from
@@ -111,6 +103,7 @@ habitat_central_complex = {
 					is_planet_class = pc_ringworld_seam
 					is_planet_class = pc_ringworld_seam_damaged
 					is_planet_class = pc_habitat
+					is_planet_class = pc_cosmogenesis_world
 				}
 			}
 
@@ -274,7 +267,9 @@ major_orbital = {
 	}
 
 	possible = {
-		exists = starbase
+		hidden_trigger = {
+			exists = starbase
+		}
 		custom_tooltip = {
 			fail_text = "requires_inside_border"
 			is_inside_border = from
@@ -360,7 +355,7 @@ major_orbital = {
 		modifier = {
 			factor = 0.5
 			from = {
-				has_origin = origin_void_dwellers
+				is_void_dweller_empire = yes
 				count_owned_planet = {
 					count < 3
 					limit = {
@@ -462,7 +457,9 @@ minor_orbital = {
 	}
 
 	possible = {
-		exists = starbase
+		hidden_trigger = {
+			exists = starbase
+		}
 		custom_tooltip = {
 			fail_text = "requires_inside_border"
 			is_inside_border = from
@@ -550,7 +547,7 @@ minor_orbital = {
 		modifier = {
 			factor = 0.5
 			from = {
-				has_origin = origin_void_dwellers
+				is_void_dweller_empire = yes
 				count_owned_planet = {
 					count < 3
 					limit = {
@@ -642,7 +639,9 @@ major_orbital_knights = {
 	}
 
 	possible = {
-		exists = starbase
+		hidden_trigger = {
+			exists = starbase
+		}
 		custom_tooltip = {
 			fail_text = "requires_inside_border"
 			is_inside_border = from

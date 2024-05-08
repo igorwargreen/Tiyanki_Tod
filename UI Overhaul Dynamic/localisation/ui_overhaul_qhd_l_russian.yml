@@ -1,7 +1,7 @@
 ﻿# Credits: Rindera
 l_russian:
  UI_OVERHAUL_TITLE: "UI Overhaul Dynamic"
- UI_OVERHAUL_VERSION: "3.11"
+ UI_OVERHAUL_VERSION: "3.12"
  UI_OVERHAUL_TEXT: "$UI_OVERHAUL_TITLE$ для версии $UI_OVERHAUL_VERSION$."
  UI_OVERHAUL_BUTTON: "Интерфейс"
  UI_OVERHAUL_SUPPORT: "Поддержка мода"
@@ -9,7 +9,7 @@ l_russian:
  UI_OVERHAUL_DONATE: "Если вам нравится этот мод, вы можете поддержать автора через £energy£ PayPal!"
  UI_OVERHAUL_TOOLTIP: "§H$UI_OVERHAUL_TITLE$§!\n§G$UI_OVERHAUL_STEAM$§!\n\n$UI_OVERHAUL_DONATE$"
  ###################################
- STELLARIS_VERSION: "Stellaris 3.11 'Eridanus'"
+ STELLARIS_VERSION: "Stellaris 3.12 'Andromeda'"
  ###################################
  UI_OVERHAUL_INFO: "Opens up the information window for $UI_OVERHAUL_TITLE$"
  UI_OVERHAUL_CREDITS: "Credits"

@@ -2,12 +2,8 @@ automate_crime_management = {
 	should_ai_use_job_micro = yes
 
 	available = {
-		NOR = {
-			owner = {
-				has_authority = auth_machine_intelligence
-				has_authority = auth_hive_mind
-			}
-		}
+		exists = owner
+		owner = { is_gestalt = no }
 	}
 
 	emergency = yes
@@ -59,12 +55,8 @@ automate_crime_management_gestalt = {
 	should_ai_use_job_micro = yes
 	
 	available = {
-		owner = {
-			OR = {
-				has_authority = auth_machine_intelligence
-				has_authority = auth_hive_mind
-			}
-		}
+		exists = owner
+		owner = { is_gestalt = yes }
 	}
 
 	emergency = yes
@@ -244,157 +236,25 @@ automate_bio_cloning = {
 	}
 }
 
-automate_archaeo = {
-	available = {
-		owner = { 
-			has_country_flag = is_general_of_0 
-			has_technology = tech_archaeo_refinery 
-		}
-	}
-
-	emergency = yes
-	category = "planet_automation_pop_assembly"
-
-	buildings = {
-		manufacturing = {
-			building = building_archaeo_refinery
-		}
-	}
-}
-
-automate_unity_drone_building = {
-	available = {
-		owner = { 
-			has_country_flag = is_general_of_0 
-			has_authority = auth_hive_mind
-		}
-	}
-
-	emergency = yes
-	category = "planet_automation_pop_assembly"
-
-	buildings = {
-		manufacturing = {
-			building = building_sensorium_1
-		}
-	}
-}
-
-automate_clinic = {
-	available = {
-		owner = { 
-			has_country_flag = is_general_of_0 
-			has_technology = tech_frontier_health 
-		}
-	}
-
-	emergency = yes
-	category = "planet_automation_pop_assembly"
-
-	buildings = {
-		amenity = {
-			building = building_clinic
-		}
-	}
-}
-
-automate_ameno_clerk_management = {
-	should_ai_use_job_micro = yes
-
+automate_biotrophy_management_servitor = {
 	available = {
 		owner = {
-			is_gestalt = no
-			has_country_flag = is_general_of_0
+			has_authority = auth_machine_intelligence
+			has_valid_civic = civic_machine_servitor
+		}
+		free_building_slots > 1
+		any_owned_pop = {
+			is_unemployed = yes
+			has_citizenship_type = { type = citizenship_organic_trophy country = owner }
 		}
 	}
 
 	emergency = yes
-	category = "planet_automation_pop_assembly"
+	category = "planet_automation_biotrophy_management"
 
-	job_changes = {
-		clerk_reduce = {
-			available = {
-				free_amenities > 5
-			}
-
-			job = clerk
-			amount = -1
-		}
-
-		clerk_increase = {
-			available = {
-				free_amenities < 0
-			}
-
-			job = clerk
-			amount = 1
-		}
-	}
-}
-automate_ameno_maintenance_drone_management = {
-	should_ai_use_job_micro = yes
-
-	available = {
-		owner = {
-			is_gestalt = yes
-			has_country_flag = is_general_of_0
-		}
-	}
-
-	emergency = yes
-	category = "planet_automation_pop_assembly"
-
-	job_changes = {
-		maintenance_drone_reduce = {
-			available = {
-				free_amenities > 5
-			}
-
-			job = maintenance_drone
-			amount = -1
-		}
-
-		maintenance_drone_increase = {
-			available = {
-				free_amenities < 0
-			}
-
-			job = maintenance_drone
-			amount = 1
-		}
-	}
-}
-
-automate_mines_management = {
-	available = {
-		owner = { has_country_flag = is_general_of_0 }
-		free_building_slots > 0
-	}
-	emergency = yes
-	category = "planet_automation_pop_assembly"
 	buildings = {
-		crystal_deposit = {
-			building = building_crystal_mines
-		}
-		mote_deposit = {
-			building = building_mote_harvesters
-		}
-		gas_deposit = {
-			building = building_gas_extractors
-		}
-	}
-}
-
-automate_sifon_management = {
-	available = {
-		owner = { has_country_flag = is_general_of_0 }
-		free_building_slots > 0
-	}
-	emergency = yes
-	category = "planet_automation_pop_assembly"
-	buildings = {
-		research = {
-			building = building_astral_siphon_1
+		sanctuary = {
+			building = building_organic_sanctuary
 		}
 	}
 }
@@ -453,6 +313,7 @@ automate_amenity_management = {
 				any_owned_pop = { can_work_specific_job = entertainer }
 			}
 		}
+		zoo = { building = building_xeno_zoo }
 	}
 }
 
@@ -730,42 +591,6 @@ automate_capital_building_hive = {
 
 		hab_capital = {
 			building = building_hab_capital
-		}
-	}
-}
-
-automate_biotrophy_management_servitor = {
-	available = {
-		owner = {
-			has_authority = auth_machine_intelligence
-			has_valid_civic = civic_machine_servitor
-		}
-		free_building_slots > 1
-		any_owned_pop = {
-			is_unemployed = yes
-			has_citizenship_type = { type = citizenship_organic_trophy country = owner }
-		}
-	}
-
-	emergency = yes
-	category = "planet_automation_biotrophy_management"
-
-	buildings = {
-		sanctuary = {
-			building = building_organic_sanctuary
-		}
-	}
-}
-automate_barracks_planet = {
-	category = "planet_automation_barracks"
-
-	buildings = {
-		1 = {
-			building = building_capital
-		}
-
-		2 = {
-			building = building_stronghold
 		}
 	}
 }

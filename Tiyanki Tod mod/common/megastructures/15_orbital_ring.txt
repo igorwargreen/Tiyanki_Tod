@@ -26,7 +26,9 @@ orbital_ring = {
 	}
 
 	possible = {
-		exists = starbase
+		hidden_trigger = {
+			exists = starbase
+		}
 		custom_tooltip = {
 			fail_text = "requires_inside_border"
 			is_inside_border = from
@@ -196,6 +198,8 @@ orbital_ring_restored = {
 	}
 
 	upgrade_from = { orbital_ring_ruined }
+
+	construction_blocks_and_blocked_by = none
 
 	possible = {
 		from = { has_technology = tech_orbital_ring_tier_1 }

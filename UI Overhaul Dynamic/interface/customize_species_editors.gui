@@ -288,7 +288,7 @@ guiTypes = {
 		}
 		buttonType = {
 			name = "randomize_name"
-			position = { x = 350 y = 85 }
+			position = { x = 340 y = 85 }
 			spriteType = "GFX_button_randomize"
 			pdx_tooltip = "EDIT_SPECIES_NAME_RANDOMIZE_TOOLTIP"
 			clicksound = randomizer_click
@@ -355,7 +355,7 @@ guiTypes = {
 		}
 		buttonType = {
 			name = "generate_adjective"
-			position = { x = 350 y = 225 }
+			position = { x = 340 y = 225 }
 			spriteType = "GFX_button_update"
 			pdx_tooltip = "EDIT_SPECIES_NAME_GENERATE_ADJECTIVE"
 		}
@@ -3844,7 +3844,7 @@ guiTypes = {
 			}
 			buttonType = {
 				name = "randomize_name"
-				position = { x = 350 y = 85 }
+				position = { x = 340 y = 85 }
 				spriteType = "GFX_button_randomize"
 				pdx_tooltip = "EDIT_SPECIES_NAME_RANDOMIZE_TOOLTIP"
 				clicksound = randomizer_click
@@ -3853,7 +3853,7 @@ guiTypes = {
 				name = "ruler_titles_heading"
 				font = "font_text_20"
 				text = "RULER_TITLE"
-				position = { x = 395 y = 250 }
+				position = { x = 395 y = 60 }
 				maxWidth = 250
 				maxHeight = 28
 				fixedSize = yes
@@ -3865,7 +3865,7 @@ guiTypes = {
 				name = "lbl2"
 				font = "font_text_16"
 				text = "RULER_TITLE"
-				position = { x = 395 y = 278 }
+				position = { x = 395 y = 88 }
 				maxWidth = 250
 				maxHeight = 22
 				fixedSize = yes
@@ -3875,7 +3875,7 @@ guiTypes = {
 			containerWindowType = {
 				name = "ruler_background"
 				size = { width = 280 height = 28 }
-				position = { x = 400 y = 300 }
+				position = { x = 400 y = 110 }
 				background = {
 					name = "background"
 					spriteType = "GFX_tiles_dark_area_cut_8"
@@ -3883,7 +3883,7 @@ guiTypes = {
 			}
 			editBoxType = {
 				name = "ruler_title"
-				position = { x = 400 y = 300 }
+				position = { x = 400 y = 110 }
 				size = { x = 280 y = 28 }
 				font = "font_text_18"
 				max_characters = 100
@@ -3893,7 +3893,7 @@ guiTypes = {
 				name = "ruler_title_na"
 				font = "font_text_18"
 				text = "LABEL_NA"
-				position = { x = 410 y = 300 }
+				position = { x = 410 y = 110 }
 				maxWidth = 280
 				maxHeight = 28
 				fixedSize = yes
@@ -3904,7 +3904,7 @@ guiTypes = {
 				name = "heir_title_heading"
 				font = "font_text_20"
 				text = "HEIR_TITLE"
-				position = { x = 705 y = 250 }
+				position = { x = 705 y = 60 }
 				maxWidth = 250
 				maxHeight = 28
 				fixedSize = yes
@@ -3916,7 +3916,7 @@ guiTypes = {
 				name = "lbl3"
 				font = "font_text_16"
 				text = "HEIR_TITLE"
-				position = { x = 705 y = 278 }
+				position = { x = 705 y = 88 }
 				maxWidth = 250
 				maxHeight = 22
 				fixedSize = yes
@@ -3926,7 +3926,7 @@ guiTypes = {
 			containerWindowType = {
 				name = "heir_background"
 				size = { width = 280 height = 28 }
-				position = { x = 710 y = 300 }
+				position = { x = 710 y = 110 }
 				background = {
 					name = "background"
 					spriteType = "GFX_tiles_dark_area_cut_8"
@@ -3934,7 +3934,7 @@ guiTypes = {
 			}
 			editBoxType = {
 				name = "heir_title"
-				position = { x = 710 y = 300 }
+				position = { x = 710 y = 110 }
 				size = { x = 280 y = 28 }
 				font = "font_text_18"
 				max_characters = 100
@@ -3944,7 +3944,7 @@ guiTypes = {
 				name = "heir_title_na"
 				font = "font_text_18"
 				text = "LABEL_NA"
-				position = { x = 720 y = 300 }
+				position = { x = 720 y = 110 }
 				maxWidth = 200
 				maxHeight = 28
 				fixedSize = yes
@@ -3953,7 +3953,7 @@ guiTypes = {
 			}
 			containerWindowType = {
 				name = "female_container"
-				position = { x = 395 y = 340 }
+				position = { x = 395 y = 150 }
 				containerWindowType = {
 					name = "female_ruler_title_container"
 					position = { x = 0 y = 0 }
@@ -4039,6 +4039,40 @@ guiTypes = {
 						vertical_alignment = center
 						text_color_code = "g"
 					}
+				}
+			}
+			containerWindowType = {
+				name = "play_greeting_container"
+				position = { x = 30 y = 410 }
+				instantTextBoxType = {
+					name = "play_greeting_heading"
+					font = "font_text_20"
+					text = "PLAY_GREETING_TITLE"
+					position = { x = 0 y = 0 }
+					maxWidth = 280
+					maxHeight = 28
+					fixedSize = yes
+					vertical_alignment = center
+					alwaysTransparent = yes
+					text_color_code = "H"
+				}
+				instantTextBoxType = {
+					name = "play_greeting_label"
+					font = "font_text_16"
+					text = "PLAY_GREETING_PHRASE"
+					position = { x = 2 y = 30 }
+					maxWidth = 200
+					maxHeight = 16
+					vertical_alignment = center
+					alwaysTransparent = yes
+				}
+				buttonType = {
+					name = "play_greeting_button"
+					position = { x = 135 y = 2 }
+					spriteType = "GFX_button_sound"
+					buttonFont = "font_text_16"
+					pdx_tooltip = "PLAY_GREETING_TOOLTIP"
+					shortCut = "p"
 				}
 			}
 		}
@@ -4134,8 +4168,8 @@ guiTypes = {
 		### portrait
 		containerWindowType = {
 			name = "sub_portrait"
-			position = { x = 390 y = 70 }
 			size = { width = @subselect_w height = 80 }
+			position = { x = 390 y = 220 }
 			background = {
 				name = "dark_area_bg"
 				spriteType = "GFX_tiles_frame_light"
@@ -4198,78 +4232,11 @@ guiTypes = {
 				}
 			}
 		}
-		### clothes
-		containerWindowType = {
-			name = "clothes"
-			size = { width = @subselect_w height = 80 }
-			position = { x = 700 y = 160 }
-			background = {
-				name = "dark_area_bg"
-				spriteType = "GFX_tiles_frame_light"
-				alwaysTransparent = yes
-			}
-			instantTextBoxType = {
-				name = "portrait_label"
-				font = "font_text_18"
-				text = "CLOTHES"
-				position = { x = 0 y = 8 }
-				maxWidth = @subselect_w
-				maxHeight = 20
-				maxHeight = 24
-				format = center
-				text_color_code = "H"
-			}
-			containerWindowType = {
-				name = "selected_background"
-				size = { width = 192 height = 26 }
-				position = { x = 54 y = 36 }
-				background = {
-					name = "background"
-					spriteType = "GFX_tiles_dark_area_cut_8"
-				}
-			}
-			instantTextBoxType = {
-				name = "selected"
-				font = "font_text_20"
-				text = "12"
-				position = { x = 54 y = 36 }
-				maxWidth = 192
-				maxHeight = 26
-				fixedSize = yes
-				format = center
-				vertical_alignment = center
-			}
-			spinnerType = {
-				id = "spinner"
-				name = "spinner"
-				leftbutton = "spinner_upButton"
-				rightbutton = "spinner_downButton"
-				size = { x = 270 y = 30 }
-				position = { x = 15 y = 30 }
-				priority = 100
-				borderSize = { x = 16 y = 16 }
-				horizontal = 1
-				maxValue = 100
-				startValue = 0
-				guiButtonType = {
-					name = "spinner_upButton"
-					quadTextureSprite = "GFX_button_left"
-					position = { x = 30 y = 0 }
-					clicksound = decrement_click
-				}
-				guiButtonType = {
-					name = "spinner_downButton"
-					quadTextureSprite = "GFX_button_right"
-					position = { x = 30 y = 120 }
-					clicksound = increment_click
-				}
-			}
-		}
 		### attachment style
 		containerWindowType = {
 			name = "attachments"
-			position = { x = 700 y = 70 }
 			size = { width = @subselect_w height = 80 }
+			position = { x = 700 y = 220 }
 			background = {
 				name = "dark_area_bg"
 				spriteType = "GFX_tiles_frame_light"
@@ -4335,7 +4302,7 @@ guiTypes = {
 		containerWindowType = {
 			name = "variation"
 			size = { width = @subselect_w height = 80 }
-			position = { x = 390 y = 160 }
+			position = { x = 390 y = 310 }
 			background = {
 				name = "dark_area_bg"
 				spriteType = "GFX_tiles_frame_light"
@@ -4365,6 +4332,205 @@ guiTypes = {
 				name = "selected"
 				font = "font_text_20"
 				text = "12"
+				position = { x = 54 y = 36 }
+				maxWidth = 192
+				maxHeight = 26
+				fixedSize = yes
+				format = center
+				vertical_alignment = center
+			}
+			spinnerType = {
+				id = "spinner"
+				name = "spinner"
+				leftbutton = "spinner_upButton"
+				rightbutton = "spinner_downButton"
+				size = { x = 270 y = 30 }
+				position = { x = 15 y = 30 }
+				priority = 100
+				borderSize = { x = 16 y = 16 }
+				horizontal = 1
+				maxValue = 100
+				startValue = 0
+				guiButtonType = {
+					name = "spinner_upButton"
+					quadTextureSprite = "GFX_button_left"
+					position = { x = 30 y = 0 }
+					clicksound = decrement_click
+				}
+				guiButtonType = {
+					name = "spinner_downButton"
+					quadTextureSprite = "GFX_button_right"
+					position = { x = 30 y = 120 }
+					clicksound = increment_click
+				}
+			}
+		}
+		### clothes
+		containerWindowType = {
+			name = "clothes"
+			size = { width = @subselect_w height = 80 }
+			position = { x = 700 y = 310 }
+			background = {
+				name = "dark_area_bg"
+				spriteType = "GFX_tiles_frame_light"
+				alwaysTransparent = yes
+			}
+			instantTextBoxType = {
+				name = "portrait_label"
+				font = "font_text_18"
+				text = "CLOTHES"
+				position = { x = 0 y = 8 }
+				maxWidth = @subselect_w
+				maxHeight = 20
+				maxHeight = 24
+				format = center
+				text_color_code = "H"
+			}
+			containerWindowType = {
+				name = "selected_background"
+				size = { width = 192 height = 26 }
+				position = { x = 54 y = 36 }
+				background = {
+					name = "background"
+					spriteType = "GFX_tiles_dark_area_cut_8"
+				}
+			}
+			instantTextBoxType = {
+				name = "selected"
+				font = "font_text_20"
+				text = "12"
+				position = { x = 54 y = 36 }
+				maxWidth = 192
+				maxHeight = 26
+				fixedSize = yes
+				format = center
+				vertical_alignment = center
+			}
+			spinnerType = {
+				id = "spinner"
+				name = "spinner"
+				leftbutton = "spinner_upButton"
+				rightbutton = "spinner_downButton"
+				size = { x = 270 y = 30 }
+				position = { x = 15 y = 30 }
+				priority = 100
+				borderSize = { x = 16 y = 16 }
+				horizontal = 1
+				maxValue = 100
+				startValue = 0
+				guiButtonType = {
+					name = "spinner_upButton"
+					quadTextureSprite = "GFX_button_left"
+					position = { x = 30 y = 0 }
+					clicksound = decrement_click
+				}
+				guiButtonType = {
+					name = "spinner_downButton"
+					quadTextureSprite = "GFX_button_right"
+					position = { x = 30 y = 120 }
+					clicksound = increment_click
+				}
+			}
+		}
+		### appearance evolution stages
+		containerWindowType = {
+			name = "evolution_stage"
+			position = { x = 390 y = 400 }
+			size = { width = @subselect_w height = 80 }
+			background = {
+				name = "dark_area_bg"
+				spriteType = "GFX_tiles_frame_light"
+				alwaysTransparent = yes
+			}
+			instantTextBoxType = {
+				name = "portrait_label"
+				font = "font_text_18"
+				text = "EVOLUTION_STAGE"
+				position = { x = 0 y = 8 }
+				maxWidth = @subselect_w
+				maxHeight = 24
+				format = center
+				text_color_code = "H"
+			}
+			containerWindowType = {
+				name = "selected_background"
+				size = { width = 192 height = 26 }
+				position = { x = 54 y = 36 }
+				background = {
+					name = "background"
+					spriteType = "GFX_tiles_dark_area_cut_8"
+				}
+			}
+			instantTextBoxType = {
+				name = "selected"
+				font = "font_text_20"
+				text = "78"
+				position = { x = 54 y = 36 }
+				maxWidth = 192
+				maxHeight = 26
+				fixedSize = yes
+				format = center
+				vertical_alignment = center
+			}
+			spinnerType = {
+				id = "spinner"
+				name = "spinner"
+				leftbutton = "spinner_upButton"
+				rightbutton = "spinner_downButton"
+				size = { x = 270 y = 30 }
+				position = { x = 15 y = 30 }
+				priority = 100
+				borderSize = { x = 16 y = 16 }
+				horizontal = 1
+				maxValue = 100
+				startValue = 0
+				guiButtonType = {
+					name = "spinner_upButton"
+					quadTextureSprite = "GFX_button_left"
+					position = { x = 30 y = 0 }
+					clicksound = decrement_click
+				}
+				guiButtonType = {
+					name = "spinner_downButton"
+					quadTextureSprite = "GFX_button_right"
+					position = { x = 30 y = 120 }
+					clicksound = increment_click
+				}
+			}
+		}
+		### appearance evolution variants
+		containerWindowType = {
+			name = "evolution_variant"
+			position = { x = 700 y = 400 }
+			size = { width = @subselect_w height = 80 }
+			background = {
+				name = "dark_area_bg"
+				spriteType = "GFX_tiles_frame_light"
+				alwaysTransparent = yes
+			}
+			instantTextBoxType = {
+				name = "portrait_label"
+				font = "font_text_18"
+				text = "EVOLUTION_VARIANT"
+				position = { x = 0 y = 8 }
+				maxWidth = @subselect_w
+				maxHeight = 24
+				format = center
+				text_color_code = "H"
+			}
+			containerWindowType = {
+				name = "selected_background"
+				size = { width = 192 height = 26 }
+				position = { x = 54 y = 36 }
+				background = {
+					name = "background"
+					spriteType = "GFX_tiles_dark_area_cut_8"
+				}
+			}
+			instantTextBoxType = {
+				name = "selected"
+				font = "font_text_20"
+				text = "78"
 				position = { x = 54 y = 36 }
 				maxWidth = 192
 				maxHeight = 26

@@ -746,8 +746,8 @@ guiTypes = {
 			size = { width = 100% height = 100% }
 			iconType = {
 				name = "middle_indicator"
-				position = { x = 112 y = 21 }
 				spriteType = "GFX_situation_middle_indicator"
+				position = { x = 112 y = 21 }
 				alwaysTransparent = yes
 			}
 			containerWindowType = {
@@ -756,28 +756,24 @@ guiTypes = {
 				size = { width = 180 height = 13 } # Used to position elements along the progress bar
 				iconType = {
 					name = "progress_bar_monodirectional"
-					position = { x = 0 y = 0 }
 					spriteType = "GFX_situation_event_progressbar_monodirectional_neutral_short" # Set in code
-					alwaysTransparent = yes
+					position = { x = 0 y = 0 }
 				}
 				iconType = {
 					name = "progress_bar_bidirectional_left"
-					position = { x = 0 y = 0 }
 					spriteType = "GFX_situation_event_progressbar_bidirectional_neutral_short_left" # Set in code
-					alwaysTransparent = yes
+					position = { x = 0 y = 0 }
 				}
 				iconType = {
 					name = "progress_bar_bidirectional_right"
-					position = { x = 71 y = 0 }
 					spriteType = "GFX_situation_event_progressbar_bidirectional_neutral_short_right" # Set in code
-					alwaysTransparent = yes
+					position = { x = 71 y = 0 }
 				}
 			}
 			iconType = {
 				name = "start_indicator"
-				position = { x = 42 y = 21 }
 				spriteType = "GFX_situation_start_indicator"
-				alwaysTransparent = yes
+				position = { x = 42 y = 21 }
 			}
 			iconType = {
 				name = "pin_icon"
@@ -785,7 +781,6 @@ guiTypes = {
 				position = { x = -55 y = 28 }
 				orientation = upper_right
 				centerPosition = yes
-				alwaysTransparent = yes
 			}
 			# Shows all numbers as positive. "pin_icon" indicates if it's negative or positive
 			instantTextBoxType = {
@@ -798,7 +793,6 @@ guiTypes = {
 				fixedSize = yes
 				format = right
 				vertical_alignment = center
-				alwaysTransparent = yes
 			}
 		}
 	}

@@ -151,6 +151,12 @@ consumer_goods = {
 			country_uses_consumer_goods = no
 		}
 	}
+
+	tradable_in_market = {
+		NOT = {
+			has_valid_civic = civic_machine_obsessional_directive
+		}
+	}
 }
 
 alloys = {
@@ -370,6 +376,15 @@ astral_threads = {
 ###############
 
 menace = {
+	tradable = no
+	category = other
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+advanced_logic = {
 	tradable = no
 	category = other
 

@@ -600,6 +600,18 @@ guiTypes = {
 			orientation = center
 		}
 		buttonType = {
+			name ="portrait_empty_room"
+			spriteType = "GFX_portrait_gamesetup_mask_empty_room"
+			position = { x = -950 y = -700 }
+			orientation = center
+		}
+		buttonType = {
+			name ="character_without_room"
+			spriteType = "GFX_portrait_gamesetup_mask_character_without_room"
+			position = { x = 50 y = -700 }
+			orientation = center
+		}
+		buttonType = {
 			name = "portrait_planet"
 			spriteType = "GFX_portrait_planet_character"
 			position = { x = -100 y = -320 }

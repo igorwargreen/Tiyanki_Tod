@@ -45,11 +45,12 @@ progenitor_ships_limit = {
 #titan_ships_limit = { 
 #	ship_types = { 
 #		titan
+#		cosmo_crisis_titan			
 #	}
 #	
 #	base = 16 # 1 * titan's size_multiplier
-#	max = 64000 # 4000 * 16
-#	naval_cap_fraction = 0.064 # 250*0.064=16
+#	max = 320 # 20 * 16
+#	naval_cap_fraction = 0.08
 #	
 #	show = {
 #		is_scope_valid = yes
@@ -63,8 +64,7 @@ colossus_ships_limit = {
 	}
 	
 	base = 32 # 1 * colossus's size_multiplier
-	max = 3200
-	naval_cap_fraction = 0.032 #1000*0.032=32
+
 	show = {
 		is_scope_valid = yes
 		has_technology = tech_colossus

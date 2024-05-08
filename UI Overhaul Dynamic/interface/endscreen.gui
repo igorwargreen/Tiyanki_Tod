@@ -66,9 +66,16 @@ guiTypes = {
 			moveable = no
 			clipping = yes
 			iconType = {
+				name = "portrait_room"
+				position = { x = 4 y = 2 }
+				quadTextureSprite = "GFX_portrait_gamesetup_mask_empty_room"
+				alwaysTransparent = yes
+				scale = 0.566
+			}
+			iconType = {
 				name = "portrait"
 				position = { x = 4 y = 2 }
-				quadTextureSprite = "GFX_portrait_gamesetup_mask"
+				quadTextureSprite = "GFX_portrait_gamesetup_mask_character_without_room"
 				alwaysTransparent = yes
 				scale = 0.566
 			}

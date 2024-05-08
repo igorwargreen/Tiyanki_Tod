@@ -84,12 +84,21 @@ guiTypes = {
 				position = { x = 87 y = 0 }
 				size = { width = 578 height = 210 }
 				iconType = {
-					name = "target_country_portrait"
+					name = "target_country_portrait_room"
 					quadTextureSprite = "GFX_portrait_gamesetup_mask"
 					position = { x = 0 y = 140 }
 					orientation = center_up
 					centerPosition = yes
 					scale = 0.6 # 0.8
+					alwaysTransparent = yes
+				}
+				iconType = {
+					name = "target_country_portrait_character"
+					quadTextureSprite = "GFX_portrait_gamesetup_mask_character_without_room"
+					position = { x = 0 y = 140 }
+					orientation = center_up
+					centerPosition = yes
+					scale = 0.6
 					alwaysTransparent = yes
 				}
 				iconType = {
@@ -99,7 +108,7 @@ guiTypes = {
 					orientation = center_up
 					centerPosition = yes
 					scale = 0.6 # 0.8
-					#alwaysTransparent = yes
+					# alwaysTransparent = yes
 				}
 				# EMPIRE NAME
 				containerWindowType = {

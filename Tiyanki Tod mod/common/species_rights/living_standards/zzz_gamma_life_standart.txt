@@ -1,6 +1,6 @@
 living_standard_decadent = {
 	potential = {
-		host_has_dlc = "Humanoids Species Pack"
+		has_humanoids = yes
 		exists = from
 		from = { is_pleasure_seeker = yes }
 		from = {
@@ -16,7 +16,10 @@ living_standard_decadent = {
 		}
 		NOR = {
 			has_trait = trait_hive_mind
-			has_trait = trait_machine_unit
+			AND = {
+				from = { is_individual_machine = no }
+				has_trait = trait_machine_unit
+			}
 			is_shackled_robot_species_rights = yes
 		}
 	}
@@ -36,7 +39,10 @@ living_standard_decadent = {
 						has_citizenship_type = { country = from type = citizenship_purge }
 					}
 				}
-				has_purge_type = { country = from type = purge_neutering }
+				OR = {
+					has_purge_type = { country = from type = purge_neutering }
+					has_purge_type = { country = from type = purge_cosmogenesis_lathe_resettle }
+				}
 			}
 		}
 		custom_tooltip = {

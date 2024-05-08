@@ -21,6 +21,12 @@ fortify_the_border = {
 	}
 	effect = {
 		if = {
+			limit = { has_country_flag = is_general_of_0 }
+			hidden_effect = {
+				add_resource = { influence = 250 }
+			}
+		}
+		if = {
 			limit = {
 				NOR = {
 					has_country_flag = is_friend_of_0

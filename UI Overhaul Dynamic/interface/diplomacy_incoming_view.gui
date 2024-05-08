@@ -85,15 +85,20 @@ guiTypes = {
 		}
 		### PORTRAIT ###
 		containerWindowType = {
-			name = "portrait"
+			name = "portrait_container"
 			position = { x = 0 y = 56 }
 			size = { width = 964 height = 350 }
 			orientation = center_up
 			origo = center_up
 			clipping = yes
 			iconType = {
-				name = "portrait"
-				quadTextureSprite = "GFX_portrait_gamesetup_mask"
+				name = "portrait_room"
+				quadTextureSprite = "GFX_portrait_gamesetup_mask_empty_room"
+				alwaysTransparent = yes
+			}
+			iconType = {
+				name = "portrait_character"
+				quadTextureSprite = "GFX_portrait_gamesetup_mask_character_without_room"
 				alwaysTransparent = yes
 			}
 			iconType = {
@@ -424,14 +429,21 @@ guiTypes = {
 			position = { x = 304 y = 74 }
 		}
 		containerWindowType = {
-			name = "portrait"
+			name = "portrait_container"
 			position = { x = 11 y = 60 }
 			size = { width = 714 height = 255 }
 			moveable = no
 			clipping = yes
 			iconType = {
-				name = "portrait"
-				quadTextureSprite = "GFX_portrait_gamesetup_mask"
+				name = "portrait_room"
+				quadTextureSprite = "GFX_portrait_gamesetup_mask_empty_room"
+				orientation = center
+				centerPosition = yes
+				scale = @declare_war_portrait_scale
+			}
+			iconType = {
+				name = "portrait_character"
+				quadTextureSprite = "GFX_portrait_gamesetup_mask_character_without_room"
 				orientation = center
 				centerPosition = yes
 				scale = @declare_war_portrait_scale
@@ -760,15 +772,20 @@ guiTypes = {
 		}
 		### PORTRAIT ###
 		containerWindowType = {
-			name = "portrait"
+			name = "portrait_container"
 			position = { x = 0 y = 56 }
 			size = { width = 964 height = 350 }
 			orientation = center_up
 			origo = center_up
 			clipping = yes
 			iconType = {
-				name = "portrait"
-				quadTextureSprite = "GFX_portrait_gamesetup_mask"
+				name = "portrait_room"
+				quadTextureSprite = "GFX_portrait_gamesetup_mask_empty_room"
+				alwaysTransparent = yes
+			}
+			iconType = {
+				name = "portrait_character"
+				quadTextureSprite = "GFX_portrait_gamesetup_mask_character_without_room"
 				alwaysTransparent = yes
 			}
 			iconType = {
@@ -1163,15 +1180,20 @@ guiTypes = {
 		}
 		### PORTRAIT ###
 		containerWindowType = {
-			name = "portrait"
+			name = "portrait_container"
 			position = { x = 0 y = 56 }
 			size = { width = 964 height = 350 }
 			orientation = center_up
 			origo = center_up
 			clipping = yes
 			iconType = {
-				name = "portrait"
-				quadTextureSprite = "GFX_portrait_gamesetup_mask"
+				name = "portrait_room"
+				quadTextureSprite = "GFX_portrait_gamesetup_mask_empty_room"
+				alwaysTransparent = yes
+			}
+			iconType = {
+				name = "portrait_character"
+				quadTextureSprite = "GFX_portrait_gamesetup_mask_character_without_room"
 				alwaysTransparent = yes
 			}
 			iconType = {
@@ -1576,13 +1598,20 @@ guiTypes = {
 		}
 		### PORTRAIT ###
 		containerWindowType = {
-			name = "portrait"
+			name = "portrait_container"
 			position = { x = 17 y = 53 }
 			size = { width = 700 height = 255 }
 			clipping = yes
 			iconType = {
-				name = "portrait"
-				quadTextureSprite = "GFX_portrait_gamesetup_mask"
+				name = "portrait_room"
+				quadTextureSprite = "GFX_portrait_gamesetup_mask_empty_room"
+				alwaysTransparent = yes
+				scale = 0.73666
+				position = { x = 0 y = 5 }
+			}
+			iconType = {
+				name = "portrait_character"
+				quadTextureSprite = "GFX_portrait_gamesetup_mask_character_without_room"
 				alwaysTransparent = yes
 				scale = 0.73666
 				position = { x = 0 y = 5 }

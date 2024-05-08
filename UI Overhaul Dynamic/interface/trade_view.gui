@@ -54,9 +54,17 @@ guiTypes = {
 		}
 		# Portrait stuff
 		iconType = {
-			name = "portrait"
+			name = "portrait_room"
 			position = { x = 0 y = 223 }
-			quadTextureSprite = "GFX_portrait_gamesetup_mask"
+			quadTextureSprite = "GFX_portrait_gamesetup_mask_empty_room"
+			orientation = center_up
+			centerPosition = yes
+			alwaysTransparent = yes
+		}
+		iconType = {
+			name = "portrait_character"
+			position = { x = 0 y = 223 }
+			quadTextureSprite = "GFX_portrait_gamesetup_mask_character_without_room"
 			orientation = center_up
 			centerPosition = yes
 			alwaysTransparent = yes

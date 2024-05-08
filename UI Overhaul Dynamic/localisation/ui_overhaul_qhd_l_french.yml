@@ -1,12 +1,13 @@
-﻿l_english:
+﻿# Credits: Calvitix
+l_french:
  UI_OVERHAUL_TITLE: "UI Overhaul Dynamic"
  UI_OVERHAUL_VERSION: "3.12"
- UI_OVERHAUL_TEXT: "$UI_OVERHAUL_TITLE$ for v$UI_OVERHAUL_VERSION$!"
+ UI_OVERHAUL_TEXT: "$UI_OVERHAUL_TITLE$ pour v$UI_OVERHAUL_VERSION$!"
  UI_OVERHAUL_BUTTON: "UI"
  UI_OVERHAUL_SUPPORT: "UI Mod Support"
- UI_OVERHAUL_STEAM: "Opens the Steam Workshop page for the mod"
- UI_OVERHAUL_DONATE: "If you enjoyed my mod, please consider donating! £energy£"
- UI_OVERHAUL_TOOLTIP: "§H$UI_OVERHAUL_TITLE$§!\n§G$UI_OVERHAUL_STEAM$§!\n\n$UI_OVERHAUL_DONATE$"
+ UI_OVERHAUL_STEAM: "Ouvre la page du Workshop Steam de ce mod"
+ UI_OVERHAUL_DONATE: "Si vous avez apprécié mon mod, pensez à faire un don!"
+ UI_OVERHAUL_TOOLTIP: "§H$UI_OVERHAUL_TITLE$§!\n§G$UI_OVERHAUL_STEAM$§!\n\n$UI_OVERHAUL_DONATE$ £energy£"
  ###################################
  STELLARIS_VERSION: "Stellaris 3.12 'Andromeda'"
  ###################################
@@ -14,11 +15,11 @@
  UI_OVERHAUL_CREDITS: "Credits"
  ###################################
  ### tech tree
- UI_OVERHAUL_TECHTREE: "Tech Tree"
- UI_OVERHAUL_TECHTREE_TOOLTIP: "§H$UI_OVERHAUL_TECHTREE$§!\n§GClick to open up an external tech tree.§!"
+ UI_OVERHAUL_TECHTREE: "Arbre de Tech"
+ UI_OVERHAUL_TECHTREE_TOOLTIP: "§GCliquer pour ouvrir un arbre de technologies externe.§!"
  UI_OVERHAUL_TECHTREE_TOOLTIP_DELAYED: "This tech tree is not affiliated, associated, endorsed by, or in any way officially connected with §HParadox Interactive§!.\nIt is merely a fan-maintaned project, maintained by §Hturanar§! on GitHub."
  ####################################
- UIO_ETHICS_ATTRACTION: "Ethics Attraction"
+ UIO_ETHICS_ATTRACTION: "Attraction des Doctrines"
  UIO_MOVE_TO_TOP: "§HTop§!\nMove to the very top of the list"
  UIO_MOVE_TO_BOTTOM: "§HBottom§!\nMove to the very bottom of the list"
  UIO_MOVEABLE_WINDOW: "§HThis Window is Moveable§!\nClick and hold the left mouse button £mouse1£ to move it."
@@ -48,3 +49,4 @@
  UIO_RIGHTS_TITLE: "£rights£ $SPECIES_VIEW_RIGHTS$"
  UIO_FAVORS_TITLE: "£favor£ $TRADE_CATEGORY_FAVORS$"
  UIO_DIPLO_WEIGHT_TITLE: "£diplo_weight£ $diplomatic_weight$"
+

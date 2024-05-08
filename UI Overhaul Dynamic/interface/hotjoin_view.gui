@@ -7,7 +7,7 @@ guiTypes = {
 		orientation = lower_left
 	}
 	containerWindowType = {
-		name = "country_selection_view"
+		name = "hotjoin_country_selection_view"
 		size = { width = 1000 height = 740 }
 		if_scaled_resolution = {
 			min_height = 1080
@@ -69,18 +69,18 @@ guiTypes = {
 			autohide_scrollbar = no
 		}
 		buttonType = {
-			name = "back"
+			name = "quit"
 			position = { x = -112 y = -60 }
 			orientation = center_down
 			quadTextureSprite = "GFX_standard_button_200_34_button"
-			buttonText = "BACK"
+			buttonText = "QUIT"
 			buttonFont = "font_text_20"
 			shortcut = "ESCAPE"
 			clicksound = "back_click"
 		}
 	}
 	containerWindowType = {
-		name = "country_selection_entry"
+		name = "hotjoin_country_selection_entry"
 		size = { width = 960 height = 120 }
 		buttonType = {
 			name = "background"
@@ -210,11 +210,11 @@ guiTypes = {
 		@text_line_2 = 45
 		@text_line_3 = 75
 		containerWindowType = {
-			name = "country_selection_special_entry"
+			name = "country_stats_background"
 			size = { width = 440 height = 100 }
 			position = { x = 510 y = 10 }
 			background = {
-				name = "country_selection_view_background"
+				name = "country_stats_background"
 				quadTextureSprite = "GFX_tiles_dark_area_cut_8"
 			}
 		}
@@ -357,7 +357,7 @@ guiTypes = {
 		}
 	}
 	containerWindowType = {
-		name = "country_selection_special_entry"
+		name = "hotjoin_country_selection_special_entry"
 		size = { width = 960 height = 88 }
 		containerWindowType = {
 			name = "observer"
