@@ -4,191 +4,195 @@
 # Code by Malthus
 ######################################################
 
- l_russian:
+l_russian:
  
- mem_crystal_ship_giant:0 "Древний кристаллический повелитель"
- mem_crystal_ship_giant_plural:0 "Древние кристаллические повелители"
+ mem_crystal_ship_giant:0 "Ancient Crystal Sovereign"
+ mem_crystal_ship_giant_plural:0 "Ancient Crystal Sovereigns"
  
- d_mem_crystals_mining:0 "Поля кристаллов"
- d_mem_crystals_mining_desc:0 "Область, покрытая полуживыми минеральными образованиями, порожденными древним кристаллом пустоты. Периодический сбор этих кристаллов значительно увеличит добычу полезных ископаемых в этой колонии, но за счет ослабления экосистемы и сокращения сельскохозяйственной продукции."
+ d_mem_crystals_mining:0 "Crystal Fields"
+ d_mem_crystals_mining_desc:0 "An area covered with semi-living mineral formations spawned by an ancient void crystal. Periodically harvesting these crystals will significantly increase the mineral output capacity of this colony but at the price of a weakened ecosystem and reduced agricultural output."
  
- d_mem_crystals_science:0 "Поля кристаллов"
- d_mem_crystals_science_desc:0 "Область, покрытая полуживыми минеральными образованиями, порожденными древним кристаллом пустоты. Изучение этих кристаллов принесет пользу исследовательским комплексам колонии, уменьшив при этом её объемы производства полезных ископаемых и сельскохозяйственной продукции."
+ d_mem_crystals_science:0 "Crystal Fields"
+ d_mem_crystals_science_desc:0 "An ever-growing area covered with semi-living mineral formations spawned by an ancient void crystal. Studying these crystals will benefit the colony's research efforts, while reducing its mineral and agricultural output capacities."
  
- mem_crystal_removal:0 "Удаление кристаллов"
- mem_crystal_removal_desc:0 "Значительная часть производства этой колонии направлена на устранение заражения кристаллами, которые теперь распространились по всей планете."
+ mem_crystal_removal:0 "Crystal Removal"
+ mem_crystal_removal_desc:0 "A significant part of this colony's efforts goes into the removal of the crystal infestation, which has now spread over the planet."
 
  # Crystal appears in player system
- mem_space_monster_attacks.1.name:0 "Приближается кристаллическая сущность"
- mem_space_monster_attacks.1.desc:0 "Сенсоры дальнего действия нашей колонии получили тревожащий сигнал, приближающийся из глубокого космоса. Спешно посланный зонд показал, что это гигантская кристаллическая структура. За попыткой выйти на связь с нашего судна последовал интенсивный всплеск энергии и немедленная потеря контакта с зондом.\n\nМы должны принять факт, что кристалл враждебен. Наш флот находится в состоянии повышенной боевой готовности."
- mem_space_monster_attacks.1.desc.gestalt:0 "Сенсоры дальнего действия нашей колонии получили тревожащий сигнал, приближающийся из глубокого космоса. Спешно посланный зонд показал, что это гигантская кристаллическая структура. За попыткой выйти на связь с нашего судна последовал интенсивный всплеск энергии и немедленная потеря контакта с зондом.\n\nМы должны принять факт, что кристалл враждебен. Наш флот находится в состоянии повышенной боевой готовности."
- mem_space_monster_attacks.1.a:0 "Почему она здесь?"
+ mem_space_monster_attacks.1.name:0 "Crystalline Entity Approaches"
+ mem_space_monster_attacks.1.desc:0 "Our colony's long-range sensors have picked up an alarming signal approaching from out of deep space. A hastily-dispatched probe revealed it to be a giant crystalline structure. A communication attempt from our vessel was followed by an intense energy spike and immediate loss of contact with the probe.\n\nWe have to assume the crystal is hostile. Our fleet has been put on high alert."
+ mem_space_monster_attacks.1.desc.gestalt:0 "Our colony's long-range sensors have noticed an alarming signal approaching from out of deep space. A quickly-dispatched probe revealed it to be a giant crystalline structure. A communication attempt from our vessel was followed by an intense energy spike and immediate loss of contact with the probe.\n\nWe have to assume the crystal is hostile. Our fleet has been put on high alert."
+ mem_space_monster_attacks.1.a:0 "Why is it here?"
  
  # crystal has bombarded the colony
- mem_space_monster_attacks.2.name:0 "Смерть с небес"
- mem_space_monster_attacks.2.desc:0 "Колониальная оборона не имела никаких шансов устоять против кристаллической сущности. Немедленно после того, как битва была решена, сущность начала поливать поверхность [This.GetName] мелкими кристаллическими осколками, выстреливаемыми на высокой скорости. Первые доклады говорят о сотнях тысяч жертв.\n\nВ то время как это число до сих пор растет с каждым часом, кристалл покинул орбиту планеты и улетел обратно в пустоту."
- mem_space_monster_attacks.2.desc.gestalt:0 "Колониальная оборона не имела никаких шансов устоять против кристаллической сущности. Немедленно после того, как битва была решена, сущность начала поливать поверхность [This.GetName] мелкими кристаллическими осколками, выстреливаемыми на высокой скорости. Инфраструктуре колонии нанесен значительный ущерб, многие дроны были потеряны.\n\nКристалл покинул орбиту планеты и улетел обратно в пустоту."
- mem_space_monster_attacks.2.a:0 "Как ужасно!"
- mem_space_monster_attacks.2.b:0 "Неудачно." 
- 
+ mem_space_monster_attacks.2.name:0 "Death from Above"
+ mem_space_monster_attacks.2.desc:0 "The colonial defense force stood no chance against the crystal entity. Immediately after the battle had been decided, it started to shower [This.GetName] with small crystal shards fired at high velocity. First reports speak of hundreds of thousands of casualties.\n\nWhile these numbers still rise by the hour, the crystal has left the planet's orbit and flown back into the void."
+ mem_space_monster_attacks.2.desc.gestalt:0 "The colonial defense force was defeated by the crystal entity. Immediately after the battle had been decided, it started to shower [This.GetName] with small crystal shards fired at high velocity. Damage to the colony's infrastructure has been substantial and many drones have been lost.\n\nTthe crystal has left the planet's orbit and flown back into deep space."
+ mem_space_monster_attacks.2.a:0 "How terrible!"
+ mem_space_monster_attacks.2.b:0 "Unfortunate." 
+
  # crystal has been destroyed before bombarding the colony
- mem_space_monster_attacks.3.name:0 "Опасность предотвращена"
- mem_space_monster_attacks.3.desc:0 "Наш флот победил. Единственное что осталось от кристаллической сущности - разбитые осколки. Причина, по которой она прибыла сюда и атаковала может никогда не быть раскрыта, но наша колония снова спасена.\n\nПоверхностное сканирование остатков кристалла показывает, что он состоит из очень ценных минералов. Ближайшим грузовым судам уже был отдам приказ собрать их. В то время как большая часть осколков может быть утилизирована для ресурсов, более интересные части будут сохранены для дальнейшего изучения.\n\nНекоторые наши ученые уже фантазируют о возможном применении, к примеру, в качестве самовосстанавливающейся брони, в то время как другие отмечают, что необходимо провести более фундаментальные исследования до того, как мы сможем хотя бы надеяться о большом прорыве."
- mem_space_monster_attacks.3.desc.gestalt:0 "Наш флот победил. Единственное что осталось от кристаллической сущности - разбитые осколки. Причина, по которой она прибыла сюда и атаковала может никогда не быть раскрыта, но наша колония снова спасена.\n\nПоверхностное сканирование остатков кристалла показывает, что он состоит из очень ценных минералов. Ближайшим грузовым судам уже был отдам приказ собрать их. В то время как большая часть осколков может быть утилизирована для ресурсов, более интересные части будут сохранены для дальнейшего изучения.\n\nВозможные применения, такие как самовосстанавливающиеся корпуса, требуют исследования."
- mem_space_monster_attacks.3.a:0 "Хорошая работа."
- mem_space_monster_attacks.3.b:0 "Принято."
+ mem_space_monster_attacks.3.name:0 "Danger Averted"
+ mem_space_monster_attacks.3.desc:0 "Our fleet has been victorious. Only broken shards are left of the crystal entity. Why it came here and attacked us might never be revealed, but our colony is safe once again.\n\nA brief scan of the crystal's remains showed them to be composed of highly valuable minerals. Nearby freighters have already been ordered to gather them. While most of these shards will be scraped for resources, the more interesting pieces will be kept for further study.\n\nSome of our scientists already fantasize about the possible applications like self-repairing hulls, while others point out that there is much foundational research to be done before we can even hope for a big breakthrough."
+ mem_space_monster_attacks.3.desc.gestalt:0 "Our fleet has been victorious. Only broken shards are left of the crystal entity. Why it came here and attacked us might never be revealed, but our colony is safe once again.\n\nA brief scan of the crystal's remains showed them to be composed of highly valuable minerals. Nearby freighters have already been ordered to gather them. While most of these shards will be scraped for resources, more interesting pieces will be kept for further study.\n\nPossible applications like self-repairing hulls warrant an investigation."
+ mem_space_monster_attacks.3.a:0 "Good work."
+ mem_space_monster_attacks.3.b:0 "Affirmative."
  
  # crystal has been destroyed after bombarding the colony
- mem_space_monster_attacks.4.name:0 "Возмездие"
- mem_space_monster_attacks.4.desc:0 "Наш флот победил. Единственное что осталось от кристаллической сущности - разбитые осколки. Хотя мы, возможно, никогда не узнаем, зачем и откуда она прибыла, по меньшей мере ее уничтожение позволило отомстить за жертв этой жестокой атаки.\n\nПоверхностное сканирование остатков кристалла показывает, что он состоит из очень ценных минералов. Ближайшим грузовым судам уже был отдам приказ собрать их. В то время как большая часть осколков может быть утилизирована для ресурсов, более интересные части будут сохранены для дальнейшего изучения.\n\nНекоторые наши ученые уже фантазируют о возможном применении, к примеру, в качестве самовосстанавливающейся брони, в то время как другие отмечают, что необходимо провести более фундаментальные исследования до того, как мы сможем хотя бы надеяться о большом прорыве."
- mem_space_monster_attacks.4.desc.gestalt:0 "Наш флот победил. Единственное что осталось от кристаллической сущности - разбитые осколки. Хотя мы, возможно, никогда не узнаем, зачем и откуда она прибыла, по меньшей мере ее уничтожение позволило отомстить за жертв этой жестокой атаки.\n\nПоверхностное сканирование остатков кристалла показывает, что он состоит из очень ценных минералов. Ближайшим грузовым судам уже был отдам приказ собрать их. В то время как большая часть осколков может быть утилизирована для ресурсов, более интересные части будут сохранены для дальнейшего изучения.\n\nВозможные применения, такие как самовосстанавливающиеся корпуса, требуют исследования."
- mem_space_monster_attacks.4.a:0 "Хорошая работа."
- mem_space_monster_attacks.4.b:0 "Принято."
-
+ mem_space_monster_attacks.4.name:0 "Retribution"
+ mem_space_monster_attacks.4.desc:0 "Our fleet has been victorious. Only broken shards are left of the crystal entity. Though we might never know where it came from and why, at least its destruction has avenged the victims of its brutal attack.\n\nA brief scan of the crystal's remains showed them to be composed of highly valuable minerals. Nearby freighters have already been ordered to gather them. While most of these shards will be scraped for resources, more interesting pieces will be kept for further study.\n\nSome of our scientists already fantasize about possible applications like self-repairing hulls, while others point out that there is much foundational research to be done before we can even hope for a big breakthrough."
+ mem_space_monster_attacks.4.desc.gestalt:0 "Our fleet has been victorious. Only broken shards are left of the crystal entity. Though we might never know where it came from and why, at least its destruction will prevent further attacks.\n\nA brief scan of the crystal's remains showed them to be composed of highly valuable minerals. Nearby freighters have already been ordered to gather them. While most of these shards will be scraped for resources, more interesting pieces will be kept for further study.\n\nPossible applications like self-repairing hulls warrant investigation."
+ mem_space_monster_attacks.4.a:0 "Good work."
+ mem_space_monster_attacks.4.b:0 "Affirmative."
+ 
  # Project finished
- mem_space_monster_attacks.5.name:0 "Анализ кристалла"
- mem_space_monster_attacks.5.desc:0 "Полученные кристальные осколки имеют значительное сходство с меньшими экземплярами, с которыми мы сталкивались раньше, тем не менее имеется и существенное различие в их поведении. В то время как ранее встреченные кристаллы вели себя агрессивно, их действия всегда были ограничены собственной территорией. Также, огромный размер этого экземпляра привел наших ученых к заключению, что это должен быть новый вид.\n\nМатериал, который составляет почти всю его массу, обладает удивительным самовосстанавливающими свойствами, которые могут быть применены к бронепластинам наших кораблей, если уделить больше времени и исследований. Новый вариант исследования был добавлен в список проектов."
- mem_space_monster_attacks.5.a:0 "Интересно."
+ mem_space_monster_attacks.5.name:0 "Crystal Analysis"
+ mem_space_monster_attacks.5.desc:0 "The recovered crystal shards show remarkable similarities to the smaller specimen we have encountered before, yet there is a striking difference in their behaviour. While previously-encountered crystals acted aggressively, their actions had always been limited to their own territory. Also, the enormous size of this larger specimen leads our scientists to the conclusion that it has to be a new species.\n\nThe material which makes up almost the entirety of its mass possesses astonishing self-repairing abilities, a property that may be applied to our ships' armor plates given more time and research. A new research option has been added to the project pool."
+ mem_space_monster_attacks.5.a:0 "Interesting."
  
  # crystals grow everywhere, what now?
- mem_space_monster_attacks.6.name:0 "Кристаллическое Заражение"
- mem_space_monster_attacks.6.desc:0 "В то время как колонисты на [Root.GetName] всё ещё восстанавливались после опустошительной атаки, мы получили волнующие доклады о кристаллических обломках, растущих в различных районах вокруг поселений.\n\nДальнейшее расследование выявило, что распространение этих кристаллов не ограничено окрестностями колонии. Вместо этого они могут быть найдены с различной частотой по всей планете, медленно извлекая минералы из почвы в процессе своего роста. В данный момент сложно сказать, каким образом это повлияет на планетарную экосистему.\n\nИмеется несколько возможных вариантов дальнейших действий. Колонисты могут попробовать искоренить кристаллическое заражение, периодически собирая их, или же изучить свойства роста кристаллов."
- mem_space_monster_attacks.6.desc.gestalt:0 "В то время как дроны на [Root.GetName] всё ещё ремонтируют колонию после опустошительной атаки, мы получили волнующие доклады о кристаллических обломках, растущих в различных районах вокруг поселений.\n\nДальнейшее расследование выявило, что распространение этих кристаллов не ограничено окрестностями колонии. Вместо этого они могут быть найдены с различной частотой по всей планете, медленно извлекая минералы из почвы в процессе своего роста. В данный момент сложно сказать, каким образом это повлияет на планетарную экосистему.\n\nИмеется несколько возможных вариантов дальнейших действий. Дроны могут попробовать искоренить кристаллическое заражение, периодически собирая их, или же изучить свойства роста кристаллов."
- mem_space_monster_attacks.6.a:0 "Пусть они регулярно собирают кристаллы."
- mem_space_monster_attacks.6.a.tooltip:0 "§GПроизводство минералов увеличено на 50%§!\nГорнодобывающих районов§! §G+2\nСборщиков кристаллов§! §G+2\nАграрных районов§! §R-2"
- mem_space_monster_attacks.6.b:0 "Пусть они исследуют кристаллы."
- mem_space_monster_attacks.6.b.tooltip:0 "§GСоциалогические исследования повышаются на 20%\nИнженерные исследования повышаются на 20%\n+2 вакансии исследователей\n+1 исследователь за каждые 20 поселений\n+1 вакансия сборщика кристаллов§!\n§R-2 к максимальному количеству аграрных районов\n-1 к максимальному количеству горнодобывающих районов\nПроизводство минералов уменьшено на 10%§!"
- mem_space_monster_attacks.6.c:0 "Пусть они искоренят кристаллическое заражение."
- mem_space_monster_attacks.6.c.tooltip:0 "Колонисты на [Root.GetName] сфокусируются на устранении каждого оставшегося рассадника кристаллов. Все минералы, добытые в ходе этого процесса, будут добавлены в хранилище империи в конце действия. Производительность этой колонии снизится на 50% до тех пор, пока процесс не завершится."
+ mem_space_monster_attacks.6.name:0 "Crystal Infestation"
+ mem_space_monster_attacks.6.desc:0 "As the colonists on [Root.GetName] were still recovering from the devastating attack, we have received worrying reports about crystalline fragments growing in various locations around the settlements.\n\nFurther investigation has revealed that the spreading of these crystals is not limited to the vicinity of the colony. Instead, they can be found in varying concentrations across the planet, slowly extracting minerals from the soil throughout their growing process. It is hard to tell at this point how this will affect the planet's ecosystem.\n\nThere are multiple possible courses of action to be taken. The colonists can try to root out the crystal infestation, periodically harvest them, or study their growth."
+ mem_space_monster_attacks.6.desc.gestalt:0 "As drones on [Root.GetName] were still repairing damage from the devastating attack, we have noticed crystalline fragments growing in various locations around the settlements.\n\nFurther investigation has revealed that the spreading of these crystals is not limited to the vicinity of the colony. Instead, they can be found in varying concentrations across the planet, slowly extracting minerals from the soil throughout their growing process. It is hard to tell at this point how this will affect the planet's ecosystem.\n\nThere are multiple possible courses of action to be taken. The drones can attempt to root out the crystal infestation, periodically harvest them, or study their growth."
+ mem_space_monster_attacks.6.a:0 "Let them harvest the crystals regularly."
+ mem_space_monster_attacks.6.a.tooltip:0 "§GMineral output +50%§!\n§G+2 mining district slots§!\n§G+2 rare crystal collector jobs§!\n§R-2 agricultural district slots§!"
+ mem_space_monster_attacks.6.b:0 "Let them study the crystals."
+ mem_space_monster_attacks.6.b.tooltip:0 "§GSociety research +20%\nEngineering research +20%\n+2 research jobs\n+1 additional research job for every 20 pops\n+1 rare crystal collector job§!\n§R-2 farming districts\n-1 mining district\nMining output -10%§!"
+ mem_space_monster_attacks.6.c:0 "Let them root out the crystal infestation."
+ mem_space_monster_attacks.6.c.tooltip:0 "Our colony on [Root.GetName] will focus on removing every last crystal spawn. All minerals gained during this process will be added to the empire storage at the end of this process. The productivity of this colony will be reduced by 50% until this process is completed. It is to be expected that the planet's ecosystem will be able to fully recover once the work is done."
  #mem_space_monster_attacks.6.d:0 "REPLACE_ME"
  
  # planet turns bleak
- mem_space_monster_attacks.7.name:0 "Изменения в биосфере"
- mem_space_monster_attacks.7.desc:0 "Несмотря на постоянные усилия колонистов по сдерживанию кристаллического заражения, их распространение достигло критических значений. Урон экосистеме планеты теперь неоспорим. Выработка сельскохозяйственной продукции достигла рекордно низких значений и растительность в целом в состоянии неуклонного упадка, поскольку кристаллы истощают почву.\n\nНесмотря на то, что наши ученые уверены, что могут не дать планете стать полностью безжизненной, они сомневаются, что этот процесс может быть обращен вспять без обширного терраформирования."
- mem_space_monster_attacks.7.desc.gestalt:0 "Несмотря на постоянные усилия дронов по сдерживанию кристаллического заражения, их распространение достигло критических значений. Урон экосистеме планеты теперь неоспорим. Выработка сельскохозяйственной продукции достигла рекордно низких значений и растительность в целом в состоянии неуклонного упадка, поскольку кристаллы истощают почву.\n\nХотя маловероятно, что планета станет полностью безжизненной из-за нашего вмешательства, обращение вспять эффектов потребует обширного терраформирования."
- mem_space_monster_attacks.7.a:0 "Проблемно."
- mem_space_monster_attacks.7.b:0 "Принято."
- mem_space_monster_attacks.7.c:0 "Этого следовало ожидать."
+ mem_space_monster_attacks.7.name:0 "Biosphere Changes"
+ mem_space_monster_attacks.7.desc:0 "Despite the colonists' constant efforts to contain the crystal infestation, the spreading has now reached a critical extent. The damage to the planet's ecosystem is now undeniable. Farming outputs are at record lows and vegetation in general is in a state of steady decline as the crystals exhaust the soil.\n\nThough our scientists are confident that they can prevent the planet from becoming completely lifeless, they doubt that this process can be reversed without extensive terraforming."
+ mem_space_monster_attacks.7.desc.gestalt:0 "Despite the drones' constant efforts to contain the crystal infestation, the spreading has now reached a critical extent. The damage to the planet's ecosystem is now undeniable. Farming outputs are at record lows and vegetation in general is in a state of steady decline as the crystals exhaust the soil.\n\nThough it is unlikely that the planet will become completely lifeless due to our intervention, reversing the effects would require extensive terraforming."
+ mem_space_monster_attacks.7.a:0 "Concerning."
+ mem_space_monster_attacks.7.b:0 "Acknowledged."
+ mem_space_monster_attacks.7.c:0 "This was to be expected."
 
  
  # crystals removed
- mem_space_monster_attacks.8.name:0 "Великая чистка"
-  mem_space_monster_attacks.8.desc:0 "В конце концов, последние оставшиеся следы кристаллического заражения на [Root.GetName] были устранены. Жизнь в колонии медленно возвращается к норме.\n\nДобытые кристаллы были добавлены в наше имперское хранилище."
- mem_space_monster_attacks.8.a:0 "Хорошая новость."
+ mem_space_monster_attacks.8.name:0 "The Great Cleansing"
+ mem_space_monster_attacks.8.desc:0 "Finally, the last remaining traces of the crystal infestation on [Root.GetName] have been removed. Colonial life is slowly returning to normal.\n\nThe processed crystals have been added to our imperial storage."
+ mem_space_monster_attacks.8.a:0 "Good news."
  
- MEM_SPACE_MONSTER_ATTACKS_CRYSTAL_STUDY:0 "Кристаллические останки"
- MEM_SPACE_MONSTER_ATTACKS_CRYSTAL_STUDY_DESC:0 "Обследование оставшихся кристаллических осколков может оказаться полезным нашим исследованиям, но нашему научно-исследовательскому отделу придется выделить значительные ресурсы и персонал, чтобы сосредоточиться на этом."
+ MEM_SPACE_MONSTER_ATTACKS_CRYSTAL_STUDY:0 "Crystalline Remains"
+ MEM_SPACE_MONSTER_ATTACKS_CRYSTAL_STUDY_DESC:0 "An investigation of the remaining crystal shards could prove beneficial to our research efforts, but our research department will have to devote significant resources and personnel to focus on this study."
 
  # ecosystem restored after removing the crystals
- mem_space_monster_attacks.9.name:0 "Экосистема восстановлена"
- mem_space_monster_attacks.9.desc:0 "Экосистема [root.GetName] демонстрирует явные признаки восстановления после повреждений, нанесенных кристаллическим заражением."
- mem_space_monster_attacks.9.a:0 "Очень хорошо."
- mem_space_monster_attacks.9.b:0 "Принято."
+ mem_space_monster_attacks.9.name:0 "Ecosystem Restored"
+ mem_space_monster_attacks.9.desc:0 "[root.GetName]'s ecosystem shows clear signs of recovering from the damages the crystalline infestation had caused."
+ mem_space_monster_attacks.9.a:0 "Very well."
+ mem_space_monster_attacks.9.b:0 "Acknowledged."
 
  # situation finished, feature added
- mem_space_monster_attacks.10.name:0 "Заражение локализовано"
- mem_space_monster_attacks.10.desc:0 "Теперь, когда заражение, наконец, локализовано в пределах карантинной зоны, мы можем вздохнуть спокойно.\n\nЭкосистеме был нанесён ущерб, однако дальнейшая её деградация не прогнозируется. С этого момента основное внимание можно сосредоточить на том, как наилучшим образом использовать кристаллические поля."
+ mem_space_monster_attacks.10.name:0 "Infestation Contained"
+ mem_space_monster_attacks.10.desc:0 "With the infestation finally contained within a secured zone we can now establish a new normality.\n\nThe ecosystem has been damaged, though no further degradation is to be expected. From here on out the focus can be put on how to best exploit the crystal fields."
  
  # decisions to add or remove the crystal field special feature
- decision_mem_crystal_fields_clearing:0 "Очистка кристаллического поля"
- decision_mem_crystal_fields_clearing_desc:0 "Этот процесс удалит все следы кристаллического заражения. Природа, пострадавшая от них, со временем восстановится."
- decision_mem_crystal_fields_seeding:0 "Посев кристального поля"
- decision_mem_crystal_fields_seeding_desc:0 "Кристаллическое поле будет засеяно, что обеспечит увеличение добычи полезных ископаемых, а также источник редких кристаллов. Однако продолжающийся рост кристаллов приведет к деградации экосистемы этой планеты."
+ decision_mem_crystal_fields_clearing:0 "Crystal Field Clearance"
+ decision_mem_crystal_fields_clearing_desc:0 "This process will remove all traces of the crystalline infestation. Ecological damages sustained due to it will heal over time."
+ decision_mem_crystal_fields_seeding:0 "Crystal Field Seeding"
+ decision_mem_crystal_fields_seeding_desc:0 "A crystal field will be seeded, providing increased mineral extraction as well as being a source of rare crystals. However, continued crystalline growth will degrade this planet's ecosystem."
 
  # tech to get the decision to add the special feature + building
- tech_mem_crystal_cultivation:0 "Культивация кристаллов"
- tech_mem_crystal_cultivation_desc:0 "Достижения в области экологической адаптации позволят нам создать новые кристаллические поля в контролируемой среде. Этот процесс ухудшает экосистему принимающей планеты, но ущерб останется в пределах допустимых параметров."
+ tech_mem_crystal_cultivation:0 "Crystal Cultivation"
+ tech_mem_crystal_cultivation_desc:0 "Advances in ecological adaption will allow us to seed new crystal fields within controlled environments. This process degrades the host planet's ecosystem, but damages will remain within acceptable parameters."
 
  # building requires tech and special feature present
- building_mem_crystal_harvester:0 "Центр по сбору кристаллов"
- building_mem_crystal_harvester_desc:0 "Эта станция управляет несколькими уборочными машинами в кристаллических полях для сбора созревших образцов с целью их дальнейшей обработки."
+ building_mem_crystal_harvester:0 "Crystal Harvester"
+ building_mem_crystal_harvester_desc:0 "This drone command station operates multiple harvesting machines within the crystal fields to gather the matured specimen for processing."
 
  # crystal situation
- situation_mem_spacemonster_attacks_crystal:0 "Кристаллическое заражение"
+ situation_mem_spacemonster_attacks_crystal:0 "A Crystalline Infestation"
  situation_mem_spacemonster_attacks_crystal_type:0 "$situation_mem_spacemonster_attacks_crystal$"
- situation_mem_spacemonster_attacks_crystal_desc:0 "После орбитальной бомбардировки нам стало известно о нескольких очагах кристаллического заражения, формирующихся на [Target.GetName]."
- situation_mem_spacemonster_attacks_crystal_monthly_change_tooltip:0 "Для успешного удаления разрастающихся новообразований необходимо выполнить по крайней мере три задания по извлечению кристаллов."
- approach_mem_spacemonster_attacks_crystal_study:0 "Изучение кристаллов"
- approach_mem_spacemonster_attacks_crystal_harvest:0 "Сбор кристаллов"
- approach_mem_spacemonster_attacks_crystal_destroy:0 "Очистка кристаллов"
- approach_mem_spacemonster_attacks_crystal_destroy_tooltip:0 "Мы уничтожим заражённые кристаллы, сохранив небольшое количество образцов для дальнейшего исследования."
- mem_space_monster_attacks_situation_modifier_desc:0 "Слишком мало собранных кристаллов"
+ situation_mem_spacemonster_attacks_crystal_desc:0 "Since the orbital bombardment we became aware of several hot spots of crystalline infestation forming on [Target.GetName]."
+ situation_mem_spacemonster_attacks_crystal_monthly_change_tooltip:0 "For the removal of the expanding infestations to progress, at least three crystal extractor jobs have to be filled."
+ approach_mem_spacemonster_attacks_crystal_study:0 "Study the Crystals"
+ approach_mem_spacemonster_attacks_crystal_harvest:0 "Harvest the Crystals"
+ approach_mem_spacemonster_attacks_crystal_destroy:0 "Clear the Crystals"
+ approach_mem_spacemonster_attacks_crystal_destroy_tooltip:0 "We will clear the crystal infestation while keeping a small number of specimen for further investigation."
+ mem_space_monster_attacks_situation_modifier_desc:0 "Too Few Crystal Extractors"
 
- r_mem_amoeba_sample:0 "Образец древней амёбы"
- r_mem_amoeba_sample_desc:0 "Хранящиеся останки трупа древней амёбы, готовые к синтезу"
- relic_mem_amoeba_sample_active_tooltip:0 "§HОткроется решение:§! §G$decision_mem_toxic_terraforming$§!, даст возможность превратить одну $pc_toxic$ планету в §Y$pc_gaia$§!."
+ r_mem_amoeba_sample:0 "Ancient Amoeba Sample"
+ r_mem_amoeba_sample_desc:0 "Stored remains of the Ancient Amoeba Corpse, ready to be synthesized"
+ relic_mem_amoeba_sample_active_tooltip:0 "§HUnlocks Decision:§! §G$decision_mem_toxic_terraforming$§!, granting the ability to turn one $pc_toxic$ planet into a §Y$pc_gaia$§!."
 
- tech_mem_toxic_gaiaforming:0 "Идеальный мир из токсичного"
- tech_mem_toxic_gaiaforming_desc:0 "Изучение образцов, полученных из древней амёбы, разбившейся на нашей колонии, позволит нам понять, как воспроизвести её влияние на биосферу планеты."
+ tech_mem_toxic_gaiaforming:0 "Toxic Gaiaforming"
+ tech_mem_toxic_gaiaforming_desc:0 "Studying the samples secured from the ancient amoeba, which crashed on our colony, will give us insight into how to replicate its effect on the planet's biosphere."
 
- decision_mem_toxic_terraforming:0 "Идеальный мир из токсичного"
- decision_mem_toxic_terraforming_desc:0 "В течение десятилетий, эта планета превращалась из токсичной пустоши в пышный мир садов."
+ decision_mem_toxic_terraforming:0 "Toxic Gaiaforming"
+ decision_mem_toxic_terraforming_desc:0 "This planet will be transformed from a toxic wasteland into a lush garden world within a decade."
 
- situation_mem_toxic_gaiaforming:0 "Идеальный мир из токсичного"
+ situation_mem_toxic_gaiaforming:0 "Toxic Gaiaforming"
  situation_mem_toxic_gaiaforming_type:0 "$situation_mem_toxic_gaiaforming$"
  situation_mem_toxic_gaiaforming_desc:0 "$decision_mem_toxic_terraforming_desc$"
- situation_mem_toxic_gaiaforming_monthly_change_tooltip:0 "Этот проект будет продолжаться до его завершения."
- mem_toxic_gaiaforming_modifier_desc:0 "Ежемесячный прогресс"
+ situation_mem_toxic_gaiaforming_monthly_change_tooltip:0 "This project will move forward until its completion."
+ mem_toxic_gaiaforming_modifier_desc:0 "Monthly Progress"
 
- d_mem_amoeba_corpse:0 "Останки древней амёбы"
- d_mem_amoeba_corpse_desc:0 "Останки древней амебы, разбившейся на этой планете. Они предоставляют широкие возможности для исследований, а также являются источником экзотических газов, образующихся при их разложении."
+ d_mem_amoeba_corpse:0 "Ancient Amoeba Remains"
+ d_mem_amoeba_corpse_desc:0 "The remains of an ancient amoeba, which crashlanded on this planet. It provides ample opportunities for research as well as a source of exotic gasses produced by its decomposition."
  
- situation_mem_spacemonster_attacks_amoeba:0 "Гноящаяся рана"
+ situation_mem_spacemonster_attacks_amoeba:0 "Festering Wound"
  situation_mem_spacemonster_attacks_amoeba_type:0 "$situation_mem_spacemonster_attacks_amoeba$"
- situation_mem_spacemonster_attacks_amoeba_desc:0 "Разлагающаяся биомасса амёбы выделяет неизвестные ранее токсичные вещества, которые оказывают негативно влияют на флору и фауну в непосредственной близости от неё."
- situation_mem_spacemonster_attacks_amoeba_monthly_change_tooltip:0 "Ситуация будет развиваться дальше без каких-либо дополнительных действий."
- approach_mem_spacemonster_attacks_amoeba_embrace:0 "Принять перемены"
- approach_mem_spacemonster_attacks_amoeba_stall:0 "Остановить прогресс"
- approach_mem_spacemonster_attacks_amoeba_destroy:0 "Удалить останки"
- approach_mem_spacemonster_attacks_amoeba_destroy_tooltip:0 "Мы уничтожим трупы амёб, которые распространяют заразу, при этом сохранив образцы для дальнейшего исследования."
+ situation_mem_spacemonster_attacks_amoeba_desc:0 "The amoeba's decomposing biomass releases previously unknown toxic substances which negatively affect flora and fauna within its proximity."
+ situation_mem_spacemonster_attacks_amoeba_monthly_change_tooltip:0 "This situation progresses to its end without any further input."
+ approach_mem_spacemonster_attacks_amoeba_embrace:0 "Embrace Change"
+ approach_mem_spacemonster_attacks_amoeba_stall:0 "Stall Process"
+ approach_mem_spacemonster_attacks_amoeba_destroy:0 "Remove Carcass"
+ approach_mem_spacemonster_attacks_amoeba_destroy_tooltip:0 "We will clear the amoeba corpse infestation while keeping samples for further investigation."
 
- MEM_SPACE_MONSTER_ATTACKS_AMOEBA_STUDY:0 "Древняя амёба"
- MEM_SPACE_MONSTER_ATTACKS_AMOEBA_STUDY_DESC:0 "Исследование останков амёбы может оказаться полезным для наших исследований, поэтому чтобы сосредоточиться на нём нашему научному отделу придётся выделить значительные ресурсы и персонал."
+ MEM_SPACE_MONSTER_ATTACKS_AMOEBA_STUDY:0 "An Ancient Amoeba"
+ MEM_SPACE_MONSTER_ATTACKS_AMOEBA_STUDY_DESC:0 "An investigation of the amoeba remains could prove beneficial to our research efforts, but our research department will have to devote significant resources and personnel to focus on this study."
 
  #Amoeba appears
- mem_space_monster_attacks.11.name:0 "Приближается огромная космическая амёба"
- mem_space_monster_attacks.11.desc:0 "Сенсоры дальнего радиуса действия нашей колонии засекли приближение какого-то огромного объекта. Спешно отправленный зонд показал, что это гигантская космическая амёба. Дальнейшие попытки связаться с нашим зондом не увенчались успехом.\n\nХотя эта особь выглядит довольно пассивной по сравнению со своими собратьями, она направляется прямо к нашей колонии. Наш флот приведён в состояние повышенной готовности."
- mem_space_monster_attacks.11.desc.gestalt:0 "Сенсоры дальнего радиуса действия нашей колонии засекли приближение какого-то огромного объекта. Спешно отправленный зонд показал, что это гигантская космическая амёба. Дальнейшие попытки связаться с нашим зондом не увенчались успехом.\n\nХотя эта особь выглядит довольно пассивной по сравнению со своими собратьями, она направляется прямо к нашей колонии. Наш флот приведён в состояние повышенной готовности."
- mem_space_monster_attacks.11.a:0 "Отправьте флот."
+ mem_space_monster_attacks.11.name:0 "Enormous Space Amoeba Approaches"
+ mem_space_monster_attacks.11.desc:0 "Our colony's long-range sensors have picked up an alarming signal approaching from out of deep space. A hastily-dispatched probe revealed it to be a giant space amoeba. A communication attempt from our vessel did not yield any response.\n\nWhile this specimen appears quite passive in comparison to its brethren, it is heading straight for our colony. Our fleet has been put on high alert."
+ mem_space_monster_attacks.11.desc.gestalt:0 "Our colony's long-range sensors have noticed an alarming signal approaching from out of deep space. A quickly-dispatched probe revealed it to be a giant space amoeba. A communication attempt from our vessel did not yield any response.\n\nWhile this specimen appears quite passive in comparison to others of its kind, it is heading straight for our colony. Our fleet has been put on high alert."
+ mem_space_monster_attacks.11.a:0 "Send in the fleet."
 
  #Amoeba crashed on planet
- mem_space_monster_attacks.12.name:0 "Падение на планету"
- mem_space_monster_attacks.12.desc:0 "Не обращая никакого внимания на нашу оборону, амёба достигла [this.GetName] и начала спуск в атмосферу. Оставив за собой горящий след, хорошо видимый из главной колонии, она разбилась в малонаселённом районе.\n\nПока продолжалась эвакуация, первые сообщения с места крушения подтвердили смерть существа в результате удара.\n\nОно прилетело сюда, чтобы умереть?\n\nТерриторию немедленно оцепили войска, все ожидают прибытия учёных для проведения более тщательного исследования инцидента."
+ mem_space_monster_attacks.12.name:0 "Planetfall"
+ mem_space_monster_attacks.12.desc:0 "Ignoring our defenses the amoeba reached [this.GetName] descending into its atmosphere. Pulling behind itself a burning trail clearly visible from our main colony, it crashed in a sparsely populated area.\n\nWhile evacuation procedures were still ongoing first reports from the crashsite confirmed the creature's death as a result of the impact.\n\nDid it come here to die?\n\nThe immdediate vicinity has been cordoned off to allow for closer investigation."
 
  #Amoeba has been destroyed before reaching the colony
- mem_space_monster_attacks.13.name:0 "Опасность предотвращена"
- mem_space_monster_attacks.13.desc:0 "Наш флот одержал победу. От амёбы остались лишь мелкие куски плоти. Почему она прилетела сюда и напала на нас, мы вряд ли уже узнаем, но наша колония снова в безопасности.\n\n Быстрое сканирование останков амёбы показало наличие очень ценных экзотических газов и других полезных материалов. Близлежащие грузовые корабли получили приказ собрать их. Некоторые из наших учёных уже фантазируют о возможных применениях, таких как самовосстанавливающиеся корпуса, в то время как другие отмечают, что предстоит провести много фундаментальных исследований, прежде чем мы сможем надеяться на большой прорыв."
+ mem_space_monster_attacks.13.name:0 "Danger Averted"
+ mem_space_monster_attacks.13.desc:0 "Our fleet has been victorious. Only mangled pieces are left of the amoeba. Why it came here and attacked us might never be revealed, but our colony is safe once again.\n\nA brief scan of the amoeba's remains showed the presence of highly valuable exotic gasses and other useful material. Nearby freighters have already been ordered to gather them. While most of the debris will be scraped for resources, the more interesting pieces will be kept for further study.\n\nSome of our scientists already fantasize about the possible applications like self-repairing hulls, while others point out that there is much foundational research to be done before we can even hope for a big breakthrough."
 
  #Project finished
- mem_space_monster_attacks.14.name:0 "Древний образец"
- mem_space_monster_attacks.14.desc:0 "Анализ останков амёбы дал лишь несколько ответов на наши вопросы. Похоже, это самый старый экземпляр из всех, с которыми когда-либо сталкивались наши корабли. Почему она попала сюда, остается загадкой, но предполагается, что к моменту нашей встречи её жизненный цикл подходил к концу.\n\nПомимо этого, мы получили лишь незначительное представление о её естественной способности к регенерации, что, тем не менее, поможет нашим будущим исследованиям в этой области."
+ mem_space_monster_attacks.14.name:0 "An Ancient Speciman"
+ mem_space_monster_attacks.14.desc:0 "Analysis of the amoeba remains provided only few answers to our questions. It appears to be the oldest specimen to ever have been encountered by any of our vessels. Why it came here remains a mystery, but it was assumed to have neared the end of its life cycle by the time we encountered it.\n\nBesides this there was only a marginal gain of understanding regarding its natural regenerative ability which will nonetheless aid our future research efforts in this field."
 
  #Amoeba corpse infestations spreads, what now?
- mem_space_monster_attacks.15.name:0 "Гноящаяся рана"
- mem_space_monster_attacks.15.desc:0 "В поступающих сообщениях говорится о событиях, связанных с тушей амёбы на [Root.GetName]. Её разлагающаяся биомасса выделяет неизвестные ранее токсичные вещества, которые оказывают негативное влияние на флору и фауну поблизости.\n\nИсследование самой туши показало, что это самый старый экземпляр из всех, что нам попадались и, скорее всего, амёба чувствовала приближение окончания своего жизненного цикла. Почему она выбрала именно эту планету для смерти, остаётся загадкой.\n\nБолее насущным вопросом является то, как поступить с останками."
+ mem_space_monster_attacks.15.name:0 "Festering Wound"
+ mem_space_monster_attacks.15.desc:0 "Incoming reports describe concerning developments surrounding the amoeba carcass on [Root.GetName]. Its decomposing biomass releases previously unknown toxic substances which already negatively affect flora and fauna within its proximity.\n\nStudies of the carcass itself revealed that it was the oldest specimen of its kind yet encountered by us and likely near the end of its life cycle. Why it chose this planet to die on remains a mystery however.\n\nThe more immediate question is, how to deal with the remains."
 
  #Amoeba corpse removed
- mem_space_monster_attacks.16.name:0 "Туша амёбы утилизирована"
- mem_space_monster_attacks.16.desc:0 "Останки амёбы наконец-то были утилизированы, а нанесенный ранее ущерб экосистеме [Root.GetName], похоже, носит временный характер, никаких долгосрочных последствий ожидать не стоит.\n\n Сама же туша дала нам значительное количество редких газов и материал для дальнейшего изучения."
+ mem_space_monster_attacks.16.name:0 "Carcass Removed"
+ mem_space_monster_attacks.16.desc:0 "The amoeba remains have finally been cleared and previous damage to [Root.GetName]'s ecosystem appears to be temporary in nature with no lasting effects to be expected.\n\nThe carcass itself provided us with a sizable amount of rare gasses and material for further study."
 
  #situation stage 2 reached
- mem_space_monster_attacks.17.name:0 "Разложение"
- mem_space_monster_attacks.17.desc.a:0 "Территория, поражённая токсинами от разлагающейся амебы, неуклонно растёт. Флора и фауна постепенно поддаются воздействию токсина и погибают. Пока что наша колония находится за пределами опасного радиуса поражения, однако, стоит подготовится к худшему сценарию."
- mem_space_monster_attacks.17.desc.b:0 "Территория, поражённая токсинами от разлагающейся амебы, неуклонно растёт. Флора и фауна постепенно поддаются воздействию токсина и погибают. Меры, принятые для замедления распространения газа, в какой-то степени увенчались успехом, но они лишь оттягивают неизбежное. Пока что наша колония находится за пределами опасного радиуса поражения, однако, стоит подготовится к худшему сценарию."
+ mem_space_monster_attacks.17.name:0 "State of Decay"
+ mem_space_monster_attacks.17.desc.a:0 "The area affected by the decomposing amoeba's toxins is growing steadily. Flora and fauna are slowly succumbing to the toxin's effect. For now our colony is still outside the affected territory, though it may not stay this way for much longer."
+ mem_space_monster_attacks.17.desc.b:0 "The area affected by the decomposing amoeba's toxins is growing steadily. Flora and fauna are slowly succumbing to the toxin's effect. Measures taken to slow the spread were successful to some degree, but do only delay the inevitable. For now our colony is still outside the affected territory, though it may not stay this way for much longer."
 
  #situation stage 3 reached
- mem_space_monster_attacks.18.name:0 "Мутация"
- mem_space_monster_attacks.18.desc:0 "Поступают сообщения о гибели диких животных и увядании растительности. Среди выживших особей, как отмечают в отчётах, наблюдаются многочисленные мутации, это сопровождается повышением уровня их агрессивности.\n\nНо это ещё не всё, аналогичные негативные последствия наблюдаются и среди нашего населения, вплоть до летальных исходов, причём количество случаев постоянно растёт."
- mem_space_monster_attacks.18.desc.machine:0 "Поступают сообщения о гибели диких животных и увядании растительности. Приходят данные, что среди выживших особей наблюдаются многочисленные мутации, это сопровождается повышением уровня их агрессивности."
+ mem_space_monster_attacks.18.name:0 "Mutation"
+ mem_space_monster_attacks.18.desc:0 "Reports of dying wildlife and withering vegetation have been mounting. Among surviving specimen mutations have been reported to run rampant coinciding with an increasing aggressiveness of the remaining wildlife.\n\nThis is not all, however, as similarly adverse effects are being observed within our population going as far as fatalities with the number of cases growing steadily."
+ mem_space_monster_attacks.18.desc.machine:0 "Reports of dying wildlife and withering vegetation have been mounting. Among surviving specimen mutations have been reported to run rampant coinciding with an increasing aggressiveness of the remaining wildlife."
 
  #situation finished, planet changed to gaia
- mem_space_monster_attacks.19.name:0 "Регенерация"
- mem_space_monster_attacks.19.desc:0 "Когда мы уже опустили руки и думали, что этот процесс неизбежно превратит [This.GetName] в токсичную пустошь, в атмосфере [This.GetPlanetMoon] были замечены изменения. Концентрация токсичных частиц исходящих от трупа амёбы начала неуклонно сокращаться.\n\nОчевидно, что причиной такого снижения являются мутировавшие растения, которые уже отвоёвывают ранее мёртвые регионы, они активно поглощают смертоносные токсины. Мы ожидаем, что их бурный рост пойдёт на спад, как только атмосфера [This.GetPlanetMoon] очистится от загрязнения.\n\nЕсли эта тенденция сохранится, [This.GetName] станет более пригодной для жизни, чем была до этого инцидента."
+ mem_space_monster_attacks.19.name:0 "Regeneration"
+ mem_space_monster_attacks.19.desc:0 "When we thought the ongoing process may inevitably turn [This.GetName] into a toxic wasteland, a change in the [This.GetPlanetMoon]'s atmosphere was noticed. The concentration of toxic particles associated to the amoeba's corpse are falling steadily.\n\nApparent reason for this decline are the mutated plants, which are already reclaiming formerly dead regions fueled by the absorption of these particles. We expect their rapid growth to subside once the atmosphere is clear of contamination.\n\nIf this trend continues [This.GetName] will end up more habitable than it was before this ordeal."
 
  #Amoeba sample research finished
- mem_space_monster_attacks.20.name:0 "Идеальный мир из токсичного"
- mem_space_monster_attacks.20.desc:0 "Проведя необходимые исследования, мы теперь можем синтезировать и корректировать материал, выделяемый трупами древних амёб, это позволит нам контролируемым образом преобразовывать планеты в идеальные миры. Однако этот способ будет действенен, только на токсичных мирах и потребует значительных материальных и временных затрат."
+ mem_space_monster_attacks.20.name:0 "Toxic Gaiaforming"
+ mem_space_monster_attacks.20.desc:0 "With the necessary research groundwork laid, we are now able to synthesize and adjust the material excreted by the ancient amoeba corpse in order to gaiaform planets in a controlled manner. This however will only work on toxic worlds and require a significant investment of material and time."
 
  #situation finished, planet changed to gaia
- mem_space_monster_attacks.21.name:0 "Формирование Идеального мира"
- mem_space_monster_attacks.21.desc:0 "Наши [Root.GetTerraformerPlural] рады сообщить, что процесс формирования Идеального мира на [mem_toxic_gaiaforming_target.GetName] завершён! Развёртывание новых лабораторных гибридов растений, созданных с помощью синтезированных газов амёбы и генетически модифицированных семян, успешно трансформировали климат и атмосферу [mem_toxic_gaiaforming_target.GetName] менее чем за 10 лет.\n\n Гибридные растения размножились по всей планете, как и ожидалось, они сейчас находятся в фазе «сна», поскольку химические изменения атмосферы на [mem_toxic_gaiaforming_target.GetName] деактивировали их."
+ mem_space_monster_attacks.21.name:0 "Gaiaformation"
+ mem_space_monster_attacks.21.desc:0 "Our [Root.GetTerraformerPlural] are pleased to report that the gaiaforming process on [mem_toxic_gaiaforming_target.GetName] has completed! The deployment of new laboratory-created plant hybrids, made using synthesized amoeba gasses and genetically modified seeds, successfully transformed [mem_toxic_gaiaforming_target.GetName]'s climate and atmosphere over less than a decade.\n\nThe hybrid plants multiplied across the planet as expected, and are now entering a 'dormant' phase, as the chemical atmospheric changes on [mem_toxic_gaiaforming_target.GetName] have now deactivated them."
+
+ #Relic used, planet suggested
+ mem_space_monster_attacks.23.name:0 "A Toxic Candidate"
+ mem_space_monster_attacks.23.desc:0 "Our [Root.GetTerraformerPlural] already have picked a fitting candidate for our gaiaforming candidate to suggest for the procedure. Whether or not it will be chosen ultimately is not in their hands, however."

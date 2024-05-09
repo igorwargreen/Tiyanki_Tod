@@ -4,3 +4,9 @@ planet_automation_barracks = {
 		owner = { is_ai = no }
 	}
 }
+planet_automation_automate_ameno_clerk = {
+	available = {
+		exists = owner
+		owner = { is_ai = no }
+	}
+}

@@ -6,59 +6,59 @@
  # Ambient Objects
  ########################################################
 
- mem_vazuran_event_system_starbase_object:0 "Древнее поле обломков"
- mem_vazuran_event_system_swarm_large_object:0 "Остатки организмов порождённых пустотой"
+ mem_vazuran_event_system_starbase_object:0 "Ancient Debris Field"
+ mem_vazuran_event_system_swarm_large_object:0 "Remains of Voidborn Organisms"
 
  ########################################################
  # Technology
  ########################################################
 
- tech_mem_scourge_damage_bonus:0 "Слабые места панциря Пустотника"
- tech_mem_scourge_damage_bonus_desc:0 "Перед лицом возможности очередного вторжения роя единственным разумным вариантом действий будет подготовиться как можно лучше. Имея доступ к собранным образцам, наши ученые найдут любое слабое место этих чудовищ — если оно у них вообще есть. Нам понадобится любое преимущество, которое мы сможем получить, чтобы защитить то, что принадлежит нам по праву, если они когда-нибудь вернутся."
+ tech_mem_scourge_damage_bonus:0 "Voidborn Carapace Weak Spots"
+ tech_mem_scourge_damage_bonus_desc:0 "Facing the possibility of another swarm invasion, the only reasonable course of action is to prepare as well as we can. Having access to the collected specimens, our scientists will find whatever weakness these beasts might have - if they have one at all. We will need any edge we can get to protect what is rightfully ours should they ever return."
 
  ########################################################
  # System 1 Events
  ########################################################
 
  # A ship reaches the system
- mem_vazuran_systems.1.name:0 "Кладбище"
+ mem_vazuran_systems.1.name:0 "A Graveyard"
 
  ########################################################
  # Scourge Event Chain
  ########################################################
 
  # Scourge Story Line Intro
- mem_vazuran_systems.1a.desc:0 "Корабль [root.GetName] сообщает, что достиг системы [root.solar_system.GetName]. Капитан описывает жуткую картину. Несколько планет разбиты, и вся система усеяна полями обломков. Ещё более необычно то, что среди них разбросаны органические оболочки, не похожие ни на одни из наших баз данных. Требуется дальнейшее исследование."
- mem_vazuran_systems.1.a:0 "Начать исследование."
+ mem_vazuran_systems.1a.desc:0 "The [root.GetName] reports to have reached the [root.solar_system.GetName] system. The captain describes a gruesome scene. Multiple planets are shattered, and the entire system is littered with debris fields. Even more peculiarly, seemingly organic husks, which do not match anything in our database, are scattered among these. Further investigation is required."
+ mem_vazuran_systems.1.a:0 "Commence an investigation."
 
  # Scourge Event Chain
- mem_vazuran_event_system_scourge_chain_title:0 "Опустошённая система"
- mem_vazuran_event_system_scourge_chain_desc:0 "Исследуйте остатки апокалиптического события, произошедшего в системе [mem_vazuran_event_system_01.GetName]."
- mem_vazuran_event_system_scourge_projects_researched:0 "Законченные исследования"
+ mem_vazuran_event_system_scourge_chain_title:0 "Devastated System"
+ mem_vazuran_event_system_scourge_chain_desc:0 "Research the remains of the apocalyptic event that took place in the [mem_vazuran_event_system_01.GetName] system."
+ mem_vazuran_event_system_scourge_projects_researched:0 "Finished Investigations"
  
- MEM_VAZURAN_EVENT_SYSTEM_SCOURGE_INVESTIGATION_01:0 "Исследование Биокорабля"
- MEM_VAZURAN_EVENT_SYSTEM_SCOURGE_INVESTIGATION_01_DESC:0 "Наши ученые в системе [root.solar_system.GetName] уже идентифицировали по крайней мере два различных типа мертвых космических форм жизни среди полей обломков, хотя пока неясно, являются ли они просто различными стадиями роста одного и того же вида или двумя разными видами вообще. "
+ MEM_VAZURAN_EVENT_SYSTEM_SCOURGE_INVESTIGATION_01:0 "Bioship Investigation"
+ MEM_VAZURAN_EVENT_SYSTEM_SCOURGE_INVESTIGATION_01_DESC:0 "Our scientists in the [root.solar_system.GetName] system have already identified at least two distinct types of dead spaceborn lifeforms amidst the debris fields, though as of yet it is unclear whether they are just different growth stages of one and the same species or two different species altogether. "
  
- MEM_VAZURAN_EVENT_SYSTEM_SCOURGE_INVESTIGATION_02:0 "Исследование Обломков"
- MEM_VAZURAN_EVENT_SYSTEM_SCOURGE_INVESTIGATION_02_DESC:0 "Среди бесчисленных обломков осталось несколько крупных. Похоже, что они — наш шанс узнать больше о том, что здесь произошло."
+ MEM_VAZURAN_EVENT_SYSTEM_SCOURGE_INVESTIGATION_02:0 "Debris Investigation"
+ MEM_VAZURAN_EVENT_SYSTEM_SCOURGE_INVESTIGATION_02_DESC:0 "Among the countless debris fields, a number of bigger wrecks remain. They seem to be our best chance of finding out more about what happened here."
 
  # Finishing Bioship Investigation
- mem_vazuran_systems.101.name:0 "Генная инженерия?"
- mem_vazuran_systems.101.desc:0 "После изучения множества образцов стало ясно, что различные фенотипы, классифицированные как [root.solar_system.GetName]-X1 и [root.solar_system.GetName]-X2 - на самом деле являются разными видами, несмотря на общие генетические маркеры и характеристики. Между отдельными экземплярами каждой из двух классификаций нет генетических различий, что предполагает либо бесполое размножение, либо клонирование.\n\nСами организмы, по-видимому, являются продуктом генной инженерии, так как естественная эволюция до их нынешнего состояния крайне маловероятна. И X1, и X2 обладают исключительно прочными панцирями, по прочности похожими на бронеплиты военного класса, а также органами, которые, по-видимому, служили движущей силой для органических снарядов, которых наша исследовательская группа нашла множество, все еще погребенных внутри различных обломков. Судя по полям обломков, они, должно быть, были грозными бойцами."
- mem_vazuran_systems.101.a:0 "Это сбивает с толку."
+ mem_vazuran_systems.101.name:0 "Genetic Engineering?"
+ mem_vazuran_systems.101.desc:0 "After studying multiple specimens, it is now clear that the different phenotypes - classified as [root.solar_system.GetName]-X1 and [root.solar_system.GetName]-X2 - are in fact different species, despite sharing several genetic markers and characteristics. There is no genetic variation between individual specimens of each of the two classifications, implying either asexual reproduction or cloning.\n\nThe organisms themselves appear to be the product of genetic engineering, as natural evolution to their current state is highly unlikely. Both X1 and X2 feature exceptionally hardened carapaces similar in durability to military grade armor plates, as well as organs which seemingly acted as mass drivers for organic projectiles, of which our exploration team has found a multitude still buried inside of various wrecks. Judging by the debris fields, they must have been formidable combatants."
+ mem_vazuran_systems.101.a:0 "Disconcerting."
 
  # Finishing Debris Investigation
- mem_vazuran_systems.102.name:0 "Пожертвование и Долг"
- mem_vazuran_systems.102.desc:0 "Проведя несколько недель за исследованием различных обломков в обширном поле обломков, охватывающем систему [root.solar_system.GetName], наша команда исследователей сделала большой прорыв. При исследовании одного из обломков стало ясно, что они обнаружили флагманский корабль бывшего флота. Более того, на корабле было обнаружено неповрежденное хранилище данных, из которого наши [root.owner.GetScientistResearchSubroutinePlural] смогли восстановить события, произошедшие здесь примерно четыре тысячи лет назад.\n\nИх империя вела отчаянную войну против внегалактических сил вторжения пустотных форм жизни, которые поглощали всю биомассу на своем пути, становясь тем сильнее, чем больше они потребляли.\n\nКогда рой приблизился к этому некогда процветающему населенному центру с множеством заселенных миров, а в радиусе действия находились лишь незначительные силы, способные вовремя встретить атакующих, адмиралу пришлось принять трудное решение. Зная, что он не сможет ни спасти свой народ, ни победить врагов, он решил уничтожить все колонизированные миры в системе, чтобы лишить врагов биомассы, за которой они шли, прежде чем вступить с ними в бой, чтобы дать остальному флоту своего народа как можно больше времени для сближения с угрозой.\n\nПоследняя запись в журнале адмирала гласит; §SКто-то может усомниться в моем праве уничтожать планеты с десятками миллиардов душ, но те, кто понимает, — поймут, что я не имел права оставлять их в живых. Никакая жертва не может быть слишком велика, когда на кону стоит вся наша галактика. Они выполнили свой долг, и мы тоже...§!\n\nСамо наше существование доказывает, что его жертва была не напрасной."
- mem_vazuran_systems.102.a:0 "Потребности многих перевешивают потребности немногих."
- mem_vazuran_systems.102.b:0 "Процесс истребления завершен. Нам нечего здесь делать."
- mem_vazuran_systems.102.c:0 "Как вежливо с их стороны... Они убили сами себя, чтобы облегчить нам жизнь."
- mem_vazuran_systems.102.d:0 "Так много потраченной впустую биомассы..."
+ mem_vazuran_systems.102.name:0 "Sacrifice And Duty"
+ mem_vazuran_systems.102.desc:0 "After spending multiple weeks exploring various wrecks within the vast debris field spanning the [root.solar_system.GetName] system, our exploration team has had a major breakthrough. When investigating one of the wrecks, it became clear that they had identified the former fleet's flagship. Furthermore, the ship was found to house a still intact data storage, from which our [root.owner.GetScientistResearchSubroutinePlural] were able to reconstruct the events that took place here roughly four thousand years ago.\n\nTheir empire had fought a desperate war against an extragalactic invading force of voidborn lifeforms which were consuming all biomass in their way, growing ever stronger the more they had consumed.\n\nWith the swarm closing in on this once thriving population center of multiple settled worlds, and only a token force in range to meet the attackers in time, the admiral had to make a hard decision. Knowing he could neither save his people nor defeat his foes, he had decided to instead destroy every colonized world in the system in an effort to deny the enemy the biomass they were coming for, before engaging them in battle to give the rest of his people's fleet as much time as possible to close in on the threat.\n\nThe last entry of the admiral's log reads: §SSome may question my right to destroy planets with tens of billions of souls, but those who understand will realize that I had no right to let them live. No sacrifice can be too great when our entire galaxy is at stake. They did their duty and so shall we...§!\n\nOur mere existence seems to prove that his sacrifice was not in vain."
+ mem_vazuran_systems.102.a:0 "The needs of the many outweigh the needs of the few."
+ mem_vazuran_systems.102.b:0 "Extermination process has already concluded. Our service is not needed here."
+ mem_vazuran_systems.102.c:0 "How polite of them... They purged themselves so we don't have to."
+ mem_vazuran_systems.102.d:0 "So much wasted biomass..."
 
  # Finishing Scourge Event Chain
- mem_vazuran_systems.103.name:0 "Рой"
- mem_vazuran_systems.103.desc:0 "Зная о том, что здесь когда-то произошло, и об угрозе нового внегалактического вторжения, наши [root.owner.GetScientistResearchSubroutinePlural] призывают к широкомасштабным приготовлениям на случай возвращения роя. Насколько нам известно, эти силы вторжения могли быть просто авангардом, несмотря на то, насколько опасными и угрожающими они были. Учитывая эту надвигающуюся тень на горизонте, некоторые из них уже выдвинули предложение провести углубленные исследования имеющихся образцов, чтобы найти возможные слабые места, которыми можно воспользоваться, если мы когда-нибудь столкнемся с этим врагом."
- mem_vazuran_systems.103.a:0 "Мы должны подготовиться к этому сценарию."
+ mem_vazuran_systems.103.name:0 "The Swarm"
+ mem_vazuran_systems.103.desc:0 "With the knowledge of what once happened here and the threat of another extragalactic invasion, our [root.owner.GetScientistResearchSubroutinePlural] call for wide-ranging preparations as a contingency in case the swarm were to return. For all we know, this invasion force could have merely been a vanguard, despite how dangerous and threatening it clearly was. Given this looming shadow on the horizon, a few of them have already put forward a proposal to carry out in-depth studies on the available samples in order to find possible weaknesses to exploit, should we ever face this foe."
+ mem_vazuran_systems.103.a:0 "We should prepare for this scenario."
 
  ########################################################
  # Colony Trap Event Chain
@@ -66,9 +66,9 @@
 
  # Colony Trap Story Line Intro
  mem_vazuran_systems.1b.desc:0 "REPLACE_ME"
- mem_vazuran_systems.1.b:0 "Начать исследование."
+ mem_vazuran_systems.1.b:0 "Commence an investigation."
 
  # Scourge Event Chain
- mem_vazuran_event_system_colony_trap_chain_title:0 "Опустошённая система"
- mem_vazuran_event_system_colony_trap_chain_desc:0 "Исследуйте остатки апокалиптического события, произошедшего в системе [mem_vazuran_event_system_01.GetName]."
- mem_vazuran_event_system_colony_trap_projects_researched:0 "Законченные исследования"
+ mem_vazuran_event_system_colony_trap_chain_title:0 "Devastated System"
+ mem_vazuran_event_system_colony_trap_chain_desc:0 "Research the remains of the apocalyptic event that took place in the [mem_vazuran_event_system_01.GetName] system."
+ mem_vazuran_event_system_colony_trap_projects_researched:0 "Finished Investigations"

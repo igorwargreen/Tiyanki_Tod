@@ -67,6 +67,7 @@ tr_plentiful_industry_4 = {
 	}
 	modifier = {
 		planet_max_districts_add = 4
+		habitat_max_districts_add = -3
 		station_gatherers_minerals_produces_mult = 1
 	}
 	

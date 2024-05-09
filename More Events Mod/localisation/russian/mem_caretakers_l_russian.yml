@@ -4,13 +4,13 @@
 l_russian: 
 
  #Traits
- mem_caretakers_trait:0 "Дроны-смотрители"
- mem_caretakers_trait_desc:0 "Этот маленький, послушный вид был сконструирован так, чтобы иметь врожденное понимание сложных механизмов."
+ mem_caretakers_trait:0 "Caretaker Drones"
+ mem_caretakers_trait_desc:0 "This small, docile species was engineered to have an innate understanding of complex machinery."
 
  #Event
- mem_caretaker.1.name:0 "Ремонтный персонал"
- mem_caretaker.1.desc:0 "Корабль §Y[Root.GetName]§! завершил обследование заброшенной станции обитания в системе §Y[From.Solar_System.GetName]§!. Несмотря на преклонный возраст, станция, похоже, все еще работает, пусть и на половину мощности. \n\nОбнаруженные внутри признаки жизни указывают на присутствие множества мелких существ. Хотя они не обладают настоящей разумностью, они, похоже, были выведены или генетически сконструированы для инстинктивного понимания сложных механизмов. Кроме нескольких обвалившихся секций, они сохраняли станцию пригодной для жизни в течение длительного периода времени, предположительно ожидая, когда прибудут законные владельцы, чтобы занять место обитания. \n\nВозможно, мы сможем преобразить этих низших существ, используя правильные технологии."
+ mem_caretaker.1.name:0 "Maintenance Crew"
+ mem_caretaker.1.desc:0 "The §Y[Root.GetName]§! has completed its survey of an abandoned habitat station in the §Y[From.Solar_System.GetName] System§!. Despite its advanced age, it still seems to be operational, even if at half capacity. \n\nLife signs detected inside indicate the presence of numerous small creatures. Though they do not possess true sapience, they appear to be bred or genetically engineered to have an instinctive understanding of complex machinery. Aside from a few collapsed sections, they have kept the station habitable for a long period of time, presumably waiting for the rightful owners to arrive and claim the habitat. \n\nWe might be able to uplift these lesser beings, with the right technology."
 
  #Blockers
- d_mem_caretakers_ruined_section:0 "Поврежденная секция"
- d_mem_caretakers_ruined_section_desc:0 "Этот участок среды обитания поддался разрушительному воздействию времени и случайных ударов астероидов. Для того чтобы сделать ее пригодной для жизни, необходимо провести масштабный ремонт и очистку."
+ d_mem_caretakers_ruined_section:0 "Ruined Section"
+ d_mem_caretakers_ruined_section_desc:0 "This habitat section has given in to the ravages of time and random asteroid impacts. Extensive repairs and clean-up is required to make it habitable again."

@@ -3,73 +3,73 @@
  #Text & Code by Malthus
 
  #Vazuran Menace Event Chain
- mem_vazuran_menace_chain_title:0 "Угроза Вазуран"
- mem_vazuran_menace_chain_desc:0 "Таинственный враг нападает на нашу Галактику из-за пределов известного нам пространства."
- mem_vazuran_menace_raids:0 "Рейды Вазуран"
- mem_vazuran_menace_ships_destroyed_us:0 "Корабли Вазуран уничтоженые нами"
- mem_vazuran_menace_ships_destroyed_others:0 "Корабли Вазуран уничтоженые другими"
- mem_vazuran_menace_fleets_destroyed:0 "Уничтожено флотов Вазуран"
- mem_vazuran_menace_colonies_destroyed:0 "Вазуранами уничтожено колоний"
- mem_vazuran_menace_homeworlds_razed:0 "Вазуранами атаковано Родных миров"
- mem_vazuran_menace_victims:0 "Вазуранами уничтожено кораблей"
- mem_vazuran_menace_pops_killed:0 "Вазуранами убито поселений"
+ mem_vazuran_menace_chain_title:0 "The Vazuran Menace"
+ mem_vazuran_menace_chain_desc:0 "A mysterious enemy attacks our galaxy from outside of known space."
+ mem_vazuran_menace_raids:0 "Vazuran Raids"
+ mem_vazuran_menace_ships_destroyed_us:0 "Vazuran Ships Destroyed by Us"
+ mem_vazuran_menace_ships_destroyed_others:0 "Vazuran Ships Destroyed By Others"
+ mem_vazuran_menace_fleets_destroyed:0 "Vazuran Fleets Destroyed"
+ mem_vazuran_menace_colonies_destroyed:0 "Colonies Destroyed By Vazurans"
+ mem_vazuran_menace_homeworlds_razed:0 "Homeworlds Attacked By Vazurans"
+ mem_vazuran_menace_victims:0 "Ships Destroyed By Vazurans"
+ mem_vazuran_menace_pops_killed:0 "Pops Killed By Vazurans"
 
  #shipsizes (multipliers just added to get rid of errormessages)
- mem_vazuran_weapon:0 "Левиафан"
- mem_vazuran_weapon_plural:0 "Левиафаны"
+ mem_vazuran_weapon:0 "Leviathan"
+ mem_vazuran_weapon_plural:0 "Leviathans"
  shipsize_mem_vazuran_weapon_construction_speed_mult:0 ""
  shipsize_mem_vazuran_weapon_build_cost_mult:0 ""
  shipsize_mem_vazuran_weapon_upkeep_mult:0 ""
- mem_vazuran_cruiser:0 "Линейный крейсер"
- mem_vazuran_cruiser_plural:0 "Линейные Крейсеры"
+ mem_vazuran_cruiser:0 "Battlecruiser"
+ mem_vazuran_cruiser_plural:0 "Battlecruisers"
  shipsize_mem_vazuran_cruiser_construction_speed_mult:0 ""
  shipsize_mem_vazuran_cruiser_build_cost_mult:0 ""
  shipsize_mem_vazuran_cruiser_upkeep_mult:0 ""
- mem_vazuran_escort:0 "Фрегат"
- mem_vazuran_escort_plural:0 "Фрегаты"
+ mem_vazuran_escort:0 "Frigate"
+ mem_vazuran_escort_plural:0 "Frigates"
  shipsize_mem_vazuran_escort_construction_speed_mult:0 ""
  shipsize_mem_vazuran_escort_build_cost_mult:0 ""
  shipsize_mem_vazuran_escort_upkeep_mult:0 ""
- mem_vazuran_control_drone:0 "Командный дрон"
- mem_vazuran_control_drone_plural:0 "Командный дрон"
+ mem_vazuran_control_drone:0 "Command Drone"
+ mem_vazuran_control_drone_plural:0 "Command Drones"
  shipsize_mem_vazuran_control_drone_construction_speed_mult:0 ""
  shipsize_mem_vazuran_control_drone_build_cost_mult:0 ""
  shipsize_mem_vazuran_control_drone_upkeep_mult:0 ""
- mem_vazuran_combat_drone:0 "Боевой дрон"
- mem_vazuran_combat_drone_plural:0 "Боевые дроны"
+ mem_vazuran_combat_drone:0 "Combat Drone"
+ mem_vazuran_combat_drone_plural:0 "Combat Drones"
  shipsize_mem_vazuran_combat_drone_construction_speed_mult:0 ""
  shipsize_mem_vazuran_combat_drone_build_cost_mult:0 ""
  shipsize_mem_vazuran_combat_drone_upkeep_mult:0 ""
- mem_vazuran_large_military_station:0 "Крепость"
- mem_vazuran_large_military_station_plural:0 "Крепости"
+ mem_vazuran_large_military_station:0 "Fortress"
+ mem_vazuran_large_military_station_plural:0 "Fortresses"
  shipsize_mem_vazuran_large_military_station_construction_speed_mult:0 ""
  shipsize_mem_vazuran_large_military_station_build_cost_mult:0 ""
  shipsize_mem_vazuran_large_military_station_upkeep_mult:0 ""
- mem_vazuran_small_military_station:0 "Бастион"
- mem_vazuran_small_military_station_plural:0 "Бастионы"
+ mem_vazuran_small_military_station:0 "Bastion"
+ mem_vazuran_small_military_station_plural:0 "Bastions"
  shipsize_mem_vazuran_small_military_station_construction_speed_mult:0 ""
  shipsize_mem_vazuran_small_military_station_build_cost_mult:0 ""
  shipsize_mem_vazuran_small_military_station_upkeep_mult:0 ""
 
  #shipsections
- mem_vazuran_combat_drone_key:0 "Боевой дрон"
- mem_vazuran_control_drone_key:0 "Командный дрон"
- mem_vazuran_escort_key:0 "Фрегат"
- mem_vazuran_cruiser_key:0 "Линейный крейсер"
- mem_vazuran_weapon_key:0 "Левиафан"
- mem_vazuran_small_military_station_key:0 "Бастион"
- mem_vazuran_large_military_station_key:0 "Крепость"
+ mem_vazuran_combat_drone_key:0 "Combat Drone Section"
+ mem_vazuran_control_drone_key:0 "Command Drone Section"
+ mem_vazuran_escort_key:0 "Frigate Section"
+ mem_vazuran_cruiser_key:0 "Battlecruiser Section"
+ mem_vazuran_weapon_key:0 "Leviathan Section"
+ mem_vazuran_small_military_station_key:0 "Bastion Section"
+ mem_vazuran_large_military_station_key:0 "Fortress Section"
 
  #planet
- pc_mem_vazuran_habitat:0 "Орбитальная станция Предтеч"
- pc_mem_vazuran_habitat_desc:0 "Аркология предтеч предоставляет планетарно-городские условия жизни. Гидропоника и передовые технологии фильтрации делают станцию самодостаточной, а станционные сооружения могут добывать сырье на планете, на орбите которой расположена станция."
- pc_mem_vazuran_habitat_tile:0 "Орбитальная станция Предтеч"
- pc_mem_vazuran_habitat_tile_desc:0 "Древняя станция построенная цивилизацией предтеч."
- pc_mem_vazuran_habitat_habitability:0 "Приспособленность к орбитальной станции"
- trait_pc_mem_vazuran_habitat_preference:0 "Предпочтение - орбитальная станция"
+ pc_mem_vazuran_habitat:0 "Precursor Habitat"
+ pc_mem_vazuran_habitat_desc:0 "A precursor deep-space arcology offering planet-like, if decidedly urban, living conditions. Hydroponics and advanced filtering technologies make it self-sustaining, and station-borne facilities can mine the station's host planet for raw materials."
+ pc_mem_vazuran_habitat_tile:0 "Precursor Habitat"
+ pc_mem_vazuran_habitat_tile_desc:0 "An ancient Habitat build by a precursor civilization."
+ pc_mem_vazuran_habitat_habitability:0 "Habitat Habitability"
+ trait_pc_mem_vazuran_habitat_preference:0 "Habitat Preference"
  trait_pc_mem_vazuran_habitat_preference_desc:0 "$trait_pc_habitat_preference_desc$"
- pc_mem_vazuran_habitat_adj:0 "искусственная"
- mod_pc_mem_vazuran_habitat_habitability:0 "Пригодность орбитали"
+ pc_mem_vazuran_habitat_adj:0 "artificial"
+ mod_pc_mem_vazuran_habitat_habitability:0 "Habitat Habitability"
 
  #buildings
  mem_building_ancient_palace:0 "$building_ancient_palace$"
@@ -78,412 +78,411 @@
  mem_building_fe_stronghold_desc:0 "$building_fe_stronghold_desc$"
 
  #Techs
- tech_mem_vazuran_xentronium_armor:0 "Ксетрониевая броня"
- tech_mem_vazuran_xentronium_armor_desc:0 "Этот сверхплотный материал когда-то был установлен на корабли Вазуран и обладал непревзойденной долговечностью. Он значительно превосходит любые другие известные нам типы брони."
+ tech_mem_vazuran_xentronium_armor:0 "Xentronium Armor"
+ tech_mem_vazuran_xentronium_armor_desc:0 "This super dense material once provided Vazuran vessels with extreme durability. It is vastly superior to any other known armor types."
 
- tech_mem_vazuran_xentronium_rounds:0 "Ксетрониевые патроны"
- tech_mem_vazuran_xentronium_rounds_desc:0 "Этот сверхплотный материал когда-то был установлен на корабли Вазуран и обладал непревзойденной долговечностью. Но его характеристики также делают его предпочтительным материалом для наших кинетических боеприпасов."
+ tech_mem_vazuran_xentronium_rounds:0 "Xentronium Rounds"
+ tech_mem_vazuran_xentronium_rounds_desc:0 "This super dense material once provided Vazuran vessels with extreme durability. In addition, its characteristics also make it the material of choice for our kinetic ammunition."
  
- tech_mem_vazuran_damper_field_bypass:0 "Обход демпферовых полей"
- tech_mem_vazuran_damper_field_bypass_desc:0 "Более глубокое понимание основных физических законов, на которых основана технология демпферного поля позволит нам обойти ее воздействие на наши корабли - по крайней мере, хоть в какой-то степени..."
+ tech_mem_vazuran_damper_field_bypass:0 "Damper Field Bypass"
+ tech_mem_vazuran_damper_field_bypass_desc:0 "Deeper insight into the underlying physical laws the damper field technology is based on will allow us to bypass its effect on our weaponry - at least to some degree..."
 
- tech_mem_vazuran_rift_stabilization:0 "Стабилизация разлома"
- tech_mem_vazuran_rift_stabilization_desc:0 "Нашим учёным выпала возможность восстановить разлом, который привёл флот Вазуран к нашей столичной системе."
- 
- feature_mem_vazuran_rift_stabilization:0 "§HОткроется возможность:§! Стабилизация разлома"
- feature_mem_vazuran_rift_stabilization_desc:0 "Позволит нам §HСтабилизировать разлом§!, который Вазуран использовали для нападения на наш родной мир."
+ tech_mem_vazuran_rift_stabilization:0 "Rift Stabilization"
+ tech_mem_vazuran_rift_stabilization_desc:0 "Our scientists see the possibility of re-establishing a closed rift to form a permanent connection to the source location."
 
- tech_mem_vazuran_rift_travel:0 "Путешествие по разлому"
- tech_mem_vazuran_rift_travel_desc:0 "Несмотря на поверхностное сходство с естественными червоточинами, принцип работы разломов и их полностью искусственное происхождение всё ещё озадачивают наших учёных. Однако способ безопасного перемещения через эти дыры в реальности, возможно, находится в пределах нашей досягаемости."
- 
- feature_mem_vazuran_rift_travel:0 "§HОткроется возможность:§! Путешествие по разлому"
- feature_mem_vazuran_rift_travel_desc:0 "§HПутешествие по Разлому§!\nПозволит нашим кораблям проходить через разломы."
+ feature_mem_vazuran_rift_stabilization:0 "§HUnlocks Feature:§! Rift Stabilization"
+ feature_mem_vazuran_rift_stabilization_desc:0 "§HRift Stabilization§!\nAllows us to stabilize the rift the Vazurans used to attack our homeworld."
+
+ tech_mem_vazuran_rift_travel:0 "Rift Travel"
+ tech_mem_vazuran_rift_travel_desc:0 "Despite there being some superficial similarities with natural wormholes, the way rifts function and their completely artificial origin still baffle our scientists. A way to safely traverse these holes in reality may be within reach though."
+
+ feature_mem_vazuran_rift_travel:0 "§HUnlocks Feature:§! Rift Travel"
+ feature_mem_vazuran_rift_travel_desc:0 "§HRift Travel§!\nAllows our ships to travel through rifts."
 
  #ambient objects
- mem_vazuran_wreckage_object:0 "Обломки Вазуран"
+ mem_vazuran_wreckage_object:0 "Vazuran Wreckage"
 
  #Components
- MEM_VAZURANS_ENERGY_DAMPENER:0 "Энергетическое демпфер поле"
- mem_vazurans_aura_energy_dampener:0 "Демпфер энергии"
- mem_VAZURAN_ARMOR:0 "Ксетрониевая броня"
- mem_VAZURAN_ARMOR_DESC:0 "Этот сверхплотный материал когда-то был установлен на корабли Вазуран и обладал непревзойденной долговечностью. Он значительно превосходит любые другие известные нам типы брони."
- mem_XENTRONIUM_ARMOR_L:0 "Большая Ксетрониевая броня"
- mem_XENTRONIUM_ARMOR_M:0 "Средняя Ксетрониевая броня"
- mem_XENTRONIUM_ARMOR_S:0 "Малая Ксетрониевая броня"
- mem_VAZURAN_DRONE_HANGAR:0 "Ангар дронов"
- mem_VAZURAN_PD:0 "ПКО «Пушка»"
+ MEM_VAZURANS_ENERGY_DAMPENER:0 "Energy Damper Field"
+ mem_vazurans_aura_energy_dampener:0 "Energy Dampener"
+ mem_VAZURAN_ARMOR:0 "Xentronium Armor"
+ mem_VAZURAN_ARMOR_DESC:0 "This super dense material once provided Vazuran vessels with extreme durability. It is vastly superior to any other known armor types."
+ mem_XENTRONIUM_ARMOR_L:0 "Large Xentronium Armor"
+ mem_XENTRONIUM_ARMOR_M:0 "Medium Xentronium Armor"
+ mem_XENTRONIUM_ARMOR_S:0 "Small Xentronium Armor"
+ mem_VAZURAN_DRONE_HANGAR:0 "Drone Hangar"
+ mem_VAZURAN_PD:0 "Point Defense Cannon"
 
  #Modifiers
- mod_damage_vs_country_type_mem_vazurans_mult:0 "Урон по Вузуранам"
+ mod_damage_vs_country_type_mem_vazurans_mult:0 "Damage to Vazurans"
 
- mem_vazurans_damper_field_exploit:0 "Адаптация к демпфер полю"
- mem_vazurans_damper_field_exploit_desc:0 "Благодаря нашим представлениям о возможностях демпфер поля, мы смогли адаптировать наше оружие к воздействиям демпфер поля."
+ mem_vazurans_damper_field_exploit:0 "Damper Field Adaptation"
+ mem_vazurans_damper_field_exploit_desc:0 "Thanks to our basic insights into its capabilities and limits, we were able to adapt our weaponry to exploit a few minor weaknesses."
 
- mem_vazurans_raided:0 "Цель рейда Вазуран"
- mem_vazurans_raided_desc:0 "Эта планета была опустошена во время жестокого рейда Вазуран. Потребуется много времени, чтобы оправиться от этого безжалостного удара."
+ mem_vazurans_raided:0 "Targeted by a Vazuran raid"
+ mem_vazurans_raided_desc:0 "This planet has been devastated during a brutal raid by the Vazurans. It will take a long time to recover from this ruthless blow."
 
  #deposit blocker
  d_mem_vazuran_bomb_crater:0 "$d_bomb_crater$"
  d_mem_vazuran_bomb_crater_desc:0 "$d_bomb_crater_desc$"
  #Blockers
- d_mem_vazuran_ruined_section:0 "Разрушенная Секция"
- d_mem_vazuran_ruined_section_desc:0 "Этот участок среды обитания был разрушен в результате многократных попаданий снарядов. Для того, чтобы он снова стал пригодным для жизни, необходимо провести капитальный ремонт и очистку."
+ d_mem_vazuran_ruined_section:0 "Ruined Section"
+ d_mem_vazuran_ruined_section_desc:0 "This habitat section has been devastated by multiple projectile impacts. Extensive repairs and clean-up is required to make it habitable again."
 
  #Opinion Modifier
- mem_ended_vazuran_menace:0 "Угроза Вазуран миновала"
+ mem_ended_vazuran_menace:0 "Ended Vazuran Menace"
  
  #Megastructures
  #standard empire stabilized rift
- mem_vazuran_gateway:0 "Стабилизированный разлом"
- mem_vazuran_gateway_DESC:0 "Восстановленный разлом, соединяющий эту систему с цепью разломов."
+ mem_vazuran_gateway:0 "Stabilized Rift"
+ mem_vazuran_gateway_DESC:0 "A re-established rift connecting this system to the rift nexus."
  mem_vazuran_gateway_MEGASTRUCTURE_DETAILS:0 ""
  mem_vazuran_gateway_CONSTRUCTION_INFO_DELAYED:0 ""
  #Vazuran Rift Nexus
- mem_vazuran_gateway_nexus:0 "Цепь разломов"
- mem_vazuran_gateway_nexus_DESC:0 "Цепь разломов, формирующая автономные разломы в ткани пространства, которые позволяют перемещаться между другими разломами."
+ mem_vazuran_gateway_nexus:0 "Rift Nexus"
+ mem_vazuran_gateway_nexus_DESC:0 "A nexus for establishing dimensional rifts through the very fabric of space that enables instantaneous travel to established rifts."
  mem_vazuran_gateway_nexus_MEGASTRUCTURE_DETAILS:0 ""
  mem_vazuran_gateway_nexus_CONSTRUCTION_INFO_DELAYED:0 ""
  #Vazuran Rift Endpoint
- mem_vazuran_gateway_endpoint:0 "Станция разломов"
- mem_vazuran_gateway_endpoint_DESC:0 "Установка, используемая для стабилизации пространственных разломов, позволяющая постоянно использовать их в качестве средства для мгновенного путешествия в систему, к которой подключен разлом."
+ mem_vazuran_gateway_endpoint:0 "Rift Terminus"
+ mem_vazuran_gateway_endpoint_DESC:0 "An installation used to stabilize dimensional rifts in its location, allowing for continuous usage as a means for instantaneous travel to the system the rift is connected to."
  mem_vazuran_gateway_endpoint_MEGASTRUCTURE_DETAILS:0 ""
  mem_vazuran_gateway_endpoint_CONSTRUCTION_INFO_DELAYED:0 ""
  #Vazuran Ruined Rift Endpoint
- mem_vazuran_gateway_endpoint_ruined:0 "Разрушенная станция разломов"
- mem_vazuran_gateway_endpoint_ruined_DESC:0 "Эта разрушенная установка может быть использована для стабилизации пространственных разломов, что позволяет постоянно использовать ее в качестве средства для мгновенного путешествия в систему, к которой подключен разлом."
+ mem_vazuran_gateway_endpoint_ruined:0 "Ruined Rift Terminus"
+ mem_vazuran_gateway_endpoint_ruined_DESC:0 "This ruined installation could be, if restored, used to stabilize dimensional rifts in its location, allowing for continuous usage as a means for instantaneous travel to the system the rift is connected to."
  mem_vazuran_gateway_endpoint_ruined_MEGASTRUCTURE_DETAILS:0 ""
  mem_vazuran_gateway_endpoint_ruined_CONSTRUCTION_INFO_DELAYED:0 ""
  #Ruined Precursor Habitat
- mem_vazuran_habitat_ruined:0 "Разрушенная орбитальная станция Предтеч"
- mem_vazuran_habitat_ruined_DESC:0 "Разрушенная орбитальная станция Предтеч. Хотя ее внутренности были вычищены мародёрами много веков назад, главный корпус мегасооружения всё ещё в цел. При наличии нужной технологии и большого количества ресурсов ее можно восстановить."
+ mem_vazuran_habitat_ruined:0 "Ruined Precursor Habitat"
+ mem_vazuran_habitat_ruined_DESC:0 "A ruined Precursor Habitat. Although its insides were stripped clean by looters aeons ago, the megastructure's main hull is still mostly intact. With the right technology and a lot of resources, it could potentially be refurbished."
  mem_vazuran_habitat_ruined_MEGASTRUCTURE_DETAILS:0 ""
  #Precursor Habitat
- mem_vazuran_habitat:0 "Орбитальная станция Предтеч"
- mem_vazuran_habitat_DESC:0 "Аркология предтеч предоставляет планетарно-городские условия жизни. Гидропоника и передовые технологии фильтрации делают станцию самодостаточной, а станционные сооружения могут добывать сырье на планете, на орбите которой расположена станция."
+ mem_vazuran_habitat:0 "Precursor Habitat"
+ mem_vazuran_habitat_DESC:0 "A precursor deep-space arcology offering planet-like, if decidedly urban, living conditions. Hydroponics and advanced filtering technologies make it self-sustaining, and station-borne facilities can mine the station's host planet for raw materials."
 
  #bypass
- GATEWAY_VAZURAN:0 "Межпространственный разлом"
- GATEWAY_VAZURAN_DESC:0 "Искусственно созданный разлом, образующий проход между несколькими пространствами."
+ GATEWAY_VAZURAN:0 "Interdimensional Rift"
+ GATEWAY_VAZURAN_DESC:0 "An artificially created rift forming a passage between two locations."
 
  #Rift opens
- mem_vazurans.4.name:0 "Формируется подпространственный разлом"
+ mem_vazurans.4.name:0 "A Subspace Rift is Forming"
  #first rift ever seen in own territory
- mem_vazurans.4a.desc:0 "В системе [mem_vazurans_target_sun.GetName] нашими сенсорами был замечен огромный скачок энергии. Первые доклады описывают его как пространственный разлом, дыру в самой реальности.\n\nСистемы обороны находятся в состоянии повышенной готовности, и местные власти запрашивают немедленную помощь от нашего флота."
- mem_vazurans.4a.desc.gestalt:0 "Наши локальные сенсорные станции в системе [mem_vazurans_target_sun.GetName] обнаружили огромный всплеск энергии. Мы отправили дронов, чтобы исследовать это явление. Всплеск энергии оказался огромным разломом в пространстве — дырой в самой реальности.\n\nСистемы обороны находятся в состоянии повышенной готовности. Нам необходимо насторожиться, и послать флот в эту систему."
+ mem_vazurans.4a.desc:0 "An enormous energy spike has been reported by local sensor stations in the [mem_vazurans_target_sun.GetName] system. First reports describe its source as a rift in space - a hole in reality itself.\n\nSystem defense is on high alert and local authorities request immediate assistance from our naval forces."
+ mem_vazurans.4a.desc.gestalt:0 "Our local sensor stations in the [mem_vazurans_target_sun.GetName] system have detected an enormous energy spike. We have dispatched drones to investigate what appears to be a rift in space - a hole in reality itself.\n\nSystem defense is on high alert. We should take the precaution of sending our fleet to reinforce our subroutines in charge of the system."
 
  #every later standard rift encounter
- mem_vazurans.4b.desc:0 "Сенсорные станции в системе [mem_vazurans_target_sun.GetName] сообщают нам об образовании нового разлома. Наш флот находится в полной боевой готовности. Мы должны готовится к худшему."
+ mem_vazurans.4b.desc:0 "Sensor stations in the [mem_vazurans_target_sun.GetName] system report that a new subspace rift is forming. Our fleet has already been put on high alert. We should prepare for the worst."
  #retaliation rift encounter
- mem_vazurans.4c.desc:0 "Сенсорные станции в системе [mem_vazurans_target_sun.GetName] сообщают нам об образовании гигантского разлома. Судя по размеру, надвигается мощная буря. Мы должны подготовиться к худшему."
+ mem_vazurans.4c.desc:0 "Sensor stations in the [mem_vazurans_target_sun.GetName] system report that a giant subspace rift is forming. Judging by its size, there is a mighty storm coming. We should prepare for the worst."
  #response in first encounter
- mem_vazurans.4.a:0 "Проведите расследование этой аномалии."
+ mem_vazurans.4.a:0 "Issue an investigation of this anomaly."
  #response in later encounter
- mem_vazurans.4.b:0 "Подготовьте флот к бою."
+ mem_vazurans.4.b:0 "Get the fleet ready."
  #response in retaliation encounter
- mem_vazurans.4.c:0 "Мы не дрогнем."
+ mem_vazurans.4.c:0 "We shall not waver."
 
- MEM_VAZURANS_RIFT_INVESTIGATION:0 "Исследование подпространственного разлома"
- MEM_VAZURANS_RIFT_INVESTIGATION_DESC:0 "Наши ученые до сих пор озадачены тем, как образовался этот разрыв в пространстве-времени. Мы должны найти ответы."
+ MEM_VAZURANS_RIFT_INVESTIGATION:0 "Subspace Rift Investigation"
+ MEM_VAZURANS_RIFT_INVESTIGATION_DESC:0 "Our scientists are still baffled as to how this rift in spacetime has formed. We have to find answers."
  
  #Rift opens and fleet spawns
- mem_vazurans.5.name:0 "Мы атакованы"
+ mem_vazurans.5.name:0 "We Are Under Attack"
  #first encounter
- mem_vazurans.5a.desc:0 "В разломе образовался своего рода портал. Из него начали выходить корабли неизвестной конструкции. Они пытаются связаться с нами."
+ mem_vazurans.5a.desc:0 "The rift has formed some kind of portal. Ships of unknown design have begun to pour out of it. They are hailing us."
  #after first encounter has happened before
- mem_vazurans.5b.desc:0 "Портал сформировался, и было подтверждено, что враждебно настроенные силы движутся к нашей колонии. Похоже, это один из их рейдерских флотов."
+ mem_vazurans.5b.desc:0 "The portal has formed and hostile forces have been confirmed moving towards our colony. This appears to be another one of their raiding fleets."
  #retaliation encounter
- mem_vazurans.5c.desc:0 "Образовался гигантский портал, через который прорвался огромный флот. Он направляется прямо на нашу родную планету."
+ mem_vazurans.5c.desc:0 "A giant portal has formed unleashing an enormous fleet. It is heading directly for our homeworld."
  #response in first encounter
- mem_vazurans.5.a:0 "На экран."
+ mem_vazurans.5.a:0 "On screen."
  #response in later encounter
- mem_vazurans.5.b:0 "Защитить колонию."
+ mem_vazurans.5.b:0 "Protect the colony."
  #response in retaliation encounter
- mem_vazurans.5.c:0 "Защищать [root.Capital.GetName] любой ценой!"
+ mem_vazurans.5.c:0 "Defend [root.Capital.GetName] at all cost!"
 
  #First Contact message
- mem_vazurans.6.name:0 "Входящее сообщение"
- mem_vazurans.6a.desc:0 "Мы Вазуране. Мы сделали эту галактику своей задолго до того, как ваши предки покинули свои жалкие пещеры...\n\nТы будешь служить нам или разделять судьбу тех, кто был до тебя.\n\nЗнайте, что вы существуете только потому, что мы позволяем это...\n\nВ случае неповиновения вы все будете уничтожены..."
- mem_vazurans.6b.desc:0 "Ваш вид более живуч, чем мы ожидали...\n\nМы Вазуране. Мы сделали эту галактику своей задолго до того, как ваши предки покинули свои жалкие пещер...\n\nТы будешь служить нам или разделять судьбу тех, кто был до тебя. Мы сожгли твой мир однажды, и мы сможем сделать это снова.\n\nЗнай, что ты существуешь только потому, что мы позволяем...\n\nВ случае неповиновения вы все будете уничтожены."
- mem_vazurans.6.a:0 "Кто вы?"
- mem_vazurans.6.a.response:0 "Твои Хозяева... Тебе не нужно знать большего..."
+ mem_vazurans.6.name:0 "Incoming Message"
+ mem_vazurans.6a.desc:0 "We are the Vazurans. We made this galaxy ours long before your ancestors even left their pitiful caves...\n\nYou will serve us or share the same fate as those who came before you.\n\nKnow that you merely exist because we allow it...\n\nAnd should you dare to resist, you will end as we demand it."
+ mem_vazurans.6b.desc:0 "Your kind is more resilient than expected...\n\nWe are the Vazurans. We made this galaxy ours long before your ancestors even left their pitiful caves...\n\nYou will serve us or share the same fate as those who came before you. We burned your world once and we can do so again.\n\nKnow that you exist merely because we allow it...\n\nAnd should you dare to resist, you will end as we demand it."
+ mem_vazurans.6.a:0 "Who are you?"
+ mem_vazurans.6.a.response:0 "Your Masters... You do not need to know more..."
  #peaceful reply
- mem_vazurans.6.b:0 "Но должен же быть способ мирно сосуществовать!?"
- mem_vazurans.6.b.response:0 "Несомненно... Мы правим, ты служишь..."
+ mem_vazurans.6.b:0 "But there has to be a way to peacefully coexist!?"
+ mem_vazurans.6.b.response:0 "Indeed... We rule, you serve..."
  #xenophobe reply
- mem_vazurans.6.c:0 "Мы не боимся тебя, Ксеномразь..."
- mem_vazurans.6.c.response:0 "Ты будешь... со временем."
+ mem_vazurans.6.c:0 "We do not fear you, Xeno..."
+ mem_vazurans.6.c.response:0 "You will... in time."
 
  #Message for retaliation
- mem_vazurans.7.name:0 "Входящее сообщение"
- mem_vazurans.7a.desc:0 "Ваше продолжающееся сопротивление слишком долго было помехой. Мы послали наш флот, чтобы показать вам последствия ваших действий."
- mem_vazurans.7b.desc:0 "Вы думали, что манипуляции с нашими технологиями останутся незамеченным? Теперь вы ответите за свое святотатство..."
- mem_vazurans.7.a:0 "Прекратите передачу."
+ mem_vazurans.7.name:0 "Incoming Message"
+ mem_vazurans.7a.desc:0 "Your continued resistance has been a nuisance for too long. We have sent our fleet to show you the consequences of your actions."
+ mem_vazurans.7b.desc:0 "Did you think that your tinkering with our technology would go unnoticed? You will now answer for your sacrilege..."
+ mem_vazurans.7.a:0 "Terminate the transmission."
 
  #Colony lost to Vazuran Terror attack
- mem_vazurans.8.name:0 "Колония потеряна"
- mem_vazurans.8.desc:0 "На этот раз вазуранцам не понравились наши ресурсы. Была уничтожена целая колония, а мы по-прежнему не в состоянии отреагировать на эти зверства."
- mem_vazurans.8.a:0 "Должен быть способ остановить их!"
- mem_vazurans.8.b:0 "Мы должны защитить наш народ... хоть как-то!"
+ mem_vazurans.8.name:0 "Colony Lost"
+ mem_vazurans.8.desc:0 "The Vazurans were not satisfied with taking our resources this time. An entire colony has been destroyed while we remain unable to respond to these atrocities."
+ mem_vazurans.8.a:0 "There has to be a way to stop them!"
+ mem_vazurans.8.b:0 "We have to protect our people... somehow!"
 
  #Colony attacked by Vazuran Raid
- mem_vazurans.9.name:0 "Колония подверглась рейду"
- mem_vazurans.9.desc.a:0 "Наша колония [mem_vazurans_raid_planet_name.GetName] была разграблена Вазуранским флотом. Бесчисленное множество граждан погибло в результате этого безрассудного нападения, и инфраструктура планеты была разрушена.\n\nНесмотря на этот ужасный исход, потери и ущерб были бы еще больше, если бы не наша планетарная оборона."
- mem_vazurans.9.desc.b:0 "Наша колония [mem_vazurans_raid_planet_name.GetName] был атакован рейдерским флотом Вазуран. Бесчисленное множество граждан погибло в результате этого безрассудного нападения, и инфраструктура планеты была разрушена."
- mem_vazurans.9.a:0 "Мы выдержим несмотря ни на что!"
- mem_vazurans.9.b:0 "Мы должны укрепить нашу защиту!"
- mem_vazurans.9.c:0 "Мы должны защитить наш народ... Но как?!"
+ mem_vazurans.9.name:0 "Colony Raided"
+ mem_vazurans.9.desc.a:0 "Our colony on [mem_vazurans_raid_planet_name.GetName] has been hit by a Vazuran raiding fleet. Countless citizens lost their lives to this reckless attack and the planet's infrastructure has been devastated.\n\nDespite this horrific outcome, the casualties and damage would have been even greater had it not been for our planetary defenses."
+ mem_vazurans.9.desc.b:0 "Our colony on [mem_vazurans_raid_planet_name.GetName] has been hit by a Vazuran raiding fleet. Countless citizens lost their lives to this reckless attack and the planet's infrastructure has been devastated."
+ mem_vazurans.9.a:0 "We will endure!"
+ mem_vazurans.9.b:0 "We have to strengthen our defenses!"
+ mem_vazurans.9.c:0 "We have to protect our people...But how?!"
 
  #Planetary defense project
- MEM_VAZURANS_DEFENSE_PLAN:0 "Укрепление обороны"
- MEM_VAZURANS_DEFENSE_PLAN_DESC:0 "После разрушительного нападения на одну из наших колоний, была выдвинута инициатива по поиску путей более эффективной защиты нашего народа от угрозы Вазуран."
+ MEM_VAZURANS_DEFENSE_PLAN:0 "Strengthening the Defenses"
+ MEM_VAZURANS_DEFENSE_PLAN_DESC:0 "Following the devastating attack on one of our colonies, an initiative has been launched to find ways to better protect our people against the Vazuran menace."
 
  #Information event about a known empire being attacked
- mem_vazurans.20.name:0 "Галактический хаос"
- mem_vazurans.20a.desc:0 "Мы получили сообщения о нападении неизвестных сил на [mem_vazuran_victim.GetName]."
- mem_vazurans.20b.desc:0 "Наши информаторы в [mem_vazuran_victim.GetName] сообщают об очередном нападении сил Вазуран."
- mem_vazurans.20c.desc:0 "Мы получили сообщения о продолжающемся рейде сил Вазуран против [mem_vazuran_victim.GetName]."
- mem_vazurans.20d.desc:0 "Вновь Вазуранские силы начали один из своих рейдов. На этот раз они нацелились на [mem_vazuran_victim.GetName]."
+ mem_vazurans.20.name:0 "Turmoil in the Galaxy"
+ mem_vazurans.20a.desc:0 "We have received reports about an unknown force attacking the [mem_vazuran_victim.GetName]."
+ mem_vazurans.20b.desc:0 "Our informants in the [mem_vazuran_victim.GetName] report another ongoing raid by the Vazuran forces."
+ mem_vazurans.20c.desc:0 "We have received reports about an ongoing raid by the Vazuran forces against the [mem_vazuran_victim.GetName]."
+ mem_vazurans.20d.desc:0 "Yet again, the Vazuran forces have begun one of their raids. This time, they are targeting the [mem_vazuran_victim.GetName]."
  
  #Information event about an unknown empire being attacked
- mem_vazurans.21.name:0 "Галактический хаос"
- mem_vazurans.21a.desc:0 "Торговцы сообщают о продолжающихся нападениях на различные империи, с которыми мы еще не установили контакт неизвестной силой. Согласно сообщениям, нападавшие были хорошо оснащены."
- mem_vazurans.21b.desc:0 "Открытые подпространственные каналы связи снова переполнены сообщениями о рейдах Вазурана."
+ mem_vazurans.21.name:0 "Turmoil in the Galaxy"
+ mem_vazurans.21a.desc:0 "Traders tell of ongoing attacks on various empires we have not yet established contact with by an unknown force. The attackers are reported to be very well equipped."
+ mem_vazurans.21b.desc:0 "Open subspace communication channels are yet again being flooded with reports about the Vazuran raids."
 
  # Information event about Vazuran Homefleet defeated
- mem_vazurans.30.name:0 "Родной флот Вазуран побеждён!"
- mem_vazurans.30a.desc:0 "До нас дошли сообщения о том, что вазураны терпят решительное поражение против флота [mem_vazuran_victor.GetAdj]. С уничтожением флота Вазуран, галактика, наконец, может вздохнуть с облегчением и более не бояться Вазуранского террора."
+ mem_vazurans.30.name:0 "Vazuran Homefleet Defeated!"
+ mem_vazurans.30a.desc:0 "Reports have reached us of the Vazurans suffering a decisive defeat against the [mem_vazuran_victor.GetAdj] navy. With their fleet destroyed, the galaxy can finally rejoice at the end of the Vazuran reign of terror."
 
  # Information event about Vazuran Homeworld Taken
- mem_vazurans.31.name:0 "Захвачен родной мир Вазуран"
- mem_vazurans.31a.desc:0 "Без их флота, это был лишь вопрос времени, когда родной мир Вазуран падёт. Когда военные [mem_vazuran_invader.GetAdj] празднуют свое успешное падение на планету, Галактика вступает в новую эпоху, свободную от угрозы Вазурана, которая угрожала ей на протяжении тысячелетий."
- mem_vazurans_31.a:0 "Наконец-то!"
+ mem_vazurans.31.name:0 "Vazuran Homeworld Seized"
+ mem_vazurans.31a.desc:0 "Without their fleet, it was only a matter of time before the Vazuran homeworld fell. As the [mem_vazuran_invader.GetAdj] military celebrates its successful planetfall, the galaxy is ushered into a new age, free of the Vazuran Menace which had threatened it for millennia."
+ mem_vazurans_31.a:0 "Finally!"
 
  #Finishing investigation of first Rift
- mem_vazurans.40.name:0 "Пространственный портал"
- mem_vazurans.40.desc:0 "Как предположила телеметрия наших зондов, отправленных в Разлом незадолго до нашей первой встречи с Вазуран, это был портал, не совсем похожий на естественные червоточины. Однако, в отличие от червоточин, этот разрыв был создан искусственно. Наш [root.GetScientistResearchSubroutinePlural] не смогла дать никаких объяснений тому, как это произошло.\n\nУ нас мало информации, но мы предполагаем, что эти порталы могут открыться где угодно. Мы должны быть начеку."
- mem_vazurans.40.a:0 "Это сбивает с толку."
+ mem_vazurans.40.name:0 "Dimensional Portal"
+ mem_vazurans.40.desc:0 "As the telemetry of our probes sent into the rift shortly before our first encounter with the Vazurans suggested, it was a portal not completely dissimilar to naturally occurring wormholes. In contrast to wormholes however, this rift appears to have been artificially created. Our [root.GetScientistResearchSubroutinePlural] have been unable to provide any explanation as to how this could have been achieved.\n\nUntil we know better, we will have to assume that these portals could open anywhere. We have to be on our guard."
+ mem_vazurans.40.a:0 "This is highly disconcerting."
 
  #Retaliation Fleet has been destroyed by target empire
- mem_vazurans.50.name:0 "Атака была отбита"
- mem_vazurans.50a.desc:0 "Наш флот одержал победу в ожесточённой битве над [root.capital_scope.GetName]. Оставшиеся вазуранские силы полностью отступают. Потери среди нашего флота все еще оцениваются, и многие корабли получили серьезные повреждения или даже были брошены. Но цена, которую мы должны были заплатить, стоила того.  Они дважды подумают, прежде чем предпринять еще одну такую попытку.\n\nРазлом, который они использовали, чтобы войти в нашу систему, уже начал закрываться. Однако на этот раз это происходит гораздо медленнее, чем во время предыдущих вторжений. Теория наших [root.GetScientistResearchSubroutinePlural] о том, что этот громоздкий портал никогда не перестанет существовать - факт, который вызывает беспокойство, но в то же время открывает новые возможности. Если бы мы смогли стабилизировать его, контратака на базу Вазуран стала бы для нас возможной."
- mem_vazurans.50b.desc:0 "Наш флот не смог сдержать силы Вазуран. Они начали бомбить и опустошать наш столичный мир. Потери исчисляются миллиардами, поскольку бомбардировки были направлены конкретно на городские населенные пункты. Потребуются годы, чтобы восстановить то, что было разрушено.\n\nРазлом, который они использовали, чтобы войти в нашу систему, уже начал закрываться. Однако на этот раз это происходит гораздо медленнее, чем во время предыдущих вторжений. Наши ученые предполагают то, что этот громоздкий портал действительно не может исчезнуть - факт, который вызывает беспокойство, но в то же время открывает возможность, которой у нас не было ранее. Если бы мы смогли стабилизировать его, контратака на базу Вазуран стала бы для нас возможной, и смогли бы отомстить за погибших."
- mem_vazurans.50b.desc.gestalt:0 "Наш флот не смог сдержать силы Вазуран. Они начали бомбить и опустошать наш столичный мир. Основным элементам планетарной инфраструктуры был причинен значительный ущерб, и миллиарды дронов были уничтожены, поскольку они наносили удары по объектам, имеющим ключевое стратегическое значение. Потребуются годы, чтобы восстановить то, что было разрушено.\n\nРазлом, который они использовали, чтобы войти в нашу систему, уже начал закрываться. Однако на этот раз это происходит гораздо медленнее, чем во время предыдущих вторжений. Теория наших [root.GetScientistResearchSubroutine] о том, что этот громоздкий портал действительно не может исчезнуть - факт, который вызывает беспокойство, но в то же время открывает возможность, которой у нас не было ранее. Если бы мы смогли стабилизировать его, контратака на базу Вазуран стала бы для нас возможной, и смогли бы отомстить за погибших."
- mem_vazurans.50.a:0 "Будем надеяться."
+ mem_vazurans.50.name:0 "The Attack is Over"
+ mem_vazurans.50a.desc:0 "Our fleet has prevailed in the fierce battle over [root.capital_scope.GetName]. Remaining Vazuran forces are in full retreat. Casualties among our fleet are still being assessed and many ships took serious damage or even had to be abandoned. But the price we had to pay was worth it. They will think twice before they make another such attempt.\n\nThe rift they have used to enter our system has already begun to close. However, this time this is happening way more slowly than during earlier encounters. Our [root.GetScientistResearchSubroutinePlural] theorize that this oversized portal may indeed never fully cease to exist - a fact that is concerning but at the same time opens up an opportunity we would not have expected before. If we were able to stabilize it, a counterattack on the Vazuran base of operations would become possible for us."
+ mem_vazurans.50b.desc:0 "Our fleet has failed to hold off the attacking Vazuran forces. They have proceeded to bombard and lay waste to our capital world. Casualties go into the billions, as they have specifically targeted urban population centers. It will take years to restore what was destroyed.\n\nThe rift they have used to enter our system has already begun to close. However, this time this is happening way more slowly than during earlier encounters. Our scientists theorize that this oversized portal may indeed never fully cease to exist - a fact that is concerning but at the same time opens up an opportunity we would not have expected before. If we were able to stabilize it, a counterattack on the Vazuran base of operations would become possible for us, so that we can secure the retribution for our dead."
+ mem_vazurans.50b.desc.gestalt:0 "Our fleet has failed to hold off the attacking Vazuran forces. They have proceeded to bombard and lay waste to our capital world. Key elements of the planetary infrastructure have sustained considerable damage and billions of drones were destroyed as they have targeted sites of key strategic importance. It will take years to restore what was destroyed.\n\nThe rift they have used to enter our system has already begun to close. However, this time this is happening way more slowly than during earlier encounters. Our [root.GetScientistResearchSubroutine] theorize that this oversized portal may indeed never fully cease to exist - a fact that is concerning but at the same time opens up an opportunity we would not have expected before. If we were able to stabilize it, a counterattack on the Vazuran base of operations would become possible for us, so that we can secure the retribution for our dead."
+ mem_vazurans.50.a:0 "Let us hope so."
 
  #Stabilization tech researched and project to stabilize rift set
- mem_vazurans.51.name:0 "Привратник"
- mem_vazurans.51.desc:0 "Благодаря проведенным фундаментальным исследованиям и глубокому пониманию процесса образования разломов, наша [root.GetScientistResearchSubroutinePlural] представила предложение о создании станции, рядом с координатами бывшего портала. Согласно их планам, она будет использоваться для передачи энергии, при помощи которой портал будет открыт и поддерживаться в будущем."
- mem_vazurans.51.a:0 "Делайте."
+ mem_vazurans.51.name:0 "Gatekeeper"
+ mem_vazurans.51.desc:0 "With the basic research done and a solid understanding of the formation of rifts gained, our [root.GetScientistResearchSubroutinePlural] have presented a proposal for establishing a station next to the former portal's coordinates. According to their plans, it will be used to transfer the necessary power to reopen and maintain it."
+ mem_vazurans.51.a:0 "Make it so."
 
- MEM_VAZURANS_RIFT_STABILIZATION:0 "Стабилизация разлома"
- MEM_VAZURANS_RIFT_STABILIZATION_DESC:0 "Мы должны подготовить необходимое оборудование для восстановления и поддержания стабильной связи с оперативной базой Вазуран."
+ MEM_VAZURANS_RIFT_STABILIZATION:0 "Rift Stabilization"
+ MEM_VAZURANS_RIFT_STABILIZATION_DESC:0 "We have to prepare the necessary equipment to re-establish and maintain a stable connection to the Vazuran base of operations."
 
  #Player being informed about established connection
- mem_vazurans.53.name:0 "Портал"
- mem_vazurans.53.desc:0 "Наши инженеры закончили работу на станции возле разлома. Была осуществлена процедура стабилизации, портал, начал медленно открываться, что показалось нам вечностью. Зонды, которых мы отправили, подтвердили, что мы успешно достигли стабильной связи с другой стороной. Теперь мы достаточно уверены, что можем послать экспедиционные силы."
- mem_vazurans.53.desc.gestalt:0 "Наши инженерные дроны закончили свою работу на станции возле разлома. Была осуществлена процедура стабилизации, портал начал медленно открываться, что показалось нам вечностью. Зонды, которых мы отправили, подтвердили, что мы успешно достигли стабильной связи с другой стороной. Теперь мы достаточно уверены, что можем послать экспедиционные силы."
- mem_vazurans.53.a:0 "Отличная работа."
+ mem_vazurans.53.name:0 "The Portal"
+ mem_vazurans.53.desc:0 "Our engineers have finished their work on the rift station. The stabilization procedure was initiated, and after what felt like an eternity, the rift slowly reopened, forming a new portal. The probes we have sent through have confirmed that we have achieved a strong link to the other side. We are now confident enough to send a manned expeditionary force."
+ mem_vazurans.53.desc.gestalt:0 "Our engineering drones have finished their work on the rift station. The stabilization procedure was initiated, and after what felt like an eternity, the rift slowly reopened, forming a new portal. The probes we have sent through, having confirmed that we have achieved a strong link to the other side, we are now confident enough to send a manned expeditionary force through."
+ mem_vazurans.53.a:0 "Good work."
 
  # Finding first active Rift Endpoint
- mem_vazurans.60.name:0 "Древняя установка"
+ mem_vazurans.60.name:0 "Ancient Installation"
  # If we haven't seen a ruined version first
- mem_vazurans.60.a.desc:0 "На краю системы [mem_vazuran_gateway_endpoint_system.GetName] была обнаружена древняя установка. Здесь образовался разлом в самой ткани пространства-времени, создав "§Hчервоточину§!", которая, по предположению [Root.Owner.GetScientistPlural], может служить каналом через подпространство к другой червоточине, расположенной где-то еще в нашей галактике. Структуры, окружающие ее, похоже, функционируют как стабилизаторы этого искусственного разлома.\n\nЗонды, отправленные туда, обнаружили несовместимость между нашей технологией и окружающей средой. Ни один из них не прошел через этот разлом, так как субсветовые двигатели и реакторы вышли из строя, что привело к их уничтожению. Перед тем, как попытаться совершить путешествие через эти разломы, мы должны будем модифицировать системы нашего корабля, чтобы противостоять этим неблагоприятным эффектам."
+ mem_vazurans.60.a.desc:0 "An ancient installation of some kind has been located at the edge of the [mem_vazuran_gateway_endpoint_system.GetName] system. A rift in the very fabric of space-time has formed here, creating a "§Hwormhole§!" that, our [Root.Owner.GetScientistPlural] speculate, may provide a conduit through subspace to another wormhole located somewhere else in our galaxy. The structures surrounding it appear to both function as containment and a means of stabilizing this apparently artificial rift.\n\nProbes sent into the phenomenon have revealed incompatibilities between our technology and the environment within. Non of them made it through, suffering sublight drive as well as reactor malfunctions, leading to their destruction. Before any travel through these rifts can be attempted we will have to modify our ship's systems to counter these adverse effects."
  # If we have seen a ruined version first
- mem_vazurans.60.b.desc:0 "Ещё одна древняя установка была обнаружена на краю системы [mem_vazuran_gateway_endpoint_system.GetName]. На этот раз мы нашли неповрежденную версию. Как мы и предполагали, основываясь на наших наблюдениях в предыдущем месте, здесь образовался разлом в самой ткани пространства-времени, создав "§Hчервоточину§!", которая, по предположению [Root.Owner.GetScientistPlural], может служить проводником через подпространство к другой червоточине, расположенной где-то еще в нашей галактике. Структуры, окружающие ее, похоже, функционируют как стабилизаторы этого искусственного разлома.\n\nЗонды, отправленные туда, обнаружили несовместимость между нашей технологией и окружающей средой. Ни один из них не прошел через этот разлом, так как субсветовые двигатели и реакторы вышли из строя, что привело к их уничтожению. Перед тем, как попытаться совершить путешествие через эти разломы, мы должны будем модифицировать системы нашего корабля, чтобы противостоять этим неблагоприятным эффектам."
- mem_vazurans.60.a:0 "Сначала нам придется адаптироваться."
+ mem_vazurans.60.b.desc:0 "Another ancient installation has been located at the edge of the [mem_vazuran_gateway_endpoint_system.GetName] system. This time we have found an intact version. As we had anticipated based on our observations at the previous location, a rift in the very fabric of space-time has formed here, creating a "§Hwormhole§!" that, our [Root.Owner.GetScientistPlural] speculate, may provide a conduit through subspace to another wormhole located somewhere else in our galaxy. The structures surrounding it appear to both function as containment and a means of stabilizing this apparently artificial rift.\n\nProbes sent into the phenomenon have revealed incompatibilities between our technology and the environment within. Non of them made it through, suffering sublight drive as well as reactor malfunctions, leading to their destruction. Before any travel through these rifts can be attempted we will have to modify our ship's subsystems to counter these adverse effects."
+ mem_vazurans.60.a:0 "We will have to adapt first."
 
  # Finding first ruined Rift Endpoint
- mem_vazurans.61.name:0 "Разрушенная установка"
+ mem_vazurans.61.name:0 "Ruined Installation"
  # If we haven't seen an intact version first
- mem_vazurans.61.a.desc:0 "На краю системы [mem_vazuran_gateway_endpoint_system.GetName] была обнаружена древняя установка какого-то типа. Ее разрушенное состояние не скрывает того факта, что тот, кто ее создал, был намного более развит, чем мы. Предварительное сканирование выявило аномалию в центре установки. Если теория верна наших ученых верна, то цель структуры — стабилизировать аномалию и сформировать некий портал. Пока мы можем только гадать, куда он может привести.\n\nХотя наши надежды на воссоздание этой технологии своими силами довольно слабы, при наличии достаточного времени мы сможем восстановить эту установку до рабочего состояния."
+ mem_vazurans.61.a.desc:0 "An ancient installation of some kind has been located at the edge of the [mem_vazuran_gateway_endpoint_system.GetName] system. Its ruined state does not hide the fact that whoever had created it was far more advanced than we are. Preliminary scans have revealed an anomaly in the center of the installation. Our [Root.Owner.GetScientistPlural] deem it to be the vestige of a much larger phenomenon. If their theory is correct, then the structures' purpose is to stabilize the anomaly and form some kind of a portal. We can only guess where it may lead for the time being.\n\nThough our hopes to ever recreate this technology on our own are rather slim, given enough time we may be able to restore this installation to a working state."
  # If we have seen an intact version first
- mem_vazurans.61.b.desc:0 "На краю системы [mem_vazuran_gateway_endpoint_system.GetName] была обнаружена еще одна древняя установка. На этот раз мы нашли ее в заброшенном состоянии. Разлом, в котором находится это сооружение, почти обрушился сам по себе. Несмотря на значительные повреждения, которые она получила, нет никаких сомнений в том, что тот, кто ее создал, был гораздо более продвинутым, чем мы. Эта установка также доказывает правильность предположения наших [Root.Owner.GetScientistPlural]. Цель структуры действительно состоит в стабилизации и поддержании разлома.\n\nХотя наши надежды на воссоздание этой технологии своими силами довольно слабы, при наличии достаточного времени мы сможем восстановить эту установку до рабочего состояния."
- mem_vazurans.61.a:0 "Если бы её можно было как-то восстановить..."
+ mem_vazurans.61.b.desc:0 "Another ancient installation has been located at the edge of the [mem_vazuran_gateway_endpoint_system.GetName] system. This time we have found one in a desolate state. The rift this structure contains has almost collapsed on itself. Despite the extensive damage it sustained there is no doubt about the fact that whoever had created it was far more advanced than we are. This installation also proves our [Root.Owner.GetScientistPlural]' assumption correct. The structures' purpose is indeed to stabilize and sustain the rift.\n\nThough our hopes to ever recreate this technology on our own are rather slim, given enough time we may be able to restore this installation to a working state."
+ mem_vazurans.61.a:0 "If it could somehow be restored..."
 
  # Finding ruined vazuran homesystem
- mem_vazurans.62.name:0 "Тотальное уничтожение"
- mem_vazurans.62.desc:0 "Эта система лежит в руинах. Поля обломков окружают разбитую оболочку, которая когда-то была могущественной станцией. Разрушенная гигантская структура возле останков второй планеты доминирует над пейзажем как памятник былому величию её строителей. Обломки, найденные здесь, соответствуют стилю и составу материалов сооружений разломов, что позволяет предположить, что их строителем был один и тот же вид.\n\nОб их цивилизации удалось выяснить не так много. Заброшенные станции и корабли, дрейфующие в пустоте, похоже, уже давно разграблены и очищены от любых ценных технологий, а оставшиеся ядра данных специально стерты. Похоже, что кто-то очень сильно не хотел, чтобы информация о тех, кто жил здесь распространилась, но кто именно?.\n\nОказалось, что устройство разломов в этой системе значительно отличается от тех, которые присутствуют в основной галактике. Вокруг разлома имеются дополнительные структуры - или, если так можно сказать, несколько разломов одновременно содержащихся в нем и функционирующих в качестве узла, соединенного с несколькими конечными точками. Невозможно переоценить стратегических возможностей, которые открывающиеся при захвате этой системы. Будь то для поддержки наших собственных планов или для того, чтобы помешать нашим врагам, обеспечение безопасности этого места для [owner.GetName] должно иметь высокий приоритет."
- mem_vazurans.62.a:0 "Мы должны заполучить эту систему себе."
+ mem_vazurans.62.name:0 "Total Destruction"
+ mem_vazurans.62.desc:0 "This system lies in ruins. Debris fields surround the broken husks that once were mighty stations. A broken giant structure near the remains of the second planet dominates the scenery like a monument to the past greatness of its builders. The wreckages found here match the style and material composition of the rift installations suggesting their builders to have been one and the same.\n\nNot much more could be determined about their civilization. The abandoned stations and ships drifting in the void seem to have long since been looted and picked clean of any valuable technology and remaining data cores appear to have  been purposely wiped clean as if to remove any information about their creators - by whom we cannot infer.\n\nThis system's rift installation turns out to be quite different from those present in the galactic main body. There are additional structures surrounding the rift - or, to say it better, multiple rifts are contained simultaneously within it, functioning as a nexus connected to multiple endpoints. The strategic possibilities gained by occupying this system cannot be overstated. Whether for supporting our own plans or to deny it to our enemies, securing this place for the [owner.GetName] should have high priority."
+ mem_vazurans.62.a:0 "We should claim this system."
 
  # Restoring ruined Rift Endpoint
- mem_vazurans.63.name:0 "Станция разломов восстановлена"
+ mem_vazurans.63.name:0 "Rift Terminus Restored"
  # Standard empire first time
- mem_vazurans.63.a.desc:0 "Станция разломов в системе [mem_vazuran_rift_system.GetName] была восстановлена. Было довольно сложно собрать эту головоломку обратно, имея лишь самое базовое представление о ее технологии. Однако более сложной задачей, с которой мы столкнулись, была процедура активации и стабилизации разлома. В конечном итоге все прошло хорошо, и разлом теперь стабилен, но сообщения о том, как произошло его открытие, — вызывают беспокойство.\n\nВидимо, после многочисленных бессонных ночей один из наших [Root.GetScientistPlural] расстроился из-за отсутствия прогресса и в порыве ярости начал беспорядочно переключать управляющие кристаллы в главном каркасе установки, что привело к восстановлению разлома. Теперь некоторые называют [Root.GetScientist] гением, а другие просто радуются, что он не взорвал всю систему..."
- mem_vazurans.63.a.name:0 "В будущем, назначьте ему больше времени для отдыха."
+ mem_vazurans.63.a.desc:0 "The rift terminus in the [mem_vazuran_rift_system.GetName] system has been restored. It was quite some work putting this puzzle back together with only a very basic understanding of its technology. The greater challenge we faced, however, was the activation procedure needed to stabilize the rift. It ultimately worked out well and the rift is now stable, but reports about how this came to be are concerning to say the least.\n\nApparently, after multiple sleepless nights, one of our [Root.GetScientistPlural] was frustrated by the lack of progress and in a fit of fury has started randomly switching out control crystals in the installation's main frame which resulted in the rift's restoration. The [Root.GetScientist] is now heralded as a genius by some, while others are just relieved it didn't blow up the entire system..."
+ mem_vazurans.63.a.name:0 "Enforce more resting time in the future."
  # Standard empire after first time
- mem_vazurans.63.b.desc:0 "Станция разломов в системе [mem_vazuran_rift_system.GetName] была восстановлена. Использовав ту же процедуру, что и в предыдущем случае, разлом стабилизировался без проблем."
+ mem_vazurans.63.b.desc:0 "The rift terminus in the [mem_vazuran_rift_system.GetName] system has been restored. Using the same procedure as observed in the previous incident the rift was stabilized without issues."
  # Hive empire first time
- mem_vazurans.63.c.desc:0 "Станция разломов в системе [mem_vazuran_rift_system.GetName] была восстановлена. Восстановление самих структур было эффективно выполнено нашими дронами, но их активация оказалась для наших [Root.GetScientistPlural] огромной проблемой. После нескольких недель отсутствия прогресса один из них вдруг начал произвольно перетасовывать управляющие кристаллы в главном каркасе установке, что привело к стабилизации разлома."
- mem_vazurans.63.c.name:0 "Нет ничего недостижимого для нашего разума."
+ mem_vazurans.63.c.desc:0 "The rift terminus in the [mem_vazuran_rift_system.GetName] system has been restored. Restoring the structures themselves has been efficiently carried out by our drones, but activating them proved to be an immense challenge for our [Root.GetScientistPlural]. After multiple weeks without progress one of them has suddenly started to randomly reshuffle control crystals in the installation's main frame, which has resulted in the stabilization of the rift."
+ mem_vazurans.63.c.name:0 "We have expected nothing less from our hivemind's perfection."
  # Hive empire after first time
- mem_vazurans.63.d.desc:0 "Станция разломов в системе [mem_vazuran_rift_system.GetName] была восстановлена. Восстановление самих структур было эффективно выполнено нашими дронами. Однако процесс реактивации оказался несколько проблематичным. Пришлось отбросить несколько десятков дефектных [Root.GetScientistPlural], пока не удалось воссоздать наш предыдущий успех. Тем не менее, разлом был стабилизирован."
- mem_vazurans.63.d.name:0 "Удалите дефекты, они недостойны нашего совершенства."
+ mem_vazurans.63.d.desc:0 "The rift terminus in the [mem_vazuran_rift_system.GetName] system has been restored. Restoring the structures themselves has been efficiently carried out by our drones. The reactivation process, however, proved to be somewhat problematic. Multiple dozens of defective [Root.GetScientistPlural] had to be discarded until one was able to recreate our previous success. Nonetheless the rift has been stabilized."
+ mem_vazurans.63.d.name:0 "Cull the defectives, they are unworthy of our perfection."
  # Machine empire first time
- mem_vazurans.63.e.desc:0 "Станция разломов в системе [mem_vazuran_rift_system.GetName] была восстановлена. Восстановление самих структур было эффективно выполнено нашими юнитами, но их активация оказалась для наших [Root.GetScientistPlural] огромной проблемой. После нескольких недель безрезультатной работы один из них применил стандартную подпрограмму рандомизации, чтобы определить новую схему расположения управляющих кристаллов в главном каркасе установки. Эта операция прошла успешно, и разлом был стабилизирован."
- mem_vazurans.63.e.name:0 "Подпрограмма рандомизации достойна похвалы."
+ mem_vazurans.63.e.desc:0 "The rift terminus in the [mem_vazuran_rift_system.GetName] system has been restored. Restoring the structures themselves has been efficiently carried out by our drones, but activating them proved to be an immense challenge for our [Root.GetScientistPlural]. After multiple weeks without progress one of them applied a standard randomization subroutine to determine a new arrangement of control crystals within the installation's main frame. This operation was met with success and the rift has been stabilized."
+ mem_vazurans.63.e.name:0 "Praise our randomization sub routine."
  # Machine empire after first time
- mem_vazurans.63.f.desc:0 "Станция разломов в системе [mem_vazuran_rift_system.GetName] была восстановлена. Восстановление структур было эффективно выполнено нашими юнитами. Повторение нашей предыдущей операции прошло успешно. Разлом теперь стабилен."
- mem_vazurans.63.f.name:0 "Как и ожидалось."
+ mem_vazurans.63.f.desc:0 "The rift terminus in the [mem_vazuran_rift_system.GetName] system has been restored. Restoring the structures has been efficiently carried out by our drones. Replicating our previous operation procedure was met with success. The rift is now stable."
+ mem_vazurans.63.f.name:0 "As expected."
 
- requires_technology_mem_vazuran_rift_stabilization:0 "$TRIGGER_FAIL$Необходима технология £physics£ §Y$tech_mem_vazuran_rift_stabilization$§!."
- BYPASS_DESC_INACTIVE_MEM_VAZURAN_INTERDIM_GATEWAY:0 "Необходима активация путем восстановления §YСтанции разломов§!."
- GATEWAY_VAZURAN_DESC_UNEXPLORED:0 "В этой системе находится §Rне изученный§! §YРазлом§!"
+ requires_technology_mem_vazuran_rift_stabilization:0 "$TRIGGER_FAIL$Requires technology £physics£ §Y$tech_mem_vazuran_rift_stabilization$§!."
+ BYPASS_DESC_INACTIVE_MEM_VAZURAN_INTERDIM_GATEWAY:0 "Requires activation by restoring the §YRift Terminus§!."
+ GATEWAY_VAZURAN_DESC_UNEXPLORED:0 "This system contains an §Runexplored§! §YRift§!"
 
  # Restoring ruined Star Throne
- mem_vazurans.64.name:0 "Орбитальная станция Предтеч восстановлена"
- mem_vazurans.64.desc:0 "Разрушенная орбитальная станция предтеч полностью восстановлена. Окружающие поля обломков были расчищены, а их материал использован в ходе восстановительных работ. Наши строительные бригады стали называть орбитальную станцию «Звёздный Трон». Неясно, кто и почему придумал это название, но на данный момент оно прижилось, и кто-то может обидеться, если мы изменим его сейчас..."
-
+ mem_vazurans.64.name:0 "Precursor Habitat Restored"
+ mem_vazurans.64.desc:0 "The ruined precursor habitat has been fully restored. The surrounding debris fields have been cleared and their material used during the restoration effort. Our construction teams have come to refer to the habitat as the 'Star Throne'. It is unclear who came up with this name or why, but at this point it has stuck and some might be offended if we changed it now..."
+ 
  # Reward Event for destroying Vazuran fleets
- mem_vazurans.70.name:0 "Нападавшие Вазуране разбиты"
+ mem_vazurans.70.name:0 "Vazuran Attackers Defeated"
  # Research outcome
- mem_vazurans.70.desc.a:0 "Нашему флоту удалось нанести поражение атакующим войскам Вазуран. Спасательные работы уже начаты, кроме того были отмечены многочисленные объекты для научного изучения."
+ mem_vazurans.70.desc.a:0 "Our fleet was able to defeat the attacking vazuran forces. Salvaging operations are already underway and multiple targets for scientific study have been marked as well."
  # Alloy outcome
- mem_vazurans.70.desc.b:0 "Нашему флоту удалось нанести поражение атакующим войскам Вазуран. Спасательные работы уже начаты, из-за сильных повреждений не удалось обнаружить что-либо интересного для науки."
+ mem_vazurans.70.desc.b:0 "Our fleet was able to defeat the attacking vazuran forces. Salvaging operations are already underway, but, due to the extensive damage, little of scientific interest has been found."
  
  #Finding a destroyed Planet
- mem_vazurans.200.name:0 "Разруха"
+ mem_vazurans.200.name:0 "Devastation"
  #haven't seen anything Vazuran related so far
- mem_vazurans.200a.desc:0 "По достижении системы [From.GetName] наши сенсоры обнаружили, что одна из её планет была разбита на части в какой-то моменте прошлого. Неясно, что вызвало это. Рекомендуется провести дополнительное расследование."
+ mem_vazurans.200a.desc:0 "Upon reaching the [From.GetName] system, our sensors revealed that one of its planets was broken into pieces at some point in its past. It is unclear what had caused this to happen. Further investigation is recommended."
  #only seen another destroyed planet so far
- mem_vazurans.200b.desc:0 "Мы наткнулись на другой расколотый мир. При сканировании его окрестностей, мы обнаружили следы тех же тяжелых сплавов, которые мы видели раньше. Эта планета, должно быть, стала жертвой тех же сил."
+ mem_vazurans.200b.desc:0 "We have come across another broken world. A brief scan of its vicinity has revealed traces of the heavy element alloys we have found before. This planet must have fallen victim to the same force."
  #already met the vazurans and seen a destroyed planet
- mem_vazurans.200c.desc:0 "Мы наткнулись на другой расколотый мир. Краткое сканирование его окрестностей показывает следы тех же самых тяжелых сплавов, которые используют Вазуране. Еще один мир стал жертвой их террора."
+ mem_vazurans.200c.desc:0 "We have come across another broken world. A brief scan of its vicinity has revealed traces of the heavy element alloys used by the Vazurans. Another world had fallen victim to their reign of terror."
  
- MEM_VAZURANS_BROKEN_PLANET_INVESTIGATION:0 "Разрушенный мир"
- MEM_VAZURANS_BROKEN_PLANET_INVESTIGATION_DESC:0 "Углубленное исследование этого места должно дать нам больше информации о том, что могло произойти с этой планетой."
+ MEM_VAZURANS_BROKEN_PLANET_INVESTIGATION:0 "A Destroyed World"
+ MEM_VAZURANS_BROKEN_PLANET_INVESTIGATION_DESC:0 "A long-term investigation of this site should provide us with more insights into what might have happened to this planet."
  
  #Finished Project on first broken world
- mem_vazurans.201.name:0 "Апокалипсис"
+ mem_vazurans.201.name:0 "Apocalypse"
  #not met vazurans before
- mem_vazurans.201a.desc:0 "После изучения того, что осталось от этого мира, главный ученый [root.Leader.GetName] и [root.Leader.GetHerHis] коллеги пришли к тревожному выводу. Учитывая всю имеющуюся информацию, нынешнее состояние [From.From.GetName] является результатом катастрофической орбитальной бомбардировки.\n\nВ окрестностях этого места можно обнаружить следы сверхтяжелых элементов, которые не встречаются в природе. Кто это сделал и почему - остается загадкой."
+ mem_vazurans.201a.desc:0 "After studying what remains of this world, chief scientist [root.Leader.GetName] and [root.Leader.GetHerHis] colleagues have come to a worrying conclusion. Given all available information, the current state of [From.From.GetName] is the result of a cataclysmic orbital bombardment.\n\nIn the vicinity of its site, traces of superheavy elements which do not naturally occur can be found. Who did this and why remains a mystery."
  #met vazurans before
- mem_vazurans.201b.desc:0 "После изучения того, что осталось от этого мира, главный ученый [root.Leader.GetName] и [root.Leader.GetHerHis] коллеги пришли к тревожному выводу. Учитывая всю имеющуюся информацию, нынешнее состояние [From.From.GetName]является результатом катастрофической орбитальной бомбардировки.\n\nВ непосредственной близости от этого места можно найти следы сверхтяжелых элементов, которые присущи технологиям Вазуран. Похоже, что они преподали урок тем, кто здесь ранее жил. Никаких следов цивилизации, которая предположительно жила в этом мире, не обнаружено."
- mem_vazurans.201.a:0 "Это беспокоит."
+ mem_vazurans.201b.desc:0 "After studying what remains of this world, chief scientist [root.Leader.GetName] and [root.Leader.GetHerHis] colleagues have come to a worrying conclusion. Given all available information, the current state of [From.From.GetName] is the result of a cataclysmic orbital bombardment.\n\nIn the vicinity of its site, traces of superheavy elements unique to Vazuran technology can be found. It appears they had made an example of those living here. No traces of the civilization presumed to have formerly lived on this world can be found."
+ mem_vazurans.201.a:0 "Concerning."
  
  #Anomaly 1
- mem_vazurans_category_1:0 "Покрытые кратерами"
- mem_vazurans_category_1_desc:0 "Нет ничего странного в том, что на бесплодных планетах возникает много кратеров в результате космических столкновений, но не в данном случае. Кратеры на планете кажутся слишком однообразными и повторяющимися, что вызывает подозрения к природе их возникновения."
+ mem_vazurans_category_1:0 "Covered in Craters"
+ mem_vazurans_category_1_desc:0 "Though it is not unusual for barren planets to feature the results of many cosmic impacts, in this case the pattern of craters appears to be too regular to occur naturally."
  
  #Anomaly success 1
- mem_vazurans.202.name:0 "Конец света"
- mem_vazurans.202.desc:0  "При проведении ряда разведывательных полетов на низкой высоте с целью изучения участков кратеров, а также при помощи шаттлов, наши ученые уловили сигнал самовоспроизводящейся передачи, исходящей из-под обломков. Хоть у [root.Leader.GetName] и вышло определить источник передачи, ученый отбросил идею близко приближаться к нему, так как это было довольно опасно.\n\nУже на борту корабля [root.GetName], у ученого вышло расшифровать сигнал передачи.\n\nВ нем было зашифрована запись репортажа в прямом эфире, похоже, что транслировался общественный праздник.\n\n§SПышные парады устремляются в глубины улиц, сопровождаемые огромными массами ликующих людей. Как вдруг, обстановка резко меняется, на записи изображен хаос и паника среди населения. Затем, камера переносится в сторону затмевающегося неба, с которого начинают огненной линией падать горящие обломки. Прежде чем всё это достигает земли, - раздаются взрывы, и на этом запись заканчивается§!\n\nУ нас нет знаний для перевода всех разговоров, но [root.Leader.GetName] принимает это как доказательство того, что [From.GetName] стала жертвой орбитальной бомбардировки флотом инопланетян. Следы сверхплотного материала, который раскидан по всей поверхности планеты, подтверждает эту теорию."
+ mem_vazurans.202.name:0 "The End of a World"
+ mem_vazurans.202.desc:0  "While conducting a series of low altitude survey flights to study the crater sites using a shuttlecraft, our scientists received a weak self-repeating transmission originating from well below the debris. [root.Leader.GetName], though able to pinpoint its source, quickly discarded the idea of trying to reach it as too dangerous.\n\nBack aboard the [root.GetName], [root.Leader.GetSheHe] managed to decipher the recorded transmission.\n\nIt consisted of several minutes of a video feed starting in the middle of what appears to have been a live news report about a public celebration.\n\n§S Large parades are carrying debris through the streets accompanied by cheering masses, until suddenly the atmosphere changes completely and panic spreads. Then the view is abruptly moved towards the darkening sky. A burning wreck draws a fiery line as it falls towards the ground. Before it reaches the surface, there are giant explosions all around and the video ends.§!\n\nThere is not enough material to translate what has been said, but [root.Leader.GetName] takes this as proof that [From.GetName] had fallen victim to a ballistic bombardment by an alien fleet. Traces of a super dense compound spread across the planet's surface support this theory."
  
  #Anomaly success 2
- mem_vazurans.203.name:0 "Жестокая шутка"
- mem_vazurans.203.desc:0 "Исследование поверхности [From.GetName] не дало каких-либо внятных показаний. Но ко всему прочему добавилась еще одна тайна: следы сверхплотного соединения. о котором мы почти ничего не знаем, каким-то образом распространились по всей поверхности планеты.\n\nОднако настоящий прорыв в исследовании планеты был сделан, когда [root.GetName] обнаружил скрытую базу внутри пустого астероида на орбите [From.GetName]. Этот объект, который по нашим меркам довольно примитивен, был заполнен стазисными камерами, в которых находятся тысячи мертвых существ.\n\nПросматривая фрагменты данных, хранящихся в компьютерной системе объекта, наша научная команда может собрать воедино отчаянную ситуацию, с которой столкнулись жители [From.GetName]. В прошлом их цивилизация неоднократно достигала технического превосходства. Их растущее сопротивление было встречено все более жестокими ответными ударами, и они опасались того, что их родной мир также подвергнется этим нападениям. В качестве средства возрождения их цивилизации, если случится худшее, эта скрытая база была установлена, чтобы действовать как ковчег для сохранения их самых ярких умов и достаточного генетического разнообразия для возрождения их цивилизации.\n\nОднако они не ожидали, что враги превратят их родной мир в опустошенный и полностью непригодный для жизни камень. «Скрытая база», похоже, была намеренно сохранена - учитывая то, что мы смогли её найти, их противники, сделали тоже самое. Как указано в журналах, система стазиса была отключена по графику спустя десять лет после потери контакта с планетой. [root.Leader.GetName] даже представить себе не может, какой ужас и отчаяние испытали эти люди, осознав свою ситуацию. Оснащенные всего двумя кораблями-шаттлами без сверхсветовых технологий, лишенные возможности вернуться на свой родной мир, они оказались в очень затруднительном положении. Вскоре после этого, система стазиса была вновь активирована на неопределенный срок."
- mem_vazurans.203.desc.gestalt:0 "Исследование поверхности [From.GetName] не дало каких-либо внятных показаний. Но ко всему прочему добавилась еще одна тайна: следы сверхплотного соединения. о котором мы почти ничего не знаем, каким-то образом распространились по всей поверхности планеты.\n\nОднако настоящий прорыв в исследовании планеты был сделан, когда [root.GetName] обнаружил скрытую базу внутри пустого астероида на орбите [From.GetName]. Этот объект, который по нашим меркам довольно примитивен, был заполнен стазисными камерами, в которых находятся тысячи мертвых существ.\n\nПросматривая фрагменты данных, хранящихся в компьютерной системе объекта, наша научная команда может собрать воедино отчаянную ситуацию, с которой столкнулись жители [From.GetName]. В прошлом их цивилизация неоднократно достигала технического превосходства. Их растущее сопротивление было встречено все более жестокими ответными ударами, и они опасались того, что их родной мир также подвергнется этим нападениям. В качестве средства возрождения их цивилизации, если случится худшее, эта скрытая база была установлена, чтобы действовать как ковчег для сохранения их самых ярких умов и достаточного генетического разнообразия для возрождения их цивилизации.\n\nОднако они не ожидали, что враги превратят их родной мир в опустошенный и полностью непригодный для жизни камень. «Скрытая база», похоже, была намеренно сохранена - учитывая то, что мы смогли её найти, их противники, сделали тоже самое. Как указано в журналах, система стазиса была отключена по графику спустя десять лет после потери контакта с планетой. Трудно представить представить, какой ужас и отчаяние испытали эти люди, осознав свою ситуацию. Оснащенные всего двумя кораблями-шаттлами без сверхсветовых технологий, лишенные возможности вернуться на свой родной мир, они оказались в очень затруднительном положении. Вскоре после этого, система стазиса была вновь активирована на неопределенный срок."
+ mem_vazurans.203.name:0 "A Cruel Joke"
+ mem_vazurans.203.desc:0 "The investigation of [From.GetName]'s surface did not yield any conclusive insights. However, it provided another mystery: traces of a super dense compound not known to occur naturally are spread across the planet.\n\nHowever, a real breakthrough was made when the [root.GetName] detected a hidden base inside a hollowed out asteroid orbiting [From.GetName]. The facility, which is rather primitive by our standards, is filled with basic stasis units housing thousands of dead beings.\n\nSearching through the data fragments stored in the facility's computer system, our science team was able to piece together the dire situation the inhabitants of [From.GetName] had faced. Their civilization had been attacked by a technologically superior force multiple times in the past. Their growing resistance was met with increasingly brutal acts of retaliation, and they feared - rightfully, it seems - that their world would fall to these attacks. As a means to restart their civilization should the worst happen, this hidden base was installed to act as an ark to preserve their brightest minds as well to contain a sufficient genetic variety to reboot their civilization.\n\nHowever, they had not expected their foes to turn their homeworld into a lifeless and entirely uninhabitable rock. The 'hidden' base appears to have been purposefully spared - given that we were able to detect it, it is to be expected their foe did too. As stated in the logs, the stasis system shut down according to schedule ten years after the contact with the surface had been lost. [root.Leader.GetName] cannot even start to imagine the dread and despair these people must have felt upon realizing their situation. Equipped with only two shuttle crafts lacking FTL-capability, and no world to return to, they were stranded. Shortly after that, the stasis system was reactivated indefinitely."
+ mem_vazurans.203.desc.gestalt:0 "The investigation of [From.GetName]'s surface did not yield any conclusive insights. However, it provided another mystery: traces of a super dense compound not known to occur naturally are spread across the planet.\n\nHowever, a real breakthrough was made when the [root.GetName] detected a hidden base inside a hollowed out asteroid orbiting [From.GetName]. The facility, which is rather primitive by our standards, is filled with basic stasis units housing thousands of dead beings.\n\nSearching through the data fragments stored in the facility's computer system, our science team was able to piece together the dire situation the inhabitants of [From.GetName] had faced. Their civilization had been attacked by a technologically superior force multiple times in the past. Their growing resistance was met with acts of increasingly brutal retaliation, and they feared - rightfully, it seems - that their world would fall to these attacks. As a means to restart their civilization should the worst happen, this hidden base was installed to act as an ark to preserve their brightest minds as well as to contain sufficient genetic variety to reboot their civilization.\n\nHowever, they had not expected their foes to turn their homeworld into a lifeless and entirely uninhabitable rock. The 'hidden' base appears to have been purposefully spared - given that we were able to detect it, it is to be expected their foe did too. As stated in the logs, the stasis system shut down according to schedule ten years after the contact with the surface had been lost. It is hard to even start to imagine the dread and despair the survivors must have felt upon realizing their situation. Equipped with only two shuttle crafts lacking FTL-capability, and no world to return to, they were stranded. Shortly after that, the stasis system was reactivated indefinitely."
  
  #Anomaly success 3
- mem_vazurans.204.name:0 "Призраки прошлого"
- mem_vazurans.204.desc:0 "Во время более тщательного обследования поверхности [From.GetName] один из помощников [root.Leader.GetName] заметил, что на планете были искусственные сооружения, команда также подтвердила наличие этих структур.\n\nИсследование руин не могло продолжиться из-за частого прерывания связи между [root.GetName] и учеными во главе с [root.Leader.GetName]. В эти моменты некоторые сотрудники испытали испытывали странные видения, как они их назвали, - психотические эпизоды. Также пострадавший от этого явления, главный ученый решил вернуться на шаттл, опасаясь, что долгое воздействие этого явления может поставить команду в опасное положение. Однако, прежде чем они смогли взлететь, помутнения сознания стали длиться намного дольше, а их эффект был значительно сильнее, чем прежде. Когда связь восстановилась, один очень потрясенный ученый сообщил, что они собираются убираться от туда немедленно. Половина команды была без сознания, когда они прибыли на место встречи с [root.GetName].\n\nПосле выздоровления, ученый [root.Leader.GetName] сообщает, что пережил видение коллективной гибели целого мира от рук безжалостного противника. Согласно [root.Leader.GetHisHer] теории, жители [From.GetName] должны были обладать обширными псионическими способностями, что привело к тому, что самые ужасающие мгновения их последних дней жизни на этом мире запечатлелись в самом корне этой планеты. Хоть ученый и не пострадал физически, ведения еще долго преследовали [root.Leader.GetHisHer].\n\nДальнейшее сканирование показало следы сверхплотного соединения, распространенного по всей поверхности планеты, которое, вероятно, возникло из-за оружия, использованного при её уничтожении, что подтверждает теорию [root.Leader.GetName]."
+ mem_vazurans.204.name:0 "Ghosts of the Past"
+ mem_vazurans.204.desc:0 "During a more thorough survey of [From.GetName]'s surface, one of [root.Leader.GetName]'s assistants noticed, what was later confirmed by our away team on the ground, to be artificial structures.\n\nThe investigation of these ruins did not however progress as planned, mainly as a result of communications between the [root.GetName] and the scientists led by [root.Leader.GetName] being disrupted multiple times. Several personnel have experienced what they have described as 'psychotic episodes' during these moments. Affected by this phenomenon as well, the chief scientist has decided to return to the shuttle, fearing that remaining there longer would put the team in danger. However, before they could lift off, another blackout occurred, lasting for much longer than any before had. When communications could be re-established, a very shaken sounding scientist has reported that they are going to leave immediately. Half of them were still unconscious when they arrived at the rendezvous coordinates with the [root.GetName].\n\nAfter having recovered, [root.Leader.GetName] reports having experienced the collective death of an entire world at the hands of a merciless foe. According to [root.Leader.GetHisHer] theory, [From.GetName]'s inhabitants must have possessed extensive psychic capabilities, which led to their terrifying last moments being imprinted into the planet itself. Though physically unharmed, the events have had a lasting effect on [root.Leader.GetHimHer].\n\nFurther scans have shown traces of a super dense compound spread across the planet's surface, which is likely to originate from the weapons used in its destruction, supporting [root.Leader.GetName]'s claims."
 
  #Anomaly 2
- mem_vazurans_category_2:0 "Покрытые кратерами"
- mem_vazurans_category_2_desc:0 "Сканирование [From.GetName] докладывает нам об подозрительных кратерных образованиях и следах одного и того же сверхплотного соединения, которое, как известно, не встречается нигде в природе, но оно точно связано с коллапсом нескольких цивилизаций, планеты которых мы исследовали ранее."
+ mem_vazurans_category_2:0 "Covered in Craters"
+ mem_vazurans_category_2_desc:0 "Scans of [From.GetName] are detecting suspicious crater formations and traces of the same super dense compound that is not known to occur naturally, but that has been linked to multiple civilizational collapses on previously surveyed planets."
 
  #Anomaly success 4
- mem_vazurans.205.name:0 "Подозрительные спутники"
- mem_vazurans.205.desc:0 "Дальнейшее исследование [From.GetName] показало, что планета действительно была когда-то обитаемой, но стала непригодной для жизни из-за сверхплотного материала, который был разбросан по всей поверхности планеты в результате орбитальной бомбардировки. Эти события, должно быть, произошли много тысяч лет назад, и остатки на поверхности уже прилично разложились и размылись, что не дает нам сделать каких-либо заключительных выводов.\n\nКак только ученый [root.Leader.GetName] собирался завершить [root.Leader.GetHisHer] исследования, сканеры [root.GetName] обнаружили набор крошечных, подозрительно идентичных объектов, вращающихся вокруг спутника [From.GetName]. Это оказались искусственные спутники, содержащие ядра данных. Главный ученый предполагает, что они должны были быть найдены и действовать как своего рода капсулы времени. \n\nОднако для получения доступа к хранящимся в них данным и их расшифровки потребуются значительные усилия."
- mem_vazurans.205.a:0 "Что в них содержится?"
+ mem_vazurans.205.name:0 "Suspicious Satellites"
+ mem_vazurans.205.desc:0 "Further investigation of [From.GetName] has revealed that it had indeed once been inhabited but was rendered uninhabitable at the same time as a layer of super dense material was deposited on the planet, presumably the result of an orbital bombardment. These events must have taken place many thousands of years ago, and remnants on the surface are too decayed and eroded to draw any further conclusions.\n\nJust as [root.Leader.GetName] was about to wrap up [root.Leader.GetHisHer] investigations, the [root.GetName]'s scanners picked up a set of tiny, suspiciously identical objects orbiting [From.GetName]'s moon. These turned out to be artificial satellites containing data cores. The chief scientist assumes these were meant to be found and act as some kind of time capsules.\n\nHowever, it will take significant effort to access and decipher the data stored within them."
+ mem_vazurans.205.a:0 "What do they contain?"
 
- MEM_VAZURANS_ANOMALY_PLANET_INVESTIGATION:0 "Расшифровка ядер данных"
- MEM_VAZURANS_ANOMALY_PLANET_INVESTIGATION_DESC:0 "У нас есть восстановленные ядра данных, которые находились на орбите, когда [From.From.GetName] была уничтожена. Кто знает, какой секрет или сообщение они содержат?"
+ MEM_VAZURANS_ANOMALY_PLANET_INVESTIGATION:0 "Deciphering the Data Cores"
+ MEM_VAZURANS_ANOMALY_PLANET_INVESTIGATION_DESC:0 "We have recovered the data cores left in space when [From.From.GetName] was destroyed. Who knows what secrets or messages they contain?"
  
  #Project finished
- mem_vazurans.206.name:0 "Капсулы времени"
- mem_vazurans.206.desc:0 "Нашим ученым удалось расшифровать части ядра данных. Расшифровку усложняет то, что копия одной и той же записи может быть восстановлена в части блоков данных, сделано это было, вероятно, для увеличения шансов сохранения данных. Содержащиеся в блоках данные чрезвычайно обширны, и нашим ученым потребуются месяцы, если не годы, чтобы полностью расшифровать их.\nПервая запись, которая является заглавной страницей, уже переведена:\n\n'Мы думали, что мы непобедимы. Мы думали, что сможем остановить 'Разрушителей'. Мы не были молодой расой, как другие, которых они уничтожили - мы путешествовали по галактике на протяжении тысячелетий. Но они победили нас. К тому времени, как это сообщение будет найдено, больше ничего не останется от нашей некогда гордой расы. Мы оставляем эту запись в надежде, что наше самое ценное сокровище, слова наших величайших философов -- наше культурное наследие -- сможет пережить исчезновение нашей расы.'"
- mem_vazurans.206.a:0 "Отлично."
+ mem_vazurans.206.name:0 "Time Capsules"
+ mem_vazurans.206.desc:0 "Our scientists have managed to decipher parts of the data cores. So far, it appears that each exemplar is an exact replica of the others and contains the same information - presumably as a strategy to increase the likelihood of its preservation. The data contained is extremely vast, and will take our scientists months, if not years to fully decipher.\nThe first entry, apparently a title page, has already been translated:\n\n"We thought ourselves invincible. We thought we could stop the 'Destroyers'. We were not a young race like the others they have brought down - we have traveled the galaxy for a millennium. But they have bested us. By the time this message is found, nothing else will remain of our once proud race. We leave this record in the hope that our most prized treasure, the words of our greatest philosophers -- our cultural heritage -- might outlive the extinction of our race.""
+ mem_vazurans.206.a:0 "Good work."
  
  #Finished Planet defense project
- mem_vazurans.240.name:0 "Завершена реализация Инициативы по планетарной защите"
- mem_vazurans.240.desc:0 "С самого начала этого амбициозного начинания многие подходы были представлены и вновь отвергнуты. И все же одно нам кажется очень многообещающим. \n\nМы давно используем щиты для защиты наших космических кораблей и станций, но применение этой технологии в планетарном масштабе всегда считалось экономически неосуществимым. Однако, учитывая угрозу Вазуран, нависшую над [root.GetName], давние сторонники этой технологии наконец преуспели в получении необходимого финансирования для достижения своей цели."
- mem_vazurans.240.a:0 "Начните исследования."
+ mem_vazurans.240.name:0 "Planetary Defense Initiative Concluded"
+ mem_vazurans.240.desc:0 "Since the start of this ambitious endeavour, many approaches had been presented and discarded again, yet one does seem very promising.\n\nLong have we been using shields to protect our space ships and stations, but applying this technology on a planetary scale has always been seen as economically unfeasible. However, given the Vazuran menace looming over the [root.GetName], longstanding proponents of this technology have finally succeeded in gaining the necessary funding to pursue their goal."
+ mem_vazurans.240.a:0 "Start the research."
 
  #Damper field quest start 1
- mem_vazurans.251.name:0 "Найдены инопланетные обломки"
- mem_vazurans.251.desc:0 "Во время рутинной разведки полезных ископаемых на [root.GetName] искатели сделали неожиданное открытие: наполовину покрытые космическим мусором древние обломки. Правительственные чиновники были быстро проинформированы об этой необычной находке."
- mem_vazurans.251.desc.gestalt:0 "Во время обычной поисковой операции на [root.GetName] дроны-искатели сделали неожиданное открытие: наполовину покрытые космическим мусором древние обломки. Разум был оперативно проинформирован об этом."
- mem_vazurans.251.a:0 "Начните исследование."
+ mem_vazurans.251.name:0 "Alien Wreckage Found"
+ mem_vazurans.251.desc:0 "During a routine mineral prospecting operation on [root.GetName], prospectors have made an unexpected discovery: half-covered by natural debris lies an ancient wreckage. Government officials were quickly informed of this peculiar find."
+ mem_vazurans.251.desc.gestalt:0 "During a routine mineral prospecting operation on [root.GetName], prospector drones have made an unexpected discovery: half-covered by natural debris lies an ancient wreckage. The responsible subroutines were quickly informed."
+ mem_vazurans.251.a:0 "Commence an investigation."
 
  #Damper field anomaly 1
- mem_vazurans_category_3:0 "Инопланетные обломки"
- mem_vazurans_category_3_desc:0 "На [From.GetName] обнаружен древний инопланетный обломок. Требуется дальнейшее исследование."
+ mem_vazurans_category_3:0 "Alien Wreckage"
+ mem_vazurans_category_3_desc:0 "An ancient alien wreckage has been found on [From.GetName]. Further investigation is required."
 
  #Anomaly success
- mem_vazurans.252.name:0 "Клондайк технологий"
- mem_vazurans.252.desc:0 "Сначала наша научная команда не узнала происхождение обломков из-за их повреждения и износа, но сканирование их материального состава показало, что это однозначно технологии Вазуран.\n\nКак они оказались в этом месте остается для нас загадкой, учитывая, что Вазуран скорее самоуничтожит свои корабли, чем отдаст их технологии врагам. Обстоятельства еще более благоприятны, поскольку, хотя большинство систем корабля не распознаны, ключевой компонент их технологии остается в значительной степени нетронутым. По словам главного учёного [root.Leader.GetName], в настоящее время мы располагаем генератором демпферного поля - основным источником чрезвычайной долговечности их кораблей.\n\nЕсли бы у нас было достаточно времени для изучения его возможностей, мы могли бы найти способ обойти его воздействие на наше оружие."
- mem_vazurans.252.desc.gestalt:0 "Сначала мы не смогли определить происхождение обломков из-за сильных повреждений и износа, но сканирование их материального состава показало, что это однозначно технологии Вазуран.\n\nКак они оказались в этом месте остается для нас загадкой, учитывая, что Вазуран скорее самоуничтожит свои корабли, чем отдаст их технологии врагам. Обстоятельства еще более благоприятны, поскольку, хотя большинство систем корабля не распознаны, ключевой компонент их технологии остается в значительной степени нетронутым. По словам лидера [root.owner.GetScientistResearchSubroutine] [root.Leader.GetName], в настоящее время мы располагаем генератором демпферного поля — основным источником чрезвычайной долговечности их кораблей.\n\nЕсли бы у нас было достаточно времени для изучения его возможностей, мы могли бы найти способ обойти его воздействие на наше оружие."
- mem_vazurans.252.a:0 "Любопытно"
+ mem_vazurans.252.name:0 "A Technological Treasure"
+ mem_vazurans.252.desc:0 "At first, our science team did not recognize the wreckage's origin due to its damage and an advanced state of deterioration, but a scan of its material composition has revealed it to be unmistakably Vazuran.\n\nHow it ended up in this place remains a mystery to us, given that the Vazurans tend to self-destruct disabled ships rather than letting their technology fall into enemy hands. The circumstances are even more fortunate, as though most of the ship's systems are beyond recognition, a key component of their technology remains largely intact. According to chief scientist [root.Leader.GetName], we are now in possession of a damper field generator -- the main source of their ships' extraordinary durability.\n\nGiven enough time to study its capabilities, we might be able to find a way of bypassing its effect on our weaponry."
+ mem_vazurans.252.desc.gestalt:0 "At first, we were unable to recognize the wreckage's origin due to its damage and an advanced state of deterioration, but a scan of its material composition revealed it to be unmistakably Vazuran.\n\nHow it ended up in this place remains a mystery to us, given that the Vazurans tend to self-destruct disabled ships rather than letting their technology fall into enemy hands. The circumstances are even more fortunate as, though most of the ship's systems are beyond recognition, a key component of their technology remains largely intact. According to chief [root.owner.GetScientistResearchSubroutine] [root.Leader.GetName], we are now in possession of a damper field generator -- the main source of their ships' extraordinary durability.\n\nGiven enough time to study its capabilities, we might be able to find a way of bypassing its effect on our weaponry."
+ mem_vazurans.252.a:0 "Intriguing"
 
  #Damper field quest start 2
- mem_vazurans.253.name:0 "Инопланетные Обломки Найдены"
- mem_vazurans.253.desc:0 "Выполняя зондирование на [root.GetName], одна из наших горнодобывающих команд обнаружила древние обломки. Несмотря на то, что они наполовину углубились в астероид, прежде чем застрять, они выглядит очень даже целыми. Правительственные чиновники были быстро проинформированы об этой необычной находке."
- mem_vazurans.253.desc.gestalt:0 "Выполняя зондирование на [root.GetName], одна из наших горнодобывающих команд обнаружила древние обломки. Несмотря на то, что они наполовину углубились в астероид, прежде чем застрять, они выглядит очень даже целыми. Разум был оперативно проинформирован об этой находке."
- mem_vazurans.253.a:0 "Начните исследование."
+ mem_vazurans.253.name:0 "Alien Wreckage Found"
+ mem_vazurans.253.desc:0 "While performing probe drilling on [root.GetName], one of our off-world mining companies has discovered an ancient wreckage. Despite having sliced halfway through the asteroid before getting stuck, it seems to be still in one piece. Government officials were quickly informed of this peculiar find."
+ mem_vazurans.253.desc.gestalt:0 "While performing probe drilling on [root.GetName], one of our off-world mining operations discovered an ancient wreckage. Despite having sliced halfway through the asteroid before getting stuck, it seems to be still in one piece. The corresponding subroutines were quickly informed of this peculiar find."
+ mem_vazurans.253.a:0 "Commence an investigation."
  
  #Damper field anomaly 2
- mem_vazurans_category_4:0 "Инопланетные обломки"
- mem_vazurans_category_4_desc:0 "Древние инопланетные обломки были обнаружены в [From.GetName]. Требуется дальнейшее изучение."
+ mem_vazurans_category_4:0 "Alien Wreckage"
+ mem_vazurans_category_4_desc:0 "An ancient alien wreckage has been found stuck in [From.GetName]. Further investigation is required."
 
  #Anomaly success
- mem_vazurans.254.name:0 "Клондайк технологий"
- mem_vazurans.254.desc:0 "Сначала наша научная команда не могла понять происхождение обломков из-за их сильного повреждения от столкновения с астероидом и износа, но сканирование их материального состава показало, что это однозначно технологии Вазуран.\n\nКак они оказались в этом месте остается для нас загадкой, учитывая, что Вазуран скорее самоуничтожит свои корабли, чем отдаст их технологии врагам. Обстоятельства еще более благоприятны, поскольку, хотя большинство систем корабля не распознаны, ключевой компонент их технологии остается в значительной степени нетронутым. По словам главного учёного [root.Leader.GetName], в настоящее время мы располагаем генератором демпферного поля - основным источником чрезвычайной долговечности их кораблей.\n\nЕсли бы у нас было достаточно времени для изучения его возможностей, мы могли бы найти способ обойти его воздействие на наше оружие."
- mem_vazurans.254.desc.gestalt:0 "Сначала мы не смогли определить происхождение обломков из-за их сильного повреждения от столкновения с астероидом и износа, но сканирование их материального состава показало, что это однозначно технологии Вазуран.\n\nКак они оказались в этом месте остается для нас загадкой, учитывая, что Вазуран скорее самоуничтожит свои корабли, чем отдаст их технологии врагам. Обстоятельства еще более благоприятны, поскольку, хотя большинство систем корабля не распознаны, ключевой компонент их технологии остается в значительной степени нетронутым. По словам лидера [root.owner.GetScientistResearchSubroutine] [root.Leader.GetName], в настоящее время мы располагаем генератором демпферного поля — основным источником чрезвычайной долговечности их кораблей.\n\nЕсли бы у нас было достаточно времени для изучения его возможностей, мы могли бы найти способ обойти его воздействие на наше оружие."
- mem_vazurans.254.a:0 "Любопытно."
+ mem_vazurans.254.name:0 "A Technological Treasure"
+ mem_vazurans.254.desc:0 "At first, our science team did not recognize the wreckage's origin due to the damage it sustained when entering the asteroid, but a scan of its material composition has revealed it to be unmistakably Vazuran.\n\nHow it ended up in this place remains a mystery to us, given that the Vazurans tend to self-destruct disabled ships rather than letting their technology fall into enemy hands. The circumstances are even more fortunate as, though most of the ship's systems are beyond recognition, a key component of their technology remains largely intact. According to the chief scientist [root.Leader.GetName], we are now in possession of a damper field generator -- the main source of their ships' extraordinary durability.\n\nGiven enough time to study its capabilities, we might be able to find a way of bypassing its effect on our weaponry."
+ mem_vazurans.254.desc.gestalt:0 "At first, we were unable to recognize the wreckage's origin due to the damage it sustained when entering the asteroid, but a scan of its material composition has revealed it to be unmistakably Vazuran.\n\nHow it ended up in this place remains a mystery to us, given that the Vazurans tend to self-destruct disabled ships rather than letting their technology fall into enemy hands. The circumstances are even more fortunate as, though most of the ship's systems are beyond recognition, a key component of their technology remains largely intact. According to chief [root.owner.GetScientistResearchSubroutine] [root.Leader.GetName], we are now in possession of a damper field generator -- the main source of their ships' extraordinary durability.\n\nGiven enough time to study its capabilities, we might be able to find a way of bypassing its effect on our weaponry."
+ mem_vazurans.254.a:0 "Intriguing."
 
  #Drifting vazuran wreckage found in deep space
- mem_vazurans.255.name:0 "Найдены инопланетные обломки"
- mem_vazurans.255.desc:0 "Сенсоры дальнего действия засекли объект, дрейфующий через систему [mem_vazurans_wreckage_system.GetName]. Похоже, что его забросили, так как нет никаких заметных энергетических признаков."
- mem_vazurans.255.a:0 "Начните исследование."
+ mem_vazurans.255.name:0 "Alien Wreckage Found"
+ mem_vazurans.255.desc:0 "Long range sensors have picked up an object drifting through the [mem_vazurans_wreckage_system.GetName] system. It appears to be abandoned, as there are no discernible energy signatures."
+ mem_vazurans.255.a:0 "Commence an investigation."
 
  #Wreckage investigation
- MEM_VAZURANS_WRECKAGE_INVESTIGATION:0 "Дрейфующий в пустоте"
- MEM_VAZURANS_WRECKAGE_INVESTIGATION_DESC:0 "Мы должны воспользоваться этим открытием и исследовать обломки, найденные в системе [mem_vazurans_wreckage_system.GetName]."
+ MEM_VAZURANS_WRECKAGE_INVESTIGATION:0 "Drifting in the Void"
+ MEM_VAZURANS_WRECKAGE_INVESTIGATION_DESC:0 "We have to take advantage of this discovery and investigate the wreckage found adrift in the [mem_vazurans_wreckage_system.GetName] system."
 
  #Wreckage investigation success
- mem_vazurans.256.name:0 "Клондайк технологий"
- mem_vazurans.256.desc:0 "Сначала наша научная команда не могла понять происхождение обломков из-за их сильного повреждения, но сканирование их материального состава показало, что это однозначно технологии Вазуран.\n\nКак они оказались в этом месте остается для нас загадкой, учитывая, что Вазуран скорее самоуничтожит свои корабли, чем отдаст их технологии врагам. Обстоятельства еще более благоприятны, поскольку, хотя большинство систем корабля не распознаны, ключевой компонент их технологии остается в значительной степени нетронутым. По словам главного учёного [root.Leader.GetName], в настоящее время мы располагаем генератором демпферного поля - основным источником чрезвычайной долговечности их кораблей.\n\nЕсли бы у нас было достаточно времени для изучения его возможностей, мы могли бы найти способ обойти его воздействие на наше оружие."
- mem_vazurans.256.desc.gestalt:0 "Сначала мы не смогли определить происхождение обломков из-за их сильного повреждения, но сканирование их материального состава показало, что это однозначно технологии Вазуран.\n\nКак они оказались в этом месте остается для нас загадкой, учитывая, что Вазуран скорее самоуничтожит свои корабли, чем отдаст их технологии врагам. Обстоятельства еще более благоприятны, поскольку, хотя большинство систем корабля не распознаны, ключевой компонент их технологии остается в значительной степени нетронутым. По словам лидера [root.owner.GetScientistResearchSubroutine] [root.Leader.GetName], в настоящее время мы располагаем генератором демпферного поля — основным источником чрезвычайной долговечности их кораблей.\n\nЕсли бы у нас было достаточно времени для изучения его возможностей, мы могли бы найти способ обойти его воздействие на наше оружие."
- mem_vazurans.256.a:0 "Интригующе."
+ mem_vazurans.256.name:0 "A Technological Treasure"
+ mem_vazurans.256.desc:0 "At first, our science team did not recognize the wreckage's origin due to its damage, but a scan of its material composition has revealed it to be unmistakably Vazuran.\n\nHow it ended up in this place remains a mystery to us, given that the Vazurans tend to self-destruct disabled ships rather than letting their technology fall into enemy hands. The circumstances are even more fortunate, as though most of the ship's systems are beyond recognition, a key component of their technology remains largely intact. According to chief scientist [root.Leader.GetName], we are now in possession of a damper field generator -- the main source of their ships' extraordinary durability.\n\nGiven enough time to study its capabilities, we might be able to find a way of bypassing its effect on our weaponry."
+ mem_vazurans.256.desc.gestalt:0 "At first, we were unable to recognize the wreckage's origin due to its damage, but a scan of its material composition has revealed it to be unmistakably Vazuran.\n\nHow it ended up in this place remains a mystery to us, given that the Vazurans tend to self-destruct disabled ships rather than letting their technology fall into enemy hands. The circumstances are even more fortunate, as though most of the ship's systems are beyond recognition, a key component of their technology remains largely intact. According to the chief [root.owner.GetScientistResearchSubroutine] [root.Leader.GetName], we are now in possession of a damper field generator -- the main source of their ships' extraordinary durability.\n\nGiven enough time to study its capabilities, we might be able to find a way of bypassing its effect on our weaponry."
+ mem_vazurans.256.a:0 "Intriguing."
 
  #Damper field project
- MEM_VAZURANS_DAMPER_FIELD_GENERATOR_INVESTIGATION:0 "Обратное проектирование"
- MEM_VAZURANS_DAMPER_FIELD_GENERATOR_INVESTIGATION_DESC:0 "Имея в своем распоряжении генератор демпферного поля Вазуран, мы можем приступить к изучению принципа его работы."
+ MEM_VAZURANS_DAMPER_FIELD_GENERATOR_INVESTIGATION:0 "Reverse Engineering"
+ MEM_VAZURANS_DAMPER_FIELD_GENERATOR_INVESTIGATION_DESC:0 "With the Vazuran damper field generator at our disposal, we can now proceed to studying how it functions."
 
  #Damper field project finished
- mem_vazurans.260.name:0 "Подавление передачи энергии"
- mem_vazurans.260.desc:0 "После проведения нескольких экспериментов над восстановленным генератором демпфер поля, наша команда ученых, смогла получить твердое представление о его возможностях. В отличие от наших щитов, которые поглощают энергию входящих атак до своего полного уничтожения, поле, которое создает этот генератор, постоянно подавляет любые энергетические передачи, полностью либо частично поглощая весь урон орудий.\n\nИспытания показали, что поле поглощает все виды атак, но наиболее оно эффективно против энергетических. Применение подобной технологии на наших кораблях может показаться очень заманчивой идеей, но наши эксперименты выявили кое-какие неудобства и побочные эффекты при использовании технологии в текущем виде. Само поле, работает не только на вражеские корабли, но и на наши собственные, и мы до сих пор не нашли решения данной проблемы.\n\nНаши ученые смогли только изучить основные принципы работы технологии. Тем не менее, это очень важный шаг к преодолению технологического разрыва между нами и Вазуран, что несомненно увеличит наши шансы в битве против их кораблей."
- mem_vazurans.260.a:0 "Интересно."
+ mem_vazurans.260.name:0 "Suppressed Energy Transmission"
+ mem_vazurans.260.desc:0 "After running multiple experiments on the salvaged damper field generator, our [root.GetScientistResearchSubroutinePlural] were able to establish a solid understanding of its capabilities. Unlike our shields, which absorb the energy of incoming attacks until they are depleted, the field this generator creates permanently suppresses energy transmissions so that only a fraction of them reach the protected object.\n\nWhile it works against any kind of weapon, tests have shown it to be most effective against energy-based ones. Though the application of this technology to our own fleet might seem tempting at first, our experiments have demonstrated problematic side-effects caused by this protective device. The suppression of energy transmission is not limited on energy coming from outside its zone of effect but affects internal ship systems as well. So far, no way of shielding them from the damper field's effects has been found.\n\nOur [root.GetScientistResearchSubroutinePlural] have only managed to gain a rudimentary understanding of the technology's underlying scientific principles. However, this is nonetheless a significant step in overcoming the Vazuran technological superiority and should improve our chances in battles against their ships."
+ mem_vazurans.260.a:0 "Fascinating."
 
  # Reaching Vazuran Homesystem
- mem_vazurans.280.name:0 "Родная система Вазуран"
- mem_vazurans.280.desc:0 "Наш корабль-разведчик достиг другой стороны разлома. Как и ожидалось, его сенсоры засекли нагромождение защитных сооружений. Помимо круга грозных крепостей вокруг границ системы и флота такой же силы, как тот, с которым мы столкнулись во время атаки на наш родной мир, есть еще одно судно, намного больше по размеру, чем любое другое, что видели раньше. Оно вращается вокруг разрушенного мира рядом с гигантской структурой, которая, похоже, является оперативной базой Вазуран.\n\nПока наш корабль обрабатывал данные, его сенсоры засекли всплеск энергии внутри крепостей. Он не может более оставаться там без риска быть уничтоженным."
- mem_vazurans.280.a:0 "Убирайтесь оттуда!"
+ mem_vazurans.280.name:0 "The Vazuran Home System"
+ mem_vazurans.280.desc:0 "Our scout has reached the other side of the rift. As expected, its sensors confirm it to be heavily fortified. Besides a circle of formidable fortresses around the system's borders and a fleet of a similar strength to the one we faced during the attack on our homeworld, there is another vessel far larger in size than anything we have seen before. It is orbiting a shattered world close to a giant structure which appears to be the Vazuran base of operations.\n\nAs our ship is still processing the data, it detects a spike in energy readings in the fortresses. It cannot remain there any longer without the risk of being attacked. If we are to return, it has to be in force."
+ mem_vazurans.280.a:0 "Get out of there!"
  
  # Defeated Vazuran Homefleet
- mem_vazurans.281.name:0 "Флот Вазуран побежден"
- mem_vazurans.281.desc:0 "Вазуранского флота больше нет, их Колосс был уничтожен, и мы победили.\n\nПуть к их главной базе теперь открыт для наших войск."
- mem_vazurans.281:0 "К победе."
+ mem_vazurans.281.name:0 "Vazuran Fleet Defeated"
+ mem_vazurans.281.desc:0 "The Vazuran fleet is no more, their Colossus has been defeated and we stand victorious.\n\nThe way is now clear for our troops to take their home base."
+ mem_vazurans.281:0 "To Victory."
 
  # Invaded Vazuran HQ
- mem_vazurans.282.name:0 "Это конец"
- mem_vazurans.282.desc:0 "Сегодня мы отмечаем начало новой эпохи. Угроза Вазуран была побеждена. Наш народ больше не будет жить в страхе перед угрозой флотилий врага.\n\nНашим силам пришлось заплатить высокую цену за эту победу, так как оставшиеся защитники Вазуран окопались, отчаянно обороняя оставшиеся оборонительные рубежи. Столкнувшись с неизбежностью поражения, они активировали систему самоуничтожения, уничтожив большую часть обитаемой территории. \n\nОднако наши войска не ушли с пустыми руками. Одна из наших спецкоманд, которая занимается поиском технологической информации, захватила ядро данных, в котором содержались детали производственного процесса 'Ксетрониум' - материал из которого была сделана броня Вазуран. Учитывая его характеристики, особенно его высокую плотность, он может быть не только полезен для брони нашего корабля, но и позволит значительно увеличить урон нашего кинетического оружия."
- mem_vazurans.282.desc.gestalt:0 "Сегодня мы отмечаем начало новой эпохи. Угроза Вазуран была побеждена. [root.GetName] больше не будет жить в страхе перед угрозой флотилий врага.\n\nНашим силам пришлось заплатить высокую цену за эту победу, так как оставшиеся защитники Вазуран окопались, отчаянно обороняя оставшиеся оборонительные рубежи. Столкнувшись с неизбежностью поражения, они активировали систему самоуничтожения, уничтожив большую часть обитаемой территории. \n\nОднако наши боевые дроны не ушли с пустыми руками. Спецгруппа дронов, которая занимается поиском технологической информации, захватила ядро данных, в котором содержались детали производственного процесса 'Ксетрониум' - материал из которого была сделана броня Вазуран. Учитывая его характеристики, особенно его высокую плотность, он может быть не только полезен для брони нашего корабля, но и позволит значительно увеличить урон нашего кинетического оружия."
- mem_vazurans.282.a:0 "Отличная работа!"
+ mem_vazurans.282.name:0 "It is Over"
+ mem_vazurans.282.desc:0 "Today marks the beginning of a new age. The Vazuran menace has been defeated. No longer shall our people live in fear of their attacks.\n\nOur forces had to pay a heavy price for this victory, as remaining Vazuran defenders dug in to defend every structure still standing. Faced with the inevitability of their defeat, they had activated a self-destruct sequence, destroying most of the habitable area.\n\nHowever, our troops did not leave empty-handed. One of our special operations teams tasked with the retrieval of technological information has returned with a data core containing details of the production process for 'Xentronium' - the material the Vazuran armor is made of. Given its characteristics, especially its extreme density, it might not only be of value for our ships' armor but may also enable significant improvements to our kinetic rounds."
+ mem_vazurans.282.desc.gestalt:0 "Today marks the beginning of a new age. The Vazuran menace has been defeated. No longer shall the [root.GetName] live in fear of their attacks.\n\nOur forces had to pay a heavy price for this victory, as remaining Vazuran defenders dug in to defend every structure still standing. Faced with the inevitability of their defeat, they had activated a self-destruct sequence, destroying most of the habitable area.\n\nHowever, our combat drones did not leave empty-handed. One of our special operations drone squads tasked with the retrieval of technological information has returned with a data core containing details of the production process for 'Xentronium' - the material the Vazuran armor is made of. Given its characteristics, especially its extreme density, it might not only be of value for our ships' armor but may also enable significant improvements to our kinetic rounds."
+ mem_vazurans.282.a:0 "Good work!"
 
  # Player is informed of Vazurans committing genocide
- mem_vazurans.306.name:0 "Зверства Вазуран"
- mem_vazurans.306.desc:0 "Мы получили сообщения о текущей кампании Вазуран по истреблению [mem_vazurans_extermination_target.GetSpeciesNamePlural] и полному уничтожению [mem_vazurans_extermination_target.GetName]. Неясно, что может оправдать подобного рода злодеяния, однако ясно, что [mem_vazurans_extermination_target.GetSpeciesNamePlural] проигрывают битву за битвой. Их конец — вопрос времени."
- mem_vazurans.306.a:0 "Какой ужас..."
+ mem_vazurans.306.name:0 "Vazuran Atrocities"
+ mem_vazurans.306.desc:0 "We have received reports about an ongoing Vazuran campaign to eradicate the [mem_vazurans_extermination_target.GetSpeciesNamePlural] and utterly destroy the [mem_vazurans_extermination_target.GetName]. It is unclear what if anything has happened to warrant this terrible atrocity. What is clear, however, is that the [mem_vazurans_extermination_target.GetSpeciesNamePlural] are fighting a losing battle. Their end is only a matter of time at this point."
+ mem_vazurans.306.a:0 "How horrible..."
 
  # Galactic Resolutions
- resolution_category_mem_vazurans:0 "Угроза Вазуран"
- resolution_mem_galactic_focus_crisis_vazurans_1:0 "Угроза Вазуран: Колониальная оборона"
- resolution_mem_galactic_focus_crisis_vazurans_1_desc:0 "Из-за Вазуранских рейдов, которые происходят по всей Галактике, ни одна колония не считает себя в безопасности. С принятием этой резолюции, члены Галактического сообщества соглашаются делиться информацией о тактике и характере нападений Вазуран и возможных контрмерах против захватчиков."
- resolution_mem_galactic_focus_crisis_vazurans_1_effect_success:0 "Колонии будут получать меньше опустошения и терять меньше поселений от рейдов Вазуран."
- resolution_mem_galactic_focus_crisis_vazurans_2:0 "Угроза Вазуран: Переломный момент"
- resolution_mem_galactic_focus_crisis_vazurans_2_desc:0 "Галактическое сообщество трепетало перед атаками Вазуран слишком долго. Настало время активного сотрудничества, чтобы противостоять захватчикам."
- resolution_mem_galactic_focus_crisis_vazurans_2_effect_success:0 "Обмен данными о кораблях Вазуран, а также совместные усилия по улучшению субсветовых двигателей, позволят быстрее оказывать помощь колониям, которые подвергаются атаке Вазуран и эффективно противостоять захватчикам."
- 
- resolution_mem_galactic_focus_crisis_vazurans_1_weight_tooltip_1: "Ах, Вазуран, древний вид, атакующий из другого измерения. Нам это не интересно..."
- resolution_mem_galactic_focus_crisis_vazurans_1_weight_tooltip_2: "Мы пострадали от одной из их атак."
+ resolution_category_mem_vazurans:0 "Vazuran Menace"
+ resolution_mem_galactic_focus_crisis_vazurans_1:0 "Vazuran Menace: Colonial Defenses"
+ resolution_mem_galactic_focus_crisis_vazurans_1_desc:0 "With vazuran raids happening all across the known galaxy, no colony appears to be safe. With this resolution galactic community members will agree to share their knowledge of vazuran attack patterns and possible countermeasures to better protect their citizens and infrastructure."
+ resolution_mem_galactic_focus_crisis_vazurans_1_effect_success:0 "Colonies will experience a reduced devastation and pop losses from vazuran raids."
+ resolution_mem_galactic_focus_crisis_vazurans_2:0 "Vazuran Menace: Turning the Tide"
+ resolution_mem_galactic_focus_crisis_vazurans_2_desc:0 "The galactic community has been paralyzed by fear of vazuran attacks for far too long. It is time to actively cooperate in order to resist the onslaught."
+ resolution_mem_galactic_focus_crisis_vazurans_2_effect_success:0 "Shared tactical data of vazuran vessels as well as a collaborative effort in improving the performance of sublight engines will improve the odds of reaching threatened colonies in time and faring better in combat against the attackers."
+ resolution_mem_galactic_focus_crisis_vazurans_1_weight_tooltip_1: "Ah yes, Vazurans, an ancient species attacking from another dimension. We have dismissed that claim..."
+ resolution_mem_galactic_focus_crisis_vazurans_1_weight_tooltip_2: "We were hit by one of their attacks."

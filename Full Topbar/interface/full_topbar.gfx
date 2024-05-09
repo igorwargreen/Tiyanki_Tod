@@ -1,0 +1,19 @@
+spriteTypes = {
+	# missing resource icons
+	spriteType = {
+		name = "GFX_resource_sr_dark_matter"
+		texturefile = "gfx/interface/icons/resources/sr_dark_matter.dds"
+	}
+	spriteType = {
+		name = "GFX_resource_sr_zro"
+		textureFile = "gfx/interface/icons/resources/sr_zro.dds"
+	}
+	spriteType = {
+		name = "GFX_resource_sr_living_metal"
+		textureFile = "gfx/interface/icons/resources/sr_living_metal.dds"
+	}
+	spriteType = {
+		name = "GFX_resource_nanites"
+		textureFile = "gfx/interface/icons/resources/nanites.dds"
+	}
+}

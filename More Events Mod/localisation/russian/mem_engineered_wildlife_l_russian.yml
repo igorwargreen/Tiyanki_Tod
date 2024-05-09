@@ -2,19 +2,19 @@
 #By ViolentBeetle
 l_russian:
 
-mem_engineered_wildlife_category:0 "Странная Дикая Природа"
-mem_engineered_wildlife_category_desc:0 "Наши сканирования выявили необычные поведенческие модели среди дикой природы, родившейся в [root.GetName]. Необходимо продолжить изучение вопроса о том, как это может повлиять на потенциальные усилия по колонизации."
+mem_engineered_wildlife_category:0 "Curious Wildlife"
+mem_engineered_wildlife_category_desc:0 "Our scans have indicated unusual behavioural patterns among the wildlife native to [root.GetName]. Further study is needed to see how this may impact potential colonization efforts."
 
-mem_engineered_wildlife.1.name:0 "Дикая Природа... Прекрасна"
-mem_engineered_wildlife.1.desc:0 "Дикая природа [from.GetName] чрезвычайно спокойна в присутствии наших исследователей. Более того, каждый вид, встречающийся до сих пор, является эстетически приятным для экипажа, создавая чувства защиты и облегчения. В то время как [root.leader.GetName] изначально беспокоился, что это может быть какой-то феромон или другое инопланетное явление, результаты показывают, что животные, о которых идет речь, просто являются «милыми». Приятная природа животных из [from.GetName] слишком универсальна, чтобы быть результатом естественной эволюции, и текущая ведущая теория заключается в том, что этот мир, возможно, был целью генной инженерии в прошлом для создания какого-то зоопарка. В любом случае, дружелюбная природа местной фауны будет дружелюбной к нам, если мы решим колонизировать планету."
-mem_engineered_wildlife.1.option:0 "Это было неожиданно."
+mem_engineered_wildlife.1.name:0 "The Wildlife is... Cute"
+mem_engineered_wildlife.1.desc:0 "The native wildlife of [from.GetName] is exceedingly calm in the presence of our researchers. What's more, every species encountered so far is quite aesthetically pleasing to the crew, creating feelings of protectiveness and companionship. While [root.leader.GetName] was originally worried that this may be some pheromone or other alien phenomenon, results show that the animals in question are simply deemed "cute". The pleasing nature of the animals from [from.GetName] is too universal to be a result of natural evolution, and the current leading theory is that this world may have been the target of genetic engineering in the past to create some kind of zoo. Regardless, the friendly nature of the local fauna will be welcomed if we choose to colonize the planet."
+mem_engineered_wildlife.1.option:0 "That was unexpected."
 
-mem_cute_wildlife:0 "Милая дикая природа"
-mem_cute_wildlife_desc:0 "На этой планете обитают различные представители дикой природы, созданные с помощью генной инженерии. "
+mem_cute_wildlife:0 "Cute Wildlife"
+mem_cute_wildlife_desc:0 "This planet is a host to various specimens of wildlife that have been genetically engineered for cuteness."
 
 
-mem_engineered_wildlife.2.name:0 "Враждебная Дикая Природа повсюду!"
-mem_engineered_wildlife.2.desc:0 "Дикая природа [from.GetName] невероятно враждебна и опасна! Несколько членов экипажа [root.GetName] были потеряны, получая образцы дикой природы, и каждое существо смертельно для органической жизни в той или иной форме. Генетический анализ видов, гены которых мы собрали, показал явные признаки генетического вмешательства. [from.GetName] скорее всего была лабораторией разработки инопланетного биологического оружия, которое в конечном итоге освободилось. Не известно, уничтожили ли существа их создателей. Несмотря на это, враждебная природа этих существ создаст значительные барьеры для наших колонистов, если мы решим продолжить колонизацию."
+mem_engineered_wildlife.2.name:0 "Hostile Wildlife Everywhere!"
+mem_engineered_wildlife.2.desc:0 "The native wildlife of [from.GetName] is incredibly hostile and dangerous! Several crew members of the [root.GetName] were lost getting samples of the wildlife, and every creature here is lethal to the organic life in some way or another. Genetic sampling of the species we managed to capture shows a clear evidence of genetic tampering. [from.GetName] was most likely a laboratory for the development of alien bio-weapons which eventually got loose. Whether or not the creatures destroyed their creators is unknown. Regardless, the hostile nature of these creatures will create significant barriers for our colonists if we choose to pursue colonization."
 
-mem_engineered_wildlife_dangerous:0 "Опасная Дикая Природа"
-mem_engineered_wildlife_dangerous_desc:0 "На этой планете обитают различные экземпляры смертоносной, генетически модифицированной дикой природы."
+mem_engineered_wildlife_dangerous:0 "Dangerous Wildlife"
+mem_engineered_wildlife_dangerous_desc:0 "This planet is host to various specimens of deadly, genetically-engineered wildlife."

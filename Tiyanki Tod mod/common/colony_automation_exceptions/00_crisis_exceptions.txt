@@ -594,3 +594,141 @@ automate_capital_building_hive = {
 		}
 	}
 }
+
+
+automate_mines_management = {
+	available = {
+		owner = { has_country_flag = is_general_of_0 }
+		free_building_slots > 0
+	}
+	emergency = yes
+	category = "planet_automation_pop_assembly"
+	buildings = {
+		crystal_deposit = {
+			building = building_crystal_mines
+		}
+		mote_deposit = {
+			building = building_mote_harvesters
+		}
+		gas_deposit = {
+			building = building_gas_extractors
+		}
+	}
+}
+automate_ameno_maintenance_drone_management = {
+	should_ai_use_job_micro = yes
+
+	available = {
+		owner = {
+			is_gestalt = yes
+			has_country_flag = is_general_of_0
+		}
+	}
+
+	emergency = yes
+	category = "planet_automation_pop_assembly"
+
+	job_changes = {
+		maintenance_drone_reduce = {
+			available = {
+				free_amenities > 5
+			}
+
+			job = maintenance_drone
+			amount = -1
+		}
+
+		maintenance_drone_increase = {
+			available = {
+				free_amenities < 0
+			}
+
+			job = maintenance_drone
+			amount = 1
+		}
+	}
+}
+automate_ameno_clerk_management = {
+	should_ai_use_job_micro = yes
+
+	available = {
+		owner = {
+			is_gestalt = no
+			has_country_flag = is_general_of_0
+		}
+	}
+
+	emergency = yes
+	category = "planet_automation_automate_ameno_clerk"
+
+	job_changes = {
+		clerk_reduce = {
+			available = {
+				free_amenities > 5
+			}
+
+			job = clerk
+			amount = -1
+		}
+
+		clerk_increase = {
+			available = {
+				free_amenities < 0
+			}
+
+			job = clerk
+			amount = 1
+		}
+	}
+}
+automate_clinic = {
+	available = {
+		owner = { 
+			has_country_flag = is_general_of_0 
+			has_technology = tech_frontier_health 
+		}
+	}
+
+	emergency = yes
+	category = "planet_automation_pop_assembly"
+
+	buildings = {
+		amenity = {
+			building = building_clinic
+		}
+	}
+}
+automate_unity_drone_building = {
+	available = {
+		owner = { 
+			has_country_flag = is_general_of_0 
+			is_gestalt = yes
+		}
+	}
+
+	emergency = yes
+	category = "planet_automation_pop_assembly"
+
+	buildings = {
+		manufacturing = {
+			building = building_sensorium_1
+		}
+	}
+}
+automate_archaeo = {
+	available = {
+		owner = { 
+			has_country_flag = is_general_of_0 
+			has_technology = tech_archaeo_refinery 
+		}
+	}
+
+	emergency = yes
+	category = "planet_automation_pop_assembly"
+
+	buildings = {
+		manufacturing = {
+			building = building_archaeo_refinery
+		}
+	}
+}

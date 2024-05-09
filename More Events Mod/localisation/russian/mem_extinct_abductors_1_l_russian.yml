@@ -6,220 +6,220 @@
  ########################
  
  # Initial Anomaly Text
- mem_extinct_abductors_category:0 "Древний комплекс"
- mem_extinct_abductors_category_desc:0 "Наша исследовательская группа обнаружила удаленный комплекс древних зданий на §Y[From.GetName]§!. Никаких признаков прежней колонизации не обнаружено. Наша команда хочет исследовать это дальше."
+ mem_extinct_abductors_category:0 "Ancient Complex"
+ mem_extinct_abductors_category_desc:0 "Our survey team has detected a remote complex of ancient buildings on §Y[From.GetName]§!. No other signs of former colonization can be found. Our team wishes to investigate this further."
 
  # Extinct Abductors Anomaly Failure
- mem_extinct_abductors.2.name:0 "Древний комплекс"
- mem_extinct_abductors.2.desc:0 "Наша исследовательская группа не нашла ничего интересного. Место было очищено от любой ценной или интересной информации и технологий. Покинули ли бывшие владельцы это место организованно или какие-то мусорщики подобрали все остатки, остается неясным."
- mem_extinct_abductors.2.a:0 "Ладно, давайте двигаться дальше."
+ mem_extinct_abductors.2.name:0 "Ancient Complex"
+ mem_extinct_abductors.2.desc:0 "Our survey team has found nothing of interest. The place was stripped clean of any valuable or interesting information and technology. Whether the former holders left this place in an orderly fashion or some scavengers picked up all of the leftovers afterwards remains unclear."
+ mem_extinct_abductors.2.a:0 "Ok, let's move on."
 
  # Extinct Abductors Anomaly Critical Failure
- mem_extinct_abductors.3.name:0 "Благородная жертва"
- mem_extinct_abductors.3.desc:0 "В глубинах комплекса на §Y[From.GetName]§! наша исследовательская группа заразилась странным веществом, которое, как выяснилось позже, было опасным мутагеном, с которым экспериментировали бывшие владельцы этого места. Вернувшись на борт корабля, несколько членов команды исследователей начали превращаться в извращенных мерзостей, доведенных до безумия болью и яростью. Эти мутации распространились среди членов экипажа как лесной пожар, и когда ситуация вышла из-под контроля, главный ученый §Y[Root.GetLeaderName]§!, в последние минуты здравомыслия, смог установить курс на столкновение с планетой. Последующий сверхсветовой удар уничтожил значительную часть §Y[From.GetName]§!, включая комплекс, который команда исследовала ранее — таким образом, была предотвращена дальнейшая угроза заражения."
- mem_extinct_abductors.3.a:0 "Доблесть учёного не знает границ!"
+ mem_extinct_abductors.3.name:0 "A Noble Sacrifice"
+ mem_extinct_abductors.3.desc:0 "In the depths of the complex on §Y[From.GetName]§!, our survey team became contaminated with a strange substance that they later discovered to be a dangerous mutagen the former holders of this place had experimented with. Back aboard the ship, several members of the survey team have began to transform into twisted abominations, driven to insanity by pain and rage. These mutations spread like wildfire among the members of the crew and as the situation was getting out of control, §Y[Root.GetLeaderName]§!, the chief scientist on board, during [Root.GetHisHer] last moments of remaining sanity, was able to set the ship on a collision course with the planet. The following FTL impact has destroyed large parts of §Y[From.GetName]§!, including the complex the team had investigated earlier - thus averting any further threat."
+ mem_extinct_abductors.3.a:0 "What a valiant officer!"
  
- mem_extinct_abductors.47.desc:0 "Если вы видите это событие, значит, что-то пошло не так. Оно ничего не делает, но, пожалуйста, сообщите об ошибке разработчику More Events Mod"
+ mem_extinct_abductors.47.desc:0 "If you see this event, something went wrong. It does nothing, but please report the bug to the More Events Mod team"
  
  ########################
  # Uplifting Race Line
  ########################
  
- mem_ea_uplifter.100.name:0 "Одинокая застава"
- mem_ea_uplifter.100.desc:0 "Наша исследовательская группа только что закончила предварительную разведку одинокого комплекса на §Y[From.GetName]§! К сожалению, структурные повреждения не позволили им получить никакой полезной информации. Потребуется тяжелое оборудование, чтобы проложить путь через разрушенные секции."
- mem_ea_uplifter.100.a:0 "Понятно."
+ mem_ea_uplifter.100.name:0 "A Lonely Outpost"
+ mem_ea_uplifter.100.desc:0 "Our survey team has just completed its preliminary exploration of the lone complex on §Y[From.GetName]§!. Unfortunately structural damage has prevented them from obtaining any useful information so far. Heavy equipment will be required in order to clear a path through the collapsed sections."
+ mem_ea_uplifter.100.a:0 "Understood."
  
  # Excavation site
  # initial text
- mem_ea_uplifter_digsite_1:0 "Одинокая застава"
- mem_ea_uplifter_digsite_1_desc:0 "Комплекс, обнаруженный на §Y[From.Planet.GetName]§! явно подвергался орбитальной бомбардировке, однако его структура осталась практически неповрежденной. Тем не менее, внутренние помещения находятся в плохом состоянии. Обрушившиеся комнаты и заваленные обломками коридоры заблокировали первоначальное исследование нашей команды. Для расчистки и обеспечения безопасного пути, ведущего дальше в руины, требуется тяжелое оборудование."
+ mem_ea_uplifter_digsite_1:0 "A Lonely Outpost"
+ mem_ea_uplifter_digsite_1_desc:0 "The complex found on §Y[From.Planet.GetName]§! has clearly been subject to orbital bombardment yet its structure remains largely intact. That said, the interior is in bad shape. Collapsed rooms and debris-filled hallways blocked our team's initial investigation. Heavy equipment is required in order to clear and secure a path leading further into the ruin."
  # stage 1
- mem_ea_uplifter.102.name:0 "Куда они ушли?"
- mem_ea_uplifter.102.desc:0 "С трудом пробираясь через лабиринт заваленных коридоров и полуразрушенных комнат, команда археологов, наконец, достигла участка менее разрушенного участка. Доступная зона производит впечатление чисто гражданского жилого помещения. Однако до сих пор не было найдено никаких следов, указывающих на местонахождение первоначальных жителей.\n\nВ центре комплекса находится огромная шахта лифта, уходящая далеко под землю. [Root.GetLeaderName] надеется найти там ответы и готовится углубиться в неизвестность."
- mem_ea_uplifter.102.a:0 "Продолжайте в том же духе."
+ mem_ea_uplifter.102.name:0 "Where did they go?"
+ mem_ea_uplifter.102.desc:0 "Struggling to navigate through the labyrinth of blocked hallways and half collapsed rooms, the excavation team has finally reached a section less deteriorated than the previous one. The accessible area gives the impression of a purely civilian living area. So far however, no sign of any clues as to the whereabouts of the original inhabitants has been found.\n\nThe center of the complex houses an enormous elevator shaft reaching far beneath. [Root.GetLeaderName] hopes to find answers down there and prepares to push deeper into the unknown."
+ mem_ea_uplifter.102.a:0 "Keep on going."
  # stage 2
- mem_ea_uplifter.103.name:0 "Поразительная находка"
- mem_ea_uplifter.103.desc:0 "Глубоко под поверхностью, наша команда раскопщиков стоит в большом зале, окруженном тысячами криокапсул, в которых лежат останки различных видов, пролежавшие там тысячелетия. Однако это еще не все...\n\nСначала [Root.GetLeaderName] подумал(а), что это сбой в [Root.leader.GetHisHer] сканере. После многократных повторений и замен приборов, которые давали один и тот же результат, мы столкнулись с еще большим количеством вопросов: Почему некоторые из погибших являются §Y[Root.Owner.GetSpeciesAdj]§! и как они здесь оказались?!"
- mem_ea_uplifter.103.a:0 "Как это возможно?"
+ mem_ea_uplifter.103.name:0 "A Startling Find"
+ mem_ea_uplifter.103.desc:0 "Deep below the surface our excavation team stands inside a big hall surrounded by thousands of cryopods occupied by the remains of various species lying there for a millennia. This isn't everything however...\n\nAt first [Root.GetLeaderName] thought it to be a malfunction in [Root.leader.GetHisHer] scanner. After multiple repeated scans and a scanner replacement have yielded the same result we are now faced with even more questions: Why are some of the deceased of §Y[Root.Owner.GetSpeciesAdj]§! origin and how did they end up here?!"
+ mem_ea_uplifter.103.a:0 "How is this possible?"
  # stage 3
- mem_ea_uplifter.104.name:0 "Холодное прошлое"
- mem_ea_uplifter.104.desc:0 "Наши ученые идентифицировали по крайней мере пять видов, помимо нашего собственного, внутри криокапсул. Самый распространенный из них - двуногий вид небольшого роста - наша команда считает их строителями этого места. Тот факт, что все они лежат в одной комнате, вызывает вопросы. Были ли они все в этом месте по своей воле?\n\nСудя по тому, что наши ученые смогли восстановить из памяти центрального компьютера, ответ - «да». Наша фрагментарная информация указывает на возможность того, что это был огромный проект по преображению, который осуществлялся владельцами этого места. Они также нашли координаты родных планет других четырех видов. Мы должны исследовать их, пока другая команда остается позади, чтобы исследовать остатки хранилища данных."
- mem_ea_uplifter.104.a:0 "Очень интересно."
+ mem_ea_uplifter.104.name:0 "Frozen Past"
+ mem_ea_uplifter.104.desc:0 "Our scientists have identified at least five species, besides our own, inside the cryopods. The most common one -- a bipedal species of small stature -- is regarded as the builder of this place by our team. The fact that they all lie in the same room raises questions. Were they all in this place out of free will?\n\nFrom what our scientists could reconstruct of the central computer's data memory, the answer seems to be "yes". Our fragmentary information indicates a possibility of this being an enormous uplifting project that was being pursued by this place's owners. They have also found the coordinates of the other four species' home planets. We should investigate them while another team stays behind to investigate the remains of the data storage."
+ mem_ea_uplifter.104.a:0 "Very interesting."
  
  # Extinct Abductors Anomaly Success
- mem_ea_uplifter.1.name:0 "Поразительная находка"
- mem_ea_uplifter.1.desc:0 "Комплекс, обнаруженный на §Y[From.GetName]§!, явно подвергался сильной орбитальной бомбардировке, но все еще цел. Тем не менее, внутренние помещения находятся в плохом состоянии. Наша команда с трудом пробиралась через лабиринт заваленных коридоров и полуразрушенных комнат. Однако их усилия были вознаграждены, когда они обнаружили большой зал, расположенный на трех уровнях под землей, заполненный тысячами криокапсул, в которых находились останки различных видов, пролежавшие там тысячелетия. Некоторые из этих образцов являются §Y[Root.Owner.GetSpeciesAdj]§!!"
- mem_ea_uplifter.1.a:0 "Как это возможно?"
+ mem_ea_uplifter.1.name:0 "A Startling Find"
+ mem_ea_uplifter.1.desc:0 "The complex found on §Y[From.GetName]§! has clearly been a subject of heavy orbital bombardment yet it is still mostly intact. That said, the interior is in bad shape. Our team has struggled to navigate through the labyrinth of blocked hallways and half-collapsed rooms. Their efforts were rewarded however, when they found a big hall situated three levels underground, filled with thousands of cryopods occupied by the remains of various species lying there for millennia. Some of these specimen are of §Y[Root.Owner.GetSpeciesAdj]§! origin!"
+ mem_ea_uplifter.1.a:0 "How is this possible?"
  
  # Extinct Abductors Outpost Investigation Project
- MEM_EA_UPLIFTER_INVESTIGATION:0 "Холодное прошлое"
- MEM_EA_UPLIFTER_INVESTIGATION_DESC:0 "Наши ученые хотят продолжить исследование таинственных криокамер на §Y[From.GetName]§!."
+ MEM_EA_UPLIFTER_INVESTIGATION:0 "Frozen Past"
+ MEM_EA_UPLIFTER_INVESTIGATION_DESC:0 "Our scientists wish to further investigate the mysterious cryo chamber on §Y[From.GetName]§!."
  
  # Extinct Abductors Outpost Investigation Project Completed #TODO: Test location
- mem_ea_uplifter.2.name:0 "Холодное прошлое"
- mem_ea_uplifter.2.desc:0 "Наши ученые идентифицировали по крайней мере пять видов, помимо нашего собственного, внутри криокапсул на §Y[From.From.GetName]§! Самый распространенный из них - двуногий вид небольшого роста - наша команда считает их строителями этого места. Тот факт, что все они лежат в одной комнате, вызывает вопросы. Были ли они все в этом месте по своей воле?\n\nСудя по тому, что наши ученые смогли восстановить из памяти центрального компьютера, ответ - «да». Наша фрагментарная информация указывает на возможность того, что это был огромный проект по преображению, который осуществлялся владельцами этого места. Они также нашли координаты родных планет других четырех видов. Мы должны исследовать их, пока другая команда остается позади, чтобы исследовать остатки хранилища данных."
- mem_ea_uplifter.2.a:0 "Очень интересно."
+ mem_ea_uplifter.2.name:0 "Frozen Past"
+ mem_ea_uplifter.2.desc:0 "Our scientists have identified at least five species, besides our own, inside the cryopods on §Y[From.From.GetName]§!. The most common species -- bipedal, of small stature -- are regarded as the builders of this place by our team. The fact that they all lie in the same room raises questions. Were they all in this place out of free will?\n\nFrom what our scientists could reconstruct of the central computer's data memory, the answer seems to be "yes". Our fragmentary information indicates a possibility of this being an enormous uplifting project that was being pursued by this place's owners. They have also found the coordinates of the other four species' home planets. We should investigate them while another team stays behind to investigate the remains of the data storage."
+ mem_ea_uplifter.2.a:0 "Very interesting."
  
  # Uplifter Event Chain
- mem_ea_uplifter_chain_title:0 "Истоки мёртвых"
- mem_ea_uplifter_chain_desc:0 "Узнайте больше о происхождении других видов, обнаруженных в криокамере."
- mem_ea_uplifter_worlds_visited:0 "Исследованные истоков"
+ mem_ea_uplifter_chain_title:0 "Origins of the Dead"
+ mem_ea_uplifter_chain_desc:0 "Find out more about the origins of the other species found in the cryo chamber."
+ mem_ea_uplifter_worlds_visited:0 "Investigated Origins"
  
  # Points of Interest for Event Chain
- mem_ea_uplifter_system_1:0 "Координаты 1-ой системы"
- mem_ea_uplifter_system_1_desc:0 "Данные из криокамеры показывают, что [mem_ea_uplifter_system_1.GetName] может быть планетой, с которой происходит один из замороженных видов."
- mem_ea_uplifter_system_2:0 "Координаты 2-ой системы"
- mem_ea_uplifter_system_2_desc:0 "Данные из криокамеры показывают, что [mem_ea_uplifter_system_2.GetName] может быть планетой, с которой происходит один из замороженных видов."
- mem_ea_uplifter_system_3:0 "Координаты 3-ей системы"
- mem_ea_uplifter_system_3_desc:0 "Данные из криокамеры показывают, что [mem_ea_uplifter_system_3.GetName] может быть планетой, с которой происходит один из замороженных видов."
- mem_ea_uplifter_system_4:0 "Координаты 4-ой системы"
- mem_ea_uplifter_system_4_desc:0 "Данные из криокамеры показывают, что [mem_ea_uplifter_system_4.GetName] может быть планетой, с которой происходит один из замороженных видов."
+ mem_ea_uplifter_system_1:0 "1st System Coordinates"
+ mem_ea_uplifter_system_1_desc:0 "Data from the cryo chamber indicates that [mem_ea_uplifter_system_1.GetName] may be the planet that one of the cryogenically frozen species originates from."
+ mem_ea_uplifter_system_2:0 "2nd System Coordinates"
+ mem_ea_uplifter_system_2_desc:0 "Data from the cryo chamber indicates that [mem_ea_uplifter_system_2.GetName] may be the planet that one of the cryogenically frozen species originates from."
+ mem_ea_uplifter_system_3:0 "3rd System Coordinates"
+ mem_ea_uplifter_system_3_desc:0 "Data from the cryo chamber indicates that [mem_ea_uplifter_system_3.GetName] may be the planet that one of the cryogenically frozen species originates from."
+ mem_ea_uplifter_system_4:0 "4th System Coordinates"
+ mem_ea_uplifter_system_4_desc:0 "Data from the cryo chamber indicates that [mem_ea_uplifter_system_4.GetName] may be the planet that one of the cryogenically frozen species originates from."
  
  # Arriving in the 4 Systems and Getting the Coordinates of the Planet and Project
  # Toxic World (Project 1)
- mem_ea_uplifter.3.name:0 "Прибытие на место Первых Координат"
- mem_ea_uplifter.3.desc:0 "Мы прибыли к первому набору координат, найденных в хранилище данных древнего комплекса. Координаты указывают на мир, покрытый толстым слоем токсичного газа. Наша научная группа готова немедленно приступить к исследовательской миссии."
- mem_ea_uplifter.3.a:0 "За дело."
+ mem_ea_uplifter.3.name:0 "Arrival at the First Coordinates"
+ mem_ea_uplifter.3.desc:0 "We have arrived at the first set of coordinates found in the ancient complex's data storage. The coordinates identify a world covered in what seems to be a thick layer of toxic gas. Our science team is ready to begin the survey mission immediately."
+ mem_ea_uplifter.3.a:0 "Make it so."
  # Molten World (Project 2)
- mem_ea_uplifter.4.name:0 "Прибытие на место Вторых Координат"
- mem_ea_uplifter.4.desc:0 "Наш корабль только что прибыл к координатам, найденным в хранилище данных древнего комплекса. Сенсоры корабля сразу же засекли множество враждебных сигналов, разбросанных по всей системе. Мы должны приготовиться к бою, если хотим достичь цели."
- mem_ea_uplifter.4.a:0 "Продолжайте."
+ mem_ea_uplifter.4.name:0 "Arrival at the Second Coordinates"
+ mem_ea_uplifter.4.desc:0 "Our ship has just arrived at the coordinates found in the ancient complex's data storage. The ship sensors immediately picked up multiple hostile signals scattered throughout the system. We should prepare for a fight if we wish to reach our destination."
+ mem_ea_uplifter.4.a:0 "Go on."
  # Frozen World (Project 3)
- mem_ea_uplifter.5.name:0 "Прибытие на место Третьих Координат"
- mem_ea_uplifter.5.desc:0 "Координаты родной планеты третьего вида привели нас к замерзшему миру, покрытому ледяным слоем толщиной в километр. Мы готовы начать исследование этой планеты."
- mem_ea_uplifter.5.a:0 "Понятно."
+ mem_ea_uplifter.5.name:0 "Arrival at the Third Coordinates"
+ mem_ea_uplifter.5.desc:0 "The coordinates of the third species' home planet led us to a frozen world covered by a kilometers-thick ice shell. We are ready to begin our investigation of this planet."
+ mem_ea_uplifter.5.a:0 "Understood."
  # Barren World (Project 4) Here Some Crystals will spawn to disturb you when doing the project
- mem_ea_uplifter.6.name:0 "Прибытие на место Четвёртых Координат"
- mem_ea_uplifter.6.desc:0 "Краткое сканирование близлежащего пространства после прибытия в эту систему подтвердило, что бесплодная планета является родным миром четвертого вида, обнаруженного в криокамере. Похоже, она больше не поддерживает никакой жизни. Наши ученые должны исследовать это."
- mem_ea_uplifter.6.a:0 "Пусть начинают."
+ mem_ea_uplifter.6.name:0 "Arrival at the Fourth Coordinates"
+ mem_ea_uplifter.6.desc:0 "A brief scan of nearby space after our arrival in this system verifies that a barren planet is the homeworld of the fourth species found in the cryo chamber. It does not seem to support any life anymore. Our scientists should investigate this."
+ mem_ea_uplifter.6.a:0 "Let them start."
  
  # Projects on the 4 Planets for more Information about the other Species found at the Anomaly
- MEM_EA_UPLIFTER_SYSTEM_1_INVESTIGATION:0 "Токсичный мир"
- MEM_EA_UPLIFTER_SYSTEM_1_INVESTIGATION_DESC:0 "Планета [This.GetName] когда-то была родиной примитивной цивилизации. Что с ней случилось?"
- MEM_EA_UPLIFTER_SYSTEM_2_INVESTIGATION:0 "Расплавленный мир"
- MEM_EA_UPLIFTER_SYSTEM_2_INVESTIGATION_DESC:0 "Планета [This.GetName] когда-то была родиной примитивной цивилизации. Что с ней случилось?"
- MEM_EA_UPLIFTER_SYSTEM_3_INVESTIGATION:0 "Замёрзший мир"
- MEM_EA_UPLIFTER_SYSTEM_3_INVESTIGATION_DESC:0 "Планета [This.GetName] когда-то была родиной примитивной цивилизации. Что с ней случилось?"
- MEM_EA_UPLIFTER_SYSTEM_4_INVESTIGATION_01:0 "Бесплодный мир"
- MEM_EA_UPLIFTER_SYSTEM_4_INVESTIGATION_01_DESC:0 "Планета [This.GetName] когда-то была родиной примитивной цивилизации. Что с ней случилось?"
+ MEM_EA_UPLIFTER_SYSTEM_1_INVESTIGATION:0 "A Toxic World"
+ MEM_EA_UPLIFTER_SYSTEM_1_INVESTIGATION_DESC:0 "The planet [This.GetName] was once homeworld to a primitive civilization. What happened to it?"
+ MEM_EA_UPLIFTER_SYSTEM_2_INVESTIGATION:0 "A Molten World"
+ MEM_EA_UPLIFTER_SYSTEM_2_INVESTIGATION_DESC:0 "The planet [This.GetName] was once homeworld to a primitive civilization. What happened to it?"
+ MEM_EA_UPLIFTER_SYSTEM_3_INVESTIGATION:0 "A Frozen World"
+ MEM_EA_UPLIFTER_SYSTEM_3_INVESTIGATION_DESC:0 "The planet [This.GetName] was once homeworld to a primitive civilization. What happened to it?"
+ MEM_EA_UPLIFTER_SYSTEM_4_INVESTIGATION_01:0 "A Barren World"
+ MEM_EA_UPLIFTER_SYSTEM_4_INVESTIGATION_01_DESC:0 "The planet [This.GetName] was once homeworld to a primitive civilization. What happened to it?"
  # A giant Space Crystal attacks shortly after the Barren World Investigation 
- mem_crystal_ship_giant_blue:0 "Владыка Древних Кристаллов"
- mem_crystal_ship_giant_blue_plural:0 "Владыки Древних Кристаллов"
- MEM_EA_UPLIFTER_SYSTEM_4_INVESTIGATION_02:0 "Странные кристаллы"
- MEM_EA_UPLIFTER_SYSTEM_4_INVESTIGATION_02_DESC:0 "По всей поверхности §Y[Prev.GetName]§! были найдены странные кристаллы. Являются ли они причиной исчезновения цивилизации примитивов?"
+ mem_crystal_ship_giant_blue:0 "Ancient Crystal Sovereign"
+ mem_crystal_ship_giant_blue_plural:0 "Ancient Crystal Sovereigns"
+ MEM_EA_UPLIFTER_SYSTEM_4_INVESTIGATION_02:0 "Strange Crystals"
+ MEM_EA_UPLIFTER_SYSTEM_4_INVESTIGATION_02_DESC:0 "Strange Crystals have been found all over §Y[Prev.GetName]§!'s surface. Are they the cause of the primitives' civilization's disappearance?"
  
  # Finishing the Projects
  # Toxic World (Project 1)
- mem_ea_uplifter.7.name:0 "Технологические риски"
- mem_ea_uplifter.7.desc:0 "Наша научная команда обнаружила многочисленные руины на §Y[mem_ea_homeworld_1.GetName]§!. Эти руины рассказывают о том, что когда-то здесь обитала высокоразвитая индустриальная цивилизация. Однако технологический прогресс оказал крайне негативное влияние на экосистему их мира. Не найдя адекватных мер противодействия, они столкнулись с катастрофическим разрушением собственной биосферы. Главный ученый §Y[Root.GetLeaderName]§! сомневается, что эта планета когда-нибудь будет восстановлена до прежнего состояния."
- mem_ea_uplifter.7.a:0 "Каждый прогресс может содержать в себе зародыш гибели..."
+ mem_ea_uplifter.7.name:0 "Risks of Technology"
+ mem_ea_uplifter.7.desc:0 "Our science team has found numerous ruins on §Y[mem_ea_homeworld_1.GetName]§!. The ruins tell a story of a heavily industrialized civilization once inhabiting it. Their technological progress did however have a very negative impact on their world's ecosystem. Failing to find adequate countermeasures, they faced a catastrophic breakdown of their own biosphere. Chief scientist §Y[Root.GetLeaderName]§! doubts that this planet will ever be restored to its former state."
+ mem_ea_uplifter.7.a:0 "Each advancement in itself may contain the germ of doom..."
  # Molten World (Project 2)
- mem_ea_uplifter.8.name:0 "Смерть в огне"
- mem_ea_uplifter.8.desc:0 "§Y[mem_ea_homeworld_2.GetName]§! - предположительно когда-то обитаемая планета, теперь представляет собой лишь горящую пустошь, усеянную вулканами и реками лавы, окутанную густым дымом, с неба льются кислотные дожди.\n\nИ ради чего? Чтобы заглушить бесконечную жадность жаждущих ресурсов автоматонов, которые не знают ни милосердия, ни раскаяния? Вся эта система исключительно богата минералами и поэтому, должно быть, заманила эти машины сюда. Они спустились на нее, как рой пожирателей мира. Нам ничего не удалось узнать о цивилизации, которая когда-то называла эту планету домом."
- mem_ea_uplifter.8.a:0 "Это могло случиться и с нами..."
+ mem_ea_uplifter.8.name:0 "A Death in Fire"
+ mem_ea_uplifter.8.desc:0 "§Y[mem_ea_homeworld_2.GetName]§! -- presumably once an inhabited planet -- is now nothing more than a burning wasteland littered with volcanos and rivers of lava, covered in a dense smoke, with acid rains pouring down from the sky.\n\nAnd for what? To silence the never-ending greed of resource-hungry automatons that know neither mercy nor remorse? This whole system is exceptionally mineral rich and thus must have lured these machines here. They have descended on it like a swarm of world eaters. Nothing remains to be learned about the civilization that once called this planet home."
+ mem_ea_uplifter.8.a:0 "This could have happened to us as well..."
  # Frozen World (Project 3)
- mem_ea_uplifter.9.name:0 "Космическое воздействие"
- mem_ea_uplifter.9.desc:0 "На планете §Y[mem_ea_homeworld_3.GetName]§! жители стали жертвами катаклизма, произошедшего здесь несколько тысяч лет назад. Наши сканеры обнаружили под ледяным слоем планеты следы, указывающие на крупномасштабное столкновение 8 000 лет назад. После первоначального огненного шторма, последовавшего за ударом, настала зима, вечная зима..."
- mem_ea_uplifter.9.a:0 "Мы ничего не можем поделать."
+ mem_ea_uplifter.9.name:0 "A Cosmic Impact"
+ mem_ea_uplifter.9.desc:0 "§Y[mem_ea_homeworld_3.GetName]§!'s inhabitants became victims of a cataclysmic event that took place here a few thousand years ago. Our scanners have revealed traces beneath the planetary ice shell which point to a large-scale impact 8,000 years ago. After the initial fire storm following the impact, winter seems to have become a permanent, rather than a transitional climate stage."
+ mem_ea_uplifter.9.a:0 "There is nothing we can do."
  # Barren World (Project 4_01)
- mem_ea_uplifter.101.name:0 "Незваные гости"
- mem_ea_uplifter.101.desc:0 "Поверхность §Y[mem_ea_homeworld_4.GetName]§! представляет собой безжизненную пустошь. Здесь почти ничего нельзя найти, что указывало бы на существование здесь цивилизации.\n\nОднако наши ученые сделали интересное открытие. По всей поверхности планеты, на расстоянии всего нескольких десятков метров друг от друга, расположены кристаллические образования, ширина и высота которых редко превышает один-два метра.\n\nВскоре после того, как они взяли образцы одного из этих образований, корабль §Y[Root.GetName]§! обнаружил входящий враждебный сигнал на краю Солнечной системы. Весь оставшийся на поверхности персонал был отозван на §Y[Root.GetName]§, который готов покинуть орбиту по вашему приказу."
- mem_ea_uplifter.101.a:0 "Чтобы справиться с этим существом, потребуется больше, чем научный корабль!"
+ mem_ea_uplifter.101.name:0 "An Unbidden Guest"
+ mem_ea_uplifter.101.desc:0 "§Y[mem_ea_homeworld_4.GetName]§!'s surface is a lifeless wasteland. There is barely anything to find that points to a civilization having existed here at all.\n\nOur scientists have made an interesting discovery however. There are crystal formations, rarely more than one or two meters in width and height, littering the entirety of the planet's surface, each just a few dozen meters from the next.\n\nShortly after they took samples of one of those formations, the §Y[Root.GetName]§! detected an incoming hostile signal at the edge of the solar system. All personnel remaining on the surface has been recalled to the §Y[Root.GetName]§!, which is ready to leave orbit on your orders."
+ mem_ea_uplifter.101.a:0 "It will take more than a science ship to handle that creature!"
  # Barren World (Project 4_02) Death by Space Crystals
- mem_ea_uplifter.10.name:0 "Кристальный Владыка"
- mem_ea_uplifter.10.desc:0 "Остается неясным, почему кристаллическая сущность выбрала эту планету в качестве своего места обитания. Однако результаты этого решения вполне очевидны. Наша научная группа обнаружила лишь небольшие следы того, что когда-то было доминирующим видом на этой планете. Их конец был неизбежен с момента появления кристалла. Их технологии были слишком примитивными, чтобы они могли дать какой-нибудь отпор сущности. Небольшие кристаллические образования, похоже, истощили кору планеты от большинства полезных минералов, превратив планету, когда-то пышную и очень живую, в безжизненную пустошь.\n\nТеперь, когда гигантский кристалл разрушен, наши ученые предлагают два возможных варианта. Мы можем либо собрать урожай этих богатых минералами кристаллических образований, либо изучить процесс их роста."
- mem_ea_uplifter.10.a:0 "Соберите кристаллы."
- mem_ea_uplifter.10.b:0 "Изучите кристаллы."
+ mem_ea_uplifter.10.name:0 "A Crystal Host"
+ mem_ea_uplifter.10.desc:0 "It remains unclear why the crystalline entity chose this planet to be its host. The results of this decision are, however, quite obvious. Our science team has found only small traces of what was once the dominant species on this planet. Their end was inevitable from the moment the crystal first appeared. Their technology must have been far too primitive for them to possess any means of defense against it. The small crystal formations seem to have exhausted the planet's crust of most useful minerals, thus turning the planet, once lush and very much alive, into a lifeless wasteland.\n\nNow that the giant crystal has been destroyed, our scientists suggest two possible options: We could either harvest these mineral rich crystal formations or study their undisturbed growing process."
+ mem_ea_uplifter.10.a:0 "Harvest the crystals."
+ mem_ea_uplifter.10.b:0 "Study the crystals."
  
  # Finishing the Event Chain
- mem_ea_uplifter.11.name:0 "Ещё больше вопросов"
- mem_ea_uplifter.11.desc:0 "После завершения нашего исследования мы получили мало дополнительных знаний о планах строителей комплекса. Поскольку ни один из других видов не сохранился, у нас осталось еще больше вопросов. Почему они не получили никакой помощи от расы преображателей? Почему раса преображателей вообще пыталась их преобразить? Куда они отправились?"
- mem_ea_uplifter.11.a:0 "Мы должны найти ответы!"
+ mem_ea_uplifter.11.name:0 "Even More Questions"
+ mem_ea_uplifter.11.desc:0 "After finishing our investigation, we have gained little if any additional knowledge about the uplifting plans of the complex's builders. As none of the other species still remain, we are left with even more questions. Why did they get no help from the uplifter race? Why did the uplifter race try to uplift them at all? Where did they go?"
+ mem_ea_uplifter.11.a:0 "We need to find answers!"
  
  # Half a year later after your scientists worked through all the data you get the coordinates of the homesystem of the uplifter species
- mem_ea_uplifter.13.name:0 "Прорыв"
- mem_ea_uplifter.13.desc:0 "После многих лет напряженной работы нашим ученым в древнем комплексе на §Y[mem_ea_start.GetName]§! удалось восстановить сильно поврежденную часть хранилища данных комплекса. Теперь у нас есть доступ к ранее не читаемым данным. Среди различных записей, которые мы восстановили, есть и местоположение домашней системы «Орилы», как они себя называли. Их империя вела войну с туманным агрессором. Похоже, что они проигрывали, несмотря на то, что обладали более совершенными технологиями, чем их враги. Когда форпост был атакован враждебным флотом, у его обитателей не осталось другого выбора, кроме как воспользоваться криокамерой и ждать помощи - которая, судя по всему, так и не пришла."
- mem_ea_uplifter.13.a:0 "Были ли они побеждены?"
+ mem_ea_uplifter.13.name:0 "Breakthrough"
+ mem_ea_uplifter.13.desc:0 "After years of hard work, our scientists operating in the ancient complex on §Y[mem_ea_start.GetName]§! have managed to restore a heavily damaged part of the facility's data storage. We now have access to previously unreadable data. Among the various records we've recovered is also the location of the home system of the "Orila", as they called themselves. Their empire seems to have been at war with a nebulous aggressor. They seem to have been on the losing end, despite having more advanced technology than their foes. When this outpost was attacked by a hostile fleet, its inhabitants were left with no other choice other than to use the cryo chamber to wait for help - help that apparently never arrived."
+ mem_ea_uplifter.13.a:0 "Were they defeated?"
  
  # Points of Interest for Uplifter Homesystem
- mem_ea_uplifter_system_5:0 "Родная система Орилы"
- mem_ea_uplifter_system_5_desc:0 "Наши данные указывают на то, что система [mem_ea_uplifter_system_5.GetName] является местом происхождения загадочной расы преображателей под названием Орила."
+ mem_ea_uplifter_system_5:0 "Home System of the Orila"
+ mem_ea_uplifter_system_5_desc:0 "Our data indicates that the [mem_ea_uplifter_system_5.GetName] system is the origin of the mysterious uplifter race called the Orila."
  
  # Entering the Uplifter Homesystem for the First Time
- mem_ea_uplifter.14.name:0 "Древнее поле битвы"
- mem_ea_uplifter.14.desc:0 "Прибытие в систему Халиссос подтвердило то, что уже предполагали наши ученые: Орилы проиграли войну. Их система усеяна полями обломков.\n\nНаши сканеры получают странные энергетические данные с одной из планет системы. Похоже, что она экранирована высокоразвитым энергетическим полем. Мы не можем получить никаких полезных данных с поверхности планеты."
- mem_ea_uplifter.14.a:0 "Давайте рассмотрим подробнее."
+ mem_ea_uplifter.14.name:0 "An Ancient Battlefield"
+ mem_ea_uplifter.14.desc:0 "The arrival in the Halissos system has confirmed what our scientists already assumed: The Orila lost the war. Their system is littered with debris fields.\n\nOur scanners get strange energy readings from one of the system's planets. It seems to be shielded by a highly advanced energy field. We are unable to get any useful data from the planet's surface"
+ mem_ea_uplifter.14.a:0 "Lets take a closer look."
  
  # Uplifter Homesystem Event Chain
- mem_ea_uplifter_homesystem_chain_title:0 "Орила"
- mem_ea_uplifter_homesystem_chain_desc:0 "Мы должны выяснить, что случилось с этой древней расой."
- mem_ea_uplifter_homesystem_investigated:0 "Приоткрыли завесу тайны"
+ mem_ea_uplifter_homesystem_chain_title:0 "The Orila"
+ mem_ea_uplifter_homesystem_chain_desc:0 "We have to find out what happened to this ancient race."
+ mem_ea_uplifter_homesystem_investigated:0 "Lifted the Mystery"
  
  # Shielded Homeplanet Investigation
- MEM_EA_UPLIFTER_HOMESYSTEM_INVESTIGATION:0 "Экранированный мир"
- MEM_EA_UPLIFTER_HOMESYSTEM_INVESTIGATION_DESC:0 "Харилла окружена высокоразвитым энергетическим полем. Что оно защищает? Может быть, на планете еще есть кто-то живой?"
+ MEM_EA_UPLIFTER_HOMESYSTEM_INVESTIGATION:0 "A Shielded World"
+ MEM_EA_UPLIFTER_HOMESYSTEM_INVESTIGATION_DESC:0 "Harilla is surrounded by a highly advanced energy field. What does it protect? Might there still be someone alive on the planet?"
  
  # Dialogue with the AI System of the Uplifter Race
- mem_ea_uplifter.15.name:0 "Последний из Орилы"
- mem_ea_uplifter.15.desc_01:0 "А... Наконец-то вы пришли."
- mem_ea_uplifter.15.desc_02:0 "Жадность отравила их души, забаррикадировала их мир ненавистью, погнала их гусиным шагом к страданиям и кровопролитию. \nОни развили скорость, но замкнулись в себе. Машины, давшие им изобилие, оставили их в нужде. Их знания сделали их циничными; их ум - жестким и недобрым. Они слишком много думали и слишком мало чувствовали. \n\nБольше, чем в машинах, они нуждались в общении. Больше, чем ум, им нужны были доброта и мягкость. \nБез этих качеств их образ жизни был жестоким, и они угрожали жизни других видов." 
- mem_ea_uplifter.15.a:0 "И мы были одной из тех рас, которые вы пытались преобразить?"
- mem_ea_uplifter.15.b:0 "Кто ты?"
- mem_ea_uplifter.15.b.response:0 "Я - Чап'Лин, последний из Орилы.\n\nХотя я всего лишь образ его сознания, а не сущность. \n\nКогда-то он был избран своим народом, чтобы представлять вид тем, кто пойдет по нашим стопам."
- mem_ea_uplifter.15.c:0 "Кто ты на самом деле?"
- mem_ea_uplifter.15.c.response:0 "Я - образ сознания Орилы Чап'Лин.\n\nЯ больше, чем просто искусственный интеллект, но не живое существо. Быть тем, кто я есть, - это честь, и в тоже время - бремя...\n\nБремя, которое я с готовностью решил принять. \n\nС тех пор как последний представитель нашей расы ушел из жизни, на мне лежит ответственность за поддержание того, что осталось от этого мира, и обеспечение непрерывной работы планетарного барьерного щита.\n\nНо моей самой важной задачей было дождаться вашего прибытия."
- mem_ea_uplifter.15.d:0 "Что случилось с твоей расой?"
- mem_ea_uplifter.15.d.response:0 "Было время, когда наш технический прогресс превзошел нашу способность предвидеть возможные последствия.\n\nМы безрассудно стремились к бессмертию.\n\nКогда мы осознали последствия, ущерб был уже нанесен. Постоянное клонирование привело к тому, что наша раса стала стерильной и медленно поддавалась неизбежной деградации собственного генофонда."
- mem_ea_uplifter.15.e:0 "Почему вы преображали остальные виды?"
- mem_ea_uplifter.15.e.response:0 "Когда мы столкнулись с неизбежной гибелью, мы увидели, что нет другой цивилизации, готовой или желающей защитить менее развитые виды от безжалостной агрессии.\n\nПоэтому мы попытались помочь таким видам найти путь к звездам, чтобы они могли защитить себя и, возможно, однажды сменить нас на посту защитников."
- mem_ea_uplifter.15.f:0 "Какой была ваша империя?"
+ mem_ea_uplifter.15.name:0 "The Last Orila"
+ mem_ea_uplifter.15.desc_01:0 "Ah... At long last you have finally come."
+ mem_ea_uplifter.15.desc_02:0 "Greed had poisoned their souls, had barricaded their world with hate, had goose-stepped them into misery and bloodshed.\nThey had developed speed, but had shut themselves in. Machinery that gave them abundance had left them in want. Their knowledge had made them cynical; their cleverness - hard and unkind. They thought too much and felt too little.\n\nMore than machinery, they needed fellowship. More than cleverness, they needed kindness and gentleness.\nWithout these qualities, their way of life was violent, and they threatened the lives of others." 
+ mem_ea_uplifter.15.a:0 "And we were one of these races you tried to uplift?"
+ mem_ea_uplifter.15.b:0 "Who are you?"
+ mem_ea_uplifter.15.b.response:0 "I am Chap'Lin, the last of the Orila.\n\nThough I am merely an image of his consciousness and not the person himself.\n\nHe was once chosen by his people to represent our species to those who would follow in our footsteps."
+ mem_ea_uplifter.15.c:0 "What exactly are you?"
+ mem_ea_uplifter.15.c.response:0 "I am an image of the consciousness of the Orila Chap'Lin.\n\nI am more than a mere AI but less than a living being. To be what I am is an honor as well as a burden...\n\nA burden I readily chose to accept.\n\nSince the last of our race has passed away, it has been my responsibility to maintain what is left of this world and ensure the continuous function of its planetary barrier shield.\n\nBut my most important task has been to wait for your arrival."
+ mem_ea_uplifter.15.d:0 "What happened to your race?"
+ mem_ea_uplifter.15.d.response:0 "There was a time in which our technological progress outmatched our ability to foresee possible consequences.\n\nWe recklessly pursued our quest for immortality.\n\nOnce we became aware of the consequences the damage was already done. Continuous cloning had left our race sterile and we have slowly succumbed to the inevitable degradation of our gene pool."
+ mem_ea_uplifter.15.e:0 "Why did you uplift other species?"
+ mem_ea_uplifter.15.e.response:0 "When we faced our inevitable demise, we saw that there was no other civilization ready or willing to protect less advanced species against ruthless aggression.\n\nSo we tried to help such species find their way to the stars so that they would be able to defend themselves and perhaps one day succeed us in our position as protectors."
+ mem_ea_uplifter.15.f:0 "What was your empire like?"
  
  # Dialogue second window for longer answer
- mem_ea_uplifter.16.name:0 "Последний из Орилы"
- mem_ea_uplifter.16.desc_01:0 "Мы не хотели создавать империю. Это был не наш путь.\n\nМы не хотели никем править или покорять. Мы хотели помогать всем, кому возможно. Все разумные существа должны хотеть помогать друг другу. Мы все хотели жить за счет счастья друг друга, а не за счет несчастья.\n\nМы не хотим ненавидеть и презирать друг друга. Мы верили, что в этой вселенной есть место для каждого, что наша галактика богата и может обеспечить всех; что наш образ жизни может быть свободным и прекрасным.\n\nНо другие сбились с пути..."
- mem_ea_uplifter.16.desc_02:0 "Это правда.\n\nВаша раса была в числе пяти самых многообещающих наших протеже. К сожалению, прежде чем мы смогли завершить начатое, на нас напали те, кто хотел нажиться на нашей растущей слабости.\n\nХотя наши технологии значительно превосходили их, они нашли силу в количестве, в то время, как нас становилось всё меньше. В конце концов, мы были вынуждены отступить на нашу родную планету, которая стала нашей тюрьмой.\n\nОтсюда нам пришлось наблюдать, как угасают наши дети. И теперь все надежды моего народа связаны с вами и вашей расой."
- mem_ea_uplifter.16.a:0 "Сбились с пути?"
- mem_ea_uplifter.16.b:0 "Вы хотите, чтобы мы защищали слабых?"
+ mem_ea_uplifter.16.name:0 "The Last Orila"
+ mem_ea_uplifter.16.desc_01:0 "We did not want to have an empire. That was not our way.\n\nWe did not want to rule or conquer anyone. We would have liked to help everyone if possible. All intelligent life should want to help one another. We all want to live by each other's happiness, not by each other's misery.\nWe don't want to hate and despise one another. We believed that in this universe there was room for everyone, and that our galaxy was rich and could provide for everyone; that the way of life could be free and beautiful.\n\nBut others lost the way..."
+ mem_ea_uplifter.16.desc_02:0 "This is true.\n\nYour race was among the five most promising of our protégés. Unfortunately, before we could finish what we had begun, we were attacked by those who sought to profit from our growing weakness.\nThough our technology was vastly superior to theirs, they have found strength in numbers while ours dwindled. In the end, we were forced to retreat to our homeworld, which became our prison.\n\nFrom here we had to watch our children fade away. And now all of my people's hopes lie in you and your race."
+ mem_ea_uplifter.16.a:0 "Lost the way?"
+ mem_ea_uplifter.16.b:0 "You want us to protect the weak?"
  
  # Dialogue third and last window with final reward
- mem_ea_uplifter.17.name:0 "Последний из Орилы"
- mem_ea_uplifter.17.desc.01:0 "Я наблюдал за развитием вашей цивилизации.\n\nМне очень больно видеть, как вы идете по пути войны. Так много разрушений и страданий уже было вызвано этим.\n\nНо я все еще вижу в вашей расе тот же великий потенциал, который мы видели много веков назад. Я все еще надеюсь, что вы реализуете этот потенциал и примете свою судьбу защитника жизни.\n\nПримете ли вы это и пойдете по нашему пути?"
- mem_ea_uplifter.17.desc.02:0 "Я наблюдал за развитием вашей цивилизации.\n\nМне очень больно видеть, как вы идете по темному пути. Страх и нетерпимость не приведут вас к величию, а только к упадку.\n\nНо я все еще вижу в вашей расе тот же великий потенциал, который мы видели много веков назад. Я все еще надеюсь, что вы реализуете этот потенциал и примете свое предназначение защитника жизни.\n\nПримете ли вы это и пойдете по нашему пути?"
- mem_ea_uplifter.17.desc.03:0 "Я наблюдал за развитием вашей цивилизации.\n\nЗа прошедшие годы вы добились больших успехов, и я горжусь тем, какими вы стали.\n\nГотовы ли вы следовать нашему пути и занять место защитника жизни?"
- mem_ea_uplifter.17.a:0 "Мы будем чтить ваш путь."
- mem_ea_uplifter.17.a.tooltip:0 "Правительство вашей империи будет изменено на уникальную форму - §HПуть Древних§!. Вы получите уникальную гражданскую модель - §HПуть§!, которая даёт вам дополнительные §G+5% скорости исследований и +10% привлекательности основных этик§!. Эту гражданскую модель невозможно удалить.\n"
- mem_ea_uplifter.17.a.response:0 "Примите мою глубокую благодарность.\n\nЯ присоединюсь к вашему флоту возглавив последние наши корабли, чтобы помочь вам.\n\nОднако эта планета самоуничтожится через несколько часов. Я не могу допустить, чтобы наши технологии попали в чужие руки.\n\nСлишком много страданий может быть в последствии."
- mem_ea_uplifter.17.b:0 "Мне жаль, но это не наш путь."
+ mem_ea_uplifter.17.name:0 "The Last Orila"
+ mem_ea_uplifter.17.desc.01:0 "I have observed the development of your civilization.\n\nIt has hurt me deeply to see you walk the path of war. So much destruction and suffering has already been caused by this.\n\nBut yet I still see the same great potential in your race that we saw aeons ago. I still have hope that you will live up to this potential and accept your destiny as a protector of life.\n\nWill you accept it and follow our way instead?"
+ mem_ea_uplifter.17.desc.02:0 "I have observed the development of your civilization.\n\nIt has hurt me deeply to see you walk a dark path. Fear and intolerance will not lead you to greatness, but only to decline.\n\nBut yet I still see the same great potential in your race that we saw aeons ago. I still have hope that you will live up to this potential and accept your destiny as a protector of life.\n\nWill you accept it and follow our way instead?"
+ mem_ea_uplifter.17.desc.03:0 "I have observed the development of your civilization.\n\nYou have made great advancements through the past years and I am proud of what you have become.\n\nAre you ready to follow our way and take our place as a protector of life?"
+ mem_ea_uplifter.17.a:0 "We will honor your way."
+ mem_ea_uplifter.17.a.tooltip:0 "Your empire's government will be changed to a unique form - §HThe Way of the Ancients§!. You will get a unique civic - §HThe Way§! - offering a §G+5% research and +10% government ethic attraction bonus§!. This civic will be permanent.\n"
+ mem_ea_uplifter.17.a.response:0 "You have my deep thanks.\n\nI will join your fleet leading the last of our ships to assist you.\n\nThis planet however will self-destruct in a few hours. I cannot risk letting our technology fall into the wrong hands.\n\nToo much suffering could be the consequence."
+ mem_ea_uplifter.17.b:0 "I am sorry, but this is not our way."
  # This tooltip is also the tooltip for option c
- mem_ea_uplifter.17.b.tooltip:0 "Выкуйте свою собственную Судьбу.\n\nВаша империя получит §G5% бонус к счастью§!."
+ mem_ea_uplifter.17.b.tooltip:0 "Forge your own destiny.\n\nYour empire gains a §G5% bonus to happiness§!."
  # This response is also the response for option c
- mem_ea_uplifter.17.b.response:0 "Мне неприятно это слышать, но я не могу и не буду принуждать вас к другому выбору.\n\nВозможно, в будущем у вас еще есть надежда изменить свое решение, но мое время истекает.\nСкоро энергия, необходимая для поддержания этого щита, иссякнет, и я не могу допустить, чтобы наши технологии попали в чужие руки — следствием этого будут большие страдания. Эта планета самоуничтожится через несколько часов. Я рекомендую вам держаться от нее на расстоянии.\n\nЖивите в мире и процветании. Прощайте, [Root.GetSpeciesNamePlural]."
- mem_ea_uplifter.17.c:0 "Мы не изменимся!"
- mem_ea_uplifter.17.d:0 "Если такова наша судьба, мы должны принять ее."
- mem_ea_uplifter.17.d.tooltip:0 "Этики вашей империи меняются на §Hматериализм/пацифизм/ксенофилия§!, правительство меняется на §HПуть Древних§!. Вы получите уникальную гражданскую модель - §HПуть§!, которая даёт вам дополнительные §G+5% скорости исследований и +10% привлекательности основных этик§!. Эту гражданскую модель невозможно удалить.\n"
- mem_ea_uplifter.17.d.response:0 "Я рад, что вы решили следовать нашему пути.\n\nЯ присоединюсь к вашему флоту, возглавив последние наши корабли, чтобы помочь вам.\n\nОднако эта планета самоуничтожится через несколько часов. Я не могу рисковать страданиями, которые могут возникнуть, если наши технологии попадут не в те руки."
- END:0 "КОНЕЦ"
-
- mem_ea_uplifter_catchphrase:0 "Я рад, что вы решили пойти по нашему пути."
- mem_chaplin_backstory:0 "ИИ с отпечатком памяти Чап'Лина, одного из древних орилов. Его нация и вид исчезли, но он по-прежнему хранит их ценности и добродетели."
+ mem_ea_uplifter.17.b.response:0 "It troubles me to hear that, but I neither can, nor will I force you into another choice.\n\nThere may be still hope for you to change your mind in the future, but my time is running short.\nSoon the energy needed to keep this shield active will run out and I cannot allow our technology to fall into the wrong hands - great suffering would be the consequence.\n\nThis planet will self-destruct in a few hours. I recommend you keep your distance from it.\n\nMay you live in peace and prosperity. Farewell, [Root.GetSpeciesNamePlural]."
+ mem_ea_uplifter.17.c:0 "We will not change who we are!"
+ mem_ea_uplifter.17.d:0 "If this is our destiny, we have to accept it."
+ mem_ea_uplifter.17.d.tooltip:0 "Your empire's ethics will be changed to §Hmaterialist/pacifist/xenophile§!, and your empire's government will be changed to a unique form - §HThe Way of the Ancients§!. You will get a unique civic - $HThe Way$! - offering a §G5% research and 10% government ethic attraction bonus$!. This civic will be permanent.\n"
+ mem_ea_uplifter.17.d.response:0 "I am glad you have decided to follow our way.\n\nI will join your fleet leading the last of our ships to assist you.\n\nThis planet however will self-destruct in a few hours. I cannot risk the suffering that could result from letting our technology fall into the wrong hands."
+ END:0 "END"
+ 
+ mem_ea_uplifter_catchphrase:0 "I am glad you have decided to follow our way."
+ mem_chaplin_backstory:0 "An AI with the memory imprint of Chap'Lin, one of the ancient orila. With his nation and species gone, he still upholds their values and virtues."
 
  # Happiness Modifier
- mem_ea_forging_own_destiny:0 "Выкуйте свою собственную Судьбу"
- mem_ea_knowledge_of_the_ancients:0 "Знания древних"
+ mem_ea_forging_own_destiny:0 "Forging our own Destiny"
+ mem_ea_knowledge_of_the_ancients:0 "Knowledge of the Ancients"
 
  # Orila Cruiser
- mem_eventship_03:0 "Ударный крейсер"
- mem_eventship_03_plural:0 "Ударные крейсера"
+ mem_eventship_03:0 "Strike Cruiser"
+ mem_eventship_03_plural:0 "Strike Cruisers"
  
  # The Way - Civic
- civic_mem_the_way:0 "Путь"
- civic_mem_the_way_desc:0 "Это общество приняло ценности и наследие древней цивилизации предтеч, чтобы распространить великое благо."
+ civic_mem_the_way:0 "The Way"
+ civic_mem_the_way_desc:0 "This society accepted the values and heritage of an ancient precursor civilization to spread the greater good."
  
  # Way of the Ancients - Government
- gov_mem_way_of_the_ancients:0 "Путь древних"
- gov_mem_way_of_the_ancients_desc:0 "Это правительство идет по стопам древней цивилизации предтеч, чтобы распространить благо по всей Галактике."
+ gov_mem_way_of_the_ancients:0 "Way of the Ancients"
+ gov_mem_way_of_the_ancients_desc:0 "This government follows in the footsteps of an ancient precursor civilization to spread the greater good across the galaxy."
  
  # Ruined Ancient Fleet Headquarter
- mem_ancient_fleet_headquarter_ruined:0 "Разрушенный штаб древнего Флота"
- mem_ancient_fleet_headquarter_ruined_DESC:0 "Разрушенный штаб древнего флота. Хотя его внутренности были вычищены мародерами много веков назад, главный корпус мегасооружения всё ещё в цел. При наличии необходимых технологий и большого количества ресурсов его можно восстановить."
+ mem_ancient_fleet_headquarter_ruined:0 "Ruined Ancient Fleet Headquarters"
+ mem_ancient_fleet_headquarter_ruined_DESC:0 "A ruined Ancient Fleet Headquarters. Although its insides were stripped clean by looters eons ago, the megastructure's main hull is still mostly intact. With the right technology and a lot of resources, it could potentially be refurbished."
  mem_ancient_fleet_headquarter_ruined_MEGASTRUCTURE_DETAILS:0 ""

@@ -108,6 +108,7 @@ tr_mt_urban_compression = {
 	}
 	modifier = {
 		planet_max_districts_mult = 0.4
+		habitat_max_districts_mult = -0.3
 	}
 
 	ai_weight = {
