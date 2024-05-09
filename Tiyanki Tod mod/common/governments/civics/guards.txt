@@ -1,0 +1,219 @@
+civic_sovereign_guardianship = {
+	playable = { has_astral_planes_dlc = yes }
+	ai_playable = { has_astral_planes_dlc = yes }
+	description = "civic_sovereign_guardianship_effects"
+	potential = {
+		always = no
+		ethics = {
+			NOT = {
+				value = ethic_gestalt_consciousness
+			}
+		}
+		authority = {
+			NOT = { value = auth_corporate }
+		}
+	}
+	possible = {
+		ethics = {
+			OR = {
+				text = civic_tooltip_militarist
+				value = ethic_militarist
+				value = ethic_fanatic_militarist
+			}
+		}
+		origin = {
+			NOR = {
+				value = origin_fear_of_the_dark
+				value = origin_payback
+				value = origin_broken_shackles
+			}
+		}
+		civics = {
+			NOR = {
+				value = civic_corporate_sovereign_guardianship
+				value = civic_inwards_perfection
+				value = civic_reanimated_armies
+				value = civic_fanatic_purifiers
+			}
+			NOR = {
+				# Or low tech starts
+				text = civic_tooltip_not_eager_explorers
+				value = civic_eager_explorers
+				value = civic_privatized_exploration
+				value = civic_hive_stargazers
+				value = civic_machine_exploration_protocol
+			}
+		}
+	}
+	alternate_civic_version = civic_corporate_sovereign_guardianship
+	modification = {
+		add = {
+			has_civic = civic_corporate_sovereign_guardianship
+		}
+		remove = {
+			always = no
+		}
+	}
+
+	modifier = {
+		empire_size_colonies_mult = 1
+		empire_size_branch_office_mult = 1
+		empire_size_systems_mult = 1.50
+		empire_size_pops_mult = -0.50
+		empire_size_districts_mult = -0.50
+		diplo_weight_mult = 0.2
+
+		planet_soldiers_unity_produces_add = @sovereign_guardianship_soldier_unity
+	}
+
+	random_weight = {
+		base = @civic_rare_random_weight
+	}
+	ai_weight = {
+		base = @civic_rare_random_weight
+	}
+}
+civic_hive_sovereign_guardianship = {
+	playable = { has_astral_planes_dlc = yes }
+	ai_playable = { has_astral_planes_dlc = yes }
+	description = "civic_hive_sovereign_guardianship_effects"
+	potential = {
+		always = no
+		authority = { value = auth_hive_mind }
+	}
+	possible = {
+		civics = {
+			NOT = { value = civic_hive_devouring_swarm }
+		}
+	}
+
+	modification = no
+
+	modifier = {
+		empire_size_colonies_mult = 1
+		empire_size_systems_mult = 1.50
+		empire_size_pops_mult = -0.50
+		empire_size_districts_mult = -0.50
+		diplo_weight_mult = 0.2
+		councilor_gestalt_regulatory_exp_gain = @gestalt_civic_node_xp_rate
+		planet_soldiers_unity_produces_add = @sovereign_guardianship_soldier_unity
+	}
+
+	random_weight = {
+		base = @civic_rare_random_weight
+	}
+	ai_weight = {
+		base = @civic_rare_random_weight
+	}
+}
+civic_machine_sovereign_guardianship = {
+	playable = { has_astral_planes_dlc = yes }
+	ai_playable = { has_astral_planes_dlc = yes }
+	description = "civic_machine_sovereign_guardianship_effects"
+	potential = {
+		always = no
+		authority = { value = auth_machine_intelligence }
+	}
+	possible = {
+		civics = {
+			NOT = { value = civic_machine_terminator }
+		}
+	}
+
+	modification = no
+
+	modifier = {
+		empire_size_colonies_mult = 1
+		empire_size_systems_mult = 1.50
+		empire_size_pops_mult = -0.50
+		empire_size_districts_mult = -0.50
+		diplo_weight_mult = 0.2
+		councilor_gestalt_regulatory_exp_gain = @gestalt_civic_node_xp_rate
+		planet_soldiers_unity_produces_add = @sovereign_guardianship_soldier_unity
+	}
+
+	random_weight = {
+		base = @civic_rare_random_weight
+	}
+	ai_weight = {
+		base = @civic_rare_random_weight
+	}
+}
+civic_corporate_sovereign_guardianship = {
+	playable = { has_astral_planes_dlc = yes }
+	ai_playable = { has_astral_planes_dlc = yes }
+	description = "civic_corporate_sovereign_guardianship_effects"
+	potential = {
+		always = no
+		ethics = {
+			NOT = {
+				value = ethic_gestalt_consciousness
+			}
+		}
+		OR = {
+			authority = {
+				value = auth_corporate
+			}
+			civics = {
+				value = civic_galactic_sovereign_megacorp
+			}
+		}
+	}
+	alternate_civic_version = civic_sovereign_guardianship
+	modification = {
+		add = {
+			has_civic = civic_sovereign_guardianship
+		}
+		remove = {
+			always = no
+		}
+	}
+	possible = {
+		ethics = {
+			OR = {
+				text = civic_tooltip_militarist
+				value = ethic_militarist
+				value = ethic_fanatic_militarist
+			}
+		}
+		origin = {
+			NOR = {
+				value = origin_fear_of_the_dark
+				value = origin_payback
+				value = origin_broken_shackles
+			}
+		}
+		civics = {
+			NOR = {
+				value = civic_sovereign_guardianship
+				value = civic_inwards_perfection
+				value = civic_fanatic_purifiers
+			}
+			NOR = {
+				text = civic_tooltip_not_eager_explorers
+				value = civic_eager_explorers
+				value = civic_privatized_exploration
+				value = civic_hive_stargazers
+				value = civic_machine_exploration_protocol
+			}
+		}
+	}
+
+	modifier = {
+		empire_size_colonies_mult = 1
+		empire_size_branch_office_mult = 1
+		empire_size_systems_mult = 1.50
+		empire_size_pops_mult = -0.50
+		empire_size_districts_mult = -0.50
+		diplo_weight_mult = 0.2
+
+		planet_soldiers_unity_produces_add = @sovereign_guardianship_soldier_unity
+	}
+
+	random_weight = {
+		base = @civic_rare_random_weight
+	}
+	ai_weight = {
+		base = @civic_rare_random_weight
+	}
+}

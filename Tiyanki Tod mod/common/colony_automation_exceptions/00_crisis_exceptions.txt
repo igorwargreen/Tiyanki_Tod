@@ -621,17 +621,16 @@ automate_ameno_maintenance_drone_management = {
 	available = {
 		owner = {
 			is_gestalt = yes
-			has_country_flag = is_general_of_0
 		}
 	}
 
 	emergency = yes
-	category = "planet_automation_pop_assembly"
+	category = "planet_automation_automate_ameno_clerk"
 
 	job_changes = {
 		maintenance_drone_reduce = {
 			available = {
-				free_amenities > 5
+				free_amenities > 30
 			}
 
 			job = maintenance_drone
@@ -640,7 +639,7 @@ automate_ameno_maintenance_drone_management = {
 
 		maintenance_drone_increase = {
 			available = {
-				free_amenities < 0
+				free_amenities < 20
 			}
 
 			job = maintenance_drone
@@ -654,7 +653,6 @@ automate_ameno_clerk_management = {
 	available = {
 		owner = {
 			is_gestalt = no
-			has_country_flag = is_general_of_0
 		}
 	}
 
@@ -664,7 +662,7 @@ automate_ameno_clerk_management = {
 	job_changes = {
 		clerk_reduce = {
 			available = {
-				free_amenities > 5
+				free_amenities > 30
 			}
 
 			job = clerk
@@ -673,7 +671,7 @@ automate_ameno_clerk_management = {
 
 		clerk_increase = {
 			available = {
-				free_amenities < 0
+				free_amenities < 20
 			}
 
 			job = clerk

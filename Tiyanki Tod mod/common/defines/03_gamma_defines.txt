@@ -2,7 +2,6 @@ NGameplay = {
 	COMMAND_LIMIT_MAX					= 2000		# Max value of Command Limit
 	NAVAL_CAPACITY_MAX					= 100000		# Max value of Naval Capacity
 	COUNTRY_ENCLAVE_CAPACITY_MAX = 0
-#	TRADITION_COST_TRADITION_EXP			= 1.650	# change this value if you want to increase costs at the end
 	MAX_PLANET_BUILDING_SLOTS				= 16
 	
 	COUNCIL_AGENDA_COOLDOWN 				= 3600
@@ -18,11 +17,11 @@ NGameplay = {
 #	LEADER_EXPERIENCE_REQUIREMENT_BASE_VALUE					= 250 # Base value when calculating required experience for next skill level
 #	LEADER_EXPERIENCE_REQUIREMENT_SCALE_VALUE					= 200 # Scale factor when calculating required experience for next skill level
 
-#	EMPIRE_SIZE_FROM_DISTRICTS				= 0	# Per district
-#	EMPIRE_SIZE_FROM_SYSTEMS				= 0		# Per system
-#	EMPIRE_SIZE_FROM_COLONIES				= 30	# Per planet
-#	EMPIRE_SIZE_FROM_BRANCH_OFFICES			= 0		# Per branch office
-#	EMPIRE_SIZE_FROM_POPS					= 1		# Per pop
+	EMPIRE_SIZE_FROM_DISTRICTS				= 0	# 0.5
+	EMPIRE_SIZE_FROM_SYSTEMS				= 0		# 1
+	EMPIRE_SIZE_FROM_COLONIES				= 15	# 10
+	EMPIRE_SIZE_FROM_BRANCH_OFFICES			= 0		# 2
+	EMPIRE_SIZE_FROM_POPS					= 1		# 1
 	
 	INTEGRATE_SUBJECT_MIN_DAYS				= 600 # Amount of days the subject has been a subject before we can integrate it
 #	SUBJECT_LOYALTY_MAX = 100					# Max value of loyalty	
