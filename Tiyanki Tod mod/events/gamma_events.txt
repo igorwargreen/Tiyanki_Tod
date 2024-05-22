@@ -37,3 +37,35 @@ country_event = {
 		}
 	}
 }
+country_event = {
+	id = gamma_events.2
+	hide_window = yes
+
+	is_triggered_only = yes
+
+	trigger = {
+		years_passed > 74
+		has_country_flag = is_general_of_0
+	}
+
+	immediate = {
+		add_research_option = tech_dragon_armor
+	}
+}
+country_event = {
+	id = gamma_events.3
+	hide_window = yes
+
+	is_triggered_only = yes
+
+	trigger = {
+		years_passed > 19
+		has_country_flag = is_general_of_0
+	}
+
+	immediate = {
+		add_research_option = tech_amoeba_strike_craft_1
+		add_research_option = tech_archaeo_refinery
+		add_research_option = tech_terrestrial_sculpting
+	}
+}

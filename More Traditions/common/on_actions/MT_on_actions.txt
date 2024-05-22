@@ -42,7 +42,6 @@ on_debris_scavenged_and_researched = {
 on_five_year_pulse_country = {
 	events = {
 		MT_events.4 # arcsite spawn
-		gamma_events.1
 	}
 }
 

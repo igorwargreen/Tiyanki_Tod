@@ -1,0 +1,7 @@
+on_five_year_pulse_country = {
+	events = {
+		gamma_events.1 # arcsite spawn
+		gamma_events.2
+		gamma_events.3
+	}
+}
