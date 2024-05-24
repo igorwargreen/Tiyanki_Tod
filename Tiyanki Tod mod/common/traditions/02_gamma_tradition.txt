@@ -54,3 +54,43 @@ tr_discovery_adopt = {
 		}
 	}
 }
+tr_supremacy_war_games = {
+	possible = {
+		has_tradition = tr_supremacy_master_shipwrights
+		has_tradition = tr_supremacy_fleet_logistical_corps
+	}
+	modifier = {
+		command_limit_add = 100
+		ship_landing_time_mult = -1
+	}
+
+	tradition_swap = {
+		name = tr_supremacy_war_games_machine
+		inherit_effects = yes
+		inherit_icon = yes
+		trigger = {
+			is_machine_empire = yes
+		}
+
+		weight = {
+			factor = 1
+		}
+	}
+
+	tradition_swap = {
+		name = tr_supremacy_war_games_hive
+		inherit_effects = yes
+		inherit_icon = yes
+		trigger = {
+			is_hive_empire = yes
+		}
+
+		weight = {
+			factor = 1
+		}
+	}
+
+	ai_weight = {
+		factor = 1000
+	}
+}

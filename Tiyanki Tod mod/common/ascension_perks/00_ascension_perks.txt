@@ -47,8 +47,10 @@ ap_archaeoengineers = {
 
 	modifier = {
 		country_scientist_cap_add = 1
-		weapon_archaeotech_weapon_damage_mult = 0.33
-		starbase_shipyard_build_minor_artifacts_cost_mult = -0.10
+		weapon_archaeotech_weapon_damage_mult = 0.25
+		weapon_archaeotech_weapon_fire_rate_mult = 0.25
+		weapon_archaeotech_speed_mult = 0.25
+		starbase_shipyard_build_minor_artifacts_cost_mult = -0.75
 	}
 
 	ai_weight = {
@@ -119,27 +121,7 @@ ap_lord_of_war = {
 	}
 
 	ai_weight = {
-		factor = 5
-		modifier = {
-			factor = 2
-			has_ethic = ethic_militarist
-		}
-		modifier = {
-			factor = 3
-			has_ethic = ethic_fanatic_militarist
-		}
-		modifier = {
-			factor = 2
-			has_authority = auth_corporate
-		}
-		modifier = {
-			factor = 0
-			is_pacifist = yes
-		}
-		modifier = {
-			factor = 0.25
-			is_xenophile = yes
-		}
+		factor = 0
 	}
 }
 
@@ -426,20 +408,7 @@ ap_enigmatic_engineering = {
 	}
 
 	ai_weight = {
-		factor = 2
-		modifier = {
-			factor = 10
-			has_valid_civic = civic_inwards_perfection
-		}
-		modifier = {
-			factor = 2
-			is_materialist = yes
-			is_xenophobe = yes
-		}
-		modifier = {
-			factor = 10
-			has_origin = origin_slavers
-		}
+		factor = 0
 	}
 }
 
@@ -567,7 +536,8 @@ ap_world_shaper = {
 	}
 
 	modifier = {
-		terraforming_cost_mult = -0.25
+		terraforming_cost_mult = -0.5
+		terraform_speed_mult = 1
 	}
 
 	on_enabled = {
@@ -626,10 +596,10 @@ ap_galactic_force_projection = {
 		}
 	}
 	modifier = {
-		country_power_projection_influence_produces_add = 2
+		country_power_projection_influence_produces_add = 4
 		country_commander_cap_add = 1
 		country_naval_cap_add = 100
-		command_limit_add = 50
+		command_limit_add = 100
 	}
 
 	potential = {
@@ -775,8 +745,9 @@ ap_defender_of_the_galaxy = {
 
 ap_interstellar_dominion = {
 	modifier = {
-		country_starbase_influence_cost_mult = -0.20
-		country_claim_influence_cost_mult = -0.20
+		country_ethic_influence_produces_add = 4
+		country_starbase_influence_cost_mult = -0.33
+		country_claim_influence_cost_mult = -0.33
 	}
 
 	potential = {
@@ -826,6 +797,10 @@ ap_grasp_the_void = {
 
 	modifier = {
 		country_starbase_capacity_add = 5
+		shipclass_starbase_build_cost_mult = -0.33
+		starbase_shipyard_build_speed_mult = 1
+		starbase_upgrade_cost_mult = -0.25
+		starbase_upgrade_speed_mult = 2
 	}
 
 	potential = {
@@ -856,10 +831,10 @@ ap_eternal_vigilance = {
 	}
 
 	modifier = {
-		country_commander_cap_add = 1
-		shipclass_starbase_damage_mult = 0.25
-		shipclass_starbase_hull_mult = 0.25
-		shipclass_military_station_damage_mult = 0.25
+		country_commander_cap_add = 2
+		shipclass_starbase_damage_mult = 1
+		shipclass_starbase_hull_mult = 1
+		shipclass_military_station_damage_mult = 0.33
 		starbase_defense_platform_capacity_add = 5
 	}
 
@@ -969,9 +944,9 @@ ap_technological_ascendancy = {
 
 ap_one_vision = {
 	modifier = {
-		country_unity_produces_mult = 0.10
-		pop_amenities_usage_mult = -0.10
-		pop_government_ethic_attraction = 0.50
+		country_unity_produces_mult = 0.2
+		pop_amenities_usage_mult = -0.25
+		pop_government_ethic_attraction = 1
 	}
 
 	potential = {
@@ -1099,7 +1074,9 @@ ap_imperial_prerogative = {
 
 ap_executive_vigor = {
 	modifier = {
-		country_edict_fund_add = 100
+		country_edict_fund_add = 250
+		edicts_upkeep_mult = -0.15
+		council_agenda_progress_speed = 0.75
 	}
 
 	potential = {
@@ -1140,6 +1117,9 @@ ap_shared_destiny = {
 	modifier = {
 		divided_patrongage_max_subjects = 1
 		envoys_add = 2
+		diplo_weight_mult = 0.2
+		diplomacy_influence_upkeep_mult = -0.5
+		councilor_diplomatic_corps_exp_gain = 2
 	}
 
 	potential = {

@@ -1,0 +1,46 @@
+civic_hive_divided_attention = {
+	potential = { authority = { value = auth_hive_mind } }
+	random_weight = { base = @civic_default_random_weight }
+	ai_weight = {
+		base = @ai_civic_default_base_weight
+	}
+	modifier = {
+		councilor_gestalt_growth_exp_gain = @gestalt_civic_node_xp_rate
+		empire_size_mult = -0.20
+	}
+}
+civic_hive_sovereign_guardianship = {
+	playable = { has_astral_planes_dlc = yes }
+	ai_playable = { has_astral_planes_dlc = yes }
+	description = "civic_hive_sovereign_guardianship_effects"
+	potential = {
+		authority = { 
+			NOT = { value = auth_hive_mind } 
+		}
+		civics = { value = civic_hive_devouring_swarm }
+	}
+	possible = {
+		civics = {
+			NOT = { value = civic_hive_devouring_swarm }
+		}
+	}
+
+	modification = no
+
+	modifier = {
+		empire_size_colonies_mult = 1
+		empire_size_systems_mult = 1.50
+		empire_size_pops_mult = -0.50
+		empire_size_districts_mult = -0.50
+		diplo_weight_mult = 0.2
+		councilor_gestalt_regulatory_exp_gain = @gestalt_civic_node_xp_rate
+		planet_soldiers_unity_produces_add = @sovereign_guardianship_soldier_unity
+	}
+
+	random_weight = {
+		base = @civic_rare_random_weight
+	}
+	ai_weight = {
+		base = @civic_rare_random_weight
+	}
+}

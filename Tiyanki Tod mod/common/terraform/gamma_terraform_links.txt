@@ -1,0 +1,48 @@
+@gaiaCost = 7500
+@gaiaTime = 2100
+
+@highestCost = 12500
+@highestTime = 3600
+
+@machineCost = 10000
+@machineTime = 3600
+
+@hiveCost = 10000
+@hiveTime = 3600
+
+@lClusterCost = 1000
+###################
+## from toxic hive ##
+###################
+terraform_link = {
+	to = "pc_hive"
+	from = "pc_toxic"
+
+	resources = {
+		category = terraforming
+
+		cost = {
+			energy = @hiveCost
+		}
+	}
+
+	duration = @hiveTime
+
+	potential = {
+		exists = owner
+		has_ascension_perk = ap_hive_worlds
+		has_ascension_perk = "ap_detox"
+		from = { has_modifier = terraforming_candidate }
+	}
+
+	effect = {
+		from = {
+			reroll_deposits = yes
+			clear_blockers = yes
+		}
+	}
+
+	ai_weight = {
+		weight = 20
+	}
+}
