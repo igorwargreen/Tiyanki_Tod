@@ -1,10 +1,22 @@
+planet_automation_automate_ameno_clerk = {
+	available = {
+		exists = owner
+		owner = { is_ai = no }
+	}
+}
 planet_automation_barracks = {
 	available = {
 		exists = owner
 		owner = { is_ai = no }
 	}
 }
-planet_automation_automate_ameno_clerk = {
+planet_automation_nauka = {
+	available = {
+		exists = owner
+		owner = { is_ai = no }
+	}
+}
+planet_automation_unity = {
 	available = {
 		exists = owner
 		owner = { is_ai = no }
