@@ -62,7 +62,7 @@ military_station_small = {
 	}
 }
 transport = {
-	max_speed = 360
+	max_speed = 3600
 	rotation_speed = 0.2
 	acceleration = 0.6
 	max_hitpoints = @transport_hp

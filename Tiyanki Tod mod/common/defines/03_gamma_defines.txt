@@ -7,6 +7,10 @@ NGameplay = {
 	COUNCIL_AGENDA_COOLDOWN 				= 3600
 	
 	TRUCE_YEARS							= 5	# Truce last for 10 years
+	
+	PLANET_COMBAT_WIDTH_BASE				= 20 # Maximum number of troops that can fight at the same time
+	PLANET_COMBAT_WIDTH_MINIMUM 			= 20 # Minimum combat width
+	GENERAL_DEATH_CHANCE					= 0		# Chance that general dies when an army under command is destroyed (scaled to number of armies)
 
 #	LEADER_BASE_SKILL_CAP	= 15
 #	LEADER_MAX_SKILL_CAP	= 15
@@ -26,7 +30,7 @@ NGameplay = {
 	INTEGRATE_SUBJECT_MIN_DAYS				= 600 # Amount of days the subject has been a subject before we can integrate it
 #	SUBJECT_LOYALTY_MAX = 100					# Max value of loyalty	
 	
-	ORBITAL_BOMBARDMENT_FLEET_BASE_SIZE		= 300 # Over this amount of fleet cap bombarding we will start getting penalties to efficiency
+	ORBITAL_BOMBARDMENT_FLEET_BASE_SIZE		= 10000 # Over this amount of fleet cap bombarding we will start getting penalties to efficiency
 	ORBITAL_BOMBARDMENT_KILL_POP_COOLDOWN			= 3	# Min days between killing pops from bombardment
 	PLANET_HEALTH_REGEN					= 0.15			# Each day
 
