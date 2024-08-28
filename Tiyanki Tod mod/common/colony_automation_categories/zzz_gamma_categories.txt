@@ -22,3 +22,12 @@ planet_automation_unity = {
 		owner = { is_ai = no }
 	}
 }
+planet_automation_necromance = {
+	available = {
+		exists = owner
+		owner = { 
+			is_ai = no 
+			has_civic = civic_reanimated_armies
+		}
+	}
+}

@@ -103,3 +103,14 @@ automate_unity_hive_planet = {
 		}
 	}
 }
+automate_necromance_hive_planet = {
+	category = "planet_automation_necromance"	
+	buildings = {
+		1 = {
+			building = building_capital
+		}
+		2 = {
+			building = building_dread_encampment
+		}
+	}
+}
