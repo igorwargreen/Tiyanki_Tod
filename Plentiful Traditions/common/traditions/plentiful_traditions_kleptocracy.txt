@@ -28,7 +28,7 @@ tr_plentiful_kleptocracy_finish = {
 	modifier = {
 		country_trade_attractiveness = 1
 		piracy_suppression_mult = 5
-		pop_job_trade_mult = 0.2
+		pop_job_trade_mult = 0.25
 		ascension_perks_add = 1
 	}
 }
@@ -36,7 +36,7 @@ tr_plentiful_kleptocracy_finish = {
 tr_plentiful_kleptocracy_1 = {
 	modifier = {
 		country_claim_influence_cost_mult = -0.33
-		country_naval_cap_add = 400
+		country_naval_cap_add = 100
 	}
 
 	ai_weight = {
