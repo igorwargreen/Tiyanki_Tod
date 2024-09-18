@@ -133,6 +133,7 @@ guiTypes = {
 					size = { width = 100% height = 100%% }
 					position = { x = 0 y = 60 }
 					verticalScrollbar = "right_vertical_slider_thick"
+					smooth_scrolling = yes
 					margin = { top = 1 bottom = 1 }
 					background = {
 						name = "bg"
@@ -188,8 +189,8 @@ guiTypes = {
 						instantTextBoxType = {
 							name = "relics_found_text"
 							font = "font_text_14"
-							position = { x = 0 y = 0 }
 							text = "RELICS_FOUND"
+							position = { x = 0 y = 0 }
 							maxWidth = 170
 							maxHeight = 35
 							fixedSize = yes
@@ -221,8 +222,8 @@ guiTypes = {
 						instantTextBoxType = {
 							name = "no_triumph_text"
 							font = "font_text_18"
-							position = { x = 100 y = 0 }
 							text = "ACTIVATE_RELIC_FOR_TRIUMPH"
+							position = { x = 100 y = 0 }
 							maxWidth = 400
 							maxHeight = 60
 							fixedSize = yes
@@ -232,8 +233,8 @@ guiTypes = {
 						instantTextBoxType = {
 							name = "active_triumph_text"
 							font = "font_text_20"
-							position = { x = 108 y = 17 }
 							text = "ACTIVE_TRIUMPH_TEXT"
+							position = { x = 108 y = 17 }
 							maxWidth = 302
 							maxHeight = 24
 							fixedSize = yes
@@ -278,24 +279,44 @@ guiTypes = {
 				containerWindowType = {
 					name = "relics_content"
 					size = { width = @relicsWidthWide height = 100%% }
-					position = { x = 0 y = 61 }
+					position = { x = 0 y = 60 }
 					verticalScrollbar = "right_vertical_slider_thick"
-					margin = { top = 0 bottom = 0 }
+					smooth_scrolling = yes
+					margin = { top = 1 bottom = 1 }
 					background = {
 						name = "bg"
 						quadTextureSprite = "GFX_invisible"
 					}
 					gridBoxType = {
 						name = "relics_grid"
-						position = { x = -459 y = 0 }
-						orientation = center_up
-						size = { width = 918 height = -20 }
+						position = { x = 45 y = 0 }
+						size = { width = 920 height = -20 }
 						slotSize = {
 							width = 184
 							height = 194
 						}
 						format = "UPPER_LEFT"
 						max_slots_horizontal = 5
+					}
+				}
+				containerWindowType = {
+					name = "relics_frame"
+					size = { width = 100% height = 100%% }
+					position = { x = 0 y = 54 }
+					background = {
+						name = "relics_frame"
+						quadTextureSprite = "GFX_planet_bg_tile_frame"
+						alwaysTransparent = yes
+					}
+				}
+				containerWindowType = {
+					name = "relics_header_right"
+					size = { width = 100%% height = 66 }
+					position = { x = 912 y = 0 }
+					background = {
+						name = "relics_header_right"
+						quadTextureSprite = "GFX_ui_relics_panel_header_tile"
+						alwaysTransparent = yes
 					}
 				}
 				iconType = {
@@ -316,12 +337,13 @@ guiTypes = {
 						instantTextBoxType = {
 							name = "relics_found_text"
 							font = "font_text_14"
-							position = { x = 10 y = 15 }
 							text = "RELICS_FOUND"
-							maxWidth = 150
-							maxHeight = 22
+							position = { x = 0 y = 0 }
+							maxWidth = 170
+							maxHeight = 35
 							fixedSize = yes
 							format = center
+							vertical_alignment = bottom
 							text_color_code = "H"
 						}
 						instantTextBoxType = {
@@ -329,9 +351,10 @@ guiTypes = {
 							font = "font_text_14"
 							position = { x = 10 y = 35 }
 							maxWidth = 150
-							maxHeight = 30
+							maxHeight = 16
 							fixedSize = yes
 							format = center
+							vertical_alignment = center
 						}
 					}
 					# RIGHT SIDE
@@ -347,31 +370,32 @@ guiTypes = {
 						instantTextBoxType = {
 							name = "no_triumph_text"
 							font = "font_text_14"
-							position = { x = 100 y = 20 }
 							text = "ACTIVATE_RELIC_FOR_TRIUMPH"
-							maxWidth = 250
-							maxHeight = 22
+							position = { x = 100 y = 0 }
+							maxWidth = 400
+							maxHeight = 60
 							fixedSize = yes
+							vertical_alignment = center
 							text_color_code = "Y"
 						}
 						instantTextBoxType = {
 							name = "active_triumph_text"
-							font = "font_header_20"
-							position = { x = 108 y = 17 }
+							font = "font_text_20"
 							text = "ACTIVE_TRIUMPH_TEXT"
+							position = { x = 108 y = 17 }
 							maxWidth = 302
-							maxHeight = 22
+							maxHeight = 24
 							fixedSize = yes
 							format = right
 							text_color_code = "H"
 						}
 						instantTextBoxType = {
 							name = "active_triumph_value"
-							font = "font_header_20"
+							font = "font_text_20"
 							position = { x = -258 y = 17 }
 							orientation = upper_right
-							maxWidth = 70
-							maxHeight = 30
+							maxWidth = 100
+							maxHeight = 24
 							fixedSize = yes
 							format = left
 						}
@@ -428,6 +452,7 @@ guiTypes = {
 					margin = { top = 0 bottom = 0 }
 					clipping = yes
 					verticalScrollbar = "right_vertical_slider_thick"
+					smooth_scrolling = yes
 					background = {
 						name = "background"
 						quadTextureSprite = "GFX_invisible"

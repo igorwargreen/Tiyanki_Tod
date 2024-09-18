@@ -257,6 +257,7 @@ guiTypes = {
 			position = { x = 10 y = 295 }
 			size = { width = -10 height = -10 }
 			verticalScrollbar = "right_vertical_slider_thick"
+			smooth_scrolling = yes
 			background = {
 				name = "description_frame"
 				spriteType = "GFX_tiles_frame_light"

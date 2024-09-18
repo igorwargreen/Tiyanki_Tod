@@ -284,7 +284,7 @@ guiTypes = {
 				name = "action_desc"
 				font = "font_header_20"
 				position = { x = 10 y = 5 }
-				maxWidth = 480
+				maxWidth = 474
 				maxHeight = 180
 				maxHeight = 30
 				fixedSize = yes
@@ -294,38 +294,38 @@ guiTypes = {
 			}
 			listboxType = {
 				name = "option_list"
-				position = { x = 10 y = 40 }
-				size = { x = 480 y = 250 }
-				spacing = -2
-				scrollbartype = "standardlistbox_slider_thick"
+				position = { x = 10 y = 32 }
+				size = { x = 474 y = 240 }
+				scrollbartype = "standardlistbox_slider_thick_small"
 				borderSize = { x = 0 y = 0 }
 			}
 		}
 		buttonType = {
 			name = "confirm_button"
-			quadTextureSprite = "GFX_standard_button_142_34_button"
-			position = { x = -175 y = -116 }
+			quadTextureSprite = "GFX_standard_button_230_34_button"
+			position = { x = -260 y = -68 }
 			orientation = lower_right
-			font = "font_text_14"
-			text = "MESSAGE_OK"
+			buttonFont = "font_text_16"
+			buttonText = "MESSAGE_OK"
 			clicksound = "confirmation"
 		}
 	}
 	### ENCLAVE ARTIST EVENT OPTION ###
 	containerWindowType = {
 		name = "enclave_artist_option"
-		position = { x = 0 y = 0 }
-		size = { width = 480 height = 30 }
+		size = { width = 474 height = 40 }
 		buttonType = {
 			name = "option_button"
-			quadTextureSprite = "GFX_event_button_452_artist"
-			position = { x = 2 y = -1 }
+			quadTextureSprite = "GFX_event_button_450_34_artist"
+			position = { x = 0 y = 0 }
 			buttonFont = "font_text_14"
 			buttonText = "OPTION_TEXT"
+			borderSize = { x = 30 y = 0 }
+			multiline = yes
 		}
 		overlappingElementsBoxType = {
 			name = "trigger_icons"
-			position = { x = 2 y = 1 }
+			position = { x = -4 y = 12 }
 			size = { x = 65 y = 28 }
 		}
 	}

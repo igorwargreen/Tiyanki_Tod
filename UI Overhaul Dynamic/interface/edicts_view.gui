@@ -101,13 +101,14 @@ guiTypes = {
 				size = { width = 195 height = 50 }
 				orientation = upper_right
 				origo = upper_right
+				clipping = no
 				background = {
 					name = "background"
 					spriteType = "GFX_tiles_frame_light"
 				}
 				iconType = {
 					name = "red_hex"
-					position = { x = -8 y = -8 }
+					position = { x = 0 y = -8 }
 					quadTextureSprite = "GFX_in_breach_hex_bg"
 					alwaysTransparent = yes
 				}
@@ -115,27 +116,26 @@ guiTypes = {
 					name = "in_breach_header"
 					font = "font_text_14"
 					text = "IN_BREACH"
-					position = { x = 0 y = 5 }
-					maxWidth = 195
-					maxHeight = 18
-					fixedSize = yes
-					format = center
+					position = { x = 10 y = 10 }
+					maxWidth = 65
+					maxHeight = 30
+					format = left
 					vertical_alignment = bottom
 					text_color_code = "R"
 					alwaysTransparent = yes
 				}
 				overlappingElementsBoxType = {
 					name = "in_breach_box"	
-					position = { x = 5 y = 18 }
-					size = { x = 185 y = 45 }
-					format = center
+					position = { x = 65 y = -5 }
+					size = { x = 125 y = 45 }
+					format = right
 					spacing = 2
 				}
 			}
 			containerWindowType = {
 				name = "policy_list_window"
 				position = { x = 6 y = 45 }
-				size = { width = -6 height = -10 }
+				size = { width = -6 height = -5 }
 				background = {
 					name = "background"
 					spriteType = "GFX_tiles_frame_light"
@@ -143,7 +143,7 @@ guiTypes = {
 				smoothListboxType = {
 					name = "policy_list"
 					position = { x = 10 y = 10 }
-					size = { x = 550 y = 865 }
+					size = { x = 550 y = 870 }
 					scrollbarType = "standardlistbox_slider_thick"
 					borderSize = { x = 0 y = 0 }
 					autohide_scrollbar = no
@@ -225,7 +225,7 @@ guiTypes = {
 			containerWindowType = {
 				name = "edict_list_window"
 				position = { x = 6 y = 45 }
-				size = { width = -6 height = -10 }
+				size = { width = -6 height = -5 }
 				background = {
 					name = "background"
 					spriteType = "GFX_tiles_frame_light"
@@ -233,7 +233,7 @@ guiTypes = {
 				smoothListboxType = {
 					name = "edict_list"
 					position = { x = 10 y = 10 }
-					size = { x = 655 y = 865 }
+					size = { x = 655 y = 870 }
 					spacing = 2
 					scrollbarType = "standardlistbox_slider_thick"
 					borderSize = { x = 0 y = 0 }
@@ -437,7 +437,7 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "in_breach_entry"
-		size = { width = 20 height = 20 }
+		size = { width = 56 height = 60 }
 		background = {
 			name = "background_button"
 			quadTextureSprite = "GFX_text_community_in_breach"

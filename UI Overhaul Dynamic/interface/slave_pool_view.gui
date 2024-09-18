@@ -113,6 +113,7 @@ guiTypes = {
 				hide_animation_type = accelerated
 				animation_time = 200
 				verticalScrollbar = "right_vertical_slider_thick"
+				smooth_scrolling = yes
 				background = {
 					name = "bg"
 					quadTextureSprite = "GFX_subwindow_tile_plain_solid"

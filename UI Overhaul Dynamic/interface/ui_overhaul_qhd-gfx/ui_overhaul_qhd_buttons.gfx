@@ -134,6 +134,44 @@ spriteTypes = {
 		}
 	}
 	spriteType = {
+		name = "GFX_ui_button_pops"
+		textureFile = "gfx/ui_overhaul_qhd/buttons/ui_button_pops.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+		noOfFrames = 3
+		animation = {
+			animationmaskfile = "gfx/interface/buttons/button_sort_mask.dds"
+			animationtextureFile = "gfx/interface/fleet_view/standard_button_texture.dds"
+			animationrotation = 180
+			animationlooping = yes
+			animationtime = 12
+			animationdelay = 0
+			animationblendmode = "overlay" #add, multiply, overlay
+			animationtype = "scrolling"    #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0 y = 0 }
+			animationtexturescale = { x = 1 y = 1 }
+			animationframes = { 1 2 3 }
+		}
+	}
+	spriteType = {
+		name = "GFX_ui_button_cancel"
+		textureFile = "gfx/ui_overhaul_qhd/buttons/ui_button_cancel.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+		noOfFrames = 3
+		animation = {
+			animationmaskfile = "gfx/interface/buttons/button_sort_mask.dds"
+			animationtextureFile = "gfx/interface/fleet_view/standard_button_texture.dds"
+			animationrotation = 180
+			animationlooping = yes
+			animationtime = 12
+			animationdelay = 0
+			animationblendmode = "overlay" #add, multiply, overlay
+			animationtype = "scrolling"    #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0 y = 0 }
+			animationtexturescale = { x = 1 y = 1 }
+			animationframes = { 1 2 3 }
+		}
+	}
+	spriteType = {
 		name = "GFX_ui_button_noicon"
 		textureFile = "gfx/ui_overhaul_qhd/buttons/ui_button_empty.dds"
 		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
@@ -153,6 +191,126 @@ spriteTypes = {
 		}
 	}
 	# event buttons
+	spriteType = {
+		name = "GFX_event_button_450_34"
+		textureFile = "gfx/ui_overhaul_qhd/buttons/event_buttons/event_button_450_34_animated.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+		noOfFrames = 3
+		animation = {
+			animationmaskfile = "gfx/ui_overhaul_qhd/buttons/event_buttons/event_button_450_34_mask.tga"
+			animationtextureFile = "gfx/interface/buttons/button_large_142_animated_texture.dds"
+			animationrotation = 180
+			animationlooping = yes
+			animationtime = 650
+			animationdelay = 0
+			animationblendmode = "overlay" #add, multiply, overlay
+			animationtype = "scrolling"    #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0 y = 0 }
+			animationtexturescale = { x = 1 y = 1 }
+			animationframes = { 1 2 3 }
+		}
+		hitbox_margin = { x = 11 y = 4 }
+	}
+	spriteType = {
+		name = "GFX_event_button_450_34_artist"
+		textureFile = "gfx/ui_overhaul_qhd/buttons/event_buttons/event_button_450_34_animated_artist.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+		noOfFrames = 3
+		animation = {
+			animationmaskfile = "gfx/ui_overhaul_qhd/buttons/event_buttons/event_button_450_34_mask.tga"
+			animationtextureFile = "gfx/interface/buttons/button_large_142_animated_texture.dds"
+			animationrotation = 180
+			animationlooping = yes
+			animationtime = 650
+			animationdelay = 0
+			animationblendmode = "overlay" #add, multiply, overlay
+			animationtype = "scrolling"    #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0 y = 0 }
+			animationtexturescale = { x = 1 y = 1 }
+			animationframes = { 1 2 3 }
+		}
+		hitbox_margin = { x = 11 y = 4 }
+	}
+	spriteType = {
+		name = "GFX_event_button_450_34_caravaneer"
+		textureFile = "gfx/ui_overhaul_qhd/buttons/event_buttons/event_button_450_34_animated_caravaneer.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+		noOfFrames = 3
+		animation = {
+			animationmaskfile = "gfx/ui_overhaul_qhd/buttons/event_buttons/event_button_450_34_mask.tga"
+			animationtextureFile = "gfx/interface/buttons/button_large_142_animated_texture.dds"
+			animationrotation = 180
+			animationlooping = yes
+			animationtime = 650
+			animationdelay = 0
+			animationblendmode = "overlay" #add, multiply, overlay
+			animationtype = "scrolling"    #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0 y = 0 }
+			animationtexturescale = { x = 1 y = 1 }
+			animationframes = { 1 2 3 }
+		}
+		hitbox_margin = { x = 11 y = 4 }
+	}
+	spriteType = {
+		name = "GFX_event_button_450_34_curator"
+		textureFile = "gfx/ui_overhaul_qhd/buttons/event_buttons/event_button_450_34_animated_curator.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+		noOfFrames = 3
+		animation = {
+			animationmaskfile = "gfx/ui_overhaul_qhd/buttons/event_buttons/event_button_450_34_mask.tga"
+			animationtextureFile = "gfx/interface/buttons/button_large_142_animated_texture.dds"
+			animationrotation = 180
+			animationlooping = yes
+			animationtime = 650
+			animationdelay = 0
+			animationblendmode = "overlay" #add, multiply, overlay
+			animationtype = "scrolling"    #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0 y = 0 }
+			animationtexturescale = { x = 1 y = 1 }
+			animationframes = { 1 2 3 }
+		}
+		hitbox_margin = { x = 11 y = 4 }
+	}
+	spriteType = {
+		name = "GFX_event_button_450_34_mercenary"
+		textureFile = "gfx/ui_overhaul_qhd/buttons/event_buttons/event_button_450_34_animated_mercenary.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+		noOfFrames = 3
+		animation = {
+			animationmaskfile = "gfx/ui_overhaul_qhd/buttons/event_buttons/event_button_450_34_mask.tga"
+			animationtextureFile = "gfx/interface/buttons/button_large_142_animated_texture.dds"
+			animationrotation = 180
+			animationlooping = yes
+			animationtime = 650
+			animationdelay = 0
+			animationblendmode = "overlay" #add, multiply, overlay
+			animationtype = "scrolling"    #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0 y = 0 }
+			animationtexturescale = { x = 1 y = 1 }
+			animationframes = { 1 2 3 }
+		}
+		hitbox_margin = { x = 11 y = 4 }
+	}
+	spriteType = {
+		name = "GFX_event_button_450_34_trader"
+		textureFile = "gfx/ui_overhaul_qhd/buttons/event_buttons/event_button_450_34_animated_trader.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+		noOfFrames = 3
+		animation = {
+			animationmaskfile = "gfx/ui_overhaul_qhd/buttons/event_buttons/event_button_450_34_mask.tga"
+			animationtextureFile = "gfx/interface/buttons/button_large_142_animated_texture.dds"
+			animationrotation = 180
+			animationlooping = yes
+			animationtime = 650
+			animationdelay = 0
+			animationblendmode = "overlay" #add, multiply, overlay
+			animationtype = "scrolling"    #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0 y = 0 }
+			animationtexturescale = { x = 1 y = 1 }
+			animationframes = { 1 2 3 }
+		}
+		hitbox_margin = { x = 11 y = 4 }
+	}
 	spriteType = {
 		name = "GFX_event_button_650_24"
 		textureFile = "gfx/ui_overhaul_qhd/buttons/event_button_650_24_animated.dds"
@@ -241,6 +399,27 @@ spriteTypes = {
 		}
 		hitbox_margin = { x = 11 y = 4 }
 	}
+	#megastructure_selection.gui
+	spriteType = {
+		name = "GFX_ui_megastructure_select_button_700_90"
+		textureFile = "gfx/ui_overhaul_qhd/buttons/megastructure_select_button_700_90.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+		noOfFrames = 4
+		animation = {
+			animationmaskfile = "gfx/ui_overhaul_qhd/buttons/megastructure_select_button_700_90_mask.tga"
+			animationtextureFile = "gfx/ui_overhaul_qhd/buttons/megastructure_select_button_x_90_animated_texture.dds"
+			animationrotation = 180
+			animationlooping = yes
+			animationtime = 150
+			animationdelay = 0
+			animationblendmode = "overlay" #add, multiply, overlay
+			animationtype = "scrolling"    #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0 y = 0 }
+			animationtexturescale = { x = 1 y = 1 }
+			animationframes = { 1 2 3 }
+		}
+		hitbox_margin = { x = 12 y = 5 }
+	}
 	# species_mod_window.gui
 	spriteType = {
 		name = "GFX_species_mod_button"
@@ -294,6 +473,35 @@ spriteTypes = {
 		name = "GFX_ui_tab_inactive"
 		textureFile = "gfx/ui_overhaul_qhd/buttons/tab_block_inactive.dds"
 		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+		transparencecheck = yes
+	}
+	# tabs 165 - starbase
+	spriteType = {
+		name = "GFX_ui_tab_1_starbase_active"
+		textureFile = "gfx/ui_overhaul_qhd/buttons/tabs/tab_1_starbase_active.dds"
+		noOfFrames = 3
+		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_ui_tab_1_starbase_inactive"
+		textureFile = "gfx/ui_overhaul_qhd/buttons/tabs/tab_1_starbase_inactive.dds"
+		noOfFrames = 3
+		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_ui_tab_2_starbase_active"
+		textureFile = "gfx/ui_overhaul_qhd/buttons/tabs/tab_2_starbase_active.dds"
+		noOfFrames = 3
+		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_ui_tab_2_starbase_inactive"
+		textureFile = "gfx/ui_overhaul_qhd/buttons/tabs/tab_2_starbase_inactive.dds"
+		noOfFrames = 3
 		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
 		transparencecheck = yes
 	}

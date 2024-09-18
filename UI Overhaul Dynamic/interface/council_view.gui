@@ -148,7 +148,7 @@ guiTypes = {
 			origo = lower_left
 			background = {
 				name = "bg"
-				spriteType = "GFX_tiles_dark_area_cut_8"
+				spriteType = "GFX_dark_area_cut_light"
 			}
 		}
 		@dashboard_pos_y = -20
@@ -163,12 +163,12 @@ guiTypes = {
 			clipping = no
 			background = {
 				name = "finished_agendas_container"
-				spriteType = "GFX_invisible"
+				spriteType = "GFX_dark_area_cut_light"
 			}
 			iconType = {
 				name = "hex_bg"
 				spriteType = "GFX_hex_center_bg"
-				position = { x = 0 y = 16 }
+				position = { x = 0 y = 21 }
 				orientation = center_up
 				centerPosition = yes
 				alwaysTransparent = yes
@@ -176,7 +176,7 @@ guiTypes = {
 			iconType = {
 				name = "header_line"
 				quadTextureSprite = "GFX_line_center_short"
-				position = { x = 0 y = 29 }
+				position = { x = 0 y = 34 }
 				orientation = center_up
 				centerPosition = yes
 			}
@@ -184,7 +184,7 @@ guiTypes = {
 				name = "title"
 				font = "font_text_20"
 				text = "FINISHED_AGENDAS"
-				position = { x = 0 y = 0 }
+				position = { x = 0 y = 5 }
 				maxWidth = 420
 				maxHeight = 24
 				fixedSize = yes
@@ -195,15 +195,15 @@ guiTypes = {
 			}
 			containerWindowType = {
 				name = "finished_agendas_scrollview"
-				position = { x = 6 y = 38 }
-				size = { width = 100% height = 220 }
+				position = { x = 6 y = 43 }
+				size = { width = 100% height = 215 }
 				background = {
 					name = "bg"
 					spriteType = "GFX_invisible"
 				}
 				smoothListboxType = {
 					name = "finished_agendas_box" # parent of finished_council_agenda_icon_entry
-					size = { x = @list_entry_width_long y = 220 }
+					size = { x = @list_entry_width_long y = 215 }
 					scrollbartype = "standardlistbox_slider_thick"
 				}
 			}
@@ -219,6 +219,10 @@ guiTypes = {
 			clipping = no
 			background = {
 				name = "council_agenda_container"
+				spriteType = "GFX_dark_area_cut_light"
+			}
+			background = {
+				name = "council_agenda_container_frame"
 				spriteType = "GFX_planet_bg_tile_frame"
 			}
 			iconType = {
@@ -344,12 +348,12 @@ guiTypes = {
 			clipping = no
 			background = {
 				name = "active_edicts_container"
-				spriteType = "GFX_invisible"
+				spriteType = "GFX_dark_area_cut_light"
 			}
 			iconType = {
 				name = "hex_bg"
 				spriteType = "GFX_hex_center_bg"
-				position = { x = 0 y = 16 }
+				position = { x = 0 y = 21 }
 				orientation = center_up
 				centerPosition = yes
 				alwaysTransparent = yes
@@ -357,7 +361,7 @@ guiTypes = {
 			iconType = {
 				name = "header_line"
 				quadTextureSprite = "GFX_line_center_short"
-				position = { x = 0 y = 29 }
+				position = { x = 0 y = 34 }
 				orientation = center_up
 				centerPosition = yes
 			}
@@ -365,7 +369,7 @@ guiTypes = {
 				name = "title"
 				font = "font_text_20"
 				text = "COUNCIL_ACTIVE_EDICTS"
-				position = { x = 0 y = 0 }
+				position = { x = 0 y = 5 }
 				maxWidth = 420
 				maxHeight = 24
 				fixedSize = yes
@@ -374,15 +378,15 @@ guiTypes = {
 			}
 			containerWindowType = {
 				name = "active_edicts_scrollview"
-				position = { x = 6 y = 38 }
-				size = { width = 100% height = 190 }
+				position = { x = 6 y = 43 }
+				size = { width = 100% height = 180 }
 				background = {
 					name = "bg"
 					spriteType = "GFX_invisible"
 				}
 				smoothListboxType = {
 					name = "active_edicts_list" # parent of active_edict_entry
-					size = { x = @list_entry_width_long y = 190 }
+					size = { x = @list_entry_width_long y = 180 }
 					scrollbartype = "standardlistbox_slider_thick"
 					spacing = 1
 					#autohide_scrollbar = yes
@@ -391,10 +395,10 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "edict_fund"
 				font = "font_text_14"
-				position = { x = -100 y = -24 }
+				position = { x = -100 y = -32 }
 				orientation = lower_right
 				maxWidth = 100
-				maxHeight = 24
+				maxHeight = 30
 				fixedSize = yes
 				format = center
 				vertical_alignment = center
@@ -403,8 +407,8 @@ guiTypes = {
 				name = "edict_fund_icon"
 				quadTextureSprite = "GFX_edict_fund"
 				orientation = lower_right
-				position = { x = -125 y = -24 }
-				scale = 0.94
+				position = { x = -125 y = -30 }
+				scale = 1
 			}
 			containerWindowType = {
 				name = "no_edicts_active_container"
@@ -559,12 +563,9 @@ guiTypes = {
 		}
 		containerWindowType = {
 			name = "choose_agenda_view"
-			position = { x = 5 y = 0 }
+			position = { x = 0 y = 0 }
 			orientation = upper_right
-			if_scaled_resolution = {
-				max_width = 1680
-				position = { x = -210 y = 0 }
-			}
+			origo = upper_right
 			size = { width = 500 height = 940 }
 			if_scaled_resolution = {
 				min_height = 1200
@@ -690,15 +691,16 @@ guiTypes = {
 			containerWindowType = {
 				name = "council_slots_container"
 				position = { x = 0 y = 50 }
-				size = { width = -5 height = -10 }
+				size = { width = 100% height = -10 }
 				verticalScrollbar = "right_vertical_slider_thick"
+				smooth_scrolling = yes
 				background = {
 					name = "background"
 					spriteType = "GFX_invisible"
 				}
 				gridboxType = {
 					name = "unlock_council_list_box" # parent of unlock_council_list_entry
-					size = { width = 490 height = -5 }
+					size = { width = 490 height = 2400 }
 					slotSize = { width = 490 height = 90 }
 					max_slots_horizontal = 1
 				}
@@ -993,9 +995,9 @@ guiTypes = {
 			name = "desc"
 			font = "font_text_14"
 			text = "" # set from code
-			position = { x = 55 y = 40 }
-			maxWidth = 315
-			maxHeight = 44
+			position = { x = 55 y = 34 }
+			maxWidth = 310
+			maxHeight = 48
 			scrollbarType = "standardlistbox_slider_thick_small"
 			alwaysTransparent = yes
 		}

@@ -245,6 +245,50 @@ guiTypes = {
 			size = { x = 300 y = 32 }
 			borderSize = { x = 8 y = 4 }
 		}
+		instantTextBoxType = {
+			name = "visibility_title"
+			font = "font_text_14"
+			text = "MATCHMAKING_VISIBILITY_DESC"
+			position = { x = 100 y = 278 }
+			borderSize = { x = 4 y = 4 }
+			maxWidth = 300
+			maxHeight = 16
+		}
+		containerWindowType = {
+			name = "visibility"
+			size = { width = 300 height = 32 }
+			position = { x = 100 y = 300 }
+			background = {
+				name = "visibility"
+				quadTextureSprite = "GFX_tiles_dark_area_cut_8"
+			}
+			instantTextBoxType = {
+				name = "value"
+				font = "font_text_14"
+				text = "Test"
+				position = { x = 32 y = 0 }
+				maxWidth = 236
+				maxHeight = 32
+				fixedSize = yes
+				format = center
+				vertical_alignment = center
+				pdx_tooltip = "MATCHMAKING_VISIBILITY_DESC"
+			}
+			buttonType = {
+				name = "visibility_prev_button"
+				quadTextureSprite = "GFX_button_left"
+				position = { x = 0 y = 0 }
+				scale = 0.86
+				pdx_tooltip = "MATCHMAKING_VISIBILITY_DESC"
+			}
+			buttonType = {
+				name = "visibility_next_button"
+				quadTextureSprite = "GFX_button_right"
+				position = { x = 268 y = 0 }
+				scale = 0.86
+				pdx_tooltip = "MATCHMAKING_VISIBILITY_DESC"
+			}
+		}
 		containerWindowType = {
 			name = "allow_coop"
 			position = { x = 100 y = 352 }
@@ -257,9 +301,11 @@ guiTypes = {
 				name = "allow_coop_title"
 				font = "font_text_14"
 				text = "MATCHMAKING_FILTER_HOST_ALLOW_COOP"
-				position = { x = 34 y = 8 }
+				position = { x = 34 y = 0 }
 				maxWidth = 120
-				maxHeight = 24
+				maxHeight = 30
+				fixedSize = yes
+				vertical_alignment = center
 			}
 		}
 		containerWindowType = {

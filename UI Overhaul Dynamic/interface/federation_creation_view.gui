@@ -102,7 +102,6 @@ guiTypes = {
 			name = "type_icon"
 			quadTextureSprite = "GFX_default_federation"
 			position = { x = 25 y = 206 }
-			scale = 1
 		}
 		containerWindowType = {
 			name = "name_background"

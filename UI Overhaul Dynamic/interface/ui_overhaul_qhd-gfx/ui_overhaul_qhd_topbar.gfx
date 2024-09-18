@@ -23,6 +23,11 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
 		noOfFrames = 2
 	}
+	spriteType = {
+		name = "GFX_ui_topbar_musicplayer_background"
+		textureFile = "gfx/ui_overhaul_qhd/topbar/musicplayer_background.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+	}
 	corneredTileSpriteType = {
 		name = "GFX_ui_topbar_bar"
 		textureFile = "gfx/ui_overhaul_qhd/topbar/topbar_bar.dds"

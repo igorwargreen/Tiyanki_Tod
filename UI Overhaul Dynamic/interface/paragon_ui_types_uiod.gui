@@ -52,11 +52,11 @@ guiTypes = {
 			clipping = yes
 			iconType = {
 				name = "character_portrait"
-				quadTextureSprite = "GFX_portrait_character_mid_close_up"
-				position = { x = 0 y = 0 }
+				quadTextureSprite = "GFX_ui_portrait_character_fade_large"
+				position = { x = 0 y = -14 }
 				orientation = center
 				centerPosition = yes
-				scale = 0.5
+				scale = 0.54
 				alwaysTransparent = yes
 			}
 		}
@@ -69,6 +69,7 @@ guiTypes = {
 				quadTextureSprite = "GFX_empty_leader_large"
 				orientation = center
 				centerPosition = yes
+				alwaysTransparent = yes
 			}
 			containerWindowType = {
 				name = "no_character_container_texts"
@@ -91,8 +92,8 @@ guiTypes = {
 		buttonType = {
 			name = "assign_character_button"
 			quadTextureSprite = "GFX_invisible"
-			size = { x = 70 y = 70 }
-			position = { x = -35 y = -35 }
+			size = { x = 120 y = 140 }
+			position = { x = -60 y = -70 }
 			orientation = center
 		}
 		containerWindowType = {
@@ -145,25 +146,6 @@ guiTypes = {
 				spriteType = "GFX_leader_skill"
 				position = { x = 24 y = 92.5 }
 				centerPosition = yes
-			}
-			iconType = {
-				name = "experience_bar"
-				spriteType = "GFX_ui_progressbar_thick"
-				position = { x = 0 y = -17 }
-				orientation = center_down
-				centerPosition = yes
-			}
-			### COUNCILOR INFO ###
-			containerWindowType = {
-				name = "council_container"
-				size = { width = 30 height = 30 }
-				position = { x = -8 y = 48 }
-				orientation = upper_right
-				origo = upper_right
-				iconType = {
-					name = "council_position_icon"
-					spriteType = "GFX_council_position_icon"
-				}
 			}
 			### NAME AND TITLE ###
 			containerWindowType = {
@@ -218,14 +200,37 @@ guiTypes = {
 					alwaysTransparent = yes
 				}
 			}
+			### COUNCILOR INFO ###
+			containerWindowType = {
+				name = "council_container"
+				size = { width = 30 height = 30 }
+				position = { x = 2 y = -2 }
+				orientation = upper_right
+				origo = upper_right
+				iconType = {
+					name = "council_position_icon"
+					spriteType = "GFX_council_position_icon"
+				}
+			}
 			### TRAITS ###
 			overlappingElementsBoxType = {
 				name = "traits_overlapping_box"
-				size = { x = 200 y = @trait_icon_size_h }
-				position = { x = -100 y = 65 }
-				orientation = center
-				format = center
-				first_on_top = yes
+				size = { x = @trait_icon_size_h y = 180 }
+				position = { x = -43 y = 48 }
+				orientation = upper_right
+				format = top
+				direction = vertical
+			}
+			containerWindowType = {
+				name = "on_hover_container"
+				size = { width = 100% height = 100% }
+				iconType = {
+					name = "experience_bar"
+					spriteType = "GFX_ui_progressbar_thick"
+					position = { x = 0 y = -16 }
+					orientation = center_down
+					centerPosition = yes
+				}
 			}
 		}
 	}
@@ -277,11 +282,11 @@ guiTypes = {
 			clipping = yes
 			iconType = {
 				name = "character_portrait"
-				quadTextureSprite = "GFX_portrait_character_mid_close_up"
-				position = { x = 0 y = 0 }
+				quadTextureSprite = "GFX_ui_portrait_character_fade_large"
+				position = { x = 0 y = -14 }
 				orientation = center
 				centerPosition = yes
-				scale = 0.5
+				scale = 0.54
 				alwaysTransparent = yes
 			}
 		}
@@ -294,6 +299,7 @@ guiTypes = {
 				quadTextureSprite = "GFX_empty_leader_large"
 				orientation = center
 				centerPosition = yes
+				alwaysTransparent = yes
 			}
 			containerWindowType = {
 				name = "no_character_container_texts"
@@ -316,8 +322,8 @@ guiTypes = {
 		buttonType = {
 			name = "assign_character_button"
 			quadTextureSprite = "GFX_invisible"
-			size = { x = 70 y = 70 }
-			position = { x = -35 y = -35 }
+			size = { x = 120 y = 140 }
+			position = { x = -60 y = -70 }
 			orientation = center
 		}
 		containerWindowType = {
@@ -370,25 +376,6 @@ guiTypes = {
 				spriteType = "GFX_leader_skill"
 				position = { x = 24 y = 92.5 }
 				centerPosition = yes
-			}
-			iconType = {
-				name = "experience_bar"
-				spriteType = "GFX_ui_progressbar_thick"
-				position = { x = 0 y = -17 }
-				orientation = center_down
-				centerPosition = yes
-			}
-			### COUNCILOR INFO ###
-			containerWindowType = {
-				name = "council_container"
-				size = { width = 30 height = 30 }
-				position = { x = -8 y = 48 }
-				orientation = upper_right
-				origo = upper_right
-				iconType = {
-					name = "council_position_icon"
-					spriteType = "GFX_council_position_icon"
-				}
 			}
 			### NAME AND TITLE ###
 			containerWindowType = {
@@ -443,14 +430,37 @@ guiTypes = {
 					alwaysTransparent = yes
 				}
 			}
+			### COUNCILOR INFO ###
+			containerWindowType = {
+				name = "council_container"
+				size = { width = 30 height = 30 }
+				position = { x = 2 y = -2 }
+				orientation = upper_right
+				origo = upper_right
+				iconType = {
+					name = "council_position_icon"
+					spriteType = "GFX_council_position_icon"
+				}
+			}
 			### TRAITS ###
 			overlappingElementsBoxType = {
 				name = "traits_overlapping_box"
-				size = { x = 200 y = @trait_icon_size_h }
-				position = { x = -100 y = 65 }
-				orientation = center
-				format = center
-				first_on_top = yes
+				size = { x = @trait_icon_size_h y = 178 }
+				position = { x = -43 y = 48 }
+				orientation = upper_right
+				format = top
+				direction = vertical
+			}
+			containerWindowType = {
+				name = "on_hover_container"
+				size = { width = 100% height = 100% }
+				iconType = {
+					name = "experience_bar"
+					spriteType = "GFX_ui_progressbar_thick"
+					position = { x = 0 y = -16 }
+					orientation = center_down
+					centerPosition = yes
+				}
 			}
 		}
 	}
@@ -497,11 +507,12 @@ guiTypes = {
 			clipping = yes
 			iconType = {
 				name = "character_portrait"
-				quadTextureSprite = "GFX_portrait_character_mid_close_up"
+				quadTextureSprite = "GFX_ui_portrait_character_fade_large"
 				position = { x = 0 y = 0 }
 				orientation = center
 				centerPosition = yes
 				scale = 0.54
+				alwaysTransparent = yes
 			}
 		}
 		### RARITY
@@ -573,6 +584,18 @@ guiTypes = {
 				alwaysTransparent = yes
 			}
 		}
+		### COUNCILOR INFO ###
+		containerWindowType = {
+			name = "council_container"
+			size = { width = 30 height = 30 }
+			position = { x = 2 y = -2 }
+			orientation = upper_right
+			origo = upper_right
+			iconType = {
+				name = "council_position_icon"
+				spriteType = "GFX_council_position_icon"
+			}
+		}
 		### SKILL ###
 		iconType = {
 			name = "skill_icon_bg"
@@ -587,19 +610,25 @@ guiTypes = {
 			position = { x = 24 y = 92.5 }
 			centerPosition = yes
 		}
-		iconType = {
-			name = "experience_bar"
-			spriteType = "GFX_ui_progressbar_thick"
-			position = { x = 0 y = -17 }
-			orientation = center_down
-			centerPosition = yes
-		}
 		### TRAITS ###
 		overlappingElementsBoxType = {
 			name = "traits_overlapping_box"
-			size = { x = 174 y = @trait_icon_size_h }
-			position = { x = 14 y = 216 }
-			first_on_top = yes
+			size = { x = @trait_icon_size_h y = 200 }
+			position = { x = -43 y = 48 }
+			orientation = upper_right
+			format = top
+			direction = vertical
+		}
+		containerWindowType = {
+			name = "on_hover_container"
+			size = { width = 100% height = 100% }
+			iconType = {
+				name = "experience_bar"
+				spriteType = "GFX_ui_progressbar_thick"
+				position = { x = 0 y = -16 }
+				orientation = center_down
+				centerPosition = yes
+			}
 		}
 		containerWindowType = {
 			name = "no_character_container"
@@ -615,7 +644,7 @@ guiTypes = {
 		containerWindowType = {
 			name = "busy_container"
 			position = { x = 0 y = 8 }
-			size = { width = 201 height = 42 }
+			size = { width = 201 height = 82 }
 			orientation = lower_left
 			iconType = {
 				name = "status_bg"
@@ -638,7 +667,7 @@ guiTypes = {
 				font = "font_text_16"
 				position = { x = 44 y = 0 }
 				maxWidth = 118
-				maxHeight = 42
+				maxHeight = 82
 				fixedSize = yes
 				vertical_alignment = center
 			}
@@ -725,11 +754,11 @@ guiTypes = {
 			clipping = yes
 			iconType = {
 				name = "character_portrait"
-				quadTextureSprite = "GFX_portrait_character_mid_close_up"
-				position = { x = 0 y = 0 }
+				quadTextureSprite = "GFX_ui_portrait_character_fade_large"
+				position = { x = 0 y = -14 }
 				orientation = center
 				centerPosition = yes
-				scale = 0.5
+				scale = 0.54
 				alwaysTransparent = yes
 			}
 		}
@@ -742,6 +771,7 @@ guiTypes = {
 				quadTextureSprite = "GFX_empty_leader_large"
 				orientation = center
 				centerPosition = yes
+				alwaysTransparent = yes
 			}
 			containerWindowType = {
 				name = "no_character_container_texts"
@@ -764,8 +794,8 @@ guiTypes = {
 		buttonType = {
 			name = "assign_character_button"
 			quadTextureSprite = "GFX_invisible"
-			size = { x = 70 y = 70 }
-			position = { x = -35 y = -35 }
+			size = { x = 120 y = 140 }
+			position = { x = -60 y = -70 }
 			orientation = center
 		}
 		containerWindowType = {
@@ -818,25 +848,6 @@ guiTypes = {
 				spriteType = "GFX_leader_skill"
 				position = { x = 24 y = 92.5 }
 				centerPosition = yes
-			}
-			iconType = {
-				name = "experience_bar"
-				spriteType = "GFX_ui_progressbar_thick"
-				position = { x = 0 y = -17 }
-				orientation = center_down
-				centerPosition = yes
-			}
-			### COUNCILOR INFO ###
-			containerWindowType = {
-				name = "council_container"
-				size = { width = 30 height = 30 }
-				position = { x = -8 y = 48 }
-				orientation = upper_right
-				origo = upper_right
-				iconType = {
-					name = "council_position_icon"
-					spriteType = "GFX_council_position_icon"
-				}
 			}
 			### NAME AND TITLE ###
 			containerWindowType = {
@@ -891,14 +902,37 @@ guiTypes = {
 					alwaysTransparent = yes
 				}
 			}
+			### COUNCILOR INFO ###
+			containerWindowType = {
+				name = "council_container"
+				size = { width = 30 height = 30 }
+				position = { x = 2 y = -2 }
+				orientation = upper_right
+				origo = upper_right
+				iconType = {
+					name = "council_position_icon"
+					spriteType = "GFX_council_position_icon"
+				}
+			}
 			### TRAITS ###
 			overlappingElementsBoxType = {
 				name = "traits_overlapping_box"
-				size = { x = 200 y = @trait_icon_size_h }
-				position = { x = -100 y = 64 }
-				orientation = center
-				format = center
-				first_on_top = yes
+				size = { x = @trait_icon_size_h y = 172 }
+				position = { x = -43 y = 48 }
+				orientation = upper_right
+				format = top
+				direction = vertical
+			}
+			containerWindowType = {
+				name = "on_hover_container"
+				size = { width = 100% height = 100% }
+				iconType = {
+					name = "experience_bar"
+					spriteType = "GFX_ui_progressbar_thick"
+					position = { x = 0 y = -16 }
+					orientation = center_down
+					centerPosition = yes
+				}
 			}
 		}
 	}
@@ -950,11 +984,11 @@ guiTypes = {
 			clipping = yes
 			iconType = {
 				name = "character_portrait"
-				quadTextureSprite = "GFX_portrait_character_mid_close_up"
-				position = { x = 0 y = 0 }
+				quadTextureSprite = "GFX_ui_portrait_character_fade_large"
+				position = { x = 0 y = -14 }
 				orientation = center
 				centerPosition = yes
-				scale = 0.5
+				scale = 0.54
 				alwaysTransparent = yes
 			}
 		}
@@ -986,25 +1020,6 @@ guiTypes = {
 				spriteType = "GFX_leader_skill"
 				position = { x = 24 y = 92.5 }
 				centerPosition = yes
-			}
-			iconType = {
-				name = "experience_bar"
-				spriteType = "GFX_ui_progressbar_thick"
-				position = { x = 0 y = -17 }
-				orientation = center_down
-				centerPosition = yes
-			}
-			### COUNCILOR INFO ###
-			containerWindowType = {
-				name = "council_container"
-				size = { width = 30 height = 30 }
-				position = { x = -8 y = 48 }
-				orientation = upper_right
-				origo = upper_right
-				iconType = {
-					name = "council_position_icon"
-					spriteType = "GFX_council_position_icon"
-				}
 			}
 			### NAME AND TITLE ###
 			containerWindowType = {
@@ -1059,14 +1074,37 @@ guiTypes = {
 					alwaysTransparent = yes
 				}
 			}
+			### COUNCILOR INFO ###
+			containerWindowType = {
+				name = "council_container"
+				size = { width = 30 height = 30 }
+				position = { x = 2 y = -2 }
+				orientation = upper_right
+				origo = upper_right
+				iconType = {
+					name = "council_position_icon"
+					spriteType = "GFX_council_position_icon"
+				}
+			}
 			### TRAITS ###
 			overlappingElementsBoxType = {
 				name = "traits_overlapping_box"
-				size = { x = 240 y = @trait_icon_size_h }
-				position = { x = -120 y = 55 }
-				orientation = center
-				format = center
-				first_on_top = yes
+				size = { x = @trait_icon_size_h y = 172 }
+				position = { x = -43 y = 48 }
+				orientation = upper_right
+				format = top
+				direction = vertical
+			}
+			containerWindowType = {
+				name = "on_hover_container"
+				size = { width = 100% height = 100% }
+				iconType = {
+					name = "experience_bar"
+					spriteType = "GFX_ui_progressbar_thick"
+					position = { x = 0 y = -16 }
+					orientation = center_down
+					centerPosition = yes
+				}
 			}
 		}
 	}
@@ -1118,11 +1156,11 @@ guiTypes = {
 			clipping = yes
 			iconType = {
 				name = "character_portrait"
-				quadTextureSprite = "GFX_portrait_character_mid_close_up"
-				position = { x = 0 y = 0 }
+				quadTextureSprite = "GFX_ui_portrait_character_fade_large"
+				position = { x = 0 y = -14 }
 				orientation = center
 				centerPosition = yes
-				scale = 0.5
+				scale = 0.54
 				alwaysTransparent = yes
 			}
 		}
@@ -1135,6 +1173,7 @@ guiTypes = {
 				quadTextureSprite = "GFX_empty_leader_large"
 				orientation = center
 				centerPosition = yes
+				alwaysTransparent = yes
 			}
 			containerWindowType = {
 				name = "no_character_container_texts"
@@ -1157,8 +1196,8 @@ guiTypes = {
 		buttonType = {
 			name = "assign_character_button"
 			quadTextureSprite = "GFX_invisible"
-			size = { x = 70 y = 70 }
-			position = { x = -35 y = -35 }
+			size = { x = 120 y = 140 }
+			position = { x = -60 y = -70 }
 			orientation = center
 		}
 		containerWindowType = {
@@ -1211,25 +1250,6 @@ guiTypes = {
 				spriteType = "GFX_leader_skill"
 				position = { x = 24 y = 92.5 }
 				centerPosition = yes
-			}
-			iconType = {
-				name = "experience_bar"
-				spriteType = "GFX_ui_progressbar_thick"
-				position = { x = 0 y = -17 }
-				orientation = center_down
-				centerPosition = yes
-			}
-			### COUNCILOR INFO ###
-			containerWindowType = {
-				name = "council_container"
-				size = { width = 30 height = 30 }
-				position = { x = -8 y = 48 }
-				orientation = upper_right
-				origo = upper_right
-				iconType = {
-					name = "council_position_icon"
-					spriteType = "GFX_council_position_icon"
-				}
 			}
 			### NAME AND TITLE ###
 			containerWindowType = {
@@ -1284,14 +1304,37 @@ guiTypes = {
 					alwaysTransparent = yes
 				}
 			}
+			### COUNCILOR INFO ###
+			containerWindowType = {
+				name = "council_container"
+				size = { width = 30 height = 30 }
+				position = { x = 2 y = -2 }
+				orientation = upper_right
+				origo = upper_right
+				iconType = {
+					name = "council_position_icon"
+					spriteType = "GFX_council_position_icon"
+				}
+			}
 			### TRAITS ###
 			overlappingElementsBoxType = {
 				name = "traits_overlapping_box"
-				size = { x = 200 y = @trait_icon_size_h }
-				position = { x = -100 y = 64 }
-				orientation = center
-				format = center
-				first_on_top = yes
+				size = { x = @trait_icon_size_h y = 178 }
+				position = { x = -43 y = 48 }
+				orientation = upper_right
+				format = top
+				direction = vertical
+			}
+			containerWindowType = {
+				name = "on_hover_container"
+				size = { width = 100% height = 100% }
+				iconType = {
+					name = "experience_bar"
+					spriteType = "GFX_ui_progressbar_thick"
+					position = { x = 0 y = -16 }
+					orientation = center_down
+					centerPosition = yes
+				}
 			}
 		}
 	}
@@ -1343,11 +1386,11 @@ guiTypes = {
 			clipping = yes
 			iconType = {
 				name = "character_portrait"
-				quadTextureSprite = "GFX_portrait_character_mid_close_up"
-				position = { x = 0 y = 0 }
+				quadTextureSprite = "GFX_ui_portrait_character_fade_large"
+				position = { x = 0 y = -14 }
 				orientation = center
 				centerPosition = yes
-				scale = 0.5
+				scale = 0.54
 				alwaysTransparent = yes
 			}
 		}
@@ -1360,6 +1403,7 @@ guiTypes = {
 				quadTextureSprite = "GFX_empty_leader_large"
 				orientation = center
 				centerPosition = yes
+				alwaysTransparent = yes
 			}
 			containerWindowType = {
 				name = "no_character_container_texts"
@@ -1376,36 +1420,6 @@ guiTypes = {
 					format = center
 					vertical_alignment = center
 				}
-			}
-		}
-		### LEADER ASSIGNMENT ###
-		buttonType = {
-			name = "assign_character_button"
-			quadTextureSprite = "GFX_invisible"
-			size = { x = 70 y = 70 }
-			position = { x = -35 y = -35 }
-			orientation = center
-		}
-		containerWindowType = {
-			name = "on_hover_assign_container"
-			size = { width = 100% height = 100% }
-			iconType = {
-				name = "assign_character"
-				spriteType = "GFX_assign_leader"
-				orientation = center
-				centerPosition = yes
-				alwaysTransparent = yes
-			}
-		}
-		containerWindowType = {
-			name = "on_hover_replace_container"
-			size = { width = 100% height = 100% }
-			iconType = {
-				name = "replace_character"
-				spriteType = "GFX_replace_leader"
-				orientation = center
-				centerPosition = yes
-				alwaysTransparent = yes
 			}
 		}
 		### ASSIGNED LEADER INFO ###
@@ -1437,29 +1451,10 @@ guiTypes = {
 				position = { x = 24 y = 92.5 }
 				centerPosition = yes
 			}
-			iconType = {
-				name = "experience_bar"
-				spriteType = "GFX_ui_progressbar_thick"
-				position = { x = 0 y = -17 }
-				orientation = center_down
-				centerPosition = yes
-			}
-			### COUNCILOR INFO ###
-			containerWindowType = {
-				name = "council_container"
-				size = { width = 30 height = 30 }
-				position = { x = -8 y = 48 }
-				orientation = upper_right
-				origo = upper_right
-				iconType = {
-					name = "council_position_icon"
-					spriteType = "GFX_council_position_icon"
-				}
-			}
 			### AGE ###
 			containerWindowType = {
 				name = "age_container"
-				position = { x = -8 y = 80 }
+				position = { x = -8 y = 49 }
 				size = { width = 42 height = 42 }
 				orientation = upper_right
 				origo = upper_right
@@ -1536,14 +1531,37 @@ guiTypes = {
 					alwaysTransparent = yes
 				}
 			}
+			### COUNCILOR INFO ###
+			containerWindowType = {
+				name = "council_container"
+				size = { width = 30 height = 30 }
+				position = { x = 0 y = 0 }
+				orientation = upper_right
+				origo = upper_right
+				iconType = {
+					name = "council_position_icon"
+					spriteType = "GFX_council_position_icon"
+				}
+			}
 			### TRAITS ###
 			overlappingElementsBoxType = {
 				name = "traits_overlapping_box"
-				size = { x = 180 y = @trait_icon_size_h }
-				position = { x = -90 y = 67 }
-				orientation = center
-				format = center
-				first_on_top = yes
+				size = { x = @trait_icon_size_h y = 130 }
+				position = { x = -43 y = 96 }
+				orientation = upper_right
+				format = top
+				direction = vertical
+			}
+			containerWindowType = {
+				name = "on_hover_container"
+				size = { width = 100% height = 100% }
+				iconType = {
+					name = "experience_bar"
+					spriteType = "GFX_ui_progressbar_thick"
+					position = { x = 0 y = -17 }
+					orientation = center_down
+					centerPosition = yes
+				}
 			}
 		}
 	}
@@ -1595,11 +1613,11 @@ guiTypes = {
 			clipping = yes
 			iconType = {
 				name = "character_portrait"
-				quadTextureSprite = "GFX_portrait_character_mid_close_up"
-				position = { x = 0 y = 0 }
+				quadTextureSprite = "GFX_ui_portrait_character_fade_large"
+				position = { x = 0 y = -14 }
 				orientation = center
 				centerPosition = yes
-				scale = 0.5
+				scale = 0.54
 				alwaysTransparent = yes
 			}
 		}
@@ -1612,6 +1630,7 @@ guiTypes = {
 				quadTextureSprite = "GFX_empty_leader_large"
 				orientation = center
 				centerPosition = yes
+				alwaysTransparent = yes
 			}
 			containerWindowType = {
 				name = "no_character_container_texts"
@@ -1628,36 +1647,6 @@ guiTypes = {
 					format = center
 					vertical_alignment = center
 				}
-			}
-		}
-		### LEADER ASSIGNMENT ###
-		buttonType = {
-			name = "assign_character_button"
-			quadTextureSprite = "GFX_invisible"
-			size = { x = 70 y = 70 }
-			position = { x = -35 y = -35 }
-			orientation = center
-		}
-		containerWindowType = {
-			name = "on_hover_assign_container"
-			size = { width = 100% height = 100% }
-			iconType = {
-				name = "assign_character"
-				spriteType = "GFX_assign_leader"
-				orientation = center
-				centerPosition = yes
-				alwaysTransparent = yes
-			}
-		}
-		containerWindowType = {
-			name = "on_hover_replace_container"
-			size = { width = 100% height = 100% }
-			iconType = {
-				name = "replace_character"
-				spriteType = "GFX_replace_leader"
-				orientation = center
-				centerPosition = yes
-				alwaysTransparent = yes
 			}
 		}
 		### ASSIGNED LEADER INFO ###
@@ -1688,25 +1677,6 @@ guiTypes = {
 				spriteType = "GFX_leader_skill"
 				position = { x = 24 y = 92.5 }
 				centerPosition = yes
-			}
-			iconType = {
-				name = "experience_bar"
-				spriteType = "GFX_ui_progressbar_thick"
-				position = { x = 0 y = -17 }
-				orientation = center_down
-				centerPosition = yes
-			}
-			### COUNCILOR INFO ###
-			containerWindowType = {
-				name = "council_container"
-				size = { width = 30 height = 30 }
-				position = { x = -8 y = 48 }
-				orientation = upper_right
-				origo = upper_right
-				iconType = {
-					name = "council_position_icon"
-					spriteType = "GFX_council_position_icon"
-				}
 			}
 			### NAME AND TITLE ###
 			containerWindowType = {
@@ -1761,14 +1731,37 @@ guiTypes = {
 					alwaysTransparent = yes
 				}
 			}
+			### COUNCILOR INFO ###
+			containerWindowType = {
+				name = "council_container"
+				size = { width = 30 height = 30 }
+				position = { x = 2 y = -2 }
+				orientation = upper_right
+				origo = upper_right
+				iconType = {
+					name = "council_position_icon"
+					spriteType = "GFX_council_position_icon"
+				}
+			}
 			### TRAITS ###
 			overlappingElementsBoxType = {
 				name = "traits_overlapping_box"
-				size = { x = 180 y = @trait_icon_size_h }
-				position = { x = -90 y = 67 }
-				orientation = center
-				format = center
-				first_on_top = yes
+				size = { x = @trait_icon_size_h y = 178 }
+				position = { x = -43 y = 48 }
+				orientation = upper_right
+				format = top
+				direction = vertical
+			}
+			containerWindowType = {
+				name = "on_hover_container"
+				size = { width = 100% height = 100% }
+				iconType = {
+					name = "experience_bar"
+					spriteType = "GFX_ui_progressbar_thick"
+					position = { x = 0 y = -16 }
+					orientation = center_down
+					centerPosition = yes
+				}
 			}
 		}
 	}
@@ -1780,6 +1773,7 @@ guiTypes = {
 		background = {
 			name = "uiod_portrait_container_empire_sector_entry"
 			spriteType = "GFX_invisible"
+			alwaysTransparent = yes
 		}
 		### CLASS BACKGROUND ###
 		iconType = {
@@ -1793,13 +1787,13 @@ guiTypes = {
 		### PORTRAIT ###
 		containerWindowType = {
 			name = "character_portrait_container_clipping_mask"
-			size = { width = 130 height = 100% }
+			size = { width = 240 height = 100% }
 			position = { x = 5 y = 0 }
 			clipping = yes
 			iconType = {
 				name = "character_portrait"
-				quadTextureSprite = "GFX_portrait_character_mid_close_up"
-				position = { x = 0 y = 0 }
+				quadTextureSprite = "GFX_ui_portrait_character_empire"
+				position = { x = -30 y = 5 }
 				orientation = center
 				centerPosition = yes
 				scale = 0.3
@@ -1816,6 +1810,7 @@ guiTypes = {
 				quadTextureSprite = "GFX_empty_leader"
 				orientation = center
 				centerPosition = yes
+				alwaysTransparent = yes
 			}
 			containerWindowType = {
 				name = "no_character_container_texts"
@@ -1968,8 +1963,8 @@ guiTypes = {
 			clipping = yes
 			iconType = {
 				name = "character_portrait"
-				quadTextureSprite = "GFX_portrait_character_mid_close_up"
-				position = { x = 0 y = 0 }
+				quadTextureSprite = "GFX_ui_portrait_character_fade_large"
+				position = { x = 0 y = -18 }
 				orientation = center
 				centerPosition = yes
 				scale = 0.5
@@ -1985,6 +1980,7 @@ guiTypes = {
 				quadTextureSprite = "GFX_empty_leader_large"
 				orientation = center
 				centerPosition = yes
+				alwaysTransparent = yes
 			}
 			containerWindowType = {
 				name = "no_character_container_texts"
@@ -2007,8 +2003,8 @@ guiTypes = {
 		buttonType = {
 			name = "assign_character_button"
 			quadTextureSprite = "GFX_invisible"
-			size = { x = 70 y = 70 }
-			position = { x = -35 y = -35 }
+			size = { x = 120 y = 140 }
+			position = { x = -60 y = -70 }
 			orientation = center
 		}
 		containerWindowType = {
@@ -2061,25 +2057,6 @@ guiTypes = {
 				spriteType = "GFX_leader_skill"
 				position = { x = 24 y = 92.5 }
 				centerPosition = yes
-			}
-			iconType = {
-				name = "experience_bar"
-				spriteType = "GFX_ui_progressbar_thick"
-				position = { x = 0 y = -17 }
-				orientation = center_down
-				centerPosition = yes
-			}
-			### COUNCILOR INFO ###
-			containerWindowType = {
-				name = "council_container"
-				size = { width = 30 height = 30 }
-				position = { x = -8 y = 48 }
-				orientation = upper_right
-				origo = upper_right
-				iconType = {
-					name = "council_position_icon"
-					spriteType = "GFX_council_position_icon"
-				}
 			}
 			### NAME AND TITLE ###
 			containerWindowType = {
@@ -2134,14 +2111,37 @@ guiTypes = {
 					alwaysTransparent = yes
 				}
 			}
+			### COUNCILOR INFO ###
+			containerWindowType = {
+				name = "council_container"
+				size = { width = 30 height = 30 }
+				position = { x = 2 y = -2 }
+				orientation = upper_right
+				origo = upper_right
+				iconType = {
+					name = "council_position_icon"
+					spriteType = "GFX_council_position_icon"
+				}
+			}
 			### TRAITS ###
 			overlappingElementsBoxType = {
 				name = "traits_overlapping_box"
-				size = { x = 230 y = @trait_icon_size_h }
-				position = { x = -115 y = 45 }
-				orientation = center
-				format = center
-				first_on_top = yes
+				size = { x = @trait_icon_size_h y = 152 }
+				position = { x = -43 y = 48 }
+				orientation = upper_right
+				format = top
+				direction = vertical
+			}
+			containerWindowType = {
+				name = "on_hover_container"
+				size = { width = 100% height = 100% }
+				iconType = {
+					name = "experience_bar"
+					spriteType = "GFX_ui_progressbar_thick"
+					position = { x = 0 y = -16 }
+					orientation = center_down
+					centerPosition = yes
+				}
 			}
 		}
 	}
@@ -2193,11 +2193,11 @@ guiTypes = {
 			clipping = yes
 			iconType = {
 				name = "character_portrait"
-				quadTextureSprite = "GFX_portrait_character_mid_close_up"
-				position = { x = 0 y = 0 }
+				quadTextureSprite = "GFX_ui_portrait_character_fade_large"
+				position = { x = 0 y = -10 }
 				orientation = center
 				centerPosition = yes
-				scale = 0.4
+				scale = 0.5
 				alwaysTransparent = yes
 			}
 		}
@@ -2210,6 +2210,7 @@ guiTypes = {
 				quadTextureSprite = "GFX_empty_leader_large"
 				orientation = center
 				centerPosition = yes
+				alwaysTransparent = yes
 			}
 			containerWindowType = {
 				name = "no_character_container_texts"
@@ -2232,8 +2233,8 @@ guiTypes = {
 		buttonType = {
 			name = "assign_character_button"
 			quadTextureSprite = "GFX_invisible"
-			size = { x = 70 y = 70 }
-			position = { x = -35 y = -35 }
+			size = { x = 120 y = 140 }
+			position = { x = -60 y = -70 }
 			orientation = center
 		}
 		containerWindowType = {
@@ -2286,25 +2287,6 @@ guiTypes = {
 				spriteType = "GFX_leader_skill"
 				position = { x = 24 y = 92.5 }
 				centerPosition = yes
-			}
-			iconType = {
-				name = "experience_bar"
-				spriteType = "GFX_ui_progressbar_thick"
-				position = { x = 0 y = -17 }
-				orientation = center_down
-				centerPosition = yes
-			}
-			### COUNCILOR INFO ###
-			containerWindowType = {
-				name = "council_container"
-				size = { width = 30 height = 30 }
-				position = { x = -8 y = 48 }
-				orientation = upper_right
-				origo = upper_right
-				iconType = {
-					name = "council_position_icon"
-					spriteType = "GFX_council_position_icon"
-				}
 			}
 			### NAME AND TITLE ###
 			containerWindowType = {
@@ -2359,14 +2341,37 @@ guiTypes = {
 					alwaysTransparent = yes
 				}
 			}
+			### COUNCILOR INFO ###
+			containerWindowType = {
+				name = "council_container"
+				size = { width = 30 height = 30 }
+				position = { x = 2 y = -2 }
+				orientation = upper_right
+				origo = upper_right
+				iconType = {
+					name = "council_position_icon"
+					spriteType = "GFX_council_position_icon"
+				}
+			}
 			### TRAITS ###
 			overlappingElementsBoxType = {
 				name = "traits_overlapping_box"
-				size = { x = 160 y = @trait_icon_size_h }
-				position = { x = -80 y = 59 }
-				orientation = center
-				format = center
-				first_on_top = yes
+				size = { x = @trait_icon_size_h y = 162 }
+				position = { x = -43 y = 48 }
+				orientation = upper_right
+				format = top
+				direction = vertical
+			}
+			containerWindowType = {
+				name = "on_hover_container"
+				size = { width = 100% height = 100% }
+				iconType = {
+					name = "experience_bar"
+					spriteType = "GFX_ui_progressbar_thick"
+					position = { x = 0 y = -16 }
+					orientation = center_down
+					centerPosition = yes
+				}
 			}
 		}
 	}
@@ -2418,11 +2423,11 @@ guiTypes = {
 			clipping = yes
 			iconType = {
 				name = "character_portrait"
-				quadTextureSprite = "GFX_portrait_character_mid_close_up"
-				position = { x = 0 y = 0 }
+				quadTextureSprite = "GFX_ui_portrait_character_fade_large"
+				position = { x = 0 y = -14 }
 				orientation = center
 				centerPosition = yes
-				scale = 0.5
+				scale = 0.54
 				alwaysTransparent = yes
 			}
 		}
@@ -2435,6 +2440,7 @@ guiTypes = {
 				quadTextureSprite = "GFX_empty_leader_large"
 				orientation = center
 				centerPosition = yes
+				alwaysTransparent = yes
 			}
 			containerWindowType = {
 				name = "no_character_container_texts"
@@ -2457,8 +2463,8 @@ guiTypes = {
 		buttonType = {
 			name = "assign_character_button"
 			quadTextureSprite = "GFX_invisible"
-			size = { x = 70 y = 70 }
-			position = { x = -35 y = -35 }
+			size = { x = 120 y = 140 }
+			position = { x = -60 y = -70 }
 			orientation = center
 		}
 		containerWindowType = {
@@ -2511,25 +2517,6 @@ guiTypes = {
 				spriteType = "GFX_leader_skill"
 				position = { x = 24 y = 92.5 }
 				centerPosition = yes
-			}
-			iconType = {
-				name = "experience_bar"
-				spriteType = "GFX_ui_progressbar_thick"
-				position = { x = 0 y = -17 }
-				orientation = center_down
-				centerPosition = yes
-			}
-			### COUNCILOR INFO ###
-			containerWindowType = {
-				name = "council_container"
-				size = { width = 30 height = 30 }
-				position = { x = -8 y = 48 }
-				orientation = upper_right
-				origo = upper_right
-				iconType = {
-					name = "council_position_icon"
-					spriteType = "GFX_council_position_icon"
-				}
 			}
 			### NAME AND TITLE ###
 			containerWindowType = {
@@ -2584,14 +2571,37 @@ guiTypes = {
 					alwaysTransparent = yes
 				}
 			}
+			### COUNCILOR INFO ###
+			containerWindowType = {
+				name = "council_container"
+				size = { width = 30 height = 30 }
+				position = { x = 2 y = -2 }
+				orientation = upper_right
+				origo = upper_right
+				iconType = {
+					name = "council_position_icon"
+					spriteType = "GFX_council_position_icon"
+				}
+			}
 			### TRAITS ###
 			overlappingElementsBoxType = {
 				name = "traits_overlapping_box"
-				size = { x = 200 y = @trait_icon_size_h }
-				position = { x = -100 y = 64 }
-				orientation = center
-				format = center
-				first_on_top = yes
+				size = { x = @trait_icon_size_h y = 178 }
+				position = { x = -43 y = 48 }
+				orientation = upper_right
+				format = top
+				direction = vertical
+			}
+			containerWindowType = {
+				name = "on_hover_container"
+				size = { width = 100% height = 100% }
+				iconType = {
+					name = "experience_bar"
+					spriteType = "GFX_ui_progressbar_thick"
+					position = { x = 0 y = -16 }
+					orientation = center_down
+					centerPosition = yes
+				}
 			}
 		}
 	}
@@ -2643,11 +2653,11 @@ guiTypes = {
 			clipping = yes
 			iconType = {
 				name = "character_portrait"
-				quadTextureSprite = "GFX_portrait_character_mid_close_up"
-				position = { x = 0 y = 0 }
+				quadTextureSprite = "GFX_ui_portrait_character_fade_large"
+				position = { x = 0 y = -24 }
 				orientation = center
 				centerPosition = yes
-				scale = 0.54
+				scale = 0.58
 				alwaysTransparent = yes
 			}
 		}
@@ -2660,6 +2670,7 @@ guiTypes = {
 				quadTextureSprite = "GFX_empty_leader_large"
 				orientation = center
 				centerPosition = yes
+				alwaysTransparent = yes
 			}
 			containerWindowType = {
 				name = "no_character_container_texts"
@@ -2682,8 +2693,8 @@ guiTypes = {
 		buttonType = {
 			name = "assign_character_button"
 			quadTextureSprite = "GFX_invisible"
-			size = { x = 70 y = 70 }
-			position = { x = -35 y = -35 }
+			size = { x = 120 y = 140 }
+			position = { x = -60 y = -70 }
 			orientation = center
 		}
 		containerWindowType = {
@@ -2736,25 +2747,6 @@ guiTypes = {
 				spriteType = "GFX_leader_skill"
 				position = { x = 24 y = 92.5 }
 				centerPosition = yes
-			}
-			iconType = {
-				name = "experience_bar"
-				spriteType = "GFX_ui_progressbar_thick"
-				position = { x = 0 y = -17 }
-				orientation = center_down
-				centerPosition = yes
-			}
-			### COUNCILOR INFO ###
-			containerWindowType = {
-				name = "council_container"
-				size = { width = 30 height = 30 }
-				position = { x = -8 y = 48 }
-				orientation = upper_right
-				origo = upper_right
-				iconType = {
-					name = "council_position_icon"
-					spriteType = "GFX_council_position_icon"
-				}
 			}
 			### NAME AND TITLE ###
 			containerWindowType = {
@@ -2809,14 +2801,45 @@ guiTypes = {
 					alwaysTransparent = yes
 				}
 			}
+			### COUNCILOR INFO ###
+			containerWindowType = {
+				name = "council_container"
+				size = { width = 30 height = 30 }
+				position = { x = -10 y = 8 }
+				orientation = upper_right
+				origo = upper_right
+				iconType = {
+					name = "council_position_icon"
+					spriteType = "GFX_council_position_icon"
+				}
+			}
 			### TRAITS ###
+			#overlappingElementsBoxType = {
+			#	name = "traits_overlapping_box"
+			#	size = { x = 200 y = @trait_icon_size_h }
+			#	position = { x = -100 y = 86 }
+			#	orientation = center
+			#	format = center
+			#	first_on_top = yes
+			#}
 			overlappingElementsBoxType = {
 				name = "traits_overlapping_box"
-				size = { x = 240 y = @trait_icon_size_h }
-				position = { x = -120 y = 67 }
-				orientation = center
-				format = center
-				first_on_top = yes
+				size = { x = @trait_icon_size_h y = 195 }
+				position = { x = -43 y = 48 }
+				orientation = upper_right
+				format = top
+				direction = vertical
+			}
+			containerWindowType = {
+				name = "on_hover_container"
+				size = { width = 100% height = 100% }
+				iconType = {
+					name = "experience_bar"
+					spriteType = "GFX_ui_progressbar_thick"
+					position = { x = 0 y = -16 }
+					orientation = center_down
+					centerPosition = yes
+				}
 			}
 		}
 	}
@@ -2848,11 +2871,9 @@ guiTypes = {
 			clipping = yes
 			iconType = {
 				name = "character_portrait"
-				quadTextureSprite = "GFX_portrait_character_mid_close_up"
-				position = { x = 0 y = -5 }
-				orientation = center
-				centerPosition = yes
-				scale = 0.26
+				quadTextureSprite = "GFX_ui_portrait_character_leaders"
+				position = { x = -30 y = 0 }
+				scale = 0.28
 				alwaysTransparent = yes
 			}
 		}

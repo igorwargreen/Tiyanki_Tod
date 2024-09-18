@@ -118,10 +118,9 @@ guiTypes = {
 		}
 		containerWindowType = {
 			name = "leader_portrait_background"
-			size = { width = 454 height = 605 }
+			size = { width = 454 height = 705 }
 			position = { x = 10 y = 95 }
 			orientation = upper_right
-			clipping = no
 			background = {
 				name = "leader_portrait_background"
 				spriteType = "GFX_ui_tile_large_bg_plain"
@@ -142,15 +141,16 @@ guiTypes = {
 		buttonType = {
 			name = "hire_leader_button"
 			quadTextureSprite = "GFX_button_animated_265_80"
-			position = { x = 77 y = 620 }
+			position = { x = 77 y = 720 }
 			orientation = upper_right
 			buttonFont = "font_text_18"
 			buttonText = "HIRE_LEADER"
 		}
 		buttonType = {
 			name = "dismiss_leader_button"
-			quadTextureSprite = "GFX_button_animated_265_80"
-			position = { x = 77 y = 620 }
+			quadTextureSprite = "GFX_ui_button_orange"
+			size = { x = 300 y = 60 }
+			position = { x = 87 y = 730 }
 			orientation = upper_right
 			buttonFont = "font_text_18"
 			buttonText = "DISMISS_LEADER"

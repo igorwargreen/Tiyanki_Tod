@@ -1,12 +1,12 @@
 guiTypes = {
-	@outliner_y = 74
+	@outliner_y = 75
 	@outliner_w = 295
 	@outliner_w_3440 = 395
 	@outliner_h = 42
 	### OUTLINER ###
 	positionType = {
 		name = "outliner_window_margin"
-		position = { x = 0 y = 110 }
+		position = { x = 0 y = 146 }
 	}
 	positionType = {
 		name = "outliner_tooltip_offset"
@@ -18,28 +18,30 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "tabs_outliner_window"
-		size = { width = 46 height = 50 }
-		show_position = { x = -346 y = 140 }
-		hide_position = { x = 0 y = 140 }
+		size = { width = 300 height = 30 }
+		show_position = { x = 0 y = 46 }
+		hide_position = { x = 300 y = 100 }
 		orientation = upper_right
+		origo = upper_right
 		animation_time = 200
 		animation_type = decelerated
 		if_scaled_resolution = {
 			min_width = 3440
-			show_position = { x = -446 y = 140 }
+			show_position = { x = -100 y = 46 }
 		}
 		gridBoxType = {
 			name = "tabs_gridbox"
 			position = { x = 0 y = 0 }
 			size = { width = 300 height = 40 }
-			slotSize = { width = 46 height = 31 }
-			max_slots_horizontal = 1
+			slotSize = { width = 46 height = 29 }
+			max_slots_vertical = 1
+			add_horizontal = yes
 			format = "UPPER_LEFT"
 		}
 	}
 	containerWindowType = {
 		name = "tabs_gridbox_entry"
-		size = { width = 46 height = 31 }
+		size = { width = 46 height = 29 }
 		iconType = {
 			name = "tab_button_background_icon"
 			spriteType = "GFX_button_pdx"
@@ -56,9 +58,7 @@ guiTypes = {
 		containerWindowType = {
 			name = "notification_container"
 			size = { width = 24 height = 24 }
-			position = { x = -5 y = 0 }
-			orientation = center_left
-			origo = center
+			position = { x = -8 y = -2 }
 			iconType = {
 				name = "notification_background_regular"
 				quadTextureSprite = "GFX_outliner_notification_background_normal"
@@ -89,19 +89,30 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "outliner_controller_window"
-		size = { width = 102 height = 40 }
-		position = { x = 0 y = 41 }
+		size = { width = 247 height = 40 }
+		position = { x = 0 y = 46 }
 		orientation = upper_right
 		origo = upper_right
 		clipping = yes
+		if_scaled_resolution = {
+			min_width = 3440
+			size = { width = 347 height = 40 }
+		}
+		background = {
+			name = "bg"
+			quadTextureSprite = "GFX_ui_outliner_controller_background"
+			alwaysTransparent = yes
+		}
 		containerWindowType = {
 			name = "outliner_toggle_window"
-			size = { width = 102 height = 40 }
-			position = { x = 0 y = 0 }
+			size = { width = 114 height = 100%% }
+			position = { x = 0 y = -4 }
+			orientation = upper_right
+			origo = upper_right
 			buttonType = {
 				name = "tabbed_outliner_toggle"
 				quadTextureSprite = "outliner_button"
-				position = { x = 49 y = 0 }
+				position = { x = 55 y = 0 }
 				shortcut = "o"
 				clicksound = interface
 				oversound = mouse_over
@@ -109,7 +120,7 @@ guiTypes = {
 			buttonType = {
 				name = "observer_outliner_toggle"
 				quadTextureSprite = "observer_outliner_button"
-				position = { x =  0 y = 0 }
+				position = { x = 0 y = 0 }
 				#shortcut = "o"
 				clicksound = interface
 				oversound = mouse_over
@@ -361,7 +372,6 @@ guiTypes = {
 			name = "sectors"
 			spriteType = "GFX_sector_cap_icon"
 			position = { x = 5 y = 4 }
-			scale = 1
 			pdx_tooltip = "OPEN_EMPIRE_VIEW_SECTOR"
 		}
 		instantTextBoxType = {
@@ -1240,10 +1250,10 @@ guiTypes = {
 	containerWindowType = {
 		name = "outliner_options_window"
 		size = { width = 340 height = 180 }
-		position = { x = -360 y = 74 }
+		position = { x = -310 y = 140 }
 		if_scaled_resolution = {
 			min_width = 3440
-			position = { x = -460 y = 74 }
+			position = { x = -410 y = 140 }
 		}
 		orientation = upper_right
 		origo = upper_right
@@ -1445,19 +1455,19 @@ guiTypes = {
 	### REORDER PLANETS ###
 	containerWindowType = {
 		name = "outliner_rearrange_window"
-		size = { width = 400 height = 840 }
+		size = { width = 400 height = 830 }
 		if_scaled_resolution = {
 			min_height = 1200
-			size = { width = 400 height = 960 }
+			size = { width = 400 height = 950 }
 		}
 		if_scaled_resolution = {
 			min_height = 1440
-			size = { width = 400 height = 1200 }
+			size = { width = 400 height = 1190 }
 		}
-		position = { x = -310 y = 74 }
+		position = { x = -310 y = 140 }
 		if_scaled_resolution = {
 			min_width = 3440
-			position = { x = -410 y = 74 }
+			position = { x = -410 y = 140 }
 		}
 		orientation = upper_right
 		origo = upper_right
@@ -1559,17 +1569,18 @@ guiTypes = {
 		smoothListBoxType = {
 			name = "list"
 			position = { x = 5 y = 130 }
-			size = { x = 384 y = 700 }
+			size = { x = 384 y = 690 }
 			if_scaled_resolution = {
 				min_height = 1200
-				size = { x = 384 y = 820 }
+				size = { x = 384 y = 810 }
 			}
 			if_scaled_resolution = {
 				min_height = 1440
-				size = { x = 384 y = 1060 }
+				size = { x = 384 y = 1050 }
 			}
 			scrollbartype = "standardlistbox_slider_thick"
 			autohide_scrollbar = no
+			offset = { x = -3 y = 0 }
 			spacing = 2
 		}
 	}

@@ -48,6 +48,7 @@ guiTypes = {
 			clipping = yes
 			margin = { top = 2 bottom = 2 }
 			verticalScrollbar = "right_vertical_slider_thick"
+			smooth_scrolling = yes
 			background = {
 				name = "background"
 				spriteType = "GFX_tiles_frame"

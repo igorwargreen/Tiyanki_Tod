@@ -178,7 +178,7 @@ guiTypes = {
 			background = {
 				name = "background"
 				spriteType = "GFX_invisible"
-				alwaystransparent = yes
+				alwaysTransparent = yes
 			}
 		}
 	}

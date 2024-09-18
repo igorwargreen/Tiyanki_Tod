@@ -355,6 +355,7 @@ guiTypes = {
 				margin = { top = 5 bottom = 5 }
 				clipping = yes
 				verticalScrollbar = "right_vertical_slider_thick"
+				smooth_scrolling = yes
 				background = {
 					name = "templates"
 					quadTextureSprite = "GFX_invisible"
@@ -524,6 +525,7 @@ guiTypes = {
 					position = { x = 0 y = 6 }
 					clipping = yes
 					verticalScrollbar = "right_vertical_slider_thick"
+					smooth_scrolling = yes
 					background = {
 						name = "designs_background"
 						quadTextureSprite = "GFX_invisible"
@@ -634,6 +636,7 @@ guiTypes = {
 				size = { width = 366 height = -10 }
 				clipping = yes
 				verticalScrollbar = "right_vertical_slider_thick"
+				smooth_scrolling = yes
 				background = {
 					name = "bg"
 					quadTextureSprite = "GFX_invisible"
@@ -670,6 +673,7 @@ guiTypes = {
 				size = { width = 366 height = -10 }
 				clipping = yes
 				verticalScrollbar = "right_vertical_slider_thick"
+				smooth_scrolling = yes
 				background = {
 					name = "background"
 					quadTextureSprite = "GFX_invisible"
@@ -715,6 +719,7 @@ guiTypes = {
 				size = { width = 366 height = -10 }
 				clipping = yes
 				verticalScrollbar = "right_vertical_slider_thick"
+				smooth_scrolling = yes
 				background = {
 					name = "bg"
 					quadTextureSprite = "GFX_invisible"

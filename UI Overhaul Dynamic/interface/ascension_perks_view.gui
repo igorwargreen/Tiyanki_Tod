@@ -132,7 +132,6 @@ guiTypes = {
 			position = { x = 12 y = 12 }
 			quadTextureSprite = "GFX_ascension_perk_slot_locked"
 			alwaysTransparent = yes
-			scale = 1.0
 		}
 		iconType = {
 			name = "ascension_perk_button"

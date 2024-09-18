@@ -89,9 +89,15 @@ guiTypes = {
 					position = { x = 10 y = 11 }
 					iconType = {
 						name = "species"
-						quadTextureSprite = "GFX_ui_species_mask"
-						position = { x = -482 y = -386 }
-						orientation = lower_right
+						quadTextureSprite = "GFX_ui_portrait_character_frame"
+						position = { x = -5 y = 0 }
+						if_scaled_resolution = {
+							min_height = 1440
+							quadTextureSprite = "GFX_ui_portrait_character_frame_large"
+						position = { x = -5 y = 2 }
+						}
+						orientation = center
+						centerPosition = yes
 					}
 					iconType = {
 						name = "portrait_frame"
@@ -100,7 +106,7 @@ guiTypes = {
 							min_height = 1440
 							spriteType = "GFX_ui_contacts_portrait_frame_1440"
 						}
-						alwaysTransparent = yes
+						#alwaysTransparent = yes
 					}
 				}
 				containerWindowType = {
@@ -578,10 +584,10 @@ guiTypes = {
 				}
 				buttonType = {
 					name = "diplomacy_button"
-					font = "font_header_20"
 					spriteType = "GFX_standard_button_230_34_button"
-					buttonText = "GALAXY_VIEW_EMPIRE_DIPLOMACY"
 					position = { x = -126 y = -70 }
+					buttonText = "GALAXY_VIEW_EMPIRE_DIPLOMACY"
+					buttonFont = "font_text_20"
 					orientation = center_down
 				}
 			}
@@ -611,6 +617,7 @@ guiTypes = {
 					animation_time = 200
 					size = { width = 195 height = 250 }
 					#verticalScrollbar = "right_vertical_slider"
+					#smooth_scrolling = yes
 					background = {
 						name = "bg"
 						spriteType = "GFX_subwindow_tile_plain_solid"
@@ -805,7 +812,7 @@ guiTypes = {
 				spriteType = "GFX_button_header_268_34"
 				position = { x = 1158 y = @sort_button_y }
 				buttonFont = "font_text_16"
-				buttonText = "GALAXY_VIEW_EMPIRE_ALLIANCE_FEDERATION"
+				buttonText = "UIO_FEDERATION_TITLE"
 				pdx_tooltip = "GALAXY_VIEW_SORT_ALLIANCE_OR_FEDERATION"
 				borderSize = { x = 8 y = 0 }
 				multiline = yes
@@ -869,7 +876,6 @@ guiTypes = {
 						position = { x = 115 y = 0 }
 						orientation = center
 						centerPosition = yes
-						scale = 1 # 0.54
 						alwaysTransparent = yes
 					}
 					iconType = {
@@ -878,7 +884,6 @@ guiTypes = {
 						position = { x = 115 y = 0 }
 						orientation = center
 						centerPosition = yes
-						scale = 1 # 0.54
 						alwaysTransparent = yes
 					}
 					iconType = {
@@ -1213,7 +1218,7 @@ guiTypes = {
 						position = { x = -35 y = -33 }
 						quadTextureSprite = "GFX_timed_overlay"
 						orientation = lower_right
-						alwaystransparent = yes
+						alwaysTransparent = yes
 					}
 					instantTextBoxType = {
 						name = "subject_monthly_loyalty"
@@ -1243,6 +1248,7 @@ guiTypes = {
 						position = { x = 10 y = 10 }
 						size = { width = 356 height = 136 }
 						verticalScrollbar = "right_vertical_slider_thick_small"
+						smooth_scrolling = yes
 						background = {
 							name = "background"
 							spriteType = "GFX_tiles_dark_area_cut_8"
@@ -1281,6 +1287,7 @@ guiTypes = {
 							size = { width = 100% height = 100%% }
 							margin = { top = 2 bottom = 2 }
 							verticalScrollbar = "right_vertical_slider_thick_small"
+							smooth_scrolling = yes
 							background = {
 								name = "background"
 								quadTextureSprite = "GFX_invisible"
@@ -1327,6 +1334,7 @@ guiTypes = {
 						origo = upper_right
 						orientation = upper_right
 						verticalScrollbar = "right_vertical_slider_thick_small"
+						smooth_scrolling = yes
 						background = {
 							name = "background"
 							spriteType = "GFX_tiles_dark_area_cut_8"
@@ -1382,7 +1390,7 @@ guiTypes = {
 						size = { width = 129 height = 100% }
 						orientation = lower_right
 						origo = lower_right
-						backGround = {
+						background = {
 							name = "background"
 							spriteType = "GFX_tiles_dark_area_cut_8"
 						}
@@ -1412,7 +1420,6 @@ guiTypes = {
 						maxWidth = 160
 						maxHeight = 20
 						format = left
-						alwaysTransparent = no
 					}
 				}
 			}
@@ -1511,7 +1518,6 @@ guiTypes = {
 		iconType = {
 			name = "specialist_icon"
 			spriteType = "GFX_pink_box" # Changed in code
-			scale = 1
 			position = { x = 365 y = 22 }
 			centerPosition = yes
 		}
@@ -1552,7 +1558,7 @@ guiTypes = {
 			name = "monthly_clock_overlay"
 			position = { x = 517 y = 21 }
 			quadTextureSprite = "GFX_timed_overlay"
-			alwaystransparent = yes
+			alwaysTransparent = yes
 			centerPosition = yes
 		}
 		instantTextBoxType = {
@@ -1993,7 +1999,7 @@ guiTypes = {
 			frame = 1
 			scale = 0.75
 		}
-		# This extra box is necessary since the planet icons all have alwaystransparent = yes
+		# This extra box is necessary since the planet icons all have alwaysTransparent = yes
 		# Make sure that the size of this window matches the icon decently
 		containerWindowType = {
 			name = "planet_icon_tooltip_box"
@@ -2002,7 +2008,6 @@ guiTypes = {
 			background = {
 				name = "background"
 				spriteType = "GFX_invisible"
-				alwaysTransparent = no
 			}
 		}
 	}

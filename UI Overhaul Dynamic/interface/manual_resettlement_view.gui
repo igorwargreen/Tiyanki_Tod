@@ -90,15 +90,16 @@ guiTypes = {
 				name = "expanded_window"
 				show_position = { x = 0 y = 53 }
 				hide_position = { x = 0 y = 53 }
-				size = { width = 600 height = 730 }
+				size = { width = 600 height = 725 }
 				if_scaled_resolution = {
 					min_height = 1440
-					size = { width = 600 height = 1030 }
+					size = { width = 600 height = 1025 }
 				}
 				show_animation_type = decelerated
 				hide_animation_type = accelerated
 				animation_time = 200
 				verticalScrollbar = "right_vertical_slider_thick"
+				smooth_scrolling = yes
 				background = {
 					name = "bg"
 					quadTextureSprite = "GFX_subwindow_tile_plain_solid"
@@ -152,15 +153,16 @@ guiTypes = {
 				name = "expanded_window"
 				show_position = { x = 0 y = 53 }
 				hide_position = { x = 0 y = 53 }
-				size = { width = 600 height = 730 }
+				size = { width = 600 height = 725 }
 				if_scaled_resolution = {
 					min_height = 1440
-					size = { width = 600 height = 1030 }
+					size = { width = 600 height = 1025 }
 				}
 				show_animation_type = decelerated
 				hide_animation_type = accelerated
 				animation_time = 200
 				verticalScrollbar = "right_vertical_slider_thick"
+				smooth_scrolling = yes
 				background = {
 					name = "bg"
 					quadTextureSprite = "GFX_subwindow_tile_plain_solid"
@@ -184,7 +186,7 @@ guiTypes = {
 			smoothListBoxType = {
 				name = "pops_jobs_list_left"
 				position = { x = 22 y = 108 }
-				size = { x = 586 y = 730 }
+				size = { x = 586 y = 725 }
 				if_scaled_resolution = {
 					min_height = 1440
 					size = { x = 586 y = 1030 }
@@ -196,7 +198,7 @@ guiTypes = {
 			smoothListBoxType = {
 				name = "pops_jobs_list_right"
 				position = { x = 652 y = 108 }
-				size = { x = 586 y = 730 }
+				size = { x = 586 y = 725 }
 				if_scaled_resolution = {
 					min_height = 1440
 					size = { x = 586 y = 1030 }

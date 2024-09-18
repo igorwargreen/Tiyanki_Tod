@@ -46,7 +46,7 @@ guiTypes = {
 				quadTextureSprite = "GFX_front_menu_forum"
 				position = { x = 80 y = 0 }
 				pdx_tooltip = "FORUM"
-				web_link="https://forum.paradoxplaza.com/forum/index.php?forums/stellaris.900/"
+				web_link = "https://forum.paradoxplaza.com/forum/index.php?forums/stellaris.900/"
 			}
 			buttonType = {
 				name = "pi_achievements"
@@ -59,28 +59,28 @@ guiTypes = {
 				quadTextureSprite = "GFX_front_menu_facebook"
 				position = { x = 160 y = 0 }
 				pdx_tooltip = "FACEBOOK"
-				web_link="https://www.facebook.com/StellarisGame"
+				web_link = "https://www.facebook.com/StellarisGame"
 			}
 			buttonType = {
 				name = "twitter"
 				quadTextureSprite = "GFX_front_menu_twitter"
 				position = { x = 200 y = 0 }
 				pdx_tooltip = "TWITTER"
-				web_link="http://twitter.com/StellarisGame"
+				web_link = "http://twitter.com/StellarisGame"
 			}
 			buttonType = {
 				name = "you_tube"
 				quadTextureSprite = "GFX_main_menu_youtube"
 				position = { x = 240 y = 0 }
 				pdx_tooltip = "YOUTUBE"
-				web_link="https://www.youtube.com/stellarisofficial"
+				web_link = "https://www.youtube.com/stellarisofficial"
 			}
 			buttonType = {
 				name = "discord"
 				quadTextureSprite = "GFX_main_menu_discord"
 				position = { x = 280 y = 0 }
 				pdx_tooltip = "DISCORD"
-				web_link="https://discord.gg/stellarisofficial"
+				web_link = "https://discord.gg/stellarisofficial"
 			}
 		}
 	}
@@ -270,7 +270,7 @@ guiTypes = {
 						name = "text"
 						font = "jura"
 						text = "FRONT_ADDITIONAL_CONTENT"
-						position = { x = 0 y = -5 }
+						position = { x = 0 y = 0 }
 						maxWidth = @button_large_width
 						maxHeight = @button_large_height
 						fixedSize = yes
@@ -447,7 +447,8 @@ guiTypes = {
 			#		show_animation_type = decelerated
 			#		hide_animation_type = accelerated
 			#		animation_time = 200
-			#		verticalScrollbar = "right_vertical_slider"
+			#		verticalScrollbar = "right_vertical_slider_thick"
+			#		smooth_scrolling = yes
 			#		background = {
 			#			name = "bg"
 			#			quadTextureSprite = "GFX_tile_center_bg"
@@ -600,13 +601,13 @@ guiTypes = {
 			orientation = center
 		}
 		buttonType = {
-			name ="portrait_empty_room"
+			name = "portrait_empty_room"
 			spriteType = "GFX_portrait_gamesetup_mask_empty_room"
 			position = { x = -950 y = -700 }
 			orientation = center
 		}
 		buttonType = {
-			name ="character_without_room"
+			name = "character_without_room"
 			spriteType = "GFX_portrait_gamesetup_mask_character_without_room"
 			position = { x = 50 y = -700 }
 			orientation = center

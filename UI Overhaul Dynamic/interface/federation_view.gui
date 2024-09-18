@@ -84,7 +84,6 @@ guiTypes = {
 			name = "losing_level_icon"
 			spriteType = "GFX_federation_perk_lost"
 			position = { x = 6 y = 5 }
-			scale = 1
 		}
 		instantTextBoxType = {
 			name = "level_name"
@@ -146,7 +145,6 @@ guiTypes = {
 			#GFX_law_locked
 			quadTextureSprite = "GFX_centralization_locked"
 			position = { x = 60 y = -9 }
-			alwaysTransparent = no
 		}
 		instantTextBoxType = {
 			name = "level_text"
@@ -162,7 +160,6 @@ guiTypes = {
 			name = "centralization_lock"
 			quadTextureSprite = "GFX_law_locked"
 			position = { x = 76 y = -6 }
-			alwaysTransparent = no
 		}
 	}
 	#Should be identical in items content to top_law_button_item
@@ -206,7 +203,6 @@ guiTypes = {
 			#GFX_law_locked
 			quadTextureSprite = "GFX_centralization_locked"
 			position = { x = 45 y = -10 }
-			alwaysTransparent = no
 		}
 		instantTextBoxType = {
 			name = "level_text"
@@ -222,7 +218,6 @@ guiTypes = {
 			name = "centralization_lock"
 			quadTextureSprite = "GFX_law_locked"
 			position = { x = 59 y = -16 }
-			alwaysTransparent = no
 		}
 	}
 	containerWindowType = {
@@ -364,9 +359,9 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "federation_name"
 			font = "font_text_18"
-			position = { x = 85 y = 60 }
+			position = { x = 80 y = 50 }
 			maxWidth = 248
-			maxHeight = 25
+			maxHeight = 42
 			fixedSize = yes
 			vertical_alignment = center
 			alwaysTransparent = yes
@@ -374,35 +369,35 @@ guiTypes = {
 		buttonType = {
 			name = "federation_rename_button"
 			spriteType = "GFX_invisible"
-			position = { x = 85 y = 60 }
-			size = { x = 248 y = 25 }
+			position = { x = 80 y = 54 }
+			size = { x = 248 y = 34 }
 		}
 		instantTextBoxType = {
 			name = "federation_type"
 			font = "font_text_14"
 			text = "Federation Type"
-			position = { x = 85 y = 85 }
+			position = { x = 80 y = 89 }
 			maxWidth = 248
-			maxHeight = 20
+			maxHeight = 18
 			fixedSize = yes
-			vertical_alignment = bottom
+			vertical_alignment = center
 			text_color_code = "H"
 			alwaysTransparent = yes
 		}
 		buttonType = {
 			name = "federation_switch_type_button"
 			spriteType = "GFX_invisible"
-			position = { x = 85 y = 85 }
-			size = { x = 248 y = 20 }
+			position = { x = 80 y = 89 }
+			size = { x = 248 y = 18 }
 		}
 		instantTextBoxType = {
 			name = "federation_formed"
 			font = "font_text_14"
-			position = { x = 85 y = 105 }
+			position = { x = 80 y = 107 }
 			maxWidth = 248
-			maxHeight = 20
+			maxHeight = 18
 			fixedSize = yes
-			vertical_alignment = top
+			vertical_alignment = center
 		}
 		instantTextBoxType = {
 			name = "federation_type_desc"
@@ -446,7 +441,6 @@ guiTypes = {
 				quadTextureSprite = "GFX_line"
 				position = { x = 5 y = 24 }
 				alwaysTransparent = yes
-				scale = 1
 			}
 			instantTextBoxType = {
 				name = "federation_member_txt"
@@ -489,39 +483,39 @@ guiTypes = {
 				spriteType = "GFX_federation_type_default_bg"
 				position = { x = 3 y = 2 }
 				alwaysTransparent = yes
-				scale = 1
 			}
 			containerWindowType = {
 				name = "portrait_window"
 				position = { x = 2 y = 0 }
-				size = { width = 870 height = 350 }
+				size = { width = 864 height = 223 }
 				moveable = no
 				clipping = yes
 				iconType = {
 					name = "portrait_frame_shadow"
 					quadTextureSprite = "GFX_federation_portraitframe_shadow"
 					position = { x = 0 y = 0 }
-					scale = 1
-					alwaysTransparent = no
+					alwaysTransparent = yes
 				}
 				iconType = {
 					name = "portrait"
-					quadTextureSprite = "GFX_portrait_character"
-					position = { x = 100 y = -8 }
-					scale = 0.60
+					quadTextureSprite = "GFX_ui_portrait_character_federation"
+					position = { x = -114 y = 0 }
+					orientation = center
+					centerPosition = yes
+					scale = 0.658
 					alwaysTransparent = yes
 				}
 				iconType = {
 					name = "portrait_frame_stripes"
 					quadTextureSprite = "GFX_federation_stripes"
 					position = { x = 0 y = 0 }
-					alwaysTransparent = no
+					alwaysTransparent = yes
 				}
 				iconType = {
 					name = "portrait_frame"
 					quadTextureSprite = "GFX_federation_portraitframe"
 					position = { x = 0 y = 0 }
-					alwaysTransparent = no
+					alwaysTransparent = yes
 				}
 			}
 			iconType = {
@@ -704,9 +698,8 @@ guiTypes = {
 						iconType = {
 							name = "envoy_icon"
 							quadTextureSprite = "GFX_leader_icons"
+							position = { x = 106 y = 3 }
 							frame = 4
-							position = { x = 112 y = 1 }
-							scale = 0.85
 						}
 						instantTextBoxType = {
 							name = "envoy_number"
@@ -1318,7 +1311,6 @@ guiTypes = {
 			position = { x = 12 y = 10 }
 			spriteType = "GFX_ship_class_small"
 			frame = 16
-			scale = 1
 		}
 		instantTextBoxType = {
 			name = "name"

@@ -396,6 +396,7 @@ guiTypes = {
 					position = { x = 3 y = 40 }
 					size = { width = 206 height = 500 }
 					verticalScrollbar = "right_vertical_slider_thick"
+					smooth_scrolling = yes
 					background = {
 						name = "bg"
 						spriteType = "GFX_subwindow_tile_plain_solid"

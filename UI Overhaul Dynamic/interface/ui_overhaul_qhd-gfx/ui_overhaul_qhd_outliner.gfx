@@ -24,4 +24,9 @@ spriteTypes = {
 		noOfFrames = 3
 		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
 	}
+	spriteType = {
+		name = "GFX_ui_outliner_controller_background"
+		textureFile = "gfx/ui_overhaul_qhd/outliner/outliner_controller_background.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+	}
 }

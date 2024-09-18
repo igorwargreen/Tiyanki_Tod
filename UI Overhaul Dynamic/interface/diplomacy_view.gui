@@ -362,7 +362,7 @@ guiTypes = {
 			### FOUNDER SPECIES & Planet
 			iconType = {
 				name = "founder_species"
-				quadTextureSprite = "GFX_portrait_character"
+				quadTextureSprite = "GFX_portrait_character_mid_close_up"
 				position = { x = 730 y = -151 }
 				orientation = lower_left
 				scale = 0.36
@@ -413,27 +413,6 @@ guiTypes = {
 					name = "background"
 					spriteType = "GFX_invisible"
 				}
-				# Empire Overview Title
-				#containerWindowType = {
-				#	name = "empire_overview_panel"
-				#	position = { x = 10 y = 0 }
-				#	size = { width = 214 height = 50 }
-				#	iconType = {
-				#		name = "hex_bg"
-				#		spriteType = "GFX_tradition_hex_bg_turqoise"
-				#		position = { x = -20 y = -22 }
-				#		alwaysTransparent = yes
-				#		scale = 1
-				#	}
-				#	iconType = {
-				#		name = "header_line"
-				#		quadTextureSprite = "GFX_line"
-				#		position = { x = 5 y = 20 }
-				#		alwaysTransparent = yes
-				#		scale = 1
-				#	}
-				#}
-				# intel
 				containerWindowType = {
 					name = "intel"
 					position = { x = 0 y = 0 }
@@ -1310,6 +1289,7 @@ guiTypes = {
 					position = { x = -283 y = 40 }
 					size = { width = 460 height = 744 }
 					verticalScrollbar = "right_vertical_slider_thick"
+					smooth_scrolling = yes
 					background = {
 						name = "bg"
 						spriteType = "GFX_subwindow_tile_plain_solid"
@@ -1472,8 +1452,10 @@ guiTypes = {
 					}
 					iconType = {
 						name = "no_envoy_icon"
-						quadTextureSprite = "GFX_spynetwork_no_envoy"
-						position = { x = 67 y = 80 }
+						quadTextureSprite = "GFX_ui_spynetwork_no_envoy"
+						position = { x = 0 y = 0 }
+						orientation = center
+						centerPosition = yes
 						alwaysTransparent = yes
 					}
 					iconType = {
@@ -1517,7 +1499,7 @@ guiTypes = {
 						position = { x = -24 y = 0 }
 						orientation = center
 						centerPosition = yes
-						#alwaysTransparent = yes
+						alwaysTransparent = yes
 					}
 					iconType = {
 						name = "intel_level"
@@ -1540,7 +1522,7 @@ guiTypes = {
 						position = { x = -24 y = 0 }
 						orientation = center
 						centerPosition = yes
-						#alwaysTransparent = yes
+						alwaysTransparent = yes
 					}
 					iconType = {
 						name = "intel_level"
@@ -1563,7 +1545,7 @@ guiTypes = {
 						position = { x = -24 y = 0 }
 						orientation = center
 						centerPosition = yes
-						#alwaysTransparent = yes
+						alwaysTransparent = yes
 						scale = 0.95
 					}
 					iconType = {
@@ -1587,8 +1569,7 @@ guiTypes = {
 						position = { x = -24 y = 0 }
 						orientation = center
 						centerPosition = yes
-						#alwaysTransparent = yes
-						scale = 1
+						alwaysTransparent = yes
 					}
 					iconType = {
 						name = "intel_level"
@@ -1611,7 +1592,7 @@ guiTypes = {
 						position = { x = -24 y = 0 }
 						orientation = center
 						centerPosition = yes
-						#alwaysTransparent = yes
+						alwaysTransparent = yes
 					}
 					iconType = {
 						name = "intel_level"
@@ -1746,7 +1727,6 @@ guiTypes = {
 					name = "empire_flag"
 					quadTextureSprite = "GFX_empire_flag_128"
 					position = { x = 10 y = -356 }
-					scale = 1
 				}
 				containerWindowType = {
 					name = "empire_intel_level_panel"
@@ -1798,7 +1778,6 @@ guiTypes = {
 						name = "decryption_icon"
 						spriteType = "GFX_resource_intel_decryption"
 						position = { x = 5 y = 3 }
-						scale = 1
 						alwaysTransparent = yes
 					}
 					instantTextBoxType = {
@@ -1825,7 +1804,6 @@ guiTypes = {
 						name = "awareness_icon"
 						spriteType = "GFX_diplomacy_awareness"
 						position = { x = 5 y = 6 }
-						scale = 1
 						alwaysTransparent = yes
 					}
 					iconType = {
@@ -1920,6 +1898,7 @@ guiTypes = {
 						position = { x = 0 y = 100 }
 						size = { width = 100% height = 100%% }
 						verticalScrollbar = "right_vertical_slider_thick"
+						smooth_scrolling = yes
 						background = {
 							name = "bg"
 							spriteType = "GFX_tiles_dark_area_cut_8"
@@ -1976,6 +1955,7 @@ guiTypes = {
 						position = { x = 0 y = 50 }
 						size = { width = 100%% height = 100%% }
 						verticalScrollbar = "right_vertical_slider_thick_small"
+						smooth_scrolling = yes
 						background = {
 							name = "bg"
 							spriteType = "GFX_tiles_dark_area_cut_8"
@@ -1984,7 +1964,7 @@ guiTypes = {
 							name = "assets_grid"
 							position = { x = 0 y = 0 }
 							size = { width = 0 height = 0 }
-							slotSize = { width = 86 height = 96 } # 96 }
+							slotSize = { width = 86 height = 96 }
 							add_horizontal = yes
 							max_slots_horizontal = 3
 							format = "UPPER_LEFT"
@@ -2017,6 +1997,7 @@ guiTypes = {
 					position = { x = -143 y = 40 }
 					size = { width = 320 height = 744 }
 					verticalScrollbar = "right_vertical_slider_thick"
+					smooth_scrolling = yes
 					background = {
 						name = "bg"
 						spriteType = "GFX_subwindow_tile_plain_solid"
@@ -2473,7 +2454,6 @@ guiTypes = {
 				name = "asset_mini_icon"
 				spriteType = "GFX_asset_active_icon"
 				position = { x = 95 y = 4 }
-				scale = 1
 				tooltip_mode_enabled = yes
 			}
 			containerWindowType = {

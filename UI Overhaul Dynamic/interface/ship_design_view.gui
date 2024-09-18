@@ -245,7 +245,7 @@ guiTypes = {
 				position = { x = 10 y = 160 }
 				maxWidth = 180
 				maxHeight = 25
-				fixedsize = yes
+				fixedSize = yes
 				format = left
 				vertical_alignment = center
 			}
@@ -273,6 +273,7 @@ guiTypes = {
 			size = { width = 750 height = 76 }
 			position = { x = 10 y = 320 }
 			verticalScrollbar = "right_vertical_slider_thick"
+			smooth_scrolling = yes
 			margin = { top = 8 right = 9 bottom = 8 left = 9 }
 			background = {
 				name = "components"

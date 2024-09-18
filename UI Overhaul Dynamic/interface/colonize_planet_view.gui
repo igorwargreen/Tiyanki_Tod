@@ -220,6 +220,7 @@ guiTypes = {
 			clipping = yes
 			margin = { top = 2 right = 4 bottom = 2 }
 			verticalScrollbar = "right_vertical_slider_thick_small"
+			smooth_scrolling = yes
 			background = {
 				name = "districts_window_background"
 				spriteType = "GFX_tiles_dark_area_cut_8"
@@ -427,7 +428,6 @@ guiTypes = {
 			name = "district_icon"
 			spriteType = "GFX_district_unknown"
 			position = { x = 1 y = 2 }
-			scale = 1
 		}
 		buttonType = {
 			name = "district_icon_border"
@@ -481,7 +481,6 @@ guiTypes = {
 				position = { x = 23 y = -19 }
 				centerPosition = yes
 				orientation = lower_left
-				scale = 1
 			}
 			instantTextBoxType = {
 				name = "num_districts_text"

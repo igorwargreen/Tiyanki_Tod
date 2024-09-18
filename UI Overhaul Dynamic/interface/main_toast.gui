@@ -5,11 +5,11 @@ guiTypes = {
 	containerWindowType = {
 		name = "toast_container"
 		size = { width = 350 height = 196 }
-		hide_position = { x = 0 y = -87 }
-		show_position = { x = -310 y = -87 }
+		hide_position = { x = 0 y = -107 }
+		show_position = { x = -310 y = -107 }
 		if_scaled_resolution = {
 			min_width = 3440
-			show_position = { x = -410 y = -87 }
+			show_position = { x = -410 y = -107 }
 		}
 		orientation = lower_right
 		origo = lower_right
@@ -98,6 +98,13 @@ guiTypes = {
 			spriteType = "GFX_toast_progressbar_340" # "GFX_toast_timing_progress_bar"
 			position =  { x = 0 y = 0 } # moved in code
 			#alwaysTransparent = yes
+		}
+		buttonType = { # UIOD_WIP
+			name = "invisible_goto_button"
+			spriteType = "GFX_invisible"
+			position =  { x = 0 y = 0 }
+			size = { x = 350 y = 196 }
+			clicksound = "click_outliner"
 		}
 	}
 	containerWindowType = {

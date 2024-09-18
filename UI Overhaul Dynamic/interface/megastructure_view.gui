@@ -19,43 +19,51 @@ guiTypes = {
 		}
 		containerWindowType = {
 			name = "tabs"
-			position = { x = -20 y = 48 }
-			size = { width = 100% height = 50 }
+			position = { x = 0 y = 40 }
+			size = { width = 100% height = 40 }
 			orientation = lower_left
 			origo = lower_left
 			buttonType = {
 				name = "megastructure_tab"
-				quadTextureSprite = "GFX_tab_1_inactive"
+				quadTextureSprite = "GFX_ui_tab_1_long_inactive"
 				position = { x = 0 y = 0 }
+				buttonFont = "font_text_16"
 				buttonText = "MEGASTRUCTURE"
-				buttonFont = "font_text_14"
+				borderSize = { x = 20 y = 0 }
+				multiline = yes
 				clicksound = "tab_click"
 				shortcut = "z"
 			}
 			buttonType = {
 				name = "megastructure_tab_active"
-				quadTextureSprite = "GFX_tab_1_active"
+				quadTextureSprite = "GFX_ui_tab_1_long_active"
 				position = { x = 0 y = 0 }
+				buttonFont = "font_text_16"
 				buttonText = "MEGASTRUCTURE"
-				buttonFont = "font_text_14"
+				borderSize = { x = 20 y = 0 }
+				multiline = yes
 				clicksound = "tab_click"
 				shortcut = "z"
 			}
 			buttonType = {
 				name = "shipyard_tab"
-				quadTextureSprite = "GFX_tab_2_inactive"
-				position = { x = 129 y = 0 }
+				quadTextureSprite = "GFX_ui_tab_2_long_inactive"
+				position = { x = 155 y = 0 }
+				buttonFont = "font_text_16"
 				buttonText = "STARBASE_SHIPYARD_TAB"
-				buttonFont = "font_text_14"
+				borderSize = { x = 20 y = 0 }
+				multiline = yes
 				clicksound = "tab_click"
 				shortcut = "x"
 			}
 			buttonType = {
 				name = "shipyard_tab_active"
-				quadTextureSprite = "GFX_tab_2_active"
-				position = { x = 129 y = 0 }
+				quadTextureSprite = "GFX_ui_tab_2_long_active"
+				position = { x = 155 y = 0 }
+				buttonFont = "font_text_16"
 				buttonText = "STARBASE_SHIPYARD_TAB"
-				buttonFont = "font_text_14"
+				borderSize = { x = 20 y = 0 }
+				multiline = yes
 				clicksound = "tab_click"
 				shortcut = "x"
 			}
@@ -76,21 +84,29 @@ guiTypes = {
 			position = { x = -81 y = 16 }
 			orientation = upper_right
 			shortcut = "q"
-			pdx_tooltip = "TOOLTIP_AMBIENT_OBJECT_FOCUS"
+			pdx_tooltip = "TOOLTIP_MEGASTRUCTURE_FOCUS"
+			clicksound = "back_click"
+		}
+		buttonType = {
+			name = "dismantle"
+			spriteType = "GFX_dismantle_megastructure"
+			position = { x = -45 y = 52 }
+			orientation = upper_right
+			pdx_tooltip = "DISMANTLE"
 			clicksound = "back_click"
 		}
 		iconType = {
 			name = "hex_bg_left"
-			position = { x = -79 y = 22 }
 			spriteType = "GFX_hex_center_bg"
+			position = { x = -79 y = 22 }
 			orientation = center_up
 			centerPosition = yes
 			alwaysTransparent = yes
 		}
 		iconType = {
 			name = "hex_bg_right"
-			position = { x = 79 y = 22 }
 			spriteType = "GFX_hex_center_bg"
+			position = { x = 79 y = 22 }
 			orientation = center_up
 			centerPosition = yes
 			alwaysTransparent = yes
@@ -117,7 +133,7 @@ guiTypes = {
 			maxHeight = 24
 			fixedSize = yes
 			format = center
-			#alwaysTransparent = yes
+			alwaysTransparent = yes
 		}
 		#instantTextBoxType = {
 		#	name = "subtitle"
@@ -171,7 +187,7 @@ guiTypes = {
 			}
 			containerWindowType = {
 				name = "desc_background"
-				size = { width = 630 height = 430 }
+				size = { width = 630 height = -15 }
 				position = { x = 0 y = 235 }
 				orientation = center_up
 				origo = center_up
@@ -193,28 +209,20 @@ guiTypes = {
 				iconType = {
 					name = "desc_line"
 					spriteType = "GFX_line_center"
-					position = { x = -256 y = 127 }
+					position = { x = 0 y = 135 }
 					orientation = center_up
+					centerPosition = yes
 					alwaysTransparent = yes
 				}
 				containerWindowType = {
 					name = "information_box"
-					size = { width = 600 height = 110 }
+					size = { width = 600 height = 155 }
 					position = { x = 0 y = 149 }
 					orientation = center_up
 					origo = center_up
 					background = {
 						name = "background"
-						spriteType = "GFX_tiles_dark_area_cut_8"
-					}
-					containerWindowType = {
-						name = "effects_box"
-						size = { width = 160 height = 90 }
-						position = { x = 10 y = 10 }
-						background = {
-							name = "background"
-							spriteType = "GFX_tiles_dark_area_cut_8"
-						}
+						spriteType = "GFX_dark_area_cut_light"
 					}
 				}
 			}
@@ -222,137 +230,148 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "desc"
 				font = "font_lore_large"
-				position = { x = 35 y = 256 }
-				maxWidth = 590
-				maxHeight = 96
+				position = { x = 40 y = 261 }
+				maxWidth = 580
+				maxHeight = 86
 				text = ""
 				format = center
 				text_color_code = "L"
 				scrollbarType = "standardlistbox_slider_thick_small"
 			}
-			instantTextBoxType = {
-				name = "effects_header"
-				font = "font_text_14"
-				position = { x = 45 y = 396 }
-				maxWidth = 150
-				maxHeight = 18
-				fixedSize = yes
-				text = "EFFECTS"
-				format = center
-			}
-			instantTextBoxType = {
-				name = "effects_desc"
-				font = "font_text_14"
-				position = { x = 45 y = 416 }
-				maxWidth = 150
-				maxHeight = 65
-				fixedSize = yes
-				text = "EFFECTS"
-				format = center
-			}
 			containerWindowType = {
-				name = "production_box"
-				size = { width = 160 height = 90 }
-				position = { x = 260 y = 394 }
+				name = "effects_box"
+				position = { x = 40 y = 394 }
+				size = { width = 180 height = 135 }
 				background = {
 					name = "background"
-					spriteType = "GFX_tiles_dark_area_cut_8"
+					spriteType = "GFX_dark_area_cut_light"
+				}
+				iconType = {
+					name = "hex_bg"
+					spriteType = "GFX_hex_center_bg"
+					position = { x = 0 y = 16 }
+					orientation = center_up
+					centerPosition = yes
+					scale = 0.8
+					alwaysTransparent = yes
 				}
 				instantTextBoxType = {
-					name = "production_header"
-					font = "font_text_14"
-					text = "PRODUCTION"
-					appendText = ":"
-					position = { x = 5 y = 2 }
-					maxWidth = 150
+					name = "effects_header_fake"
+					font = "font_text_16"
+					text = "EFFECTS"
+					position = { x = 10 y = 5 }
+					maxWidth = 160
 					maxHeight = 20
 					fixedSize = yes
 					format = center
+					vertical_alignment = center
+				}
+				instantTextBoxType = {
+					name = "effects_header"
+					font = "font_text_16"
+					text = ""
+					position = { x = 0 y = 0 }
+					maxWidth = 1
+					maxHeight = 1
+					fixedSize = yes
+				}
+				instantTextBoxType = {
+					name = "effects_desc"
+					font = "font_text_14"
+					text = "EFFECTS"
+					position = { x = 10 y = 30 }
+					maxWidth = 160
+					maxHeight = 100
+					format = center
+					scrollbarType = "standardlistbox_slider_thick_small"
+				}
+			}
+			containerWindowType = {
+				name = "production_box"
+				size = { width = 180 height = 135 }
+				position = { x = 240 y = 394 }
+				background = {
+					name = "background"
+					spriteType = "GFX_dark_area_cut_light"
+				}
+				iconType = {
+					name = "hex_bg"
+					spriteType = "GFX_hex_center_bg"
+					position = { x = 0 y = 16 }
+					orientation = center_up
+					centerPosition = yes
+					scale = 0.8
+					alwaysTransparent = yes
+				}
+				instantTextBoxType = {
+					name = "production_header"
+					font = "font_text_16"
+					text = "PRODUCTION"
+					appendText = ":"
+					position = { x = 10 y = 5 }
+					maxWidth = 160
+					maxHeight = 20
+					fixedSize = yes
+					format = center
+					vertical_alignment = center
 					text_color_code = "H"
 				}
 				instantTextBoxType = {
 					name = "production_amount"
 					font = "font_text_14"
-					position = { x = 5 y = 22 }
 					text = "10"
-					maxWidth = 150
-					maxHeight = 65
-					fixedSize = yes
+					position = { x = 10 y = 30 }
+					maxWidth = 160
+					maxHeight = 100
 					format = center
+					scrollbarType = "standardlistbox_slider_thick_small"
 				}
 			}
 			containerWindowType = {
 				name = "upkeep_box"
-				size = { width = 160 height = 90 }
-				position = { x = 460 y = 394 }
+				size = { width = 180 height = 135 }
+				position = { x = 440 y = 394 }
 				background = {
 					name = "background"
-					spriteType = "GFX_tiles_dark_area_cut_8"
+					spriteType = "GFX_dark_area_cut_light"
+				}
+				iconType = {
+					name = "hex_bg"
+					spriteType = "GFX_hex_center_bg"
+					position = { x = 0 y = 16 }
+					orientation = center_up
+					centerPosition = yes
+					scale = 0.8
+					alwaysTransparent = yes
 				}
 				instantTextBoxType = {
 					name = "upkeep_header"
-					font = "font_text_14"
+					font = "font_text_16"
 					text = "MAINTENANCE"
 					appendText = ":"
-					position = { x = 5 y = 2 }
-					maxWidth = 150
+					position = { x = 10 y = 5 }
+					maxWidth = 160
 					maxHeight = 20
 					fixedSize = yes
 					format = center
+					vertical_alignment = center
 					text_color_code = "H"
 				}
 				instantTextBoxType = {
 					name = "upkeep_amount"
 					font = "font_text_14"
-					position = { x = 5 y = 22 }
 					text = "10"
-					maxWidth = 150
-					maxHeight = 65
-					fixedSize = yes
+					position = { x = 10 y = 30 }
+					maxWidth = 160
+					maxHeight = 100
 					format = center
+					scrollbarType = "standardlistbox_slider_thick_small"
 				}
 			}
 			containerWindowType = {
 				name = "possible_upgrades_content"
-				position = { x = 0 y = 504 }
-				size = { width = 600 height = 145 }
-				orientation = center_up
-				origo = center_up
-				background = {
-					name = "background"
-					spriteType = "GFX_tiles_dark_area_cut_8"
-				}
-				instantTextBoxType = {
-					name = "title"
-					font = "font_header_20"
-					position = { x = 10 y = 4 }
-					maxWidth = 580
-					maxHeight = 20
-					format = centre
-					alwaysTransparent = yes
-					text = "UPGRADE"
-				}
-				iconType = {
-					name = "desc_line"
-					spriteType = "GFX_line_center_short"
-					position = { x = -155 y = 22 }
-					orientation = center_up
-					alwaysTransparent = yes
-				}
-				smoothListboxType = {
-					name = "upgrades"
-					position = { x = 48 y = 45 }
-					size = { x = 504 y = 95 }
-					borderSize = { x = 0 y = 0 }
-					spacing = -2
-					scrollbarType = "standardlistbox_slider_thick"
-					offset = { x = -12 y = 0 }
-				}
-			}
-			containerWindowType = {
-				name = "upgrading_content"
 				position = { x = 0 y = -31 }
-				size = { width = 600 height = 54 }
+				size = { width = 600 height = 100 }
 				orientation = center_down
 				origo = center_down
 				background = {
@@ -360,20 +379,127 @@ guiTypes = {
 					spriteType = "GFX_tiles_dark_area_cut_8"
 				}
 				iconType = {
+					name = "hex_bg"
+					position = { x = 0 y = 22 }
+					spriteType = "GFX_hex_center_bg"
+					orientation = center_up
+					centerPosition = yes
+					alwaysTransparent = yes
+				}
+				iconType = {
+					name = "desc_line"
+					spriteType = "GFX_line_center_short"
+					position = { x = -155 y = 24 }
+					orientation = center_up
+					alwaysTransparent = yes
+				}
+				instantTextBoxType = {
+					name = "title"
+					font = "font_header_20"
+					text = "UPGRADE"
+					position = { x = 10 y = 4 }
+					maxWidth = 580
+					maxHeight = 20
+					format = center
+					alwaysTransparent = yes
+				}
+				smoothListboxType = {
+					name = "upgrades"
+					position = { x = 48 y = 45 }
+					size = { x = 504 y = 45 }
+					borderSize = { x = 0 y = 0 }
+					spacing = -2
+					scrollbarType = "standardlistbox_slider_thick_small"
+					offset = { x = -12 y = 0 }
+				}
+			}
+			containerWindowType = {
+				name = "upgrading_content"
+				position = { x = 0 y = -31 }
+				size = { width = 600 height = 100 }
+				orientation = center_down
+				origo = center_down
+				background = {
+					name = "background"
+					spriteType = "GFX_tiles_dark_area_cut_8"
+				}
+				iconType = {
+					name = "hex_bg"
+					position = { x = 0 y = 22 }
+					spriteType = "GFX_hex_center_bg"
+					orientation = center_up
+					centerPosition = yes
+					alwaysTransparent = yes
+				}
+				iconType = {
+					name = "desc_line"
+					spriteType = "GFX_line_center_short"
+					position = { x = -155 y = 24 }
+					orientation = center_up
+					alwaysTransparent = yes
+				}
+				instantTextBoxType = {
+					name = "title"
+					font = "font_header_20"
+					text = "UPGRADING_BUILD_OBJECT"
+					position = { x = 10 y = 4 }
+					maxWidth = 580
+					maxHeight = 20
+					format = center
+					alwaysTransparent = yes
+				}
+				iconType = {
 					name = "upgrade_progress"
 					spriteType = "GFX_ui_progressbar_550"
-					position = { x = 25 y = 10 }
+					position = { x = 25 y = 50 }
 				}
 				instantTextBoxType = {
 					name = "upgrade_remaining"
 					font = "font_text_20"
 					text = "(clock) X days remaining."
+					position = { x = 25 y = 50 }
+					maxWidth = 550
+					maxHeight = 34
+					fixedSize = yes
+					format = center
+					vertical_alignment = center
+				}
+			}
+			containerWindowType = {
+				name = "dismantle_window"
+				position = { x = 0 y = -31 }
+				size = { width = 600 height = 54 }
+				orientation = center_down
+				origo = center_down
+				#background = {
+				#	name = "background"
+				#	spriteType = "GFX_tiles_dark_area_cut_8"
+				#	alwaysTransparent = yes
+				#}
+				iconType = {
+					name = "dismantle_progress"
+					spriteType = "GFX_ui_progressbar_550"
+					position = { x = 25 y = 10 }
+				}
+				instantTextBoxType = {
+					name = "dismantle_title"
+					font = "font_text_20"
+					text = "DISMANTLE_IN_PROGRESS"
 					position = { x = 25 y = 10 }
 					maxWidth = 550
 					maxHeight = 34
 					fixedSize = yes
 					format = center
 					vertical_alignment = center
+				}
+				buttonType = {
+					name = "abort_dismantle"
+					spriteType = "GFX_ui_button_cancel"
+					position = { x = -61 y = 8 }
+					orientation = upper_right
+					clicksound = planet_view_menu_click_01
+					oversound = mouse_over
+					pdx_tooltip = "ABORT"
 				}
 			}
 		}
@@ -600,7 +726,7 @@ guiTypes = {
 			maxWidth = 380
 			maxHeight = 20
 			fixedSize = yes
-			format = CENTER
+			format = center
 		}
 		# Close Button
 		buttonType = {

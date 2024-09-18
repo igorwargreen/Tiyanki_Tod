@@ -5,13 +5,13 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "trade_view"
-		size = { width = 1470 height = 940 }
+		size = { width = 1250 height = 940 } # width controlled by TRADE_VIEW_WIDE_MODE_THRESHHOLD in unchecked_defines
 		orientation = center
 		origo = center
 		moveable = yes
 		background = {
 			name = "background"
-			quadTextureSprite = "GFX_ui_tile_large_bg_plain" # makes window moveable
+			quadTextureSprite = "GFX_ui_tile_large_bg_plain"
 		}
 		containerWindowType = {
 			name = "diplo_trade_view_background_window"
@@ -19,16 +19,16 @@ guiTypes = {
 		}
 		iconType = {
 			name = "hex_bg_left"
-			position = { x = -79 y = 22 }
 			spriteType = "GFX_hex_center_bg"
+			position = { x = -79 y = 28 }
 			orientation = center_up
 			centerPosition = yes
 			alwaysTransparent = yes
 		}
 		iconType = {
 			name = "hex_bg_right"
-			position = { x = 79 y = 22 }
 			spriteType = "GFX_hex_center_bg"
+			position = { x = 79 y = 28 }
 			orientation = center_up
 			centerPosition = yes
 			alwaysTransparent = yes
@@ -40,8 +40,10 @@ guiTypes = {
 			position = { x = -300 y = 6 }
 			orientation = center_up
 			maxWidth = 600
-			maxHeight = 60
+			maxHeight = 40
+			fixedSize = yes
 			format = center
+			vertical_alignment = center
 		}
 		buttonType = {
 			name = "close"
@@ -55,77 +57,119 @@ guiTypes = {
 		# Portrait stuff
 		iconType = {
 			name = "portrait_room"
-			position = { x = 0 y = 223 }
+			position = { x = 0 y = 182 }
 			quadTextureSprite = "GFX_portrait_gamesetup_mask_empty_room"
 			orientation = center_up
 			centerPosition = yes
+			scale = 0.76
 			alwaysTransparent = yes
 		}
 		iconType = {
 			name = "portrait_character"
-			position = { x = 0 y = 223 }
+			position = { x = 0 y = 182 }
 			quadTextureSprite = "GFX_portrait_gamesetup_mask_character_without_room"
 			orientation = center_up
 			centerPosition = yes
+			scale = 0.76
 			alwaysTransparent = yes
 		}
 		iconType = {
 			name = "black_frame"
 			spriteType = "GFX_diplomacy_portrait_shadow_frame"
-			position = { x = 0 y = 223 }
+			position = { x = 0 y = 182 }
 			orientation = center_up
 			centerPosition = yes
+			scale = 0.76
+			alwaysTransparent = yes
 		}
 		iconType = {
 			name = "stripes_1"
 			spriteType = "GFX_diplomacy_stripes_2"
-			position = { x = 0 y = 223 }
+			position = { x = 0 y = 182 }
 			orientation = center_up
-			centerPosition = yes			alwaysTransparent = yes
+			centerPosition = yes
+			scale = 0.76			alwaysTransparent = yes
 		}
 		iconType = {
 			name = "city_frame"
 			spriteType = "GFX_diplomacy_portrait_frame"
-			position = { x = 0 y = 223 }
+			position = { x = 0 y = 182 }
 			orientation = center_up
 			centerPosition = yes
+			scale = 0.76
 		}
 		# End of portrait stuff
+		containerWindowType = {
+			name = "actor_bg"
+			size = { width = 360 height = 80 }
+			position = { x = 260 y = 322 }
+			background = {
+				name = "actor_bg"
+				spriteType = "GFX_tiles_dark_area_cut_8"
+			}
+		}
 		iconType = {
 			name = "actor"
 			spriteType = "GFX_empire_flag_64"
-			position = { x = 260 y = 388 }
+			position = { x = 260 y = 327 }
+		}
+		iconType = {
+			name = "actor_hex"
+			quadTextureSprite = "GFX_small_hex_bg"
+			position = { x = 305 y = 316 }
+			alwaysTransparent = yes
 		}
 		instantTextBoxType = {
 			name = "actor_name"
 			font = "font_text_20"
-			position = { x = 330 y = 400 }
+			position = { x = 330 y = 322 }
 			maxWidth = 290
-			maxHeight = 24
+			maxHeight = 50
+			fixedSize = yes
 			vertical_alignment = center
 		}
 		instantTextBoxType = {
 			name = "gives_label"
 			font = "font_text_18"
 			text = "GIVES"
-			position = { x = 330 y = 432 }
+			position = { x = 330 y = 372 }
 			maxWidth = 290
 			maxHeight = 24
 			text_color_code = "E"
 		}
+		containerWindowType = {
+			name = "recipient_bg"
+			size = { width = 360 height = 80 }
+			position = { x = -260 y = 322 }
+			orientation = upper_right
+			origo = upper_right
+			background = {
+				name = "recipient_bg"
+				spriteType = "GFX_tiles_dark_area_cut_8"
+			}
+		}
+		iconType = {
+			name = "recipient_hex"
+			quadTextureSprite = "GFX_small_hex_bg"
+			position = { x = -573 y = 316 }
+			orientation = upper_right
+			mirror = yes
+			alwaysTransparent = yes
+		}
 		iconType = {
 			name = "recipient"
 			spriteType = "GFX_empire_flag_64"
-			position = { x = -330 y = 388 }
+			position = { x = -330 y = 327 }
 			orientation = upper_right
 		}
 		instantTextBoxType = {
 			name = "recipient_name"
 			font = "font_text_20"
-			position = { x = -620 y = 400 }
+			position = { x = -620 y = 322 }
 			orientation = upper_right
 			maxWidth = 290
-			maxHeight = 24
+			maxHeight = 50
+			fixedSize = yes
 			format = right
 			vertical_alignment = center
 		}
@@ -133,7 +177,7 @@ guiTypes = {
 			name = "gives_label2"
 			font = "font_text_18"
 			text = "GIVES"
-			position = { x = -620 y = 432 }
+			position = { x = -620 y = 372 }
 			orientation = upper_right
 			maxWidth = 290
 			maxHeight = 24
@@ -142,9 +186,9 @@ guiTypes = {
 		}
 		containerWindowType = {
 			name = "offer_trade_offer_window"
-			size = { width = 360 height = 456 }
-			position = { x = 260 y = 460 }
-			margin = { top = 8 bottom = 0 }
+			size = { width = 360 height = 433 }
+			position = { x = 260 y = 412 }
+			margin = { top = 8 }
 			background = {
 				name = "trade_offer_window_bg"
 				spriteType = "GFX_tiles_dark_area_cut_8"
@@ -152,7 +196,7 @@ guiTypes = {
 			smoothListboxType = {
 				name = "trade_offer_list"
 				position = { x = 0 y = 0 }
-				size = { x = 346 y = 440 }
+				size = { x = 346 y = 415 }
 				scrollbarType = "standardlistbox_slider_thick"
 				spacing = 0
 				borderSize = { x = 0 y = 0 }
@@ -160,11 +204,11 @@ guiTypes = {
 		}
 		containerWindowType = {
 			name = "demands_trade_offer_window"
-			size = { width = 360 height = 456 }
-			position = { x = -260 y = 460 }
+			size = { width = 360 height = 433 }
+			position = { x = -260 y = 412 }
 			orientation = upper_right
 			origo = upper_right
-			margin = { top = 8 bottom = 0 }
+			margin = { top = 8 }
 			background = {
 				name = "trade_offer_window_bg"
 				spriteType = "GFX_tiles_dark_area_cut_8"
@@ -172,33 +216,35 @@ guiTypes = {
 			smoothListboxType = {
 				name = "trade_offer_list"
 				position = { x = 0 y = 0 }
-				size = { x = 346 y = 440 }
+				size = { x = 346 y = 415 }
 				scrollbarType = "standardlistbox_slider_thick"
 				spacing = 0
 				borderSize = { x = 0 y = 0 }
 			}
 		}
 		buttonType = {
-			name = "cancel_button"
-			quadTextureSprite = "GFX_standard_button_large_211_40"
-			font = "font_text_14"
-			buttonText = "TRADE_VIEW_CANCEL_BUTTON"
-			position = { x = -120 y = -76 }
-			orientation = center_down
-			actionShortcut = "cancel"
-		}
-		buttonType = {
 			id = "confirm"
 			name = "confirm_button"
-			quadTextureSprite = "GFX_standard_button_large_211_40"
-			font = "font_text_14"
+			quadTextureSprite = "GFX_ui_button_cyan"
+			size = { x = 240 y = 75 }
+			buttonFont = "font_text_18"
 			buttonText = "TRADE_VIEW_CONFIRM_BUTTON"
-			position = { x = -120 y = -128 }
-			orientation = center_down
+			position = { x = -250 y = -85 }
+			orientation = lower_right
+		}
+		buttonType = {
+			name = "cancel_button"
+			quadTextureSprite = "GFX_ui_button_orange"
+			size = { x = 240 y = 75 }
+			buttonFont = "font_text_18"
+			buttonText = "TRADE_VIEW_CANCEL_BUTTON"
+			position = { x = 10 y = -85 }
+			orientation = lower_left
+			actionShortcut = "cancel"
 		}
 		containerWindowType = {
 			name = "offer_trade_categories_window"
-			size = { width = 240 height = 905 }
+			size = { width = 240 height = 835 }
 			position = { x = 10 y = 10 }
 			margin = { top = 8 bottom = 0 }
 			background = {
@@ -208,7 +254,7 @@ guiTypes = {
 			smoothListboxType = {
 				name = "trade_categories_list"
 				position = { x = 0 y = 0 }
-				size = { x = 222 y = 890 }
+				size = { x = 222 y = 820 }
 				scrollbarType = "standardlistbox_slider_thick"
 				spacing = 0
 				borderSize = { x = 0 y = 0 }
@@ -217,7 +263,7 @@ guiTypes = {
 		}
 		containerWindowType = {
 			name = "demands_trade_categories_window"
-			size = { width = 240 height = 905 }
+			size = { width = 240 height = 835 }
 			position = { x = -10 y = 10 }
 			orientation = upper_right
 			origo = upper_right
@@ -229,7 +275,7 @@ guiTypes = {
 			smoothListboxType = {
 				name = "trade_categories_list"
 				position = { x = 0 y = 0 }
-				size = { x = 222 y = 890 }
+				size = { x = 222 y = 820 }
 				scrollbarType = "standardlistbox_slider_thick"
 				spacing = 0
 				borderSize = { x = 0 y = 0 }
@@ -237,26 +283,38 @@ guiTypes = {
 			}
 		}
 		containerWindowType = {
-			name = "willingness_bg"
-			size = { width = 212 height = 50 }
-			position = { x = 0 y = 403 }
-			orientation = center_up
-			origo = center_up
+			name = "footer"
+			size = { width = 730 height = 75 }
+			position = { x = 0 y = -10 }
+			orientation = center_down
+			origo = center_down
 			background = {
-				name = "willingness_bg"
-				spriteType = "GFX_tiles_dark_area_cut_8"
+				name = "footer_bg"
+				spriteType = "GFX_dark_area_cut_light"
 			}
-			iconType = {
-				name = "satisfaction_bg"
-				spriteType = "GFX_value_slot_short"
-				position = { x = 10 y = 10 }
+			containerWindowType = {
+				name = "willingness"
+				size = { width = 212 height = 55 }
+				position = { x = -10 y = 0 }
+				orientation = center_right
+				origo = center_right
+				background = {
+					name = "willingness_bg"
+					spriteType = "GFX_dark_area_cut_light"
+				}
+				iconType = {
+					name = "satisfaction_bg"
+					spriteType = "GFX_value_slot_short"
+					position = { x = 10 y = 12 }
+				}
 			}
 		}
 		instantTextBoxType = {
 			name = "their_satisfaction"
 			font = "large_title_font"
 			text = "Missing value"
-			position = { x = 639 y = 409 }
+			position = { x = 153 y = -67 }
+			orientation = center_down
 			maxWidth = 104
 			maxHeight = 36
 			fixedSize = yes
@@ -266,36 +324,39 @@ guiTypes = {
 		iconType = {
 			name = "trade_willingness"
 			spriteType = "GFX_trade_willingness"
-			position = { x = 755 y = 413 }
+			position = { x = 285 y = -48 }
+			orientation = center_down
+			centerPosition = yes
 		}
 		instantTextBoxType = {
 			name = "trade_willingness_value"
 			font = "font_text_16"
 			text = "Missing value"
-			position = { x = 785 y = 403 }
+			position = { x = 300 y = -75 }
+			orientation = center_down
 			maxWidth = 50
-			maxHeight = 50
+			maxHeight = 55
 			fixedSize = yes
 			format = center
 			vertical_alignment = center
 		}
 		containerWindowType = {
 			name = "trade_deal_length"
-			size = { width = 212 height = 75 }
-			position = { x = 0 y = 460 }
-			orientation = center_up
-			origo = center_up
+			size = { width = 488 height = 55 }
+			position = { x = 270 y = -20 }
+			orientation = lower_left
+			origo = lower_left
 			background = {
 				name = "trade_offer_window_bg"
-				spriteType = "GFX_tiles_frame_extra_light"
+				spriteType = "GFX_dark_area_cut_light"
 			}
 			instantTextBoxType = {
 				name = "trade_deal_length_label"
 				font = "font_text_16"
 				text = "TRADE_DEAL_LENGTH"
 				position = { x = 10 y = 0 }
-				maxWidth = 140
-				maxHeight = 50
+				maxWidth = 295
+				maxHeight = 30
 				fixedSize = yes
 				format = right
 				vertical_alignment = center
@@ -305,9 +366,9 @@ guiTypes = {
 				name = "length_value"
 				font = "font_text_16"
 				text = "5"
-				position = { x = 155 y = 0 }
-				maxWidth = 50
-				maxHeight = 50
+				position = { x = 310 y = 0 }
+				maxWidth = 80
+				maxHeight = 30
 				fixedSize = yes
 				format = left
 				vertical_alignment = center
@@ -320,10 +381,10 @@ guiTypes = {
 				track = "scrollbar_TrackButton"
 				leftbutton = "scrollbar_upButton"
 				rightbutton = "scrollbar_downButton"
-				size = { x = 211 y = 15 }
-				position = { x = 0 y = 50 }
-				priority = 100
+				size = { x = 468 y = 19 }
+				position = { x = 10 y = 30 }
 				borderSize = { x = 16 y = 16 }
+				priority = 100
 				maxValue = 100
 				minValue = 0
 				stepSize = 1
@@ -331,28 +392,30 @@ guiTypes = {
 				horizontal = 1
 				guiButtonType = {
 					name = "scrollbar_SliderButton"
-					quadTextureSprite = "GFX_horizontal_slider"
-					tooltip = ""
-					tooltipText = ""
-					delayedTooltipText = ""
-					position = { x = 30 y = 0 }
+					quadTextureSprite = "GFX_na_settings_scroll_dragger"
 				}
 				guiButtonType = {
 					name = "scrollbar_TrackButton"
-					quadTextureSprite = "gfx_horizontal_scroll_track"
-					position = { x = 30 y = 2 }
+					quadTextureSprite = "GFX_na_scrollbar_track"
 				}
 				guiButtonType = {
 					name = "scrollbar_upButton"
-					quadTextureSprite = "gfx_horizontal_left_button"
-					position = { x = 30 y = 0 }
+					quadTextureSprite = "GFX_na_scrollbar_left_button"
 				}
 				guiButtonType = {
 					name = "scrollbar_downButton"
-					quadTextureSprite = "gfx_horizontal_right_button"
-					position = { x = 30 y = 120 }
+					quadTextureSprite = "GFX_na_scrollbar_right_button"
 				}
-				navDown = "confirm"
+				guiButtonType = {
+					name = "scrollbar_snappoint_center"
+					spriteType = "GFX_na_scroll_snap_point_center"
+					alwaysTransparent = yes
+				}
+				guiButtonType = {
+					name = "scrollbar_snappoint"
+					quadTextureSprite = "GFX_na_scroll_snap_point"
+					alwaysTransparent = yes
+				}
 			}
 		}
 		buttonType = {

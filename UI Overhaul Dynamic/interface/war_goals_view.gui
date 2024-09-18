@@ -479,7 +479,6 @@ guiTypes = {
 		iconType = {
 			name = "vote"			position = { x = 251 y = 5 }
 			spriteType = "GFX_alliance_vote_status"
-			scale = 1.0
 			frame = 2
 		}
 		containerWindowType = {

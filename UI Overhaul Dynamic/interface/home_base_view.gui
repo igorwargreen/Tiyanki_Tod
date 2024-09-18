@@ -47,6 +47,7 @@ guiTypes = {
 			position = { x = 7 y = 50 }
 			size = { width = -3 height = -50 }
 			verticalScrollbar = "right_vertical_slider_thick"
+			smooth_scrolling = yes
 			background = {
 				name = "bg"
 				quadTextureSprite = "GFX_invisible"

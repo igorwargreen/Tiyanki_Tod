@@ -1436,6 +1436,7 @@ guiTypes = {
 				position = { x = 230 y = 30 }
 				size = { width = 305 height = -5 }
 				verticalScrollbar = "right_vertical_slider_thick_small"
+				smooth_scrolling = yes
 				background = {
 					name = "background"
 					spriteType = "GFX_invisible"
@@ -1457,6 +1458,7 @@ guiTypes = {
 				position = { x = 550 y = 5 }
 				size = { width = 410 height = -5 }
 				verticalScrollbar = "right_vertical_slider_thick_small"
+				smooth_scrolling = yes
 				background = {
 					name = "background"
 					spriteType = "GFX_invisible"
@@ -1753,7 +1755,6 @@ guiTypes = {
 				name = "type_icon"
 				quadTextureSprite = "GFX_default_federation"
 				position = { x = 20 y = 10 }
-				scale = 1
 			}
 			instantTextBoxType = {
 				name = "name"

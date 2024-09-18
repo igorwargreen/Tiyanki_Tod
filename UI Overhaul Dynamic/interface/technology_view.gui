@@ -1,7 +1,7 @@
 guiTypes = {
 	containerWindowType = {
 		name = "technology_view_window"
-		size = { width = 565 height = 940 }
+		size = { width = 570 height = 950 }
 		show_position = { x = 35 y = 50 }
 		if_scaled_resolution = {
 			min_width = 2560
@@ -57,16 +57,22 @@ guiTypes = {
 		### HEAD OF RESEARCH ###
 		containerWindowType = {
 			name = "research_container"
-			position = { x = 12 y = 42 }
-			size = { width = -12 height = 220 }
+			position = { x = 15 y = 43 }
+			size = { width = -10 height = 237 }
+			clipping = no
+			background = {
+				name = "background"
+				quadTextureSprite = "GFX_invisible"
+			}
 		}
 		containerWindowType = {
 			name = "areas_window"
-			size = { width = 550 height = 660 }
+			size = { width = 550 height = 650 }
 			position = { x = 0 y = -10 }
 			orientation = center_down
 			origo = center_down			clipping = yes # no
 			verticalScrollbar = "right_vertical_slider_thick"
+			smooth_scrolling = yes
 			background = {
 				name = "background"
 				quadTextureSprite = "GFX_invisible"
@@ -104,7 +110,7 @@ guiTypes = {
 			buttonText = "UI_OVERHAUL_TECHTREE"
 			pdx_tooltip = "UI_OVERHAUL_TECHTREE_TOOLTIP"
 			pdx_tooltip_delayed = "UI_OVERHAUL_TECHTREE_TOOLTIP_DELAYED"
-			web_link = "https://turanar.github.io/stellaris-tech-tree/vanilla/index.html"
+			web_link = "https://bloodstainedcrow.github.io/stellaris-tech-tree/andromeda-3.12.2/"
 		}
 		containerWindowType = {
 			name = "select_window"

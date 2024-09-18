@@ -95,6 +95,7 @@ guiTypes = {
 			size = { width = -15 height = -81 }
 			clipping = yes
 			verticalScrollbar = "right_vertical_slider_thick"
+			smooth_scrolling = yes
 			background = {
 				name = "candidates"
 				quadTextureSprite = "GFX_invisible"

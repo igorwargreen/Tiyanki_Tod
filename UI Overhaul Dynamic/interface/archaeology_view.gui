@@ -20,24 +20,24 @@ guiTypes = {
 		# Header ----------------------------------------------------------------
 		iconType = {
 			name = "hex_bg_left"
-			position = { x = -79 y = 22 }
 			spriteType = "GFX_hex_center_bg"
+			position = { x = -65 y = 22 }
 			orientation = center_up
 			centerPosition = yes
 			alwaysTransparent = yes
 		}
 		iconType = {
 			name = "hex_bg_right"
-			position = { x = 79 y = 22 }
 			spriteType = "GFX_hex_center_bg"
+			position = { x = 65 y = 22 }
 			orientation = center_up
 			centerPosition = yes
 			alwaysTransparent = yes
 		}
 		iconType = {
 			name = "header_line"
-			position = { x = 0 y = 42 }
 			spriteType = "GFX_line_center"
+			position = { x = 0 y = 42 }
 			orientation = center_up
 			centerPosition = yes
 			alwaysTransparent = yes
@@ -136,11 +136,11 @@ guiTypes = {
 		}
 		containerWindowType = {
 			name = "chapter_subtitle_header"
-			position = { x = 15 y = 365 }
+			position = { x = 15 y = 368 }
 			size = { width = 693 height = 50 }
 			iconType = {
 				name = "hex_bg_left"
-				position = { x = -79 y = 0 }
+				position = { x = -65 y = 0 }
 				spriteType = "GFX_hex_center_bg"
 				orientation = center_up
 				centerPosition = yes
@@ -148,7 +148,7 @@ guiTypes = {
 			}
 			iconType = {
 				name = "hex_bg_right"
-				position = { x = 79 y = 0 }
+				position = { x = 65 y = 0 }
 				spriteType = "GFX_hex_center_bg"
 				orientation = center_up
 				centerPosition = yes
@@ -157,7 +157,7 @@ guiTypes = {
 			iconType = {
 				name = "species_header_line"
 				spriteType = "GFX_line_center"
-				position = { x = 0 y = 20 }
+				position = { x = 0 y = 17 }
 				orientation = center_up
 				centerPosition = yes
 				alwaysTransparent = yes
@@ -223,6 +223,7 @@ guiTypes = {
 			size = { width = 681 height = 154 }
 			orientation = lower_left
 			verticalScrollbar = "right_vertical_slider_thick"
+			smooth_scrolling = yes
 			background = {
 				name = "options_box_container"
 				quadTextureSprite = "GFX_tiles_dark_area_cut_8"
@@ -230,7 +231,7 @@ guiTypes = {
 			gridBoxType = {
 				name = "options_box"
 				position = { x = 3 y = 0 }
-				size = { width = 674 height = 240 }
+				size = { width = 674 height = -10 }
 				format = "UPPER_LEFT"
 				slotSize = { width = 674 height = 48 }
 				max_slots_horizontal = 1
@@ -638,10 +639,10 @@ guiTypes = {
 				name = "text"
 				font = "font_text_20"
 				text = "THIS IS LOCKED/FINISHED"
-				position = { x = -150 y = 430 }
+				position = { x = -150 y = 400 }
 				orientation = center_up
 				maxWidth = 300
-				maxHeight = 50
+				maxHeight = 100
 				fixedSize = yes
 				format = center
 				vertical_alignment = center
@@ -692,7 +693,6 @@ guiTypes = {
 		name = "event_option"
 		position = { x = 0 y = 0 }
 		size = { width = 674 height = 48 }
-		clipping = yes
 		background = {
 			name = "background"
 			spriteType = "GFX_event_button_650_34"

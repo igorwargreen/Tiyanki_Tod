@@ -247,7 +247,7 @@ guiTypes = {
 			containerWindowType = {
 				name = "leader_window"
 				position = { x = 10 y = 10 }
-				size = { width = 212 height = 250 }
+				size = { width = 220 height = 264 }
 				clipping = no
 				background = {
 					name = "leader_background"
@@ -255,7 +255,7 @@ guiTypes = {
 				}
 				containerWindowType = {
 					name = "portrait_window"
-					size = { width = 202 height = 240 }
+					size = { width = -5 height = -5 }
 					position = { x = 5 y = 5 }
 					clipping = yes
 				}
@@ -350,8 +350,8 @@ guiTypes = {
 			}
 			containerWindowType = {
 				name = "desc_background"
-				position = { x = 232 y = 77 }
-				size = { width = -10 height = 183 }
+				position = { x = 240 y = 77 }
+				size = { width = -10 height = 197 }
 				background = {
 					name = "background"
 					quadTextureSprite = "GFX_tiles_dark_area_cut_8"
@@ -361,9 +361,9 @@ guiTypes = {
 				name = "desc"
 				font = "font_lore_large"
 				text = ""
-				position = { x = 242 y = 81 }
-				maxWidth = 438
-				maxHeight = 175
+				position = { x = 250 y = 82 }
+				maxWidth = 430
+				maxHeight = 187
 				format = center
 				text_color_code = "L"
 				scrollbarType = "standardlistbox_slider_thick_small"

@@ -63,6 +63,37 @@ spriteTypes = {
 		effectFile = "gfx/FX/progress_startend.shader"
 	}
 	progressbarType = {
+		name = "GFX_ui_progressbar_thick"
+		color = { 1.0 1.0 1.0 }
+		colortwo = { 1.0 1.0 1.0 }
+		textureFile1 = "gfx/ui_overhaul_qhd/progressbars/progressbar_thick.dds"
+		textureFile2 = "gfx/ui_overhaul_qhd/progressbars/progressbar_thick_empty.dds"
+		size = { x = 160 y = 20 }
+		effectFile = "gfx/FX/progress.shader"
+	}
+	progressbarType = {
+		name = "GFX_ui_progressbar_thick_vertical"
+		color = { 1.0 1.0 1.0 }
+		colortwo = { 1.0 1.0 1.0 }
+		textureFile1 = "gfx/ui_overhaul_qhd/progressbars/progressbar_thick.dds"
+		textureFile2 = "gfx/ui_overhaul_qhd/progressbars/progressbar_thick_empty.dds"
+		size = { x = 20 y = 160 }
+		effectFile = "gfx/FX/progress.shader"
+		horizontal = no
+		#flipdirection = yes
+	}
+	progressbarType = {
+		name = "GFX_ui_progressbar_thick_vertical_16x125"
+		color = { 1.0 1.0 1.0 }
+		colortwo = { 1.0 1.0 1.0 }
+		textureFile1 = "gfx/ui_overhaul_qhd/progressbars/progressbar_thick.dds"
+		textureFile2 = "gfx/ui_overhaul_qhd/progressbars/progressbar_thick_empty.dds"
+		size = { x = 16 y = 125 }
+		effectFile = "gfx/FX/progress.shader"
+		horizontal = no
+		#flipdirection = yes
+	}
+	progressbarType = {
 		name = "GFX_ui_progressbar_thick_117"
 		color = { 1.0 1.0 1.0 }
 		colorTwo = { 1.0 1.0 1.0 }

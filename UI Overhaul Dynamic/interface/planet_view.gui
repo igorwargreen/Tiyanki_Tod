@@ -4,7 +4,7 @@
 @sidebar_w = 450
 @sidebar_inner_w = 430
 @sidebar_inner_button_w = 432
-@pop_strata = 572
+@pop_strata = 715
 guiTypes = {
 	positionType = {
 		name = "pop_category_base_size"
@@ -42,8 +42,8 @@ guiTypes = {
 		# Header Buttons
 		containerWindowType = {
 			name = "header_actions"
-			position = { x = -7 y = 16 }
 			size = { width = 270 height = 40 }
+			position = { x = -7 y = 16 }
 			orientation = upper_right
 			origo = upper_right
 			buttonType = {
@@ -187,8 +187,8 @@ guiTypes = {
 			}
 			iconType = {
 				name = "black_frame"
-				position = { x = -4 y = 9 }
 				spriteType = "GFX_ui_planetview_black_frame"
+				position = { x = -4 y = 9 }
 			}
 			iconType = {
 				name = "stripes_1"
@@ -499,9 +499,10 @@ guiTypes = {
 				}
 				iconType = {
 					name = "planet_stability_icon"
-					spriteType = "GFX_stability"
-					position = { x = 15 y = 2 }
-					scale = 1.15
+					spriteType = "GFX_ui_stability"
+					position = { x = 29 y = 19 }
+					centerPosition = yes
+					scale = 0.84
 					alwaysTransparent = yes
 				}
 				instantTextBoxType = {
@@ -528,9 +529,10 @@ guiTypes = {
 				}
 				iconType = {
 					name = "planet_pops_icon"
-					spriteType = "GFX_pop"
-					position = { x = 15 y = 1 }
-					scale = 1.15
+					spriteType = "GFX_ui_pop"
+					position = { x = 30 y = 18 }
+					centerPosition = yes
+					scale = 0.75
 					alwaysTransparent = yes
 				}
 				instantTextBoxType = {
@@ -625,6 +627,7 @@ guiTypes = {
 						spriteType = "GFX_planet_view_planet_amenities"
 						position = { x = 8 y = 6 }
 						tooltip_mode_enabled = yes
+						alwaysTransparent = yes
 					}
 					iconType = {
 						name = "planet_amenities_no_happiness_icon"
@@ -915,7 +918,6 @@ guiTypes = {
 						spriteType = "GFX_ui_inspect_planet_features"
 						buttonFont = "font_text_14"
 						# text = "FEATURES"
-						font = "font_text_14"
 						oversound = mouse_over
 						pdx_tooltip = "DEPOSITS_TOOLTIP"
 						navLeft = "change"
@@ -928,9 +930,10 @@ guiTypes = {
 						position = { x = 130 y = 0 }
 						iconType = {
 							name = "blocker_deposit_frame"
-							spriteType = "GFX_resource_strategic_top_bar"
-							position = { x = 6 y = 10 }
-							scale = 1.1
+							spriteType = "GFX_ui_rare_features"
+							position = { x = 16 y = 20 }
+							centerPosition = yes
+							scale = 0.8
 						}
 						instantTextBoxType = {
 							name = "blocker_deposit_num"
@@ -950,9 +953,10 @@ guiTypes = {
 						position = { x = 250 y = 0 }
 						iconType = {
 							name = "blocker_deposit_frame"
-							spriteType = "GFX_blocker_icon"
-							position = { x = -7 y = 10 }
-							scale = 1
+							spriteType = "GFX_ui_blocker_icon"
+							position = { x = 4 y = 20 }
+							centerPosition = yes
+							scale = 0.8
 						}
 						instantTextBoxType = {
 							name = "blocker_deposit_num"
@@ -1018,6 +1022,7 @@ guiTypes = {
 					margin = { top = 2 right = 4 bottom = 2 }
 					verticalScrollbar = "right_vertical_slider_thick"
 					#horizontalScrollbar = "right_horizontal_slider_thick"
+					smooth_scrolling = yes
 					background = {
 						name = "districts_window"
 						spriteType = "GFX_invisible"
@@ -1370,7 +1375,6 @@ guiTypes = {
 							quadTextureSprite = "GFX_colony_type"
 							position = { x = 28 y = 27 }
 							centerPosition = yes
-							scale = 1
 							alwaysTransparent = yes
 						}
 						instantTextBoxType = {
@@ -1423,7 +1427,7 @@ guiTypes = {
 							name = "automated_development_icon"
 							quadTextureSprite = "GFX_button_manual"
 							position = { x = 6 y = 8 }
-							alwaystransparent = yes
+							alwaysTransparent = yes
 						}
 						buttonType = {
 							name = "automated_development_settings_button"
@@ -1570,16 +1574,27 @@ guiTypes = {
 			containerWindowType = {
 				name = "jobs_bg_art"
 				size = { width = -5 height = -5 }
-				position = { x = 490 y = 318 }
+				position = { x = 345 y = 318 }
 				background = {
 					name = "jobs_bg_art"
 					quadTextureSprite = "GFX_planet_bg_tile_frame"
 				}
 			}
 			containerWindowType = {
+				name = "restore_jobs_button_background"
+				size = { width = 271 height = 77 }
+				position = { x = -10 y = 236 }
+				orientation = upper_right
+				origo = upper_right
+				background = {
+					name = "restore_jobs_button_background"
+					quadTextureSprite = "GFX_dark_area_cut"
+				}
+			}
+			containerWindowType = {
 				name = "title"
 				size = { width = 450 height = 50 }
-				position = { x = 482 y = 271 }
+				position = { x = 339 y = 271 }
 				clipping = no
 				background = {
 					name = "title_background"
@@ -1601,7 +1616,6 @@ guiTypes = {
 					name = "planet_jobs_icon"
 					spriteType = "GFX_pop_job"
 					position = { x = 16 y = 15 }
-					scale = 1
 					tooltip_mode_enabled = yes
 				}
 				instantTextBoxType = {
@@ -1619,26 +1633,30 @@ guiTypes = {
 					name = "job_desc_text"
 					font = "font_text_14"
 					text = "FAVORITE_JOB_DESC"
-					position = { x = 190 y = 22 }
-					maxWidth = 220
-					maxHeight = 16
-					format = left
-					vertical_alignment = bottom
+					position = { x = 482 y = 16 }
+					maxWidth = 271
+					maxHeight = 26
+					fixedSize = yes
+					format = center
+					vertical_alignment = center
 					text_color_code = "E"
 				}
 			}
 			buttonType = {
 				name = "restore_jobs_button"
-				position = { x = -172 y = 277 }
-				spriteType = "GFX_button_150_24"
+				spriteType = "GFX_ui_button_green"
+				position = { x = -276 y = 240 }
 				orientation = upper_right
-				buttonFont = "font_text_14"
+				size = { x = 261 y = 47 }
+				buttonFont = "font_text_16"
+				borderSize = { x = 6 y = 0 }
+				multiline = yes
 				shortcut = "J"
 			}
 			# Strata Scroll List
 			smoothListboxType = {
 				name = "pop_categories_list"
-				position = { x = 505 y = 330 }
+				position = { x = 360 y = 330 }
 				size = { x = @pop_strata y = 595 }
 				scrollbarType = "standardlistbox_slider_thick"
 				borderSize = { x = 0 y = 0 }
@@ -1678,7 +1696,7 @@ guiTypes = {
 			containerWindowType = {
 				name = "demographics_background"
 				position = { x = 10 y = 323 }
-				size = { width = 470 height = -10 }
+				size = { width = 330 height = -10 }
 				background = {
 					name = "background"
 					spriteType = "GFX_dark_area_cut_light"
@@ -1722,13 +1740,15 @@ guiTypes = {
 						iconType = {
 							name = "growth_background"
 							spriteType = "GFX_planet_background"
-							position = { x = 1 y = 1 }
-							scale = 1
+							orientation = center
+							centerPosition = yes
+							alwaysTransparent = yes
 						}
 						iconType = {
 							name = "species_background_frame"
 							spriteType = "GFX_planet_background_frame"
-							scale = 1
+							orientation = center
+							centerPosition = yes
 							alwaysTransparent = yes
 						}
 						iconType = {
@@ -1741,7 +1761,7 @@ guiTypes = {
 						buttonType = {
 							name = "portrait_button"
 							position = { x = -1 y = -1 }
-							size = { x = 102 y = 101 }
+							size = { x = 102 y = 102 }
 							quadTextureSprite = "GFX_button_light"
 							clicksound = "menu_slide_open"
 							shortcut = "G"
@@ -1789,7 +1809,7 @@ guiTypes = {
 				# Assembling Panel
 				containerWindowType = {
 					name = "assembling_species_window"
-					position = { x = 10 y = 184 }
+					position = { x = 10 y = 186 }
 					size = { width = 120 height = 164 }
 					clipping = no
 					background = {
@@ -1815,13 +1835,15 @@ guiTypes = {
 						iconType = {
 							name = "assembling_background"
 							spriteType = "GFX_assembling_bg"
-							position = { x = 1 y = 1 }
-							scale = 1
+							orientation = center
+							centerPosition = yes
+							alwaysTransparent = yes
 						}
 						iconType = {
 							name = "species_background_frame"
 							spriteType = "GFX_planet_background_frame"
-							scale = 1
+							orientation = center
+							centerPosition = yes
 							alwaysTransparent = yes
 						}
 						iconType = {
@@ -1855,7 +1877,7 @@ guiTypes = {
 					containerWindowType = {
 						name = "pops_tab_pop_assembly_window"
 						size = { width = 76 height = 34 }
-						position = { x = 96 y = -174 }
+						position = { x = 96 y = -176 }
 						orientation = upper_right
 						background = {
 							name = "background"
@@ -1882,7 +1904,7 @@ guiTypes = {
 				# Declining Panel
 				containerWindowType = {
 					name = "declining_species_window"
-					position = { x = 10 y = 358 }
+					position = { x = 10 y = 363 }
 					size = { width = 120 height = 164 }
 					clipping = no
 					background = {
@@ -1908,13 +1930,15 @@ guiTypes = {
 						iconType = {
 							name = "decline_background"
 							spriteType = "GFX_declining_bg"
-							position = { x = 1 y = 1 }
-							scale = 1
+							orientation = center
+							centerPosition = yes
+							alwaysTransparent = yes
 						}
 						iconType = {
 							name = "species_background_frame"
 							spriteType = "GFX_planet_background_frame"
-							scale = 1
+							orientation = center
+							centerPosition = yes
 							alwaysTransparent = yes
 						}
 						iconType = {
@@ -1949,7 +1973,7 @@ guiTypes = {
 			containerWindowType = {
 				name = "pops_tab_demographics_window"
 				position = { x = 10 y = 323 }
-				size = { width = 470 height = -10 }
+				size = { width = 330 height = -10 }
 				background = {
 					name = "background"
 					spriteType = "GFX_invisible"
@@ -1957,8 +1981,8 @@ guiTypes = {
 				}
 				containerWindowType = {
 					name = "species_piechart"
-					position = { x = -10 y = 60 }
-					size = { width = 130 height = -10 }
+					position = { x = -18 y = 114 }
+					size = { width = 162 height = -20 }
 					orientation = upper_right
 					origo = upper_right
 					clipping = no
@@ -1968,26 +1992,31 @@ guiTypes = {
 					}
 					iconType = {
 						name = "species_piechart"
-						spriteType = "GFX_species_piechart_default"
-						position = { x = -100 y = 55 }
+						spriteType = "GFX_species_piechart_75"
+						position = { x = 0 y = 7 }
+						orientation = center_up
 					}
 					iconType = {
 						name = "species_piechart_overlay"
-						spriteType = "GFX_pie_chart_overlay"
-						position = { x = -151 y = 54 }
+						spriteType = "GFX_pie_chart_overlay_300"
+						position = { x = 0 y = 82 }
+						orientation = center_up
+						centerPosition = yes
+						scale = 0.5
 					}
 					smoothListboxType = {
 						name = "species_list"
-						position = { x = 10 y = 10 }
-						size = { x = 110 y = 517 }
-						scrollbarType = "standardlistbox_slider_thick"
+						position = { x = 26 y = 168 }
+						size = { x = 110 y = 294 }
+						scrollbarType = "standardlistbox_slider_thick_small"
 						offset = { x = -3 y = 0 }
+						spacing = 2
 					}
 				}
 				containerWindowType = {
 					name = "ethics_background"
 					position = { x = 10 y = 10 }
-					size = { width = 350 height = 40 }
+					size = { width = 210 height = 40 }
 					background = {
 						name = "ethics_background"
 						spriteType = "GFX_dark_area_cut_light"
@@ -1996,7 +2025,7 @@ guiTypes = {
 				overlappingElementsBoxType = {
 					name = "dominant_ethics"
 					position = { x = 15 y = 15 }
-					size = { x = 320 y = 30 }
+					size = { x = 200 y = 30 }
 					format = center
 				}
 			}
@@ -2004,7 +2033,7 @@ guiTypes = {
 			containerWindowType = {
 				name = "pops_tab_happiness_window"
 				size = { width = 90 height = 40 }
-				position = { x = 380 y = 333 }
+				position = { x = 240 y = 333 }
 				background = {
 					name = "background"
 					spriteType = "GFX_dark_area_cut_light"
@@ -2014,7 +2043,6 @@ guiTypes = {
 					spriteType = "GFX_text_happiness"
 					position = { x = 11 y = 11 }
 					tooltip_mode_enabled = yes
-					scale = 1
 				}
 				instantTextBoxType = {
 					name = "planet_happiness_amount"
@@ -2141,7 +2169,6 @@ guiTypes = {
 					name = "defender_frontline_divider"
 					quadTextureSprite = "GFX_vertical_line"
 					position = { x = 274 y = 101 }
-					scale = 1
 					alwaysTransparent = yes
 				}
 				instantTextBoxType = {
@@ -2231,7 +2258,6 @@ guiTypes = {
 					quadTextureSprite = "GFX_vertical_line"
 					position = { x = -284 y = 101 }
 					orientation = upper_right
-					scale = 1
 					alwaysTransparent = yes
 				}
 				instantTextBoxType = {
@@ -2881,7 +2907,8 @@ guiTypes = {
 				name = "holdings_container"
 				size = { width = 580 height = -10 }
 				position = { x = 10 y = 323 }
-				verticalScrollbar = "right_vertical_slider_s"
+				verticalScrollbar = "right_vertical_slider_thick"
+				smooth_scrolling = yes
 				background = {
 					name = "background"
 					spriteType = "GFX_tiles_dark_area_cut_8"
@@ -3021,8 +3048,8 @@ guiTypes = {
 		}
 		containerWindowType = {
 			name = "side_bar_window"
-			position = { x = 3 y = 9 }
 			size = { width = @sidebar_w height = 931 }
+			position = { x = 3 y = 9 }
 			orientation = upper_right
 			background = {
 				name = "side_bar_window_background"
@@ -3614,6 +3641,7 @@ guiTypes = {
 						orientation = lower_left
 						oversound = mouse_over
 						shortcut = "K"
+						pdx_tooltip = "POP_ACTION_VIEW_SPECIES_DESC"
 					}
 					buttonType = {
 						name = "species_rights_button"
@@ -3631,6 +3659,7 @@ guiTypes = {
 					position = { x = 18 y = 500 }
 					size = { width = -22 height = 257 }
 					verticalScrollbar = "right_vertical_slider_thick_small"
+					smooth_scrolling = yes
 					margin = { top = 5 right = 4 bottom = 5 }
 					background = {
 						name = "pop_job_info_background"
@@ -4061,33 +4090,27 @@ guiTypes = {
 	containerWindowType = {
 		name = "rare_deposits_grid_box_entry"
 		size = { width = 20 height = 20 }
-		position = { x = 0 y = 0 }
 		iconType = {
 			name = "icon"
 			spriteType = "GFX_resource_minerals"
-			position = { x = 0 y = 0 }
 		}
 	}
 	# District Cubes
 	containerWindowType = {
 		name = "planet_district_grid_box_entry"
 		size = { width = 13 height = 13 }
-		position = { x = 0 y = 0 }
 		iconType = {
 			name = "icon"
 			spriteType = "GFX_district_box_icon"
-			position = { x = 0 y = 0 }
 		}
 	}
 	# Available District Cubes
 	containerWindowType = {
 		name = "available_planet_district_grid_box_entry"
 		size = { width = 8 height = 8 }
-		position = { x = 0 y = 0 }
 		iconType = {
 			name = "icon"
 			spriteType = "GFX_district_box_icon_small"
-			position = { x = 0 y = 0 }
 			alwaysTransparent = yes
 		}
 	}
@@ -4103,7 +4126,6 @@ guiTypes = {
 			name = "district_icon"
 			spriteType = "GFX_district_unknown"
 			position = { x = 1 y = 2 }
-			scale = 1
 		}
 		buttonType = {
 			name = "district_icon_border"
@@ -4176,7 +4198,6 @@ guiTypes = {
 				position = { x = 23 y = -19 }
 				centerPosition = yes
 				orientation = lower_left
-				scale = 1
 			}
 			instantTextBoxType = {
 				name = "num_districts_text"
@@ -4604,7 +4625,7 @@ guiTypes = {
 			overlappingElementsBoxType = {
 				name = "job_types_box"
 				position = { x = 94 y = 34 }
-				size = { x = 473 y = 60 }
+				size = { x = 616 y = 60 }
 				format = left
 			}
 		}
@@ -4622,7 +4643,7 @@ guiTypes = {
 				font = "font_text_18"
 				text = "Upper Class"
 				position = { x = 60 y = 0 }
-				maxWidth = 200
+				maxWidth = 230
 				maxHeight = 30
 				fixedSize = yes
 				format = left
@@ -4647,7 +4668,7 @@ guiTypes = {
 				}
 				overlappingElementsBoxType = {
 					name = "upkeep"
-					position = { x = -510 y = 6 }
+					position = { x = -580 y = 6 }
 					size = { x = 260 y = 55 }
 					orientation = upper_right
 					format = right
@@ -4655,15 +4676,15 @@ guiTypes = {
 				iconType = {
 					name = "leads_to_arrows"
 					spriteType = "GFX_leads_to_arrows"
-					position = { x = -244 y = 9 }
+					position = { x = -314 y = 9 }
 					orientation = upper_right
 					scale = 0.5
 					alwaysTransparent = yes
 				}
 				overlappingElementsBoxType = {
 					name = "production"
-					position = { x = -225 y = 6 }
-					size = { x = 190 y = 20 }
+					position = { x = -295 y = 6 }
+					size = { x = 255 y = 20 }
 					orientation = upper_right
 					format = left
 				}
@@ -4793,15 +4814,15 @@ guiTypes = {
 				font = "font_text_14"
 				text = "Laborers"
 				position = { x = 10 y = 0 }
-				maxWidth = 175
+				maxWidth = 200
 				maxHeight = 25
 				fixedSize = yes
 				format = left
 				vertical_alignment = center
 			}
 			containerWindowType = {
-				size = { width = -1 height = 22 }
-				position = { x = 145 y = 3 }
+				size = { width = 100%% height = 25 }
+				position = { x = 220 y = 0 }
 				name = "planet_job_production_info"
 				background = {
 					name = "background"
@@ -4811,16 +4832,18 @@ guiTypes = {
 					name = "upkeep"
 					font = "font_text_14"
 					text = "+99 minerals"
-					position = { x = 0 y = 2 }
+					position = { x = -430 y = 0 }
+					orientation = upper_right
 					maxWidth = 90
 					maxHeight = 25
 					fixedSize = yes
 					format = right
+					vertical_alignment = center
 				}
 				iconType = {
 					name = "leads_to_arrows"
 					spriteType = "GFX_leads_to_arrows"
-					position = { x = -233 y = 4 }
+					position = { x = -333 y = 6 }
 					orientation = upper_right
 					scale = 0.5
 				}
@@ -4828,12 +4851,13 @@ guiTypes = {
 					name = "production"
 					font = "font_text_14"
 					text = "+99 minerals"
-					position = { x = -214 y = 2 }
+					position = { x = -314 y = 0 }
 					orientation = upper_right
-					maxWidth = 194
+					maxWidth = 290
 					maxHeight = 25
 					fixedSize = yes
 					format = left
+					vertical_alignment = center
 				}
 			}
 		}
@@ -4880,7 +4904,7 @@ guiTypes = {
 			overlappingElementsBoxType = {
 				name = "pops_box"
 				position = { x = 64 y = 24 }
-				size = { x = 478 y = 55 }
+				size = { x = 620 y = 55 }
 				format = left
 			}
 			# Broken
@@ -4895,6 +4919,7 @@ guiTypes = {
 					spriteType = "GFX_pop_job"
 					position = { x = 0 y = -28 }
 					scale = 0.8
+					alwaysTransparent = yes
 				}
 				buttonType = {
 					name = "job_prio_increase"
@@ -5738,7 +5763,6 @@ guiTypes = {
 			name = "icon"
 			quadTextureSprite = "GFX_job_default"
 			position = { x = 6 y = 5 }
-			scale = 1
 			alwaysTransparent = yes
 		}
 	}
@@ -5815,6 +5839,7 @@ guiTypes = {
 				size = { width = 238 height = 180 }
 				position = { x = 108 y = 10 }
 				#verticalScrollbar = "right_vertical_slider_thick_small"
+				#smooth_scrolling = yes
 				background = {
 					name = "buildings_box_background"
 					spriteType = "GFX_dark_area_cut_light"

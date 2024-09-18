@@ -87,9 +87,8 @@ guiTypes = {
 			# THIS PORTRAITS NEEDS A CONTAINER WINDOW
 			iconType = {
 				name = "selected_species"
-				quadTextureSprite = "GFX_ui_species_mask"
-				position = { x = -92 y = 110 }
-				scale = 1
+				quadTextureSprite = "GFX_ui_portrait_character_frame_large"
+				position = { x = -92 y = 5 }
 			}
 			containerWindowType = {
 				name = "species_frame_box"
@@ -199,7 +198,7 @@ guiTypes = {
 			}
 			overlappingElementsBoxType = {
 				name = "selected_species_traits_icons"
-				position = { x = 20 y = 621 }
+				position = { x = 20 y = 620 }
 				size = { x = 360 y = 30 }
 				format = left
 				spacing = 4
@@ -209,17 +208,23 @@ guiTypes = {
 				font = "font_text_14"
 				text = "SET_RIGHTS"
 				spriteType = "GFX_standard_button_142_34_button"
-				position = { x = 231 y = 495 }			}
+				position = { x = 231 y = 495 }
+				borderSize = { x = 10 y = 0 }
+				multiline = yes			}
 			buttonType = {
 				name = "apply_template_or_uplift_button"
 				font = "font_text_14"
 				spriteType = "GFX_standard_button_142_34_button"
-				position = { x = 231 y = 534 }			}
+				position = { x = 231 y = 534 }
+				borderSize = { x = 10 y = 0 }
+				multiline = yes			}
 			buttonType = {
 				name = "modify_button"
 				font = "font_text_14"
 				spriteType = "GFX_standard_button_142_34_button"
-				position = { x = 3 y = 534 }			}
+				position = { x = 3 y = 534 }
+				borderSize = { x = 10 y = 0 }
+				multiline = yes			}
 			# traits black background
 			containerWindowType = {
 				name = "options_background"
@@ -409,20 +414,20 @@ guiTypes = {
 		containerWindowType = {
 			name = "species_container"
 			position = { x = 1 y = 1 }
-			size = { width = 120 height = 52 }
+			size = { width = 170 height = 52 }
 			clipping = yes
 			iconType = {
 				name = "species"
-				quadTextureSprite = "GFX_portrait_character"
-				position = { x = -40 y = -25 }
+				quadTextureSprite = "GFX_ui_portrait_character_species"
+				position = { x = -60 y = -15 }
 				scale = 0.25
 			}
 		}
 		instantTextBoxType = {
 			name = "name"
 			font = "font_text_14"
-			position = { x = 70 y = 0 }
-			maxWidth = 280
+			position = { x = 100 y = 0 }
+			maxWidth = 250
 			maxHeight = 54
 			fixedSize = yes
 			vertical_alignment = center
@@ -450,7 +455,7 @@ guiTypes = {
 		}
 		overlappingElementsBoxType = {
 			name = "traits_icons"
-			position = { x = 568 y = 13 }
+			position = { x = 568 y = 11 }
 			size = { x = 374 y = 40 }
 			format = left
 			spacing = 4
@@ -486,21 +491,21 @@ guiTypes = {
 		}
 		containerWindowType = {
 			name = "species_container"
-			position = { x = 47 y = -1 }
-			size = { width = 47 height = 39 }
+			position = { x = 46 y = -4 }
+			size = { width = 107 height = 42 }
 			clipping = yes
 			iconType = {
 				name = "species"
-				quadTextureSprite = "GFX_portrait_character"
-				position = { x = -14 y = -3 }
-				scale = 0.12
+				quadTextureSprite = "GFX_ui_portrait_character_species"
+				position = { x = -35 y = -2 }
+				scale = 0.15
 			}
 		}
 		instantTextBoxType = {
 			name = "name"
 			font = "font_text_14"
-			position = { x = 95 y = -5 }
-			maxWidth = 255
+			position = { x = 125 y = -5 }
+			maxWidth = 235
 			maxHeight = 44
 			fixedSize = yes
 			vertical_alignment = center

@@ -223,7 +223,7 @@ guiTypes = {
 						name = "monthly_clock_overlay"
 						position = { x = 4 y = 12 }
 						quadTextureSprite = "GFX_timed_overlay"
-						alwaystransparent = yes
+						alwaysTransparent = yes
 					}
 					instantTextBoxType = {
 						name = "old_monthly_loyalty_value"
@@ -293,7 +293,7 @@ guiTypes = {
 						name = "monthly_clock_overlay"
 						position = { x = 4 y = 12 }
 						quadTextureSprite = "GFX_timed_overlay"
-						alwaystransparent = yes
+						alwaysTransparent = yes
 					}
 					instantTextBoxType = {
 						name = "new_monthly_loyalty_value"
@@ -599,7 +599,7 @@ guiTypes = {
 					name = "monthly_clock_overlay"
 					position = { x = -16 y = 0 }
 					quadTextureSprite = "GFX_timed_overlay"
-					alwaystransparent = yes
+					alwaysTransparent = yes
 					pdx_tooltip = "LOYALTY_IMPACT_PER_AGREEMENT_TERM"
 				}
 				instantTextBoxType = {
@@ -710,7 +710,7 @@ guiTypes = {
 					name = "monthly_clock_overlay"
 					position = { x = -16 y = 0 }
 					quadTextureSprite = "GFX_timed_overlay"
-					alwaystransparent = yes
+					alwaysTransparent = yes
 				}
 				instantTextBoxType = {
 					name = "term_monthly_loyalty_impact_value"
@@ -868,7 +868,7 @@ guiTypes = {
 					name = "monthly_clock_overlay"
 					position = { x = -16 y = 0 }
 					quadTextureSprite = "GFX_timed_overlay"
-					alwaystransparent = yes
+					alwaysTransparent = yes
 				}
 				instantTextBoxType = {
 					name = "term_monthly_loyalty_impact_value"

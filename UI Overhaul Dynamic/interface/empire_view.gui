@@ -81,7 +81,7 @@ guiTypes = {
 				spriteType = "GFX_button_header_190_34"
 				position = { x = 193 y = 0 }
 				buttonFont = "font_text_16"
-				buttonText = "TYPE"				pdx_tooltip = "SPECIES_VIEW_SORT_TYPE"
+				buttonText = "UIO_SECTOR_TYPE_TITLE"				pdx_tooltip = "SPECIES_VIEW_SORT_TYPE"
 				borderSize = { x = 8 y = 0 }
 				multiline = yes
 			}
@@ -90,7 +90,7 @@ guiTypes = {
 				spriteType = "GFX_button_header_190_34"
 				position = { x = 386 y = 0 }
 				buttonFont = "font_text_16"
-				buttonText = "governor"
+				buttonText = "UIO_GOVERNOR_TITLE"
 				pdx_tooltip = "SORT_BY_GOVERNOR"
 				borderSize = { x = 8 y = 0 }
 				multiline = yes
@@ -167,6 +167,7 @@ guiTypes = {
 			background = {
 				name = "leader_portrait_container"
 				quadTextureSprite = "GFX_invisible"
+				alwaysTransparent = yes
 			}
 		}
 		containerWindowType = {
@@ -203,7 +204,7 @@ guiTypes = {
 			format = left
 			vertical_alignment = center
 			text_color_code = "E"
-			#alwaysTransparent = yes
+			alwaysTransparent = yes
 		}
 		buttonType = {
 			name = "rename_button"
@@ -825,7 +826,7 @@ guiTypes = {
 		iconType = {
 			name = "sector_capital"
 			spriteType = "GFX_sector_capital"
-			position = { x = 40 y = 2 }
+			position = { x = 10 y = 0 }
 		}
 		# Name
 		containerWindowType = {
@@ -877,7 +878,6 @@ guiTypes = {
 				position = { x = -20 y = 0 }
 				orientation = center
 				centerPosition = yes
-				scale = 1
 			}
 		}
 		instantTextBoxType = {
@@ -1342,7 +1342,7 @@ guiTypes = {
 			position = { x = 949 y = 5 }
 			background = {
 				name = "pop_background"
-				spriteType = "GFX_tiles_dark_area_cut_8"
+				spriteType = "GFX_dark_area_cut_light"
 			}
 		}
 		overlappingElementsBoxType = {
@@ -1351,6 +1351,7 @@ guiTypes = {
 			size = { x = 356 y = 80 }
 			format = left
 			spacing = 1
+			first_on_top = yes
 		}
 		gridBoxType = {
 			name = "districts"
@@ -1366,26 +1367,34 @@ guiTypes = {
 		name = "planet_list_pop_entry"
 		size = { width = 50 height = 84 }
 		#clipping = yes
+		background = {
+			name = "background"
+			spriteType = "GFX_invisible"
+		}
 		containerWindowType = {
 			name = "portrait"
-			size = { width = 70 height = 64 }
+			size = { width = 50 height = 64 }
 			position = { x = 0 y = 4 }
 			clipping = yes
 			iconType = {
 				name = "portrait"
-				quadTextureSprite = "GFX_portrait_character"
-				position = { x = -30 y = -8 }
+				quadTextureSprite = "GFX_portrait_character_mid_close_up"
+				position = { x = 0 y = -5 }
+				orientation = center
+				centerPosition = yes
 				scale = 0.20
+				alwaysTransparent = yes
 			}
 		}
 		containerWindowType = {
 			name = "num_background"
-			position = { x = 0 y = 68 }
-			size = { width = 60 height = 26 }
+			size = { width = 50 height = 26 }
+			position = { x = 0 y = 0 }
+			orientation = center_down
+			origo = center_down
 			background = {
 				name = "background"
-				position = { x = -5 y = -5 }
-				spriteType = "GFX_tiles_frame_light"
+				spriteType = "GFX_dark_area_cut_light"
 				alwaysTransparent = yes
 			}
 		}

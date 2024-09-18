@@ -429,7 +429,7 @@ guiTypes = {
 						name = "counters"
 						position = { x = 0 y = 0 }
 						size = { x = 700 y = 200 } # Height set in code to match the remaining vertical space after wrapper positioning
-						scrollbarType = "standardlistbox_slider"
+						scrollbarType = "standardlistbox_slider_thick_small"
 					}
 				}
 				containerWindowType = {
@@ -443,9 +443,9 @@ guiTypes = {
 						position = { x = 36 y = -156 }
 						orientation = lower_left
 						maxWidth = 708
-						maxHeight = 65
+						maxHeight = 76
 						format = left
-						scrollbarType = "standardtext_slider"
+						scrollbarType = "standardlistbox_slider_thick_small"
 					}
 					instantTextBoxType = {
 						name = "times_out_in"
@@ -717,6 +717,7 @@ guiTypes = {
 						position = { x = 10 y = 28 }
 						size = { width = 400 height = 100 }
 						verticalScrollbar = "right_vertical_slider_thick_small"
+						smooth_scrolling = yes
 						background = {
 							name = "situations_approach_grid_container_bg"
 							spriteType = "GFX_invisible"
@@ -868,7 +869,7 @@ guiTypes = {
 					}
 					containerWindowType = {
 						name = "level_info_background"
-						position = { x = 36 y = 311 }
+						position = { x = 36 y = 315 }
 						size = { width = 156 height = 112 }
 						background = {
 							name = "background"
@@ -879,7 +880,7 @@ guiTypes = {
 						name = "level_label"
 						font = "font_text_14"
 						text = "ANOMALY_LEVEL"
-						position = { x = 51 y = 314 }
+						position = { x = 51 y = 318 }
 						maxWidth = 126
 						maxHeight = 20
 						fixedSize = yes
@@ -889,20 +890,20 @@ guiTypes = {
 					buttonType = {
 						name = "level_background"
 						spriteType = "GFX_value_slot"
-						position = { x = 51 y = 332 }
+						position = { x = 51 y = 336 }
 						clicksound = "no_sound"
 					}
 					iconType = {
 						name = "level_icon"
 						spriteType = "GFX_discovery_level_icon"
-						position = { x = 50 y = 333 }
+						position = { x = 50 y = 337 }
 						alwaysTransparent = yes
 					}
 					instantTextBoxType = {
 						name = "level"
 						font = "font_text_14"
 						text = "5"
-						position = { x = 73 y = 332 }
+						position = { x = 73 y = 336 }
 						maxWidth = 103
 						maxHeight = 30
 						fixedSize = yes
@@ -916,7 +917,7 @@ guiTypes = {
 						name = "level_duration_label"
 						font = "font_text_14"
 						text = "ANOMALY_TIME"
-						position = { x = 51 y = 369 }
+						position = { x = 51 y = 373 }
 						maxWidth = 126
 						maxHeight = 20
 						fixedSize = yes
@@ -926,20 +927,20 @@ guiTypes = {
 					buttonType = {
 						name = "level_duration_background"
 						spriteType = "GFX_value_slot"
-						position = { x = 51 y = 387 }
+						position = { x = 51 y = 391 }
 						clicksound = "no_sound"
 					}
 					iconType = {
 						name = "level_duration_icon"
 						spriteType = "GFX_mod_ship_anomaly_research_speed"
-						position = { x = 56 y = 390 }
+						position = { x = 56 y = 394 }
 						alwaysTransparent = yes
 					}
 					instantTextBoxType = {
 						name = "level_duration"
 						font = "font_text_14"
 						text = "5"
-						position = { x = 73 y = 387 }
+						position = { x = 73 y = 391 }
 						maxWidth = 103
 						maxHeight = 30
 						fixedSize = yes
@@ -951,21 +952,21 @@ guiTypes = {
 					containerWindowType = {
 						name = "leader_window"
 						position = { x = 8 y = 51 }
-						size = { width = 212 height = 250 }
+						size = { width = 212 height = 254 }
 						clipping = no
 						background = {
 							name = "leader_background"
 							spriteType = "GFX_tiles_dark_area_cut_8"
 						}						containerWindowType = {
 							name = "portrait_window"
-							size = { width = 212 height = 250 }
+							size = { width = 212 height = 254 }
 							clipping = no
 						}
 					}
 					containerWindowType = {
 						name = "no_leader_window"
 						position = { x = 8 y = 51 }
-						size = { width = 212 height = 250 }
+						size = { width = 212 height = 254 }
 						background = {
 							name = "leader_background"
 							spriteType = "GFX_tiles_dark_area_cut_8"

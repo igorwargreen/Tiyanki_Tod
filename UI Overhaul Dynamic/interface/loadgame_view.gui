@@ -126,9 +126,11 @@ guiTypes = {
 				}
 				iconType = {
 					name = "portrait"
-					position = { x = 50 y = -14 }
-					spriteType = "GFX_portrait_character"
-					scale = 0.58
+					spriteType = "GFX_portrait_gamesetup_mask_character_without_room"
+					position = { x = 0 y = 0 }
+					orientation = center
+					centerPosition = yes
+					scale = 0.6
 					alwaysTransparent = yes
 				}
 				iconType = {

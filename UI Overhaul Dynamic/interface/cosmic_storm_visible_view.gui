@@ -1,0 +1,142 @@
+guiTypes = {
+	containerWindowType = {
+		name = "CosmicStormVisible"
+		size = { width = 705 height = -10 }
+		position = { x = 0 y = 0 }
+		orientation = center
+		origo = center
+		moveable = yes
+		clipping = no
+		background = {
+			name = "background"
+			quadTextureSprite = "GFX_tile_large_center_event_bg"
+		}
+		### TITLE ###
+		iconType = {
+			name = "hex_bg_left"
+			spriteType = "GFX_hex_center_bg"
+			position = { x = -79 y = 22 }
+			orientation = center_up
+			centerPosition = yes
+			alwaysTransparent = yes
+		}
+		iconType = {
+			name = "hex_bg_right"
+			spriteType = "GFX_hex_center_bg"
+			position = { x = 79 y = 22 }
+			orientation = center_up
+			centerPosition = yes
+			alwaysTransparent = yes
+		}
+		iconType = {
+			name = "header_line"
+			spriteType = "GFX_line_center"
+			position = { x = 0 y = 42 }
+			orientation = center_up
+			centerPosition = yes
+			alwaysTransparent = yes
+		}
+		instantTextBoxType = {
+			name = "Title"
+			font = "font_header_20"
+			text = "Long text here!"
+			position = { x = -340 y = 9 }
+			orientation = center_up
+			maxWidth = 680
+			maxHeight = 24
+			format = center
+			vertical_alignment = center
+			alwaysTransparent = yes
+		}
+		buttonType = {
+			name = "focus"
+			spriteType = "GFX_fleetview_focus"
+			position = { x = -77 y = 13 }
+			orientation = upper_right
+			shortcut = "q"
+		}
+		### DISMISS BUTTON
+		buttonType = {
+			name = "close"
+			quadTextureSprite = "GFX_close"
+			position = { x = -42 y = 13 }
+			orientation = upper_right
+			pdx_tooltip = "CLOSE_TITLE"
+			shortcut = "ESCAPE"
+		}
+		### PORTRAIT ###
+		@event_picture_pos_y = 170
+		iconType = {
+			name = "storm_event_picture"
+			spriteType = "GFX_event_frame"
+			position = { x = 0 y = @event_picture_pos_y }
+			orientation = center_up
+			centerPosition = yes
+			scale = 1.5
+			alwaysTransparent = yes
+		}
+		containerWindowType = {
+			name = "event_picture_overlay"
+			position = { x = 0 y = @event_picture_pos_y }
+			size = { width = 100% height = 100 }
+			iconType = {
+				name = "event_shadow"
+				spriteType = "GFX_ui_event_shadow_frame"
+				orientation = center_up
+				centerPosition = yes
+				alwaysTransparent = yes
+			}
+			iconType = {
+				name = "event_stripes"
+				spriteType = "GFX_ui_event_stripes"
+				orientation = center_up
+				centerPosition = yes
+				alwaysTransparent = yes
+			}
+			iconType = {
+				name = "event_frame"
+				spriteType = "GFX_ui_event_frame"
+				orientation = center_up
+				centerPosition = yes
+				alwaysTransparent = yes
+			}
+		}
+		### DESCRIPTION ###
+		containerWindowType = {
+			name = "frame"
+			position = { x = 10 y = 295 }
+			size = { width = -10 height = -10 }
+			verticalScrollbar = "right_vertical_slider_thick"
+			smooth_scrolling = yes
+			clipping = no
+			background = {
+				name = "description_frame"
+				spriteType = "GFX_tiles_frame_light"
+			}
+			background = {
+				name = "description_dark"
+				spriteType = "GFX_tiles_dark_area_cut_8"
+				alwaysTransparent = yes
+			}
+			instantTextBoxType = {
+				name = "Desc"
+				font = "font_lore_large"
+				text = "Long text here!"
+				position = { x = 21 y = 15 }
+				maxWidth = 643
+				maxHeight = 530
+				format = left
+				text_color_code = "L"
+			}
+		}
+        buttonType = {
+			name = "confirm"
+			position = { x = 15 y = 0 }
+			spriteType = "GFX_event_button_650_34"
+			buttonFont = "font_text_18"
+			buttonText = "MESSAGE_COSMIC_STORM_SPOTTED_EVENT_CONFIRM"
+			clicksound = confirmation
+			shortcut = "RETURN"
+		}
+	}
+}

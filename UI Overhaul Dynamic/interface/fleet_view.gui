@@ -435,14 +435,14 @@ guiTypes = {
 			}
 			overlappingElementsBoxType = {
 				name = "ethos"
-				position = { x = 6 y = 162 }
-				size = { x = 150 y = 16 }
+				position = { x = 5 y = 162 }
+				size = { x = 160 y = 16 }
 				format = center
 			}
 			overlappingElementsBoxType = {
 				name = "traits"
-				position = { x = 6 y = 198 }
-				size = { x = 150 y = 16 }
+				position = { x = 5 y = 198 }
+				size = { x = 160 y = 16 }
 				format = center
 			}
 		}
@@ -454,6 +454,7 @@ guiTypes = {
 			origo = upper_right
 			margin = { top = 2 bottom = 2 }
 			verticalScrollbar = "right_vertical_slider_thick_small"
+			smooth_scrolling = yes
 			background = {
 				name = "orders_small_background"
 				spriteType = "GFX_tiles_dark_area_cut_8"
@@ -475,6 +476,7 @@ guiTypes = {
 			origo = upper_right
 			margin = { top = 2 bottom = 2 }
 			verticalScrollbar = "right_vertical_slider_thick_small"
+			smooth_scrolling = yes
 			background = {
 				name = "orders_large_background"
 				spriteType = "GFX_tiles_dark_area_cut_8"
@@ -497,6 +499,7 @@ guiTypes = {
 			margin = { top = 2 bottom = 2 }
 			clipping = no
 			#verticalScrollbar = "right_vertical_slider_thick_small"
+			#smooth_scrolling = yes
 			background = {
 				name = "observation_orders_background"
 				spriteType = "GFX_tiles_dark_area_cut_8"
@@ -1025,6 +1028,7 @@ guiTypes = {
 			origo = upper_right
 			margin = { top = 1 bottom = 1 left = 1 }
 			verticalScrollbar = "right_vertical_slider_thick_small"
+			smooth_scrolling = yes
 			background = {
 				name = "orders_small_background"
 				spriteType = "GFX_tiles_dark_area_cut_8"
@@ -1046,6 +1050,7 @@ guiTypes = {
 			origo = upper_right
 			margin = { top = 1 bottom = 1 left = 1 }
 			verticalScrollbar = "right_vertical_slider_thick_small"
+			smooth_scrolling = yes
 			background = {
 				name = "orders_large_background"
 				spriteType = "GFX_tiles_dark_area_cut_8"

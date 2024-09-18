@@ -2,22 +2,26 @@ guiTypes = {
 	@column_1 = 0
 	@column_2 = 760
 	@row_w = 750
-	@row_1 = 10
-	@row_2 = 50
-	@row_3 = 90
-	@row_4 = 130
-	@row_5 = 170
-	@row_6 = 210
-	@row_7 = 250
-	@row_8 = 290
-	@row_9 = 330
-	@row_10 = 370
-	@row_11 = 410
-	@row_12 = 450
-	@row_13 = 490
-	@row_14 = 530
-	@row_15 = 570
-	@row_16 = 610
+	@row_1 = 0
+	@row_2 = 40
+	@row_3 = 80
+	@row_4 = 120
+	@row_5 = 160
+	@row_6 = 200
+	@row_7 = 240
+	@row_8 = 280
+	@row_9 = 320
+	@row_10 = 360
+	@row_11 = 400
+	@row_12 = 440
+	@row_13 = 480
+	@row_14 = 520
+	@row_15 = 560
+	@row_16 = 600
+	@row_17 = 640
+	@row_18 = 680
+	@row_19 = 720
+	@row_20 = 760
 	@icon_x = 380
 	@amount_c1x = 359
 	@value_c1x = 466
@@ -41,6 +45,10 @@ guiTypes = {
 		orientation = center
 		origo = center
 		clipping = yes
+		if_scaled_resolution = {
+			min_height = 1440
+			size = { width = 1570 height = 975 }
+		}
 		background = {
 			name = "background"
 			spriteType = "GFX_tile_large_bg_plain"
@@ -134,8 +142,9 @@ guiTypes = {
 		}
 		containerWindowType = {
 			name = "gamesetup_contents"
-			position = { x = 30 y = 68 }
-			size = { width = -15 height = -101 }
+			position = { x = 30 y = 73 }
+			size = { width = -15 height = -106 }
+			#margin = { bottom = 10 }
 			verticalScrollbar = "right_vertical_slider_thick"
 			clipping = yes
 			background = {
@@ -146,7 +155,7 @@ guiTypes = {
 			containerWindowType = {
 				name = "pick_size"
 				size = { width = @row_w height = 36 }
-				position = { x = 0 y = @row_1 }
+				position = { x = @column_1 y = @row_1 }
 				background = {
 					name = "option_background"
 					spriteType = "GFX_tiles_dark_area_cut_8"
@@ -211,7 +220,7 @@ guiTypes = {
 			containerWindowType = {
 				name = "pick_shape"
 				size = { width = @row_w height = 36 }
-				position = { x = 0 y = @row_2 }
+				position = { x = @column_1 y = @row_2 }
 				background = {
 					name = "option_background"
 					spriteType = "GFX_tiles_dark_area_cut_8"
@@ -2511,6 +2520,552 @@ guiTypes = {
 						size = { x = @spinnerOverlaySizeX y = @spinnerOverlaySizeY }
 					}
 					navUp = "wormholes_slider"
+				}
+			}
+			### Cosmic Storm Early Game Spawn Setting Scale
+			containerWindowType = {
+				name = "cosmic_storm_early_spawn_setting_scale"
+				size = { width = @row_w height = 36 }
+				position = { x = @column_1 y = @row_17 }
+				background = {
+					name = "option_background"
+					spriteType = "GFX_tiles_dark_area_cut_8"
+					pdx_tooltip = "FE_COSMIC_STORM_EARLY_GAME_SPAWN_CHANCE_SCALE_TOOLTIP"
+				}
+				instantTextBoxType = {
+					name = "cosmic_storm_early_spawn_setting_scale_label"
+					font = "font_text_18"
+					text = "FE_COSMIC_STORM_EARLY_GAME_SPAWN_CHANCE_SCALE"
+					position = { x = 10 y = 0 }
+					maxWidth = 380
+					maxHeight = 36
+					fixedSize = yes
+					vertical_alignment = center
+					alwaysTransparent = yes
+				}
+				instantTextBoxType = {
+					name = "pick_amount_value"
+					font = "font_text_18"
+					text = "0.25"
+					position = { x = @amount_c1x y = 0 }
+					maxWidth = 75
+					maxHeight = 36
+					fixedSize = yes
+					format = right
+					vertical_alignment = center
+					alwaysTransparent = yes
+				}
+				scrollbarType = {
+					id = "cosmic_storm_early_spawn_setting_scale_slider"
+					name = "amount_slider"
+					slider = "scrollbar_SliderButton"
+					track = "scrollbar_TrackButton"
+					leftbutton = "scrollbar_upButton"
+					rightbutton = "scrollbar_downButton"
+					size = { x = 307 y = 30 }
+					position = { x = @spinner_c1x y = 4 }
+					priority = 100
+					borderSize = { x = 16 y = 16 }
+					maxValue = 100
+					minValue = 0
+					stepSize = 1
+					startValue = 20
+					horizontal = 1
+					guiButtonType = {
+						name = "scrollbar_SliderButton"
+						quadTextureSprite = "GFX_settings_scroll_drager"
+						position = { x = 30 y = 0 }
+					}
+					guiButtonType = {
+						name = "scrollbar_TrackButton"
+						quadTextureSprite = "scrollbar_background"
+						position = { x = 30 y = 20 }
+					}
+					guiButtonType = {
+						name = "scrollbar_upButton"
+						quadTextureSprite = "scrollbar_leftbutton"
+						position = { x = 30 y = 0 }
+					}
+					guiButtonType = {
+						name = "scrollbar_downButton"
+						quadTextureSprite = "scrollbar_rightbutton"
+						position = { x = 30 y = 0 }
+					}
+					overlay = {
+						name = "selected_overlay"
+						spriteType = "GFX_glow_tile_orange_no_padding"
+						overSprite = "GFX_glow_tile_line"
+						position = { x = @spinnerOverlayPosX y = @spinnerOverlayPosY }
+						size = { x = @spinnerOverlaySizeX y = @spinnerOverlaySizeY }
+					}
+				}
+			}
+			### Cosmic Storm Mid Game Spawn Setting Scale
+			containerWindowType = {
+				name = "cosmic_storm_mid_spawn_setting_scale"
+				size = { width = @row_w height = 36 }
+				position = { x = @column_1 y = @row_18 }
+				background = {
+					name = "option_background"
+					spriteType = "GFX_tiles_dark_area_cut_8"
+					pdx_tooltip = "FE_COSMIC_STORM_MID_GAME_SPAWN_CHANCE_SCALE_TOOLTIP"
+				}
+				instantTextBoxType = {
+					name = "cosmic_storm_mid_spawn_setting_scale_label"
+					font = "font_text_18"
+					text = "FE_COSMIC_STORM_MID_GAME_SPAWN_CHANCE_SCALE"
+					position = { x = 10 y = 0 }
+					maxWidth = 380
+					maxHeight = 36
+					fixedSize = yes
+					vertical_alignment = center
+					alwaysTransparent = yes
+				}
+				instantTextBoxType = {
+					name = "pick_amount_value"
+					font = "font_text_18"
+					text = "0.25"
+					position = { x = @amount_c1x y = 0 }
+					maxWidth = 75
+					maxHeight = 36
+					fixedSize = yes
+					format = right
+					vertical_alignment = center
+					alwaysTransparent = yes
+				}
+				scrollbarType = {
+					id = "cosmic_storm_mid_spawn_setting_scale_slider"
+					name = "amount_slider"
+					slider = "scrollbar_SliderButton"
+					track = "scrollbar_TrackButton"
+					leftbutton = "scrollbar_upButton"
+					rightbutton = "scrollbar_downButton"
+					size = { x = 307 y = 30 }
+					position = { x = @spinner_c1x y = 4 }
+					priority = 100
+					borderSize = { x = 16 y = 16 }
+					maxValue = 100
+					minValue = 0
+					stepSize = 1
+					startValue = 20
+					horizontal = 1
+					guiButtonType = {
+						name = "scrollbar_SliderButton"
+						quadTextureSprite = "GFX_settings_scroll_drager"
+						position = { x = 30 y = 0 }
+					}
+					guiButtonType = {
+						name = "scrollbar_TrackButton"
+						quadTextureSprite = "scrollbar_background"
+						position = { x = 30 y = 20 }
+					}
+					guiButtonType = {
+						name = "scrollbar_upButton"
+						quadTextureSprite = "scrollbar_leftbutton"
+						position = { x = 30 y = 0 }
+					}
+					guiButtonType = {
+						name = "scrollbar_downButton"
+						quadTextureSprite = "scrollbar_rightbutton"
+						position = { x = 30 y = 0 }
+					}
+					overlay = {
+						name = "selected_overlay"
+						spriteType = "GFX_glow_tile_orange_no_padding"
+						overSprite = "GFX_glow_tile_line"
+						position = { x = @spinnerOverlayPosX y = @spinnerOverlayPosY }
+						size = { x = @spinnerOverlaySizeX y = @spinnerOverlaySizeY }
+					}
+				}
+			}
+			### Cosmic Storm Late Game Spawn Setting Scale
+			containerWindowType = {
+				name = "cosmic_storm_late_spawn_setting_scale"
+				size = { width = @row_w height = 36 }
+				position = { x = @column_1 y = @row_19 }
+				background = {
+					name = "option_background"
+					spriteType = "GFX_tiles_dark_area_cut_8"
+					pdx_tooltip = "FE_COSMIC_STORM_LATE_GAME_SPAWN_CHANCE_SCALE_TOOLTIP"
+				}
+				instantTextBoxType = {
+					name = "cosmic_storm_late_spawn_setting_scale_label"
+					font = "font_text_18"
+					text = "FE_COSMIC_STORM_LATE_GAME_SPAWN_CHANCE_SCALE"
+					position = { x = 10 y = 0 }
+					maxWidth = 380
+					maxHeight = 36
+					fixedSize = yes
+					vertical_alignment = center
+					alwaysTransparent = yes
+				}
+				instantTextBoxType = {
+					name = "pick_amount_value"
+					font = "font_text_18"
+					text = "0.25"
+					position = { x = @amount_c1x y = 0 }
+					maxWidth = 75
+					maxHeight = 36
+					fixedSize = yes
+					format = right
+					vertical_alignment = center
+					alwaysTransparent = yes
+				}
+				scrollbarType = {
+					id = "cosmic_storm_late_spawn_setting_scale_slider"
+					name = "amount_slider"
+					slider = "scrollbar_SliderButton"
+					track = "scrollbar_TrackButton"
+					leftbutton = "scrollbar_upButton"
+					rightbutton = "scrollbar_downButton"
+					size = { x = 307 y = 30 }
+					position = { x = @spinner_c1x y = 4 }
+					priority = 100
+					borderSize = { x = 16 y = 16 }
+					maxValue = 100
+					minValue = 0
+					stepSize = 1
+					startValue = 20
+					horizontal = 1
+					guiButtonType = {
+						name = "scrollbar_SliderButton"
+						quadTextureSprite = "GFX_settings_scroll_drager"
+						position = { x = 30 y = 0 }
+					}
+					guiButtonType = {
+						name = "scrollbar_TrackButton"
+						quadTextureSprite = "scrollbar_background"
+						position = { x = 30 y = 20 }
+					}
+					guiButtonType = {
+						name = "scrollbar_upButton"
+						quadTextureSprite = "scrollbar_leftbutton"
+						position = { x = 30 y = 0 }
+					}
+					guiButtonType = {
+						name = "scrollbar_downButton"
+						quadTextureSprite = "scrollbar_rightbutton"
+						position = { x = 30 y = 0 }
+					}
+					overlay = {
+						name = "selected_overlay"
+						spriteType = "GFX_glow_tile_orange_no_padding"
+						overSprite = "GFX_glow_tile_line"
+						position = { x = @spinnerOverlayPosX y = @spinnerOverlayPosY }
+						size = { x = @spinnerOverlaySizeX y = @spinnerOverlaySizeY }
+					}
+				}
+			}
+			### Cosmic Storm Early Game Spawn Max Cap
+			containerWindowType = {
+				name = "cosmic_storm_early_spawn_max_cap"
+				size = { width = @row_w height = 36 }
+				position = { x = @column_2 y = @row_17 }
+				background = {
+					name = "option_background"
+					spriteType = "GFX_tiles_dark_area_cut_8"
+					pdx_tooltip = "FE_COSMIC_STORM_EARLY_GAME_SPAWN_MAX_CAP_TOOLTIP"
+				}
+				instantTextBoxType = {
+					name = "cosmic_storm_early_spawn_max_cap_label"
+					font = "font_text_18"
+					text = "FE_COSMIC_STORM_EARLY_GAME_SPAWN_MAX_CAP"
+					position = { x = 10 y = 0 }
+					maxWidth = 380
+					maxHeight = 36
+					fixedSize = yes
+					vertical_alignment = center
+					alwaysTransparent = yes
+				}
+				instantTextBoxType = {
+					name = "pick_amount_value"
+					font = "font_text_18"
+					text = "0.25"
+					position = { x = @amount_c2x y = 0 }
+					maxWidth = 75
+					maxHeight = 36
+					fixedSize = yes
+					format = right
+					vertical_alignment = center
+					alwaysTransparent = yes
+				}
+				scrollbarType = {
+					id = "cosmic_storm_early_spawn_max_cap_slider"
+					name = "amount_slider"
+					slider = "scrollbar_SliderButton"
+					track = "scrollbar_TrackButton"
+					leftbutton = "scrollbar_upButton"
+					rightbutton = "scrollbar_downButton"
+					size = { x = 307 y = 30 }
+					position = { x = @spinner_c2x y = 4 }
+					priority = 100
+					borderSize = { x = 16 y = 16 }
+					maxValue = 100
+					minValue = 0
+					stepSize = 1
+					startValue = 20
+					horizontal = 1
+					guiButtonType = {
+						name = "scrollbar_SliderButton"
+						quadTextureSprite = "GFX_settings_scroll_drager"
+						position = { x = 30 y = 0 }
+					}
+					guiButtonType = {
+						name = "scrollbar_TrackButton"
+						quadTextureSprite = "scrollbar_background"
+						position = { x = 30 y = 20 }
+					}
+					guiButtonType = {
+						name = "scrollbar_upButton"
+						quadTextureSprite = "scrollbar_leftbutton"
+						position = { x = 30 y = 0 }
+					}
+					guiButtonType = {
+						name = "scrollbar_downButton"
+						quadTextureSprite = "scrollbar_rightbutton"
+						position = { x = 30 y = 0 }
+					}
+					overlay = {
+						name = "selected_overlay"
+						spriteType = "GFX_glow_tile_orange_no_padding"
+						overSprite = "GFX_glow_tile_line"
+						position = { x = @spinnerOverlayPosX y = @spinnerOverlayPosY }
+						size = { x = @spinnerOverlaySizeX y = @spinnerOverlaySizeY }
+					}
+				}
+			}
+			### Cosmic Storm Mid Game Spawn Max Cap
+			containerWindowType = {
+				name = "cosmic_storm_mid_spawn_max_cap"
+				size = { width = @row_w height = 36 }
+				position = { x = @column_2 y = @row_18 }
+				background = {
+					name = "option_background"
+					spriteType = "GFX_tiles_dark_area_cut_8"
+					pdx_tooltip = "FE_COSMIC_STORM_MID_GAME_SPAWN_MAX_CAP_TOOLTIP"
+				}
+				instantTextBoxType = {
+					name = "cosmic_storm_mid_spawn_max_cap_label"
+					font = "font_text_18"
+					text = "FE_COSMIC_STORM_MID_GAME_SPAWN_MAX_CAP"
+					position = { x = 10 y = 0 }
+					maxWidth = 380
+					maxHeight = 36
+					fixedSize = yes
+					vertical_alignment = center
+					alwaysTransparent = yes
+				}
+				instantTextBoxType = {
+					name = "pick_amount_value"
+					font = "font_text_18"
+					text = "0.25"
+					position = { x = @amount_c2x y = 0 }
+					maxWidth = 75
+					maxHeight = 36
+					fixedSize = yes
+					format = right
+					vertical_alignment = center
+					alwaysTransparent = yes
+				}
+				scrollbarType = {
+					id = "cosmic_storm_mid_spawn_max_cap_slider"
+					name = "amount_slider"
+					slider = "scrollbar_SliderButton"
+					track = "scrollbar_TrackButton"
+					leftbutton = "scrollbar_upButton"
+					rightbutton = "scrollbar_downButton"
+					size = { x = 307 y = 30 }
+					position = { x = @spinner_c2x y = 4 }
+					priority = 100
+					borderSize = { x = 16 y = 16 }
+					maxValue = 100
+					minValue = 0
+					stepSize = 1
+					startValue = 20
+					horizontal = 1
+					guiButtonType = {
+						name = "scrollbar_SliderButton"
+						quadTextureSprite = "GFX_settings_scroll_drager"
+						position = { x = 30 y = 0 }
+					}
+					guiButtonType = {
+						name = "scrollbar_TrackButton"
+						quadTextureSprite = "scrollbar_background"
+						position = { x = 30 y = 20 }
+					}
+					guiButtonType = {
+						name = "scrollbar_upButton"
+						quadTextureSprite = "scrollbar_leftbutton"
+						position = { x = 30 y = 0 }
+					}
+					guiButtonType = {
+						name = "scrollbar_downButton"
+						quadTextureSprite = "scrollbar_rightbutton"
+						position = { x = 30 y = 0 }
+					}
+					overlay = {
+						name = "selected_overlay"
+						spriteType = "GFX_glow_tile_orange_no_padding"
+						overSprite = "GFX_glow_tile_line"
+						position = { x = @spinnerOverlayPosX y = @spinnerOverlayPosY }
+						size = { x = @spinnerOverlaySizeX y = @spinnerOverlaySizeY }
+					}
+				}
+			}
+			### Cosmic Storm Late Game Spawn Max Cap
+			containerWindowType = {
+				name = "cosmic_storm_late_spawn_max_cap"
+				size = { width = @row_w height = 36 }
+				position = { x = @column_2 y = @row_19 }
+				background = {
+					name = "option_background"
+					spriteType = "GFX_tiles_dark_area_cut_8"
+					pdx_tooltip = "FE_COSMIC_STORM_LATE_GAME_SPAWN_MAX_CAP_TOOLTIP"
+				}
+				instantTextBoxType = {
+					name = "cosmic_storm_late_spawn_max_cap_label"
+					font = "font_text_18"
+					text = "FE_COSMIC_STORM_LATE_GAME_SPAWN_MAX_CAP"
+					position = { x = 10 y = 0 }
+					maxWidth = 380
+					maxHeight = 36
+					fixedSize = yes
+					vertical_alignment = center
+					alwaysTransparent = yes
+				}
+				instantTextBoxType = {
+					name = "pick_amount_value"
+					font = "font_text_18"
+					text = "0.25"
+					position = { x = @amount_c2x y = 0 }
+					maxWidth = 75
+					maxHeight = 36
+					fixedSize = yes
+					format = right
+					vertical_alignment = center
+					alwaysTransparent = yes
+				}
+				scrollbarType = {
+					id = "cosmic_storm_late_spawn_max_cap_slider"
+					name = "amount_slider"
+					slider = "scrollbar_SliderButton"
+					track = "scrollbar_TrackButton"
+					leftbutton = "scrollbar_upButton"
+					rightbutton = "scrollbar_downButton"
+					size = { x = 307 y = 30 }
+					position = { x = @spinner_c2x y = 4 }
+					priority = 100
+					borderSize = { x = 16 y = 16 }
+					maxValue = 100
+					minValue = 0
+					stepSize = 1
+					startValue = 20
+					horizontal = 1
+					guiButtonType = {
+						name = "scrollbar_SliderButton"
+						quadTextureSprite = "GFX_settings_scroll_drager"
+						position = { x = 30 y = 0 }
+					}
+					guiButtonType = {
+						name = "scrollbar_TrackButton"
+						quadTextureSprite = "scrollbar_background"
+						position = { x = 30 y = 20 }
+					}
+					guiButtonType = {
+						name = "scrollbar_upButton"
+						quadTextureSprite = "scrollbar_leftbutton"
+						position = { x = 30 y = 0 }
+					}
+					guiButtonType = {
+						name = "scrollbar_downButton"
+						quadTextureSprite = "scrollbar_rightbutton"
+						position = { x = 30 y = 0 }
+					}
+					overlay = {
+						name = "selected_overlay"
+						spriteType = "GFX_glow_tile_orange_no_padding"
+						overSprite = "GFX_glow_tile_line"
+						position = { x = @spinnerOverlayPosX y = @spinnerOverlayPosY }
+						size = { x = @spinnerOverlaySizeX y = @spinnerOverlaySizeY }
+					}
+				}
+			}
+			### Cosmic Storm Spawn Cooldown Scale
+			containerWindowType = {
+				name = "cosmic_storm_spawn_cooldown_scale"
+				size = { width = @row_w height = 36 }
+				position = { x = @column_1 y = @row_20 }
+				background = {
+					name = "option_background"
+					spriteType = "GFX_tiles_dark_area_cut_8"
+					pdx_tooltip = "FE_COSMIC_STORM_SPAWN_COOLDOWN_SCALE_TOOLTIP"
+				}
+				instantTextBoxType = {
+					name = "cosmic_storm_spawn_cooldown_scale_label"
+					font = "font_text_18"
+					text = "FE_COSMIC_STORM_SPAWN_COOLDOWN_SCALE"
+					position = { x = 10 y = 0 }
+					maxWidth = 380
+					maxHeight = 36
+					fixedSize = yes
+					vertical_alignment = center
+					alwaysTransparent = yes
+				}
+				instantTextBoxType = {
+					name = "pick_amount_value"
+					font = "font_text_18"
+					text = "0.25"
+					position = { x = @amount_c1x y = 0 }
+					maxWidth = 75
+					maxHeight = 36
+					fixedSize = yes
+					format = right
+					vertical_alignment = center
+					alwaysTransparent = yes
+				}
+				scrollbarType = {
+					id = "cosmic_storm_spawn_cooldown_scale_slider"
+					name = "amount_slider"
+					slider = "scrollbar_SliderButton"
+					track = "scrollbar_TrackButton"
+					leftbutton = "scrollbar_upButton"
+					rightbutton = "scrollbar_downButton"
+					size = { x = 307 y = 30 }
+					position = { x = @spinner_c1x y = 4 }
+					priority = 100
+					borderSize = { x = 16 y = 16 }
+					maxValue = 100
+					minValue = 0
+					stepSize = 1
+					startValue = 20
+					horizontal = 1
+					guiButtonType = {
+						name = "scrollbar_SliderButton"
+						quadTextureSprite = "GFX_settings_scroll_drager"
+						position = { x = 30 y = 0 }
+					}
+					guiButtonType = {
+						name = "scrollbar_TrackButton"
+						quadTextureSprite = "scrollbar_background"
+						position = { x = 30 y = 20 }
+					}
+					guiButtonType = {
+						name = "scrollbar_upButton"
+						quadTextureSprite = "scrollbar_leftbutton"
+						position = { x = 30 y = 0 }
+					}
+					guiButtonType = {
+						name = "scrollbar_downButton"
+						quadTextureSprite = "scrollbar_rightbutton"
+						position = { x = 30 y = 0 }
+					}
+					overlay = {
+						name = "selected_overlay"
+						spriteType = "GFX_glow_tile_orange_no_padding"
+						overSprite = "GFX_glow_tile_line"
+						position = { x = @spinnerOverlayPosX y = @spinnerOverlayPosY }
+						size = { x = @spinnerOverlaySizeX y = @spinnerOverlaySizeY }
+					}
 				}
 			}
 		}

@@ -4,11 +4,11 @@ guiTypes = {
 	@content_width_1920 = 1860
 	@content_width_2560 = 2160
 	@content_height_1050 = 565
-	@content_height_1080 = 580
+	@content_height_1080 = 565
 	@content_height_1200 = 700
 	@content_height_1440 = 925
 	@section_height_1050 = 615
-	@section_height_1080 = 630
+	@section_height_1080 = 615
 	@section_height_1200 = 750
 	@section_height_1440 = 975
 	# this controls the size of the 3d viewport ui element
@@ -66,7 +66,7 @@ guiTypes = {
 		position = { x = 1495 y = 330 }
 		if_scaled_resolution = {
 			min_height = 1080
-			position = { x = 1495 y = 345 }
+			position = { x = 1495 y = 335 }
 		}
 		if_scaled_resolution = {
 			min_height = 1200
@@ -77,7 +77,7 @@ guiTypes = {
 				position = { x = 1575 y = 330 }
 			if_scaled_resolution = {
 				min_height = 1080
-				position = { x = 1575 y = 345 }
+				position = { x = 1575 y = 335 }
 			}
 			if_scaled_resolution = {
 				min_height = 1200
@@ -86,7 +86,7 @@ guiTypes = {
 		}
 		if_scaled_resolution = {
 			min_width = 1920
-			position = { x = 1810 y = 345 }
+			position = { x = 1810 y = 335 }
 			if_scaled_resolution = {
 				min_height = 1200
 				position = { x = 1810 y = 404 }
@@ -98,7 +98,7 @@ guiTypes = {
 		}
 		if_scaled_resolution = {
 			min_width = 2560
-			position = { x = 2110 y = 345 }
+			position = { x = 2110 y = 335 }
 			if_scaled_resolution = {
 				min_height = 1200
 				position = { x = 2110 y = 404 }
@@ -128,7 +128,7 @@ guiTypes = {
 		size = { width = 1560 height = 940 }
 		if_scaled_resolution = {
 			min_height = 1080
-			size = { width = 1560 height = 955 }
+			size = { width = 1560 height = 940 }
 		}
 		if_scaled_resolution = {
 			min_height = 1200
@@ -139,7 +139,7 @@ guiTypes = {
 				size = { width = 1640 height = 940 }
 			if_scaled_resolution = {
 				min_height = 1080
-				size = { width = 1640 height = 955 }
+				size = { width = 1640 height = 940 }
 			}
 			if_scaled_resolution = {
 				min_height = 1200
@@ -148,7 +148,7 @@ guiTypes = {
 		}
 		if_scaled_resolution = {
 			min_width = 1920
-			size = { width = 1880 height = 955 }
+			size = { width = 1880 height = 940 }
 			if_scaled_resolution = {
 				min_height = 1200
 				size = { width = 1880 height = 1075 }
@@ -161,7 +161,7 @@ guiTypes = {
 		if_scaled_resolution = {
 			min_width = 2560
 			show_position = { x = 55 y = 50 }
-			size = { width = 2180 height = 955 }
+			size = { width = 2180 height = 940 }
 			if_scaled_resolution = {
 				min_height = 1200
 				size = { width = 2180 height = 1075 }
@@ -342,7 +342,7 @@ guiTypes = {
 			size = { x = 1520 y = 112 }
 			if_scaled_resolution = {
 				min_height = 1080
-				position = { x = 20 y = 825 }
+				position = { x = 20 y = 810 }
 			}
 			if_scaled_resolution = {
 				min_height = 1200
@@ -353,7 +353,7 @@ guiTypes = {
 				size = { x = 1600 y = 112 }
 				if_scaled_resolution = {
 					min_height = 1080
-					position = { x = 20 y = 825 }
+					position = { x = 20 y = 810 }
 				}
 				if_scaled_resolution = {
 					min_height = 1200
@@ -362,7 +362,7 @@ guiTypes = {
 			}
 			if_scaled_resolution = {
 				min_width = 1920
-				position = { x = 20 y = 825 }
+				position = { x = 20 y = 810 }
 				size = { x = 1840 y = 112 }
 				if_scaled_resolution = {
 					min_height = 1200
@@ -375,7 +375,7 @@ guiTypes = {
 			}
 			if_scaled_resolution = {
 				min_width = 2560
-				position = { x = 20 y = 825 }
+				position = { x = 20 y = 810 }
 				size = { x = 2140 y = 112 }
 				if_scaled_resolution = {
 					min_height = 1200
@@ -2609,10 +2609,6 @@ guiTypes = {
 		position = { x = 0 y = 0 }
 		size = { width = 54 height = 50 }
 		if_scaled_resolution = {
-			min_width = 1920
-			size = { width = 61 height = 52 }
-		}
-		if_scaled_resolution = {
 			min_width = 2560
 			min_height = 1440
 			size = { width = 68 height = 64 }
@@ -2627,11 +2623,6 @@ guiTypes = {
 			quadTextureSprite = "GFX_button_ship_designer_slot_48_48"
 			scale = 0.8
 			if_scaled_resolution = {
-				min_width = 1920
-				position = { x = -1 y = -4 }
-				scale = 0.9
-			}
-			if_scaled_resolution = {
 				min_width = 2560
 				min_height = 1440
 				scale = 1
@@ -2643,10 +2634,6 @@ guiTypes = {
 			orientation = center
 			centerPosition = yes
 			scale = 0.8
-			if_scaled_resolution = {
-				min_width = 1920
-				scale = 0.9
-			}
 			if_scaled_resolution = {
 				min_width = 2560
 				min_height = 1440

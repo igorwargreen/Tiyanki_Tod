@@ -198,7 +198,6 @@ guiTypes = {
 				name = "pops_icon"
 				spriteType = "GFX_planet_view_pop"
 				position = { x = 244 y = 0 }
-				scale = 1
 			}
 			instantTextBoxType = {
 				name = "pops_amount"

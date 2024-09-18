@@ -40,14 +40,12 @@ guiTypes = {
 			spriteType = "GFX_crosshair_cursor"
 			position = { x = -27.5 y = -27.5 }
 			orientation = center
-			scale = 1
 		}
 		buttonType = {
 			name = "crosshair_cursor_overlay"
 			spriteType = "GFX_crosshair_cursor_overlay"
 			position = { x = -27.5 y = -27.5 }
 			orientation = center
-			scale = 1
 		}
 		### topbar background
 		containerWindowType = {
@@ -56,7 +54,7 @@ guiTypes = {
 			size = { width = 1026 height = 46 }
 			if_scaled_resolution = {
 				max_width = 2559
-				size = { width = 100% height = 46 }
+				size = { width = 100%% height = 46 }
 			}
 			clipping = no
 			background = {
@@ -65,11 +63,11 @@ guiTypes = {
 			}
 			containerWindowType = {
 				name = "topbar_wrapper"
-				size = { width = 100% height = 100% }
+				size = { width = 100%% height = 100%% }
 				clipping = yes
 				containerWindowType = {
 					name = "topbar_container"
-					size = { width = 100% height = 100% }
+					size = { width = 100%% height = 100%% }
 					background = {
 						name = "topbar_background_hexagon"
 						spriteType = "GFX_ui_topbar_background_hexagon"
@@ -157,10 +155,10 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "amount"
 					font = "font_text_14"
+					text = "0 / 0"
 					position = { x = 22 y = 0 }
 					maxWidth = 78
 					maxHeight = 20
-					text = "0 / 0"
 					fixedSize = yes
 					format = left
 					vertical_alignment = center
@@ -186,10 +184,10 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "amount"
 					font = "font_text_14"
+					text = "0 / 0"
 					position = { x = 22 y = 0 }
 					maxWidth = 78
 					maxHeight = 20
-					text = "0 / 0"
 					fixedSize = yes
 					format = left
 					vertical_alignment = center
@@ -215,10 +213,10 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "amount"
 					font = "font_text_14"
+					text = "0 / 0"
 					position = { x = 22 y = 0 }
 					maxWidth = 78
 					maxHeight = 20
-					text = "0 / 0"
 					fixedSize = yes
 					format = left
 					vertical_alignment = center
@@ -244,10 +242,10 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "amount"
 					font = "font_text_14"
+					text = "0 / 0"
 					position = { x = 22 y = 0 }
 					maxWidth = 78
 					maxHeight = 20
-					text = "0 / 0"
 					fixedSize = yes
 					format = left
 					vertical_alignment = center
@@ -273,10 +271,10 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "amount"
 					font = "font_text_14"
+					text = "0 / 0"
 					position = { x = 22 y = 0 }
 					maxWidth = 78
 					maxHeight = 20
-					text = "0 / 0"
 					fixedSize = yes
 					format = left
 					vertical_alignment = center
@@ -302,10 +300,10 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "amount"
 					font = "font_text_14"
+					text = "0 / 0"
 					position = { x = 22 y = 0 }
 					maxWidth = 78
 					maxHeight = 20
-					text = "0 / 0"
 					fixedSize = yes
 					format = left
 					vertical_alignment = center
@@ -331,10 +329,10 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "amount"
 					font = "font_text_14"
+					text = "0 / 0"
 					position = { x = 22 y = 0 }
 					maxWidth = 78
 					maxHeight = 20
-					text = "0 / 0"
 					fixedSize = yes
 					format = left
 					vertical_alignment = center
@@ -360,10 +358,10 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "amount"
 					font = "font_text_14"
+					text = "0 / 0"
 					position = { x = 22 y = 0 }
 					maxWidth = 78
 					maxHeight = 20
-					text = "0 / 0"
 					fixedSize = yes
 					format = left
 					vertical_alignment = center
@@ -382,7 +380,6 @@ guiTypes = {
 				iconType = {
 					name = "icon"
 					spriteType = "GFX_research_icon"
-					scale = 1
 					position = { x = 4 y = 9 }
 					tooltip_mode_enabled = yes
 					alwaysTransparent = yes
@@ -390,10 +387,10 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "amount"
 					font = "font_text_14"
+					text = "0 / 0"
 					position = { x = 24 y = 0 }
 					maxWidth = 40
 					maxHeight = 40
-					text = "0 / 0"
 					format = left
 					fixedSize = yes
 					vertical_alignment = center
@@ -437,10 +434,10 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "amount"
 					font = "font_text_14"
+					text = "0 / 0"
 					position = { x = 25 y = 0 }
 					maxWidth = 75
 					maxHeight = 40
-					text = "0 / 0"
 					fixedSize = yes
 					format = left
 					vertical_alignment = center
@@ -451,6 +448,7 @@ guiTypes = {
 					position = { x = 0 y = 44 }
 					size = { width = 710 height = 300 } # Dynamic in topbar_other_resource_groups.txt
 					#verticalScrollbar = "right_vertical_slider_thick"
+					#smooth_scrolling = yes
 					background = {
 						name = "bg"
 						spriteType = "GFX_invisible"
@@ -509,10 +507,10 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "amount"
 					font = "font_text_14"
+					text = "250"
 					position = { x = 22 y = 0 }
 					maxWidth = 78
 					maxHeight = 20
-					text = "250"
 					fixedSize = yes
 					format = left
 					vertical_alignment = center
@@ -539,10 +537,10 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "amount"
 					font = "font_text_14"
+					text = "10"
 					position = { x = 22 y = 0 }
 					maxWidth = 78
 					maxHeight = 20
-					text = "10"
 					fixedSize = yes
 					format = left
 					vertical_alignment = center
@@ -569,10 +567,10 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "amount"
 					font = "font_text_14"
+					text = "10"
 					position = { x = 0 y = 20 }
 					maxWidth = 75
 					maxHeight = 20
-					text = "10"
 					fixedSize = yes
 					format = center
 					vertical_alignment = center
@@ -618,10 +616,10 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "amount"
 					font = "font_text_14"
+					text = "0 / 0"
 					position = { x = 0 y = 20 }
 					maxWidth = 75
 					maxHeight = 20
-					text = "0 / 0"
 					fixedSize = yes
 					format = center
 					vertical_alignment = center
@@ -646,11 +644,11 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "amount"
 					font = "font_text_14"
+					text = "0 / 0"
 					position = { x = 0 y = 20 }
 					maxWidth = 110
 					maxHeight = 20
 					fixedSize = yes
-					text = "0 / 0"
 					format = center
 					vertical_alignment = center
 					alwaysTransparent = yes
@@ -660,14 +658,14 @@ guiTypes = {
 		# game time
 		containerWindowType = {
 			name = "time_window"
-			position = { x = -204 y = 0 }
 			size = { width = 212 height = 46 }
 			if_scaled_resolution = {
 				min_width = 1920
-				position = { x = -327 y = 0 }
-				size = { width = 334 height = 46 }
+				size = { width = 300 height = 46 }
 			}
+			position = { x = 0 y = 0 }
 			orientation = upper_right
+			origo = upper_right
 			clipping = no
 			background = {
 				name = "background"
@@ -679,11 +677,17 @@ guiTypes = {
 			}
 			if_scaled_resolution = {
 				min_width = 3440
-				position = { x = -427 y = 0 }
-				size = { width = 434 height = 46 }
+				size = { width = 400 height = 46 }
 			}
 			if_scaled_resolution = {
 				min_width = 2560
+				iconType = {
+					name = "topbar_bar_corner"
+					spriteType = "GFX_ui_topbar_background_corner"
+					position = { x = -46 y = 0 }
+					frame = 2
+					alwaysTransparent = yes
+				}
 				containerWindowType = {
 					name = "topbar_wrapper"
 					size = { width = 100% height = 100% }
@@ -808,15 +812,15 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "debug_version"
 			font = "font_text_14"
-			position = { x = -204 y = -52 }
-			maxHeight = 16
-			maxWidth = 200
-			fixedSize = yes
-			alwaysTransparent = yes
 			text = "Build: 12332"
-			text_color_code = "H"
-			format = right
+			position = { x = -204 y = -52 }
 			orientation = lower_right
+			maxWidth = 200
+			maxHeight = 16
+			fixedSize = yes
+			format = right
+			text_color_code = "H"
+			alwaysTransparent = yes
 		}
 	}
 	containerWindowType = {
@@ -829,8 +833,8 @@ guiTypes = {
 		}
 		containerWindowType = {
 			name = "background_notrans"
-			position = { x = 2 y = 2 }
 			size = { width = 96 height = 24 }
+			position = { x = 2 y = 2 }
 			background = {
 				name = "background_notrans"
 				spriteType = "GFX_tiles_frame_notrans"
@@ -846,10 +850,10 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "amount"
 			font = "font_text_14"
+			text = "0 / 0"
 			position = { x = 25 y = 2 }
 			maxWidth = 70
 			maxHeight = 24
-			text = "0 / 0"
 			vertical_alignment = center
 			alwaysTransparent = yes
 		}
@@ -878,14 +882,14 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "label"
 			font = "font_header_20"
-			position = { x = 20 y = 5 }
-			maxHeight = 16
-			maxWidth = 249
-			fixedSize = yes
-			alwaysTransparent = yes
 			text = "ORDERS"
 			appendText = ":"
+			position = { x = 20 y = 5 }
+			maxWidth = 249
+			maxHeight = 16
+			fixedSize = yes
 			text_color_code = "H"
+			alwaysTransparent = yes
 		}
 		smoothListboxType = {
 			name = "orders"
@@ -939,119 +943,104 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "text"
 				font = "large_title_font"
+				text = "SAVING_GAME"
 				position = { x = 0 y = 6 }
 				maxWidth = 300
 				maxHeight = 50
-				text = "SAVING_GAME"
 				fixedSize = yes
-				alwaysTransparent = yes
 				format = center
+				alwaysTransparent = yes
 			}
 		}
 	}
-	## Lives in leaders_grid
-	# containerWindowType = {
-	# 	name = "topbar_leader_gridbox_entry"
-	# 	size = { width = 160 height = 28 }
-	# 	background = {
-	# 		name = "background"
-	# 		spriteType = "GFX_ui_topbar_bg_tile"
-	# 		clicksound = interface
-	# 	}
-	# 	containerWindowType = {
-	# 		name = "background_notrans"
-	# 		position = { x = 2 y = 2 }
-	# 		size = { width = 156 height = 24 }
-	# 		background = {
-	# 			name = "background_notrans"
-	# 			spriteType = "GFX_tiles_frame_notrans"
-	# 			alwaysTransparent = yes
-	# 		}
-	# 	}
-	# 	iconType = {
-	# 		name = "leader_class_icon"
-	# 		spriteType = "GFX_leader_icons"
-	# 		position = { x = 17 y = 14 }
-	# 		scale = 0.6
-	# 		centerPosition = yes
-	# 		alwaysTransparent = yes
-	# 	}
-	# 	instantTextBoxType = {
-	# 		name = "class_name"
-	# 		font = "font_text_14"
-	# 		position = { x = 34 y = 2 }
-	# 		maxWidth = 130
-	# 		maxHeight = 24
-	# 		text_color_code = "E"
-	# 		vertical_alignment = center
-	# 		alwaysTransparent = yes
-	# 	}
-	# 	buttonType = {
-	# 		name = "button"
-	# 		size = { x = 160 y = 28 }
-	# 		quadTextureSprite = "GFX_invisible"
-	# 	}
-	# }
 	containerWindowType = {
 		name = "debug_stats"
-		position = { x = 10 y = 720 }
-		size = { width = 400 height = 250 }
-		clipping = yes
+		size = { width = 500 height = 200 }
+		position = { x = 140 y = 0 }
+		orientation = lower_left
+		origo = lower_left
+		moveable = yes
+		clipping = no
 		background = {
 			name = "background"
-			quadTextureSprite = "GFX_tile_outliner_bg"
+			quadTextureSprite = "GFX_tile_center_bg"
+		}
+		iconType = {
+			name = "hex_bg_left"
+			spriteType = "GFX_hex_center_bg"
+			position = { x = -79 y = 22 }
+			orientation = center_up
+			centerPosition = yes
+			alwaysTransparent = yes
+		}
+		iconType = {
+			name = "hex_bg_right"
+			spriteType = "GFX_hex_center_bg"
+			position = { x = 79 y = 22 }
+			orientation = center_up
+			centerPosition = yes
+			alwaysTransparent = yes
+		}
+		iconType = {
+			name = "header_line"
+			spriteType = "GFX_line_center"
+			position = { x = 0 y = 42 }
+			orientation = center_up
+			centerPosition = yes
+			alwaysTransparent = yes
 		}
 		instantTextBoxType = {
 			name = "title"
-			position = { x = 22 y = 5 }
 			text = "Jeff's Debug Stats"
 			font = "font_header_20"
+			position = { x = -200 y = 9 }
+			orientation = center_up
 			maxWidth = 400
-			maxHeight = 100
+			maxHeight = 24
 			fixedSize = yes
-			alwaysTransparent = yes
+			format = center
 			text_color_code = "E"
+			alwaysTransparent = yes
 		}
 		iconType = {
 			name = "portrait"
 			quadTextureSprite = "GFX_portrait_character"
-			position = { x = -75 y = 40 }
-			scale = 0.5
-			alwaysTransparent = yes
+			position = { x = -300 y = -180 }
+			scale = 1
 		}
 		instantTextBoxType = {
 			name = "avg_frame_time"
 			font = "font_text_14"
-			position = { x = 120 y = 60 }
+			text = "aaaaaaaah!"
+			position = { x = 150 y = 60 }
 			maxWidth = 300
 			maxHeight = 16
-			text = "aaaaaaaah!"
 		}
 		instantTextBoxType = {
 			name = "avg_micro_tick"
 			font = "font_text_14"
-			position = { x = 120 y = 80 }
+			position = { x = 150 y = 80 }
 			maxWidth = 300
 			maxHeight = 16
 		}
 		instantTextBoxType = {
 			name = "last_daily_tick"
 			font = "font_text_14"
-			position = { x = 120 y = 100 }
+			position = { x = 150 y = 100 }
 			maxWidth = 300
 			maxHeight = 16
 		}
 		instantTextBoxType = {
 			name = "avg_daily_tick"
 			font = "font_text_14"
-			position = { x = 120 y = 120 }
+			position = { x = 150 y = 120 }
 			maxWidth = 300
 			maxHeight = 16
 		}
 		instantTextBoxType = {
 			name = "avg_extra_daily_tick_frames"
 			font = "font_text_14"
-			position = { x = 120 y = 140 }
+			position = { x = 150 y = 140 }
 			maxWidth = 300
 			maxHeight = 16
 		}

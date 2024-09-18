@@ -64,4 +64,16 @@ spriteTypes = {
 		name = "GFX_text_rights"
 		textureFile = "gfx/ui_overhaul_qhd/icons/text_icons/icon_text_rights.dds"
 	}
+	spriteType = {
+		name = "GFX_text_sector_type"
+		textureFile = "gfx/ui_overhaul_qhd/icons/text_icons/icon_text_sector_type.dds"
+	}
+	spriteType = {
+		name = "GFX_text_leader"
+		textureFile = "gfx/ui_overhaul_qhd/icons/text_icons/icon_text_leader.dds"
+	}
+	spriteType = {
+		name = "GFX_text_federation"
+		textureFile = "gfx/ui_overhaul_qhd/icons/text_icons/icon_text_federation.dds"
+	}
 }

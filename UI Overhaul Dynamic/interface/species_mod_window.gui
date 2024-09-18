@@ -58,7 +58,7 @@ guiTypes = {
 		}
 		containerWindowType = {
 			name = "species_name_title_background"
-			position = { x = 20 y = 52 }
+			position = { x = 20 y = 62 }
 			size = { width = 105 height = 34 }
 			background = {
 				name = "species_name_title_background"
@@ -183,7 +183,6 @@ guiTypes = {
 				name = "species_portrait"
 				spriteType = "GFX_portrait_character"
 				position = { x = -35 y = -16 }
-				scale = 1
 				alwaysTransparent = yes
 			}
 		}
@@ -230,6 +229,7 @@ guiTypes = {
 			clipping = yes
 			margin = { top = 6 bottom = 6 }
 			verticalScrollbar = "right_vertical_slider_thick_small"
+			smooth_scrolling = yes
 			background = {
 				name = "background"
 				spriteType = "GFX_invisible"
@@ -286,6 +286,7 @@ guiTypes = {
 			clipping = yes
 			margin = { top = 6 bottom = 6 }
 			verticalScrollbar = "right_vertical_slider_thick_small"
+			smooth_scrolling = yes
 			background = {
 				name = "background"
 				spriteType = "GFX_invisible"
@@ -330,6 +331,7 @@ guiTypes = {
 			clipping = yes
 			margin = { top = 6 bottom = 6 }
 			verticalScrollbar = "right_vertical_slider_thick"
+			smooth_scrolling = yes
 			background = {
 				name = "background"
 				spriteType = "GFX_invisible"

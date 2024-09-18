@@ -5,7 +5,7 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "standard_dialog"
-		size = { width = 560 height = 212 }
+		size = { width = 560 height = 216 }
 		position = { x = 0 y = 0 }
 		orientation = center
 		origo = center
@@ -16,16 +16,16 @@ guiTypes = {
 		}
 		iconType = {
 			name = "hex_bg_left"
-			position = { x = -79 y = 22 }
 			spriteType = "GFX_hex_center_bg"
+			position = { x = -79 y = 22 }
 			orientation = center_up
 			centerPosition = yes
 			alwaysTransparent = yes
 		}
 		iconType = {
 			name = "hex_bg_right"
-			position = { x = 79 y = 22 }
 			spriteType = "GFX_hex_center_bg"
+			position = { x = 79 y = 22 }
 			orientation = center_up
 			centerPosition = yes
 			alwaysTransparent = yes
@@ -41,42 +41,54 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "title"
 			font = "font_header_20"
-			text = ""
+			text = "TITLE"
 			position = { x = -250 y = 9 }
 			orientation = center_up
 			maxWidth = 500
 			maxHeight = 24
 			format = center
 		}
+		containerWindowType = {
+			name = "description_background"
+			size = { width = -30 height = -58 }
+			position = { x = 30 y = 56 }
+			background = {
+				name = "description_background"
+				quadTextureSprite = "GFX_tiles_dark_area_cut_8"
+			}
+		}
 		instantTextBoxType = {
 			name = "description"
 			font = "font_text_16"
-			text = ""
-			position = { x = -250 y = 65 }
+			text = "DESC"
+			position = { x = -240 y = 66 }
 			orientation = center_up
-			maxWidth = 500
-			maxHeight = 20
+			maxWidth = 480
 			format = center
 			text_color_code = "E"
 		}
 		buttonType = {
 			name = "DeclineButton"
-			quadTextureSprite = "GFX_standard_button_142_34_button"
-			buttonFont = "font_text_20"
+			quadTextureSprite = "GFX_standard_button_180_34_button"
+			position = { x = 42 y = -58 }
+			orientation = lower_left
+			buttonFont = "font_text_18"
 			buttonText = "DIALOG_DECLINE"
-			position = { x = -200 y = -60 }
-			orientation = center_down
+			borderSize = { x = 10 y = 0 }
+			multiline = yes
 			shortcut = "ESCAPE"
 			actionShortcut = "cancel"
 			clicksound = back_click
 		}
 		buttonType = {
 			name = "AgreeButton"
-			quadTextureSprite = "GFX_standard_button_142_34_button"
-			buttonFont = "font_text_20"
+			quadTextureSprite = "GFX_standard_button_180_34_button"
+			position = { x = -246 y = -58 }
+			orientation = lower_right
+			buttonFont = "font_text_18"
 			buttonText = "DIALOG_AGREE"
-			position = { x = 34 y = -60 }
-			orientation = center_down
+			borderSize = { x = 10 y = 0 }
+			multiline = yes
 			shortcut = "RETURN"
 			actionShortcut = "accept"
 			clicksound = "confirmation"
@@ -96,17 +108,17 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "title"
 			font = "font_header_20"
-			text = ""
+			text = "TITLE"
 			position = { x = -200 y = 40 }
 			orientation = center_up
 			maxWidth = 400
-			maxHeight = 20
+			maxHeight = 24
 			format = center
 		}
 		instantTextBoxType = {
 			name = "description"
-			font = "font_text_14"
-			text = ""
+			font = "font_text_16"
+			text = "DESC"
 			position = { x = -200 y = 80 }
 			orientation = center_up
 			maxWidth = 400
@@ -116,21 +128,21 @@ guiTypes = {
 		}
 		buttonType = {
 			name = "AgreeButton"
-			quadTextureSprite = "GFX_standard_button_142_34_button"
-			buttonFont = "font_text_20"
-			buttonText = "DIALOG_AGREE"
-			position = { x = -83 y = -75 }
+			quadTextureSprite = "GFX_standard_button_180_34_button"
+			position = { x = -102 y = -75 }
 			orientation = center_down
+			buttonFont = "font_text_18"
+			buttonText = "DIALOG_AGREE"
+			borderSize = { x = 10 y = 0 }
+			multiline = yes
 			shortcut = "RETURN"
 			actionShortcut = "accept"
 			clicksound = "confirm_click"
 		}
 		buttonType = {
 			name = "DeclineButton"
-			quadTextureSprite = "GFX_standard_button_142_34_button"
-			buttonFont = "font_text_20"
-			buttonText = "DIALOG_DECLINE"
-			position = { x = 9999 y = 180 }
+			quadTextureSprite = "GFX_invisible"
+			position = { x = -32 y = -32 }
 			shortcut = "ESCAPE"
 			actionShortcut = "cancel"
 			clicksound = "back_click"
@@ -147,31 +159,52 @@ guiTypes = {
 			name = "background"
 			quadTextureSprite = "GFX_standard_dialog_bg"
 		}
+		iconType = {
+			name = "toot_left"
+			spriteType = "GFX_ui_toot"
+			position = { x = 47 y = 45 }
+			centerPosition = yes
+			alwaysTransparent = yes
+		}
+		iconType = {
+			name = "toot_right"
+			spriteType = "GFX_ui_toot"
+			position = { x = -49 y = 45 }
+			orientation = upper_right
+			centerPosition = yes
+			alwaysTransparent = yes
+		}
 		instantTextBoxType = {
 			name = "title"
 			font = "font_header_20"
-			text = ""
+			text = "TITLE"
 			position = { x = 40 y = 25 }
 			maxWidth = 400
-			maxHeight = 20
+			maxHeight = 24
 			format = center
 		}
 		buttonType = {
 			name = "DeclineButton"
-			quadTextureSprite = "GFX_standard_button_142_34_button"
-			position = { x = 65 y = 128 }
+			quadTextureSprite = "GFX_standard_button_180_34_button"
+			position = { x = 18 y = -75 }
+			orientation = lower_left
+			buttonFont = "font_text_18"
 			buttonText = "CANCEL"
-			buttonFont = "font_text_16"
+			borderSize = { x = 10 y = 0 }
+			multiline = yes
 			shortcut = "ESCAPE"
 			actionShortcut = "cancel"
 			clicksound = "back_click"
 		}
 		buttonType = {
 			name = "AgreeButton"
-			quadTextureSprite = "GFX_standard_button_142_34_button"
-			position = { x = 249 y = 128 }
+			quadTextureSprite = "GFX_standard_button_180_34_button"
+			position = { x = -222 y = -75 }
+			orientation = lower_right
+			buttonFont = "font_text_18"
 			buttonText = "RELOAD"
-			buttonFont = "font_text_16"
+			borderSize = { x = 10 y = 0 }
+			multiline = yes
 			shortcut = "RETURN"
 			actionShortcut = "accept"
 			clicksound = "confirm_click"
@@ -179,17 +212,17 @@ guiTypes = {
 		buttonType = {
 			name = "OpenButton"
 			quadTextureSprite = "GFX_standard_button_142_34_button"
-			position = { x = 306 y = 65 }
+			position = { x = 296 y = 65 }
 			buttonText = "OPEN"
 			buttonFont = "font_text_16"
 		}
 		instantTextBoxType = {
-			position = { x = 25 y = 65 }
 			name = "description"
-			font = "font_text_14"
-			text = ""
-			maxWidth = 280
-			maxHeight = 58
+			font = "font_text_16"
+			text = "DESC"
+			position = { x = 25 y = 55 }
+			maxWidth = 260
+			maxHeight = 78
 			fixedSize = yes
 			format = center
 			vertical_alignment = center
@@ -198,7 +231,7 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "message_window_dialog"
-		size = { width = 560 height = 212 }
+		size = { width = 560 height = 236 }
 		position = { x = 0 y = 0 }
 		orientation = center
 		origo = center
@@ -209,16 +242,16 @@ guiTypes = {
 		}
 		iconType = {
 			name = "hex_bg_left"
-			position = { x = -79 y = 22 }
 			spriteType = "GFX_hex_center_bg"
+			position = { x = -79 y = 22 }
 			orientation = center_up
 			centerPosition = yes
 			alwaysTransparent = yes
 		}
 		iconType = {
 			name = "hex_bg_right"
-			position = { x = 79 y = 22 }
 			spriteType = "GFX_hex_center_bg"
+			position = { x = 79 y = 22 }
 			orientation = center_up
 			centerPosition = yes
 			alwaysTransparent = yes
@@ -234,7 +267,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "title"
 			font = "font_header_20"
-			text = ""
+			text = "TITLE"
 			position = { x = -250 y = 9 }
 			orientation = center_up
 			maxWidth = 500
@@ -250,24 +283,34 @@ guiTypes = {
 			shortcut = "q"
 			actionShortcut = "focus_camera"
 		}
+		containerWindowType = {
+			name = "description_background"
+			size = { width = -30 height = -60 }
+			position = { x = 30 y = 56 }
+			background = {
+				name = "description_background"
+				quadTextureSprite = "GFX_tiles_dark_area_cut_8"
+			}
+		}
 		instantTextBoxType = {
 			name = "description"
 			font = "font_text_16"
-			text = ""
-			position = { x = -250 y = 65 }
-			orientation = center_up
-			maxWidth = 500
-			maxHeight = 20
+			text = "DESC"
+			position = { x = 40 y = 66 }
+			maxWidth = 480
+			maxHeight = 100
 			format = center
 			text_color_code = "E"
 		}
 		buttonType = {
 			name = "AgreeButton"
-			quadTextureSprite = "GFX_standard_button_230_34_button"
-			buttonFont = "font_text_20"
-			buttonText = "MESSAGE_OK"
-			orientation = center_down
+			quadTextureSprite = "GFX_standard_button_240_34_button"
 			position = { x = -126 y = -60 }
+			orientation = center_down
+			buttonFont = "font_text_18"
+			buttonText = "MESSAGE_OK"
+			borderSize = { x = 10 y = 0 }
+			multiline = yes
 			clicksound = "confirmation"
 			shortcut = "RETURN"
 			actionShortcut = "accept"
@@ -288,16 +331,16 @@ guiTypes = {
 		}
 		iconType = {
 			name = "hex_bg_left"
-			position = { x = -79 y = 22 }
 			spriteType = "GFX_hex_center_bg"
+			position = { x = -79 y = 22 }
 			orientation = center_up
 			centerPosition = yes
 			alwaysTransparent = yes
 		}
 		iconType = {
 			name = "hex_bg_right"
-			position = { x = 79 y = 22 }
 			spriteType = "GFX_hex_center_bg"
+			position = { x = 79 y = 22 }
 			orientation = center_up
 			centerPosition = yes
 			alwaysTransparent = yes
@@ -313,22 +356,12 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "title"
 			font = "font_header_20"
-			text = ""
+			text = "TITLE"
 			position = { x = -250 y = 9 }
 			orientation = center_up
 			maxWidth = 500
 			maxHeight = 24
 			format = center
-		}
-		instantTextBoxType = {
-			name = "description"
-			font = "font_text_14"
-			position = { x = 31 y = 146 }
-			format = center
-			maxWidth = 535
-			maxHeight = 250
-			text = ""
-			text_color_code = "E"
 		}
 		### actor ###
 		buttonType = {
@@ -347,24 +380,26 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "actor_name"
-			maxWidth = 270
-			maxHeight = 20
-			position = { x = 15 y = 75 }
-			font = "font_header_20"
+			font = "font_text_18"
 			text = "empire name"
+			position = { x = 15 y = 70 }
+			maxWidth = 270
+			maxHeight = 30
 			fixedSize = yes
 			format = center
+			vertical_alignment = center
 			text_color_code = "H"
 		}
 		instantTextBoxType = {
 			name = "actor_type"
-			maxWidth = 270
-			maxHeight = 20
-			position = { x = 15 y = 99 }
-			font = "font_header_20"
+			font = "font_text_16"
 			text = "empire type"
+			position = { x = 15 y = 100 }
+			maxWidth = 270
+			maxHeight = 30
 			fixedSize = yes
 			format = center
+			vertical_alignment = center
 		}
 		### recipient ###
 		buttonType = {
@@ -385,28 +420,28 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "recipient_name"
-			format = right
+			font = "font_text_18"
+			text = "empire name"
+			position = { x = -285 y = 70 }
 			orientation = upper_right
 			maxWidth = 270
-			maxHeight = 20
-			position = { x = -285 y = 75 }
-			font = "font_header_20"
-			text = "empire name"
+			maxHeight = 30
 			fixedSize = yes
 			format = center
+			vertical_alignment = center
 			text_color_code = "H"
 		}
 		instantTextBoxType = {
 			name = "recipient_type"
-			format = right
+			font = "font_text_16"
+			text = "empire type"
+			position = { x = -285 y = 100 }
 			orientation = upper_right
 			maxWidth = 270
-			maxHeight = 20
-			position = { x = -285 y = 99 }
-			font = "font_header_20"
-			text = "empire type"
+			maxHeight = 30
 			fixedSize = yes
 			format = center
+			vertical_alignment = center
 		}
 		iconType = {
 			name = "diplomacy_icon_bg"
@@ -422,14 +457,36 @@ guiTypes = {
 			orientation = center_up
 			centerPosition = yes
 		}
+		### description ###
+		containerWindowType = {
+			name = "description_background"
+			size = { width = -30 height = -60 }
+			position = { x = 30 y = 140 }
+			background = {
+				name = "description_background"
+				quadTextureSprite = "GFX_tiles_dark_area_cut_8"
+			}
+		}
+		instantTextBoxType = {
+			name = "description"
+			font = "font_text_16"
+			text = "DESC"
+			position = { x = 40 y = 150 }
+			format = center
+			maxWidth = 520
+			maxHeight = 250
+			text_color_code = "E"
+		}
 		###
 		buttonType = {
 			name = "AgreeButton"
-			quadTextureSprite = "GFX_standard_button_230_34_button"
-			orientation = center_down
+			quadTextureSprite = "GFX_standard_button_240_34_button"
 			position = { x = -126 y = -60 }
-			buttonText = "MESSAGE_OK"
+			orientation = center_down
 			buttonFont = "font_text_20"
+			buttonText = "MESSAGE_OK"
+			borderSize = { x = 10 y = 0 }
+			multiline = yes
 			clicksound = "confirmation"
 			shortcut = "RETURN"
 			actionShortcut = "accept"
@@ -472,6 +529,7 @@ guiTypes = {
 		orientation = center
 		origo = center
 		moveable = yes
+		clipping = no
 		### header gfx ###
 		background = {
 			name = "background"
@@ -479,16 +537,16 @@ guiTypes = {
 		}
 		iconType = {
 			name = "hex_bg_left"
-			position = { x = -79 y = 22 }
 			spriteType = "GFX_hex_center_bg"
+			position = { x = -79 y = 22 }
 			orientation = center_up
 			centerPosition = yes
 			alwaysTransparent = yes
 		}
 		iconType = {
 			name = "hex_bg_right"
-			position = { x = 79 y = 22 }
 			spriteType = "GFX_hex_center_bg"
+			position = { x = 79 y = 22 }
 			orientation = center_up
 			centerPosition = yes
 			alwaysTransparent = yes
@@ -504,7 +562,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "title"
 			font = "font_header_20"
-			text = ""
+			text = "TITLE"
 			position = { x = -250 y = 9 }
 			orientation = center_up
 			maxWidth = 500
@@ -514,7 +572,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "description"
 			font = "font_text_14"
-			text = ""
+			text = "DESC"
 			position = { x = -210 y = 130 }
 			orientation = center_up
 			maxWidth = 420
@@ -528,60 +586,62 @@ guiTypes = {
 			quadTextureSprite = "GFX_federation_flag_bg"
 			position = { x = -233 y = 7 }
 			orientation = center_up
-			scale = 1
 		}
 		iconType = {
 			name = "type_icon"
 			quadTextureSprite = "GFX_default_federation"
 			position = { x = -235 y = 12 }
 			orientation = center_up
-			scale = 1
 		}
 		instantTextBoxType = {
 			name = "federation_name"
-			font = "font_text_14"
+			font = "font_text_16"
 			text = "empire name"
 			position = { x = 10 y = 80 }
 			maxWidth = 200
-			maxHeight = 20
+			maxHeight = 24
 			fixedSize = yes
+			vertical_alignment = center
 			text_color_code = "H"
 		}
 		instantTextBoxType = {
 			name = "federation_type"
 			font = "font_text_14"
 			text = "empire type"
-			position = { x = 10 y = 95 }
+			position = { x = 10 y = 104 }
 			maxWidth = 200
 			maxHeight = 20
+			vertical_alignment = center
 		}
 		### actor ###
 		buttonType = {
 			name = "actor_flag"
 			quadTextureSprite = "GFX_empire_flag_64"
-			position = { x = 168 y = 8 }
-			orientation = center_up
+			position = { x = -50 y = -10 }
+			orientation = upper_right
 		}
 		instantTextBoxType = {
 			name = "actor_name"
-			font = "font_text_14"
+			font = "font_text_16"
 			text = "empire name"
 			position = { x = -210 y = 80 }
 			orientation = upper_right
 			maxWidth = 200
-			maxHeight = 20
+			maxHeight = 24
 			format = right
+			vertical_alignment = center
 			text_color_code = "H"
 		}
 		instantTextBoxType = {
 			name = "actor_type"
 			font = "font_text_14"
 			text = "empire type"
-			position = { x = -210 y = 95 }
+			position = { x = -210 y = 104 }
 			orientation = upper_right
 			maxWidth = 200
 			maxHeight = 20
 			format = right
+			vertical_alignment = center
 		}
 		iconType = {
 			name = "diplomacy_icon_bg"
@@ -598,11 +658,13 @@ guiTypes = {
 		###
 		buttonType = {
 			name = "AgreeButton"
-			quadTextureSprite = "GFX_standard_button_142_34_button"
+			quadTextureSprite = "GFX_standard_button_240_34_button"
+			position = { x = -126 y = -60 }
+			orientation = center_down
 			buttonFont = "font_text_20"
 			buttonText = "MESSAGE_OK"
-			position = { x = -83 y = -60 }
-			orientation = center_down
+			borderSize = { x = 10 y = 0 }
+			multiline = yes
 			clicksound = "confirmation"
 			shortcut = "RETURN"
 			actionShortcut = "accept"
@@ -613,6 +675,7 @@ guiTypes = {
 			position = { x = 20 y = 210 }
 			margin = { top = 2 bottom = 2 }
 			verticalScrollbar = "right_vertical_slider_thick"
+			smooth_scrolling = yes
 			background = {
 				name = "votes_bg"
 				quadTextureSprite = "GFX_dark_area_cut"
@@ -641,62 +704,79 @@ guiTypes = {
 			name = "background"
 			spriteType = "GFX_invisible"
 		}
-		buttonType = {
-			name = "background"
-			spriteType = "GFX_tile_center_bg"
+		containerWindowType = {
+			name = "fake_background"
+			size = { width = 480 height = 246 }
 			orientation = center
-			size = { x = 480 y = 212 }
-			position = { x = -240 y = -115 }
-		}
-		iconType = {
-			name = "hex_bg_left"
-			position = { x = -79 y = -89 }
-			spriteType = "GFX_hex_center_bg"
-			orientation = center
-			centerPosition = yes
-			alwaysTransparent = yes
-		}
-		iconType = {
-			name = "hex_bg_right"
-			position = { x = 79 y = -89 }
-			spriteType = "GFX_hex_center_bg"
-			orientation = center
-			centerPosition = yes
-			alwaysTransparent = yes
-		}
-		iconType = {
-			name = "header_line"
-			spriteType = "GFX_line_center"
-			position = { x = 0 y = -70 }
-			orientation = center
-			centerPosition = yes
+			origo = center
+			background = {
+				name = "background"
+				quadTextureSprite = "GFX_tile_center_bg"
+			}
+			iconType = {
+				name = "hex_bg_left"
+				spriteType = "GFX_hex_center_bg"
+				position = { x = -79 y = 22 }
+				orientation = center_up
+				centerPosition = yes
+				alwaysTransparent = yes
+			}
+			iconType = {
+				name = "hex_bg_right"
+				spriteType = "GFX_hex_center_bg"
+				position = { x = 79 y = 22 }
+				orientation = center_up
+				centerPosition = yes
+				alwaysTransparent = yes
+			}
+			iconType = {
+				name = "header_line"
+				spriteType = "GFX_line_center"
+				position = { x = 0 y = 42 }
+				orientation = center_up
+				centerPosition = yes
+				alwaysTransparent = yes
+			}
+			containerWindowType = {
+				name = "description_background"
+				size = { width = -30 height = 132 }
+				position = { x = 30 y = 56 }
+				background = {
+					name = "description_background"
+					quadTextureSprite = "GFX_tiles_dark_area_cut_8"
+				}
+			}
 		}
 		instantTextBoxType = {
 			name = "title"
 			font = "large_title_font"
-			text = ""
-			position = { x = -250 y = -110 }
+			text = "TITLE"
+			position = { x = -230 y = -120 }
 			orientation = center
-			maxWidth = 500
-			maxHeight = 20
+			maxWidth = 460
+			maxHeight = 35
+			fixedSize = yes
 			format = center
+			vertical_alignment = center
 		}
 		instantTextBoxType = {
 			name = "description"
-			font = "font_text_14"
-			text = ""
-			position = { x = -210 y = -50 }
+			font = "font_text_20"
+			text = "DESC"
+			position = { x = -200 y = -58 }
 			orientation = center
-			maxWidth = 420
-			maxHeight = 20
+			maxWidth = 400
+			maxHeight = 34
+			fixedSize = yes
 			format = center
+			vertical_alignment = center
 			text_color_code = "E"
 		}
 		instantTextBoxType = {
 			name = "info_rating"
 			font = "font_text_14"
 			text = "QUIT_INFO_RATING"
-			position = { x = -210 y = -32 }
+			position = { x = -210 y = -24 }
 			orientation = center
 			maxWidth = 420
 			maxHeight = 20
@@ -707,7 +787,7 @@ guiTypes = {
 			name = "thank_you_for_rating"
 			font = "font_text_14"
 			text = ""
-			position = { x = -210 y = -10 }
+			position = { x = -210 y = -8 }
 			orientation = center
 			maxWidth = 420
 			maxHeight = 20
@@ -718,7 +798,7 @@ guiTypes = {
 			name = "rating0"
 			quadTextureSprite = "GFX_icon_rating"
 			buttonFont = "font_header_20"
-			position = { x = -138 y = -12 }
+			position = { x = -138 y = 9 }
 			orientation = center
 			frame = 4
 			scale = 0.75
@@ -727,7 +807,7 @@ guiTypes = {
 			name = "rating1"
 			quadTextureSprite = "GFX_icon_rating"
 			buttonFont = "font_header_20"
-			position = { x = -62 y = -12 }
+			position = { x = -62 y = 9 }
 			orientation = center
 			frame = 3
 			scale = 0.75
@@ -736,7 +816,7 @@ guiTypes = {
 			name = "rating2"
 			quadTextureSprite = "GFX_icon_rating"
 			buttonFont = "font_header_20"
-			position = { x = 14 y = -12 }
+			position = { x = 14 y = 9 }
 			orientation = center
 			frame = 2
 			scale = 0.75
@@ -745,28 +825,32 @@ guiTypes = {
 			name = "rating3"
 			quadTextureSprite = "GFX_icon_rating"
 			buttonFont = "font_header_20"
-			position = { x = 90 y = -12 }
+			position = { x = 90 y = 9 }
 			orientation = center
 			frame = 1
 			scale = 0.75
 		}
 		buttonType = {
 			name = "DeclineButton"
-			quadTextureSprite = "GFX_standard_button_142_34_button"
-			buttonFont = "font_text_20"
-			buttonText = "CANCEL"
-			position = { x = -200 y = 30 }
+			quadTextureSprite = "GFX_standard_button_180_34_button"
+			position = { x = -230 y = 65 }
 			orientation = center
+			buttonFont = "font_text_18"
+			buttonText = "CANCEL"
+			borderSize = { x = 10 y = 0 }
+			multiline = yes
 			shortcut = "ESCAPE"
 			actionShortcut = "cancel"
 		}
 		buttonType = {
 			name = "AgreeButton"
-			quadTextureSprite = "GFX_standard_button_142_34_button"
-			buttonFont = "font_text_20"
-			buttonText = "QUIT_TITLE"
-			position = { x = 34 y = 30 }
+			quadTextureSprite = "GFX_standard_button_180_34_button"
+			position = { x = 26 y = 65 }
 			orientation = center
+			buttonFont = "font_text_18"
+			buttonText = "QUIT_TITLE"
+			borderSize = { x = 10 y = 0 }
+			multiline = yes
 			clicksound = "confirmation"
 			shortcut = "RETURN"
 			actionShortcut = "accept"
@@ -781,74 +865,95 @@ guiTypes = {
 			name = "background"
 			spriteType = "GFX_invisible"
 		}
-		buttonType = {
-			name = "background"
-			spriteType = "GFX_tile_center_bg"
+		containerWindowType = {
+			name = "fake_background"
+			size = { width = 480 height = 212 }
 			orientation = center
-			size = { x = 480 y = 212 }
-			position = { x = -240 y = -115 }
-		}
-		iconType = {
-			name = "hex_bg_left"
-			position = { x = -79 y = -89 }
-			spriteType = "GFX_hex_center_bg"
-			orientation = center
-			centerPosition = yes
-			alwaysTransparent = yes
-		}
-		iconType = {
-			name = "hex_bg_right"
-			position = { x = 79 y = -89 }
-			spriteType = "GFX_hex_center_bg"
-			orientation = center
-			centerPosition = yes
-			alwaysTransparent = yes
-		}
-		iconType = {
-			name = "header_line"
-			spriteType = "GFX_line_center"
-			position = { x = 0 y = -70 }
-			orientation = center
-			centerPosition = yes
+			origo = center
+			background = {
+				name = "background"
+				quadTextureSprite = "GFX_tile_center_bg"
+			}
+			iconType = {
+				name = "hex_bg_left"
+				spriteType = "GFX_hex_center_bg"
+				position = { x = -79 y = 22 }
+				orientation = center_up
+				centerPosition = yes
+				alwaysTransparent = yes
+			}
+			iconType = {
+				name = "hex_bg_right"
+				spriteType = "GFX_hex_center_bg"
+				position = { x = 79 y = 22 }
+				orientation = center_up
+				centerPosition = yes
+				alwaysTransparent = yes
+			}
+			iconType = {
+				name = "header_line"
+				spriteType = "GFX_line_center"
+				position = { x = 0 y = 42 }
+				orientation = center_up
+				centerPosition = yes
+				alwaysTransparent = yes
+			}
+			containerWindowType = {
+				name = "description_background"
+				size = { width = -30 height = 98 }
+				position = { x = 30 y = 56 }
+				background = {
+					name = "description_background"
+					quadTextureSprite = "GFX_tiles_dark_area_cut_8"
+				}
+			}
 		}
 		instantTextBoxType = {
 			name = "title"
 			font = "large_title_font"
-			text = ""
-			position = { x = -250 y = -110 }
+			text = "TITLE"
+			position = { x = -230 y = -103 }
 			orientation = center
-			maxWidth = 500
-			maxHeight = 20
+			maxWidth = 460
+			maxHeight = 35
+			fixedSize = yes
 			format = center
+			vertical_alignment = center
 		}
 		instantTextBoxType = {
 			name = "description"
-			font = "font_text_14"
-			text = ""
-			position = { x = -210 y = -50 }
+			font = "font_text_20"
+			text = "DESC"
+			position = { x = -200 y = -41 }
 			orientation = center
-			maxWidth = 420
-			maxHeight = 20
+			maxWidth = 400
+			maxHeight = 78
+			fixedSize = yes
 			format = center
+			vertical_alignment = center
 			text_color_code = "E"
 		}
 		buttonType = {
 			name = "DeclineButton"
-			quadTextureSprite = "GFX_standard_button_142_34_button"
-			buttonFont = "font_text_20"
-			buttonText = "CANCEL"
-			position = { x = -200 y = 30 }
+			quadTextureSprite = "GFX_standard_button_180_34_button"
+			position = { x = -230 y = 48 }
 			orientation = center
+			buttonFont = "font_text_18"
+			buttonText = "CANCEL"
+			borderSize = { x = 10 y = 0 }
+			multiline = yes
 			shortcut = "ESCAPE"
 			actionShortcut = "cancel"
 		}
 		buttonType = {
 			name = "AgreeButton"
-			quadTextureSprite = "GFX_standard_button_142_34_button"
-			buttonFont = "font_text_20"
-			buttonText = "MAIN_RESIGN"
-			position = { x = 34 y = 30 }
+			quadTextureSprite = "GFX_standard_button_180_34_button"
+			position = { x = 26 y = 48 }
 			orientation = center
+			buttonFont = "font_text_18"
+			buttonText = "MAIN_RESIGN"
+			borderSize = { x = 10 y = 0 }
+			multiline = yes
 			clicksound = "confirmation"
 			shortcut = "RETURN"
 			actionShortcut = "accept"
@@ -871,16 +976,16 @@ guiTypes = {
 		# title
 		iconType = {
 			name = "hex_bg_left"
-			position = { x = -79 y = 22 }
 			spriteType = "GFX_hex_center_bg"
+			position = { x = -79 y = 22 }
 			orientation = center_up
 			centerPosition = yes
 			alwaysTransparent = yes
 		}
 		iconType = {
 			name = "hex_bg_right"
-			position = { x = 79 y = 22 }
 			spriteType = "GFX_hex_center_bg"
+			position = { x = 79 y = 22 }
 			orientation = center_up
 			centerPosition = yes
 			alwaysTransparent = yes
@@ -896,17 +1001,17 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "title"
 			font = "font_header_20"
-			text = ""
+			text = "TITLE"
 			position = { x = -275 y = 9 }
 			orientation = center_up
 			maxWidth = 550
-			maxHeight = 20
+			maxHeight = 24
 			format = center
 		}
 		#instantTextBoxType = {
 		#	name = "description"
 		#	font = "font_text_14"
-		#	text = ""
+		#	text = "DESC"
 		#	position = { x = -210 y = 65 }
 		#	orientation = center_up
 		#	maxWidth = 420
@@ -943,8 +1048,8 @@ guiTypes = {
 			}
 			iconType = {
 				name = "portrait"
-				position = { x = -40 y = 0 }
 				spriteType = "GFX_portrait_character"
+				position = { x = -40 y = 0 }
 				orientation = center
 				centerPosition = yes
 				scale = 0.65
@@ -1051,16 +1156,16 @@ guiTypes = {
 		# title
 		iconType = {
 			name = "hex_bg_left"
-			position = { x = -79 y = 22 }
 			spriteType = "GFX_hex_center_bg"
+			position = { x = -79 y = 22 }
 			orientation = center_up
 			centerPosition = yes
 			alwaysTransparent = yes
 		}
 		iconType = {
 			name = "hex_bg_right"
-			position = { x = 79 y = 22 }
 			spriteType = "GFX_hex_center_bg"
+			position = { x = 79 y = 22 }
 			orientation = center_up
 			centerPosition = yes
 			alwaysTransparent = yes
@@ -1076,7 +1181,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "title"
 			font = "font_header_20"
-			text = ""
+			text = "TITLE"
 			position = { x = -250 y = 9 }
 			orientation = center_up
 			maxWidth = 500
@@ -1096,22 +1201,22 @@ guiTypes = {
 			name = "fleet_owner_name"
 			font = "font_text_14"
 			text = "UIUIUI"
-			format = center
+			position = { x = -250 y = 70 }
 			orientation = center_up
 			maxWidth = 500
 			maxHeight = 20
-			position = { x = -250 y = 70 }
+			format = center
 			alwaysTransparent = yes
 		}
 		instantTextBoxType = {
 			name = "fleet_name"
 			font = "font_text_14"
 			text = "UIUIUI"
-			format = center
+			position = { x = -250 y = 90 }
 			orientation = center_up
 			maxWidth = 500
 			maxHeight = 20
-			position = { x = -250 y = 90 }
+			format = center
 			alwaysTransparent = yes
 		}
 		@combat_stat_w = 64
@@ -1139,19 +1244,19 @@ guiTypes = {
 				iconType = {
 					name = "stat_icon"
 					spriteType = "GFX_combat_stat_damage_kinetic"
+					position = { x = 0 y = 24 }
 					orientation = center_up
 					centerPosition = yes
-					position = { x = 0 y = 24 }
 					alwaysTransparent = yes
 				}
 				instantTextBoxType = {
 					name = "stat_value"
 					font = "font_text_14"
 					text = "000"
-					format = center
+					position = { x = 0 y = 50 }
 					maxWidth = 64
 					maxHeight = 20
-					position = { x = 0 y = 50 }
+					format = center
 					alwaysTransparent = yes
 				}
 			}
@@ -1167,19 +1272,19 @@ guiTypes = {
 				iconType = {
 					name = "stat_icon"
 					spriteType = "GFX_combat_stat_damage_energy"
+					position = { x = 0 y = 24 }
 					orientation = center_up
 					centerPosition = yes
-					position = { x = 0 y = 24 }
 					alwaysTransparent = yes
 				}
 				instantTextBoxType = {
 					name = "stat_value"
 					font = "font_text_14"
 					text = "000"
-					format = center
+					position = { x = 0 y = 50 }
 					maxWidth = 64
 					maxHeight = 20
-					position = { x = 0 y = 50 }
+					format = center
 					alwaysTransparent = yes
 				}
 			}
@@ -1195,19 +1300,19 @@ guiTypes = {
 				iconType = {
 					name = "stat_icon"
 					spriteType = "GFX_combat_stat_damage_explosive"
+					position = { x = 0 y = 24 }
 					orientation = center_up
 					centerPosition = yes
-					position = { x = 0 y = 24 }
 					alwaysTransparent = yes
 				}
 				instantTextBoxType = {
 					name = "stat_value"
 					font = "font_text_14"
 					text = "000"
-					format = center
+					position = { x = 0 y = 50 }
 					maxWidth = 64
 					maxHeight = 20
-					position = { x = 0 y = 50 }
+					format = center
 					alwaysTransparent = yes
 				}
 			}
@@ -1223,19 +1328,19 @@ guiTypes = {
 				iconType = {
 					name = "stat_icon"
 					spriteType = "GFX_combat_stat_projectiles_hit"
+					position = { x = 0 y = 24 }
 					orientation = center_up
 					centerPosition = yes
-					position = { x = 0 y = 24 }
 					alwaysTransparent = yes
 				}
 				instantTextBoxType = {
 					name = "stat_value"
 					font = "font_text_14"
 					text = "000"
-					format = center
+					position = { x = 0 y = 50 }
 					maxWidth = 64
 					maxHeight = 20
-					position = { x = 0 y = 50 }
+					format = center
 					alwaysTransparent = yes
 				}
 			}
@@ -1252,19 +1357,19 @@ guiTypes = {
 				iconType = {
 					name = "stat_icon"
 					spriteType = "GFX_combat_stat_targetables_killed"
+					position = { x = 0 y = 24 }
 					orientation = center_up
 					centerPosition = yes
-					position = { x = 0 y = 24 }
 					alwaysTransparent = yes
 				}
 				instantTextBoxType = {
 					name = "stat_value"
 					font = "font_text_14"
 					text = "000"
-					format = center
+					position = { x = 0 y = 50 }
 					maxWidth = 64
 					maxHeight = 20
-					position = { x = 0 y = 50 }
+					format = center
 					alwaysTransparent = yes
 				}
 			}
@@ -1280,19 +1385,19 @@ guiTypes = {
 				iconType = {
 					name = "stat_icon"
 					spriteType = "GFX_combat_stat_damage_armor"
+					position = { x = 0 y = 24 }
 					orientation = center_up
 					centerPosition = yes
-					position = { x = 0 y = 24 }
 					alwaysTransparent = yes
 				}
 				instantTextBoxType = {
 					name = "stat_value"
 					font = "font_text_14"
 					text = "000"
-					format = center
+					position = { x = 0 y = 50 }
 					maxWidth = 64
 					maxHeight = 20
-					position = { x = 0 y = 50 }
+					format = center
 					alwaysTransparent = yes
 				}
 			}
@@ -1308,19 +1413,19 @@ guiTypes = {
 				iconType = {
 					name = "stat_icon"
 					spriteType = "GFX_combat_stat_damage_shields"
+					position = { x = 0 y = 24 }
 					orientation = center_up
 					centerPosition = yes
-					position = { x = 0 y = 24 }
 					alwaysTransparent = yes
 				}
 				instantTextBoxType = {
 					name = "stat_value"
 					font = "font_text_14"
 					text = "000"
-					format = center
+					position = { x = 0 y = 50 }
 					maxWidth = 64
 					maxHeight = 20
-					position = { x = 0 y = 50 }
+					format = center
 					alwaysTransparent = yes
 				}
 			}
@@ -1336,19 +1441,19 @@ guiTypes = {
 				iconType = {
 					name = "stat_icon"
 					spriteType = "GFX_combat_stat_projectiles_evaded"
+					position = { x = 0 y = 24 }
 					orientation = center_up
 					centerPosition = yes
-					position = { x = 0 y = 24 }
 					alwaysTransparent = yes
 				}
 				instantTextBoxType = {
 					name = "stat_value"
 					font = "font_text_14"
 					text = "000"
-					format = center
+					position = { x = 0 y = 50 }
 					maxWidth = 64
 					maxHeight = 20
-					position = { x = 0 y = 50 }
+					format = center
 					alwaysTransparent = yes
 				}
 			}
